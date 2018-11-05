@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html><head><title>TQ chart</title><meta charset="utf-8"></head>
+<body>
+<!-- script src="http://d3js.org/d3.v3.min.js"></script -->
+<script src="./d3.v3.min.js"></script>
+<script src="./barData.js"></script>
+<script>
+  var margin = {top: 10, right: 20, bottom: 20, left: 100},
+    width = Width - margin.left - margin.right,
+    height = Height - margin.top - margin.bottom;
+
+  var svg = d3.select("body").append("svg")
+    .attr("width", Width)
+    .attr("height", Height)
+    .attr("xmlns", "http://www.w3.org/2000/svg")
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+  var x = d3.scale.linear().range([0, width]).domain([Tmin, Tmax]);
+  var y = d3.scale.linear().range([height, 0]).domain([0, TQmax]);
+
+  svg.append("style")
+     .attr('type', 'text/css')
+     .text(" .axis path, .axis line { fill: none; stroke: #777; shape-rendering: crispEdges; } .axis text { font-family: 'Arial'; font-size: 13px; } .tick { stroke-dasharray: 1, 2; }")  
+
+  svg.selectAll('rect')
+    .data(barData)
+    .enter()
+    .append('rect')
+    .attr("class", "bar")
+    .attr('x', function (d) {return x(d[0]); })
+    .attr('y', function (d) {return y(d[2]); })
+    .attr('width', function (d) {return (x(d[1]) - x(d[0])); })
+    .attr('height', function (d) {return (height - y(d[2])); })
+    .attr('fill', Rfill);
+
+  svg.append("text")      
+    .style("fill", "black")  
+    .style("font", "14px sans-serif")
+    .attr("x", xLab)          
+    .attr("y", yLab)        
+    .text(Title);     
+
+  svg.append("g")
+    .attr("class", "x axis")
+    .attr("transform", "translate(0," + height + ")")
+    .call(d3.svg.axis()
+    .scale(x)
+    .orient("bottom"));
+
+  svg.append("g")
+    .attr("class", "y axis")
+    .call(d3.svg.axis()
+    .scale(y)
+    .orient("left"));
+</script>
+</body>
+</html>
