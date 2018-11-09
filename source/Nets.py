@@ -64,10 +64,11 @@ class Network(Search,Coloring):
             'links':['n1', 'n2', 'type']}                       
         self._nodes = {}
         self._links = {}
-    def __Str__(self): return "Graph:\nNodes: "+ \
+    def __str__(self): return "Graph:\nNodes: "+ \
         str(list(self.nodes()))+"\nLinks: "+ \
         str([("A" if self._links[e][2] else "E")+str(e)+ \
         str((self.initNode(e),self.termNode(e))) for e in self.links()])
+    __repr__ = __str__
     def __len__(self): return len(self._nodes)
     def nodes(self):
         for u in self._nodes.keys(): yield u
@@ -170,21 +171,39 @@ class Network(Search,Coloring):
     def delNode(self,u):
         for e in self.star(u): self.delLink(e)
         del(self._nodes[u])
+    def setLoops(self,key='tq',val=TQ.TQ.sN):
+        for e in self._links:
+            if self._links[e][0]==self._links[e][1]:
+                self._links[e][4][key] = val 
     def delLoops(self):
-        for u in self._nodes:
+        L = set([ e for e in self._links if self._links[e][0]==self._links[e][1] ])
+        for e in L:
+            u = self._links[e][0]
             ed, ia, oa, np = self._nodes[u]
-            le = ed.pop(u,None); li = ia.pop(u,None); lo = oa.pop(u,None)
-            self._nodes[u] = [ed, ia, oa, np]
+            try: del ed[u]
+            except KeyError: pass
+            try: del ia[u]
+            except KeyError: pass
+            try: del oa[u]
+            except KeyError: pass
+            self._nodes[u] = [ed, ia, oa, np] 
+        for e in L: del self._links[e]  
     def setInfo(self,key,val): self._info[key] = val
     def getInfo(self,key): return self._info[key]
     def setNode(self,u,key,val): self._nodes[u][3][key] = val
     def setNodes(self,key,val):
-        for u in self._nodes.keys(): self._nodes[u][3][key] = val
-    def getNode(self,u,key):
-        return self._nodes[u][3][key] if key in self._nodes[u][3] else None
+        for u in self._nodes: self._nodes[u][3][key] = val
+    def getNode(self,u,key,null=None):
+        return self._nodes[u][3].get(key,null)
+    def delProp(self,key):
+    	for u in self._nodes: 
+    	    if key in self._nodes[u][3]: del self._nodes[u][3][key]
     def setLink(self,e,key,val): self._links[e][4][key] = val
-    def getLink(self,e,key):
-        return self._links[e][4][key] if key in self._links[e][4] else None
+    def getLink(self,e,key,null=None):
+        return self._links[e][4].get(key,null)
+    def delWeight(self,key):
+    	for u in self._links: 
+    	    if key in self._links[u][4]: del self._links[u][4][key]
     def degree(self,u): return len(list(self.star(u)))
     def inDegree(self,u): return len(list(self.inStar(u)))
     def outDegree(self,u): return len(list(self.outNeighbors(u)))
@@ -314,10 +333,10 @@ class Network(Search,Coloring):
                        [ u, v, True, None, {key: 0} ]
                     C._links[r][4][key] += Apw*B._links[q][4][key]
         return C
-    def TQnormal(self,key='tq'):
+    def TQnormal(self,key='tq',act='act'):
         N = deepcopy(self)
         for u in N.nodesMode(1):
-            qu = TQ.TQ.invert(N.TQnetOutDeg(u),vZero=1)
+            qu = TQ.TQ.invert(N.TQnetOutDeg(u,act=act),vZero=1)
             for p in N.outStar(u):
                 N._links[p][4][key] = TQ.TQ.prod(qu,N._links[p][4][key])
         return N
@@ -399,6 +418,39 @@ class Network(Search,Coloring):
                                     C.addArc(v,u,lid=rr,w={key: []})
                                 C._links[rr][4][key] = C._links[r][4][key] 
         return C
+    def TQtwo2oneNorm(self,nType='normal',key='tq'):
+        nr,nc = self._info['dim']
+        C = Network(); C._info['mode'] = 1; C._info['nNodes'] = nc
+        C._info['temporal'] = True; C._info['simple'] = True
+        C._info['Network'] = self._info['Network']+'NORM-'+nType
+        C._info['title'] = nType+' NORM of '+self._info['title']
+        C._info['time'] = self._info['time']
+        if 'legends' in self._info: C._info['legends']['Tlabs'] = \
+            self._info['legends']['Tlabs']
+        C._info['meta'] = self._info['meta']
+        C._info['required'] = self._info['required']
+        C._info['multirel'] = self._info['multirel']
+        for v in range(nc):
+            C.addNode(v+1,1); C._nodes[v+1][3] = dict(self._nodes[nr+v+1][3])
+            C._nodes[v+1][3]['mode'] = 1
+        d = [ self.outDegree(v) for v in self.nodesMode(1) ] 
+        for t in self.nodesMode(1):
+            d1 = max(1,d[t-1])
+            d2 = d1 if nType=='normal' else max(1,d[t-1]-1)
+            for p in self.outStar(t):
+                u = self.twin(t,p)-nr; Apw = self._links[p][4][key]
+                for q in self.outStar(t):
+                    v = self.twin(t,q)-nr
+                    if u<=v:
+                        s = TQ.TQ.prod(Apw,self._links[q][4][key])
+                        if s==[]: continue
+                        s = TQ.TQ.prodConst(s,1/d1/d2)
+                        r = (u,v)
+                        if (u!=v): s = TQ.TQ.sum(s,s)
+                        if (u<v) or (nType=='normal'):
+                            if not r in C._links: C.addEdge(u,v,lid=r,w={key: []})
+                            C._links[r][4][key] = TQ.TQ.sum(C._links[r][4][key],s)
+        return C
     def TQmultiply(A,B,oneMode=False,keyA='tq',keyB='tq'):
         nar,nac = A._info['dim']; nbr,nbc = B._info['dim']
         if nac != nbr: raise Network.NetworkError(
@@ -442,33 +494,33 @@ class Network(Search,Coloring):
                 v = self.twin(u,p)
                 if v in Cols: s = TQ.TQ.sum(s,self.getLink(p,'tq'))
         return(s)
-    def TQnetDeg(self,u,key='tq'):
-        deg = TQ.TQ.setConst(self._nodes[u][3]['act'],0)
+    def TQnetDeg(self,u,key='tq',act='act'):
+        deg = TQ.TQ.setConst(self._nodes[u][3][act],0)
         for p in self.star(u):
             deg = TQ.TQ.sum(deg,TQ.TQ.binary(self._links[p][4][key]))
         return deg
-    def TQnetInDeg(self,u,key='tq'):
-        deg = TQ.TQ.setConst(self._nodes[u][3]['act'],0)
+    def TQnetInDeg(self,u,key='tq',act='act'):
+        deg = TQ.TQ.setConst(self._nodes[u][3][act],0)
         for p in self.inStar(u):
             deg = TQ.TQ.sum(deg,TQ.TQ.binary(self._links[p][4][key]))
         return deg
-    def TQnetOutDeg(self,u,key='tq'):
-        deg = TQ.TQ.setConst(self._nodes[u][3]['act'],0)
+    def TQnetOutDeg(self,u,key='tq',act='act'):
+        deg = TQ.TQ.setConst(self._nodes[u][3][act],0)
         for p in self.outStar(u):
             deg = TQ.TQ.sum(deg,TQ.TQ.binary(self._links[p][4][key]))
         return deg    
-    def TQnetSum(self,u,key='tq'):
-        s = TQ.TQ.setConst(self._nodes[u][3]['act'],0)
+    def TQnetSum(self,u,key='tq',act='act'):
+        s = TQ.TQ.setConst(self._nodes[u][3][act],0)
         for p in self.star(u):
             s = TQ.TQ.sum(s,self._links[p][4][key])
         return s
-    def TQnetInSum(self,u,key='tq'):
-        s = TQ.TQ.setConst(self._nodes[u][3]['act'],0)
+    def TQnetInSum(self,u,key='tq',act='act'):
+        s = TQ.TQ.setConst(self._nodes[u][3][act],0)
         for p in self.inStar(u):
             s = TQ.TQ.sum(s,self._links[p][4][key])
         return s
-    def TQnetOutSum(self,u,key='tq'):
-        s = TQ.TQ.setConst(self._nodes[u][3]['act'],0)
+    def TQnetOutSum(self,u,key='tq',act='act'):
+        s = TQ.TQ.setConst(self._nodes[u][3][act],0)
         for p in self.outStar(u):
             s = TQ.TQ.sum(s,self._links[p][4][key])
         return s    

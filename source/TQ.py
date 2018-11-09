@@ -183,6 +183,10 @@ class TQ(object):
       return [(sa,fa,-va) for (sa,fa,va) in a]
 
    @staticmethod
+   def prodConst(a,c):
+      return [ (sa,fa,va*c) for sa,fa,va in a ]
+
+   @staticmethod
    def cutGT(a,c):
       return [(sa,fa,va) for (sa,fa,va) in a if va > c]
 
