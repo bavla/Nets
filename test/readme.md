@@ -1,5 +1,7 @@
 # Test files
 
+## WAtest
+
 ![WA test network](https://raw.githubusercontent.com/bavla/Nets/master/test/WAtest.png "WAtest.net")
 
 ```
@@ -11,7 +13,17 @@ import sys, os, re, datetime, json
 sys.path = [gdir]+sys.path; os.chdir(wdir)
 from TQ import *
 from Nets import Network as N
+```
 
+### Creating temporal networks
+
+```
+
+```
+
+### Derived networks
+
+```
 tdir = "C:/Users/batagelj/work/Python/graph/JSON/test"
 net = tdir+"/WAtestInst.json"
 WAti = N.loadNetJSON(net)
