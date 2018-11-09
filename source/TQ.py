@@ -195,6 +195,12 @@ class TQ(object):
       return [(sa,fa,va) for (sa,fa,va) in a if va >= c]
 
    @staticmethod
+   def height(a):
+      s = -TQ.inf
+      for (sa,fa,va) in a: s = max(s,va)
+      return(s)
+
+   @staticmethod
    def total(a):
       s = 0
       for (sa,fa,va) in a: s = s + (fa-sa)*va
