@@ -25,7 +25,8 @@ net = tdir+"/CiteTest.net"
 clu = tdir+"/yearsTest.clu"
 # Net = N.loadPajek(net)
 # Net.loadPajekClu('year',clu)
-TN = N.oneMode2netJSON(clu,net,tdir+"/CiteTime.json",indent=2)
+TNi = N.oneMode2netJSON(clu,net,tdir+"/CiteTimeIns.json",indent=2)
+TNc = N.oneMode2netJSON(clu,net,tdir+"/CiteTimeCum.json",instant=False,indent=2)
 ```
 
 #### Two-mode temporal network
