@@ -54,5 +54,6 @@ CCt = WAti.TQtwo2oneNorm()
 N1 = WAti.TQnormal()
 N2 = N1.transpose()
 CCm = N.TQmultiply(N2,N1,oneMode=True)
+CCtt = WAt.TQtwo2oneNorm(nType="Newman")
 ```
 
