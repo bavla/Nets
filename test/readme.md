@@ -18,6 +18,18 @@ from Nets import Network as N
 
 ### Creating temporal networks
 
+#### Citation temporal network
+```
+tdir = "C:/Users/batagelj/work/Python/graph/JSON/test"
+net = tdir+"/CiteTest.net"
+clu = tdir+"/yearsTest.clu"
+# Net = N.loadPajek(net)
+# Net.loadPajekClu('year',clu)
+TN = N.oneMode2netJSON(clu,net,tdir+"/CiteTime.json",indent=2)
+```
+
+#### Two-mode temporal network
+
 ```
 net = tdir+"/WAtest.net"
 clu = tdir+"/yearsTest.clu"
@@ -26,8 +38,6 @@ WAtc = N.twoMode2netJSON(clu,net,'WAtCum.json',instant=False)
 t2 = datetime.datetime.now(); print("\nconverted to cumulative TN: ",t2.ctime(),"\ntime used: ", t2-t1)
 WAi = N.twoMode2netJSON(clu,net,'WAins.json',instant=True)
 t3 = datetime.datetime.now(); print("\nconverted to instantaneous TN: ",t3.ctime(),"\ntime used: ", t3-t2)
-
-
 ```
 
 ### Derived networks
