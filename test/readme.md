@@ -25,8 +25,11 @@ net = tdir+"/CiteTest.net"
 clu = tdir+"/yearsTest.clu"
 # Net = N.loadPajek(net)
 # Net.loadPajekClu('year',clu)
+t1 = datetime.datetime.now(); print("started: ",t1.ctime(),"\n")
 TNi = N.oneMode2netJSON(clu,net,tdir+"/CiteTimeIns.json",indent=2)
+t2 = datetime.datetime.now(); print("\nconverted to instantaneous TN: ",t2.ctime(),"\ntime used: ", t2-t1)
 TNc = N.oneMode2netJSON(clu,net,tdir+"/CiteTimeCum.json",instant=False,indent=2)
+t3 = datetime.datetime.now(); print("\nconverted to cumulative TN: ",t3.ctime(),"\ntime used: ", t3-t2)
 ```
 
 #### Two-mode temporal network
