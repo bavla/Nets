@@ -4,10 +4,16 @@
 # renamed version of Graph
 # Network analysis package
 # by Batagelj, V.: 12. September 2010
-# last change: 12. January 2014
-# last change: 29. August 2016
-# last change: 12. August 2017 - Graph renamed to Nets
-
+# change: 12. January 2014
+# change: 29. August 2016
+# change: 12. August 2017 - Graph renamed to Nets
+# last change; 9. November 2018 - delLoops, TQtwo2oneNorm
+# === To do =============================================================
+# Check loops in stars - apply set to union  !?
+# Remove intervals with value 0
+# Replace (u,v) in products with index
+# Remove n1 and n2 from link values
+# =======================================================================
 import re, sys, os, json, TQ, datetime, platform
 import turtle as t
 import webbrowser
@@ -755,6 +761,32 @@ class Network(Search,Coloring):
             if w == None: w = 1
             net.write(str(ind[u])+' '+str(ind[v])+' '+str(w)+'\n')
         net.close()
+    def oneMode2netJSON(yFile,netFile,jsonFile,instant=True,key='w',
+                        replace=True,indent=None):
+        def timer(): return datetime.datetime.now().ctime()
+        G = Network.loadPajek(netFile); F = Network()
+        for v in G.nodes(): F.addNode(v)
+        F.loadPajekClu('year',yFile)
+        minT = min(F.getNode(v,'year') for v in F.nodes())
+        maxT = max(F.getNode(v,'year') for v in F.nodes())
+        n = len(list(G.nodes()))
+        for v in G.nodes(): G.setNode(v,'act', [(F.getNode(v,'year'),maxT+1,1)])
+        for e in G.links():
+            u,v,*r = G._links[e]; t = F.getNode(u,'year')
+            G._links[e][4]['tq'] = [(t,t+1,G._links[e][4][key])] if instant \
+                else [(t,maxT+1,G._links[e][4][key])]
+            if replace: del G._links[e][4][key]
+        G.setInfo('title',"instant" if instant else "cumulative")
+        G.setInfo('temporal',True); G.setInfo('mode',1)  #; G.setInfo('dim',(nr,nc))
+        G.setInfo('meta',[{"date":timer(),"title":"oneMode2netJSON"}])
+        G.setInfo('time',(minT,maxT)); G.setInfo('temporal',True)         
+        G.setInfo('Tlabs',{str(y):str(y) for y in range(minT,maxT+1)});
+        G.setInfo('trace',[timer(),Network.location(),"Graph","twoMode2netJSON",
+            [yFile,netFile],['input','input']])
+        G.setInfo('required',{"nodes": ["id","mode","lab","act"],
+            "links": ["n1","n2","type","tq"]}) # for JSON
+        G.saveNetJSON(jsonFile,indent=indent)
+        return G       
     def twoMode2netJSON(yFile,netFile,jsonFile,instant=True,key='w',
                         replace=True,indent=None):
         def timer(): return datetime.datetime.now().ctime()
@@ -773,7 +805,7 @@ class Network(Search,Coloring):
             if replace: del G._links[e][4][key]
         G.setInfo('title',"instant" if instant else "cumulative")
         G.setInfo('temporal',True); G.setInfo('mode',2); G.setInfo('dim',(nr,nc))
-        G.setInfo('meta',[{"date":timer(),"title":"TwoMode2netJSON"}])
+        G.setInfo('meta',[{"date":timer(),"title":"twoMode2netJSON"}])
         G.setInfo('time',(minT,maxT)); G.setInfo('temporal',True)         
         G.setInfo('Tlabs',{str(y):str(y) for y in range(minT,maxT+1)});
         G.setInfo('trace',[timer(),Network.location(),"Graph","twoMode2netJSON",
