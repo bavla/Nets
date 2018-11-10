@@ -1,6 +1,6 @@
 # Test files
 
-## WAtest
+## WAtest and CiteTest
 
 ![WA test network](https://raw.githubusercontent.com/bavla/Nets/master/test/WAtest.png "WAtest.net")
 ![Cite test network](https://raw.githubusercontent.com/bavla/Nets/master/test/CiteTest.png "CiteTest.net")
