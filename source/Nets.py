@@ -253,6 +253,7 @@ class Network(Search,Coloring):
     def one2twoMode(self):
         T = Network(); n = len(self._nodes)
         T._info = copy(self._info); T._info['mode'] = 2
+        T._info['dim'] = (n,n)
         for v in self._nodes.keys():
             T.addNode(v); T.addNode(v+n)
             T._nodes[v][3] = dict(self._nodes[v][3])
@@ -260,10 +261,8 @@ class Network(Search,Coloring):
             T._nodes[v+n][3] = dict(self._nodes[v][3])
             T._nodes[v+n][3]['mode'] = 2
         for p in self._links.keys():
-            u,v,k = p; q = (u,v+n,k)
-            if k < 0: T.addArc(u,v+n,-k)
-            else: T.addEdge(u,v+n,k)
-            T._links[q] = dict(self._links[p])
+        	e = self._links[p]; e[1] = e[1]+n
+        	T._links[p] = e
         return T
     def two2oneEq(self,noDup=True):
         n1 = len(list(self.nodesMode(1)))
