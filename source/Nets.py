@@ -256,15 +256,16 @@ class Network(Search,Coloring):
         T._info['dim'] = (n,n)
         for v in self._nodes.keys():
             T.addNode(v); T.addNode(v+n)
-            T._nodes[v][3] = dict(self._nodes[v][3])
-            T._nodes[v][3]['mode'] = 1
-            T._nodes[v+n][3] = dict(self._nodes[v][3])
-            T._nodes[v+n][3]['mode'] = 2
+            T._nodes[v][3] = self._nodes[v][3]
+            T._nodes[v+n][3] = self._nodes[v][3]
+            T._nodes[v][3]['mode'] = 1; T._nodes[v+n][3]['mode'] = 2
         for p in self._links.keys():
-        	e = self._links[p]; e[1] = e[1]+n
-        	T._links[p] = e
+        	u,v,directed,r,w = self._links[p]
+        	if directed: T.addArc(u,v+n,w,r)
+        	else: T.addArc(u,v+n,w,r); T.addArc(v,u+n,w,r)
         return T
     def two2oneEq(self,noDup=True):
+# check - probably needs rewriting
         n1 = len(list(self.nodesMode(1)))
         n2 = len(list(self.nodesMode(2)))
         if n1 != n2: raise Network.NetworkError(
