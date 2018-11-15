@@ -67,7 +67,7 @@ class Network(Search,Coloring):
             'temporal':temporal,'Network':Network,'title':title,'meta':[],
             'legends':{}}
         self._info['required'] = {"nodes":['id','mode','lab'],
-            'links':['n1', 'n2', 'type']}                       
+            'links':['n1', 'n2', 'type']}
         self._nodes = {}
         self._links = {}
     def __str__(self): return "Graph:\nNodes: "+ \
@@ -121,13 +121,13 @@ class Network(Search,Coloring):
         linked = v in self._nodes[u][2]
         if not linked:
             if lid == None:
-                self._linkId += 1; lid = self._linkId            
+                self._linkId += 1; lid = self._linkId
             self._nodes[u][2][v] = [lid]
             self._nodes[v][1][u] = [lid]
             self._links[lid] = [u,v,True,rel,w]
         elif not self._info['simple']:
             if lid == None:
-                self._linkId += 1; lid = self._linkId            
+                self._linkId += 1; lid = self._linkId
             self._nodes[u][2][v].append(lid)
             self._nodes[v][1][u].append(lid)
             self._links[lid] = [u,v,True,rel,w]
@@ -180,7 +180,7 @@ class Network(Search,Coloring):
     def setLoops(self,key='tq',val=TQ.TQ.sN):
         for e in self._links:
             if self._links[e][0]==self._links[e][1]:
-                self._links[e][4][key] = val 
+                self._links[e][4][key] = val
     def delLoops(self):
         L = set([ e for e in self._links if self._links[e][0]==self._links[e][1] ])
         for e in L:
@@ -192,8 +192,8 @@ class Network(Search,Coloring):
             except KeyError: pass
             try: del oa[u]
             except KeyError: pass
-            self._nodes[u] = [ed, ia, oa, np] 
-        for e in L: del self._links[e]  
+            self._nodes[u] = [ed, ia, oa, np]
+        for e in L: del self._links[e]
     def setInfo(self,key,val): self._info[key] = val
     def getInfo(self,key): return self._info[key]
     def setNode(self,u,key,val): self._nodes[u][3][key] = val
@@ -202,13 +202,13 @@ class Network(Search,Coloring):
     def getNode(self,u,key,null=None):
         return self._nodes[u][3].get(key,null)
     def delProp(self,key):
-    	for u in self._nodes: 
+    	for u in self._nodes:
     	    if key in self._nodes[u][3]: del self._nodes[u][3][key]
     def setLink(self,e,key,val): self._links[e][4][key] = val
     def getLink(self,e,key,null=None):
         return self._links[e][4].get(key,null)
     def delWeight(self,key):
-    	for u in self._links: 
+    	for u in self._links:
     	    if key in self._links[u][4]: del self._links[u][4][key]
     def degree(self,u): return len(list(self.star(u)))
     def inDegree(self,u): return len(list(self.inStar(u)))
@@ -221,7 +221,7 @@ class Network(Search,Coloring):
             S._nodes[u] = [{},{},{},pr]
         for p in self._links:
             u,v,d,r,w = self._links[p]
-            if u<=v: lid=S.addEdge(u,v,w=w)       
+            if u<=v: lid=S.addEdge(u,v,w=w)
         return S
     def reverse(self):
         R = Network()
@@ -346,6 +346,33 @@ class Network(Search,Coloring):
             for p in N.outStar(u):
                 N._links[p][4][key] = TQ.TQ.prod(qu,N._links[p][4][key])
         return N
+    def TQnodeCut(self,cut,key='act'):
+        T = Network(); T._info = copy(self._info)
+        for v in self._nodes.keys():
+            tq = self._nodes[v][3][key]; tex = TQ.TQ.extract(cut,tq)
+            vt = TQ.TQ.prod(tex,TQ.TQ.setConst(TQ.TQ.cutGE(TQ.TQ.sum(tex,TQ.TQ.prodConst(cut,-1)),0),1))
+            if vt != []:
+                T.addNode(v); T._nodes[v][3] = self._nodes[v][3]
+                self._nodes[v][3][key] = vt
+        for p in self._links.keys():
+            u,v,directed,r,w = self._links[p]
+            if (u in T._nodes) and (v in T._nodes):
+                if directed: T.addArc(u,v,w,r)
+                else: T.addEdge(u,v,w,r)
+        return T
+    def TQlinkCut(self,cut,key='tq'):
+        T = Network(); T._info = copy(self._info)
+        for p in self._links.keys():
+            u,v,directed,r,w = self._links[p]
+            tq = w[key]; tex = TQ.TQ.extract(cut,tq)
+            vt = TQ.TQ.prod(tex,TQ.TQ.setConst(TQ.TQ.cutGE(TQ.TQ.sum(tex,TQ.TQ.prodConst(cut,-1)),0),1))
+            if vt != []:
+                if not(u in T._nodes): T.addNode(u)
+                if not(v in T._nodes): T.addNode(v)
+                w[key] = vt
+                if directed: T.addArc(u,v,w,r)
+                else: T.addEdge(u,v,w,r)
+        return T
     def TQtwo2oneRows(self,lType='edge',key='tq'):
         nr,nc = self._info['dim']
         C = Network(); C._info['mode'] = 1; C._info['nNodes'] = nr
@@ -383,7 +410,7 @@ class Network(Search,Coloring):
                                 rr = (v,u)
                                 if not rr in C._links:
                                     C.addArc(v,u,lid=rr,w={key: []})
-                                C._links[rr][4][key] = C._links[r][4][key] 
+                                C._links[rr][4][key] = C._links[r][4][key]
         return C
     def TQtwo2oneCols(self,lType='edge',key='tq'):
         nr,nc = self._info['dim']
@@ -422,7 +449,7 @@ class Network(Search,Coloring):
                                 rr = (v,u)
                                 if not rr in C._links:
                                     C.addArc(v,u,lid=rr,w={key: []})
-                                C._links[rr][4][key] = C._links[r][4][key] 
+                                C._links[rr][4][key] = C._links[r][4][key]
         return C
     def TQtwo2oneNorm(self,nType='normal',key='tq'):
         nr,nc = self._info['dim']
@@ -439,7 +466,7 @@ class Network(Search,Coloring):
         for v in range(nc):
             C.addNode(v+1,1); C._nodes[v+1][3] = dict(self._nodes[nr+v+1][3])
             C._nodes[v+1][3]['mode'] = 1
-        d = [ self.outDegree(v) for v in self.nodesMode(1) ] 
+        d = [ self.outDegree(v) for v in self.nodesMode(1) ]
         for t in self.nodesMode(1):
             d1 = max(1,d[t-1])
             d2 = d1 if nType=='normal' else max(1,d[t-1]-1)
@@ -474,7 +501,7 @@ class Network(Search,Coloring):
         C._info['required'] = A._info['required']
         C._info['multirel'] = A._info['multirel']
         C._info['mode'] = 1 if oneMode else 2
-        C._info['nNodes'] = nar if oneMode else nar+nbc 
+        C._info['nNodes'] = nar if oneMode else nar+nbc
         for v in range(nar):
             C.addNode(v+1,1); C._nodes[v+1][3] = dict(A._nodes[v+1][3])
         if not oneMode:
@@ -514,7 +541,7 @@ class Network(Search,Coloring):
         deg = TQ.TQ.setConst(self._nodes[u][3][act],0)
         for p in self.outStar(u):
             deg = TQ.TQ.sum(deg,TQ.TQ.binary(self._links[p][4][key]))
-        return deg    
+        return deg
     def TQnetSum(self,u,key='tq',act='act'):
         s = TQ.TQ.setConst(self._nodes[u][3][act],0)
         for p in self.star(u):
@@ -529,12 +556,12 @@ class Network(Search,Coloring):
         s = TQ.TQ.setConst(self._nodes[u][3][act],0)
         for p in self.outStar(u):
             s = TQ.TQ.sum(s,self._links[p][4][key])
-        return s    
+        return s
     def TQnetBin(self,key='tq'):
         B = deepcopy(self)
         for p in B._links:
             B._links[p][4][key] = TQ.TQ.binary(B._links[p][4][key])
-        return B  
+        return B
     def TQgraph2mat(self):
         onemode = self._info['mode'] == 1
         if onemode:
@@ -550,7 +577,7 @@ class Network(Search,Coloring):
             if onemode and not self._links[p][2]: B[v][u] = B[u][v]
         return B
     def Index(self): return { v[3]['lab']: k for k,v in self._nodes.items() }
-    def TQgetLinkValue(self,i,lu,lv): return self._links[(i[lu],i[lv])][4]['tq']          
+    def TQgetLinkValue(self,i,lu,lv): return self._links[(i[lu],i[lv])][4]['tq']
     def loadPajek(file):
         try: net = open(file,'r')
         except: raise Network.NetworkError(
@@ -640,7 +667,7 @@ class Network(Search,Coloring):
         G._info['simple'] = simple
         G._info['mode'] = mode
         if mode==2:
-            G._info['dim'] = ( nr, nc )       
+            G._info['dim'] = ( nr, nc )
         G._info['temporal'] = temporal
         if len(rels)>0:
             G._info['multirel'] = True
@@ -661,15 +688,15 @@ class Network(Search,Coloring):
         if mode==2:
             nr, nc = G._info['dim'] = net['info'].get('dim',[0,0])
             if nr==0: raise Network.NetworkError("Missing mode1 size")
-        G._info['title'] = net['info'].get('title',"INPUT Network")        
-        G._info['Network'] = net['info'].get('Network',"Network")        
+        G._info['title'] = net['info'].get('title',"INPUT Network")
+        G._info['Network'] = net['info'].get('Network',"Network")
         G._info['simple'] = net['info'].get('simple',False)
         G._info['meta'] = net['info'].get('meta',[])
         G._info['multirel'] = net['info'].get('multirel',False)
-        G._info['directed'] = net['info'].get('directed',False)        
+        G._info['directed'] = net['info'].get('directed',False)
         G._info['legends'] = net['info'].get('legends',{})
-        G._info['required'] = net['info'].get('required',{"nodes":[],"links":[]})        
-        G._info['trace'] = net['info'].get('trace',["loadNetJson"])        
+        G._info['required'] = net['info'].get('required',{"nodes":[],"links":[]})
+        G._info['trace'] = net['info'].get('trace',["loadNetJson"])
         temporal = net['info'].get('temporal',False)
         G._info['temporal'] = temporal
         if temporal:
@@ -687,12 +714,12 @@ class Network(Search,Coloring):
             u = L.pop('n1',None); v = L.pop('n2',None)
             r = L.pop('id',None); t = L.pop('type','edge')
             if t=='arc': l = G.addArc(u,v,w=L,rel=r,lid=lid)
-            else: l = G.addEdge(u,v,w=L,rel=r,lid=lid)            
+            else: l = G.addEdge(u,v,w=L,rel=r,lid=lid)
         return G
     def saveNetJSON(self,file=None,indent=None):
         n = len(self._nodes)
         info = {}; nodes = {}; links = {};
-        info['simple'] = self._info.get('simple',False) 
+        info['simple'] = self._info.get('simple',False)
         info['directed'] = len(list(self.edges()))==0
         temporal = self._info.get('temporal',False)
         info['temporal'] = temporal
@@ -704,7 +731,7 @@ class Network(Search,Coloring):
         info['Network'] = self._info.get('Network',"test")
         info['title'] = self._info.get('title',"testSAVE")
         info['multirel'] = self._info.get('multirel',False)
-        info['meta'] =  self._info.get('meta',[]) 
+        info['meta'] =  self._info.get('meta',[])
         info['meta'].append({"date": datetime.datetime.now().ctime(),\
              "title": "saved from Graph to netJSON" })
         info['trace'] = self._info.get('trace',[])
@@ -718,15 +745,15 @@ class Network(Search,Coloring):
             info['time'] = { "Tmin": minT, "Tmax": maxT, "Tlabs": Tlabs }
         nodes = []
         for node in self._nodes:
-            Node = self._nodes[node][3]; Node['id'] = node 
+            Node = self._nodes[node][3]; Node['id'] = node
             nodes.append(Node)
         links = []
         for link in self._links:
-            u,v,d,r,w = self._links[link]; Link = w 
+            u,v,d,r,w = self._links[link]; Link = w
             Link["type"] = "arc" if d else "edge"
             Link["n1"] = u; Link["n2"] = v
             if r!=None: Link["rel"] = r
-            links.append(Link)      
+            links.append(Link)
         info['nArcs'] = len(list(self.arcs()))
         info['nEdges'] = len(list(self.edges()))
         if file==None: file = info['Network']+'.json'
@@ -779,14 +806,14 @@ class Network(Search,Coloring):
         G.setInfo('title',"instant" if instant else "cumulative")
         G.setInfo('temporal',True); G.setInfo('mode',1)  #; G.setInfo('dim',(nr,nc))
         G.setInfo('meta',[{"date":timer(),"title":"oneMode2netJSON"}])
-        G.setInfo('time',(minT,maxT)); G.setInfo('temporal',True)         
+        G.setInfo('time',(minT,maxT)); G.setInfo('temporal',True)
         G.setInfo('Tlabs',{str(y):str(y) for y in range(minT,maxT+1)});
         G.setInfo('trace',[timer(),Network.location(),"Graph","twoMode2netJSON",
             [yFile,netFile],['input','input']])
         G.setInfo('required',{"nodes": ["id","mode","lab","act"],
             "links": ["n1","n2","type","tq"]}) # for JSON
         G.saveNetJSON(jsonFile,indent=indent)
-        return G       
+        return G
     def twoMode2netJSON(yFile,netFile,jsonFile,instant=True,key='w',
                         replace=True,indent=None):
         def timer(): return datetime.datetime.now().ctime()
@@ -806,14 +833,14 @@ class Network(Search,Coloring):
         G.setInfo('title',"instant" if instant else "cumulative")
         G.setInfo('temporal',True); G.setInfo('mode',2); G.setInfo('dim',(nr,nc))
         G.setInfo('meta',[{"date":timer(),"title":"twoMode2netJSON"}])
-        G.setInfo('time',(minT,maxT)); G.setInfo('temporal',True)         
+        G.setInfo('time',(minT,maxT)); G.setInfo('temporal',True)
         G.setInfo('Tlabs',{str(y):str(y) for y in range(minT,maxT+1)});
         G.setInfo('trace',[timer(),Network.location(),"Graph","twoMode2netJSON",
             [yFile,netFile],['input','input']])
         G.setInfo('required',{"nodes": ["id","mode","lab","act"],
             "links": ["n1","n2","type","tq"]}) # for JSON
         G.saveNetJSON(jsonFile,indent=indent)
-        return G       
+        return G
     def loadPajekClu(self,key,file):
         try:
             clu = open(file,'r')
@@ -894,7 +921,7 @@ class Network(Search,Coloring):
         js.write('var Rfill = "'+fill+'";\n')
         js.write('var xLab = "'+str(xLab)+'";\n')
         js.write('var yLab = "'+str(yLab)+'";\n')
-        js.close()  
+        js.close()
     # https://pymotw.com/3/webbrowser/
     # import webbrowser
     # b = webbrowser.get('google-chrome')

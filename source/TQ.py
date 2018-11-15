@@ -1,5 +1,6 @@
 '''
 Created on October 29, 2015 / March 30, 2015 / August 15, 2014 / March 10, 2014
+Updated on November 11, 2018
 
 @author: Vladimir Batagelj, Selena Praprotnik
 '''
@@ -138,19 +139,16 @@ class TQ(object):
 
    @staticmethod
    def TqMax(a):
-      s = -TQ.inf
-      for (sa,fa,va) in a: s = max(s,va)
-      return(s)
+      s = [ va for (sa,fa,va) in a ]
+      return -TQ.inf if s == [] else max(s)
 
    @staticmethod
    def binary(a):
-      b = [ (sa,fa,1) for sa,fa,va in a if va > 0 ]
-      return(TQ.standard(b))
+      return TQ.standard([ (sa,fa,1) for sa,fa,va in a if va > 0 ])
 
    @staticmethod
    def setConst(a,c):
-      b = [ (sa,fa,c) for sa,fa,va in a ]
-      return(TQ.standard(b))
+      return TQ.standard([ (sa,fa,c) for sa,fa,va in a ])
 
    @staticmethod
    def fillGaps(a,s,f,const=inf):
@@ -172,11 +170,7 @@ class TQ(object):
 
    @staticmethod
    def invert(a,vZero=0):
-      c = []
-      for (sa,fa,va) in a:
-         if va!=0: c.append((sa,fa,1/va))
-         else: c.append((sa,fa,vZero))
-      return(c)
+      return [ (sa,fa,1/va) if va!=0 else (sa,fa,vZero) for (sa,fa,va) in a ]
 
    @staticmethod
    def minus(a):
@@ -202,9 +196,7 @@ class TQ(object):
 
    @staticmethod
    def total(a):
-      s = 0
-      for (sa,fa,va) in a: s = s + (fa-sa)*va
-      return(s)
+      return 0 if a == [] else sum([(fa-sa)*va for (sa,fa,va) in a])
 
    @staticmethod
    def sum(a,b):
@@ -1070,6 +1062,4 @@ class TQ(object):
             C[v][u] = C[u][v]
       old()
       return(C)
-
-
 
