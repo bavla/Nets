@@ -24,11 +24,6 @@ Python package for network analysis
 >>> I['BORNMANN_L']
 4654
 >>> b = I['BORNMANN_L']
->>> CO._nodes[b]
-Traceback (most recent call last):
-  File "<pyshell#82>", line 1, in <module>
-    CO._nodes[b]
-NameError: name 'CO' is not defined
 >>> Co._nodes[b]
 [{4654: [(4654, 4654)], 7563: [(4654, 7563)], 21863: [(4654, 21863)], 6203: [(4654, 6203)], 
  21864: [(4654, 21864)], 29435: [(4654, 29435)], 16968: [(4654, 16968)], 23661: [(4654, 23661)],
