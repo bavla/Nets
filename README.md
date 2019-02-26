@@ -7,18 +7,18 @@ is not specified by a user it is determined by Nets.
 The library Nets is based on an object containing three dictionaries:
 
   - `_graph` - keys are general properties of a network. System
-properties: network, title, simple, directed, multirel,
-mode, temporal, meta, nNodes, nArcs, nEdges, time, etc.
-User properties: nWeak, planar, etc.
+properties: `network`, `title`, `simple`, `directed`, `multirel`,
+`mode`, `temporal`, `meta`, `nNodes`, `nArcs`, `nEdges`, `time`, etc.
+User properties: `nWeak`, `planar`, etc.
 
-  - _nodes - keys are ids of nodes. A value is a list of four
+  - `_nodes` - keys are ids of nodes. A value is a list of four
 dictionaries:
-[ edgeStar, inArcStar, outArcStar, nodeProperties ]
+`[ edgeStar, inArcStar, outArcStar, nodeProperties ]`
 Each star is again a dictionary that has for keys ids of
 neighboring nodes and for values lists of link ids.
 
-  - _links - keys are ids of links. A value is a list
-[ nodeId1, nodeId2, directed, relId, linkProperties ]
+  - `_links` - keys are ids of links. A value is a list
+`[ nodeId1, nodeId2, directed, relId, linkProperties ]`
 where linkProperties is a dictionary of weights.
 ## Structure of Network
 
