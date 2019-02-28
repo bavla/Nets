@@ -373,6 +373,23 @@ class Network(Search,Coloring):
                 if directed: T.addArc(u,v,w,r)
                 else: T.addEdge(u,v,w,r)
         return T
+    def TQtopLoops(self,key='tq',thresh=0):
+        def takeThird(elem): return elem[2]
+        JJ = list(self.nodes())
+        JJL = [[j,self._nodes[j][3]['lab'],self._links[(j,j)][4].get(key,[])
+                if (j,j) in self._links.keys() else [] ] for j in JJ]
+        L = [[a,b,TQ.TQ.total(c),c] for a,b,c in JJL if TQ.TQ.total(c) >= thresh]
+        L.sort(key=takeThird,reverse=True)
+        return(L)
+    def TQtopLinks(self,key='tq',thresh=0):
+        def takeFifth(elem): return elem[4]
+        JJ = list(self.links())
+        JJE = [[u,v,self._nodes[u][3]['lab'],self._nodes[v][3]['lab'],
+                self._links[(u,v)][4].get(key,[])] for u,v in JJ]
+        T = [[u,v,ul,vl,TQ.TQ.total(c),c] for u,v,ul,vl,c in JJE
+              if TQ.TQ.total(c) >= thresh]
+        T.sort(key=takeFifth,reverse=True)
+        return(T)
     def TQtwo2oneRows(self,lType='edge',key='tq'):
         nr,nc = self._info['dim']
         C = Network(); C._info['mode'] = 1; C._info['nNodes'] = nr
@@ -452,6 +469,7 @@ class Network(Search,Coloring):
                                 C._links[rr][4][key] = C._links[r][4][key]
         return C
     def TQtwo2oneNorm(self,nType='normal',key='tq'):
+    # nType in { 'normal', 'Newman' }
         nr,nc = self._info['dim']
         C = Network(); C._info['mode'] = 1; C._info['nNodes'] = nc
         C._info['temporal'] = True; C._info['simple'] = True
@@ -584,6 +602,7 @@ class Network(Search,Coloring):
             "Problems with Pajek file {0}".format(file))
         G = Network(); mode = 1; status = 0; meta = ''; rels = {}
         simple = False; temporal = False; multirel = False
+        Tmax = 0; Tmin = 999999999
         while True:
             line = net.readline()
             if not line: break
@@ -635,7 +654,10 @@ class Network(Search,Coloring):
                     G.setNode(node,'x',eval(L[2]))
                     G.setNode(node,'y',eval(L[3]))
                 if '[' in line:
-                    temporal = True; G.setNode(node,'act',Network.extractTQ(line))
+                    temporal = True; tq = Network.extractTQ(line)
+                    G.setNode(node,'act',tq); tu = tq[-1][1]
+                    Tmin = min(Tmin,tq[0][0])
+                    Tmax = tq[-1][0] if tu >= 999999999 else max(Tmax,tu)
             elif status == 2:
                 i = line.find(':')
                 if i > 0:
@@ -669,6 +691,11 @@ class Network(Search,Coloring):
         if mode==2:
             G._info['dim'] = ( nr, nc )
         G._info['temporal'] = temporal
+        if temporal:
+            if Tmax < Tmin: Tmin = 0; Tmax = 999999999
+            G._info['time'] = {"Tmin": Tmin, "Tmax": Tmax}
+            if maxT+1 < 999999999:
+                G._info['legends']['Tlabs'] = {str(y):str(y) for y in range(minT,maxT+1)}
         if len(rels)>0:
             G._info['multirel'] = True
             G._info['legends'] = {}
@@ -676,7 +703,7 @@ class Network(Search,Coloring):
         if len(meta)>0:
             G._info['meta'] = meta
         return G
-    def loadNetJSON(file, encoding='utf-8'):
+    def loadnetsJSON(file, encoding='utf-8'):
         try: js = open(file,'r',encoding=encoding)
         except: raise Network.NetworkError(
             "Problems with Pajek file {0}".format(file))
@@ -696,7 +723,7 @@ class Network(Search,Coloring):
         G._info['directed'] = net['info'].get('directed',False)
         G._info['legends'] = net['info'].get('legends',{})
         G._info['required'] = net['info'].get('required',{"nodes":[],"links":[]})
-        G._info['trace'] = net['info'].get('trace',["loadNetJson"])
+        G._info['trace'] = net['info'].get('trace',["loadnetsJSON"])
         temporal = net['info'].get('temporal',False)
         G._info['temporal'] = temporal
         if temporal:
@@ -716,7 +743,7 @@ class Network(Search,Coloring):
             if t=='arc': l = G.addArc(u,v,w=L,rel=r,lid=lid)
             else: l = G.addEdge(u,v,w=L,rel=r,lid=lid)
         return G
-    def saveNetJSON(self,file=None,indent=None):
+    def savenetsJSON(self,file=None,indent=None):
         n = len(self._nodes)
         info = {}; nodes = {}; links = {};
         info['simple'] = self._info.get('simple',False)
@@ -733,7 +760,7 @@ class Network(Search,Coloring):
         info['multirel'] = self._info.get('multirel',False)
         info['meta'] =  self._info.get('meta',[])
         info['meta'].append({"date": datetime.datetime.now().ctime(),\
-             "title": "saved from Graph to netJSON" })
+             "title": "saved from Graph to netsJSON" })
         info['trace'] = self._info.get('trace',[])
         info['required'] = self._info.get('required',{})
         info['nNodes'] = n
@@ -757,7 +784,7 @@ class Network(Search,Coloring):
         info['nArcs'] = len(list(self.arcs()))
         info['nEdges'] = len(list(self.edges()))
         if file==None: file = info['Network']+'.json'
-        net = {"netJSON": "basic", "info": info, "nodes": nodes, "links": links}
+        net = {"netsJSON": "basic", "info": info, "nodes": nodes, "links": links}
         js = open(file,'w')
         json.dump(net, js, ensure_ascii=False, indent=indent)
         js.close()
@@ -788,7 +815,7 @@ class Network(Search,Coloring):
             if w == None: w = 1
             net.write(str(ind[u])+' '+str(ind[v])+' '+str(w)+'\n')
         net.close()
-    def oneMode2netJSON(yFile,netFile,jsonFile,instant=True,key='w',
+    def oneMode2netsJSON(yFile,netFile,jsonFile,instant=True,key='w',
                         replace=True,indent=None):
         def timer(): return datetime.datetime.now().ctime()
         G = Network.loadPajek(netFile); F = Network()
@@ -805,16 +832,17 @@ class Network(Search,Coloring):
             if replace: del G._links[e][4][key]
         G.setInfo('title',"instant" if instant else "cumulative")
         G.setInfo('temporal',True); G.setInfo('mode',1)  #; G.setInfo('dim',(nr,nc))
-        G.setInfo('meta',[{"date":timer(),"title":"oneMode2netJSON"}])
+        G.setInfo('meta',[{"date":timer(),"title":"oneMode2netsJSON"}])
         G.setInfo('time',(minT,maxT)); G.setInfo('temporal',True)
-        G.setInfo('Tlabs',{str(y):str(y) for y in range(minT,maxT+1)});
-        G.setInfo('trace',[timer(),Network.location(),"Graph","twoMode2netJSON",
+        G._info['legends']['Tlabs'] = {str(y):str(y) for y in range(minT,maxT+1)}
+#        G.setInfo('Tlabs',{str(y):str(y) for y in range(minT,maxT+1)});
+        G.setInfo('trace',[timer(),Network.location(),"Graph","twoMode2netsJSON",
             [yFile,netFile],['input','input']])
         G.setInfo('required',{"nodes": ["id","mode","lab","act"],
             "links": ["n1","n2","type","tq"]}) # for JSON
-        G.saveNetJSON(jsonFile,indent=indent)
+        G.savenetsJSON(jsonFile,indent=indent)
         return G
-    def twoMode2netJSON(yFile,netFile,jsonFile,instant=True,key='w',
+    def twoMode2netsJSON(yFile,netFile,jsonFile,instant=True,key='w',
                         replace=True,indent=None):
         def timer(): return datetime.datetime.now().ctime()
         G = Network.loadPajek(netFile); F = Network()
@@ -832,14 +860,15 @@ class Network(Search,Coloring):
             if replace: del G._links[e][4][key]
         G.setInfo('title',"instant" if instant else "cumulative")
         G.setInfo('temporal',True); G.setInfo('mode',2); G.setInfo('dim',(nr,nc))
-        G.setInfo('meta',[{"date":timer(),"title":"twoMode2netJSON"}])
+        G.setInfo('meta',[{"date":timer(),"title":"twoMode2netsJSON"}])
         G.setInfo('time',(minT,maxT)); G.setInfo('temporal',True)
-        G.setInfo('Tlabs',{str(y):str(y) for y in range(minT,maxT+1)});
-        G.setInfo('trace',[timer(),Network.location(),"Graph","twoMode2netJSON",
+        G._info['legends']['Tlabs'] = {str(y):str(y) for y in range(minT,maxT+1)}
+#        G.setInfo('Tlabs',{str(y):str(y) for y in range(minT,maxT+1)});
+        G.setInfo('trace',[timer(),Network.location(),"Graph","twoMode2netsJSON",
             [yFile,netFile],['input','input']])
         G.setInfo('required',{"nodes": ["id","mode","lab","act"],
             "links": ["n1","n2","type","tq"]}) # for JSON
-        G.saveNetJSON(jsonFile,indent=indent)
+        G.savenetsJSON(jsonFile,indent=indent)
         return G
     def loadPajekClu(self,key,file):
         try:
