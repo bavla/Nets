@@ -703,7 +703,7 @@ class Network(Search,Coloring):
         if len(meta)>0:
             G._info['meta'] = meta
         return G
-    def loadnetsJSON(file, encoding='utf-8'):
+    def loadNetsJSON(file, encoding='utf-8'):
         try: js = open(file,'r',encoding=encoding)
         except: raise Network.NetworkError(
             "Problems with Pajek file {0}".format(file))
@@ -723,7 +723,7 @@ class Network(Search,Coloring):
         G._info['directed'] = net['info'].get('directed',False)
         G._info['legends'] = net['info'].get('legends',{})
         G._info['required'] = net['info'].get('required',{"nodes":[],"links":[]})
-        G._info['trace'] = net['info'].get('trace',["loadnetsJSON"])
+        G._info['trace'] = net['info'].get('trace',["loadNetsJSON"])
         temporal = net['info'].get('temporal',False)
         G._info['temporal'] = temporal
         if temporal:
@@ -743,7 +743,7 @@ class Network(Search,Coloring):
             if t=='arc': l = G.addArc(u,v,w=L,rel=r,lid=lid)
             else: l = G.addEdge(u,v,w=L,rel=r,lid=lid)
         return G
-    def savenetsJSON(self,file=None,indent=None):
+    def saveNetsJSON(self,file=None,indent=None):
         n = len(self._nodes)
         info = {}; nodes = {}; links = {};
         info['simple'] = self._info.get('simple',False)
@@ -840,7 +840,7 @@ class Network(Search,Coloring):
             [yFile,netFile],['input','input']])
         G.setInfo('required',{"nodes": ["id","mode","lab","act"],
             "links": ["n1","n2","type","tq"]}) # for JSON
-        G.savenetsJSON(jsonFile,indent=indent)
+        G.saveNetsJSON(jsonFile,indent=indent)
         return G
     def twoMode2netsJSON(yFile,netFile,jsonFile,instant=True,key='w',
                         replace=True,indent=None):
@@ -868,7 +868,7 @@ class Network(Search,Coloring):
             [yFile,netFile],['input','input']])
         G.setInfo('required',{"nodes": ["id","mode","lab","act"],
             "links": ["n1","n2","type","tq"]}) # for JSON
-        G.savenetsJSON(jsonFile,indent=indent)
+        G.saveNetsJSON(jsonFile,indent=indent)
         return G
     def loadPajekClu(self,key,file):
         try:
