@@ -7,7 +7,8 @@
 # change: 12. January 2014
 # change: 29. August 2016
 # change: 12. August 2017 - Graph renamed to Nets
-# last change; 9. November 2018 - delLoops, TQtwo2oneNorm
+# change: 9. November 2018 - delLoops, TQtwo2oneNorm
+# last change: 14. April 2019 - some problems in loadPajek - see code
 # === To do =============================================================
 # Check loops in stars - apply set to union  !?
 # Remove intervals with value 0
@@ -118,7 +119,10 @@ class Network(Search,Coloring):
             "Link {0} already defined".format((u,v)))
         return lid
     def addArc(self,u,v,w={},rel=None,lid=None):
-        linked = v in self._nodes[u][2]
+        try: linked = v in self._nodes[u][2]
+        except: raise Network.NetworkError(    # *****
+            "Problems in arc {} {} {}".format(u,v,w))
+        # linked = v in self._nodes[u][2]
         if not linked:
             if lid == None:
                 self._linkId += 1; lid = self._linkId
@@ -597,12 +601,15 @@ class Network(Search,Coloring):
     def Index(self): return { v[3]['lab']: k for k,v in self._nodes.items() }
     def TQgetLinkValue(self,i,lu,lv): return self._links[(i[lu],i[lv])][4]['tq']
     def loadPajek(file):
+# problems with names containing [ or ]
+# in case of problem with an UTF-8 file add a comment as the first line
+# see: https://github.com/bavla/SocNet/wiki/NumAuthors
         try: net = open(file,'r')
         except: raise Network.NetworkError(
             "Problems with Pajek file {0}".format(file))
         G = Network(); mode = 1; status = 0; meta = ''; rels = {}
         simple = False; temporal = False; multirel = False
-        Tmax = 0; Tmin = 999999999
+        Tmax = 0; Tmin = 999999999; rn = -1
         while True:
             line = net.readline()
             if not line: break
@@ -623,7 +630,10 @@ class Network(Search,Coloring):
                        nr = num1; nc = num - num1
                     else:
                        for v in range(num): G.addNode(v+1)
-                    status = 1; continue
+                    status = 1;
+                    print("NODES:  n =",num," mode =",mode)
+                    if twoMode: print(nr,'+',nc)
+                    continue
                 elif control=='*arcs':
                     status = 2
                     i = line.find(':')
@@ -631,6 +641,7 @@ class Network(Search,Coloring):
                         S = line[i+1:].split(' ',1)
                         rel = eval(S[0]); rlab = eval(S[1])
                         rels[rel] = rlab; multirel = True
+                    print('ARCS:  multirel =',multirel)
                     continue
                 elif control=='*edges':
                     status = 3
@@ -639,6 +650,7 @@ class Network(Search,Coloring):
                         S = line[i+1:].split(' ',1)
                         rel = eval(S[0]); rlab = eval(S[1])
                         rels[rel] = rlab; multirel = True
+                    print('EDGES:  multirel =',multirel)
                     continue
                 else: continue
             elif status == 1:
@@ -662,6 +674,7 @@ class Network(Search,Coloring):
                 i = line.find(':')
                 if i > 0:
                     multirel = True; rn = rel if i < 0 else eval(line[:i])
+                    print(i, rn, line)
                 L = re.split('\s+',line[i+1:].strip())
                 u = eval(L[0]); v = eval(L[1])
                 if len(L)>2:
@@ -669,12 +682,13 @@ class Network(Search,Coloring):
                     if '[' in line:
                         temporal = True; w = {'tq': Network.extractTQ(line)}
                 else: w = {'w': 1}
-                if multirel: G.addArc(u,v,w=w,rel=rn)
+                if multirel: G.addArc(u,v,w=w,rel=rn)  # *****
                 else: G.addArc(u,v,w=w)
             elif status == 3:
                 i = line.find(':')
                 if i > 0:
                     multirel = True; rn = rel if i < 0 else eval(line[:i])
+                    print(i, rn, line)
                 L = re.split('\s+',line[i+1:].strip())
                 u = eval(L[0]); v = eval(L[1])
                 if len(L)>2:
