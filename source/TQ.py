@@ -1,6 +1,7 @@
 '''
 Created on October 29, 2015 / March 30, 2015 / August 15, 2014 / March 10, 2014
 Updated on November 11, 2018
+Apr 29 2019: added changeTime
 
 @author: Vladimir Batagelj, Selena Praprotnik
 '''
@@ -158,6 +159,21 @@ class TQ(object):
          c.append((sa,fa,va)); fo = fa
       if fo<f: c.append((fo,f,const))
       return(c)
+
+   @staticmethod
+   def changeTime(a,p):
+      i = 0; t = p[i]; v = 0; b = []; cut = False
+      for sc,fc,vc in a:
+         while t <= sc:
+            if v > 0: 
+               if not cut: b.append((i,i+1,v)); v = 0
+            i = i+1; t = p[i]
+         if t < fc:
+            v = v + (t-sc)*vc; b.append((i,i+1,v))
+            v = (fc-t)*vc; cut = True
+         else: v = v + (fc-sc)*vc; cut = False
+      if v > 0: b.append((i,i+1,v))
+      return(b)
 
    @staticmethod
    def complement(a,s,f):
