@@ -604,7 +604,7 @@ class Network(Search,Coloring):
 # problems with names containing [ or ]
 # in case of problem with an UTF-8 file add a comment as the first line
 # see: https://github.com/bavla/SocNet/wiki/NumAuthors
-        try: net = open(file,'r')
+        try: net = open(file,'r',encoding="utf-8")
         except: raise Network.NetworkError(
             "Problems with Pajek file {0}".format(file))
         G = Network(); mode = 1; status = 0; meta = ''; rels = {}
