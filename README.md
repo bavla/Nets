@@ -1,6 +1,8 @@
 # Nets
 Python package for network analysis
 
+See also https://github.com/bavla/Nets/wiki .
+
 The Python library Nets supports basic operations with networks
 based on graph representation. Each node/link has its id. If a link id
 is not specified by a user it is determined by Nets.
