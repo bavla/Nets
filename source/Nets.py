@@ -71,7 +71,7 @@ class Network(Search,Coloring):
             'links':['n1', 'n2', 'type']}
         self._nodes = {}
         self._links = {}
-    def __str__(self): return "Graph:\nNodes: "+ \
+    def __str__(self): return "Nets:\nNodes: "+ \
         str(list(self.nodes()))+"\nLinks: "+ \
         str([("A" if self._links[e][2] else "E")+str(e)+ \
         str((self.initNode(e),self.termNode(e))) for e in self.links()])
@@ -708,8 +708,8 @@ class Network(Search,Coloring):
         if temporal:
             if Tmax < Tmin: Tmin = 0; Tmax = 999999999
             G._info['time'] = {"Tmin": Tmin, "Tmax": Tmax}
-            if maxT+1 < 999999999:
-                G._info['legends']['Tlabs'] = {str(y):str(y) for y in range(minT,maxT+1)}
+            if Tmax+1 < 999999999:
+                G._info['legends']['Tlabs'] = {str(y):str(y) for y in range(Tmin,Tmax+1)}
         if len(rels)>0:
             G._info['multirel'] = True
             G._info['legends'] = {}
@@ -774,12 +774,13 @@ class Network(Search,Coloring):
         info['multirel'] = self._info.get('multirel',False)
         info['meta'] =  self._info.get('meta',[])
         info['meta'].append({"date": datetime.datetime.now().ctime(),\
-             "title": "saved from Graph to netsJSON" })
+             "title": "saved from Nets to netsJSON" })
         info['trace'] = self._info.get('trace',[])
         info['required'] = self._info.get('required',{})
         info['nNodes'] = n
         if temporal:
-            minT, maxT = self._info['time']
+            minT = self._info['time']['Tmin']
+            maxT = self._info['time']['Tmax']
             leg = self._info.get('legends',None)
             if leg != None: Tlabs = leg.get('Tlabs',
                { str(y):str(y) for y in range(minT,maxT+1)})
@@ -800,7 +801,8 @@ class Network(Search,Coloring):
         if file==None: file = info['Network']+'.json'
         net = {"netsJSON": "basic", "info": info, "nodes": nodes, "links": links}
         js = open(file,'w')
-        json.dump(net, js, ensure_ascii=False, indent=indent)
+#        json.dump(net, js, ensure_ascii=False, indent=indent)
+        json.dump(net, js, indent=indent)
         js.close()
     def savePajek(self,file,coord=True):
 # sprogramiraj še za dvodelna omrežja
@@ -850,7 +852,7 @@ class Network(Search,Coloring):
         G.setInfo('time',(minT,maxT)); G.setInfo('temporal',True)
         G._info['legends']['Tlabs'] = {str(y):str(y) for y in range(minT,maxT+1)}
 #        G.setInfo('Tlabs',{str(y):str(y) for y in range(minT,maxT+1)});
-        G.setInfo('trace',[timer(),Network.location(),"Graph","twoMode2netsJSON",
+        G.setInfo('trace',[timer(),Network.location(),"Nets","twoMode2netsJSON",
             [yFile,netFile],['input','input']])
         G.setInfo('required',{"nodes": ["id","mode","lab","act"],
             "links": ["n1","n2","type","tq"]}) # for JSON
@@ -878,7 +880,7 @@ class Network(Search,Coloring):
         G.setInfo('time',(minT,maxT)); G.setInfo('temporal',True)
         G._info['legends']['Tlabs'] = {str(y):str(y) for y in range(minT,maxT+1)}
 #        G.setInfo('Tlabs',{str(y):str(y) for y in range(minT,maxT+1)});
-        G.setInfo('trace',[timer(),Network.location(),"Graph","twoMode2netsJSON",
+        G.setInfo('trace',[timer(),Network.location(),"Nets","twoMode2netsJSON",
             [yFile,netFile],['input','input']])
         G.setInfo('required',{"nodes": ["id","mode","lab","act"],
             "links": ["n1","n2","type","tq"]}) # for JSON
