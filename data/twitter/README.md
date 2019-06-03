@@ -7,3 +7,5 @@ com.net  -->    PC.json  - Twitter posts and comments
 author.net -->  PA.json  - Twitter posts and authors
 
 act2.net  -->   AA.json  - Twitter reactors and authors (gives a Like)
+
+(details)[https://github.com/bavla/Nets/wiki/2NetsJSON]
