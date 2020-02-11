@@ -16,7 +16,7 @@ biHist <- function(author,TQ,first,last,PDF=FALSE,w=6,h=4.2){
   barplot(height=D, col=c("blue","red"), names.arg=names, 
     las=2, cex.axis=0.7, cex.names=0.7, space=0, border = NA 
   )
-  text(5,0.9*max(fr),author)
+  text(5,0.85*max(fs),author)
   if(PDF) dev.off() 
 }
 
@@ -37,6 +37,6 @@ siHist <- function(author,TQ,first,last,instant=TRUE,PDF=FALSE,w=6,h=4.2){
   barplot(height=value, col="blue", names.arg=names, 
     las=2, cex.axis=0.7, cex.names=0.7, space=0, border = NA 
   )
-  text(5,0.9*max(fr),author)
+  text(5,0.85*max(value),author)
   if(PDF) dev.off() 
 }
