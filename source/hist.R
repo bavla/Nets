@@ -13,8 +13,9 @@ byYear <- function(TQ,i,ymin,ymax){
   return(value)
 }
 
-biHist <- function(H,first,last,PDF=FALSE,w=6,h=4.2,ylim=NULL,main=NULL,
-  col=c("steelblue","khaki2"),cex.axis=0.7,cex.names=0.7,xpd=FALSE){
+biHist <- function(H,first,last,lab=NULL,PDF=FALSE,w=6,h=4.2,
+  ylim=NULL,col=c("steelblue","khaki2"),cex.axis=0.7,cex.names=0.7,
+  xpd=FALSE,xlab=0,ylab=NULL,cex.lab=0.8,...){
   author <- H[[1]]; TQ <- H[[2]]; i <- 1
   while(TQ[i,3]<=0) i <- i+1
   ymin <- min(first,TQ[i,1]); ymax <- max(last,TQ[nrow(TQ),2])   
@@ -25,19 +26,23 @@ biHist <- function(H,first,last,PDF=FALSE,w=6,h=4.2,ylim=NULL,main=NULL,
   for(j in 1:length(years)) if(years[j]==first) break
   index <- j:(j+length(range)-1)  
   D <- rbind(value[index],fr[index])
-  if(PDF) pdf(paste(author,".pdf",sep=""),width=w,height=h)
+  if(is.null(lab)) lab <- author
+  if(is.character(PDF)) {Pdf <- PDF; PDF <- TRUE} else {
+    if(PDF) Pdf <- paste("bi",author,".pdf",sep="") }
+  if(PDF) pdf(Pdf,width=w,height=h)
   par(mar=c(6,4,4,4))
   barplot(height=D, col=col, names.arg=names, las=2, 
     cex.axis=cex.axis, cex.names=cex.names, space=0, border = NA,
-    ylim=ylim, main=main, xpd=xpd 
-  )
-  ylab <- if(is.null(ylim)) fs[index[length(index)]] else ylim[2] 
-  text(0,0.9*ylab,author,pos=4)
+    ylim=ylim, xpd=xpd, ... )
+  if(is.null(ylab)) ylab <- 0.9*if(is.null(ylim)) 
+    fs[index[length(index)]] else ylim[2] 
+  text(xlab,ylab,lab,pos=4,cex=cex.lab, ...)
   if(PDF) dev.off() 
 }
 
-siHist <- function(H,first,last,instant=TRUE,PDF=FALSE,w=6,h=4.2,
-  col="blue",cex.axis=0.7,cex.names=0.7,ylim=NULL,main=NULL,xpd=FALSE){
+siHist <- function(H,first,last,instant=TRUE,lab=NULL,PDF=FALSE,
+  w=6,h=4.2,col="blue",cex.axis=0.7,cex.names=0.7,ylim=NULL,
+  xpd=FALSE,xlab=0,ylab=NULL,cex.lab=0.8,...){
   author <- H[[1]]; TQ <- H[[2]]; i <- 1
   while(TQ[i,3]<=0) i <- i+1
   ymin <- min(first,TQ[i,1]); ymax <- max(last,TQ[nrow(TQ),2])   
@@ -46,21 +51,23 @@ siHist <- function(H,first,last,instant=TRUE,PDF=FALSE,w=6,h=4.2,
   range <- first:last; names <- as.character(range)
   for(j in 1:length(years)) if(years[j]==first) break
   index <- j:(j+length(range)-1); D <- value[index]
-  if(!instant) D <- cumsum(value)[index] 
-  if(PDF) pdf(paste(author,".pdf",sep=""),width=w,height=h)
+  if(!instant) D <- cumsum(value)[index]
+  if(is.null(lab)) lab <- author
+  if(is.character(PDF)) {Pdf <- PDF; PDF <- TRUE} else {
+    if(PDF) Pdf <- paste("si",author,".pdf",sep="") }
+  if(PDF) pdf(Pdf,width=w,height=h)
   par(mar=c(6,4,4,4))
-  barplot(height=D, col=col, names.arg=names, 
-    las=2, cex.axis=cex.axis, cex.names=cex.names, space=0, border = NA,
-    ylim=ylim, main=main, xpd=xpd 
-  )
-  ylab <- if(is.null(ylim)) max(D) else ylim[2] 
-  text(0,0.9*ylab,author,pos=4)
+  barplot(height=D, col=col, names.arg=names, las=2, cex.axis=cex.axis,
+    cex.names=cex.names, space=0, border = NA,
+    ylim=ylim, xpd=xpd, ... )
+  if(is.null(ylab)) ylab <- 0.9*if(is.null(ylim)) max(D) else ylim[2] 
+  text(xlab,ylab,lab,pos=4,cex=cex.lab,...)
   if(PDF) dev.off() 
 }
 
-coHist <- function(H1,H2,first,last,PDF=FALSE,w=6,h=4.2,ylim=NULL,
-  main=NULL,col=c("purple4","royalblue1","tomato1"),cex.axis=0.7,
-  cex.names=0.7,xpd=FALSE){
+coHist <- function(H1,H2,first,last,lab=NULL,PDF=FALSE,w=6,h=4.2,
+  ylim=NULL,col=c("purple4","royalblue1","tomato1"),cex.axis=0.7,
+  cex.names=0.7,xpd=FALSE,xlab=0,ylab=NULL,cex.lab=0.8,...){
   author1 <- H1[[1]]; TQ1 <- H1[[2]]; author2 <- H2[[1]]; TQ2 <- H2[[2]]
   i <- 1; while(TQ1[i,3]<=0) i <- i+1
   ymin <- min(first,TQ1[i,1]); ymax <- max(last,TQ1[nrow(TQ1),2])
@@ -73,15 +80,17 @@ coHist <- function(H1,H2,first,last,PDF=FALSE,w=6,h=4.2,ylim=NULL,
   for(j in 1:length(years)) if(years[j]==first) break
   index <- j:(j+length(range)-1)  
   D <- rbind(c[index],a[index],b[index])
-  label <- paste(author1,"+",author2,sep="")
-  if(PDF) pdf(paste(label,".pdf",sep=""),width=w,height=h)
+  if(is.null(lab)) lab <- paste(author1,"+",author2,sep="")
+  if(is.character(PDF)) {Pdf <- PDF; PDF <- TRUE} else {
+    if(PDF) Pdf <- paste("co",lab,".pdf",sep="") }
+  if(PDF) pdf(Pdf,width=w,height=h)
   par(mar=c(6,4,4,4))
   barplot(height=D, col=col, names.arg=names, las=2,
     cex.axis=cex.axis, cex.names=cex.names, space=0, border = NA,
-    ylim=ylim, main=main, xpd=xpd 
-  )
-  ylab <- if(is.null(ylim)) max(value1[index],value2[index]) else ylim[2] 
-  text(0,0.9*ylab,label,pos=4)
+    ylim=ylim, xpd=xpd, ... )
+  if(is.null(ylab)) ylab <- 0.9*if(is.null(ylim)) 
+    max(value1[index],value2[index]) else ylim[2] 
+  text(xlab,ylab,lab,pos=4,cex=cex.lab,...)
   if(PDF) dev.off() 
 }
 
