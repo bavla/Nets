@@ -93,6 +93,34 @@ class Network(Search,Coloring):
         for a in self._links.keys():
             if self._links[a][2]: yield a
     def link(self,e): return self._links[e]
+    def Info(self):
+        simple = self._info.get('simple',False)
+        temporal = self._info.get('temporal',False)
+        org = self._info.get('org',1)
+        mode = self._info.get('mode',1)
+        Network = self._info.get('Network',"test")
+        title = self._info.get('title',"testSAVE")
+        multirel = self._info.get('multirel',False)
+        # meta =  self._info.get('meta',[])
+        # trace = self._info.get('trace',[])
+        # required = self._info.get('required',{})
+        nNodes = len(self._nodes)
+        nEdges = len(list(self.edges()))
+        nArcs = len(list(self.arcs()))
+        directed = nEdges==0
+        print("\nNetwork: ",Network,"\n",title,"\nsimple=",simple,
+            " directed=",directed," org=",org," mode=",mode,
+            " multirel=",multirel," temporal=",temporal,"\nnodes=",nNodes,
+            " links=",nArcs+nEdges," arcs=",nArcs," edges=",nEdges)
+        if mode==2:
+            n1 = len(list(self.nodesMode(1)))
+            n2 = nNodes - n1
+            print("nodes1=",n1," nodes2=",n2)
+        if temporal:
+            minT = self._info['time'][0]
+            maxT = self._info['time'][1]
+            print("Tmin=",minT," Tmax=",maxT)
+
     def addNode(self,u,mode=1):
         if (not u in self._nodes):
             self._nodes[u] = [{},{},{},{}]
@@ -259,9 +287,9 @@ class Network(Search,Coloring):
         T._info = copy(self._info); T._info['mode'] = 2
         T._info['dim'] = (n,n)
         for v in self._nodes.keys():
-            T.addNode(v); T.addNode(v+n)
-            T._nodes[v][3] = self._nodes[v][3]
-            T._nodes[v+n][3] = self._nodes[v][3]
+            T.addNode(v,1); T.addNode(v+n,2)
+            T._nodes[v][3] = copy(self._nodes[v][3])
+            T._nodes[v+n][3] = copy(self._nodes[v][3])
             T._nodes[v][3]['mode'] = 1; T._nodes[v+n][3]['mode'] = 2
         for p in self._links.keys():
         	u,v,directed,r,w = self._links[p]
@@ -345,6 +373,7 @@ class Network(Search,Coloring):
         return C
     def TQnormal(self,key='tq',act='act'):
         N = deepcopy(self)
+        N._info['title'] = 'Normalized '+self._info['title']
         for u in N.nodesMode(1):
             qu = TQ.TQ.invert(N.TQnetOutDeg(u,act=act),vZero=1)
             for p in N.outStar(u):
