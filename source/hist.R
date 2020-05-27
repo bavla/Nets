@@ -1,3 +1,6 @@
+# TQ displays
+# by Vladimir Batagelj, Moscow, February 15, 2020
+# May 28, 2020 - added triHist
 
 byYear <- function(TQ,i,ymin,ymax){
   n <- ymax-ymin+1; value <- rep(0,n); k <- 1; m <- nrow(TQ) 
@@ -93,4 +96,37 @@ coHist <- function(H1,H2,first,last,lab=NULL,PDF=FALSE,w=6,h=4.2,
   text(xlab,ylab,lab,pos=4,cex=cex.lab,...)
   if(PDF) dev.off() 
 }
+
+triHist <- function(H1,H2,H3,first,last,lab=NULL,PDF=FALSE,w=6,h=4.2,
+  ylim=NULL,col=c("purple4","royalblue1","tomato1"),cex.axis=0.7,
+  cex.names=0.7,xpd=FALSE,xlab=0,ylab=NULL,cex.lab=0.8,...){
+  author1 <- H1[[1]]; TQ1 <- H1[[2]]; TQ2 <- H2[[2]]; TQ3 <- H3[[2]];
+  i <- 1; while(TQ1[i,3]<=0) i <- i+1
+  ymin <- min(first,TQ1[i,1]); ymax <- max(last,TQ1[nrow(TQ1),2])
+  j <- 1; while(TQ2[j,3]<=0) j <- j+1
+  ymin <- min(ymin,TQ2[j,1]); ymax <- max(ymax,TQ2[nrow(TQ2),2])
+  k <- 1; while(TQ3[k,3]<=0) k <- k+1
+  ymin <- min(ymin,TQ3[k,1]); ymax <- max(ymax,TQ3[nrow(TQ3),2])
+  years <- ymin:ymax  
+  value1 <- byYear(TQ1,i,ymin,ymax); value2 <- byYear(TQ2,j,ymin,ymax)
+  value3 <- byYear(TQ3,k,ymin,ymax)
+  range <- first:last; names <- as.character(range)
+  a <- value1; b <- value2-value1; c <- value3-value2
+  for(j in 1:length(years)) if(years[j]==first) break
+  index <- j:(j+length(range)-1)  
+  D <- rbind(a[index],b[index],c[index])
+  if(is.null(lab)) lab <- author1
+  if(is.character(PDF)) {Pdf <- PDF; PDF <- TRUE} else {
+    if(PDF) Pdf <- paste("co",lab,".pdf",sep="") }
+  if(PDF) pdf(Pdf,width=w,height=h)
+  par(mar=c(6,4,4,4))
+  barplot(height=D, col=col, names.arg=names, las=2,
+    cex.axis=cex.axis, cex.names=cex.names, space=0, border = NA,
+    ylim=ylim, xpd=xpd, ... )
+  if(is.null(ylab)) ylab <- 0.9*if(is.null(ylim)) 
+    max(value3[index]) else ylim[2] 
+  text(xlab,ylab,lab,pos=4,cex=cex.lab,...)
+  if(PDF) dev.off() 
+}
+
 
