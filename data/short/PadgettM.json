@@ -1,0 +1,260 @@
+{
+ "netsJSON": "basic",
+ "info": {
+  "simple": true,
+  "directed": false,
+  "temporal": false,
+  "org": 1,
+  "mode": 1,
+  "Network": "Padgett marriage",
+  "title": "PadgettM",
+  "multirel": false,
+  "meta": [
+   {
+    "title": "from Ucinet networks converted to Pajek",
+    "author": "Vladimir Batagelj",
+    "date": "12. June 2020"
+   },
+   {
+    "date": "Fri Jun 12 22:56:44 2020",
+    "title": "saved from Nets to netsJSON"
+   }
+  ],
+  "trace": [],
+  "required": {
+   "nodes": [
+    "id",
+    "mode",
+    "lab"
+   ],
+   "links": [
+    "n1",
+    "n2",
+    "type"
+   ]
+  },
+  "nNodes": 16,
+  "nArcs": 0,
+  "nEdges": 20
+ },
+ "nodes": [
+  {
+   "lab": "Acciaiuoli",
+   "x": 0.6063,
+   "y": 0.2582,
+   "id": 1
+  },
+  {
+   "lab": "Albizzi",
+   "x": 0.3971,
+   "y": 0.2045,
+   "id": 2
+  },
+  {
+   "lab": "Barbadori",
+   "x": 0.7047,
+   "y": 0.6791,
+   "id": 3
+  },
+  {
+   "lab": "Bischeri",
+   "x": 0.2394,
+   "y": 0.6433,
+   "id": 4
+  },
+  {
+   "lab": "Castellani",
+   "x": 0.613,
+   "y": 0.8507,
+   "id": 5
+  },
+  {
+   "lab": "Ginori",
+   "x": 0.5246,
+   "y": 0.1119,
+   "id": 6
+  },
+  {
+   "lab": "Guadagni",
+   "x": 0.2338,
+   "y": 0.4463,
+   "id": 7
+  },
+  {
+   "lab": "Lamberteschi",
+   "x": 0.1051,
+   "y": 0.2746,
+   "id": 8
+  },
+  {
+   "lab": "Medici",
+   "x": 0.6883,
+   "y": 0.4726,
+   "id": 9
+  },
+  {
+   "lab": "Pazzi",
+   "x": 0.7114,
+   "y": 0.1179,
+   "id": 10
+  },
+  {
+   "lab": "Peruzzi",
+   "x": 0.3557,
+   "y": 0.8552,
+   "id": 11
+  },
+  {
+   "lab": "Pucci",
+   "x": 0.2718,
+   "y": 0.1179,
+   "id": 12
+  },
+  {
+   "lab": "Ridolfi",
+   "x": 0.5089,
+   "y": 0.5239,
+   "id": 13
+  },
+  {
+   "lab": "Salviati",
+   "x": 0.8143,
+   "y": 0.3045,
+   "id": 14
+  },
+  {
+   "lab": "Strozzi",
+   "x": 0.4351,
+   "y": 0.6761,
+   "id": 15
+  },
+  {
+   "lab": "Tornabuoni",
+   "x": 0.4016,
+   "y": 0.3716,
+   "id": 16
+  }
+ ],
+ "links": [
+  {
+   "w": 1,
+   "type": "edge",
+   "n1": 2,
+   "n2": 6
+  },
+  {
+   "w": 1,
+   "type": "edge",
+   "n1": 2,
+   "n2": 7
+  },
+  {
+   "w": 1,
+   "type": "edge",
+   "n1": 3,
+   "n2": 5
+  },
+  {
+   "w": 1,
+   "type": "edge",
+   "n1": 4,
+   "n2": 7
+  },
+  {
+   "w": 1,
+   "type": "edge",
+   "n1": 4,
+   "n2": 11
+  },
+  {
+   "w": 1,
+   "type": "edge",
+   "n1": 5,
+   "n2": 11
+  },
+  {
+   "w": 1,
+   "type": "edge",
+   "n1": 7,
+   "n2": 8
+  },
+  {
+   "w": 1,
+   "type": "edge",
+   "n1": 1,
+   "n2": 9
+  },
+  {
+   "w": 1,
+   "type": "edge",
+   "n1": 2,
+   "n2": 9
+  },
+  {
+   "w": 1,
+   "type": "edge",
+   "n1": 3,
+   "n2": 9
+  },
+  {
+   "w": 1,
+   "type": "edge",
+   "n1": 9,
+   "n2": 13
+  },
+  {
+   "w": 1,
+   "type": "edge",
+   "n1": 9,
+   "n2": 14
+  },
+  {
+   "w": 1,
+   "type": "edge",
+   "n1": 13,
+   "n2": 15
+  },
+  {
+   "w": 1,
+   "type": "edge",
+   "n1": 10,
+   "n2": 14
+  },
+  {
+   "w": 1,
+   "type": "edge",
+   "n1": 4,
+   "n2": 15
+  },
+  {
+   "w": 1,
+   "type": "edge",
+   "n1": 5,
+   "n2": 15
+  },
+  {
+   "w": 1,
+   "type": "edge",
+   "n1": 11,
+   "n2": 15
+  },
+  {
+   "w": 1,
+   "type": "edge",
+   "n1": 7,
+   "n2": 16
+  },
+  {
+   "w": 1,
+   "type": "edge",
+   "n1": 9,
+   "n2": 16
+  },
+  {
+   "w": 1,
+   "type": "edge",
+   "n1": 13,
+   "n2": 16
+  }
+ ]
+}
