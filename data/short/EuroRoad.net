@@ -1,0 +1,2604 @@
+% Source: International E-road network (http://en.wikipedia.org/wiki/International_E-road_network)
+% Network: road network
+% Nodes: 1178
+% Edges: 1469
+% Author: Lovro Šubelj / Šubelj & Bajec (2011), Eur. Phys. J. B 81(3), 353.
+% Corrected: Brest (403) -> Brest (403) + Brest-Litovsk (1178)
+% by Vladimir Batagelj, June 12, 2020
+*Vertices 1178
+1 "Greenock"
+2 "Glasgow"
+3 "Preston"
+4 "Birmingham"
+5 "Southampton"
+6 "Le Havre"
+7 "Paris"
+8 "Orléans"
+9 "Bordeaux"
+10 "San Sebastián"
+11 "Burgos"
+12 "Madrid"
+13 "Seville"
+14 "Algeciras"
+15 "Inverness"
+16 "Perth"
+17 "Edinburgh"
+18 "Newcastle"
+19 "London"
+20 "Folkestone"
+21 "Dover"
+22 "Calais"
+23 "Lyon"
+24 "Orange"
+25 "Narbonne"
+26 "Girona"
+27 "Barcelona"
+28 "Tarragona"
+29 "Castellón de la Plana"
+30 "Valencia"
+31 "Alicante"
+32 "Murcia"
+33 "Almería"
+34 "Málaga"
+35 "Hook of Holland"
+36 "Rotterdam"
+37 "Eindhoven"
+38 "Maastricht"
+39 "Liège"
+40 "Bastogne"
+41 "Arlon"
+42 "Luxembourg"
+43 "Metz"
+44 "Saint-Avold"
+45 "Strasbourg"
+46 "Mulhouse"
+47 "Basel"
+48 "Olten"
+49 "Bern"
+50 "Lausanne"
+51 "Geneva"
+52 "Mont Blanc"
+53 "Aosta"
+54 "Ivrea"
+55 "Vercelli"
+56 "Alessandria"
+57 "Genoa"
+58 "Bastia"
+59 "Porto-Vecchio"
+60 "Bonifacio"
+61 "Porto Torres"
+62 "Sassari"
+63 "Cagliari"
+64 "Palermo"
+65 "Amsterdam"
+66 "Utrecht"
+67 "Arnhem"
+68 "Emmerich"
+69 "Oberhausen"
+70 "Cologne"
+71 "Frankfurt am Main"
+72 "Heidelberg"
+73 "Karlsruhe"
+74 "Offenburg"
+75 "Lucerne"
+76 "Altdorf"
+77 "Gotthard Pass"
+78 "Bellinzona"
+79 "Lugano"
+80 "Chiasso"
+81 "Como"
+82 "Milan"
+83 "Piacenza"
+84 "Parma"
+85 "Modena"
+86 "Florence"
+87 "Rome"
+88 "Karesuvanto"
+89 "Karesuando"
+90 "Arvidsjaur"
+91 "Östersund"
+92 "Mora"
+93 "Säffle"
+94 "Gothenburg"
+95 "Frederikshavn"
+96 "Aalborg"
+97 "Aarhus"
+98 "Vejle"
+99 "Kolding"
+100 "Flensburg"
+101 "Hamburg"
+102 "Hanover"
+103 "Göttingen"
+104 "Kassel"
+105 "Fulda"
+106 "Würzburg"
+107 "Nuremberg"
+108 "Munich"
+109 "Rosenheim"
+110 "Wörgl"
+111 "Innsbruck"
+112 "Brenner"
+113 "Fortezza"
+114 "Bolzano"
+115 "Trento"
+116 "Verona"
+117 "Bologna"
+118 "Cesena"
+119 "Perugia"
+120 "Fiano Romano"
+121 "Naples"
+122 "Salerno"
+123 "Sicignano degli Alburni"
+124 "Cosenza"
+125 "Villa San Giovanni"
+126 "Messina"
+127 "Catania"
+128 "Siracusa"
+129 "Gela"
+130 "Helsingborg"
+131 "Helsingør"
+132 "Copenhagen"
+133 "Køge"
+134 "Vordingborg"
+135 "Farø"
+136 "Nykøbing Falster"
+137 "Gedser"
+138 "Rostock"
+139 "Berlin"
+140 "Lübbenau"
+141 "Dresden"
+142 "Ústí nad Labem"
+143 "Prague"
+144 "Tábor"
+145 "Linz"
+146 "Salzburg"
+147 "Villach"
+148 "Tarvisio"
+149 "Udine"
+150 "Palmanova"
+151 "Mestre"
+152 "Ravenna"
+153 "Rimini"
+154 "Fano"
+155 "Ancona"
+156 "Pescara"
+157 "Canosa di Puglia"
+158 "Bari"
+159 "Brindisi"
+160 "Igoumenitsa"
+161 "Preveza"
+162 "Rhion"
+163 "Patras"
+164 "Pyrgos"
+165 "Kalamata"
+166 "Malmö"
+167 "Ystad"
+168 "Świnoujście"
+169 "Wolin"
+170 "Goleniów"
+171 "Szczecin"
+172 "Gorzów Wielkopolski"
+173 "Świebodzin"
+174 "Zielona Góra"
+175 "Legnica"
+176 "Jelenia Góra"
+177 "Harrachov"
+178 "Železný Brod"
+179 "Turnov"
+180 "Mladá Boleslav"
+181 "Jihlava"
+182 "Brno"
+183 "Bratislava"
+184 "Rajka"
+185 "Csorna"
+186 "Szombathely"
+187 "Zalaegerszeg"
+188 "Nagykanizsa"
+189 "Letenye"
+190 "Zagreb"
+191 "Karlovac"
+192 "Rijeka"
+193 "Split"
+194 "Dubrovnik"
+195 "Petrovac"
+196 "Podgorica"
+197 "Bijelo Polje"
+198 "Pristina"
+199 "Skopje"
+200 "Kičevo"
+201 "Ohrid"
+202 "Bitola"
+203 "Niki"
+204 "Vevi"
+205 "Kozani"
+206 "Larissa"
+207 "Domokos"
+208 "Lamia"
+209 "Brallos"
+210 "Itea"
+211 "Antirrio"
+212 "Aigio"
+213 "Corinth"
+214 "Tripoli"
+215 "Kissamos"
+216 "Chania"
+217 "Vardø"
+218 "Vadsø"
+219 "Varangerbotn"
+220 "Utsjoki"
+221 "Inari"
+222 "Ivalo"
+223 "Sodankylä"
+224 "Rovaniemi"
+225 "Kemi"
+226 "Oulu"
+227 "Jyväskylä"
+228 "Heinola"
+229 "Lahti"
+230 "Helsinki"
+231 "Gdańsk"
+232 "Świecie"
+233 "Łódź"
+234 "Piotrków Trybunalski"
+235 "Katowice"
+236 "Žilina"
+237 "Győr"
+238 "Budapest"
+239 "Szeged"
+240 "Subotica"
+241 "Novi Sad"
+242 "Belgrade"
+243 "Niš"
+244 "Kumanovo"
+245 "Veles"
+246 "Gevgelija"
+247 "Evzoni"
+248 "Thessaloniki"
+249 "Katerini"
+250 "Athens"
+251 "Heraklion"
+252 "Agios Nikolaos"
+253 "Sitia"
+254 "Klaipėda"
+255 "Kaunas"
+256 "Vilnius"
+257 "Lida"
+258 "Slonim"
+259 "Kobryn"
+260 "Dubno"
+261 "Ternopil"
+262 "Chernivtsi"
+263 "Siret"
+264 "Suceava"
+265 "Roman"
+266 "Urziceni"
+267 "Bucharest"
+268 "Giurgiu"
+269 "Ruse"
+270 "Byala"
+271 "Veliko Tarnovo"
+272 "Stara Zagora"
+273 "Haskovo"
+274 "Svilengrad"
+275 "Ormenio"
+276 "Kastanies"
+277 "Didymoteicho"
+278 "Alexandroupoli"
+279 "Saint Petersburg"
+280 "Pskov"
+281 "Gomel"
+282 "Kiev"
+283 "Odessa"
+284 "Samsun"
+285 "Merzifon"
+286 "Moscow"
+287 "Kaluga"
+288 "Bryansk"
+289 "Hlukhiv"
+290 "Kirkenes"
+291 "Murmansk"
+292 "Petrozavodsk"
+293 "Orel"
+294 "Kharkiv"
+295 "Simferopol"
+296 "Alushta"
+297 "Yalta"
+298 "Yaroslavl"
+299 "Voronezh"
+300 "Novorossiysk"
+301 "Mineralnye Vody"
+302 "Nalchik"
+303 "Vladikavkaz"
+304 "Stepantsminda"
+305 "Mtskheta"
+306 "Tbilisi"
+307 "Marneuli"
+308 "Bolnisi"
+309 "Yerevan"
+310 "Goris"
+311 "Megri"
+312 "Tambov"
+313 "Povorino"
+314 "Volgograd"
+315 "Astrakhan"
+316 "Makhachkala"
+317 "Kuba"
+318 "Baku"
+319 "Alyat"
+320 "Astara"
+321 "Samara"
+322 "Oral"
+323 "Atyrau"
+324 "Beineu"
+325 "Shetpe"
+326 "Zhetybai"
+327 "Fetisovo"
+328 "Bekdash"
+329 "Türkmenbaşy"
+330 "Gyzylarbat"
+331 "Chelyabinsk"
+332 "Kostanay"
+333 "Esil"
+334 "Derzhavinsk"
+335 "Arkalyk"
+336 "Jezkazgan"
+337 "Kyzylorda"
+338 "Shymkent"
+339 "Tashkent"
+340 "Ayni"
+341 "Dushanbe"
+342 "Panji Poyon"
+343 "Ishim"
+344 "Astana"
+345 "Karaganda"
+346 "Balkhash"
+347 "Burubaytal"
+348 "Almaty"
+349 "Bishkek"
+350 "Naryn"
+351 "Torugart Pass"
+352 "Omsk"
+353 "Pavlodar"
+354 "Semey"
+355 "Georgiyevka"
+356 "Maikapshagai"
+357 "Å"
+358 "Svolvær"
+359 "Melbu"
+360 "Sortland"
+361 "Lødingen"
+362 "Evenes"
+363 "Narvik"
+364 "Kiruna"
+365 "Töre"
+366 "Luleå"
+367 "Shannon"
+368 "Limerick"
+369 "Dublin"
+370 "Liverpool"
+371 "Manchester"
+372 "Leeds"
+373 "Kingston upon Hull"
+374 "Esbjerg"
+375 "Halmstad"
+376 "Örebro"
+377 "Stockholm"
+378 "Tallinn"
+379 "Narva"
+380 "Cork"
+381 "Waterford"
+382 "Wexford"
+383 "Rosslare"
+384 "Fishguard"
+385 "Swansea"
+386 "Bridgend"
+387 "Cardiff"
+388 "Newport"
+389 "Bristol"
+390 "Colchester"
+391 "Ipswich"
+392 "Felixstowe"
+393 "The Hague"
+394 "Gouda"
+395 "Amersfoort"
+396 "Oldenzaal"
+397 "Osnabrück"
+398 "Bad Oeynhausen"
+399 "Braunschweig"
+400 "Magdeburg"
+401 "Poznań"
+402 "Warsaw"
+403 "Brest"
+404 "Minsk"
+405 "Smolensk"
+406 "Ryazan"
+407 "Penza"
+408 "Ufa"
+409 "Kurgan"
+410 "Bruges"
+411 "Ghent"
+412 "Brussels"
+413 "Leuven"
+414 "Eupen"
+415 "Aachen"
+416 "Olpe"
+417 "Wetzlar"
+418 "Gießen"
+419 "Bad Hersfeld"
+420 "Eisenach"
+421 "Erfurt"
+422 "Gera"
+423 "Chemnitz"
+424 "Görlitz"
+425 "Wrocław"
+426 "Opole"
+427 "Gliwice"
+428 "Zabrze"
+429 "Kraków"
+430 "Rzeszów"
+431 "Jarosław"
+432 "Korczowa"
+433 "Lviv"
+434 "Rivne"
+435 "Zhytomyr"
+436 "Luhansk"
+437 "Beyneu"
+438 "Qo‘ng‘irot"
+439 "Nukus"
+440 "Daşoguz"
+441 "Bukhara"
+442 "Navoiy"
+443 "Samarkand"
+444 "Jizzakh"
+445 "Zhambyl"
+446 "Sary-Ozek"
+447 "Taldykorgan"
+448 "Ucharal"
+449 "Taskesken"
+450 "Ayagoz"
+451 "Oskemen"
+452 "Ridder"
+453 "Rennes"
+454 "Le Mans"
+455 "Reims"
+456 "Saarbrücken"
+457 "Mannheim"
+458 "Heilbronn"
+459 "Rozvadov"
+460 "Plzeň"
+461 "Trenčín"
+462 "Prešov"
+463 "Košice"
+464 "Vyšné Nemecké"
+465 "Uzhhorod"
+466 "Mukachevo"
+467 "Stryj"
+468 "Khmelnytskyi"
+469 "Vinnytsia"
+470 "Uman"
+471 "Kirovohrad"
+472 "Dnipropetrovsk"
+473 "Donetsk"
+474 "Rostov-on-Don"
+475 "Armavir"
+476 "Lorient"
+477 "Vannes"
+478 "Nantes"
+479 "Angers"
+480 "Tours"
+481 "Montargis"
+482 "Auxerre"
+483 "Beaune"
+484 "Dole"
+485 "Besançon"
+486 "Belfort"
+487 "Zürich"
+488 "Winterthur"
+489 "St. Gallen"
+490 "St. Margrethen"
+491 "Bregenz"
+492 "Feldkirch"
+493 "Landeck"
+494 "Telfs"
+495 "Lauterach"
+496 "Imst"
+497 "Bad Reichenhall"
+498 "Sattledt"
+499 "Sankt Pölten"
+500 "Vienna"
+501 "Nickelsdorf"
+502 "Mosonmagyaróvár"
+503 "Szolnok"
+504 "Püspökladány"
+505 "Oradea"
+506 "Cluj-Napoca"
+507 "Turda"
+508 "Târgu Mureş"
+509 "Braşov"
+510 "Ploieşti"
+511 "Slobozia"
+512 "Hârşova"
+513 "Constanţa"
+514 "Agigea"
+515 "Poti"
+516 "Senaki"
+517 "Samtredia"
+518 "Kutaisi"
+519 "Khashuri"
+520 "Gori"
+521 "Rustavi"
+522 "Ganja"
+523 "Yevlakh"
+524 "Ashgabat"
+525 "Tejen"
+526 "Mary"
+527 "Türkmenabat"
+528 "Alat"
+529 "Karshi"
+530 "Guzar"
+531 "Sherobod"
+532 "Termez"
+533 "Jirgatal"
+534 "Sary Tash"
+535 "Irkeshtam"
+536 "A Coruña"
+537 "Bilbao"
+538 "Clermont-Ferrand"
+539 "Chambéry"
+540 "Susa"
+541 "Turin"
+542 "Tortona"
+543 "Brescia"
+544 "Trieste"
+545 "Postojna"
+546 "Ljubljana"
+547 "Slavonski Brod"
+548 "Vršac"
+549 "Timişoara"
+550 "Drobeta-Turnu Severin"
+551 "Craiova"
+552 "Alexandria"
+553 "Razgrad"
+554 "Shumen"
+555 "Varna"
+556 "Ordu"
+557 "Giresun"
+558 "Trabzon"
+559 "Batumi"
+560 "Lisbon"
+561 "Valladolid"
+562 "Toulouse"
+563 "Nice"
+564 "Sofia"
+565 "Plovdiv"
+566 "Istanbul"
+567 "İzmit"
+568 "Gerede"
+569 "Amasya"
+570 "Erzurum"
+571 "Gürbulak"
+572 "Iran"
+573 "Mazara del Vallo"
+574 "Reggio Calabria"
+575 "Metaponto"
+576 "Taranto"
+577 "Ioannina"
+578 "Gelibolu"
+579 "Lapseki"
+580 "Bursa"
+581 "Ankara"
+582 "Adana"
+583 "Nusaybin"
+584 "Khabur River"
+585 "Iraq"
+586 "Larne"
+587 "Belfast"
+588 "Newry"
+589 "Dundalk"
+590 "Drogheda"
+591 "Pontevedra"
+592 "Valença"
+593 "Porto"
+594 "Albufeira"
+595 "Castro Marim"
+596 "Huelva"
+597 "Cherbourg-Octeville"
+598 "La Rochelle"
+599 "Trelleborg"
+600 "Oslo"
+601 "Hamar"
+602 "Lillehammer"
+603 "Dombås"
+604 "Trondheim"
+605 "Stjørdal"
+606 "Steinkjer"
+607 "Mosjøen"
+608 "Mo i Rana"
+609 "Rognan"
+610 "Fauske"
+611 "Ballangen"
+612 "Setermoen"
+613 "Alta"
+614 "Olderfjord"
+615 "Lakselv"
+616 "Karasjok"
+617 "Pau, Pyrénées-Atlantiques"
+618 "Jaca"
+619 "Zaragoza"
+620 "Vierzon"
+621 "Montluçon"
+622 "Montpellier"
+623 "Doncaster"
+624 "Sheffield"
+625 "Nottingham"
+626 "Leicester"
+627 "Northampton"
+628 "Antwerp"
+629 "Martigny"
+630 "Sarreguemines"
+631 "Ludwigshafen"
+632 "La Spezia"
+633 "Bremen"
+634 "Orkanger"
+635 "Vinjeøra"
+636 "Halsa"
+637 "Straumsnes"
+638 "Kristiansund Mainland Connection"
+639 "Batnfjordsøra"
+640 "Molde"
+641 "Vestnes"
+642 "Skodje"
+643 "Ålesund"
+644 "Volda"
+645 "Nordfjordeid"
+646 "Sandane"
+647 "Førde"
+648 "Lavik"
+649 "Instefjord"
+650 "Knarvik"
+651 "Bergen"
+652 "Os"
+653 "Stord"
+654 "Sveio"
+655 "Aksdal"
+656 "Bokn"
+657 "Rennesøy"
+658 "Randaberg"
+659 "Stavanger"
+660 "Sandnes"
+661 "Helleland"
+662 "Flekkefjord"
+663 "Lyngdal"
+664 "Mandal"
+665 "Kristiansand"
+666 "Hirtshals"
+667 "Hjørring"
+668 "Nørresundby"
+669 "Dortmund"
+670 "Aschaffenburg"
+671 "Stuttgart"
+672 "Schaffhausen"
+673 "Ulm"
+674 "Lindau"
+675 "Buchs"
+676 "Chur"
+677 "San Bernardino"
+678 "Rødby"
+679 "Puttgarden"
+680 "Oldenburg in Holstein"
+681 "Lübeck"
+682 "Halle"
+683 "Plauen"
+684 "Schönberg"
+685 "Vojtanov"
+686 "Cheb"
+687 "Karlovy Vary"
+688 "České Budějovice"
+689 "Halámky"
+690 "Leipzig"
+691 "Hirschberg"
+692 "Hof"
+693 "Bayreuth"
+694 "Bayerisch Eisenstein"
+695 "Deggendorf"
+696 "Liezen"
+697 "Sankt Michael"
+698 "Graz"
+699 "Maribor"
+700 "Spielfeld"
+701 "Karavanke Tunnel"
+702 "Naklo"
+703 "Kemijärvi"
+704 "Posio"
+705 "Kuusamo"
+706 "Kajaani"
+707 "Iisalmi"
+708 "Kuopio"
+709 "Tampere"
+710 "Turku"
+711 "Riga"
+712 "Kłodzko"
+713 "Kudowa-Zdrój"
+714 "Náchod"
+715 "Hradec Králové"
+716 "Nordkapp"
+717 "Miskolc"
+718 "Balatonvilágos"
+719 "Knin"
+720 "Szekszárd"
+721 "Mohács"
+722 "Osijek"
+723 "Đakovo"
+724 "Šamac"
+725 "Zenica"
+726 "Mostar"
+727 "Metković"
+728 "Šiauliai"
+729 "Tolpaki"
+730 "Kaliningrad"
+731 "Elbląg"
+732 "Radom"
+733 "Trstená"
+734 "Ružomberok"
+735 "Zvolen"
+736 "Debrecen"
+737 "Berettyóújfalu"
+738 "Beiuş"
+739 "Deva"
+740 "Petroşani"
+741 "Târgu Jiu"
+742 "Calafat"
+743 "Vidin"
+744 "Vraca"
+745 "Botevgrad"
+746 "Blagoevgrad"
+747 "Serres"
+748 "Halmeu"
+749 "Satu Mare"
+750 "Zalău"
+751 "Sebeş"
+752 "Sibiu"
+753 "Piteşti"
+754 "Pleven"
+755 "Jablanica"
+756 "Izmail"
+757 "Reni"
+758 "Galaţi"
+759 "Tulcea"
+760 "Burgas"
+761 "Malko Tarnovo"
+762 "Dereköy"
+763 "Kırklareli"
+764 "Babaeski"
+765 "Havsa"
+766 "Keşan"
+767 "Ayvalık"
+768 "İzmir"
+769 "Selçuk"
+770 "Aydın"
+771 "Denizli"
+772 "Acıpayam"
+773 "Korkuteli"
+774 "Antalya"
+775 "Kızılcahamam"
+776 "Toprakkale"
+777 "İskenderun"
+778 "Antakya"
+779 "Yayladağı"
+780 "Syria"
+781 "Kherson"
+782 "Dzhankoy"
+783 "Sochi"
+784 "Sukhumi"
+785 "Zugdidi"
+786 "Şanlıurfa"
+787 "Diyarbakır"
+788 "Bitlis"
+789 "Doğubeyazit"
+790 "Iğdir"
+791 "Dilucu"
+792 "Sadarak"
+793 "Jönköping"
+794 "Linköping"
+795 "Norrköping"
+796 "Södertälje"
+797 "Uppsala"
+798 "Sundsvall"
+799 "Örnsköldsvik"
+800 "Umeå"
+801 "Haparanda"
+802 "Tornio"
+803 "Tromsø"
+804 "Nordkjosbotn"
+805 "Skibotn"
+806 "Kilpisjärvi"
+807 "Kolari"
+808 "Kokkola"
+809 "Vaasa"
+810 "Pori"
+811 "Hämeenlinna"
+812 "Derry"
+813 "Arna"
+814 "Voss"
+815 "Lærdal"
+816 "Tyin"
+817 "Fagernes"
+818 "Hønefoss"
+819 "Sandvika"
+820 "Craigavon"
+821 "Stranraer"
+822 "Gretna"
+823 "Carlisle"
+824 "Arendal"
+825 "Porsgrunn"
+826 "Larvik"
+827 "Sandefjord"
+828 "Horten"
+829 "Drammen"
+830 "Askim"
+831 "Karlstad"
+832 "Västerås"
+833 "Stockholm/Kapellskär"
+834 "Mariehamn"
+835 "Turku/Naantali"
+836 "Kotka"
+837 "Vaalimaa"
+838 "Vyborg"
+839 "Holyhead"
+840 "Chester"
+841 "Warrington"
+842 "Immingham"
+843 "Groningen"
+844 "Sassnitz"
+845 "Kalmar"
+846 "Ventspils"
+847 "Rēzekne"
+848 "Velikiye Luki"
+849 "Vladimir"
+850 "Nizhny Novgorod"
+851 "Kazan"
+852 "Yelabuga"
+853 "Perm"
+854 "Yekaterinburg"
+855 "Tyumen"
+856 "Cambridge"
+857 "Koszalin"
+858 "Słupsk"
+859 "Gdynia"
+860 "Nesterov"
+861 "Marijampolė"
+862 "Harwich"
+863 "Zeebrugge"
+864 "Venlo"
+865 "Cottbus"
+866 "Kursk"
+867 "Saratov"
+868 "Aktobe"
+869 "Karabutak"
+870 "Aral"
+871 "Novokazalinsk"
+872 "Dunkirk"
+873 "Lille"
+874 "Mons"
+875 "Charleroi"
+876 "Namur"
+877 "St. Vith"
+878 "Wittlich"
+879 "Bingen"
+880 "Wiesbaden"
+881 "Amiens"
+882 "Charleville-Mézières"
+883 "Trier"
+884 "Koblenz"
+885 "Caen"
+886 "Rouen"
+887 "Schweinfurt"
+888 "Marktredwitz"
+889 "Appenweier"
+890 "Chaumont"
+891 "Waldshut"
+892 "Regensburg"
+893 "Passau"
+894 "Wels"
+895 "Iaşi"
+896 "Sculeni"
+897 "Chişinău"
+898 "Mykolaiv"
+899 "Melitopol"
+900 "Taganrog"
+901 "Poitiers"
+902 "Mâcon"
+903 "Sion"
+904 "Simplon"
+905 "Gravellona Toce"
+906 "Innichen"
+907 "Spittal an der Drau"
+908 "Klagenfurt"
+909 "Veszprém"
+910 "Székesfehérvár"
+911 "Arad"
+912 "Cuneo"
+913 "Asti"
+914 "Pisa"
+915 "Migliarino"
+916 "Grosseto"
+917 "Arezzo"
+918 "Sansepolcro"
+919 "Vila Real"
+920 "Bragança"
+921 "Zamora"
+922 "Tordesillas"
+923 "Tekirdağ"
+924 "Silivri"
+925 "Kristalopigi"
+926 "Florina"
+927 "Vévi"
+928 "Géfira"
+929 "Yozgat"
+930 "Sivas"
+931 "Refahiye"
+932 "Trikala"
+933 "Volos"
+934 "Megara"
+935 "Attiki Odos"
+936 "Usak"
+937 "Afyonkarahisar"
+938 "Sivrihisar"
+939 "Topboğazi"
+940 "Kırıkhan"
+941 "Reyhanlı"
+942 "Cilvegözü"
+943 "Sadakhlo"
+944 "Bagratashen"
+945 "Vanadzor"
+946 "Saatly Rayon"
+947 "Mehgri"
+948 "Ordubad"
+949 "Djulfa"
+950 "Nakhchivan"
+951 "Uchkuduk"
+952 "Gaudan"
+953 "Kzylorda"
+954 "Guza"
+955 "Kokand"
+956 "Andijan"
+957 "Osh"
+958 "Kulob"
+959 "Kalaikhumb"
+960 "Khorugh"
+961 "Murghab"
+962 "Kulma"
+963 "Ishkoshim"
+964 "Lyanga"
+965 "China"
+966 "Kokpek"
+967 "Kegen"
+968 "Tyup"
+969 "Chundzha"
+970 "Koktal"
+971 "Khorgas"
+972 "Usharal"
+973 "Druzhba"
+974 "Bakhty"
+975 "Zapadnoe"
+976 "Zhaksy"
+977 "Atbasar"
+978 "Uspenovka"
+979 "Petropavl"
+980 "Haugesund"
+981 "Røldal"
+982 "Haukeli"
+983 "Seljord"
+984 "Kongsberg"
+985 "Tresfjord"
+986 "Åndalsnes"
+987 "Portlaoise"
+988 "Hoogeveen"
+989 "Haselünne"
+990 "Cloppenburg"
+991 "Cuxhaven"
+992 "Bremerhaven"
+993 "Walsrode"
+994 "Stralsund"
+995 "Neubrandenburg"
+996 "Ukmergė"
+997 "Daugavpils"
+998 "Ostrov"
+999 "Tartu"
+1000 "Võru"
+1001 "Luhamaa"
+1002 "Jõhvi"
+1003 "Valga"
+1004 "Valka"
+1005 "Valmiera"
+1006 "Incukalns"
+1007 "Keila"
+1008 "Paldiski"
+1009 "Kapellskär"
+1010 "Babruysk"
+1011 "Palanga"
+1012 "Panevėžys"
+1013 "Breda"
+1014 "Gorinchem"
+1015 "Flushing"
+1016 "Hasselt"
+1017 "Heerlen"
+1018 "Barwinek"
+1019 "Vyšný Komárnik"
+1020 "Svidník"
+1021 "Lublin"
+1022 "Kovel"
+1023 "Trosna"
+1024 "Glukhkov"
+1025 "Saint-Brieuc"
+1026 "Roeselare"
+1027 "Kortrijk"
+1028 "Tournai"
+1029 "Jabbeke"
+1030 "Nivelles"
+1031 "Eynatten"
+1032 "Teplice"
+1033 "Olomouc"
+1034 "Svitavy"
+1035 "Český Těšín"
+1036 "Courtney"
+1037 "Troyes"
+1038 "Remiremont"
+1039 "Donaueschingen"
+1040 "Memmingen"
+1041 "Füssen"
+1042 "Garmisch-Partenkirchen"
+1043 "Mittenwald"
+1044 "Seefeld"
+1045 "Humpolec"
+1046 "Braunau am Inn"
+1047 "Žiar nad Hronom"
+1048 "Nyíregyháza"
+1049 "Chop"
+1050 "Bacău"
+1051 "Dunajská Streda"
+1052 "Medveďov"
+1053 "Vámosszabadi"
+1054 "Dej"
+1055 "Buzău"
+1056 "Sărăţel"
+1057 "Reghin"
+1058 "Topliţa"
+1059 "Gheorgheni"
+1060 "Miercurea-Ciuc"
+1061 "Sfântu Gheorghe"
+1062 "Chichiş"
+1063 "Tişiţa"
+1064 "Tecuci"
+1065 "Albiţa"
+1066 "Leuşeni"
+1067 "Săbăoani"
+1068 "Bălţi"
+1069 "Mohyliv-Podilskyi"
+1070 "Poltava"
+1071 "Giurgiuleşti"
+1072 "Krasnodar"
+1073 "Djoubga"
+1074 "Niort"
+1075 "Saintes"
+1076 "Angoulême"
+1077 "Limoges"
+1078 "Digoin"
+1079 "Chalon-sur-Saône"
+1080 "Pont-d'Ain"
+1081 "St. Johann in Tirol"
+1082 "Lofer"
+1083 "Altenmarkt im Pongau"
+1084 "Loiblpass"
+1085 "Torniyiszentmiklós"
+1086 "Balatonkeresztúr"
+1087 "Nagyatád"
+1088 "Barcs"
+1089 "Virovitica"
+1090 "Okučani"
+1091 "Banja Luka"
+1092 "Jajce"
+1093 "Donji Vakuf"
+1094 "Sombor"
+1095 "Lugoj"
+1096 "Ilia"
+1097 "Negru Vodă"
+1098 "Kardam"
+1099 "Ashtarak"
+1100 "Gyumri"
+1101 "Ashotsk"
+1102 "Akhalkalaki"
+1103 "Akhaltsikhe"
+1104 "Vale, Georgia"
+1105 "Türkgözü"
+1106 "Posof"
+1107 "Kars"
+1108 "Horasan"
+1109 "Supsa"
+1110 "Lanchkhuti"
+1111 "Grenoble"
+1112 "Marseille"
+1113 "Valence"
+1114 "Savona"
+1115 "Pula"
+1116 "Koper"
+1117 "Bihać"
+1118 "Sarajevo"
+1119 "Užice"
+1120 "Čačak"
+1121 "Kraljevo"
+1122 "Kruševac"
+1123 "Pojate"
+1124 "Paraćin"
+1125 "Zaječar"
+1126 "Nova Varoš"
+1127 "Yablanitsa"
+1128 "Popovica"
+1129 "Coimbra"
+1130 "Viseu"
+1131 "Chaves"
+1132 "Verín"
+1133 "Guarda"
+1134 "Castelo Branco"
+1135 "Portalegre"
+1136 "Évora"
+1137 "Beja"
+1138 "Ourique"
+1139 "Salamanca"
+1140 "Mérida"
+1141 "Logroño"
+1142 "Famalicão"
+1143 "Torres Novas"
+1144 "Abrantes"
+1145 "San Cesareo"
+1146 "Olbia"
+1147 "Civitavecchia"
+1148 "Avellino"
+1149 "Benevento"
+1150 "Spezzano Albanese"
+1151 "Sybaris"
+1152 "Crotone"
+1153 "Potenza"
+1154 "Sant'Eufemia Lamezia"
+1155 "Catanzaro"
+1156 "Prizren"
+1157 "Kyustendil"
+1158 "Balıkesir"
+1159 "Manisa"
+1160 "Çeşme"
+1161 "Jaén"
+1162 "Granada"
+1163 "Buonfornello"
+1164 "Enna"
+1165 "Alcamo"
+1166 "Trapani"
+1167 "Arta"
+1168 "Agrinio"
+1169 "Messolonghi"
+1170 "Aktio"
+1171 "Vonitsa"
+1172 "Amfilochia"
+1173 "Karpenisi"
+1174 "Sparti"
+1175 "Gytheio"
+1176 "Eleusina"
+1177 "Thebes"
+1178 "Brest-Litovsk"
+*Edges
+1 2 1
+2 3 1
+3 4 1
+4 5 1
+6 7 1
+7 8 1
+8 9 1
+9 10 1
+10 11 1
+11 12 1
+12 13 1
+13 14 1
+15 16 1
+16 17 1
+17 18 1
+18 19 1
+19 20 1
+20 21 1
+7 22 1
+7 23 1
+23 24 1
+24 25 1
+25 26 1
+26 27 1
+27 28 1
+28 29 1
+29 30 1
+30 31 1
+31 32 1
+32 33 1
+33 34 1
+14 34 1
+35 36 1
+36 37 1
+37 38 1
+38 39 1
+39 40 1
+40 41 1
+41 42 1
+42 43 1
+43 44 1
+44 45 1
+45 46 1
+46 47 1
+47 48 1
+48 49 1
+49 50 1
+50 51 1
+51 52 1
+52 53 1
+53 54 1
+54 55 1
+55 56 1
+56 57 1
+58 59 1
+59 60 1
+61 62 1
+62 63 1
+65 66 1
+66 67 1
+67 68 1
+68 69 1
+69 70 1
+70 71 1
+71 72 1
+72 73 1
+73 74 1
+47 74 1
+48 75 1
+75 76 1
+76 77 1
+77 78 1
+78 79 1
+79 80 1
+80 81 1
+81 82 1
+82 83 1
+83 84 1
+84 85 1
+85 86 1
+86 87 1
+88 89 1
+89 90 1
+90 91 1
+91 92 1
+92 93 1
+93 94 1
+95 96 1
+96 97 1
+97 98 1
+98 99 1
+99 100 1
+100 101 1
+101 102 1
+102 103 1
+103 104 1
+104 105 1
+105 106 1
+106 107 1
+107 108 1
+108 109 1
+109 110 1
+110 111 1
+111 112 1
+112 113 1
+113 114 1
+114 115 1
+115 116 1
+85 116 1
+85 117 1
+117 118 1
+118 119 1
+119 120 1
+120 121 1
+121 122 1
+122 123 1
+123 124 1
+124 125 1
+126 127 1
+127 128 1
+128 129 1
+131 132 1
+132 133 1
+133 134 1
+134 135 1
+135 136 1
+136 137 1
+138 139 1
+139 140 1
+140 141 1
+141 142 1
+142 143 1
+143 144 1
+144 145 1
+145 146 1
+146 147 1
+147 148 1
+148 149 1
+149 150 1
+150 151 1
+151 152 1
+118 152 1
+118 153 1
+153 154 1
+154 155 1
+155 156 1
+156 157 1
+157 158 1
+158 159 1
+160 161 1
+161 162 1
+162 163 1
+163 164 1
+164 165 1
+166 167 1
+168 169 1
+169 170 1
+170 171 1
+171 172 1
+172 173 1
+173 174 1
+174 175 1
+175 176 1
+176 177 1
+177 178 1
+178 179 1
+179 180 1
+143 180 1
+143 181 1
+181 182 1
+182 183 1
+183 184 1
+184 185 1
+185 186 1
+186 187 1
+187 188 1
+188 189 1
+189 190 1
+190 191 1
+191 192 1
+192 193 1
+193 194 1
+194 195 1
+195 196 1
+196 197 1
+197 198 1
+198 199 1
+199 200 1
+200 201 1
+201 202 1
+202 203 1
+203 204 1
+204 205 1
+205 206 1
+206 207 1
+207 208 1
+208 209 1
+209 210 1
+210 211 1
+162 212 1
+212 213 1
+213 214 1
+165 214 1
+215 216 1
+217 218 1
+218 219 1
+219 220 1
+220 221 1
+221 222 1
+222 223 1
+223 224 1
+224 225 1
+225 226 1
+226 227 1
+227 228 1
+228 229 1
+229 230 1
+231 232 1
+232 233 1
+233 234 1
+234 235 1
+235 236 1
+183 236 1
+183 237 1
+237 238 1
+238 239 1
+239 240 1
+240 241 1
+241 242 1
+242 243 1
+243 244 1
+199 244 1
+199 245 1
+245 246 1
+246 247 1
+247 248 1
+248 249 1
+206 249 1
+206 208 1
+208 250 1
+216 251 1
+251 252 1
+252 253 1
+254 255 1
+255 256 1
+256 257 1
+257 258 1
+258 259 1
+259 260 1
+260 261 1
+261 262 1
+262 263 1
+263 264 1
+264 265 1
+265 266 1
+266 267 1
+267 268 1
+268 269 1
+269 270 1
+270 271 1
+271 272 1
+272 273 1
+273 274 1
+274 275 1
+275 276 1
+276 277 1
+277 278 1
+279 280 1
+280 281 1
+281 282 1
+282 283 1
+284 285 1
+286 287 1
+287 288 1
+288 289 1
+282 289 1
+290 291 1
+291 292 1
+279 292 1
+279 286 1
+286 293 1
+293 294 1
+294 295 1
+295 296 1
+296 297 1
+286 298 1
+286 299 1
+299 300 1
+301 302 1
+302 303 1
+303 304 1
+304 305 1
+305 306 1
+306 307 1
+307 308 1
+308 309 1
+309 310 1
+310 311 1
+286 312 1
+312 313 1
+313 314 1
+314 315 1
+315 316 1
+316 317 1
+317 318 1
+318 319 1
+319 320 1
+321 322 1
+322 323 1
+323 324 1
+324 325 1
+325 326 1
+326 327 1
+327 328 1
+328 329 1
+329 330 1
+331 332 1
+332 333 1
+333 334 1
+334 335 1
+335 336 1
+336 337 1
+337 338 1
+338 339 1
+339 340 1
+340 341 1
+341 342 1
+343 344 1
+344 345 1
+345 346 1
+346 347 1
+347 348 1
+348 349 1
+349 350 1
+350 351 1
+352 353 1
+353 354 1
+354 355 1
+355 356 1
+357 358 1
+359 360 1
+360 361 1
+361 362 1
+362 363 1
+363 364 1
+364 365 1
+365 366 1
+367 368 1
+368 369 1
+370 371 1
+371 372 1
+372 373 1
+132 374 1
+132 166 1
+130 166 1
+130 375 1
+94 375 1
+94 376 1
+376 377 1
+378 379 1
+279 379 1
+380 381 1
+381 382 1
+382 383 1
+384 385 1
+385 386 1
+386 387 1
+387 388 1
+388 389 1
+19 389 1
+19 390 1
+390 391 1
+391 392 1
+35 393 1
+393 394 1
+66 394 1
+66 395 1
+395 396 1
+396 397 1
+397 398 1
+102 398 1
+102 399 1
+399 400 1
+139 400 1
+139 173 1
+173 401 1
+401 402 1
+402 1178 1
+404 1178 1
+404 405 1
+286 405 1
+286 406 1
+406 407 1
+321 407 1
+321 408 1
+331 408 1
+331 409 1
+343 409 1
+343 352 1
+22 410 1
+410 411 1
+411 412 1
+412 413 1
+39 413 1
+39 414 1
+414 415 1
+70 415 1
+70 416 1
+416 417 1
+417 418 1
+418 419 1
+419 420 1
+420 421 1
+421 422 1
+422 423 1
+141 423 1
+141 424 1
+175 424 1
+175 425 1
+425 426 1
+426 427 1
+427 428 1
+235 428 1
+235 429 1
+429 430 1
+430 431 1
+431 432 1
+432 433 1
+433 434 1
+434 435 1
+282 435 1
+282 294 1
+294 436 1
+314 436 1
+315 323 1
+323 437 1
+437 438 1
+438 439 1
+439 440 1
+440 441 1
+441 442 1
+442 443 1
+443 444 1
+339 444 1
+338 445 1
+349 445 1
+348 446 1
+446 447 1
+447 448 1
+448 449 1
+449 450 1
+355 450 1
+355 451 1
+451 452 1
+403 453 1
+453 454 1
+7 454 1
+7 455 1
+43 455 1
+43 456 1
+456 457 1
+457 458 1
+107 458 1
+107 459 1
+459 460 1
+143 460 1
+182 461 1
+461 462 1
+462 463 1
+463 464 1
+464 465 1
+465 466 1
+466 467 1
+261 467 1
+261 468 1
+468 469 1
+469 470 1
+470 471 1
+471 472 1
+472 473 1
+473 474 1
+474 475 1
+301 475 1
+301 316 1
+403 476 1
+476 477 1
+477 478 1
+478 479 1
+479 480 1
+8 480 1
+8 481 1
+481 482 1
+482 483 1
+483 484 1
+484 485 1
+485 486 1
+46 486 1
+47 487 1
+487 488 1
+488 489 1
+489 490 1
+490 491 1
+491 492 1
+492 493 1
+493 494 1
+111 494 1
+111 495 1
+492 495 1
+492 496 1
+111 496 1
+109 497 1
+146 497 1
+146 498 1
+145 498 1
+145 499 1
+499 500 1
+500 501 1
+501 502 1
+238 502 1
+238 503 1
+503 504 1
+504 505 1
+505 506 1
+506 507 1
+507 508 1
+508 509 1
+509 510 1
+267 510 1
+266 511 1
+511 512 1
+512 513 1
+513 514 1
+515 516 1
+516 517 1
+517 518 1
+518 519 1
+519 520 1
+306 520 1
+306 521 1
+521 522 1
+522 523 1
+318 523 1
+330 524 1
+524 525 1
+525 526 1
+526 527 1
+527 528 1
+441 528 1
+441 529 1
+529 530 1
+530 531 1
+531 532 1
+341 532 1
+341 533 1
+533 534 1
+534 535 1
+536 537 1
+10 537 1
+9 538 1
+23 538 1
+23 539 1
+539 540 1
+540 541 1
+56 541 1
+56 542 1
+542 543 1
+116 543 1
+116 151 1
+150 544 1
+544 545 1
+545 546 1
+190 546 1
+190 547 1
+242 547 1
+242 548 1
+548 549 1
+549 550 1
+550 551 1
+551 552 1
+267 552 1
+269 553 1
+553 554 1
+554 555 1
+284 556 1
+556 557 1
+557 558 1
+558 559 1
+515 559 1
+560 561 1
+11 561 1
+10 562 1
+562 563 1
+57 563 1
+57 87 1
+87 156 1
+194 196 1
+196 198 1
+198 243 1
+243 564 1
+564 565 1
+565 566 1
+566 567 1
+567 568 1
+568 569 1
+569 570 1
+570 571 1
+571 572 1
+12 560 1
+12 27 1
+64 573 1
+64 126 1
+574 575 1
+575 576 1
+159 576 1
+160 577 1
+205 577 1
+205 248 1
+248 278 1
+278 578 1
+579 580 1
+580 581 1
+581 582 1
+582 583 1
+583 584 1
+584 585 1
+586 587 1
+587 588 1
+588 589 1
+589 590 1
+369 590 1
+369 383 1
+536 591 1
+591 592 1
+592 593 1
+560 593 1
+560 594 1
+594 595 1
+595 596 1
+13 596 1
+597 598 1
+166 599 1
+94 600 1
+600 601 1
+601 602 1
+602 603 1
+603 604 1
+604 605 1
+605 606 1
+606 607 1
+607 608 1
+608 609 1
+609 610 1
+363 611 1
+363 612 1
+612 613 1
+613 614 1
+614 615 1
+615 616 1
+219 616 1
+219 290 1
+617 618 1
+618 619 1
+8 562 1
+27 562 1
+620 621 1
+538 621 1
+538 622 1
+623 624 1
+624 625 1
+625 626 1
+626 627 1
+19 627 1
+483 628 1
+65 412 1
+7 412 1
+43 51 1
+43 50 1
+49 486 1
+49 629 1
+53 629 1
+70 630 1
+36 631 1
+84 632 1
+70 633 1
+604 634 1
+634 635 1
+635 636 1
+636 637 1
+637 638 1
+638 639 1
+639 640 1
+641 642 1
+642 643 1
+643 644 1
+644 645 1
+646 647 1
+647 648 1
+649 650 1
+650 651 1
+651 652 1
+653 654 1
+654 655 1
+655 656 1
+657 658 1
+658 659 1
+659 660 1
+660 661 1
+661 662 1
+662 663 1
+663 664 1
+664 665 1
+666 667 1
+667 668 1
+96 668 1
+417 669 1
+417 670 1
+106 670 1
+106 671 1
+671 672 1
+488 672 1
+76 487 1
+106 673 1
+673 674 1
+491 674 1
+490 675 1
+675 676 1
+676 677 1
+78 677 1
+135 678 1
+679 680 1
+680 681 1
+400 682 1
+682 683 1
+683 684 1
+684 685 1
+685 686 1
+686 687 1
+460 687 1
+460 688 1
+688 689 1
+500 689 1
+139 690 1
+422 690 1
+422 691 1
+691 692 1
+692 693 1
+107 693 1
+460 694 1
+694 695 1
+108 695 1
+498 696 1
+696 697 1
+697 698 1
+698 699 1
+546 699 1
+181 500 1
+500 698 1
+698 700 1
+699 700 1
+190 699 1
+147 701 1
+701 702 1
+546 702 1
+544 546 1
+192 544 1
+223 703 1
+703 704 1
+704 705 1
+705 706 1
+706 707 1
+707 708 1
+227 708 1
+227 709 1
+709 710 1
+378 711 1
+255 711 1
+255 402 1
+234 402 1
+234 425 1
+425 712 1
+712 713 1
+713 714 1
+714 715 1
+143 715 1
+614 716 1
+463 717 1
+238 717 1
+238 718 1
+188 718 1
+188 190 1
+191 719 1
+193 719 1
+238 720 1
+720 721 1
+721 722 1
+722 723 1
+723 724 1
+724 725 1
+725 726 1
+726 727 1
+280 711 1
+711 728 1
+728 729 1
+729 730 1
+231 731 1
+402 731 1
+402 732 1
+429 732 1
+429 733 1
+733 734 1
+734 735 1
+238 735 1
+717 736 1
+736 737 1
+505 737 1
+505 738 1
+738 739 1
+739 740 1
+740 741 1
+551 741 1
+551 742 1
+743 744 1
+744 745 1
+564 745 1
+564 746 1
+746 747 1
+248 747 1
+466 748 1
+748 749 1
+749 750 1
+506 750 1
+507 751 1
+751 752 1
+752 753 1
+267 753 1
+267 513 1
+270 754 1
+754 755 1
+745 755 1
+283 756 1
+756 757 1
+757 758 1
+758 759 1
+513 759 1
+513 555 1
+555 760 1
+760 761 1
+761 762 1
+762 763 1
+763 764 1
+764 765 1
+765 766 1
+578 766 1
+578 767 1
+767 768 1
+768 769 1
+769 770 1
+770 771 1
+771 772 1
+772 773 1
+773 774 1
+568 775 1
+581 775 1
+776 777 1
+777 778 1
+778 779 1
+779 780 1
+781 782 1
+300 782 1
+300 783 1
+783 784 1
+784 785 1
+516 785 1
+786 787 1
+787 788 1
+788 789 1
+789 790 1
+790 791 1
+791 792 1
+130 793 1
+793 794 1
+794 795 1
+795 796 1
+377 796 1
+377 797 1
+797 798 1
+798 799 1
+799 800 1
+366 800 1
+366 801 1
+801 802 1
+803 804 1
+804 805 1
+805 806 1
+806 807 1
+802 807 1
+225 802 1
+226 808 1
+808 809 1
+809 810 1
+710 810 1
+608 800 1
+709 809 1
+709 811 1
+230 811 1
+91 604 1
+91 798 1
+587 812 1
+2 17 1
+651 813 1
+813 814 1
+814 815 1
+815 816 1
+816 817 1
+817 818 1
+818 819 1
+600 819 1
+587 820 1
+821 822 1
+822 823 1
+18 823 1
+665 824 1
+824 825 1
+825 826 1
+826 827 1
+827 828 1
+828 829 1
+600 829 1
+600 830 1
+830 831 1
+376 831 1
+376 832 1
+832 833 1
+230 835 1
+230 836 1
+836 837 1
+837 838 1
+279 838 1
+839 840 1
+840 841 1
+371 841 1
+372 623 1
+623 842 1
+65 843 1
+633 843 1
+101 633 1
+101 681 1
+138 681 1
+138 844 1
+166 845 1
+795 845 1
+711 846 1
+711 847 1
+847 848 1
+286 848 1
+286 849 1
+849 850 1
+850 851 1
+851 852 1
+852 853 1
+853 854 1
+854 855 1
+343 855 1
+4 856 1
+391 856 1
+101 139 1
+139 171 1
+170 857 1
+857 858 1
+858 859 1
+231 859 1
+231 730 1
+729 860 1
+860 861 1
+256 861 1
+256 404 1
+390 862 1
+628 863 1
+37 628 1
+37 864 1
+69 864 1
+69 669 1
+398 669 1
+140 865 1
+175 865 1
+289 866 1
+299 866 1
+299 867 1
+322 867 1
+322 868 1
+868 869 1
+869 870 1
+870 871 1
+337 871 1
+872 873 1
+873 874 1
+874 875 1
+875 876 1
+39 876 1
+39 877 1
+877 878 1
+878 879 1
+879 880 1
+71 880 1
+71 670 1
+6 881 1
+881 882 1
+42 882 1
+42 883 1
+883 884 1
+417 884 1
+597 885 1
+885 886 1
+455 886 1
+455 882 1
+39 882 1
+693 887 1
+693 888 1
+686 888 1
+143 687 1
+45 889 1
+73 889 1
+73 671 1
+671 673 1
+108 673 1
+108 146 1
+7 890 1
+46 890 1
+47 891 1
+674 891 1
+108 674 1
+107 892 1
+892 893 1
+893 894 1
+498 894 1
+183 500 1
+183 735 1
+463 735 1
+463 465 1
+264 748 1
+264 895 1
+895 896 1
+896 897 1
+283 897 1
+283 898 1
+781 898 1
+781 899 1
+899 900 1
+474 900 1
+478 901 1
+901 902 1
+51 902 1
+50 629 1
+629 903 1
+903 904 1
+904 905 1
+82 905 1
+82 542 1
+57 542 1
+82 541 1
+82 543 1
+113 906 1
+906 907 1
+147 907 1
+147 908 1
+698 908 1
+698 909 1
+909 910 1
+239 911 1
+739 911 1
+739 752 1
+509 752 1
+9 562 1
+563 912 1
+912 913 1
+56 913 1
+914 915 1
+86 915 1
+916 917 1
+917 918 1
+154 918 1
+593 919 1
+919 920 1
+920 921 1
+921 922 1
+766 923 1
+923 924 1
+925 926 1
+926 927 1
+927 928 1
+581 929 1
+929 930 1
+930 931 1
+577 932 1
+206 932 1
+206 933 1
+213 934 1
+934 935 1
+768 936 1
+936 937 1
+937 938 1
+939 940 1
+940 941 1
+941 942 1
+307 943 1
+943 944 1
+944 945 1
+319 946 1
+946 947 1
+947 948 1
+948 949 1
+949 950 1
+792 950 1
+440 951 1
+440 524 1
+524 952 1
+951 953 1
+441 951 1
+443 954 1
+340 955 1
+339 955 1
+955 956 1
+956 957 1
+535 957 1
+341 958 1
+958 959 1
+959 960 1
+960 961 1
+961 962 1
+533 960 1
+960 963 1
+963 964 1
+964 965 1
+349 957 1
+966 967 1
+967 968 1
+348 966 1
+966 969 1
+969 970 1
+970 971 1
+446 970 1
+972 973 1
+449 974 1
+975 976 1
+976 977 1
+344 977 1
+408 852 1
+336 345 1
+345 353 1
+353 978 1
+975 979 1
+980 981 1
+981 982 1
+982 983 1
+983 984 1
+829 984 1
+643 985 1
+985 986 1
+603 986 1
+380 987 1
+65 395 1
+395 988 1
+843 988 1
+988 989 1
+989 990 1
+991 992 1
+633 992 1
+633 993 1
+844 994 1
+994 995 1
+139 995 1
+232 401 1
+401 425 1
+255 996 1
+996 997 1
+847 997 1
+847 998 1
+378 999 1
+999 1000 1
+1000 1001 1
+999 1002 1
+999 1003 1
+1003 1004 1
+1004 1005 1
+1005 1006 1
+378 1007 1
+1007 1008 1
+404 1010 1
+281 1010 1
+254 1011 1
+728 1011 1
+728 1012 1
+996 1012 1
+256 996 1
+1013 1014 1
+66 1014 1
+1013 1015 1
+37 1013 1
+39 628 1
+413 1016 1
+1016 1017 1
+415 1017 1
+104 669 1
+430 732 1
+430 1018 1
+1018 1019 1
+1019 1020 1
+462 1020 1
+402 1021 1
+433 1021 1
+1021 1022 1
+434 1022 1
+282 434 1
+1023 1024 1
+885 1025 1
+22 886 1
+454 886 1
+410 863 1
+410 1026 1
+1026 1027 1
+1027 1028 1
+863 1029 1
+43 412 1
+875 1030 1
+455 875 1
+414 1031 1
+414 877 1
+42 877 1
+456 883 1
+682 1028 1
+423 683 1
+683 692 1
+687 1032 1
+179 1032 1
+179 715 1
+715 1033 1
+236 1033 1
+71 418 1
+71 457 1
+182 1034 1
+182 500 1
+182 1033 1
+1033 1035 1
+235 1035 1
+433 466 1
+454 479 1
+454 480 1
+1036 1037 1
+46 1038 1
+74 1039 1
+1040 1041 1
+108 1042 1
+1042 1043 1
+1043 1044 1
+111 1044 1
+688 1045 1
+108 1046 1
+894 1046 1
+145 894 1
+461 1047 1
+504 1048 1
+1048 1049 1
+465 1049 1
+509 1050 1
+509 753 1
+551 753 1
+183 1051 1
+1051 1052 1
+1052 1053 1
+237 1053 1
+506 1054 1
+510 1055 1
+1056 1057 1
+1057 1058 1
+1058 1059 1
+1059 1060 1
+1060 1061 1
+1061 1062 1
+1063 1064 1
+1064 1065 1
+1065 1066 1
+897 1066 1
+895 1067 1
+895 1068 1
+1068 1069 1
+469 1069 1
+435 469 1
+471 1070 1
+471 897 1
+897 1071 1
+758 1071 1
+511 758 1
+1072 1073 1
+598 1074 1
+598 1075 1
+1075 1076 1
+1076 1077 1
+480 620 1
+9 1076 1
+1078 1079 1
+23 1080 1
+54 541 1
+110 1081 1
+1081 1082 1
+146 1082 1
+696 1083 1
+908 1084 1
+702 1084 1
+189 1085 1
+1086 1087 1
+1087 1088 1
+1088 1089 1
+1089 1090 1
+1090 1091 1
+1091 1092 1
+1092 1093 1
+725 1093 1
+240 1094 1
+722 1094 1
+549 911 1
+505 911 1
+505 749 1
+1095 1096 1
+514 1097 1
+1097 1098 1
+1099 1100 1
+1100 1101 1
+1101 1102 1
+1102 1103 1
+1103 1104 1
+1104 1105 1
+1105 1106 1
+1106 1107 1
+1107 1108 1
+1109 1110 1
+517 1110 1
+23 1111 1
+51 539 1
+539 1112 1
+1111 1113 1
+24 1112 1
+541 1114 1
+192 1115 1
+1115 1116 1
+1092 1117 1
+725 1118 1
+1118 1119 1
+1119 1120 1
+1120 1121 1
+1121 1122 1
+1122 1123 1
+1123 1124 1
+1124 1125 1
+196 1118 1
+242 1120 1
+1120 1126 1
+197 1126 1
+243 550 1
+271 1127 1
+271 554 1
+272 1128 1
+272 760 1
+1129 1130 1
+919 1130 1
+919 1131 1
+1131 1132 1
+920 1133 1
+1133 1134 1
+1134 1135 1
+1135 1136 1
+1136 1137 1
+1137 1138 1
+1139 1140 1
+13 1140 1
+537 1141 1
+619 1141 1
+1131 1142 1
+1143 1144 1
+1134 1144 1
+87 1145 1
+62 1146 1
+122 1148 1
+121 1148 1
+1148 1149 1
+157 1149 1
+158 576 1
+1150 1151 1
+124 1152 1
+123 1153 1
+575 1153 1
+1154 1155 1
+195 1156 1
+198 1156 1
+564 1157 1
+244 1157 1
+567 580 1
+580 1158 1
+1158 1159 1
+768 1159 1
+768 1160 1
+12 30 1
+1161 1162 1
+34 1162 1
+129 573 1
+1163 1164 1
+127 1164 1
+1165 1166 1
+577 1167 1
+1167 1168 1
+1168 1169 1
+1170 1171 1
+1171 1172 1
+1172 1173 1
+208 1173 1
+214 1174 1
+1174 1175 1
+1176 1177 1
