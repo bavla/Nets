@@ -12,6 +12,6 @@ Corrected: Brest (403) -> Brest (403) + Brest-Litovsk (1178); removed 52 multipl
 
 ## Padgett's Florentine families marriages
 
-Network from the Ucinet networks converted into Pajek format by Vladimir Batagelj, 12. June 2020.
+Network from Ucinet networks converted into Pajek format by Vladimir Batagelj, 12. June 2020.
 
 Undirected, simple, binary, nodes= 16, edges= 20.
