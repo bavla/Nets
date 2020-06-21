@@ -8,7 +8,7 @@ based on graph representation. Each node/link has its id. If a link id
 is not specified by a user it is determined by Nets.
 The library Nets is based on an object containing three dictionaries:
 
-  - `_graph` - keys are general properties of a network. System
+  - `_info` - keys are general properties of a network. System
 properties: `network`, `title`, `simple`, `directed`, `multirel`,
 `mode`, `temporal`, `meta`, `nNodes`, `nArcs`, `nEdges`, `time`, etc.
 User properties: `nWeak`, `planar`, etc.
