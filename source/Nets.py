@@ -10,8 +10,8 @@
 # change: 9. November 2018 - delLoops, TQtwo2oneNorm
 # change: 14. April 2019 - some problems in loadPajek - see code
 # change: 2. June 2020 - "standardization" in _info 'network' and 'title'
-# last change: 12. June 2020 - delLink, BFSpair, biBFSpair
-# last change: 21. June 2020 - biconnected components BCC
+# change: 12. June 2020 - delLink, BFSpair, biBFSpair
+# last change: 21. June 2020 - biconnected components BCC, shortCyWeight
 # === To do =============================================================
 # Check loops in stars - apply set to union  !?
 # Remove intervals with value 0
@@ -39,7 +39,7 @@ class Network(Search,Coloring):
     Colors = ['White','Black','Red','Blue','Green','Magenta','Cyan',
         'Yellow', 'Brown', 'Orange', 'Lime', 'Pink', 'Purple', 'Orchid',
         'Salmon', 'SeaGreen']
-    INFTY = 1e10
+    INFTY = float('inf')
     
     @staticmethod
     def location():
@@ -874,9 +874,12 @@ class Network(Search,Coloring):
 #        json.dump(net, js, ensure_ascii=False, indent=indent)
         json.dump(net, js, indent=indent)
         js.close()
-    def savePajek(self,file,coord=True):
+    def savePajek(self,file,key='w',coord=True):
 # sprogramiraj še za dvodelna omrežja
         net = open(file,'w'); n=len(self._nodes)
+        net.write('% '+str(self._info['network'])+'\n')
+        net.write('% '+str(self._info['meta'])+'\n')
+        net.write('% savePajek:'+datetime.datetime.now().ctime()+'\n')
         net.write('*vertices '+str(n)+'\n')
         ind = {}
         for (i,v) in enumerate(self._nodes):
@@ -890,14 +893,14 @@ class Network(Search,Coloring):
         for a in self.arcs():
             u,v,*r = self._links[a]
 #            print(a,u,v,r)
-            w = self.getLink(a,'w')
+            w = self.getLink(a,key)
             if w == None: w = 1
             net.write(str(ind[u])+' '+str(ind[v])+' '+str(w)+'\n')
         net.write('*edges\n')
         for e in self.edges():
             u,v,*r = self._links[e]
 #            print(e,u,v,r)
-            w = self.getLink(e,'w')
+            w = self.getLink(e,key)
             if w == None: w = 1
             net.write(str(ind[u])+' '+str(ind[v])+' '+str(w)+'\n')
         net.close()
@@ -1291,6 +1294,40 @@ class Network(Search,Coloring):
                     self.setLink(self.indEdge(w),key,count)
                 # print("")
         self._info[key] = count
+# shortest cycle weights
+    def shortCyWeight(self,key='scy'):
+    # biconnected components decomposition
+        n = len(self._nodes); infinity = float('inf')
+        self.BCC()
+        count = self.getInfo('BiCo')
+        for e in self._links: self.setLink(e,key,infinity)
+        BiCo = [ self.getLink(e,'BiCo') for e in self.links()]
+        size = [0] * (count+1)
+        for c in BiCo: size[c] += 1
+        for e in self.links():
+            if size[self.getLink(e,'BiCo')] == 1: self.setLink(e,key,n+1)
+    # triangles
+        for e in self._links:
+            if self.getLink(e,key) == infinity:
+                u = self._links[e][0]; v = self._links[e][1]
+                if len(self._nodes[u][0]) > len(self._nodes[v][0]): u,v = v,u
+                found = False
+                for t in self._nodes[u][0]:
+                    if t in self._nodes[v][0]:
+                        found = True
+                        self.setLink(self.indEdge((u,t)),key,3)
+                        self.setLink(self.indEdge((v,t)),key,3)
+                    if found: self.setLink(self.indEdge((u,v)),key,3)
+    # shortest cycles for remaining edges
+        L = self._links.keys()
+        for e in L:
+            c = self.getLink(e,key)
+            if c==infinity or (3 < c and c < (n+1)):
+                u,v,d,r,w = self.link(e)
+                self.delLink(e)
+                S = self.biBFSpair(u,v)
+                w[key] = n+1 if len(S) == 0 else len(S)
+                self.addEdge(u,v,w)
 
 # if __name__ == '__main__':
 
