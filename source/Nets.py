@@ -9,8 +9,9 @@
 # change: 12. August 2017 - Graph renamed to Nets
 # change: 9. November 2018 - delLoops, TQtwo2oneNorm
 # change: 14. April 2019 - some problems in loadPajek - see code
-# change: 2. June 2020 - "standardization" in _info 'Network' and 'title'
-# last change: 12. June 2020 - delLink
+# change: 2. June 2020 - "standardization" in _info 'network' and 'title'
+# last change: 12. June 2020 - delLink, BFSpair, biBFSpair
+# last change: 21. June 2020 - biconnected components BCC
 # === To do =============================================================
 # Check loops in stars - apply set to union  !?
 # Remove intervals with value 0
@@ -28,6 +29,7 @@ from search import Search
 from coloring import Coloring
 from copy import copy, deepcopy
 from collections import deque
+from collections import defaultdict  
 
 # http://www.w3schools.com/html/html_colornames.asp
 
@@ -38,7 +40,7 @@ class Network(Search,Coloring):
         'Yellow', 'Brown', 'Orange', 'Lime', 'Pink', 'Purple', 'Orchid',
         'Salmon', 'SeaGreen']
     INFTY = 1e10
-
+    
     @staticmethod
     def location():
         return [platform.uname()[1], os.getcwd()]
@@ -65,10 +67,10 @@ class Network(Search,Coloring):
         elif len(S)==1: return u
         else: return (S-{u}).pop()
     def __init__(self,simple=False,mode=1,multirel=False,temporal=False,
-        Network="test",title="Test",):
+        network="test",title="Test",):
         self._linkId = 0
         self._info = {'simple': simple,'mode': mode,'multirel':multirel,
-            'temporal':temporal,'Network':Network,'title':title,'meta':[],
+            'temporal':temporal,'network':Network,'title':title,'meta':[],
             'legends':{}}
         self._info['required'] = {"nodes":['id','mode','lab'],
             'links':['n1', 'n2', 'type']}
@@ -101,7 +103,7 @@ class Network(Search,Coloring):
         temporal = self._info.get('temporal',False)
         org = self._info.get('org',1)
         mode = self._info.get('mode',1)
-        Network = self._info.get('Network',"test")
+        network = self._info.get('network',"test")
         title = self._info.get('title',"testSAVE")
         multirel = self._info.get('multirel',False)
         # meta =  self._info.get('meta',[])
@@ -111,7 +113,7 @@ class Network(Search,Coloring):
         nEdges = len(list(self.edges()))
         nArcs = len(list(self.arcs()))
         directed = nEdges==0
-        print("\nNetwork: ",Network,"\n",title,"\nsimple=",simple,
+        print("\nnetwork: ",network,"\n",title,"\nsimple=",simple,
             " directed=",directed," org=",org," mode=",mode,
             " multirel=",multirel," temporal=",temporal,"\nnodes=",nNodes,
             " links=",nArcs+nEdges," arcs=",nArcs," edges=",nEdges)
@@ -245,6 +247,10 @@ class Network(Search,Coloring):
     def delProp(self,key):
     	for u in self._nodes:
     	    if key in self._nodes[u][3]: del self._nodes[u][3][key]
+    def indEdge(self,uv):
+    	u, v = uv; return self._nodes[u][0][v][0]
+    def indArc(self,uv):
+    	u, v = uv; return self._nodes[u][1][v][0]
     def setLink(self,e,key,val): self._links[e][4][key] = val
     def getLink(self,e,key,null=None):
         return self._links[e][4].get(key,null)
@@ -275,7 +281,7 @@ class Network(Search,Coloring):
     def reverse(self):
         R = Network()
         R._info = copy(self._info)
-        R._info['Network'] = 'Tran('+self._info['Network']+')'
+        R._info['network'] = 'Tran('+self._info['network']+')'
         R._info['title'] = 'TRAN('+self._info['title']+')'
         for v in self._nodes.keys():
             R._nodes[v] = [ dict(self._nodes[v][0]),
@@ -288,7 +294,7 @@ class Network(Search,Coloring):
         T = Network()
         nr, nc = self._info['dim']
         T._info = deepcopy(self._info)
-        T._info['Network'] = 'Tran('+self._info['Network']+')'
+        T._info['network'] = 'Tran('+self._info['network']+')'
         T._info['title'] = 'TRAN('+self._info['title']+')'
         for v in self._nodes.keys():
             if self._nodes[v][3]['mode']==1:
@@ -307,7 +313,7 @@ class Network(Search,Coloring):
         T = Network(); n = len(self._nodes)
         T._info = copy(self._info); T._info['mode'] = 2
         T._info['dim'] = (n,n)
-        T._info['Network'] = '1to2('+self._info['Network']+')'
+        T._info['network'] = '1to2('+self._info['network']+')'
         T._info['title'] = '1TO2('+self._info['title']+')'
         for v in self._nodes.keys():
             T.addNode(v,1); T.addNode(v+n,2)
@@ -346,7 +352,7 @@ class Network(Search,Coloring):
         nr,nc = self._info['dim']
         G = Network(); G._info['mode'] = 1; G._info['nNodes'] = nr
         G._info['simple'] = True
-        G._info['Network'] = 'ProR('+self._info['Network']+')'
+        G._info['network'] = 'ProR('+self._info['network']+')'
         G._info['title'] = 'PROR('+self._info['title']+')'
         for v in self.nodesMode(1):
             G.addNode(v,1); G._nodes[v][3] = dict(self._nodes[v][3])
@@ -363,7 +369,7 @@ class Network(Search,Coloring):
         nr,nc = self._info['dim']
         G = Network(); G._info['mode'] = 1; G._info['nNodes'] = nc
         G._info['simple'] = True
-        G._info['Network'] = 'ProC('+self._info['Network']+')'
+        G._info['network'] = 'ProC('+self._info['network']+')'
         G._info['title'] = 'PROC('+self._info['title']+')'
         for v in range(nc):
             C.addNode(v+1,1); C._nodes[v+1][3] = dict(self._nodes[nr+v+1][3])
@@ -383,7 +389,7 @@ class Network(Search,Coloring):
         if oneMode and (nar != nbc): raise Network.NetworkError(
             "Product is not a one-mode Network {0} != {1}".format(nar,nbc))
         C = Network(); C._info['simple'] = True
-        C._info['Network'] = '('+A._info['Network']+') X ('+B._info['Network']+')'
+        C._info['network'] = '('+A._info['network']+') X ('+B._info['network']+')'
         C._info['title'] = 'PROD('+A._info['title']+', '+B._info['title']+')'
         C._info['mode'] = 1 if oneMode else 2; C._info['dim'] = [nar,nbc]
         C._info['nNodes'] = nar if oneMode else nar+nbc
@@ -406,7 +412,7 @@ class Network(Search,Coloring):
         return C
     def TQnormal(self,key='tq',act='act'):
         N = deepcopy(self)
-        N._info['Network'] = 'Norm('+self._info['Network']+')'
+        N._info['network'] = 'Norm('+self._info['network']+')'
         N._info['title'] = 'NORM('+self._info['title']+')'
         for u in N.nodesMode(1):
             qu = TQ.TQ.invert(N.TQnetOutDeg(u,act=act),vZero=1)
@@ -461,7 +467,7 @@ class Network(Search,Coloring):
         nr,nc = self._info['dim']
         C = Network(); C._info['mode'] = 1; C._info['nNodes'] = nr
         C._info['temporal'] = True; C._info['simple'] = True
-        C._info['Network'] = 'ProR('+self._info['Network']+')'
+        C._info['network'] = 'ProR('+self._info['network']+')'
         C._info['title'] = 'PROR('+self._info['title']+')'
         C._info['time'] = self._info['time']
         if 'legends' in self._info: C._info['legends']['Tlabs'] = \
@@ -500,7 +506,7 @@ class Network(Search,Coloring):
         nr,nc = self._info['dim']
         C = Network(); C._info['mode'] = 1; C._info['nNodes'] = nc
         C._info['temporal'] = True; C._info['simple'] = True
-        C._info['Network'] = 'ProC('+self._info['Network']+')'
+        C._info['network'] = 'ProC('+self._info['network']+')'
         C._info['title'] = 'PROC('+self._info['title']+')'
         C._info['time'] = self._info['time']
         if 'legends' in self._info: C._info['legends']['Tlabs'] = \
@@ -540,7 +546,7 @@ class Network(Search,Coloring):
         nr,nc = self._info['dim']
         C = Network(); C._info['mode'] = 1; C._info['nNodes'] = nc
         C._info['temporal'] = True; C._info['simple'] = True
-        C._info['Network'] = nType+'('+self._info['Network']+')'
+        C._info['network'] = nType+'('+self._info['network']+')'
         C._info['title'] = nType+'('+self._info['title']+')'
         C._info['time'] = self._info['time']
         if 'legends' in self._info: C._info['legends']['Tlabs'] = \
@@ -577,7 +583,7 @@ class Network(Search,Coloring):
             "Product is not a one-mode Network {0} != {1}".format(nar,nbc))
         C = Network(); C._info['mode'] = 2; C._info['dim'] = [nar,nbc]
         C._info['temporal'] = True; C._info['simple'] = True
-        C._info['Network'] = '('+A._info['Network']+') X ('+B._info['Network']+')'
+        C._info['network'] = '('+A._info['network']+') X ('+B._info['network']+')'
         C._info['title'] = 'PROD('+A._info['title']+', '+B._info['title']+')'
         C._info['time'] = A._info['time']
         if 'legends' in A._info: C._info['legends']['Tlabs'] = \
@@ -779,7 +785,7 @@ class Network(Search,Coloring):
             G._info['legends'] = {}
             G._info['legends']['rels'] = rels
         if len(meta)>0:
-            G._info['meta'] = meta
+            G._info['meta'] = [ { "info": meta } ]
         return G
     def loadNetsJSON(file, encoding='utf-8'):
         try: js = open(file,'r',encoding=encoding)
@@ -794,7 +800,7 @@ class Network(Search,Coloring):
             nr, nc = G._info['dim'] = net['info'].get('dim',[0,0])
             if nr==0: raise Network.NetworkError("Missing mode1 size")
         G._info['title'] = net['info'].get('title',"INPUT Network")
-        G._info['Network'] = net['info'].get('Network',"Network")
+        G._info['network'] = net['info'].get('network',"Network")
         G._info['simple'] = net['info'].get('simple',False)
         G._info['meta'] = net['info'].get('meta',[])
         G._info['multirel'] = net['info'].get('multirel',False)
@@ -833,7 +839,7 @@ class Network(Search,Coloring):
         if info['mode']>1:
             info['dim'] = \
                [len(list(self.nodesMode(i+1))) for i in range(info['mode'])]
-        info['Network'] = self._info.get('Network',"test")
+        info['network'] = self._info.get('network',"test")
         info['title'] = self._info.get('title',"testSAVE")
         info['multirel'] = self._info.get('multirel',False)
         info['meta'] =  self._info.get('meta',[])
@@ -862,7 +868,7 @@ class Network(Search,Coloring):
             links.append(Link)
         info['nArcs'] = len(list(self.arcs()))
         info['nEdges'] = len(list(self.edges()))
-        if file==None: file = info['Network']+'.json'
+        if file==None: file = info['network']+'.json'
         net = {"netsJSON": "basic", "info": info, "nodes": nodes, "links": links}
         js = open(file,'w')
 #        json.dump(net, js, ensure_ascii=False, indent=indent)
@@ -1234,6 +1240,57 @@ class Network(Search,Coloring):
                         parents_b[parent] = current
                         queue_b.append(parent)
         return []
+
+# Python program to find biconnected components in a given undirected graph
+# using algorithm by John Hopcroft and Robert Tarjan.
+# https://www.geeksforgeeks.org/biconnected-components/
+# Complexity : O(V+E)
+# adapted for Nets by Vladimir Batagelj, June 21, 2020
+
+# A recursive function that finds biconnected
+# components using DFS traversal
+# u - The vertex to be visited next
+# disc[] - Stores discovery times of visited vertices
+# low[] - Earliest visited vertex (the vertex with minimum
+# discovery time) that can be reached from subtree
+# rooted with current vertex
+# st - Stack to store visited edges'''
+    def BCCUtil(self, u, key): 
+        global parent, low, disc, st, Time, count 
+        children =0;
+        Time += 1; disc[u] = Time; low[u] = Time 
+        for v in self.edgeNeighbors(u):
+            if disc[v] == -1 :
+                parent[v] = u; children += 1
+                e = (min(u,v),max(u,v)); st.append(e) 
+                self.BCCUtil(v,key)
+                low[u] = min(low[u], low[v]) 
+                if (disc[u] == 1 and children > 1) or \
+                   (disc[u] > 1 and low[v] >= disc[u]):
+                    count +=1; w = -1
+                    while w != e:
+                        w = st.pop() # ; print(w,)
+                        self.setLink(self.indEdge(w),key,count)
+                    # print("")
+            elif v != parent[u]:
+                low[u] = min(low[u],disc[v])
+                if disc[v] < disc[u]: st.append((min(u,v),max(u,v)))
+ 
+#The function to do DFS traversal. It uses recursive BCCUtil()
+    def BCC(self,key='BiCo'):
+        global parent, low, disc, st, Time, count
+        n = len(self._nodes); Time = 0; count = 0 
+        disc = [-1] * (n+1); low = [-1] * (n+1)
+        parent = [-1] * (n+1); st = []
+        for i in self.nodes():
+            if disc[i] == -1: self.BCCUtil(i,key) 
+            if st:
+                count +=1 
+                while st:
+                    w = st.pop()  # ; print(w,)
+                    self.setLink(self.indEdge(w),key,count)
+                # print("")
+        self._info[key] = count
 
 # if __name__ == '__main__':
 
