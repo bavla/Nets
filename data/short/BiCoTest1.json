@@ -1,0 +1,148 @@
+{
+ "netsJSON": "basic",
+ "info": {
+  "simple": true,
+  "directed": false,
+  "temporal": false,
+  "org": 1,
+  "mode": 1,
+  "network": "test",
+  "title": "Test",
+  "multirel": false,
+  "meta": [
+   {
+    "URL": "https://www.geeksforgeeks.org/biconnected-components/"
+   },
+   {
+    "date": "Sat Jun 20 17:50:14 2020",
+    "title": "saved from Nets to netsJSON"
+   }
+  ],
+  "trace": [],
+  "required": {
+   "nodes": [
+    "id",
+    "mode",
+    "lab"
+   ],
+   "links": [
+    "n1",
+    "n2",
+    "type"
+   ]
+  },
+  "nNodes": 12,
+  "nArcs": 0,
+  "nEdges": 14
+ },
+ "nodes": [
+  {
+   "id": 1
+  },
+  {
+   "id": 2
+  },
+  {
+   "id": 3
+  },
+  {
+   "id": 4
+  },
+  {
+   "id": 5
+  },
+  {
+   "id": 6
+  },
+  {
+   "id": 7
+  },
+  {
+   "id": 8
+  },
+  {
+   "id": 9
+  },
+  {
+   "id": 10
+  },
+  {
+   "id": 11
+  },
+  {
+   "id": 12
+  }
+ ],
+ "links": [
+  {
+   "type": "edge",
+   "n1": 10,
+   "n2": 11
+  },
+  {
+   "type": "edge",
+   "n1": 10,
+   "n2": 11
+  },
+  {
+   "type": "edge",
+   "n1": 10,
+   "n2": 11
+  },
+  {
+   "type": "edge",
+   "n1": 10,
+   "n2": 11
+  },
+  {
+   "type": "edge",
+   "n1": 10,
+   "n2": 11
+  },
+  {
+   "type": "edge",
+   "n1": 10,
+   "n2": 11
+  },
+  {
+   "type": "edge",
+   "n1": 10,
+   "n2": 11
+  },
+  {
+   "type": "edge",
+   "n1": 10,
+   "n2": 11
+  },
+  {
+   "type": "edge",
+   "n1": 10,
+   "n2": 11
+  },
+  {
+   "type": "edge",
+   "n1": 10,
+   "n2": 11
+  },
+  {
+   "type": "edge",
+   "n1": 10,
+   "n2": 11
+  },
+  {
+   "type": "edge",
+   "n1": 10,
+   "n2": 11
+  },
+  {
+   "type": "edge",
+   "n1": 10,
+   "n2": 11
+  },
+  {
+   "type": "edge",
+   "n1": 10,
+   "n2": 11
+  }
+ ]
+}
