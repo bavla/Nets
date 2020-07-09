@@ -11,7 +11,8 @@
 # change: 14. April 2019 - some problems in loadPajek - see code
 # change: 2. June 2020 - "standardization" in _info 'network' and 'title'
 # change: 12. June 2020 - delLink, BFSpair, biBFSpair
-# last change: 21. June 2020 - biconnected components BCC, shortCyWeight
+# change: 21. June 2020 - biconnected components BCC, shortCyWeight
+# last change: 7. July 2020 - TQnormal
 # === To do =============================================================
 # Check loops in stars - apply set to union  !?
 # Remove intervals with value 0
@@ -70,7 +71,7 @@ class Network(Search,Coloring):
         network="test",title="Test",):
         self._linkId = 0
         self._info = {'simple': simple,'mode': mode,'multirel':multirel,
-            'temporal':temporal,'network':Network,'title':title,'meta':[],
+            'temporal':temporal,'network':network,'title':title,'meta':[],
             'legends':{}}
         self._info['required'] = {"nodes":['id','mode','lab'],
             'links':['n1', 'n2', 'type']}
@@ -410,12 +411,12 @@ class Network(Search,Coloring):
                        [ u, v, True, None, {key: 0} ]
                     C._links[r][4][key] += Apw*B._links[q][4][key]
         return C
-    def TQnormal(self,key='tq',act='act'):
+    def TQnormal(self,key='tq'):
         N = deepcopy(self)
         N._info['network'] = 'Norm('+self._info['network']+')'
         N._info['title'] = 'NORM('+self._info['title']+')'
         for u in N.nodesMode(1):
-            qu = TQ.TQ.invert(N.TQnetOutDeg(u,act=act),vZero=1)
+            qu = TQ.TQ.invert(N.TQnetOutDeg(u),vZero=1)
             for p in N.outStar(u):
                 N._links[p][4][key] = TQ.TQ.prod(qu,N._links[p][4][key])
         return N
@@ -618,33 +619,33 @@ class Network(Search,Coloring):
                 v = self.twin(u,p)
                 if v in Cols: s = TQ.TQ.sum(s,self.getLink(p,'tq'))
         return(s)
-    def TQnetDeg(self,u,key='tq',act='act'):
-        deg = TQ.TQ.setConst(self._nodes[u][3][act],0)
+    def TQnetDeg(self,u,key='tq'):
+        deg = []
         for p in self.star(u):
             deg = TQ.TQ.sum(deg,TQ.TQ.binary(self._links[p][4][key]))
         return deg
-    def TQnetInDeg(self,u,key='tq',act='act'):
-        deg = TQ.TQ.setConst(self._nodes[u][3][act],0)
+    def TQnetInDeg(self,u,key='tq'):
+        deg = []
         for p in self.inStar(u):
             deg = TQ.TQ.sum(deg,TQ.TQ.binary(self._links[p][4][key]))
         return deg
-    def TQnetOutDeg(self,u,key='tq',act='act'):
-        deg = TQ.TQ.setConst(self._nodes[u][3][act],0)
+    def TQnetOutDeg(self,u,key='tq'):
+        deg = []
         for p in self.outStar(u):
             deg = TQ.TQ.sum(deg,TQ.TQ.binary(self._links[p][4][key]))
         return deg
-    def TQnetSum(self,u,key='tq',act='act'):
-        s = TQ.TQ.setConst(self._nodes[u][3][act],0)
+    def TQnetSum(self,u,key='tq'):
+        s = []
         for p in self.star(u):
             s = TQ.TQ.sum(s,self._links[p][4][key])
         return s
-    def TQnetInSum(self,u,key='tq',act='act'):
-        s = TQ.TQ.setConst(self._nodes[u][3][act],0)
+    def TQnetInSum(self,u,key='tq'):
+        s = []
         for p in self.inStar(u):
             s = TQ.TQ.sum(s,self._links[p][4][key])
         return s
-    def TQnetOutSum(self,u,key='tq',act='act'):
-        s = TQ.TQ.setConst(self._nodes[u][3][act],0)
+    def TQnetOutSum(self,u,key='tq'):
+        s = []
         for p in self.outStar(u):
             s = TQ.TQ.sum(s,self._links[p][4][key])
         return s
@@ -777,7 +778,7 @@ class Network(Search,Coloring):
         G._info['temporal'] = temporal
         if temporal:
             if Tmax < Tmin: Tmin = 0; Tmax = 999999999
-            G._info['time'] = {"Tmin": Tmin, "Tmax": Tmax}
+            G._info['time'] = (Tmin, Tmax)
             if Tmax+1 < 999999999:
                 G._info['legends']['Tlabs'] = {str(y):str(y) for y in range(Tmin,Tmax+1)}
         if len(rels)>0:
@@ -849,8 +850,8 @@ class Network(Search,Coloring):
         info['required'] = self._info.get('required',{})
         info['nNodes'] = n
         if temporal:
-            minT = self._info['time']['Tmin']
-            maxT = self._info['time']['Tmax']
+            minT = self._info['time'][0]
+            maxT = self._info['time'][1]
             leg = self._info.get('legends',None)
             if leg != None: Tlabs = leg.get('Tlabs',
                { str(y):str(y) for y in range(minT,maxT+1)})
@@ -893,14 +894,16 @@ class Network(Search,Coloring):
         for a in self.arcs():
             u,v,*r = self._links[a]
 #            print(a,u,v,r)
-            w = self.getLink(a,key)
+            if key=='tq': w = TQ.TQ.total(self.getLink(a,'tq'))
+            else: w = self.getLink(a,key)
             if w == None: w = 1
             net.write(str(ind[u])+' '+str(ind[v])+' '+str(w)+'\n')
         net.write('*edges\n')
         for e in self.edges():
             u,v,*r = self._links[e]
 #            print(e,u,v,r)
-            w = self.getLink(e,key)
+            if key=='tq': w = TQ.TQ.total(self.getLink(e,'tq'))
+            else: w = self.getLink(e,key)
             if w == None: w = 1
             net.write(str(ind[u])+' '+str(ind[v])+' '+str(w)+'\n')
         net.close()
