@@ -13,11 +13,16 @@
 # change: 12. June 2020 - delLink, BFSpair, biBFSpair
 # change: 21. June 2020 - biconnected components BCC, shortCyWeight
 # last change: 7. July 2020 - TQnormal
+# 23. July 2020 - linked, arcTo, isArc, edges2pairs, arcs2edges, edges2arcs
+# 23. August 2021 - TQnetDeg, TQnetInDeg, TQnetOutDeg, TQnetSum, TQnetInSum, TQnetOutSum -
+#   set for isolated nodes to 0;
 # === To do =============================================================
 # Check loops in stars - apply set to union  !?
 # Remove intervals with value 0
 # Replace (u,v) in products with index
 # Remove n1 and n2 from link values
+# Problem with BOM (UTF-8) followed by *vertices in LoadPajek
+# Problem with [ in node labels in LoadPajek 
 # =======================================================================
 import re, sys, os, json, TQ, datetime, platform
 import turtle as t
@@ -99,6 +104,7 @@ class Network(Search,Coloring):
         for a in self._links.keys():
             if self._links[a][2]: yield a
     def link(self,e): return self._links[e]
+    def isArc(self,e): return self._links[e][2]
     def Info(self):
         simple = self._info.get('simple',False)
         temporal = self._info.get('temporal',False)
@@ -172,6 +178,9 @@ class Network(Search,Coloring):
         else: raise self.NetworkError(
             "Link {0} already defined".format((u,v)))
         return lid
+    def linked(self,u,v): return (v in self._nodes[u][0]) or \
+       (v in self._nodes[u][1]) or (v in self._nodes[u][2])
+    def arcTo(self,u,v): return (v in self._nodes[u][2])
     def neighbors(self,u):
         return (set(self._nodes[u][0].keys()) |
                 set(self._nodes[u][1].keys()) |
@@ -270,6 +279,47 @@ class Network(Search,Coloring):
         for p in self._links:
             u,v,d,r,w = self._links[p]
             if u<=v: lid=S.addEdge(u,v,w=w)
+        S._info['directed'] = False
+        S._info['nArcs'] = 0; S._info['nEdges'] = len(S._links)       
+        return S
+    def arcs2edges(self,key='w',rule="max"):
+        S = Network()
+        S._info = deepcopy(self._info)
+        for u in self._nodes:
+            ed,ia,oa,pr = self._nodes[u]
+            S._nodes[u] = [{},{},{},pr]
+        for p in self._links:
+            u,v,d,r,w = self._links[p]
+            if S.linked(u,v):
+            	# f = S._links[       .... ******** TO DO
+            	lid=0
+            else: lid=S.addEdge(u,v,w=w)
+        S._info['directed'] = False
+        S._info['nArcs'] = 0; S._info['nEdges'] = len(S._links)       
+        return S
+    def edges2pairs(self):
+        S = Network()
+        S._info = deepcopy(self._info)
+        for u in self._nodes:
+            ed,ia,oa,pr = self._nodes[u]
+            S._nodes[u] = [{},{},{},pr]
+        for p in self._links:
+            u,v,d,r,w = self._links[p]
+            lid=S.addArc(u,v,w=w); lid=S.addArc(v,u,w=w)
+        S._info['directed'] = True
+        S._info['nArcs'] = len(S._links); S._info['nEdges'] = 0        
+        return S
+    def edges2arcs(self):
+        S = Network()
+        S._info = deepcopy(self._info)
+        for u in self._nodes:
+            ed,ia,oa,pr = self._nodes[u]
+            S._nodes[u] = [{},{},{},pr]
+        for p in self._links:
+            u,v,d,r,w = self._links[p]
+            lid=S.addArc(u,v,w=w)
+        S._info['directed'] = True
+        S._info['nArcs'] = len(S._links); S._info['nEdges'] = 0        
         return S
     def topLinks(self,key='w',thresh=0,NA=0):
         def takeFifth(elem): return elem[4]
@@ -619,33 +669,33 @@ class Network(Search,Coloring):
                 v = self.twin(u,p)
                 if v in Cols: s = TQ.TQ.sum(s,self.getLink(p,'tq'))
         return(s)
-    def TQnetDeg(self,u,key='tq'):
-        deg = []
+    def TQnetDeg(self,u,key='tq',act='tq'):
+        deg = TQ.TQ.setConst(self._nodes[u][3][act],0)
         for p in self.star(u):
             deg = TQ.TQ.sum(deg,TQ.TQ.binary(self._links[p][4][key]))
         return deg
-    def TQnetInDeg(self,u,key='tq'):
-        deg = []
+    def TQnetInDeg(self,u,key='tq',act='tq'):
+        deg = TQ.TQ.setConst(self._nodes[u][3][act],0)
         for p in self.inStar(u):
             deg = TQ.TQ.sum(deg,TQ.TQ.binary(self._links[p][4][key]))
         return deg
-    def TQnetOutDeg(self,u,key='tq'):
-        deg = []
+    def TQnetOutDeg(self,u,key='tq',act='tq'):
+        deg = TQ.TQ.setConst(self._nodes[u][3][act],0)
         for p in self.outStar(u):
             deg = TQ.TQ.sum(deg,TQ.TQ.binary(self._links[p][4][key]))
         return deg
-    def TQnetSum(self,u,key='tq'):
-        s = []
+    def TQnetSum(self,u,key='tq',act='tq'):
+        s = TQ.TQ.setConst(self._nodes[u][3][act],0)
         for p in self.star(u):
             s = TQ.TQ.sum(s,self._links[p][4][key])
         return s
-    def TQnetInSum(self,u,key='tq'):
-        s = []
+    def TQnetInSum(self,u,key='tq',act='tq'):
+        s = TQ.TQ.setConst(self._nodes[u][3][act],0)
         for p in self.inStar(u):
             s = TQ.TQ.sum(s,self._links[p][4][key])
         return s
-    def TQnetOutSum(self,u,key='tq'):
-        s = []
+    def TQnetOutSum(self,u,key='tq',act='tq'):
+        s = TQ.TQ.setConst(self._nodes[u][3][act],0)
         for p in self.outStar(u):
             s = TQ.TQ.sum(s,self._links[p][4][key])
         return s
@@ -771,6 +821,10 @@ class Network(Search,Coloring):
                 if multirel : G.addEdge(u,v,w=w,rel=rn)
                 else: G.addEdge(u,v,w=w)
         net.close()
+        G._info['org'] = 1; G._info['nNodes'] = len(G._nodes)
+        G._info['nEdges'] = len(list(G.edges()))
+        G._info['nArcs'] = len(list(G.arcs()))
+        G._info['directed'] = G._info['nEdges']==0
         G._info['simple'] = simple
         G._info['mode'] = mode
         if mode==2:

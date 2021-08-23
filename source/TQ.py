@@ -3,7 +3,8 @@ Created on October 29, 2015 / March 30, 2015 / August 15, 2014 / March 10, 2014
 Updated on November 11, 2018
 Apr 29 2019: added changeTime
 Jun 22 2020: added disAbs, disJaccard, disMax, disSum
-
+Aug  9 2021: added cutEQ, cutLE
+Aug 23 2021: added union, intersect, setminus
 @author: Vladimir Batagelj, Selena Praprotnik
 '''
 # operations with temporal quantities (tau = 0)
@@ -150,11 +151,11 @@ class TQ(object):
 
    @staticmethod
    def binary(a):
-      return TQ.standard([ (sa,fa,1) for sa,fa,va in a if va > 0 ])
+      return TQ.standard([ (sa,fa,1) for (sa,fa,va) in a if va > 0 ])
 
    @staticmethod
    def setConst(a,c):
-      return TQ.standard([ (sa,fa,c) for sa,fa,va in a ])
+      return TQ.standard([ (sa,fa,c) for (sa,fa,va) in a ])
 
    @staticmethod
    def fillGaps(a,s,f,const=inf):
@@ -187,7 +188,7 @@ class TQ(object):
          if fo<sa: c.append((fo,sa,1))
          fo = fa
       if fo<f: c.append((fo,f,1))
-      return(c)
+      return(TQ.standard(c))
 
    @staticmethod
    def invert(a,vZero=0):
@@ -199,7 +200,7 @@ class TQ(object):
 
    @staticmethod
    def prodConst(a,c):
-      return [ (sa,fa,va*c) for sa,fa,va in a ]
+      return [ (sa,fa,va*c) for (sa,fa,va) in a ]
 
    @staticmethod
    def cutGT(a,c):
@@ -209,6 +210,23 @@ class TQ(object):
    def cutGE(a,c):
       return [(sa,fa,va) for (sa,fa,va) in a if va >= c]
 
+   @staticmethod
+   def cutEQ(a,c):
+      return [(sa,fa,va) for (sa,fa,va) in a if va == c]
+
+   @staticmethod
+   def cutLE(a,c):
+      return [(sa,fa,va) for (sa,fa,va) in a if va <= c]
+
+   @staticmethod
+   def lower(a,c):
+      return(TQ.standard([(sa,fa,max(va,c)) for (sa,fa,va) in a]))
+
+   @staticmethod
+   def minval(a):
+      if len(a) == 0: return inf
+      else: return min([va for (sa,fa,va) in a])
+           
    @staticmethod
    def height(a):
       s = -TQ.inf
@@ -272,6 +290,24 @@ class TQ(object):
             if fc == fb: (sb,fb,vb) = TQ.get(B)
       return(TQ.standard(c))
 
+   @staticmethod
+   def union(a,b):
+      A = TQ.setConst(a,1); B = TQ.setConst(b,1)
+      old = TQ.semiring; TQ.reach()
+      c = TQ.sum(A,B); old()
+      return(c)
+      
+   @staticmethod
+   def intersect(a,b):
+      A = TQ.setConst(a,1); B = TQ.setConst(b,1)
+      old = TQ.semiring; TQ.reach()
+      c = TQ.prod(A,B); old()
+      return(c)
+      
+   @staticmethod
+   def setminus(a,b):
+      return(TQ.intersect(a,TQ.complement(b,-TQ.inf,TQ.inf)))
+      
    @staticmethod
    def extract(a,b):
    # extract a from b
