@@ -43,10 +43,6 @@ https://www.embarcadero.com/products/delphi/features/delphi
 - URLs
   - https://link.springer.com/chapter/10.1007/978-3-642-18638-7_4
   - https://link.springer.com/referenceworkentry/10.1007/978-1-4939-7131-2_310
-  - https://link.springer.com/referenceworkentry/10.1007/978-1-4939-7131-2_101436
-  - https://link.springer.com/referenceworkentry/10.1007/978-1-4939-7131-2_102
-  - https://link.springer.com/referenceworkentry/10.1007/978-1-4939-7131-2_100060
-
 
  
  
