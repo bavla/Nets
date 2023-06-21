@@ -39,7 +39,7 @@ https://www.embarcadero.com/products/delphi/features/delphi
 - alternative node labels
 - the importance of the well-documented data sets
 - terminology  (node, vertex, point,  ; link, connection, line, tie, bond, edge, arc, )
-- Leskovec SNAP   http://snap.stanford.edu/ ; Peixoto  graph-tool https://skewed.de/tiago/software
+- Leskovec SNAP   http://snap.stanford.edu/ 
 - interoperability on data level - common file exchange format
 
  
