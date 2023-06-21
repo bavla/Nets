@@ -4,7 +4,7 @@ Workshop on the sustainability of network analysis software in Leiden, the Nethe
 
 https://igraph.org/workshop.html
 
-- Sustainability
+- Sustainability -
 evolution of the field - rewriting, building a new tool on the basis of accumulated experience 
 - the concept of network -> language.  Is it strong enough to express the problems?
 arcs/edges - multiple
