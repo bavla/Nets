@@ -14,12 +14,12 @@ concepts \ (formalization / theory \\) \ abstract structures, operations (librar
 Open source / prog language, documentation
 - Pajek - pascal; Andrej doesn't like (keeping consistency, problem of versions, dictator (Python)(=)
 Pajek (1996):
-- drawing package
-- GUI tool for large networks for sociologist (now, most researchers know R or Python) -> library
-- Graph drawing - new types of networks
-- special algorithms for large networks (most of algorithm with large time complexity left for other packeges)
-- transition 32bits to 64bits - Delphi compiler was late
-- improving "calculator" - transformations of basic data structures; some new algorithms
+ - drawing package
+ - GUI tool for large networks for sociologist (now, most researchers know R or Python) -> library
+ - Graph drawing - new types of networks
+ - special algorithms for large networks (most of algorithm with large time complexity left for other packeges)
+ - transition 32bits to 64bits - Delphi compiler was late
+ - improving "calculator" - transformations of basic data structures; some new algorithms
 
 https://casmodeling.springeropen.com/articles/10.1186/s40294-016-0017-8
 https://link.springer.com/referenceworkentry/10.1007/978-1-4614-7163-9_310-1
@@ -40,19 +40,12 @@ new data types
 - structured values (symbolic data: intervals, distributions, sets, ...), temporal quantities, functions (netExcel)
 - multiway networks
 - kinship (GEDCOM), Petri nets,
-JSON (preserving the structure of the data, including metadata)
+2 CSV tables; JSON (preserving the structure of the data, including metadata)
 alternative node labels
-
-importance of the well documented data sets
-
-terminology  (node, vertex, point,  ; link, connection, line, edge, arc, )
-
-Leskovec SNAP   http://snap.stanford.edu/
-Peixoto  graph-tool https://skewed.de/tiago/software
-
-
-interoperability on data lavel
-common file exchange format
+- the importance of the well-documented data sets
+- terminology  (node, vertex, point,  ; link, connection, line, tie, bond, edge, arc, )
+- Leskovec SNAP   http://snap.stanford.edu/ ; Peixoto  graph-tool https://skewed.de/tiago/software
+- interoperability on data lavel - common file exchange format
 
 
 https://link.springer.com/chapter/10.1007/978-3-642-18638-7_4
