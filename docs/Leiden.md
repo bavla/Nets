@@ -22,6 +22,7 @@ Open source / prog language, documentation
   - improving "calculator" - transformations of basic data structures; some new algorithms
   - https://casmodeling.springeropen.com/articles/10.1186/s40294-016-0017-8
   - https://link.springer.com/referenceworkentry/10.1007/978-1-4614-7163-9_310-1
+  - https://link.springer.com/chapter/10.1007/978-3-642-18638-7_4
 - Andrej ~ 55 years
 https://www.embarcadero.com/products/delphi/features/delphi
 - the problem of changes in graphical formats (3D)
@@ -40,9 +41,6 @@ https://www.embarcadero.com/products/delphi/features/delphi
 - terminology  (node, vertex, point,  ; link, connection, line, tie, bond, edge, arc, )
 - Leskovec SNAP   http://snap.stanford.edu/ ; Peixoto  graph-tool https://skewed.de/tiago/software
 - interoperability on data level - common file exchange format
-- URLs
-  - https://link.springer.com/chapter/10.1007/978-3-642-18638-7_4
-  - https://link.springer.com/referenceworkentry/10.1007/978-1-4939-7131-2_310
 
  
  
