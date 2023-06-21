@@ -13,8 +13,9 @@ concepts \ (formalization / theory \\) \ abstract structures, operations (librar
 \ rewriting (parallel, distributed, ...)
 Open source / prog language, documentation
 - Pajek - pascal; Andrej doesn't like (keeping consistency, problem of versions, dictator (Python)(=). Pajek (1996):
-  - drawing package
-  - GUI tool for large networks for sociologist (now, most researchers know R or Python) -> library
+  - prehistory: switching circuits, Harary, Berge, Zykov, general Euler path problem, inductive classes, algorithms, package graph, Xgraph,
+  - Andrej, drawing package
+  - GUI tool for large networks for sociologists (now, most researchers know R or Python) -> library
   - Graph drawing - new types of networks
   - special algorithms for large networks (most of algorithm with large time complexity left for other packeges)
   - transition 32bits to 64bits - Delphi compiler was late
