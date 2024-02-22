@@ -1,0 +1,260 @@
+﻿% Table A.11 from
+% Anton Yeshchenko, Jan Mendling: A survey of approaches for event sequence analysis and visualization
+% Information Systems 120 (2024) 102283
+% MB: Matrix-based, TB: Timeline-based, HB: Hierarchy-based, SB: Sankey-based, CB: Other chart-based
+% I: Instance, M: Model
+% Vladimir Batagelj, February 22, 2024
+% There is one "=" in the original table. Probably bug - "+" and "=" are on the same key on the keyboard
+% Recoded weight:  "-" -> 0,  "+" -> 1,  "=" -> 2
+% bip2Pajek Thu Feb 22 05:15:37 2024 
+*vertices 103 63 
+1 "Chen et al. [28]"
+2 "Kwon et al. [43"
+3 "Loorak et al. [42]"
+4 "Zhuochen et al. [44]"
+5 "Xiao et al. [45"
+6 "Chen et al. [46"
+7 "Monroe et al. [50]"
+8 "Fulda et al. [49]"
+9 "Nguyen et al. [7]"
+10 "Vrotsou et al. [29"
+11 "Zeng et al. [51"
+12 "Vrotsou et al. [9]"
+13 "Xu et al. [47]"
+14 "Liu et al. [48]"
+15 "Baumgartl et al. [53]"
+16 "Wu et al. [52]"
+17 "Jo et al. [54]"
+18 "Law et al. [67]"
+19 "Krause et al. [70]"
+20 "Wongsuphasawat et al. [66]"
+21 "Guo et al. [68]"
+22 "Jang et al. [10"
+23 "Liu et al. [69]"
+24 "Guo et al. [71]"
+25 "Chen et al. [76"
+26 "Nguyen et al. [73]"
+27 "Gotz et al. [74"
+28 "Jin et al. [44]"
+29 "Cui et al. [75]"
+30 "Shi et al. [77]"
+31 "Qi et al. [78]"
+32 "Bartolomeo et al. [32"
+33 "Wang et al. [87"
+34 "Unger et al. [34]"
+35 "Cappers et al. [89"
+36 "Xie et al. [45]"
+37 "Isaacs et al. [88]"
+38 "Bernard et al. [6]"
+39 "Vrotsou et al. [55"
+40 "Leite et al. [56]"
+41 "Dortmont et al. [58]"
+42 "Han et al. [57]"
+43 "Rosenthal et al. [59]"
+44 "Reda et al. [60"
+45 "Sung et al. [8]"
+46 "Liu et al. [30]"
+47 "Chou et al. [79"
+48 "Agarwal et al. [80"
+49 "Bose et al. [27"
+50 "Low et al. [61]"
+51 "Richter et al. [62"
+52 "Winter et al. [83]"
+53 "Munoz-Gama et al. [81"
+54 "Leoni et al. [82]"
+55 "Bolt et al. [33"
+56 "Knuplesch et al. [84]"
+57 "Dongen et al. [85]"
+58 "Lie et al. [90]"
+59 "Leoni et al. [63]"
+60 "Suriadi et al. [64"
+61 "Suriadi et al. [65"
+62 "Song et al. [72"
+63 "Wynn et al. [86"
+64 "MB_Simple_I"
+65 "MB_Simple_M"
+66 "MB_Extended_I"
+67 "MB_Extended_M"
+68 "TB_Fixed_I"
+69 "TB_Fixed_M"
+70 "TB_Duration_I"
+71 "TB_Duration_M"
+72 "TB_ConDiverging_I"
+73 "TB_ConDiverging_M"
+74 "TB_Evolution_I"
+75 "TB_Evolution_M"
+76 "TB_Combinations_I"
+77 "TB_Combinations_M"
+78 "HB_NodeLink_I"
+79 "HB_NodeLink_M"
+80 "HB_Flow_I"
+81 "HB_Flow_M"
+82 "HB_Treemap_I"
+83 "HB_Treemap_M"
+84 "SB_NodeLink_I"
+85 "SB_NodeLink_M"
+86 "SB_ExtNodeLink_I"
+87 "SB_ExtNodeLink_M"
+88 "SB_Flow_I"
+89 "SB_Flow_M"
+90 "SB_ConDiverging_I"
+91 "SB_ConDiverging_M"
+92 "SB_Chord_I"
+93 "SB_Chord_M"
+94 "CB_Sequence_I"
+95 "CB_Sequence_M"
+96 "CB_SeqDuration_I"
+97 "CB_SeqDuration_M"
+98 "CB_BarChart_I"
+99 "CB_BarChart_M"
+100 "CB_OtherChart_I"
+101 "CB_OtherChart_M"
+102 "CB_Composition_I"
+103 "CB_Composition_M"
+*arcs
+1 65 1 
+1 103 1 
+2 65 1 
+2 68 1 
+2 72 1 
+2 94 1 
+2 99 1 
+3 66 1 
+3 96 1 
+4 67 1 
+5 67 1 
+6 68 1 
+6 94 1 
+6 95 1 
+7 68 1 
+7 76 1 
+8 68 1 
+8 76 1 
+9 70 1 
+9 95 1 
+9 99 1 
+10 70 1 
+10 78 1 
+10 94 1 
+11 70 1 
+11 87 1 
+11 89 1 
+11 102 1 
+11 103 1 
+12 70 1 
+12 78 1 
+13 72 1 
+13 96 1 
+13 99 1 
+13 100 1 
+13 103 1 
+14 72 1 
+15 72 1 
+15 85 1 
+16 75 1 
+16 89 1 
+17 77 1 
+17 101 1 
+18 78 1 
+18 81 1 
+18 94 1 
+18 95 1 
+19 78 1 
+19 99 1 
+19 101 1 
+20 81 1 
+21 81 1 
+21 94 1 
+22 81 1 
+22 83 1 
+22 87 1 
+23 81 1 
+23 94 1 
+24 81 1 
+24 89 1 
+24 94 1 
+25 85 1 
+25 93 1 
+25 95 1 
+25 101 1 
+25 102 1 
+25 103 1 
+26 89 1 
+26 101 1 
+27 89 1 
+27 101 1 
+28 89 1 
+28 94 1 
+28 99 1 
+28 101 1 
+29 89 1 
+30 89 1 
+31 89 1 
+32 90 1 
+33 94 1 
+33 101 1 
+34 94 1 
+34 96 1 
+35 68 1 
+35 72 1 
+35 95 1 
+36 101 1 
+36 102 1 
+36 103 1 
+37 101 1 
+37 102 1 
+37 103 1 
+38 103 1 
+39 70 1 
+39 90 1 
+40 68 1 
+40 69 1 
+40 78 1 
+40 87 1 
+41 68 1 
+41 75 1 
+41 99 1 
+42 70 1 
+43 70 1 
+43 97 1 
+44 70 2 
+44 73 1 
+45 75 1 
+45 76 1 
+46 77 1 
+46 78 1 
+46 81 1 
+47 90 1 
+48 91 1 
+48 99 1 
+49 64 1 
+49 68 1 
+49 78 1 
+49 85 1 
+49 99 1 
+50 70 1 
+50 87 1 
+50 99 1 
+50 102 1 
+50 103 1 
+51 71 1 
+51 102 1 
+51 103 1 
+52 85 1 
+53 87 1 
+54 87 1 
+54 94 1 
+55 87 1 
+55 101 1 
+56 87 1 
+57 87 1 
+58 101 1 
+59 69 1 
+59 78 1 
+60 76 1 
+61 76 1 
+61 99 1 
+62 78 1 
+62 85 1 
+62 87 1 
+63 87 1 
