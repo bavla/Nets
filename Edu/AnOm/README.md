@@ -5,6 +5,6 @@
 vladimir.batagelj@fmf.uni-lj.si
 
 - prosojnice
-- slovarček
+- [slovarček](http://vladowiki.fmf.uni-lj.si/doku.php?id=notes:net:dic)
 - posnetki predavanj
 - izpit - 3 projekti
