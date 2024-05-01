@@ -12,3 +12,4 @@ vladimir.batagelj@fmf.uni-lj.si
 - posnetki predavanj
 - [Pajek](http://mrvar.fdv.uni-lj.si/pajek/)
 - izpit - 3 projekti
+- [seznam](seznam.md)
