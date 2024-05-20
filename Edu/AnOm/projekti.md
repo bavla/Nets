@@ -8,4 +8,4 @@
     - [Projekt 3](p3.md)
 
 
-[AnOm](../README.md) 
+[AnOm](./README.md) 
