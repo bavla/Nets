@@ -13,3 +13,4 @@ vladimir.batagelj@fmf.uni-lj.si
 - [Pajek](http://mrvar.fdv.uni-lj.si/pajek/)
 - izpit - 3 [projekti](projekti.md)
 - [seznam](seznam.md)
+- [Uporabna statistika](https://stat.uni-lj.si/)
