@@ -9,7 +9,7 @@ vladimir.batagelj@fmf.uni-lj.si
 
 - prosojnice
 - [slovarček](http://vladowiki.fmf.uni-lj.si/doku.php?id=notes:net:dic)
-- posnetki predavanj
+- [posnetki predavanj](http://vladowiki.fmf.uni-lj.si/doku.php?id=pajek:ev:pd:p24#posnetki_predavanj)
 - [Pajek](http://mrvar.fdv.uni-lj.si/pajek/)
 - izpit - 3 [projekti](projekti.md)
 - [seznam](seznam.md)
