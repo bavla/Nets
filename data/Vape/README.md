@@ -1,7 +1,7 @@
 # Vape
 
 Network from the paper
-  - https://www.tandfonline.com/doi/full/10.1080/10826084.2024.2359714?scroll=top&needAccess=true#abstract
+  - [https://www.tandfonline.com/doi/full/10.1080/10826084.2024.2359714](Applying Social Network Theory to Vaping in High School: Implications for Person-Centered Intervention)
   - https://github.com/njha02/surveyAnalysis    
 
 ![Figure 1](vapeFig1.png)
