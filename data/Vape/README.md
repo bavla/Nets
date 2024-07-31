@@ -8,3 +8,4 @@ The survey included gender, age, level of education, vape status, and peer influ
 
 Converted to Pajek by Vladimir Batagelj, August 1, 2024
 
+![screenshot](vapeFig1.png)
