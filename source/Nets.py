@@ -12,10 +12,12 @@
 # change: 2. June 2020 - "standardization" in _info 'network' and 'title'
 # change: 12. June 2020 - delLink, BFSpair, biBFSpair
 # change: 21. June 2020 - biconnected components BCC, shortCyWeight
-# last change: 7. July 2020 - TQnormal
+# change: 7. July 2020 - TQnormal
 # 23. July 2020 - linked, arcTo, isArc, edges2pairs, arcs2edges, edges2arcs
 # 23. August 2021 - TQnetDeg, TQnetInDeg, TQnetOutDeg, TQnetSum, TQnetInSum, TQnetOutSum -
 #   set for isolated nodes to 0;
+# 29. July 2024 - corrected TQtopLinks
+# 20. September 2024 - TQoneNeighbors, toNetwork
 # === To do =============================================================
 # Check loops in stars - apply set to union  !?
 # Remove intervals with value 0
@@ -507,9 +509,9 @@ class Network(Search,Coloring):
         return(L)
     def TQtopLinks(self,key='tq',thresh=0):
         def takeFifth(elem): return elem[4]
-        JJ = list(self.links())
-        JJE = [[u,v,self._nodes[u][3]['lab'],self._nodes[v][3]['lab'],
-                self._links[(u,v)][4].get(key,[])] for u,v in JJ]
+        JJE = [ [val[0],val[1],self._nodes[val[0]][3]['lab'],
+                 self._nodes[val[1]][3]['lab'],val[4].get(key,[])]
+                 for val in self._links.values() ]
         T = [[u,v,ul,vl,TQ.TQ.total(c),c] for u,v,ul,vl,c in JJE
               if TQ.TQ.total(c) >= thresh]
         T.sort(key=takeFifth,reverse=True)
@@ -720,6 +722,48 @@ class Network(Search,Coloring):
         return B
     def Index(self): return { v[3]['lab']: k for k,v in self._nodes.items() }
     def TQgetLinkValue(self,i,lu,lv): return self._links[(i[lu],i[lv])][4]['tq']
+    def TQoneNeighbors(self):
+        oldAdd = TQ.TQ.sAdd; TQ.TQ.sAdd = TQ.TQ.selMax
+        T = deepcopy(self); S = []
+        for p in T._links:
+            u,v,d,r,w = T._links[p]; z = []
+            for (s,f,q) in w["tq"]:
+                t = set(); t.add(str(v)); z.append((s,f,(q,t)))
+            w["tq"] = z; T._links[p][4] = w
+        for v in T._nodes:
+            e,i,o,p = T._nodes[v]; C = {}; tq = []
+            for u in o:
+                a = o[u][0]
+                if tq==[]: tq = T._links[a][4]["tq"]
+                else: tq = TQ.TQ.sum(tq,T._links[a][4]["tq"])
+            C["v"] = v; C["lab"] = p["lab"]; C["tq"] = tq
+            S.append(C)
+        TQ.sAdd = oldAdd
+        return S
+    def toNetwork(self,R):
+        T = Network()
+        T._info = deepcopy(self._info)
+        T._info["title"] = "1-neighbors temporal network"
+        T._info["network"] = "1-N("+T._info["network"]+")"
+        T._info['meta'].append({"date": datetime.datetime.now().ctime(),\
+            "title": "TQ 1-neighbors" })
+        T._info['trace'].append("TQoneNeighbors")
+        T._info['trace'].append("toNetwork")
+        tRange = [(T._info["time"][0],T._info["time"][1],1)]
+        for node in R:
+            v = node["v"]; lab = node["lab"]
+            T.addNode(v,1); T.setNode(v,"lab",lab)
+            T.setNode(v,"tq",tRange)
+        for node in R:
+            v = node["v"]; tq = node["tq"]
+            for i in tq:
+                s,f,w = i; aw = [(s,f,w[0])]
+                for t in w[1]:
+                    u = int(t); linked = u in T._nodes[v][2]
+                    if not linked: T.addArc(v,u,w={'tq': []})
+                    aid = T._nodes[v][2][u][0]; p = T._links[aid][4]
+                    p["tq"] = TQ.TQ.sum(p["tq"],aw)
+        return T   
     def loadPajek(file):
 # problems with names containing [ or ]
 # in case of problem with an UTF-8 file add a comment as the first line
@@ -929,9 +973,10 @@ class Network(Search,Coloring):
 #        json.dump(net, js, ensure_ascii=False, indent=indent)
         json.dump(net, js, indent=indent)
         js.close()
-    def savePajek(self,file,key='w',coord=True):
+    def savePajek(self,file,key='w',ini="v",coord=True,encoding='utf-8'):
 # sprogramiraj še za dvodelna omrežja
-        net = open(file,'w'); n=len(self._nodes)
+        net = open(file,'w',encoding=encoding); n=len(self._nodes)
+        if encoding=='utf-8': net.write(u'\ufeff')
         net.write('% '+str(self._info['network'])+'\n')
         net.write('% '+str(self._info['meta'])+'\n')
         net.write('% savePajek:'+datetime.datetime.now().ctime()+'\n')
@@ -940,7 +985,7 @@ class Network(Search,Coloring):
         for (i,v) in enumerate(self._nodes):
             xy = self.getXY(v); ind[v] = i+1
             lab = self.getNode(v,'lab')
-            if lab == None: lab = "v"+str(v)
+            if lab == None: lab = ini+str(v)
             net.write(str(i+1)+' "'+lab+'"')
             if coord: net.write(' '+str(xy[0])+' '+str(xy[1])+' 0.5')
             net.write('\n')
