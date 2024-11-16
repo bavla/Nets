@@ -33,17 +33,17 @@ When publishing results obtained using this data set the original authors should
 |[Divorce in US](http://vlado.fmf.uni-lj.si/pub/networks/data/2mode/divorce.net) |  59/50 |      0 |   ?  | binary, 2-mode data|
 |[Dutch Elite 2006](http://vlado.fmf.uni-lj.si/pub/networks/data/2mode/DutchElite.htm) |    3810+937 |   5221 |      0 | multirelational, 2-mode data |
 |[Graph products](http://vlado.fmf.uni-lj.si/pub/networks/data/2mode/Sandi/Sandi.htm) |  674/314 |      0 |   ?  | collaboration, 2-mode |
-|[[http://vlado.fmf.uni-lj.si/pub/networks/data/2mode/journals.htm|Slovenian magazines<br> and journals]] |    124 |      0 |  ?  | valued, derived from 2-mode data|
-|[[http://vlado.fmf.uni-lj.si/pub/networks/data/collab/geom.htm|Computational geometry]] |  7343 |  11898 |  0 | collaboration |
-|[[http://vlado.fmf.uni-lj.si/pub/networks/data/collab/netscience.htm|Network theory]] |  1589 |  2742 |  0 | collaboration |
-|[[http://vlado.fmf.uni-lj.si/pub/networks/data/CRA/terror.htm|September 11]] |  13332 |  243447 |      0 | text, temporal |
-|[[http://vlado.fmf.uni-lj.si/pub/networks/data/hep-th/hep-th.htm|HEP / KDD Cup 2003]] |  27770 |  352807 |      0 | citation |
+|[Slovenian magazines<br> and journals](http://vlado.fmf.uni-lj.si/pub/networks/data/2mode/journals.htm) |    124 |      0 |  ?  | valued, derived from 2-mode data|
+|[Computational geometry](http://vlado.fmf.uni-lj.si/pub/networks/data/collab/geom.htm) |  7343 |  11898 |  0 | collaboration |
+|[Network theory](http://vlado.fmf.uni-lj.si/pub/networks/data/collab/netscience.htm) |  1589 |  2742 |  0 | collaboration |
+|[September 11](http://vlado.fmf.uni-lj.si/pub/networks/data/CRA/terror.htm) |  13332 |  243447 |      0 | text, temporal |
+|[HEP / KDD Cup 2003](http://vlado.fmf.uni-lj.si/pub/networks/data/hep-th/hep-th.htm) |  27770 |  352807 |      0 | citation |
 |[[http://vlado.fmf.uni-lj.si/pub/networks/data/patents/Patents.htm|US patents]] |  37774768 |      0 |  16522438 | citation |
-|[[http://vlado.fmf.uni-lj.si/pub/networks/data/econ/Eva/Eva.htm|EVA]] |  8343 |      0 |  6726 | ownership|
-|[[http://vlado.fmf.uni-lj.si/pub/networks/data/DIC/TG/glossTG.htm| Graph and Digraph Glossary]] |      72 |      0 |    122 | dictionary |
-|[[http://vlado.fmf.uni-lj.si/pub/networks/data/Erdos/Erdos02.net|Erdos]] |   6927 |  11850 |      0 | collaboration |
-|[[http://vlado.fmf.uni-lj.si/pub/networks/data/dic/eat/Eat.htm|The Edinburgh Associative Thesaurus]] |   23219 |      0 |  325624 | dictionary |
-|[[http://vlado.fmf.uni-lj.si/pub/networks/data/dic/odlis/Odlis.htm|ODLIS]] |   2909 |      0 |  18419 | dictionary |
+|[EVA](http://vlado.fmf.uni-lj.si/pub/networks/data/econ/Eva/Eva.htm) |  8343 |      0 |  6726 | ownership|
+|[Graph and Digraph Glossary](http://vlado.fmf.uni-lj.si/pub/networks/data/DIC/TG/glossTG.htm) |      72 |      0 |    122 | dictionary |
+|[Erdos](http://vlado.fmf.uni-lj.si/pub/networks/data/Erdos/Erdos02.net) |   6927 |  11850 |      0 | collaboration |
+|[The Edinburgh Associative Thesaurus](http://vlado.fmf.uni-lj.si/pub/networks/data/dic/eat/Eat.htm) |   23219 |      0 |  325624 | dictionary |
+|[|ODLIS](http://vlado.fmf.uni-lj.si/pub/networks/data/dic/odlis/Odlis.htm) |   2909 |      0 |  18419 | dictionary |
 |[[http://vlado.fmf.uni-lj.si/pub/networks/data/dic/foldoc/foldoc.htm|FOLDOC]] |  13356 |      0 |  120238 | dictionary |
 |[[http://vlado.fmf.uni-lj.si/pub/networks/data/dic/knuth/dic28.zip|Words 2-8]] |  ?  |      0 |   ?  | close words |
 |[[http://vlado.fmf.uni-lj.si/pub/networks/data/dic/roget/Roget.htm|Roget]] |   1022 |      0 |   5075 | dictionary |
