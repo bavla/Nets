@@ -38,12 +38,12 @@ When publishing results obtained using this data set the original authors should
 |[Network theory](http://vlado.fmf.uni-lj.si/pub/networks/data/collab/netscience.htm) |  1589 |  2742 |  0 | collaboration |
 |[September 11](http://vlado.fmf.uni-lj.si/pub/networks/data/CRA/terror.htm) |  13332 |  243447 |      0 | text, temporal |
 |[HEP / KDD Cup 2003](http://vlado.fmf.uni-lj.si/pub/networks/data/hep-th/hep-th.htm) |  27770 |  352807 |      0 | citation |
-|[[http://vlado.fmf.uni-lj.si/pub/networks/data/patents/Patents.htm|US patents]] |  37774768 |      0 |  16522438 | citation |
+|[US patents](http://vlado.fmf.uni-lj.si/pub/networks/data/patents/Patents.htm) |  37774768 |      0 |  16522438 | citation |
 |[EVA](http://vlado.fmf.uni-lj.si/pub/networks/data/econ/Eva/Eva.htm) |  8343 |      0 |  6726 | ownership|
 |[Graph and Digraph Glossary](http://vlado.fmf.uni-lj.si/pub/networks/data/DIC/TG/glossTG.htm) |      72 |      0 |    122 | dictionary |
 |[Erdos](http://vlado.fmf.uni-lj.si/pub/networks/data/Erdos/Erdos02.net) |   6927 |  11850 |      0 | collaboration |
 |[The Edinburgh Associative Thesaurus](http://vlado.fmf.uni-lj.si/pub/networks/data/dic/eat/Eat.htm) |   23219 |      0 |  325624 | dictionary |
-|[|ODLIS](http://vlado.fmf.uni-lj.si/pub/networks/data/dic/odlis/Odlis.htm) |   2909 |      0 |  18419 | dictionary |
+|[ODLIS](http://vlado.fmf.uni-lj.si/pub/networks/data/dic/odlis/Odlis.htm) |   2909 |      0 |  18419 | dictionary |
 |[[http://vlado.fmf.uni-lj.si/pub/networks/data/dic/foldoc/foldoc.htm|FOLDOC]] |  13356 |      0 |  120238 | dictionary |
 |[[http://vlado.fmf.uni-lj.si/pub/networks/data/dic/knuth/dic28.zip|Words 2-8]] |  ?  |      0 |   ?  | close words |
 |[[http://vlado.fmf.uni-lj.si/pub/networks/data/dic/roget/Roget.htm|Roget]] |   1022 |      0 |   5075 | dictionary |
