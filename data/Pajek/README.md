@@ -53,16 +53,16 @@ When publishing results obtained using this data set the original authors should
 |[GD'99 - Linden strasse](http://vlado.fmf.uni-lj.si/pub/networks/data/GD/a99m.zip) |  234 |   278 |    48 | literature, multi, temporal|
 |[GD'01 - GD proceedings self-citing](http://vlado.fmf.uni-lj.si/pub/networks/data/GD/a01.zip) |  311 |      0 |   645 | citation|
 |[KEDS](http://vlado.fmf.uni-lj.si/pub/networks/data/KEDS/KEDS.htm) |    *  |    *  |    *  | activity, multi, temporal|
-|[[http://vlado.fmf.uni-lj.si/pub/networks/data/ND/NDnets.htm|Notre Dame WWW]] |  325729 |      0 |  1497135 | internet|
-|[[http://vlado.fmf.uni-lj.si/pub/networks/data/ND/NDnets.htm|Notre Dame actors]]|  520223 |  1470418 |  0 | 2-mode|
-|{{pajek:data:zip:simpro.zip|European projects on simulation}}|  *  |  *  |  *  | 2-mode|
-|[[http://vlado.fmf.uni-lj.si/pub/networks/data/cite/default.htm|Citation networks]] |   *  |   *  |   *  | citation / collection|
-|[[http://vlado.fmf.uni-lj.si/pub/networks/data/esna/default.htm|Networks from Exploratory Network Analysis with Pajek]] |  *  |   *  |   *  | collection|
-|[[http://vlado.fmf.uni-lj.si/pub/networks/data/GBM/default.htm|Networks from Generalized Blockmodeling]] |   *  |   *  |   *  | collection|
-|[[http://vlado.fmf.uni-lj.si/pub/networks/data/bio/foodweb/foodweb.htm|Food-webs]] |  *  |  *  |   *  | collection |
-|[[http://vlado.fmf.uni-lj.si/pub/networks/data/ucinet/ucidata.htm|UCINET IV datasets]] |      *  |      *  |      *  | collection|
-|[[http://vlado.fmf.uni-lj.si/pub/networks/data/WaFa/default.htm|Wasserman and Faust datasets]] |      *  |      *  |      *  | collection |
-|[[http://vlado.fmf.uni-lj.si/pub/networks/data/mix/mixed.htm|Mixed networks]] |      *  |      *  |      *  | collection |
+|[Notre Dame WWW](http://vlado.fmf.uni-lj.si/pub/networks/data/ND/NDnets.htm) |  325729 |      0 |  1497135 | internet|
+|[Notre Dame actors](http://vlado.fmf.uni-lj.si/pub/networks/data/ND/NDnets.htm) |  520223 |  1470418 |  0 | 2-mode|
+|[European projects on simulation](pajek:data:zip:simpro.zip) |  *  |  *  |  *  | 2-mode|
+|[Citation networks](http://vlado.fmf.uni-lj.si/pub/networks/data/cite/default.htm) |   *  |   *  |   *  | citation / collection|
+|[Networks from Exploratory Network Analysis with Pajek](http://vlado.fmf.uni-lj.si/pub/networks/data/esna/default.htm) |  *  |   *  |   *  | collection|
+|[Networks from Generalized Blockmodeling](http://vlado.fmf.uni-lj.si/pub/networks/data/GBM/default.htm) |   *  |   *  |   *  | collection|
+|[Food-webs](http://vlado.fmf.uni-lj.si/pub/networks/data/bio/foodweb/foodweb.htm) |  *  |  *  |   *  | collection |
+|[UCINET IV datasets](http://vlado.fmf.uni-lj.si/pub/networks/data/ucinet/ucidata.htm) |      *  |      *  |      *  | collection|
+|[Wasserman and Faust datasets](http://vlado.fmf.uni-lj.si/pub/networks/data/WaFa/default.htm) |      *  |      *  |      *  | collection |
+|[Mixed networks](http://vlado.fmf.uni-lj.si/pub/networks/data/mix/mixed.htm) |      *  |      *  |      *  | collection |
 
 
 Created: 11. Oct 2003
