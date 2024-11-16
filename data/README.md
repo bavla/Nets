@@ -1,5 +1,10 @@
 # Data sets
 
+  * [Old Pajek data sets](https://github.com/bavla/Nets/tree/master/data/Pajek)
+  * [Two-mode networks](https://github.com/bavla/NormNet/blob/main/TwoMode/DataSets.md)
+  * [Multiway network data sets](https://github.com/bavla/ibm3m/tree/master/data)
+
+
 DL
 
 https://raw.githubusercontent.com/tomasonjo/blog-datasets/main/HP/character_first_seen.csv
