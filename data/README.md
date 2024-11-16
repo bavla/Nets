@@ -1,6 +1,7 @@
 # Data sets
 
   * [Old Pajek data sets](https://github.com/bavla/Nets/tree/master/data/Pajek)
+  * [Weighted networks](https://github.com/bavla/wNets/tree/main/Data)
   * [Two-mode networks](https://github.com/bavla/NormNet/blob/main/TwoMode/DataSets.md)
   * [Multiway network data sets](https://github.com/bavla/ibm3m/tree/master/data)
 
