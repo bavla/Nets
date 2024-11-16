@@ -65,5 +65,5 @@ When publishing results obtained using this data set the original authors should
 |[Mixed networks](http://vlado.fmf.uni-lj.si/pub/networks/data/mix/mixed.htm) |      *  |      *  |      *  | collection |
 
 
-Created: 11. Oct 2003
+Created: 11. Oct 2003 / GitHub 16. Nov 2024
 
