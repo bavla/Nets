@@ -22,7 +22,7 @@ When publishing results obtained using this data set the original authors should
 | network  | n  | m<sub>E</sub> | m<sub>A</sub> | description |
 | ------------------- | ------ | ------- | -------- | ------------------------- |
 |[Yeast](http://vlado.fmf.uni-lj.si/pub/networks/data/bio/Yeast/Yeast.htm) |  2361 | 7182 | 0  | biology, protein interactions |
-|[Tina](http://vlado.fmf.uni-lj.si/pub/networks/data/soc/Tina/Tina.htm) |  11 |  0 |  29-48 | sociology, (6 relations), measurements |
+|[Tina](http://vlado.fmf.uni-lj.si/pub/networks/data/soc/Tina/Tina.htm) |  11 |  0 |  29-48 | sociology, (6 relations),<br>measurements |
 |[Football](http://vlado.fmf.uni-lj.si/pub/networks/data/sport/football.htm) |  35 |  0 |  118 | sport, valued |
 |[Slovene parties 1994](http://vlado.fmf.uni-lj.si/pub/networks/data/soc/Samo/Stranke94.htm) |   10 |  0 |  90 | sociology, valued signed |
 |[US presidents](http://vlado.fmf.uni-lj.si/pub/networks/data//GED/Presdnts.GED) |  ?  |  0 |   ?  | genealogy |
@@ -33,7 +33,7 @@ When publishing results obtained using this data set the original authors should
 |[Divorce in US](http://vlado.fmf.uni-lj.si/pub/networks/data/2mode/divorce.net) |  59/50 |      0 |   ?  | binary, 2-mode data|
 |[Dutch Elite 2006](http://vlado.fmf.uni-lj.si/pub/networks/data/2mode/DutchElite.htm) |    3810+937 |   5221 |      0 | multirelational, 2-mode data |
 |[Graph products](http://vlado.fmf.uni-lj.si/pub/networks/data/2mode/Sandi/Sandi.htm) |  674/314 |      0 |   ?  | collaboration, 2-mode |
-|[Slovenian magazines<br> and journals](http://vlado.fmf.uni-lj.si/pub/networks/data/2mode/journals.htm) |    124 |      0 |  ?  | valued, derived from 2-mode data|
+|[Slovenian magazines<br> and journals](http://vlado.fmf.uni-lj.si/pub/networks/data/2mode/journals.htm) |    124 |      0 |  ?  | valued,<br>derived from 2-mode data|
 |[Computational geometry](http://vlado.fmf.uni-lj.si/pub/networks/data/collab/geom.htm) |  7343 |  11898 |  0 | collaboration |
 |[Network theory](http://vlado.fmf.uni-lj.si/pub/networks/data/collab/netscience.htm) |  1589 |  2742 |  0 | collaboration |
 |[September 11](http://vlado.fmf.uni-lj.si/pub/networks/data/CRA/terror.htm) |  13332 |  243447 |      0 | text, temporal |
