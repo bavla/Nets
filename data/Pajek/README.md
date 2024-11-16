@@ -1,4 +1,4 @@
-====== Old Pajek Data Sets ======
+# Old Pajek Data Sets 
 
   * [[pajek:nets:ind|Index]]
   * [[pajek:nets:mix|Mixed]]
@@ -8,7 +8,7 @@
 
 
 
-===== Licenses and Citation =====
+## Licenses and Citation 
 
 
 If the source of the data set is not specified otherwise, these data sets are licensed under a
@@ -18,12 +18,12 @@ When publishing results obtained using this data set the original authors should
   * Vladimir Batagelj  and Andrej Mrvar (2003): Pajek data sets.\\ ''<URL: http://vladowiki.fmf.uni-lj.si/doku.php?id=pajek:nets:old>''.
 
 
-===== Networks =====
+## Networks 
 
 
 ^ network  ^ n  ^ m<sub>E</sub> ^ m<sub>A</sub> ^ description ^
-|[[http://vlado.fmf.uni-lj.si/pub/networks/data/bio/Yeast/Yeast.htm|Yeast]] |  2361 | 7182 | 0  | biology, protein interactions |
-|[[http://vlado.fmf.uni-lj.si/pub/networks/data/soc/Tina/Tina.htm|Tina]] |  11 |  0 |  29-48 | sociology, (6 relations), measurements |
+|[Yeast](http://vlado.fmf.uni-lj.si/pub/networks/data/bio/Yeast/Yeast.htm) |  2361 | 7182 | 0  | biology, protein interactions |
+|[Tina](http://vlado.fmf.uni-lj.si/pub/networks/data/soc/Tina/Tina.htm) |  11 |  0 |  29-48 | sociology, (6 relations), measurements |
 |[[http://vlado.fmf.uni-lj.si/pub/networks/data/sport/football.htm|Football]] |  35 |  0 |  118 | sport, valued |
 |[[http://vlado.fmf.uni-lj.si/pub/networks/data/soc/Samo/Stranke94.htm|Slovene parties 1994]]|   10 |  0 |  90 | sociology, valued signed |
 |[[http://vlado.fmf.uni-lj.si/pub/networks/data//GED/Presdnts.GED|US presidents]] |  ?  |  0 |   ?  | genealogy |
