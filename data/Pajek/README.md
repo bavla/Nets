@@ -1,7 +1,7 @@
 
   
 
-![pajekS](https://github.com/user-attachments/assets/18c246e3-735a-4965-a1b5-82dca6edbaf8)   <b> Old Pajek Data Sets </b>
+# <img src="https://github.com/user-attachments/assets/bb2bfee6-ca10-495c-9a9d-f81842828ca2" width=100>   <b> Old Pajek Data Sets </b>
 
   * [Network data sets](https://github.com/bavla/Nets/tree/master/data)
   * [Original version of Pajek Data Sets](http://vlado.fmf.uni-lj.si/pub/networks/data/default.htm) 
@@ -69,4 +69,4 @@ Created: 11. Oct 2003 / GitHub 16. Nov 2024
 
 ![pajek](https://github.com/user-attachments/assets/bb2bfee6-ca10-495c-9a9d-f81842828ca2)
 
-<img src="https://github.com/user-attachments/assets/bb2bfee6-ca10-495c-9a9d-f81842828ca2" width=50>
+
