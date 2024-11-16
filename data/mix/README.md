@@ -1,9 +1,10 @@
 # Mixed 
 
-## Networks 
-
+  * [Old Pajek data sets](https://github.com/bavla/Nets/tree/master/data/Pajek)
   * [Two-mode networks](https://github.com/bavla/NormNet/blob/main/TwoMode/DataSets.md)
   * [Multiway network data sets](https://github.com/bavla/ibm3m/tree/master/data)
+
+## Networks 
 
 | network  | n  | m<sub>E</sub> | m<sub>A</sub> | description |
 | -------- | ---- | ----- | ----- | ------- |
