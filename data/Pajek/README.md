@@ -21,7 +21,7 @@ When publishing results obtained using this data set the original authors should
 
 | network  | n  | m<sub>E</sub> | m<sub>A</sub> | description |
 | ------------------- | ------ | ------- | -------- | ------------------------- |
-|[Yeast](http://vlado.fmf.uni-lj.si/pub/networks/data/bio/Yeast/Yeast.htm) |  2361 | 7182 | 0  | biology, protein interactions |
+|[Yeast](http://vlado.fmf.uni-lj.si/pub/networks/data/bio/Yeast/Yeast.htm) |  2361 | 7182 | 0  | biology,<br>protein interactions |
 |[Tina](http://vlado.fmf.uni-lj.si/pub/networks/data/soc/Tina/Tina.htm) |  11 |  0 |  29-48 | sociology, (6 relations),<br>measurements |
 |[Football](http://vlado.fmf.uni-lj.si/pub/networks/data/sport/football.htm) |  35 |  0 |  118 | sport, valued |
 |[Slovene parties 1994](http://vlado.fmf.uni-lj.si/pub/networks/data/soc/Samo/Stranke94.htm) |   10 |  0 |  90 | sociology, valued signed |
@@ -31,9 +31,9 @@ When publishing results obtained using this data set the original authors should
 |[US Air lines](http://vlado.fmf.uni-lj.si/pub/networks/data/mix/USAir97.net) |    332 |       0 |  ?  | transport |
 |[Cities and services](http://vlado.fmf.uni-lj.si/pub/networks/data/2mode/cities.zip) |  101/55 |      0 |  ?  | valued, 2-mode data|
 |[Divorce in US](http://vlado.fmf.uni-lj.si/pub/networks/data/2mode/divorce.net) |  59/50 |      0 |   ?  | binary, 2-mode data|
-|[Dutch Elite 2006](http://vlado.fmf.uni-lj.si/pub/networks/data/2mode/DutchElite.htm) |    3810+937 |   5221 |      0 | multirelational, 2-mode data |
+|[Dutch Elite 2006](http://vlado.fmf.uni-lj.si/pub/networks/data/2mode/DutchElite.htm) |    3810+937 |   5221 |      0 | multirelational, 2-mode |
 |[Graph products](http://vlado.fmf.uni-lj.si/pub/networks/data/2mode/Sandi/Sandi.htm) |  674/314 |      0 |   ?  | collaboration, 2-mode |
-|[Slovenian magazines<br> and journals](http://vlado.fmf.uni-lj.si/pub/networks/data/2mode/journals.htm) |    124 |      0 |  ?  | valued,<br>derived from 2-mode data|
+|[Slovenian magazines<br> and journals](http://vlado.fmf.uni-lj.si/pub/networks/data/2mode/journals.htm) |    124 |      0 |  ?  | valued,<br>derived from 2-mode|
 |[Computational geometry](http://vlado.fmf.uni-lj.si/pub/networks/data/collab/geom.htm) |  7343 |  11898 |  0 | collaboration |
 |[Network theory](http://vlado.fmf.uni-lj.si/pub/networks/data/collab/netscience.htm) |  1589 |  2742 |  0 | collaboration |
 |[September 11](http://vlado.fmf.uni-lj.si/pub/networks/data/CRA/terror.htm) |  13332 |  243447 |      0 | text, temporal |
