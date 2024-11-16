@@ -11,7 +11,7 @@
 
 
 If the source of the data set is not specified otherwise, these data sets are licensed under a
-[Creative Commons Attribution-NonCommercial-ShareAlike 2.5 License](http://creativecommons.org/licenses/by-nc-sa/2.5/}.
+[Creative Commons Attribution-NonCommercial-ShareAlike 2.5 License](http://creativecommons.org/licenses/by-nc-sa/2.5/).
 
 When publishing results obtained using this data set the original authors should be cited.  In addition, this collection should be cited as:
   * Vladimir Batagelj  and Andrej Mrvar (2003): Pajek data sets.\\ ''<URL: http://vladowiki.fmf.uni-lj.si/doku.php?id=pajek:nets:old>''.
@@ -23,16 +23,16 @@ When publishing results obtained using this data set the original authors should
 | --------------------------- | ------ | ------- | ------------- | ---------------------------------------------- |
 |[Yeast](http://vlado.fmf.uni-lj.si/pub/networks/data/bio/Yeast/Yeast.htm) |  2361 | 7182 | 0  | biology, protein interactions |
 |[Tina](http://vlado.fmf.uni-lj.si/pub/networks/data/soc/Tina/Tina.htm) |  11 |  0 |  29-48 | sociology, (6 relations), measurements |
-|[[http://vlado.fmf.uni-lj.si/pub/networks/data/sport/football.htm|Football]] |  35 |  0 |  118 | sport, valued |
-|[[http://vlado.fmf.uni-lj.si/pub/networks/data/soc/Samo/Stranke94.htm|Slovene parties 1994]]|   10 |  0 |  90 | sociology, valued signed |
-|[[http://vlado.fmf.uni-lj.si/pub/networks/data//GED/Presdnts.GED|US presidents]] |  ?  |  0 |   ?  | genealogy |
-|[[http://vlado.fmf.uni-lj.si/pub/networks/data//GED/P-Tur.GED|Turkish nomads]] |  ?  |  0 |  ?  | genealogy |
-|[[http://vlado.fmf.uni-lj.si/pub/networks/data//GED/CSphd.ZIP|CS phd]] |  1882 |  ?  |  0 | genealogy |
-|[[http://vlado.fmf.uni-lj.si/pub/networks/data/mix/USAir97.net|US Air lines]] |    332 |       0 |  ?  | transport |
-|[[http://vlado.fmf.uni-lj.si/pub/networks/data/2mode/cities.zip|Cities and services]] |  101/55 |      0 |  ?  | valued, 2-mode data|
-|[[http://vlado.fmf.uni-lj.si/pub/networks/data/2mode/divorce.net|Divorce in US]] |  59/50 |      0 |   ?  | binary, 2-mode data|
-|[[http://vlado.fmf.uni-lj.si/pub/networks/data/2mode/DutchElite.htm|Dutch Elite 2006]] |    3810+937 |   5221 |      0 | multirelational, 2-mode data |
-|[[http://vlado.fmf.uni-lj.si/pub/networks/data/2mode/Sandi/Sandi.htm|Graph products]]|  674/314 |      0 |   ?  | collaboration, 2-mode |
+|[Football](http://vlado.fmf.uni-lj.si/pub/networks/data/sport/football.htm) |  35 |  0 |  118 | sport, valued |
+|[Slovene parties 1994](http://vlado.fmf.uni-lj.si/pub/networks/data/soc/Samo/Stranke94.htm) |   10 |  0 |  90 | sociology, valued signed |
+|[US presidents](http://vlado.fmf.uni-lj.si/pub/networks/data//GED/Presdnts.GED) |  ?  |  0 |   ?  | genealogy |
+|[Turkish nomads](http://vlado.fmf.uni-lj.si/pub/networks/data//GED/P-Tur.GED) |  ?  |  0 |  ?  | genealogy |
+|[CS phd](http://vlado.fmf.uni-lj.si/pub/networks/data//GED/CSphd.ZIP) |  1882 |  ?  |  0 | genealogy |
+|[US Air lines](http://vlado.fmf.uni-lj.si/pub/networks/data/mix/USAir97.net) |    332 |       0 |  ?  | transport |
+|[Cities and services](http://vlado.fmf.uni-lj.si/pub/networks/data/2mode/cities.zip) |  101/55 |      0 |  ?  | valued, 2-mode data|
+|[Divorce in US](http://vlado.fmf.uni-lj.si/pub/networks/data/2mode/divorce.net) |  59/50 |      0 |   ?  | binary, 2-mode data|
+|[Dutch Elite 2006](http://vlado.fmf.uni-lj.si/pub/networks/data/2mode/DutchElite.htm) |    3810+937 |   5221 |      0 | multirelational, 2-mode data |
+|[Graph products](http://vlado.fmf.uni-lj.si/pub/networks/data/2mode/Sandi/Sandi.htm) |  674/314 |      0 |   ?  | collaboration, 2-mode |
 |[[http://vlado.fmf.uni-lj.si/pub/networks/data/2mode/journals.htm|Slovenian magazines<br> and journals]] |    124 |      0 |  ?  | valued, derived from 2-mode data|
 |[[http://vlado.fmf.uni-lj.si/pub/networks/data/collab/geom.htm|Computational geometry]] |  7343 |  11898 |  0 | collaboration |
 |[[http://vlado.fmf.uni-lj.si/pub/networks/data/collab/netscience.htm|Network theory]] |  1589 |  2742 |  0 | collaboration |
