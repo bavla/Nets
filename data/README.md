@@ -4,6 +4,7 @@
   * [Weighted networks](https://github.com/bavla/wNets/tree/main/Data)
   * [Two-mode networks](https://github.com/bavla/NormNet/blob/main/TwoMode/DataSets.md)
   * [Multiway network data sets](https://github.com/bavla/ibm3m/tree/master/data)
+  * [R nets](https://github.com/bavla/Rnet/tree/master/data)
 
 
 DL
