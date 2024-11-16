@@ -1,10 +1,7 @@
 # Old Pajek Data Sets 
 
-  * [Index](pajek:nets:ind)
-  * [Mixed](pajek:nets:mix)
+  * [Network data sets](https://github.com/bavla/Nets/tree/master/data)
   * [Original version of Pajek Data Sets](http://vlado.fmf.uni-lj.si/pub/networks/data/default.htm) 
-
-
 
 
 ## Licenses and Citation 
