@@ -48,16 +48,16 @@ When publishing results obtained using this data set the original authors should
 |[Words 2-8](http://vlado.fmf.uni-lj.si/pub/networks/data/dic/knuth/dic28.zip) |  ?  |      0 |   ?  | close words |
 |[Roget](http://vlado.fmf.uni-lj.si/pub/networks/data/dic/roget/Roget.htm) |   1022 |      0 |   5075 | dictionary |
 |[Wordnet](http://vlado.fmf.uni-lj.si/pub/networks/data/dic/Wordnet/Wordnet.htm) |  82670 |      0 |  133445 | dictionary, multi |
-|[USF Word Association, Rhyme and Word Fragment Norms](http://vlado.fmf.uni-lj.si/pub/networks/data/dic/fa/FreeAssoc.htm) |  10617 |      0 |  72176 | dictionary |
+|[USF Word Association,<br>Rhyme and Word Fragment Norms](http://vlado.fmf.uni-lj.si/pub/networks/data/dic/fa/FreeAssoc.htm) |  10617 |      0 |  72176 | dictionary |
 |[Graph Drawing Contests](http://vlado.fmf.uni-lj.si/pub/networks/data/GD/GD.htm) |  *  |  *  |  *  | collection |
 |[GD'99 - Linden strasse](http://vlado.fmf.uni-lj.si/pub/networks/data/GD/a99m.zip) |  234 |   278 |    48 | literature, multi, temporal|
-|[GD'01 - GD proceedings self-citing](http://vlado.fmf.uni-lj.si/pub/networks/data/GD/a01.zip) |  311 |      0 |   645 | citation|
+|[GD'01<br>GD proceedings self-citing](http://vlado.fmf.uni-lj.si/pub/networks/data/GD/a01.zip) |  311 |      0 |   645 | citation|
 |[KEDS](http://vlado.fmf.uni-lj.si/pub/networks/data/KEDS/KEDS.htm) |    *  |    *  |    *  | activity, multi, temporal|
 |[Notre Dame WWW](http://vlado.fmf.uni-lj.si/pub/networks/data/ND/NDnets.htm) |  325729 |      0 |  1497135 | internet|
 |[Notre Dame actors](http://vlado.fmf.uni-lj.si/pub/networks/data/ND/NDnets.htm) |  520223 |  1470418 |  0 | 2-mode|
 |[European projects on simulation](pajek:data:zip:simpro.zip) |  *  |  *  |  *  | 2-mode|
 |[Citation networks](http://vlado.fmf.uni-lj.si/pub/networks/data/cite/default.htm) |   *  |   *  |   *  | citation / collection|
-|[Networks from Exploratory Network Analysis with Pajek](http://vlado.fmf.uni-lj.si/pub/networks/data/esna/default.htm) |  *  |   *  |   *  | collection|
+|[Networks from<br>Exploratory Network Analysis with Pajek](http://vlado.fmf.uni-lj.si/pub/networks/data/esna/default.htm) |  *  |   *  |   *  | collection|
 |[Networks from Generalized Blockmodeling](http://vlado.fmf.uni-lj.si/pub/networks/data/GBM/default.htm) |   *  |   *  |   *  | collection|
 |[Food-webs](http://vlado.fmf.uni-lj.si/pub/networks/data/bio/foodweb/foodweb.htm) |  *  |  *  |   *  | collection |
 |[UCINET IV datasets](http://vlado.fmf.uni-lj.si/pub/networks/data/ucinet/ucidata.htm) |      *  |      *  |      *  | collection|
