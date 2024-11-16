@@ -20,7 +20,7 @@ When publishing results obtained using this data set the original authors should
 
 
 | network  | n  | m<sub>E</sub> | m<sub>A</sub> | description |
-| --------------------------- | ------ | ------- | ------------- | ---------------------------------------------- |
+| ------------------- | ------ | ------- | -------- | ------------------------- |
 |[Yeast](http://vlado.fmf.uni-lj.si/pub/networks/data/bio/Yeast/Yeast.htm) |  2361 | 7182 | 0  | biology, protein interactions |
 |[Tina](http://vlado.fmf.uni-lj.si/pub/networks/data/soc/Tina/Tina.htm) |  11 |  0 |  29-48 | sociology, (6 relations), measurements |
 |[Football](http://vlado.fmf.uni-lj.si/pub/networks/data/sport/football.htm) |  35 |  0 |  118 | sport, valued |
@@ -44,15 +44,15 @@ When publishing results obtained using this data set the original authors should
 |[Erdos](http://vlado.fmf.uni-lj.si/pub/networks/data/Erdos/Erdos02.net) |   6927 |  11850 |      0 | collaboration |
 |[The Edinburgh Associative Thesaurus](http://vlado.fmf.uni-lj.si/pub/networks/data/dic/eat/Eat.htm) |   23219 |      0 |  325624 | dictionary |
 |[ODLIS](http://vlado.fmf.uni-lj.si/pub/networks/data/dic/odlis/Odlis.htm) |   2909 |      0 |  18419 | dictionary |
-|[[http://vlado.fmf.uni-lj.si/pub/networks/data/dic/foldoc/foldoc.htm|FOLDOC]] |  13356 |      0 |  120238 | dictionary |
-|[[http://vlado.fmf.uni-lj.si/pub/networks/data/dic/knuth/dic28.zip|Words 2-8]] |  ?  |      0 |   ?  | close words |
-|[[http://vlado.fmf.uni-lj.si/pub/networks/data/dic/roget/Roget.htm|Roget]] |   1022 |      0 |   5075 | dictionary |
-|[[http://vlado.fmf.uni-lj.si/pub/networks/data/dic/Wordnet/Wordnet.htm|Wordnet]] |  82670 |      0 |  133445 | dictionary, multi |
-|[[http://vlado.fmf.uni-lj.si/pub/networks/data/dic/fa/FreeAssoc.htm|USF Word Association, Rhyme and Word Fragment Norms]] |  10617 |      0 |  72176 | dictionary |
-|[[http://vlado.fmf.uni-lj.si/pub/networks/data/GD/GD.htm|Graph Drawing Contests]] |  *  |  *  |  *  | collection |
-|[[http://vlado.fmf.uni-lj.si/pub/networks/data/GD/a99m.zip|GD'99 - Linden strasse]]|  234 |   278 |    48 | literature, multi, temporal|
-|[[http://vlado.fmf.uni-lj.si/pub/networks/data/GD/a01.zip|GD'01 - GD proceedings self-citing]] |  311 |      0 |   645 | citation|
-|[[http://vlado.fmf.uni-lj.si/pub/networks/data/KEDS/KEDS.htm|KEDS]] |    *  |    *  |    *  | activity, multi, temporal|
+|[FOLDOC](http://vlado.fmf.uni-lj.si/pub/networks/data/dic/foldoc/foldoc.htm) |  13356 |      0 |  120238 | dictionary |
+|[Words 2-8](http://vlado.fmf.uni-lj.si/pub/networks/data/dic/knuth/dic28.zip) |  ?  |      0 |   ?  | close words |
+|[Roget](http://vlado.fmf.uni-lj.si/pub/networks/data/dic/roget/Roget.htm) |   1022 |      0 |   5075 | dictionary |
+|[Wordnet](http://vlado.fmf.uni-lj.si/pub/networks/data/dic/Wordnet/Wordnet.htm) |  82670 |      0 |  133445 | dictionary, multi |
+|[USF Word Association, Rhyme and Word Fragment Norms](http://vlado.fmf.uni-lj.si/pub/networks/data/dic/fa/FreeAssoc.htm) |  10617 |      0 |  72176 | dictionary |
+|[Graph Drawing Contests](http://vlado.fmf.uni-lj.si/pub/networks/data/GD/GD.htm) |  *  |  *  |  *  | collection |
+|[GD'99 - Linden strasse](http://vlado.fmf.uni-lj.si/pub/networks/data/GD/a99m.zip) |  234 |   278 |    48 | literature, multi, temporal|
+|[GD'01 - GD proceedings self-citing](http://vlado.fmf.uni-lj.si/pub/networks/data/GD/a01.zip) |  311 |      0 |   645 | citation|
+|[KEDS](http://vlado.fmf.uni-lj.si/pub/networks/data/KEDS/KEDS.htm) |    *  |    *  |    *  | activity, multi, temporal|
 |[[http://vlado.fmf.uni-lj.si/pub/networks/data/ND/NDnets.htm|Notre Dame WWW]] |  325729 |      0 |  1497135 | internet|
 |[[http://vlado.fmf.uni-lj.si/pub/networks/data/ND/NDnets.htm|Notre Dame actors]]|  520223 |  1470418 |  0 | 2-mode|
 |{{pajek:data:zip:simpro.zip|European projects on simulation}}|  *  |  *  |  *  | 2-mode|
