@@ -2,7 +2,7 @@
 
   * [Index](pajek:nets:ind)
   * [Mixed](pajek:nets:mix)
-  * [Old version of Pajek Data Sets](http://vlado.fmf.uni-lj.si/pub/networks/data/default.htm) 
+  * [Original version of Pajek Data Sets](http://vlado.fmf.uni-lj.si/pub/networks/data/default.htm) 
 
 
 
