@@ -1,9 +1,8 @@
 # Old Pajek Data Sets 
 
-  * [[pajek:nets:ind|Index]]
-  * [[pajek:nets:mix|Mixed]]
-
-  * [[http://vlado.fmf.uni-lj.si/pub/networks/data/default.htm|Old version of Pajek Data Sets]] 
+  * [Index](pajek:nets:ind)
+  * [Mixed](pajek:nets:mix)
+  * [Old version of Pajek Data Sets](http://vlado.fmf.uni-lj.si/pub/networks/data/default.htm) 
 
 
 
@@ -12,11 +11,10 @@
 
 
 If the source of the data set is not specified otherwise, these data sets are licensed under a
-[[http://creativecommons.org/licenses/by-nc-sa/2.5/|Creative Commons Attribution-NonCommercial-ShareAlike 2.5 License]].
+[Creative Commons Attribution-NonCommercial-ShareAlike 2.5 License](http://creativecommons.org/licenses/by-nc-sa/2.5/}.
 
 When publishing results obtained using this data set the original authors should be cited.  In addition, this collection should be cited as:
   * Vladimir Batagelj  and Andrej Mrvar (2003): Pajek data sets.\\ ''<URL: http://vladowiki.fmf.uni-lj.si/doku.php?id=pajek:nets:old>''.
-
 
 ## Networks 
 
