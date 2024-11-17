@@ -16,3 +16,6 @@ The workshop will cover the following topics:
 
 The workshop is based on the programming system R https://cran.r-project.org/. The network data and additional R code will be available on GitHub
 https://github.com/bavla/Nets/tree/master/ws .
+
+## Network data
+
