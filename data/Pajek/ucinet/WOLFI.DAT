@@ -1,0 +1,48 @@
+DL
+NR=20 NC=2
+FORMAT = FULLMATRIX DIAGONAL PRESENT
+ROW LABELS:
+1 male
+2 male
+3 male
+4 male
+5 male
+6 female
+7 female
+8 female
+9 female
+10 female
+11 female
+12 female
+13 female
+14 female
+15 female
+16 female
+17 female
+18 female
+19 female
+20 female
+COLUMN LABELS:
+AGE
+RANK
+DATA:
+ 15  1
+ 10  2
+ 10  3
+  8  4
+  7  5
+ 15 10
+  5 11
+ 11  6
+  8 12
+  9  9
+ 16  7
+ 10  8
+ 14 18
+  5 19
+  7 20
+ 11 13
+  7 14
+  5 15
+ 15 16
+  4 17

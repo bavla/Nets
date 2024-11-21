@@ -1,0 +1,50 @@
+DL 
+N=10 NM=2
+FORMAT = FULLMATRIX DIAGONAL PRESENT
+ROW LABELS:
+COUN
+COMM
+EDUC
+INDU
+MAYR
+WRO 
+NEWS
+UWAY
+WELF
+WEST
+COLUMN LABELS:
+COUN
+COMM
+EDUC
+INDU
+MAYR
+WRO 
+NEWS
+UWAY
+WELF
+WEST
+LEVEL LABELS:
+KNOKI
+KNOKM
+DATA:
+0 1 0 0 1 0 1 0 1 0 
+1 0 1 1 1 0 1 1 1 0 
+0 1 0 1 1 1 1 0 0 1 
+1 1 0 0 1 0 1 0 0 0 
+1 1 1 1 0 0 1 1 1 1 
+0 0 1 0 0 0 1 0 1 0 
+0 1 0 1 1 0 0 0 0 0 
+1 1 0 1 1 0 1 0 1 0 
+0 1 0 0 1 0 1 0 0 0 
+1 1 1 0 1 0 1 0 0 0 
+ 0  0  1  0  1  0  0  1  1  1 
+ 0  0  1  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  1  0  0 
+ 0  1  1  0  0  0  1  1  1  0 
+ 0  1  1  0  0  0  0  1  1  0 
+ 0  0  0  0  0  0  0  0  0  0 
+ 0  1  0  0  0  0  0  1  0  0 
+ 0  0  0  0  0  0  0  0  1  1 
+ 0  0  1  0  0  0  0  1  0  0 
+ 0  0  0  0  0  0  0  0  0  0 
+
