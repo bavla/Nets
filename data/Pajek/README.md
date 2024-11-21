@@ -29,11 +29,11 @@ When publishing results obtained using this data set the original authors should
 |[Turkish nomads](http://vlado.fmf.uni-lj.si/pub/networks/data//GED/P-Tur.GED) |  ?  |  0 |  ?  | genealogy |
 |[CS phd](http://vlado.fmf.uni-lj.si/pub/networks/data//GED/CSphd.ZIP) |  1882 |  ?  |  0 | genealogy |
 |[US Air lines](http://vlado.fmf.uni-lj.si/pub/networks/data/mix/USAir97.net) |    332 |       0 |  ?  | transport |
-|[Cities and services](http://vlado.fmf.uni-lj.si/pub/networks/data/2mode/cities.zip) |  101/55 |      0 |  ?  | valued, 2-mode data|
-|[Divorce in US](http://vlado.fmf.uni-lj.si/pub/networks/data/2mode/divorce.net) |  59/50 |      0 |   ?  | binary, 2-mode data|
-|[Dutch Elite 2006](http://vlado.fmf.uni-lj.si/pub/networks/data/2mode/DutchElite.htm) |    3810+937 |   5221 |      0 | multirelational, 2-mode |
-|[Graph products](http://vlado.fmf.uni-lj.si/pub/networks/data/2mode/Sandi/Sandi.htm) |  674/314 |      0 |   ?  | collaboration, 2-mode |
-|[Slovenian magazines<br> and journals](http://vlado.fmf.uni-lj.si/pub/networks/data/2mode/journals.htm) |    124 |      0 |  ?  | valued,<br>derived from 2-mode|
+|[Cities and services](./2mode/cities.zip) |  101/55 |      0 |  ?  | valued, 2-mode data|
+|[Divorce in US](./2mode/divorce.net) |  59/50 |      0 |   ?  | binary, 2-mode data|
+|[Dutch Elite 2006](./2mode/DutchElite.md) |    3810+937 |   5221 |      0 | multirelational, 2-mode |
+|[Graph products](./2mode/Sandi/Sandi.md) |  674/314 |      0 |   ?  | collaboration, 2-mode |
+|[Slovenian magazines<br> and journals](./2mode/journals.md) |    124 |      0 |  ?  | valued,<br>derived from 2-mode|
 |[Computational geometry](http://vlado.fmf.uni-lj.si/pub/networks/data/collab/geom.htm) |  7343 |  11898 |  0 | collaboration |
 |[Network theory](http://vlado.fmf.uni-lj.si/pub/networks/data/collab/netscience.htm) |  1589 |  2742 |  0 | collaboration |
 |[September 11](http://vlado.fmf.uni-lj.si/pub/networks/data/CRA/terror.htm) |  13332 |  243447 |      0 | text, temporal |
