@@ -36,7 +36,7 @@
   World trade in miscellaneous manufactures of metal, 1994.</a></li>
 <li> <a href="./visits.htm">
   Visiting ties among families in Turrialba, Costa Rica, 1948.</a></li>
-<li> <a href="./sampson.htm">
+<li> <a href="./sampson.md">
   Sampson's monastery.</a></li>
 <li> <a href="./flying.htm">
   Flying teams.</a></li>
