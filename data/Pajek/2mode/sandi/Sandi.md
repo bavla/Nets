@@ -12,9 +12,7 @@
 
 <hr>
 
-<center><table width=650 cellpadding=10 bgcolor=white><tr><td>
-
-<H2> REFERENCES</H2>
+<H2> References from the book Graph products</H2>
 
 <p><b>DATASET</b>       <A HREF="./sandi.net"><CODE>SANDI</CODE></A>
 <p><b>DESCRIPTION</b>   2-mode 674&#215;314 network.
