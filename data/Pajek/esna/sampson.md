@@ -1,5 +1,7 @@
 <html><head>
+ <title>Pajek data: Sampson's monastery</title>
  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"></head>
+ <style type="text/css"> </style>
  <link rel=StyleSheet href="./esna.css" type="text/css" title="ESNA Style" media="screen, print">
 <body bgcolor="darkgreen">
 <center>
@@ -36,7 +38,7 @@ above.
 </p>
 <p><b>Download</b></p>
 <p>
-<a href="https://github.com/bavla/Nets/raw/refs/heads/master/data/Pajek/esna/Sampson.zip">complete dataset</a> (ZIP, 2.2K)
+<a href="./Sampson.zip">complete dataset</a> (ZIP, 2.2K)
 </p>
 <p><b>Background</b></p>
 <p>
@@ -70,7 +72,7 @@ accepted in the group.
   Analysis with Pajek (Cambridge: Cambridge University Press, 2004),
   Chapter 4.</li>
  <li> The UCINET version of
-   <a href="../ucinet/UciData.md#sampson">
+   <a href="http://vlado.fmf.uni-lj.si/pub/networks/data/ucinet/UciData.htm#sampson">
    Sampson's data</a></li>
 </ol>
 <h3>History</h3>
@@ -91,8 +93,8 @@ No living author traced. Main author has deceased.
 </p -->
 <hr>
 1. January 2004 &nbsp;
-<a href="../README.md">Pajek datasets</a> /
-<a href="./README.md">Exploratory SNA</a>
+<a href="../default.htm">Pajek datasets</a> /
+<a href="./default.htm">Exploratory SNA</a>
 </td></tr></tbody></table>
 </center>
 </body></html>
