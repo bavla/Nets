@@ -708,7 +708,7 @@ group following disputes among the members.
 </BODY>
 </HTML>
 
-<hr>
+
 [Pajek network data sets](https://github.com/bavla/Nets/tree/master/data/Pajek/README.md);
 [Network data sets](https://github.com/bavla/Nets/tree/master/data/README.md)
 
