@@ -1,0 +1,42 @@
+Current Folder: INBOX   Sign Out
+Compose   Addresses   Folders   Options   Search   Help
+
+Message List | Delete Previous | Next Forward | Forward as Attachment | Reply | Reply All
+
+Subject:   Re: Another ESNA review
+From:   "W. de Nooy" <denooy@fhk.eur.nl>
+Date:   Fri, March 2, 2007 16:58
+To:   vladimir.batagelj@fmf.uni-lj.si
+Priority:   Normal
+Options:   View Full Header |  View Printable Version
+
+
+
+
+Vlado,
+
+>  I noticed that you have on your web page a very nice
+>  network on the Dutch elite. Can I also include it in
+>  the Pajek data sets ?
+>
+>
+Yes, you can. You may add a link to my homepage for further information.
+
+>  I cleaned a bit the file but I have two questions:
+>  in relation 29 you have also line values 52; and in
+>  relation 34 also line values 37. What is the reason?
+>
+>
+Roles with codes 29 and 52 were (more or less) the same; roles 34 and 37
+as well. If you like, you can change line values 52 to 29 and 37 to 34.
+
+Kind regards,
+
+Wouter.
+
+Download this as a file
+
+
+
+
+
