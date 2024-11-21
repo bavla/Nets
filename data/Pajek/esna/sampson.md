@@ -93,8 +93,8 @@ No living author traced. Main author has deceased.
 </p -->
 <hr>
 1. January 2004 &nbsp;
-<a href="../default.htm">Pajek datasets</a> /
-<a href="./default.htm">Exploratory SNA</a>
+<a href="../README.md">Pajek datasets</a> /
+<a href="./README.md">Exploratory SNA</a>
 </td></tr></tbody></table>
 </center>
 </body></html>
