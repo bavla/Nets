@@ -1,5 +1,4 @@
 <html><head>
- <title>Pajek data: Dutch elite 2006</title>
  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
  <link rel=StyleSheet href="../esna/esna.css" type="text/css" title="ESNA Style" media="screen, print">
 </head>
@@ -86,10 +85,12 @@ An actor-oriented approach</a>, Barcelona 2006.<br>
   </li>
 </ol>
 <hr>
-<a href="../default.htm">Pajek Data</a>;
-<a href="http://vlado.fmf.uni-lj.si/pub/networks/pajek/default.htm">Pajek Home</a>
-<hr>
 2. March 2007
 </td></tr></tbody></table>
 </center>
 </body></html>
+<hr>
+
+[Pajek network data sets](https://github.com/bavla/Nets/tree/master/data/Pajek/README.md);
+[Network data sets](https://github.com/bavla/Nets/tree/master/data/README.md)
+
