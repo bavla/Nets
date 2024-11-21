@@ -1,7 +1,5 @@
 <html><head>
- <title>Pajek data: Sampson's monastery</title>
  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"></head>
- <style type="text/css"> </style>
  <link rel=StyleSheet href="./esna.css" type="text/css" title="ESNA Style" media="screen, print">
 <body bgcolor="darkgreen">
 <center>
