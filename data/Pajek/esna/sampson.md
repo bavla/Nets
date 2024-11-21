@@ -70,7 +70,7 @@ accepted in the group.
   Analysis with Pajek (Cambridge: Cambridge University Press, 2004),
   Chapter 4.</li>
  <li> The UCINET version of
-   <a href="http://vlado.fmf.uni-lj.si/pub/networks/data/ucinet/UciData.htm#sampson">
+   <a href="../ucinet/UciData.md#sampson">
    Sampson's data</a></li>
 </ol>
 <h3>History</h3>
