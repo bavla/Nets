@@ -23,7 +23,7 @@
 <tt>Top200.paj </tt> - subnetwork of 200 the most important persons.<br>
 <tt>DutchElite.pdf</tt> - detailed description of the data set.<br>
 </p><p><b>Download</b>
-</p><p><a href="./DutchElite.zip">complete dataset</a> (ZIP, 120K)
+</p><p><a href="https://github.com/bavla/Nets/raw/refs/heads/master/data/Pajek/2mode/DutchElite.zip">complete dataset</a> (ZIP, 120K)
 
 </p>
 <p><b>Background</b></p><p>
