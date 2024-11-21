@@ -30,7 +30,7 @@ arc (i,j) - author i is the (co)author of the paper j.
 <p><b>REFERENCES</b>
 <UL>
 <li> Imrich W, Klav&#382;ar S. (1999).
-     Graph products. <A HREF="./refs.pdf">References</A>.
+     Graph products. <A HREF="./Refs.PDF">References</A>.
 
 </UL>
 
