@@ -38,7 +38,7 @@ above.
 </p>
 <p><b>Download</b></p>
 <p>
-<a href="./Sampson.zip">complete dataset</a> (ZIP, 2.2K)
+<a href="https://github.com/bavla/Nets/raw/refs/heads/master/data/Pajek/esna/Sampson.zip">complete dataset</a> (ZIP, 2.2K)
 </p>
 <p><b>Background</b></p>
 <p>
