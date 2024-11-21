@@ -60,7 +60,7 @@ When publishing results obtained using this data set the original authors should
 |[Networks from<br>Exploratory Network Analysis with Pajek](./esna/README.md) |  *  |   *  |   *  | collection|
 |[Networks from Generalized Blockmodeling](http://vlado.fmf.uni-lj.si/pub/networks/data/GBM/default.htm) |   *  |   *  |   *  | collection|
 |[Food-webs](http://vlado.fmf.uni-lj.si/pub/networks/data/bio/foodweb/foodweb.htm) |  *  |  *  |   *  | collection |
-|[UCINET IV datasets](http://vlado.fmf.uni-lj.si/pub/networks/data/ucinet/ucidata.htm) |      *  |      *  |      *  | collection|
+|[UCINET IV datasets](./ucinet/README.md) |      *  |      *  |      *  | collection|
 |[Wasserman and Faust datasets](http://vlado.fmf.uni-lj.si/pub/networks/data/WaFa/default.htm) |      *  |      *  |      *  | collection |
 |[Mixed networks](http://vlado.fmf.uni-lj.si/pub/networks/data/mix/mixed.htm) |      *  |      *  |      *  | collection |
 
