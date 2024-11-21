@@ -57,7 +57,7 @@ When publishing results obtained using this data set the original authors should
 |[Notre Dame actors](http://vlado.fmf.uni-lj.si/pub/networks/data/ND/NDnets.htm) |  520223 |  1470418 |  0 | 2-mode|
 |[European projects on simulation](https://github.com/bavla/Nets/blob/master/data/Pajek/SimPro.zip) |  *  |  *  |  *  | 2-mode|
 |[Citation networks](http://vlado.fmf.uni-lj.si/pub/networks/data/cite/default.htm) |   *  |   *  |   *  | citation / collection|
-|[Networks from<br>Exploratory Network Analysis with Pajek](http://vlado.fmf.uni-lj.si/pub/networks/data/esna/default.htm) |  *  |   *  |   *  | collection|
+|[Networks from<br>Exploratory Network Analysis with Pajek](./esna/README.md) |  *  |   *  |   *  | collection|
 |[Networks from Generalized Blockmodeling](http://vlado.fmf.uni-lj.si/pub/networks/data/GBM/default.htm) |   *  |   *  |   *  | collection|
 |[Food-webs](http://vlado.fmf.uni-lj.si/pub/networks/data/bio/foodweb/foodweb.htm) |  *  |  *  |   *  | collection |
 |[UCINET IV datasets](http://vlado.fmf.uni-lj.si/pub/networks/data/ucinet/ucidata.htm) |      *  |      *  |      *  | collection|
