@@ -1,0 +1,243 @@
+% The file dolphins.gml contains an undirected social network of frequent
+% associations between 62 dolphins in a community living off Doubtful Sound,
+% New Zealand, as compiled by Lusseau et al. (2003).  Please cite
+%
+%  D. Lusseau, K. Schneider, O. J. Boisseau, P. Haase, E. Slooten, and
+%  S. M. Dawson, The bottlenose dolphin community of Doubtful Sound features
+%  a large proportion of long-lasting associations, Behavioral Ecology and
+%  Sociobiology 54, 396-405 (2003).
+%
+% Additional information on the network can be found in
+%
+%  D. Lusseau, The emergent properties of a dolphin social network,
+%  Proc. R. Soc. London B (suppl.) 270, S186-S188 (2003).
+%
+%  D. Lusseau, Evidence for social role in a dolphin social network,
+%  Preprint q-bio/0607048 (http://arxiv.org/abs/q-bio.PE/0607048)
+% -------------
+% GML version creator: Mark Newman on Wed Jul 26 15:04:20 2006
+% Transformed into Pajek format by Vladimir Batagelj, March 1, 2007
+% ---------------------------------------------------------------------------
+*vertices 62
+ 1 "Beak"
+ 2 "Beescratch"
+ 3 "Bumper"
+ 4 "CCL"
+ 5 "Cross"
+ 6 "DN16"
+ 7 "DN21"
+ 8 "DN63"
+ 9 "Double"
+ 10 "Feather"
+ 11 "Fish"
+ 12 "Five"
+ 13 "Fork"
+ 14 "Gallatin"
+ 15 "Grin"
+ 16 "Haecksel"
+ 17 "Hook"
+ 18 "Jet"
+ 19 "Jonah"
+ 20 "Knit"
+ 21 "Kringel"
+ 22 "MN105"
+ 23 "MN23"
+ 24 "MN60"
+ 25 "MN83"
+ 26 "Mus"
+ 27 "Notch"
+ 28 "Number1"
+ 29 "Oscar"
+ 30 "Patchback"
+ 31 "PL"
+ 32 "Quasi"
+ 33 "Ripplefluke"
+ 34 "Scabs"
+ 35 "Shmuddel"
+ 36 "SMN5"
+ 37 "SN100"
+ 38 "SN4"
+ 39 "SN63"
+ 40 "SN89"
+ 41 "SN9"
+ 42 "SN90"
+ 43 "SN96"
+ 44 "Stripes"
+ 45 "Thumper"
+ 46 "Topless"
+ 47 "TR120"
+ 48 "TR77"
+ 49 "TR82"
+ 50 "TR88"
+ 51 "TR99"
+ 52 "Trigger"
+ 53 "TSN103"
+ 54 "TSN83"
+ 55 "Upbang"
+ 56 "Vau"
+ 57 "Wave"
+ 58 "Web"
+ 59 "Whitetip"
+ 60 "Zap"
+ 61 "Zig"
+ 62 "Zipfel"
+*edges
+9 4
+10 6
+10 7
+11 1
+11 3
+14 6
+14 7
+14 10
+15 1
+15 4
+16 1
+17 15
+18 2
+18 7
+18 10
+18 14
+19 16
+20 2
+20 8
+21 9
+21 17
+21 19
+22 19
+23 18
+25 15
+25 16
+25 19
+26 18
+27 2
+27 26
+28 2
+28 8
+28 18
+28 26
+28 27
+29 2
+29 9
+29 21
+30 11
+30 19
+30 22
+30 25
+31 8
+31 20
+31 29
+32 18
+33 10
+33 14
+34 13
+34 15
+34 17
+34 22
+35 15
+35 34
+36 30
+37 2
+37 21
+37 24
+38 9
+38 15
+38 17
+38 22
+38 34
+38 35
+38 37
+39 15
+39 17
+39 21
+39 34
+40 37
+41 1
+41 8
+41 15
+41 16
+41 34
+41 37
+41 38
+42 2
+42 10
+42 14
+43 1
+43 3
+43 11
+43 31
+44 15
+44 30
+44 34
+44 38
+44 39
+45 3
+45 21
+45 35
+45 39
+46 9
+46 16
+46 19
+46 22
+46 24
+46 25
+46 30
+46 38
+47 44
+48 1
+48 11
+48 21
+48 29
+48 31
+48 43
+50 35
+50 47
+51 15
+51 17
+51 21
+51 34
+51 43
+51 46
+52 5
+52 12
+52 19
+52 22
+52 24
+52 25
+52 30
+52 46
+52 51
+53 15
+53 30
+53 39
+53 41
+54 44
+55 2
+55 7
+55 8
+55 14
+55 20
+55 42
+56 16
+56 52
+57 6
+57 7
+58 6
+58 7
+58 10
+58 14
+58 18
+58 40
+58 42
+58 49
+58 55
+59 39
+60 4
+60 9
+60 16
+60 37
+60 46
+61 33
+62 3
+62 38
+62 54
