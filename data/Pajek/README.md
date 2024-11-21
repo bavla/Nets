@@ -1,7 +1,7 @@
 
   
 
-# <img src="https://github.com/user-attachments/assets/bb2bfee6-ca10-495c-9a9d-f81842828ca2" width=100>   Old Pajek Data Sets 
+# <img src="pajek.gif" width=100>   Old Pajek Data Sets 
 
   * [Network data sets](https://github.com/bavla/Nets/tree/master/data)
   * [Original version of Pajek Data Sets](http://vlado.fmf.uni-lj.si/pub/networks/data/default.htm) 
