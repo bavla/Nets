@@ -30,7 +30,7 @@ When publishing results obtained using this data set the original authors should
 |[CS phd](http://vlado.fmf.uni-lj.si/pub/networks/data//GED/CSphd.ZIP) |  1882 |  ?  |  0 | genealogy |
 |[US Air lines](http://vlado.fmf.uni-lj.si/pub/networks/data/mix/USAir97.net) |    332 |       0 |  ?  | transport |
 |[Cities and services](https://github.com/bavla/Nets/raw/refs/heads/master/data/Pajek/2mode/cities.zip) |  101/55 |      0 |  ?  | valued, 2-mode data|
-|[Divorce in US](./2mode/divorce.net) |  59/50 |      0 |   ?  | binary, 2-mode data|
+|[Divorce in US](https://raw.githubusercontent.com/bavla/Nets/refs/heads/master/data/Pajek/2mode/divorce.net./2mode/divorce.net) |  59/50 |      0 |   ?  | binary, 2-mode data|
 |[Dutch Elite 2006](./2mode/DutchElite.md) |    3810+937 |   5221 |      0 | multirelational, 2-mode |
 |[Graph products](./2mode/Sandi/Sandi.md) |  674/314 |      0 |   ?  | collaboration, 2-mode |
 |[Slovenian magazines<br> and journals](./2mode/journals.md) |    124 |      0 |  ?  | valued,<br>derived from 2-mode|
