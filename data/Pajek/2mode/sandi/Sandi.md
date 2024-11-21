@@ -1,17 +1,16 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
-<HTML>
-<HEAD>
-<TITLE>
-        Pajek Datasets
-</TITLE>
-<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
-<META NAME="Generator" CONTENT="TextPad 4.0">
-<META NAME="Author" CONTENT="?">
-<META NAME="Keywords" CONTENT="?">
-<META NAME="Description" CONTENT="?">
-</HEAD>
+<html><head>
+ <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+ <link rel=StyleSheet href="../esna/esna.css" type="text/css" title="ESNA Style" media="screen, print">
+</head>
+<body bgcolor="darkgreen">
 
-<BODY BGCOLOR="lightyellow" TEXT="#000000" LINK="#FF0000" VLINK="#800000" ALINK="#FF00FF" BACKGROUND="?">
+<center>
+
+<table width="650" bgcolor="lightyellow" cellpadding="10" border="0" bordercolor="brown"><tbody><tr><td>
+
+<h1><img src="../pajek.gif" width="100">Pajek datasets</h1>
+
+<hr>
 
 <center><table width=650 cellpadding=10 bgcolor=white><tr><td>
 
