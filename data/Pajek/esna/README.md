@@ -4,9 +4,7 @@
 
 <html>
  <head>
- <title>Pajek data: from Exploratory Social Network Analysis with Pajek</title>
  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
- <style type="text/css"> </style>
  <link rel=StyleSheet href="./esna.css" type="text/css" title="ESNA Style" media="screen, print">
  </head>
 <body bgcolor="darkgreen">
