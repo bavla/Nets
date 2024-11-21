@@ -1,9 +1,6 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
 <HTML>
 <HEAD>
-<TITLE>
-	UCINET IV DatasetsUCINET IV Datasets
-</TITLE>
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
 <META NAME="Generator" CONTENT="TextPad 4.0">
 <META NAME="Author" CONTENT="?">
