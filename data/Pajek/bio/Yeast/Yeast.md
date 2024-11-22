@@ -72,3 +72,7 @@ Transformed in Pajek format by V. Batagelj, 25. July 2003
 </td></tr></tbody></table>
 </center>
 </body></html>
+<hr>
+
+[Pajek network data sets](../../README.md);
+[Network data sets](../../../README.md)
