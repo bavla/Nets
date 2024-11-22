@@ -1,6 +1,5 @@
 <html>
 <head>
-  <title>Pajek data: KEDS</title>
   <meta HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=UTF-8">
   <link rel=StyleSheet href="../esna/esna.css" type="text/css" title="ESNA Style" media="screen, print">
 </head>
@@ -139,11 +138,13 @@ processing.
 </ol>
 
 <hr>
-<a href="../../default.htm">Pajek Data</a>;
-<a href="http://vlado.fmf.uni-lj.si/pub/networks/pajek/default.htm">Pajek Home</a>
-<hr>
 29. November 2004 / 24. November 2004
 </td></tr></table>
 </center>
 </body>
 </html>
+<hr>
+
+[Pajek network data sets](../README.md);
+[Network data sets](../../README.md)
+
