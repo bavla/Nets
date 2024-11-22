@@ -34,14 +34,14 @@ When publishing results obtained using this data set the original authors should
 |[Dutch Elite 2006](./2mode/DutchElite.md) |    3810+937 |   5221 |      0 | multirelational, 2-mode |
 |[Graph products](./2mode/sandi/Sandi.md) |  674/314 |      0 |   ?  | collaboration, 2-mode |
 |[Slovenian magazines<br> and journals](./2mode/journals.md) |    124 |      0 |  ?  | valued,<br>derived from 2-mode|
-|[Computational geometry](http://vlado.fmf.uni-lj.si/pub/networks/data/collab/geom.htm) |  7343 |  11898 |  0 | collaboration |
-|[Network theory](http://vlado.fmf.uni-lj.si/pub/networks/data/collab/netscience.htm) |  1589 |  2742 |  0 | collaboration |
-|[September 11](http://vlado.fmf.uni-lj.si/pub/networks/data/CRA/terror.htm) |  13332 |  243447 |      0 | text, temporal |
-|[HEP / KDD Cup 2003](http://vlado.fmf.uni-lj.si/pub/networks/data/hep-th/hep-th.htm) |  27770 |  352807 |      0 | citation |
-|[US patents](http://vlado.fmf.uni-lj.si/pub/networks/data/patents/Patents.htm) |  37774768 |      0 |  16522438 | citation |
-|[EVA](http://vlado.fmf.uni-lj.si/pub/networks/data/econ/Eva/Eva.htm) |  8343 |      0 |  6726 | ownership|
+|[Computational geometry](./collab/geom.md) |  7343 |  11898 |  0 | collaboration |
+|[Network theory](./collab/netscience.md) |  1589 |  2742 |  0 | collaboration |
+|[September 11](./CRA/terror.md) |  13332 |  243447 |      0 | text, temporal |
+|[HEP / KDD Cup 2003](./hep-th/hep-th.md) |  27770 |  352807 |      0 | citation |
+|[US patents](./patents/Patents.md) |  37774768 |      0 |  16522438 | citation |
+|[EVA](./econ/eva/Eva.md) |  8343 |      0 |  6726 | ownership|
 |[Graph and Digraph Glossary](./dic/TG/glossTG.md) |      72 |      0 |    122 | dictionary |
-|[Erdos](http://vlado.fmf.uni-lj.si/pub/networks/data/Erdos/Erdos02.net) |   6927 |  11850 |      0 | collaboration |
+|[Erdos](./bib/Erdos/Erdos02.net) |   6927 |  11850 |      0 | collaboration |
 |[The Edinburgh Associative Thesaurus](./dic/EAT/eat.md) |   23219 |      0 |  325624 | dictionary |
 |[ODLIS](./dic/odlis/Odlis.md) |   2909 |      0 |  18419 | dictionary |
 |[FOLDOC](./dic/foldoc/Foldoc.md) |  13356 |      0 |  120238 | dictionary |
