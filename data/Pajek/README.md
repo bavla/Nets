@@ -42,13 +42,13 @@ When publishing results obtained using this data set the original authors should
 |[EVA](http://vlado.fmf.uni-lj.si/pub/networks/data/econ/Eva/Eva.htm) |  8343 |      0 |  6726 | ownership|
 |[Graph and Digraph Glossary](http://vlado.fmf.uni-lj.si/pub/networks/data/DIC/TG/glossTG.htm) |      72 |      0 |    122 | dictionary |
 |[Erdos](http://vlado.fmf.uni-lj.si/pub/networks/data/Erdos/Erdos02.net) |   6927 |  11850 |      0 | collaboration |
-|[The Edinburgh Associative Thesaurus](http://vlado.fmf.uni-lj.si/pub/networks/data/dic/eat/Eat.htm) |   23219 |      0 |  325624 | dictionary |
-|[ODLIS](http://vlado.fmf.uni-lj.si/pub/networks/data/dic/odlis/Odlis.htm) |   2909 |      0 |  18419 | dictionary |
-|[FOLDOC](http://vlado.fmf.uni-lj.si/pub/networks/data/dic/foldoc/foldoc.htm) |  13356 |      0 |  120238 | dictionary |
-|[Words 2-8](http://vlado.fmf.uni-lj.si/pub/networks/data/dic/knuth/dic28.zip) |  ?  |      0 |   ?  | close words |
-|[Roget](http://vlado.fmf.uni-lj.si/pub/networks/data/dic/roget/Roget.htm) |   1022 |      0 |   5075 | dictionary |
-|[Wordnet](http://vlado.fmf.uni-lj.si/pub/networks/data/dic/Wordnet/Wordnet.htm) |  82670 |      0 |  133445 | dictionary, multi |
-|[USF Word Association,<br>Rhyme and Word Fragment Norms](http://vlado.fmf.uni-lj.si/pub/networks/data/dic/fa/FreeAssoc.htm) |  10617 |      0 |  72176 | dictionary |
+|[The Edinburgh Associative Thesaurus](./dic/EAT/eat.md) |   23219 |      0 |  325624 | dictionary |
+|[ODLIS](./dic/odlis/Odlis.md) |   2909 |      0 |  18419 | dictionary |
+|[FOLDOC](./dic/foldoc/Foldoc.md) |  13356 |      0 |  120238 | dictionary |
+|[Words 2-8](./dic/knuth/DIC28.ZIP) |  ?  |      0 |   ?  | close words |
+|[Roget](./dic/Roget/Roget.htm) |   1022 |      0 |   5075 | dictionary |
+|[Wordnet](./dic/Wordnet/wordnet.md) |  82670 |      0 |  133445 | dictionary, multi |
+|[USF Word Association,<br>Rhyme and Word Fragment Norms](./dic/FA/FreeAssoc.md) |  10617 |      0 |  72176 | dictionary |
 |[Graph Drawing Contests](http://vlado.fmf.uni-lj.si/pub/networks/data/GD/GD.htm) |  *  |  *  |  *  | collection |
 |[GD'99 - Linden strasse](http://vlado.fmf.uni-lj.si/pub/networks/data/GD/a99m.zip) |  234 |   278 |    48 | literature, multi, temporal|
 |[GD'01<br>GD proceedings self-citing](http://vlado.fmf.uni-lj.si/pub/networks/data/GD/a01.zip) |  311 |      0 |   645 | citation|
