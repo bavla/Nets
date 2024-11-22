@@ -1,14 +1,15 @@
-<html>
-<head>
-  <title>Pajek data: KDD Cup 2003 - High Energy Particle Physics literature </title>
-  <meta HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=UTF-8">
+<html>
+<head>
+  <meta HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=UTF-8">
   <link rel=StyleSheet href="../esna/esna.css" type="text/css" title="ESNA Style" media="screen, print">
-</head>
-<body bgcolor=darkgreen>
-<center>
-<table width=650 bgcolor=lightyellow cellpadding=10 border=0 bordercolor=brown><tr><td>
-<h1><img src=../pajek.gif width=100>Pajek datasets</h1>
-<hr>
+</head>
+<body bgcolor=darkgreen>
+<center>
+<table width=650 bgcolor=lightyellow cellpadding=10 border=0 bordercolor=brown><tr><td>
+<h1><img src=../pajek.gif width=100>Pajek datasets</h1>
+
+<hr>
+
 <h2> KDD Cup 2003<br>High Energy Particle Physics (HEP) literature</h2>
 
 <p><b>Dataset</b> &nbsp; <code>hep-th</code>
@@ -52,6 +53,16 @@ The first version of data was updated on May 12, 2003.
 <ol>
  <li> <A HREF="http://www.cs.cornell.edu/projects/kddcup/index.html">KDD Cup 2003</A>
  <li> <A HREF="http://arxiv.org/">arXiv</A>
-</ol>Transformed in Pajek format by V. Batagelj, 26. July 2003
-<hr><a href="../default.htm">Pajek Data</a>;<a href="http://vlado.fmf.uni-lj.si/pub/networks/pajek/default.htm">Pajek Home</a><hr>26. July 2003
-</td></tr></table></center></body></html>
+</ol>
+Transformed in Pajek format by V. Batagelj, 26. July 2003
+<hr>
+26. July 2003
+</td></tr></table>
+</center>
+</body>
+</html>
+<hr>
+
+[Pajek network data sets](../../README.md);
+[Network data sets](../../../README.md)
+
