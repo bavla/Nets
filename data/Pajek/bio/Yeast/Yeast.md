@@ -1,5 +1,4 @@
 <html><head>
- <title>Pajek data: Yeast</title>
  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
  <link rel=StyleSheet href="../../esna/esna.css" type="text/css" title="ESNA Style" media="screen, print">
 </head>
@@ -64,9 +63,6 @@ PIN class encoding:<br>
  </li><li> Software package Protein Interaction Network <a href="http://www.bioinfo.org.cn/PIN/">PIN</a>
 </li></ol>
 Transformed in Pajek format by V. Batagelj, 25. July 2003
-<hr>
-<a href="http://vlado.fmf.uni-lj.si/pub/networks/data/default.htm">Pajek Data</a>;
-<a href="http://vlado.fmf.uni-lj.si/pub/networks/pajek/default.htm">Pajek Home</a>
 <hr>
 25. July 2003
 </td></tr></tbody></table>
