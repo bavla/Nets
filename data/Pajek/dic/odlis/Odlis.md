@@ -1,14 +1,18 @@
-<html>
-<head>
-  <title>Pajek data: ODLIS</title>
-  <meta HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=UTF-8">
+<html>
+<head>
+  <meta HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=UTF-8">
   <link rel=StyleSheet href="../../esna/esna.css" type="text/css" title="ESNA Style" media="screen, print">
-</head>
-<body bgcolor=darkgreen>
-<center>
-<table width=650 bgcolor=lightyellow cellpadding=10 border=0 bordercolor=brown><tr><td>
-<h1><img src=../../pajek.gif width=100>Pajek datasets</h1>
-<hr>
+</head>
+<body bgcolor=darkgreen>
+
+<center>
+
+<table width=650 bgcolor=lightyellow cellpadding=10 border=0 bordercolor=brown><tr><td>
+
+<h1><img src=../../pajek.gif width=100>Pajek datasets</h1>
+
+<hr>
+
 <h2> ODLIS<br>Online Dictionary of Library and Information Science</h2>
 
 <p><b>Dataset</b> <code>odlis</code>
@@ -93,5 +97,14 @@ to suggestions from users.
     <a href="http://vax.wcsu.edu/library/odlis.html">
      <i>Online Dictionary of Library and Information Science</i></a>.</li>
 </ol>
-<hr><a href="../../default.htm">Pajek Data</a>;<a href="http://vlado.fmf.uni-lj.si/pub/networks/pajek/default.htm">Pajek Home</a><hr>27. January 2004
-</td></tr></table></center></body></html>
+<hr>
+27. January 2004
+</td></tr></table>
+</center>
+</body>
+</html>
+<hr>
+
+[Pajek network data sets](../../README.md);
+[Network data sets](../../../README.md)
+
