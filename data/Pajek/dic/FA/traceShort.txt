@@ -1,0 +1,169 @@
+Python 2.3.4 (#53, May 25 2004, 21:17:02) [MSC v.1200 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+
+    ****************************************************************
+    Personal firewall software may warn about the connection IDLE
+    makes to its subprocess using this computer's internal loopback
+    interface.  This connection is not visible on any external
+    interface and no data is sent to or received from the Internet.
+    ****************************************************************
+
+IDLE 1.0.3
+>>> import sys; sys.path.append(r'D:\Vlado\work\Python\FreeAssoc')
+>>> import FreeAssoc; FreeAssoc.run()
+line  402  target  A type  A <> N
+line  1680  target  A type  A <> N
+line  5099  cue  BEFORE type  AD <> ADJ
+line  5100  cue  BEFORE type  AD <> ADJ
+line  5101  cue  BEFORE type  AD <> ADJ
+line  5102  cue  BEFORE type  AD <> ADJ
+line  5299  cue  BELOW type  AD <> A
+line  5300  cue  BELOW type  AD <> A
+line  5301  cue  BELOW type  AD <> A
+line  5302  cue  BELOW type  AD <> A
+line  5303  cue  BELOW type  AD <> A
+line  5304  cue  BELOW type  AD <> A
+line  5305  cue  BELOW type  AD <> A
+line  5306  cue  BELOW type  AD <> A
+line  5307  cue  BELOW type  AD <> A
+line  7804  target  BROKE type  ADJ <> V
+line  10564  target  CHEDDAR type  ADJ <> N
+line  16568  target  BROKE type  ADJ <> V
+line  17190  target  BROKE type  ADJ <> V
+line  17620  cue  DETECTIVE type  N <> ADJ
+line  17621  cue  DETECTIVE type  N <> ADJ
+line  17622  cue  DETECTIVE type  N <> ADJ
+line  17623  cue  DETECTIVE type  N <> ADJ
+line  17624  cue  DETECTIVE type  N <> ADJ
+line  17625  cue  DETECTIVE type  N <> ADJ
+line  17626  cue  DETECTIVE type  N <> ADJ
+line  17627  cue  DETECTIVE type  N <> ADJ
+line  17628  cue  DETECTIVE type  N <> ADJ
+line  17629  cue  DETECTIVE type  N <> ADJ
+line  17630  cue  DETECTIVE type  N <> ADJ
+line  17631  cue  DETECTIVE type  N <> ADJ
+line  17632  cue  DETECTIVE type  N <> ADJ
+line  17633  cue  DETECTIVE type  N <> ADJ
+line  17634  cue  DETECTIVE type  N <> ADJ
+line  22364  target  BROKE type  ADJ <> V
+line  23095  cue  FALSE type  AJ <>
+line  23096  cue  FALSE type  AJ <>
+line  23097  cue  FALSE type  AJ <>
+line  23098  cue  FALSE type  AJ <>
+line  23689  target  BROKE type  ADJ <> V
+line  27988  target  A type  A <> N
+line  29352  target  BANDANNA type   <> N
+line  32169  target  CREATIVITY type  AV <> AD
+line  32705  target  BROKE type  ADJ <> V
+line  34010  target  BROKE type  ADJ <> V
+line  37199  target  A type  A <> N
+line  44030  target  A type  A <> N
+line  45163  cue  PAT type  V <> ADJ
+line  45164  cue  PAT type  V <> ADJ
+line  45165  cue  PAT type  V <> ADJ
+line  45166  cue  PAT type  V <> ADJ
+line  45167  cue  PAT type  V <> ADJ
+line  45168  cue  PAT type  V <> ADJ
+line  45169  cue  PAT type  V <> ADJ
+line  45170  cue  PAT type  V <> ADJ
+line  45171  cue  PAT type  V <> ADJ
+line  45172  cue  PAT type  V <> ADJ
+line  45173  cue  PAT type  V <> ADJ
+line  45174  cue  PAT type  V <> ADJ
+line  45175  cue  PAT type  V <> ADJ
+line  45176  cue  PAT type  V <> ADJ
+line  45177  cue  PAT type  V <> ADJ
+line  45178  cue  PAT type  V <> ADJ
+line  45179  cue  PAT type  V <> ADJ
+line  45180  cue  PAT type  V <> ADJ
+line  45181  cue  PAT type  V <> ADJ
+line  49808  target  CAPITAL type  ADJ <> N
+line  50127  target  CAPITAL type  ADJ <> N
+line  50645  target  BROKE type  ADJ <> V
+line  53578  cue  ROMAN type  N <> ADJ
+line  53579  cue  ROMAN type  N <> ADJ
+line  53580  cue  ROMAN type  N <> ADJ
+line  53581  cue  ROMAN type  N <> ADJ
+line  53582  cue  ROMAN type  N <> ADJ
+line  53583  cue  ROMAN type  N <> ADJ
+line  53584  cue  ROMAN type  N <> ADJ
+line  53585  cue  ROMAN type  N <> ADJ
+line  53586  cue  ROMAN type  N <> ADJ
+line  59127  cue  SOON type  AD <> AV
+line  59128  cue  SOON type  AD <> AV
+line  59129  cue  SOON type  AD <> AV
+line  59130  cue  SOON type  AD <> AV
+line  59131  cue  SOON type  AD <> AV
+line  59132  cue  SOON type  AD <> AV
+line  59133  cue  SOON type  AD <> AV
+line  59134  cue  SOON type  AD <> AV
+line  59135  cue  SOON type  AD <> AV
+line  59136  cue  SOON type  AD <> AV
+line  59137  cue  SOON type  AD <> AV
+line  59138  cue  SOON type  AD <> AV
+line  59139  cue  SOON type  AD <> AV
+line  59140  cue  SOON type  AD <> AV
+line  59878  target  BROKE type  ADJ <> V
+line  60776  target  CAPITAL type  ADJ <> N
+line  63214  target  CHEDDAR type  ADJ <> N
+line  65681  cue  TONIGHT type  AD <> ADJ
+line  65682  cue  TONIGHT type  AD <> ADJ
+line  65683  cue  TONIGHT type  AD <> ADJ
+line  65684  cue  TONIGHT type  AD <> ADJ
+line  65685  cue  TONIGHT type  AD <> ADJ
+line  65686  cue  TONIGHT type  AD <> ADJ
+line  65687  cue  TONIGHT type  AD <> ADJ
+line  65688  cue  TONIGHT type  AD <> ADJ
+line  65689  cue  TONIGHT type  AD <> ADJ
+line  65690  cue  TONIGHT type  AD <> ADJ
+line  65691  cue  TONIGHT type  AD <> ADJ
+line  65692  cue  TONIGHT type  AD <> ADJ
+line  65693  cue  TONIGHT type  AD <> ADJ
+line  65694  cue  TONIGHT type  AD <> ADJ
+line  65695  cue  TONIGHT type  AD <> ADJ
+line  65696  cue  TONIGHT type  AD <> ADJ
+line  65697  cue  TONIGHT type  AD <> ADJ
+line  66875  cue  TRUE type  AJ <>
+line  66876  cue  TRUE type  AJ <>
+line  66877  cue  TRUE type  AJ <>
+line  66878  cue  TRUE type  AJ <>
+line  66879  cue  TRUE type  AJ <>
+line  66880  cue  TRUE type  AJ <>
+line  66881  cue  TRUE type  AJ <>
+line  66882  cue  TRUE type  AJ <>
+line  66883  cue  TRUE type  AJ <>
+line  66884  cue  TRUE type  AJ <>
+line  66885  cue  TRUE type  AJ <>
+line  66886  cue  TRUE type  AJ <>
+line  66887  cue  TRUE type  AJ <>
+line  66888  cue  TRUE type  AJ <>
+line  67287  cue  TWICE type  AD <> AV
+line  67288  cue  TWICE type  AD <> AV
+line  67289  cue  TWICE type  AD <> AV
+line  67290  cue  TWICE type  AD <> AV
+line  67291  cue  TWICE type  AD <> AV
+line  67292  cue  TWICE type  AD <> AV
+line  67293  cue  TWICE type  AD <> AV
+line  67294  cue  TWICE type  AD <> AV
+line  67295  cue  TWICE type  AD <> AV
+line  67296  cue  TWICE type  AD <> AV
+line  67297  cue  TWICE type  AD <> AV
+line  67298  cue  TWICE type  AD <> AV
+line  67299  cue  TWICE type  AD <> AV
+line  67415  target  A type  A <> N
+line  67754  target  BROKE type  ADJ <> V
+line  69326  target  A type  A <> N
+line  70667  cue  WHEN type  AD <> ADV
+line  70668  cue  WHEN type  AD <> ADV
+line  70669  cue  WHEN type  AD <> ADV
+line  70670  cue  WHEN type  AD <> ADV
+line  70671  cue  WHEN type  AD <> ADV
+line  70672  cue  WHEN type  AD <> ADV
+line  70673  cue  WHEN type  AD <> ADV
+line  70674  cue  WHEN type  AD <> ADV
+line  70675  cue  WHEN type  AD <> ADV
+line  71814  cue  XEROX type  N <> ADJ
+line  71815  cue  XEROX type  N <> ADJ
+line  71816  cue  XEROX type  N <> ADJ
+line  71817  cue  XEROX type  N <> ADJ
+>>>
