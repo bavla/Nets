@@ -21,7 +21,7 @@
 <tt>Revije.clu </tt> - partition with 124 vertices<br>
 <tt>Revije.paj</tt> - Pajek project file with complete dataset.
 </p><p><b>Download</b>
-</p><p><a href="./Revije.zip">complete dataset</a> (ZIP, 3K)
+</p><p><a href="./revije.zip">complete dataset</a> (ZIP, 3K)
 
 </p>
 <p><b>Background</b></p><p>
