@@ -71,8 +71,8 @@
 </p>
 <p>
 Complete datasets:
-<a href="Webs_paj.zip">Food-webs</a> (ZIP, 55K),
-<a href="ATLSS_paj.zip">ATLSS</a> (ZIP, 90K)
+<a href="https://github.com/bavla/Nets/raw/refs/heads/master/data/Pajek/bio/FoodWeb/Webs_paj.zip">Food-webs</a> (ZIP, 55K),
+<a href="https://github.com/bavla/Nets/raw/refs/heads/master/data/Pajek/bio/FoodWeb/ATLSS_paj.zip">ATLSS</a> (ZIP, 90K)
 
 
 </p><p><b>Background</b>
