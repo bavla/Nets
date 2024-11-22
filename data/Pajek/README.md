@@ -39,7 +39,7 @@ When publishing results obtained using this data set the original authors should
 |[September 11](./CRA/terror.md) |  13332 |  243447 |      0 | text, temporal |
 |[HEP / KDD Cup 2003](./bib/hep-th/hep-th.md) |  27770 |  352807 |      0 | citation |
 |[US patents](./patents/Patents.md) |  37774768 |      0 |  16522438 | citation |
-|[EVA](./econ/eva/Eva.md) |  8343 |      0 |  6726 | ownership|
+|[EVA](./econ/eva/eva.md) |  8343 |      0 |  6726 | ownership|
 |[Graph and Digraph Glossary](./dic/TG/glossTG.md) |      72 |      0 |    122 | dictionary |
 |[Erdos](./bib/Erdos/Erdos02.net) |   6927 |  11850 |      0 | collaboration |
 |[The Edinburgh Associative Thesaurus](./dic/EAT/eat.md) |   23219 |      0 |  325624 | dictionary |
