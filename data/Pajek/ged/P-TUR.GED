@@ -1,0 +1,10427 @@
+0 HEAD
+1 SOUR PAF 2.2
+1 DEST PAF
+1 DATE 03 MAR 95
+1 FILE P-***.txt
+1 CHAR ANSEL
+0 @S1@ SUBM
+1 NAME Doug White
+1 ADDR School Social Science
+2 CONT UC Irvine 92717
+2 CONT Internet Email address: drwhite@uci.edu
+1 PHON 714-824-5893
+0 @I1@ INDI
+1 NAME b 13Ecevit Mehmet            
+1 SEX M
+1 FAMS @F1@
+1 FAMC @F2@
+0 @I2@ INDI
+1 NAME b   Zeynep (Ilmasit Koy)     
+1 SEX F
+1 FAMS @F1@
+0 @I3@ INDI
+1 NAME b   Salibi                   
+1 SEX F
+1 FAMS @F3@
+0 @I4@ INDI
+1 NAME c 13Ays,e                    
+1 SEX F
+1 FAMS @F4@
+1 FAMC @F3@
+0 @I5@ INDI
+1 NAME c 13S,erife                  
+1 SEX F
+1 FAMS @F5@
+1 FAMC @F3@
+0 @I6@ INDI
+1 NAME c 13Emine                    
+1 SEX F
+1 FAMS @F6@
+1 FAMC @F3@
+0 @I7@ INDI
+1 NAME c 13Yusuf                    
+1 SEX M
+1 FAMS @F7@
+1 FAMC @F3@
+0 @I8@ INDI
+1 NAME c 13Ahmet                    
+1 SEX M
+1 FAMS @F8@
+1 FAMC @F3@
+0 @I9@ INDI
+1 NAME c 13Ikiz Veli                
+1 SEX M
+1 FAMS @F9@
+1 FAMC @F3@
+0 @I10@ INDI
+1 NAME c 13Ummuhan                  
+1 SEX F
+1 FAMS @F10@
+1 FAMC @F3@
+0 @I11@ INDI
+1 NAME d 13Fatma                    
+1 SEX F
+1 FAMS @F11@
+1 FAMC @F9@
+0 @I12@ INDI
+1 NAME d 13Kerzivan                 
+1 SEX F
+1 FAMS @F12@
+1 FAMC @F9@
+0 @I13@ INDI
+1 NAME e   Not given                
+1 SEX F
+1 FAMS @F13@
+0 @I14@ INDI
+1 NAME d   Oksuz Yusuf (Oksuz=Orphan
+1 SEX M
+1 FAMS @F14@
+0 @I15@ INDI
+1 NAME e   Halil (Laden besitzer)   
+1 SEX M
+1 FAMS @F13@
+1 FAMC @F14@
+0 @I16@ INDI
+1 NAME e   Emin (Koylu bei Adana cit
+1 SEX M
+1 FAMS @F15@
+1 FAMC @F14@
+0 @I17@ INDI
+1 NAME e   Fatma                    
+1 SEX F
+1 FAMS @F16@
+1 FAMC @F14@
+0 @I18@ INDI
+1 NAME e   Cumali                   
+1 SEX M
+1 FAMS @F18@
+1 FAMC @F14@
+0 @I19@ INDI
+1 NAME e   Arife                    
+1 SEX F
+1 FAMS @F19@
+1 FAMC @F14@
+0 @I20@ INDI
+1 NAME e   Gulay                    
+1 SEX F
+1 FAMS @F20@
+1 FAMC @F14@
+0 @I21@ INDI
+1 NAME e   Mohammed                 
+1 SEX M
+1 FAMS @F21@
+1 FAMC @F14@
+0 @I28@ INDI
+1 NAME b  5(Kor?) Haci Dolas,ikli   
+1 SEX M
+1 FAMS @F22@
+1 FAMC @F23@
+0 @I29@ INDI
+1 NAME b   Kerzivan (wife or sister?
+1 SEX F
+1 FAMS @F22@
+0 @I30@ INDI
+1 NAME b   (?)Mustafa blieb in Anato
+1 SEX M
+1 FAMS @F24@
+1 FAMC @F23@
+0 @I31@ INDI
+1 NAME c  5Haci Mehmet Aga          
+1 SEX M
+1 FAMS @F10@
+1 FAMC @F22@
+0 @I32@ INDI
+1 NAME d  5Kozan (Mehmet Aga's so)  
+1 SEX M
+1 FAMS @F25@
+1 FAMC @F10@
+0 @I33@ INDI
+1 NAME d   Muska (Koylu)            
+1 SEX F
+1 FAMS @F25@
+0 @I34@ INDI
+1 NAME e  5Mahmut                   
+1 SEX M
+1 FAMS @F28@
+1 FAMC @F27@
+0 @I35@ INDI
+1 NAME f  5Nazmiye                  
+1 SEX F
+1 FAMS @F29@
+1 FAMC @F28@
+0 @I36@ INDI
+1 NAME f  5Unal                     
+1 SEX M
+1 FAMS @F30@
+1 FAMC @F28@
+0 @I37@ INDI
+1 NAME f  5Emine                    
+1 SEX F
+1 FAMS @F31@
+1 FAMC @F28@
+0 @I38@ INDI
+1 NAME f  5Nurcan                   
+1 SEX F
+1 FAMS @F32@
+1 FAMC @F28@
+0 @I39@ INDI
+1 NAME f  5Yeter                    
+1 SEX F
+1 FAMS @F33@
+1 FAMC @F28@
+0 @I40@ INDI
+1 NAME f  5Ismail                   
+1 SEX M
+1 FAMS @F34@
+1 FAMC @F28@
+0 @I41@ INDI
+1 NAME f  5Sahin                    
+1 SEX M
+1 FAMS @F35@
+1 FAMC @F28@
+0 @I42@ INDI
+1 NAME f  5Seycan                   
+1 SEX F
+1 FAMS @F36@
+1 FAMC @F28@
+0 @I43@ INDI
+1 NAME e  5Mehmet                   
+1 SEX M
+1 FAMS @F37@
+1 FAMC @F27@
+0 @I44@ INDI
+1 NAME f  5?                        
+1 SEX M
+1 FAMS @F38@
+1 FAMC @F37@
+0 @I45@ INDI
+1 NAME f  5Hasibe                   
+1 SEX F
+1 FAMS @F39@
+1 FAMC @F37@
+0 @I46@ INDI
+1 NAME f  5S,erife                  
+1 SEX F
+1 FAMS @F40@
+1 FAMC @F37@
+0 @I47@ INDI
+1 NAME f  5Ali                      
+1 SEX M
+1 FAMS @F41@
+1 FAMC @F37@
+0 @I48@ INDI
+1 NAME f  5Ferhat                   
+1 SEX M
+1 FAMS @F42@
+1 FAMC @F37@
+0 @I49@ INDI
+1 NAME f  5Fatma                    
+1 SEX F
+1 FAMS @F43@
+1 FAMC @F37@
+0 @I50@ INDI
+1 NAME f  5Bediha                   
+1 SEX F
+1 FAMS @F44@
+1 FAMC @F37@
+0 @I51@ INDI
+1 NAME f  5Kadir                    
+1 SEX M
+1 FAMS @F45@
+1 FAMC @F37@
+0 @I52@ INDI
+1 NAME eS 5Omer                     
+1 SEX M
+1 FAMS @F46@
+1 FAMC @F27@
+0 @I53@ INDI
+1 NAME f  5Fahriye                  
+1 SEX M
+1 FAMS @F47@
+1 FAMC @F46@
+0 @I54@ INDI
+1 NAME f  5Guldane                  
+1 SEX F
+1 FAMS @F48@
+1 FAMC @F46@
+0 @I55@ INDI
+1 NAME f  5Metin                    
+1 SEX M
+1 FAMS @F49@
+1 FAMC @F46@
+0 @I56@ INDI
+1 NAME f  5C,etin                   
+1 SEX M
+1 FAMS @F50@
+1 FAMC @F46@
+0 @I57@ INDI
+1 NAME f  5Murat                    
+1 SEX M
+1 FAMS @F51@
+1 FAMC @F46@
+0 @I58@ INDI
+1 NAME e  5Halil                    
+1 SEX M
+1 FAMS @F52@
+1 FAMC @F27@
+0 @I59@ INDI
+1 NAME f  5Ramazan                  
+1 SEX M
+1 FAMS @F53@
+1 FAMC @F52@
+0 @I60@ INDI
+1 NAME f  5Zehra                    
+1 SEX F
+1 FAMS @F54@
+1 FAMC @F52@
+0 @I61@ INDI
+1 NAME f  5Nunay                    
+1 SEX F
+1 FAMS @F55@
+1 FAMC @F52@
+0 @I62@ INDI
+1 NAME f  5Guluzer                  
+1 SEX F
+1 FAMS @F56@
+1 FAMC @F52@
+0 @I63@ INDI
+1 NAME f  5Kozmoglu                 
+1 SEX M
+1 FAMS @F57@
+1 FAMC @F52@
+0 @I64@ INDI
+1 NAME e  5Duran                    
+1 SEX M
+1 FAMS @F58@
+1 FAMC @F27@
+0 @I65@ INDI
+1 NAME f  5Emel                     
+1 SEX M
+1 FAMS @F59@
+1 FAMC @F58@
+0 @I66@ INDI
+1 NAME f  5Zafer                    
+1 SEX M
+1 FAMS @F60@
+1 FAMC @F58@
+0 @I67@ INDI
+1 NAME e  5Hava                     
+1 SEX F
+1 FAMS @F61@
+1 FAMC @F27@
+0 @I68@ INDI
+1 NAME d  5Kose Haci m.MBD          
+1 SEX M
+1 FAMS @F12@
+1 FAMC @F10@
+0 @I69@ INDI
+1 NAME e  5Halil                    
+1 SEX M
+1 FAMS @F62@
+1 FAMC @F12@
+0 @I70@ INDI
+1 NAME f  5Adnan                    
+1 SEX M
+1 FAMS @F63@
+1 FAMC @F62@
+0 @I71@ INDI
+1 NAME f  5Bakize                   
+1 SEX F
+1 FAMS @F64@
+1 FAMC @F62@
+0 @I72@ INDI
+1 NAME f  5Erdal                    
+1 SEX M
+1 FAMS @F65@
+1 FAMC @F62@
+0 @I73@ INDI
+1 NAME f  5Huseyin                  
+1 SEX M
+1 FAMS @F66@
+1 FAMC @F62@
+0 @I74@ INDI
+1 NAME e  5Zeybek                   
+1 SEX M
+1 FAMS @F67@
+1 FAMC @F12@
+0 @I75@ INDI
+1 NAME eS 5Bekir (Lehrer)           
+1 SEX M
+1 FAMS @F68@
+1 FAMC @F12@
+0 @I76@ INDI
+1 NAME f  5Suleyha                  
+1 SEX M
+1 FAMS @F69@
+1 FAMC @F68@
+0 @I77@ INDI
+1 NAME f  5Sureyya                  
+1 SEX M
+1 FAMS @F70@
+1 FAMC @F68@
+0 @I78@ INDI
+1 NAME f  5Sureyla                  
+1 SEX M
+1 FAMS @F71@
+1 FAMC @F68@
+0 @I79@ INDI
+1 NAME f  5Ufuk                     
+1 SEX M
+1 FAMS @F72@
+1 FAMC @F68@
+0 @I80@ INDI
+1 NAME e  5Gussun                   
+1 SEX F
+1 FAMS @F73@
+1 FAMC @F12@
+0 @I81@ INDI
+1 NAME eS 5Ebeli                    
+1 SEX F
+1 FAMS @F74@
+1 FAMC @F12@
+0 @I82@ INDI
+1 NAME eS  Hac,an (Yahnakli town)   
+1 SEX M
+1 FAMS @F74@
+0 @I83@ INDI
+1 NAME e  5Ummuhan (scratched out on
+1 SEX F
+1 FAMS @F75@
+1 FAMC @F12@
+0 @I84@ INDI
+1 NAME e  5Mustafa                  
+1 SEX M
+1 FAMS @F77@
+1 FAMC @F12@
+0 @I85@ INDI
+1 NAME f  5Erol                     
+1 SEX M
+1 FAMS @F78@
+1 FAMC @F77@
+0 @I86@ INDI
+1 NAME f  5Emr?                     
+1 SEX M
+1 FAMS @F79@
+1 FAMC @F77@
+0 @I87@ INDI
+1 NAME     scratched out=> number re
+1 SEX F
+1 FAMS @F80@
+1 FAMC @F10@
+0 @I88@ INDI
+1 NAME e   Emine (Koylu)            
+1 SEX F
+1 FAMS @F77@
+0 @I89@ INDI
+1 NAME eS 5Han                      
+1 SEX M
+1 FAMS @F82@
+1 FAMC @F12@
+0 @I90@ INDI
+1 NAME d  5Kozan Ismail             
+1 SEX M
+1 FAMS @F83@
+1 FAMC @F10@
+0 @I91@ INDI
+1 NAME d   Meryem (Koylu)           
+1 SEX F
+1 FAMS @F83@
+0 @I92@ INDI
+1 NAME e  5Jakup                    
+1 SEX M
+1 FAMS @F61@
+1 FAMC @F83@
+0 @I93@ INDI
+1 NAME f  5Ahmet                    
+1 SEX M
+1 FAMS @F84@
+1 FAMC @F61@
+0 @I94@ INDI
+1 NAME f  5Sener                    
+1 SEX M
+1 FAMS @F85@
+1 FAMC @F61@
+0 @I95@ INDI
+1 NAME e  5Kozan                    
+1 SEX F
+1 FAMS @F86@
+1 FAMC @F83@
+0 @I96@ INDI
+1 NAME e  5Done                     
+1 SEX F
+1 FAMS @F28@
+1 FAMC @F83@
+0 @I97@ INDI
+1 NAME e  5Hava                     
+1 SEX F
+1 FAMS @F52@
+1 FAMC @F83@
+0 @I98@ INDI
+1 NAME c  5Ismail                   
+1 SEX M
+1 FAMS @F87@
+1 FAMC @F22@
+0 @I99@ INDI
+1 NAME d 10Haci Mullah g'97         
+1 SEX M
+1 FAMS @F88@
+1 FAMC @F89@
+0 @I100@ INDI
+1 NAME e   Kel Ahmet (aus einem Dorf
+1 SEX M
+1 FAMS @F91@
+1 FAMC @F92@
+0 @I101@ INDI
+1 NAME f   Sultan                   
+1 SEX M
+1 FAMS @F94@
+1 FAMC @F93@
+0 @I102@ INDI
+1 NAME f   Osman                    
+1 SEX M
+1 FAMS @F95@
+1 FAMC @F93@
+0 @I106@ INDI
+1 NAME f   Ismail                   
+1 SEX M
+1 FAMS @F96@
+1 FAMC @F93@
+0 @I107@ INDI
+1 NAME f   Meryem                   
+1 SEX F
+1 FAMS @F97@
+1 FAMC @F93@
+0 @I108@ INDI
+1 NAME f   Ali                      
+1 SEX M
+1 FAMS @F98@
+1 FAMC @F93@
+0 @I109@ INDI
+1 NAME f   Suleyman    (non Mirsei?)
+1 SEX M
+1 FAMS @F100@
+1 FAMC @F91@
+0 @I110@ INDI
+1 NAME f   Haci Mehmet (non Mirsei?)
+1 SEX M
+1 FAMS @F101@
+1 FAMC @F91@
+0 @I111@ INDI
+1 NAME f   Ays,e       (non Mirsei?)
+1 SEX F
+1 FAMS @F102@
+1 FAMC @F91@
+0 @I112@ INDI
+1 NAME f   Musa        (non Mirsei?)
+1 SEX M
+1 FAMS @F103@
+1 FAMC @F91@
+0 @I113@ INDI
+1 NAME f   Ramazan     (non Mirsei?)
+1 SEX M
+1 FAMS @F104@
+1 FAMC @F91@
+0 @I114@ INDI
+1 NAME e 10Halime                   
+1 SEX F
+1 FAMS @F105@
+1 FAMC @F88@
+0 @I115@ INDI
+1 NAME e 10Ali                      
+1 SEX M
+1 FAMS @F106@
+1 FAMC @F88@
+0 @I116@ INDI
+1 NAME f 10Mehmet                   
+1 SEX M
+1 FAMS @F107@
+1 FAMC @F106@
+0 @I117@ INDI
+1 NAME f 10Ahmet                    
+1 SEX M
+1 FAMS @F108@
+1 FAMC @F106@
+0 @I118@ INDI
+1 NAME f 10Dudu                     
+1 SEX F
+1 FAMS @F109@
+1 FAMC @F106@
+0 @I119@ INDI
+1 NAME f 10Ummu                     
+1 SEX F
+1 FAMS @F110@
+1 FAMC @F106@
+0 @I120@ INDI
+1 NAME f 10Durdu                    
+1 SEX F
+1 FAMS @F111@
+1 FAMC @F106@
+0 @I121@ INDI
+1 NAME f 10Annet                    
+1 SEX F
+1 FAMS @F112@
+1 FAMC @F106@
+0 @I122@ INDI
+1 NAME f 10Zeynep                   
+1 SEX F
+1 FAMS @F113@
+1 FAMC @F106@
+0 @I123@ INDI
+1 NAME f 10Mustafa                  
+1 SEX M
+1 FAMS @F114@
+1 FAMC @F106@
+0 @I124@ INDI
+1 NAME e 10Mehmet                   
+1 SEX M
+1 FAMS @F117@
+1 FAMC @F88@
+0 @I125@ INDI
+1 NAME e 10Hatice                   
+1 SEX F
+1 FAMS @F118@
+1 FAMC @F88@
+0 @I126@ INDI
+1 NAME e 10Yeter                    
+1 SEX F
+1 FAMS @F119@
+1 FAMC @F88@
+0 @I127@ INDI
+1 NAME e 10Dudu                     
+1 SEX F
+1 FAMS @F121@
+1 FAMC @F88@
+0 @I128@ INDI
+1 NAME eS10Hanife                   
+1 SEX F
+1 FAMS @F122@
+1 FAMC @F88@
+0 @I129@ INDI
+1 NAME e 10Iraz                     
+1 SEX F
+1 FAMS @F123@
+1 FAMC @F88@
+0 @I130@ INDI
+1 NAME e   Dondu (came from Maras su
+1 SEX F
+1 FAMS @F124@
+0 @I131@ INDI
+1 NAME d  5Karaoglan Mustafa        
+1 SEX M
+1 FAMS @F81@
+1 FAMC @F87@
+0 @I132@ INDI
+1 NAME e  5Huseyin (NOT 176)        
+1 SEX M
+1 FAMS @F73@
+1 FAMC @F81@
+0 @I133@ INDI
+1 NAME f  5Kerzivan                 
+1 SEX F
+1 FAMS @F126@
+1 FAMC @F73@
+0 @I134@ INDI
+1 NAME f  5Latif                    
+1 SEX M
+1 FAMS @F127@
+1 FAMC @F73@
+0 @I135@ INDI
+1 NAME f  5Isak                     
+1 SEX M
+1 FAMS @F128@
+1 FAMC @F73@
+0 @I136@ INDI
+1 NAME f  5Ramazan                  
+1 SEX M
+1 FAMS @F129@
+1 FAMC @F73@
+0 @I137@ INDI
+1 NAME f  5Sultan                   
+1 SEX M
+1 FAMS @F130@
+1 FAMC @F73@
+0 @I138@ INDI
+1 NAME e  5Havaha                   
+1 SEX F
+1 FAMS @F131@
+1 FAMC @F125@
+0 @I139@ INDI
+1 NAME e  5Ismail                   
+1 SEX M
+1 FAMS @F132@
+1 FAMC @F125@
+0 @I140@ INDI
+1 NAME e  5Kerzivan                 
+1 SEX F
+1 FAMS @F133@
+1 FAMC @F125@
+0 @I141@ INDI
+1 NAME e  5Haci                     
+1 SEX M
+1 FAMS @F134@
+1 FAMC @F125@
+0 @I142@ INDI
+1 NAME e  5Ecevit m.MBD             
+1 SEX M
+1 FAMS @F137@
+1 FAMC @F125@
+0 @I143@ INDI
+1 NAME e  5Leyla                    
+1 SEX F
+1 FAMS @F138@
+1 FAMC @F125@
+0 @I144@ INDI
+1 NAME e  5Cadiye                   
+1 SEX F
+1 FAMS @F139@
+1 FAMC @F125@
+0 @I145@ INDI
+1 NAME e  5Adem                     
+1 SEX M
+1 FAMS @F140@
+1 FAMC @F125@
+0 @I146@ INDI
+1 NAME c  5Ibrahim (Kor Haci's son) 
+1 SEX M
+1 FAMS @F5@
+1 FAMC @F22@
+0 @I147@ INDI
+1 NAME d  5Ali Inceli               
+1 SEX M
+1 FAMS @F141@
+1 FAMC @F5@
+0 @I148@ INDI
+1 NAME d   Not given (from Horzum)  
+1 SEX F
+1 FAMS @F141@
+0 @I149@ INDI
+1 NAME d   Not given (C,abarlar)    
+1 SEX F
+1 FAMS @F142@
+0 @I154@ INDI
+1 NAME c  5Halil (Haci Dolas,ikli's 
+1 SEX M
+1 FAMS @F4@
+1 FAMC @F22@
+0 @I155@ INDI
+1 NAME d  5Yusuf                    
+1 SEX M
+1 FAMS @F143@
+1 FAMC @F4@
+0 @I156@ INDI
+1 NAME e  5Yusuf m.FBD              
+1 SEX M
+1 FAMS @F145@
+1 FAMC @F146@
+0 @I157@ INDI
+1 NAME f  5Fatma                    
+1 SEX F
+1 FAMS @F147@
+1 FAMC @F145@
+0 @I158@ INDI
+1 NAME f  5Halil                    
+1 SEX M
+1 FAMS @F148@
+1 FAMC @F145@
+0 @I159@ INDI
+1 NAME f  5Ibrahim                  
+1 SEX M
+1 FAMS @F149@
+1 FAMC @F145@
+0 @I160@ INDI
+1 NAME f  5Emin                     
+1 SEX M
+1 FAMS @F150@
+1 FAMC @F145@
+0 @I161@ INDI
+1 NAME f  5Cumali                   
+1 SEX M
+1 FAMS @F151@
+1 FAMC @F145@
+0 @I162@ INDI
+1 NAME f  5Arife                    
+1 SEX F
+1 FAMS @F152@
+1 FAMC @F145@
+0 @I163@ INDI
+1 NAME e  5Ays,a                    
+1 SEX F
+1 FAMS @F153@
+1 FAMC @F146@
+0 @I164@ INDI
+1 NAME d  5Ays,e (da of Halil of Hac
+1 SEX F
+1 FAMS @F14@
+1 FAMC @F4@
+0 @I165@ INDI
+1 NAME d  5Deli Ahmet               
+1 SEX M
+1 FAMS @F154@
+1 FAMC @F4@
+0 @I166@ INDI
+1 NAME d   Kurt Kur (Sultan)        
+1 SEX F
+1 FAMS @F154@
+0 @I167@ INDI
+1 NAME e  5Guc,ullu Yusuf           
+1 SEX M
+1 FAMS @F155@
+1 FAMC @F154@
+0 @I168@ INDI
+1 NAME f  5Yeter                    
+1 SEX F
+1 FAMS @F157@
+1 FAMC @F158@
+0 @I169@ INDI
+1 NAME f  5Ays,e                    
+1 SEX F
+1 FAMS @F159@
+1 FAMC @F158@
+0 @I170@ INDI
+1 NAME f  5Huseyin                  
+1 SEX M
+1 FAMS @F160@
+1 FAMC @F158@
+0 @I171@ INDI
+1 NAME f  5Batal                    
+1 SEX M
+1 FAMS @F161@
+1 FAMC @F158@
+0 @I172@ INDI
+1 NAME f  5Meryem                   
+1 SEX F
+1 FAMS @F162@
+1 FAMC @F158@
+0 @I173@ INDI
+1 NAME f  5Kadriye                  
+1 SEX F
+1 FAMS @F163@
+1 FAMC @F158@
+0 @I174@ INDI
+1 NAME e   Fatma (Koylu)            
+1 SEX F
+1 FAMS @F156@
+0 @I175@ INDI
+1 NAME e  5Hatice                   
+1 SEX F
+1 FAMS @F164@
+1 FAMC @F154@
+0 @I176@ INDI
+1 NAME e  5Ays,e (Deli Ahmet's da)  
+1 SEX F
+1 FAMS @F132@
+1 FAMC @F154@
+0 @I177@ INDI
+1 NAME e  5Done                     
+1 SEX F
+1 FAMS @F166@
+1 FAMC @F154@
+0 @I178@ INDI
+1 NAME e  5Gullu                    
+1 SEX F
+1 FAMS @F167@
+1 FAMC @F154@
+0 @I179@ INDI
+1 NAME d  5Old Tatali- Tatali C,ocuk
+1 SEX M
+1 FAMS @F169@
+1 FAMC @F4@
+0 @I180@ INDI
+1 NAME e  5Mustafa                  
+1 SEX M
+1 FAMS @F170@
+1 FAMC @F169@
+0 @I181@ INDI
+1 NAME f  5Halil                    
+1 SEX M
+1 FAMS @F171@
+1 FAMC @F170@
+0 @I182@ INDI
+1 NAME fS 5Meliha                   
+1 SEX F
+1 FAMS @F172@
+1 FAMC @F170@
+0 @I183@ INDI
+1 NAME fS  Not given (Koylu) Metzer 
+1 SEX M
+1 FAMS @F172@
+0 @I184@ INDI
+1 NAME fS 5Hidayat                  
+1 SEX M
+1 FAMS @F173@
+1 FAMC @F170@
+0 @I185@ INDI
+1 NAME f  5Han                      
+1 SEX M
+1 FAMS @F174@
+1 FAMC @F170@
+0 @I186@ INDI
+1 NAME f  5Suleyman (Liseogretmeni- 
+1 SEX M
+1 FAMS @F175@
+1 FAMC @F170@
+0 @I187@ INDI
+1 NAME f  5Yasar (primary school Ilk
+1 SEX M
+1 FAMS @F176@
+1 FAMC @F170@
+0 @I188@ INDI
+1 NAME e  5Meliha (Koylu)           
+1 SEX F
+1 FAMS @F177@
+1 FAMC @F169@
+0 @I189@ INDI
+1 NAME e   Not known (Koylu)        
+1 SEX M
+1 FAMS @F177@
+0 @I190@ INDI
+1 NAME e  5Ays,a m.FBS              
+1 SEX F
+1 FAMS @F145@
+1 FAMC @F169@
+0 @I191@ INDI
+1 NAME e  5Yusuf                    
+1 SEX M
+1 FAMS @F166@
+1 FAMC @F169@
+0 @I192@ INDI
+1 NAME f  5Not given m.MZS          
+1 SEX F
+1 FAMS @F178@
+1 FAMC @F166@
+0 @I194@ INDI
+1 NAME f  5Ecevit                   
+1 SEX M
+1 FAMS @F179@
+1 FAMC @F166@
+0 @I198@ INDI
+1 NAME e  5Suleyman                 
+1 SEX M
+1 FAMS @F167@
+1 FAMC @F169@
+0 @I199@ INDI
+1 NAME d  5Egri Mehmet              
+1 SEX M
+1 FAMS @F181@
+1 FAMC @F4@
+0 @I200@ INDI
+1 NAME d   Ays,e                    
+1 SEX F
+1 FAMS @F181@
+0 @I201@ INDI
+1 NAME e  5Huseyin                  
+1 SEX M
+1 FAMS @F183@
+1 FAMC @F181@
+0 @I202@ INDI
+1 NAME f  5S,Rahibe                 
+1 SEX F
+1 FAMS @F184@
+1 FAMC @F183@
+0 @I203@ INDI
+1 NAME f  5Kerzivan                 
+1 SEX F
+1 FAMS @F185@
+1 FAMC @F183@
+0 @I204@ INDI
+1 NAME f  5S,erife                  
+1 SEX F
+1 FAMS @F186@
+1 FAMC @F183@
+0 @I205@ INDI
+1 NAME f  5Ahmet                    
+1 SEX M
+1 FAMS @F187@
+1 FAMC @F183@
+0 @I206@ INDI
+1 NAME f  5Ali                      
+1 SEX M
+1 FAMS @F188@
+1 FAMC @F183@
+0 @I207@ INDI
+1 NAME f  5Fatma                    
+1 SEX F
+1 FAMS @F189@
+1 FAMC @F183@
+0 @I208@ INDI
+1 NAME f  5Mustafa                  
+1 SEX M
+1 FAMS @F190@
+1 FAMC @F183@
+0 @I209@ INDI
+1 NAME f  5Bagis                    
+1 SEX M
+1 FAMS @F191@
+1 FAMC @F183@
+0 @I210@ INDI
+1 NAME f  5Ays,e                    
+1 SEX F
+1 FAMS @F192@
+1 FAMC @F183@
+0 @I211@ INDI
+1 NAME e  5Ecevit                   
+1 SEX M
+1 FAMS @F193@
+1 FAMC @F181@
+0 @I212@ INDI
+1 NAME f  5Yusuf                    
+1 SEX M
+1 FAMS @F195@
+1 FAMC @F193@
+0 @I213@ INDI
+1 NAME f  5Hac,er                   
+1 SEX F
+1 FAMS @F196@
+1 FAMC @F193@
+0 @I214@ INDI
+1 NAME f  5Suleyha                  
+1 SEX F
+1 FAMS @F197@
+1 FAMC @F193@
+0 @I215@ INDI
+1 NAME f  5Fehmi                    
+1 SEX M
+1 FAMS @F198@
+1 FAMC @F193@
+0 @I216@ INDI
+1 NAME e  5Mehmet son of Dali Dege (
+1 SEX M
+1 FAMS @F199@
+1 FAMC @F181@
+0 @I217@ INDI
+1 NAME f  5Ali   SUBSTITUTED FOR 211
+1 SEX M
+1 FAMS @F194@
+1 FAMC @F193@
+0 @I218@ INDI
+1 NAME d   Halime (Ciriklu) Mustafa'
+1 SEX F
+1 FAMS @F201@
+0 @I219@ INDI
+1 NAME f  5Rifat                    
+1 SEX M
+1 FAMS @F202@
+1 FAMC @F105@
+0 @I220@ INDI
+1 NAME f  5S,erife                  
+1 SEX F
+1 FAMS @F203@
+1 FAMC @F105@
+0 @I221@ INDI
+1 NAME f  5Ays,e                    
+1 SEX F
+1 FAMS @F204@
+1 FAMC @F105@
+0 @I222@ INDI
+1 NAME c  5Humus                    
+1 SEX F
+1 FAMS @F165@
+1 FAMC @F22@
+0 @I223@ INDI
+1 NAME c  5Hatice                   
+1 SEX F
+1 FAMS @F17@
+1 FAMC @F22@
+0 @I224@ INDI
+1 NAME a  1Koca Bey                 
+1 SEX M
+1 FAMS @F205@
+0 @I225@ INDI
+1 NAME a   Not known                
+1 SEX F
+1 FAMS @F205@
+0 @I226@ INDI
+1 NAME b  1Haci Ali bey             
+1 SEX M
+1 FAMS @F206@
+1 FAMC @F205@
+0 @I227@ INDI
+1 NAME b   Ays,a                    
+1 SEX F
+1 FAMS @F206@
+0 @I228@ INDI
+1 NAME b  1Vel Kaya (Antolye gocebe)
+1 SEX M
+1 FAMS @F207@
+1 FAMC @F205@
+0 @I229@ INDI
+1 NAME b   Not known                
+1 SEX F
+1 FAMS @F207@
+0 @I230@ INDI
+1 NAME b   Menevse                  
+1 SEX F
+1 FAMS @F208@
+0 @I231@ INDI
+1 NAME c  1Ismail                   
+1 SEX M
+1 FAMS @F209@
+1 FAMC @F208@
+0 @I232@ INDI
+1 NAME d  1Kara Oshman              
+1 SEX M
+1 FAMS @F201@
+1 FAMC @F209@
+0 @I233@ INDI
+1 NAME e  1Asya                     
+1 SEX F
+1 FAMS @F211@
+1 FAMC @F210@
+0 @I234@ INDI
+1 NAME e  1Mustafa                  
+1 SEX M
+1 FAMS @F212@
+1 FAMC @F210@
+0 @I240@ INDI
+1 NAME e  1Fatma                    
+1 SEX F
+1 FAMS @F214@
+1 FAMC @F210@
+0 @I241@ INDI
+1 NAME e  1Ismail                   
+1 SEX M
+1 FAMS @F216@
+1 FAMC @F210@
+0 @I250@ INDI
+1 NAME e  1Veli                     
+1 SEX M
+1 FAMS @F217@
+1 FAMC @F210@
+0 @I256@ INDI
+1 NAME e  1Huseyin                  
+1 SEX M
+1 FAMS @F218@
+1 FAMC @F210@
+0 @I257@ INDI
+1 NAME e   Not known                
+1 SEX F
+1 FAMS @F218@
+0 @I262@ INDI
+1 NAME eS 1Zeynep                   
+1 SEX F
+1 FAMS @F219@
+1 FAMC @F210@
+0 @I263@ INDI
+1 NAME e  1Kir Ali                  
+1 SEX M
+1 FAMS @F220@
+1 FAMC @F210@
+0 @I264@ INDI
+1 NAME e   Not given                
+1 SEX F
+1 FAMS @F220@
+0 @I265@ INDI
+1 NAME f  1Mehmet m.FZD             
+1 SEX M
+1 FAMS @F221@
+1 FAMC @F220@
+0 @I266@ INDI
+1 NAME dS 1Fatma                    
+1 SEX F
+1 FAMS @F222@
+1 FAMC @F209@
+0 @I267@ INDI
+1 NAME d  1Erhek Mustafa            
+1 SEX M
+1 FAMS @F6@
+1 FAMC @F209@
+0 @I268@ INDI
+1 NAME e  1Kor Mehmet               
+1 SEX M
+1 FAMS @F224@
+1 FAMC @F6@
+0 @I269@ INDI
+1 NAME e   Dursun (Koylu Kizi)      
+1 SEX F
+1 FAMS @F224@
+0 @I270@ INDI
+1 NAME f  1Ismail Hakki             
+1 SEX M
+1 FAMS @F225@
+1 FAMC @F224@
+0 @I271@ INDI
+1 NAME f  1Mustafa                  
+1 SEX M
+1 FAMS @F226@
+1 FAMC @F224@
+0 @I272@ INDI
+1 NAME e  1Iurdu                    
+1 SEX F
+1 FAMS @F227@
+1 FAMC @F6@
+0 @I273@ INDI
+1 NAME e  1Not known                
+1 SEX F
+1 FAMS @F228@
+1 FAMC @F6@
+0 @I274@ INDI
+1 NAME e  1Fatma ana                
+1 SEX F
+1 FAMS @F229@
+1 FAMC @F6@
+0 @I275@ INDI
+1 NAME d  1Haci                     
+1 SEX M
+1 FAMS @F231@
+1 FAMC @F209@
+0 @I276@ INDI
+1 NAME c  8Huseyin                  
+1 SEX M
+1 FAMS @F232@
+1 FAMC @F233@
+0 @I277@ INDI
+1 NAME c   Durdu                    
+1 SEX F
+1 FAMS @F232@
+0 @I278@ INDI
+1 NAME c   Teslime                  
+1 SEX F
+1 FAMS @F234@
+0 @I279@ INDI
+1 NAME dS 8Bey Ramazan              
+1 SEX M
+1 FAMS @F222@
+1 FAMC @F232@
+0 @I280@ INDI
+1 NAME eS 8Huseyin                  
+1 SEX M
+1 FAMS @F211@
+1 FAMC @F222@
+0 @I281@ INDI
+1 NAME f  8Halime m.MBS             
+1 SEX F
+1 FAMS @F221@
+1 FAMC @F211@
+0 @I282@ INDI
+1 NAME f  8Hasan                    
+1 SEX M
+1 FAMS @F235@
+1 FAMC @F211@
+0 @I283@ INDI
+1 NAME f  8Haci Ali                 
+1 SEX M
+1 FAMS @F236@
+1 FAMC @F211@
+0 @I284@ INDI
+1 NAME f  8Not known                
+1 SEX M
+1 FAMS @F237@
+1 FAMC @F211@
+0 @I285@ INDI
+1 NAME f  8Not known                
+1 SEX F
+1 FAMS @F238@
+1 FAMC @F211@
+0 @I286@ INDI
+1 NAME eS 8Hasan                    
+1 SEX M
+1 FAMS @F239@
+1 FAMC @F222@
+0 @I287@ INDI
+1 NAME eK  Fatma (Koylu)            
+1 SEX F
+1 FAMS @F239@
+0 @I288@ INDI
+1 NAME f  8Ismail                   
+1 SEX M
+1 FAMS @F240@
+1 FAMC @F239@
+0 @I294@ INDI
+1 NAME eS 8Veli                     
+1 SEX M
+1 FAMS @F241@
+1 FAMC @F222@
+0 @I295@ INDI
+1 NAME fS 8Omer                     
+1 SEX M
+1 FAMS @F242@
+1 FAMC @F241@
+0 @I296@ INDI
+1 NAME f  8Mahmut                   
+1 SEX M
+1 FAMS @F243@
+1 FAMC @F241@
+0 @I297@ INDI
+1 NAME f  8Ramazan                  
+1 SEX M
+1 FAMS @F244@
+1 FAMC @F241@
+0 @I298@ INDI
+1 NAME f  8Yahub                    
+1 SEX M
+1 FAMS @F245@
+1 FAMC @F241@
+0 @I299@ INDI
+1 NAME f  8Gullu                    
+1 SEX F
+1 FAMS @F246@
+1 FAMC @F241@
+0 @I300@ INDI
+1 NAME eS 8Haci                     
+1 SEX M
+1 FAMS @F247@
+1 FAMC @F222@
+0 @I301@ INDI
+1 NAME eS 8Ibrahim                  
+1 SEX M
+1 FAMS @F248@
+1 FAMC @F222@
+0 @I302@ INDI
+1 NAME eS  Emine (Koylu)            
+1 SEX F
+1 FAMS @F248@
+0 @I303@ INDI
+1 NAME eS 8Halil                    
+1 SEX M
+1 FAMS @F249@
+1 FAMC @F222@
+0 @I304@ INDI
+1 NAME eS 8Nezli                    
+1 SEX F
+1 FAMS @F212@
+1 FAMC @F222@
+0 @I305@ INDI
+1 NAME eS 8Durdu                    
+1 SEX F
+1 FAMS @F216@
+1 FAMC @F222@
+0 @I306@ INDI
+1 NAME d  8Deli Ali (Ciriklu) g.1874
+1 SEX M
+1 FAMS @F250@
+1 FAMC @F234@
+0 @I307@ INDI
+1 NAME e  8Halil                    
+1 SEX M
+1 FAMS @F253@
+1 FAMC @F250@
+0 @I308@ INDI
+1 NAME f  8Cannet                   
+1 SEX F
+1 FAMS @F254@
+1 FAMC @F253@
+0 @I309@ INDI
+1 NAME f  8Fatma                    
+1 SEX F
+1 FAMS @F255@
+1 FAMC @F253@
+0 @I310@ INDI
+1 NAME f  8Mehmet                   
+1 SEX M
+1 FAMS @F256@
+1 FAMC @F253@
+0 @I311@ INDI
+1 NAME f  8Durdu                    
+1 SEX F
+1 FAMS @F257@
+1 FAMC @F253@
+0 @I312@ INDI
+1 NAME f  8Veli                     
+1 SEX M
+1 FAMS @F258@
+1 FAMC @F253@
+0 @I313@ INDI
+1 NAME e  8Teslime                  
+1 SEX F
+1 FAMS @F241@
+1 FAMC @F250@
+0 @I314@ INDI
+1 NAME e  8Kara Veli                
+1 SEX M
+1 FAMS @F259@
+1 FAMC @F250@
+0 @I315@ INDI
+1 NAME f  8Unzela                   
+1 SEX F
+1 FAMS @F261@
+1 FAMC @F260@
+0 @I316@ INDI
+1 NAME f  8Veli                     
+1 SEX M
+1 FAMS @F254@
+1 FAMC @F260@
+0 @I317@ INDI
+1 NAME f  8Semem                    
+1 SEX F
+1 FAMS @F262@
+1 FAMC @F260@
+0 @I318@ INDI
+1 NAME f  8Ali                      
+1 SEX M
+1 FAMS @F263@
+1 FAMC @F260@
+0 @I319@ INDI
+1 NAME f  8Emine                    
+1 SEX F
+1 FAMS @F264@
+1 FAMC @F260@
+0 @I320@ INDI
+1 NAME f  8Fazer                    
+1 SEX M
+1 FAMS @F265@
+1 FAMC @F260@
+0 @I321@ INDI
+1 NAME f  8Fustem                   
+1 SEX M
+1 FAMS @F266@
+1 FAMC @F260@
+0 @I322@ INDI
+1 NAME f  8Darud                    
+1 SEX M
+1 FAMS @F267@
+1 FAMC @F260@
+0 @I323@ INDI
+1 NAME f  8Omer                     
+1 SEX M
+1 FAMS @F268@
+1 FAMC @F260@
+0 @I324@ INDI
+1 NAME e   Fatma                    
+1 SEX F
+1 FAMS @F259@
+0 @I325@ INDI
+1 NAME f  8Cafer                    
+1 SEX M
+1 FAMS @F269@
+1 FAMC @F259@
+0 @I326@ INDI
+1 NAME f  8Hatice                   
+1 SEX F
+1 FAMS @F270@
+1 FAMC @F259@
+0 @I327@ INDI
+1 NAME f  8Ays,e                    
+1 SEX F
+1 FAMS @F271@
+1 FAMC @F259@
+0 @I328@ INDI
+1 NAME f  8Ramazan                  
+1 SEX M
+1 FAMS @F272@
+1 FAMC @F259@
+0 @I329@ INDI
+1 NAME e  8Esmer                    
+1 SEX F
+1 FAMS @F183@
+1 FAMC @F250@
+0 @I330@ INDI
+1 NAME e  8Yeter                    
+1 SEX F
+1 FAMS @F193@
+1 FAMC @F250@
+0 @I331@ INDI
+1 NAME e  8Nezli                    
+1 SEX F
+1 FAMS @F273@
+1 FAMC @F252@
+0 @I332@ INDI
+1 NAME d  8Kara Veli                
+1 SEX M
+1 FAMS @F274@
+1 FAMC @F234@
+0 @I333@ INDI
+1 NAME e  8Gobek Huseyin            
+1 SEX M
+1 FAMS @F275@
+1 FAMC @F274@
+0 @I334@ INDI
+1 NAME f  8Ali                      
+1 SEX M
+1 FAMS @F276@
+1 FAMC @F277@
+0 @I335@ INDI
+1 NAME f  8Veli                     
+1 SEX M
+1 FAMS @F278@
+1 FAMC @F277@
+0 @I336@ INDI
+1 NAME f  8Mustafa                  
+1 SEX M
+1 FAMS @F279@
+1 FAMC @F277@
+0 @I337@ INDI
+1 NAME f  8Fatma                    
+1 SEX F
+1 FAMS @F280@
+1 FAMC @F277@
+0 @I338@ INDI
+1 NAME e  8Ismail                   
+1 SEX M
+1 FAMS @F281@
+1 FAMC @F274@
+0 @I339@ INDI
+1 NAME e  8Dondu                    
+1 SEX F
+1 FAMS @F253@
+1 FAMC @F274@
+0 @I340@ INDI
+1 NAME d  8Fatma ana (Huseyin's da) 
+1 SEX F
+1 FAMS @F282@
+1 FAMC @F234@
+0 @I341@ INDI
+1 NAME d  8Esmer                    
+1 SEX F
+1 FAMS @F284@
+1 FAMC @F234@
+0 @I342@ INDI
+1 NAME d  8Nezli                    
+1 SEX F
+1 FAMS @F286@
+1 FAMC @F234@
+0 @I343@ INDI
+1 NAME c  1Hasan Bey                
+1 SEX M
+1 FAMS @F287@
+1 FAMC @F208@
+0 @I344@ INDI
+1 NAME d  1Ramazan                  
+1 SEX M
+1 FAMS @F288@
+1 FAMC @F287@
+0 @I345@ INDI
+1 NAME d  1Hafiz Ali (Ali Hafiz)    
+1 SEX M
+1 FAMS @F289@
+1 FAMC @F287@
+0 @I346@ INDI
+1 NAME e  1Hamit Haci               
+1 SEX M
+1 FAMS @F290@
+1 FAMC @F289@
+0 @I347@ INDI
+1 NAME f  1Abdurrahman              
+1 SEX M
+1 FAMS @F292@
+1 FAMC @F290@
+0 @I348@ INDI
+1 NAME g  1Mustafa POSSIBLY WIFE IS 
+1 SEX M
+1 FAMS @F48@
+1 FAMC @F292@
+0 @I349@ INDI
+1 NAME h  1Lengiz                   
+1 SEX M
+1 FAMS @F293@
+1 FAMC @F48@
+0 @I350@ INDI
+1 NAME g  1Zubeyda                  
+1 SEX F
+1 FAMS @F294@
+1 FAMC @F292@
+0 @I351@ INDI
+1 NAME g  1Dilek                    
+1 SEX F
+1 FAMS @F295@
+1 FAMC @F292@
+0 @I352@ INDI
+1 NAME g  1Gulsun m.MBS             
+1 SEX F
+1 FAMS @F296@
+1 FAMC @F292@
+0 @I353@ INDI
+1 NAME g  1Rahibe                   
+1 SEX F
+1 FAMS @F297@
+1 FAMC @F292@
+0 @I354@ INDI
+1 NAME g  1Halim                    
+1 SEX M
+1 FAMS @F298@
+1 FAMC @F292@
+0 @I355@ INDI
+1 NAME g  1Leyla                    
+1 SEX F
+1 FAMS @F299@
+1 FAMC @F292@
+0 @I356@ INDI
+1 NAME g  1Huru                     
+1 SEX F
+1 FAMS @F300@
+1 FAMC @F292@
+0 @I357@ INDI
+1 NAME g  1Suleyza                  
+1 SEX F
+1 FAMS @F301@
+1 FAMC @F292@
+0 @I358@ INDI
+1 NAME f  1Veli                     
+1 SEX M
+1 FAMS @F302@
+1 FAMC @F290@
+0 @I359@ INDI
+1 NAME fS 1Ays,a                    
+1 SEX F
+1 FAMS @F303@
+1 FAMC @F290@
+0 @I360@ INDI
+1 NAME f  1Fatma                    
+1 SEX F
+1 FAMS @F304@
+1 FAMC @F290@
+0 @I361@ INDI
+1 NAME f  1Hasibe                   
+1 SEX F
+1 FAMS @F37@
+1 FAMC @F290@
+0 @I362@ INDI
+1 NAME f  1Veli Hoca                
+1 SEX M
+1 FAMS @F305@
+1 FAMC @F290@
+0 @I363@ INDI
+1 NAME f  1Dondu                    
+1 SEX F
+1 FAMS @F306@
+1 FAMC @F290@
+0 @I364@ INDI
+1 NAME f  1Zeycan                   
+1 SEX F
+1 FAMS @F307@
+1 FAMC @F290@
+0 @I365@ INDI
+1 NAME e  1Fatma                    
+1 SEX F
+1 FAMS @F26@
+1 FAMC @F289@
+0 @I366@ INDI
+1 NAME e  1Halil                    
+1 SEX M
+1 FAMS @F308@
+1 FAMC @F289@
+0 @I367@ INDI
+1 NAME e   Ays,a (Honamli tribe-Kara
+1 SEX F
+1 FAMS @F308@
+1 FAMC @F309@
+0 @I368@ INDI
+1 NAME f  1Mustafa Hoca             
+1 SEX M
+1 FAMS @F312@
+1 FAMC @F308@
+0 @I369@ INDI
+1 NAME g  1Gonul                    
+1 SEX F
+1 FAMS @F313@
+1 FAMC @F312@
+0 @I370@ INDI
+1 NAME g  1Mehmet                   
+1 SEX M
+1 FAMS @F314@
+1 FAMC @F312@
+0 @I371@ INDI
+1 NAME g  1Bediha                   
+1 SEX F
+1 FAMS @F315@
+1 FAMC @F312@
+0 @I372@ INDI
+1 NAME g  1Halil                    
+1 SEX M
+1 FAMS @F316@
+1 FAMC @F312@
+0 @I373@ INDI
+1 NAME g  1Not given                
+1 SEX F
+1 FAMS @F317@
+1 FAMC @F312@
+0 @I374@ INDI
+1 NAME f  1Gullu                    
+1 SEX F
+1 FAMS @F318@
+1 FAMC @F308@
+0 @I375@ INDI
+1 NAME f  1Ramazan                  
+1 SEX M
+1 FAMS @F319@
+1 FAMC @F308@
+0 @I376@ INDI
+1 NAME f   Durdu?                   
+1 SEX F
+1 FAMS @F319@
+0 @I377@ INDI
+1 NAME g  1Ali                      
+1 SEX M
+1 FAMS @F320@
+1 FAMC @F319@
+0 @I378@ INDI
+1 NAME gS 1Mahmut                   
+1 SEX M
+1 FAMS @F321@
+1 FAMC @F319@
+0 @I379@ INDI
+1 NAME f  1Haci Ali                 
+1 SEX M
+1 FAMS @F322@
+1 FAMC @F308@
+0 @I388@ INDI
+1 NAME f   Hatice                   
+1 SEX F
+1 FAMS @F322@
+0 @I389@ INDI
+1 NAME e  1Done                     
+1 SEX F
+1 FAMS @F323@
+1 FAMC @F289@
+0 @I390@ INDI
+1 NAME e  1Ays,a                    
+1 SEX F
+1 FAMS @F324@
+1 FAMC @F289@
+0 @I391@ INDI
+1 NAME e  1Gulsun                   
+1 SEX F
+1 FAMS @F325@
+1 FAMC @F289@
+0 @I392@ INDI
+1 NAME e  1Hasan                    
+1 SEX M
+1 FAMS @F327@
+1 FAMC @F289@
+0 @I393@ INDI
+1 NAME f  1Durdu                    
+1 SEX F
+1 FAMS @F328@
+1 FAMC @F327@
+0 @I394@ INDI
+1 NAME f  1Not given                
+1 SEX M
+1 FAMS @F329@
+1 FAMC @F327@
+0 @I395@ INDI
+1 NAME f  1Not given                
+1 SEX M
+1 FAMS @F330@
+1 FAMC @F327@
+0 @I396@ INDI
+1 NAME f  1Halil                    
+1 SEX M
+1 FAMS @F331@
+1 FAMC @F327@
+0 @I397@ INDI
+1 NAME f   Ays,e (Buzakli Koy)      
+1 SEX F
+1 FAMS @F331@
+0 @I398@ INDI
+1 NAME fS 1Mehmet (Liseogretmeni-tea
+1 SEX M
+1 FAMS @F332@
+1 FAMC @F327@
+0 @I399@ INDI
+1 NAME f  1Abbas                    
+1 SEX M
+1 FAMS @F333@
+1 FAMC @F327@
+0 @I400@ INDI
+1 NAME f   Fatma (Karabucak Koy)    
+1 SEX F
+1 FAMS @F333@
+0 @I401@ INDI
+1 NAME g  1Hatice                   
+1 SEX F
+1 FAMS @F334@
+1 FAMC @F333@
+0 @I402@ INDI
+1 NAME f  1Mahmut                   
+1 SEX M
+1 FAMS @F335@
+1 FAMC @F327@
+0 @I403@ INDI
+1 NAME f  1Terzi                    
+1 SEX M
+1 FAMS @F336@
+1 FAMC @F327@
+0 @I404@ INDI
+1 NAME f  1Nurcan                   
+1 SEX F
+1 FAMS @F337@
+1 FAMC @F327@
+0 @I405@ INDI
+1 NAME d  1Kina                     
+1 SEX F
+1 FAMS @F338@
+1 FAMC @F287@
+0 @I406@ INDI
+1 NAME d  1Hava                     
+1 SEX F
+1 FAMS @F339@
+1 FAMC @F287@
+0 @I407@ INDI
+1 NAME d  1Huseyin                  
+1 SEX M
+1 FAMS @F340@
+1 FAMC @F287@
+0 @I408@ INDI
+1 NAME c  1Dondu                    
+1 SEX F
+1 FAMS @F342@
+1 FAMC @F208@
+0 @I409@ INDI
+1 NAME d  9Deveci Ali (Oftegekind ei
+1 SEX M
+1 FAMS @F343@
+0 @I410@ INDI
+1 NAME e  9Hasan Huseyin            
+1 SEX M
+1 FAMS @F344@
+1 FAMC @F343@
+0 @I411@ INDI
+1 NAME e  9Fatma                    
+1 SEX F
+1 FAMS @F345@
+1 FAMC @F343@
+0 @I412@ INDI
+1 NAME e   Not given (Koylu)        
+1 SEX M
+1 FAMS @F345@
+0 @I413@ INDI
+1 NAME f  9Mehmet                   
+1 SEX M
+1 FAMS @F346@
+1 FAMC @F347@
+0 @I414@ INDI
+1 NAME f  9Hassan                   
+1 SEX M
+1 FAMS @F348@
+1 FAMC @F347@
+0 @I415@ INDI
+1 NAME f  9Ays,a                    
+1 SEX M
+1 FAMS @F349@
+1 FAMC @F347@
+0 @I416@ INDI
+1 NAME e  9Deveci Ali               
+1 SEX M
+1 FAMS @F350@
+1 FAMC @F343@
+0 @I417@ INDI
+1 NAME f  9Haci                     
+1 SEX M
+1 FAMS @F352@
+1 FAMC @F351@
+0 @I418@ INDI
+1 NAME fS 9Durdu                    
+1 SEX F
+1 FAMS @F353@
+1 FAMC @F351@
+0 @I419@ INDI
+1 NAME gS  Not given (Koylu) (wife l
+1 SEX M
+1 FAMS @F353@
+0 @I420@ INDI
+1 NAME f  9Osman (Omer?) Possible ER
+1 SEX M
+1 FAMS @F354@
+1 FAMC @F351@
+0 @I421@ INDI
+1 NAME gS 9Not Given                
+1 SEX M
+1 FAMS @F355@
+1 FAMC @F356@
+0 @I422@ INDI
+1 NAME f  9Hasan                    
+1 SEX M
+1 FAMS @F357@
+1 FAMC @F351@
+0 @I423@ INDI
+1 NAME f  9Mustafa                  
+1 SEX M
+1 FAMS @F358@
+1 FAMC @F350@
+0 @I424@ INDI
+1 NAME f  9Ali                      
+1 SEX M
+1 FAMS @F359@
+1 FAMC @F350@
+0 @I425@ INDI
+1 NAME f  9Emine                    
+1 SEX F
+1 FAMS @F360@
+1 FAMC @F350@
+0 @I426@ INDI
+1 NAME f  9Umme                     
+1 SEX F
+1 FAMS @F361@
+1 FAMC @F350@
+0 @I427@ INDI
+1 NAME f  9Not given                
+1 SEX F
+1 FAMS @F362@
+1 FAMC @F350@
+0 @I428@ INDI
+1 NAME b  1Not known                
+1 SEX F
+1 FAMS @F363@
+1 FAMC @F205@
+0 @I429@ INDI
+1 NAME b  1Not known                
+1 SEX F
+1 FAMS @F364@
+1 FAMC @F205@
+0 @I430@ INDI
+1 NAME b  1Ismail (Kara Mulloch-Blac
+1 SEX M
+1 FAMS @F365@
+1 FAMC @F205@
+0 @I431@ INDI
+1 NAME b   Not given                
+1 SEX F
+1 FAMS @F365@
+0 @I432@ INDI
+1 NAME c  1Aliboz                   
+1 SEX M
+1 FAMS @F366@
+1 FAMC @F365@
+0 @I433@ INDI
+1 NAME c  1C,avus,                  
+1 SEX M
+1 FAMS @F367@
+1 FAMC @F365@
+0 @I435@ INDI
+1 NAME c  1Ays,e (Kara Hacili)      
+1 SEX F
+1 FAMS @F209@
+1 FAMC @F365@
+0 @I436@ INDI
+1 NAME c   Yusuf (wahrsheinlidr Tazk
+1 SEX M
+1 FAMS @F368@
+1 FAMC @F369@
+0 @I437@ INDI
+1 NAME c   Mehmet                   
+1 SEX M
+1 FAMS @F370@
+1 FAMC @F369@
+0 @I438@ INDI
+1 NAME c   Zeynep (Ahmet's Da) (Kara
+1 SEX F
+1 FAMS @F370@
+0 @I439@ INDI
+1 NAME dS  Kara Ali-Black Ali       
+1 SEX M
+1 FAMS @F371@
+1 FAMC @F370@
+0 @I440@ INDI
+1 NAME dS  Not given (Koylu)        
+1 SEX F
+1 FAMS @F371@
+0 @I441@ INDI
+1 NAME d  6Sari Veli (Kara Hacili - 
+1 SEX M
+1 FAMS @F372@
+1 FAMC @F370@
+0 @I442@ INDI
+1 NAME d   Dondu (Honambi)          
+1 SEX F
+1 FAMS @F372@
+0 @I443@ INDI
+1 NAME e  6Emis                     
+1 SEX F
+1 FAMS @F373@
+1 FAMC @F372@
+0 @I444@ INDI
+1 NAME e   Osman (Koylu)            
+1 SEX M
+1 FAMS @F373@
+0 @I445@ INDI
+1 NAME e  6Dondu (Kara Hacili) (phot
+1 SEX F
+1 FAMS @F374@
+1 FAMC @F372@
+0 @I446@ INDI
+1 NAME e  6Sara Ali                 
+1 SEX M
+1 FAMS @F124@
+1 FAMC @F372@
+0 @I447@ INDI
+1 NAME e   Huriye (Tartar tribe-as,i
+1 SEX F
+1 FAMS @F375@
+0 @I448@ INDI
+1 NAME f  6Iraz (Sara Ali's da)     
+1 SEX F
+1 FAMS @F137@
+1 FAMC @F124@
+0 @I449@ INDI
+1 NAME f  6Kerzivan                 
+1 SEX F
+1 FAMS @F377@
+1 FAMC @F124@
+0 @I450@ INDI
+1 NAME f   Mehmet                   
+1 SEX M
+1 FAMS @F377@
+0 @I451@ INDI
+1 NAME f  6Fatma                    
+1 SEX F
+1 FAMS @F378@
+1 FAMC @F124@
+0 @I452@ INDI
+1 NAME f  6Cumali (Kara Hacili)     
+1 SEX M
+1 FAMS @F379@
+1 FAMC @F124@
+0 @I453@ INDI
+1 NAME f   Huriye                   
+1 SEX F
+1 FAMS @F379@
+0 @I454@ INDI
+1 NAME g   Not given (Kozan)        
+1 SEX M
+1 FAMS @F381@
+0 @I455@ INDI
+1 NAME g  6Ramazan                  
+1 SEX M
+1 FAMS @F382@
+1 FAMC @F380@
+0 @I456@ INDI
+1 NAME g   Not given (Koylu Muhacir-
+1 SEX F
+1 FAMS @F382@
+0 @I457@ INDI
+1 NAME g  6Ahmet                    
+1 SEX M
+1 FAMS @F383@
+1 FAMC @F380@
+0 @I458@ INDI
+1 NAME gS 6Iraz                     
+1 SEX F
+1 FAMS @F384@
+1 FAMC @F380@
+0 @I459@ INDI
+1 NAME gS  Not given (Kozan)        
+1 SEX M
+1 FAMS @F384@
+0 @I460@ INDI
+1 NAME g  6Munewer                  
+1 SEX F
+1 FAMS @F385@
+1 FAMC @F380@
+0 @I461@ INDI
+1 NAME g   Not given                
+1 SEX M
+1 FAMS @F385@
+0 @I462@ INDI
+1 NAME g  6Elil                     
+1 SEX F
+1 FAMS @F386@
+1 FAMC @F380@
+0 @I463@ INDI
+1 NAME g  6Kemal                    
+1 SEX M
+1 FAMS @F387@
+1 FAMC @F380@
+0 @I464@ INDI
+1 NAME g  6Ulriye                   
+1 SEX F
+1 FAMS @F388@
+1 FAMC @F380@
+0 @I465@ INDI
+1 NAME g  6Saim                     
+1 SEX M
+1 FAMS @F389@
+1 FAMC @F380@
+0 @I466@ INDI
+1 NAME f  6Ahmet                    
+1 SEX M
+1 FAMS @F390@
+1 FAMC @F124@
+0 @I467@ INDI
+1 NAME f   Elif (Koylu)             
+1 SEX F
+1 FAMS @F390@
+0 @I471@ INDI
+1 NAME f  6Mehmet                   
+1 SEX M
+1 FAMS @F391@
+1 FAMC @F124@
+0 @I475@ INDI
+1 NAME f   Sultan (Koylu)           
+1 SEX F
+1 FAMS @F391@
+0 @I476@ INDI
+1 NAME f  6Veli                     
+1 SEX M
+1 FAMS @F392@
+1 FAMC @F124@
+0 @I477@ INDI
+1 NAME f  6Durdu                    
+1 SEX F
+1 FAMS @F393@
+1 FAMC @F124@
+0 @I478@ INDI
+1 NAME f  6Gussun                   
+1 SEX F
+1 FAMS @F394@
+1 FAMC @F124@
+0 @I479@ INDI
+1 NAME f   Not given (Hayta)        
+1 SEX M
+1 FAMS @F394@
+0 @I480@ INDI
+1 NAME f  6Koc,ali                  
+1 SEX M
+1 FAMS @F118@
+1 FAMC @F124@
+0 @I481@ INDI
+1 NAME g  6Osman                    
+1 SEX M
+1 FAMS @F395@
+1 FAMC @F118@
+0 @I482@ INDI
+1 NAME g  6Feride                   
+1 SEX F
+1 FAMS @F396@
+1 FAMC @F118@
+0 @I483@ INDI
+1 NAME g  6Dondu                    
+1 SEX F
+1 FAMS @F397@
+1 FAMC @F118@
+0 @I484@ INDI
+1 NAME g  6Ays,el                   
+1 SEX F
+1 FAMS @F398@
+1 FAMC @F118@
+0 @I485@ INDI
+1 NAME f  6Veli                     
+1 SEX M
+1 FAMS @F399@
+1 FAMC @F124@
+0 @I486@ INDI
+1 NAME f  6Akif                     
+1 SEX M
+1 FAMS @F400@
+1 FAMC @F124@
+0 @I487@ INDI
+1 NAME f  6Meryem                   
+1 SEX F
+1 FAMS @F401@
+1 FAMC @F124@
+0 @I488@ INDI
+1 NAME f  6Zekerye                  
+1 SEX M
+1 FAMS @F402@
+1 FAMC @F124@
+0 @I489@ INDI
+1 NAME e  6(?)Ays,e                 
+1 SEX F
+1 FAMS @F125@
+1 FAMC @F372@
+0 @I490@ INDI
+1 NAME e  6Fatma                    
+1 SEX F
+1 FAMS @F403@
+1 FAMC @F372@
+0 @I491@ INDI
+1 NAME e  6Arzi                     
+1 SEX F
+1 FAMS @F404@
+1 FAMC @F372@
+0 @I492@ INDI
+1 NAME e  6Hasan Huseyin (Kara Hacil
+1 SEX M
+1 FAMS @F405@
+1 FAMC @F372@
+0 @I493@ INDI
+1 NAME f  6Mehmet                   
+1 SEX M
+1 FAMS @F406@
+1 FAMC @F405@
+0 @I495@ INDI
+1 NAME f  6Veli                     
+1 SEX M
+1 FAMS @F409@
+1 FAMC @F405@
+0 @I496@ INDI
+1 NAME f  6Ramazan                  
+1 SEX M
+1 FAMS @F410@
+1 FAMC @F405@
+0 @I497@ INDI
+1 NAME f  6Mustafa                  
+1 SEX M
+1 FAMS @F411@
+1 FAMC @F405@
+0 @I498@ INDI
+1 NAME f  6Hasan                    
+1 SEX M
+1 FAMS @F412@
+1 FAMC @F405@
+0 @I499@ INDI
+1 NAME f  6Mehers,e                 
+1 SEX M
+1 FAMS @F413@
+1 FAMC @F405@
+0 @I500@ INDI
+1 NAME f  6C,avus,                  
+1 SEX M
+1 FAMS @F414@
+1 FAMC @F405@
+0 @I501@ INDI
+1 NAME e  6Ramazan                  
+1 SEX M
+1 FAMS @F415@
+1 FAMC @F372@
+0 @I502@ INDI
+1 NAME e   Emine (Kes,ivli tribe-as,
+1 SEX F
+1 FAMS @F415@
+0 @I503@ INDI
+1 NAME f  6Mehmet                   
+1 SEX M
+1 FAMS @F416@
+1 FAMC @F415@
+0 @I504@ INDI
+1 NAME fS 6(sesshaft=settled bei Kon
+1 SEX F
+1 FAMS @F417@
+1 FAMC @F415@
+0 @I507@ INDI
+1 NAME a   Kirbasi (g.1775)         
+1 SEX M
+1 FAMS @F418@
+0 @I508@ INDI
+1 NAME a   Not known                
+1 SEX F
+1 FAMS @F418@
+0 @I509@ INDI
+1 NAME b  2Koca Oglan (Nomade bei An
+1 SEX M
+1 FAMS @F419@
+1 FAMC @F418@
+0 @I510@ INDI
+1 NAME a   Muduloglu                
+1 SEX M
+1 FAMS @F420@
+0 @I511@ INDI
+1 NAME a   Not given                
+1 SEX F
+1 FAMS @F420@
+0 @I512@ INDI
+1 NAME b   508 Not given            
+1 SEX F
+1 FAMS @F419@
+1 FAMC @F420@
+0 @I513@ INDI
+1 NAME c  2Mehmet                   
+1 SEX M
+1 FAMS @F421@
+1 FAMC @F419@
+0 @I514@ INDI
+1 NAME c  2Ali (Nomade bei Antalya) 
+1 SEX M
+1 FAMS @F422@
+1 FAMC @F419@
+0 @I515@ INDI
+1 NAME c   Isman (Omar efendi's da) 
+1 SEX F
+1 FAMS @F422@
+0 @I516@ INDI
+1 NAME d  2Mehmet                   
+1 SEX M
+1 FAMS @F423@
+1 FAMC @F422@
+0 @I517@ INDI
+1 NAME d  2Erkek Mustafa            
+1 SEX M
+1 FAMS @F424@
+1 FAMC @F422@
+0 @I518@ INDI
+1 NAME e   Elif (Afs,ar) g.~1875    
+1 SEX F
+1 FAMS @F425@
+0 @I519@ INDI
+1 NAME e  2Haci                     
+1 SEX M
+1 FAMS @F338@
+1 FAMC @F424@
+0 @I520@ INDI
+1 NAME g   Fatma (Durmusi's da)     
+1 SEX F
+1 FAMS @F427@
+0 @I521@ INDI
+1 NAME f  2Mehmet (Haci?)           
+1 SEX M
+1 FAMS @F404@
+1 FAMC @F426@
+0 @I522@ INDI
+1 NAME g  2Oksuz=Orphaned Mustafa (H
+1 SEX M
+1 FAMS @F429@
+1 FAMC @F404@
+0 @I523@ INDI
+1 NAME h  2Not given                
+1 SEX M
+1 FAMS @F431@
+1 FAMC @F430@
+0 @I524@ INDI
+1 NAME h   Not given                
+1 SEX F
+1 FAMS @F431@
+0 @I525@ INDI
+1 NAME h  2Selbi                    
+1 SEX F
+1 FAMS @F432@
+1 FAMC @F429@
+0 @I526@ INDI
+1 NAME h  2Mehmet                   
+1 SEX M
+1 FAMS @F433@
+1 FAMC @F429@
+0 @I527@ INDI
+1 NAME h  2Haci                     
+1 SEX M
+1 FAMS @F434@
+1 FAMC @F429@
+0 @I528@ INDI
+1 NAME g  2Selbi                    
+1 SEX F
+1 FAMS @F435@
+1 FAMC @F404@
+0 @I529@ INDI
+1 NAME g   Abdurrahman (Honamli trib
+1 SEX M
+1 FAMS @F435@
+0 @I530@ INDI
+1 NAME f  2Durdu                    
+1 SEX F
+1 FAMS @F405@
+1 FAMC @F426@
+0 @I531@ INDI
+1 NAME f  2Kerzivan                 
+1 SEX F
+1 FAMS @F436@
+1 FAMC @F426@
+0 @I532@ INDI
+1 NAME e  2Mullah Ali (photo)       
+1 SEX M
+1 FAMS @F437@
+1 FAMC @F424@
+0 @I533@ INDI
+1 NAME e   Fatma (Honamli tribe)    
+1 SEX F
+1 FAMS @F437@
+0 @I534@ INDI
+1 NAME f  2Emin m.MBD (photo? Ulla's
+1 SEX M
+1 FAMS @F438@
+1 FAMC @F437@
+0 @I535@ INDI
+1 NAME f   Ays,e (Honamli tribe) m.F
+1 SEX F
+1 FAMS @F438@
+0 @I536@ INDI
+1 NAME g  2Mustafa                  
+1 SEX M
+1 FAMS @F439@
+1 FAMC @F438@
+0 @I537@ INDI
+1 NAME g  2Havana                   
+1 SEX F
+1 FAMS @F106@
+1 FAMC @F438@
+0 @I538@ INDI
+1 NAME g  2Gokus                    
+1 SEX F
+1 FAMS @F440@
+1 FAMC @F438@
+0 @I539@ INDI
+1 NAME g  2Halil                    
+1 SEX M
+1 FAMS @F427@
+1 FAMC @F438@
+0 @I540@ INDI
+1 NAME h  2Ihsan                    
+1 SEX M
+1 FAMS @F441@
+1 FAMC @F427@
+0 @I541@ INDI
+1 NAME h  2Abdurrahman              
+1 SEX M
+1 FAMS @F442@
+1 FAMC @F427@
+0 @I542@ INDI
+1 NAME h  2Sultan                   
+1 SEX F
+1 FAMS @F443@
+1 FAMC @F427@
+0 @I543@ INDI
+1 NAME h  2Mustafa                  
+1 SEX M
+1 FAMS @F444@
+1 FAMC @F427@
+0 @I544@ INDI
+1 NAME h  2Yeter                    
+1 SEX F
+1 FAMS @F445@
+1 FAMC @F427@
+0 @I545@ INDI
+1 NAME h  2Hatice                   
+1 SEX F
+1 FAMS @F446@
+1 FAMC @F427@
+0 @I546@ INDI
+1 NAME g  2Mehmet                   
+1 SEX M
+1 FAMS @F447@
+1 FAMC @F438@
+0 @I547@ INDI
+1 NAME h  2Melek                    
+1 SEX F
+1 FAMS @F448@
+1 FAMC @F447@
+0 @I548@ INDI
+1 NAME h  2Dursan                   
+1 SEX F
+1 FAMS @F449@
+1 FAMC @F447@
+0 @I549@ INDI
+1 NAME h  2Not given                
+1 SEX M
+1 FAMS @F450@
+1 FAMC @F447@
+0 @I550@ INDI
+1 NAME h  2Ays,e                    
+1 SEX F
+1 FAMS @F451@
+1 FAMC @F447@
+0 @I551@ INDI
+1 NAME h  2Not given                
+1 SEX F
+1 FAMS @F452@
+1 FAMC @F447@
+0 @I552@ INDI
+1 NAME h  2Ibrahim                  
+1 SEX M
+1 FAMS @F453@
+1 FAMC @F447@
+0 @I553@ INDI
+1 NAME h  2Not given                
+1 SEX M
+1 FAMS @F454@
+1 FAMC @F447@
+0 @I554@ INDI
+1 NAME g  2Osman                    
+1 SEX M
+1 FAMS @F455@
+1 FAMC @F438@
+0 @I555@ INDI
+1 NAME g  2Duru (Horzum) Durdu? (pro
+1 SEX F
+1 FAMS @F455@
+1 FAMC @F428@
+0 @I556@ INDI
+1 NAME g  2Meryem (Horzum) (photo?) 
+1 SEX F
+1 FAMS @F459@
+1 FAMC @F438@
+0 @I557@ INDI
+1 NAME g   Ali (Horzum)             
+1 SEX M
+1 FAMS @F459@
+0 @I558@ INDI
+1 NAME g  2Gussun m.FZS             
+1 SEX F
+1 FAMS @F460@
+1 FAMC @F438@
+0 @I559@ INDI
+1 NAME g   Mahmut m.MBD (Honamli tri
+1 SEX M
+1 FAMS @F460@
+0 @I560@ INDI
+1 NAME g  2Gulluhan                 
+1 SEX F
+1 FAMS @F461@
+1 FAMC @F438@
+0 @I561@ INDI
+1 NAME g  2Selbi                    
+1 SEX F
+1 FAMS @F462@
+1 FAMC @F438@
+0 @I562@ INDI
+1 NAME g  2Fatma                    
+1 SEX F
+1 FAMS @F463@
+1 FAMC @F438@
+0 @I563@ INDI
+1 NAME g  2Hava                     
+1 SEX F
+1 FAMS @F464@
+1 FAMC @F438@
+0 @I564@ INDI
+1 NAME g  2Ali m.FFBSD (FaFaBrSoSo-s
+1 SEX M
+1 FAMS @F465@
+1 FAMC @F438@
+0 @I565@ INDI
+1 NAME f  2Res,it                   
+1 SEX M
+1 FAMS @F436@
+1 FAMC @F437@
+0 @I566@ INDI
+1 NAME g  2Mustafa (Gastarbeiter am 
+1 SEX M
+1 FAMS @F466@
+1 FAMC @F436@
+0 @I567@ INDI
+1 NAME h  2Not given                
+1 SEX F
+1 FAMS @F467@
+1 FAMC @F466@
+0 @I568@ INDI
+1 NAME h  2Not given                
+1 SEX M
+1 FAMS @F468@
+1 FAMC @F466@
+0 @I569@ INDI
+1 NAME h  2Not given                
+1 SEX M
+1 FAMS @F469@
+1 FAMC @F466@
+0 @I570@ INDI
+1 NAME hS 2Not given                
+1 SEX F
+1 FAMS @F470@
+1 FAMC @F466@
+0 @I571@ INDI
+1 NAME h  2Not given                
+1 SEX M
+1 FAMS @F471@
+1 FAMC @F466@
+0 @I572@ INDI
+1 NAME h  2Not given                
+1 SEX F
+1 FAMS @F472@
+1 FAMC @F466@
+0 @I573@ INDI
+1 NAME g  2Isman                    
+1 SEX F
+1 FAMS @F473@
+1 FAMC @F436@
+0 @I574@ INDI
+1 NAME g   Not given                
+1 SEX M
+1 FAMS @F473@
+0 @I575@ INDI
+1 NAME g  2Arzu                     
+1 SEX F
+1 FAMS @F474@
+1 FAMC @F436@
+0 @I576@ INDI
+1 NAME g  2Teslime                  
+1 SEX F
+1 FAMS @F475@
+1 FAMC @F436@
+0 @I577@ INDI
+1 NAME g   Not given                
+1 SEX M
+1 FAMS @F475@
+0 @I578@ INDI
+1 NAME g  2Yeter                    
+1 SEX F
+1 FAMS @F476@
+1 FAMC @F436@
+0 @I579@ INDI
+1 NAME g  2Unal                     
+1 SEX M
+1 FAMS @F477@
+1 FAMC @F436@
+0 @I580@ INDI
+1 NAME g  2Metin                    
+1 SEX M
+1 FAMS @F478@
+1 FAMC @F436@
+0 @I581@ INDI
+1 NAME f  2Fatma                    
+1 SEX F
+1 FAMS @F428@
+1 FAMC @F437@
+0 @I582@ INDI
+1 NAME f   Abdurrahman (Honamli trib
+1 SEX M
+1 FAMS @F479@
+0 @I583@ INDI
+1 NAME f  2Huriye                   
+1 SEX F
+1 FAMS @F170@
+1 FAMC @F437@
+0 @I584@ INDI
+1 NAME e  2Isa (photo)              
+1 SEX M
+1 FAMS @F374@
+1 FAMC @F424@
+0 @I585@ INDI
+1 NAME e   Hanim (Honamli tribe)    
+1 SEX F
+1 FAMS @F480@
+0 @I586@ INDI
+1 NAME fS 2Aliboz                   
+1 SEX M
+1 FAMS @F303@
+1 FAMC @F374@
+0 @I587@ INDI
+1 NAME g  2Meryem                   
+1 SEX F
+1 FAMS @F481@
+1 FAMC @F303@
+0 @I588@ INDI
+1 NAME gS  Orhan (Sari Kec,ili tribe
+1 SEX M
+1 FAMS @F481@
+0 @I589@ INDI
+1 NAME g  2Hanife                   
+1 SEX F
+1 FAMS @F482@
+1 FAMC @F303@
+0 @I590@ INDI
+1 NAME g  2Durdu                    
+1 SEX F
+1 FAMS @F483@
+1 FAMC @F303@
+0 @I591@ INDI
+1 NAME g  2Umit                     
+1 SEX M
+1 FAMS @F484@
+1 FAMC @F303@
+0 @I592@ INDI
+1 NAME g  2Mehmet                   
+1 SEX M
+1 FAMS @F485@
+1 FAMC @F303@
+0 @I593@ INDI
+1 NAME g  2Songul                   
+1 SEX F
+1 FAMS @F486@
+1 FAMC @F303@
+0 @I594@ INDI
+1 NAME g  2Huseyin                  
+1 SEX M
+1 FAMS @F487@
+1 FAMC @F303@
+0 @I595@ INDI
+1 NAME g  2Emin                     
+1 SEX M
+1 FAMS @F488@
+1 FAMC @F303@
+0 @I596@ INDI
+1 NAME fS 2Huseyin                  
+1 SEX M
+1 FAMS @F489@
+1 FAMC @F374@
+0 @I597@ INDI
+1 NAME f  2Mustafa (Isa's son)      
+1 SEX M
+1 FAMS @F307@
+1 FAMC @F374@
+0 @I598@ INDI
+1 NAME g   Not given                
+1 SEX F
+1 FAMS @F466@
+0 @I599@ INDI
+1 NAME fS  Yeter                    
+1 SEX F
+1 FAMS @F490@
+0 @I600@ INDI
+1 NAME g  2Inran m.FFBSS            
+1 SEX F
+1 FAMS @F465@
+1 FAMC @F307@
+0 @I601@ INDI
+1 NAME g  2C,avus,                  
+1 SEX M
+1 FAMS @F491@
+1 FAMC @F307@
+0 @I602@ INDI
+1 NAME g  2Not given                
+1 SEX M
+1 FAMS @F492@
+1 FAMC @F307@
+0 @I603@ INDI
+1 NAME g  2Yuksel                   
+1 SEX M
+1 FAMS @F493@
+1 FAMC @F307@
+0 @I604@ INDI
+1 NAME g  2Ays,a                    
+1 SEX F
+1 FAMS @F494@
+1 FAMC @F307@
+0 @I605@ INDI
+1 NAME g  2Dondu                    
+1 SEX F
+1 FAMS @F495@
+1 FAMC @F307@
+0 @I606@ INDI
+1 NAME g  2Erdal                    
+1 SEX M
+1 FAMS @F497@
+1 FAMC @F490@
+0 @I607@ INDI
+1 NAME g  2Sonay                    
+1 SEX F
+1 FAMS @F498@
+1 FAMC @F490@
+0 @I608@ INDI
+1 NAME g  2Srrdal                   
+1 SEX M
+1 FAMS @F499@
+1 FAMC @F490@
+0 @I609@ INDI
+1 NAME g  2Suleyha (Culeyha)        
+1 SEX F
+1 FAMS @F500@
+1 FAMC @F490@
+0 @I610@ INDI
+1 NAME g  2Ozcan                    
+1 SEX M
+1 FAMS @F501@
+1 FAMC @F490@
+0 @I611@ INDI
+1 NAME f  2Yeter                    
+1 SEX F
+1 FAMS @F503@
+1 FAMC @F374@
+0 @I612@ INDI
+1 NAME eS 2Abdullah                 
+1 SEX M
+1 FAMS @F504@
+1 FAMC @F424@
+0 @I613@ INDI
+1 NAME e   Kurt Kizi (Abdullah's Wit
+1 SEX F
+1 FAMS @F376@
+1 FAMC @F505@
+0 @I614@ INDI
+1 NAME f  2Karakiz                  
+1 SEX F
+1 FAMS @F506@
+1 FAMC @F504@
+0 @I615@ INDI
+1 NAME f  2Emine                    
+1 SEX F
+1 FAMS @F507@
+1 FAMC @F504@
+0 @I616@ INDI
+1 NAME f   Mustafa (Horzum or: bei P
+1 SEX M
+1 FAMS @F507@
+0 @I617@ INDI
+1 NAME f  2Mustafa (Kurt K...?)     
+1 SEX M
+1 FAMS @F393@
+1 FAMC @F504@
+0 @I618@ INDI
+1 NAME gS 2Menevse (Koylu - works in
+1 SEX F
+1 FAMS @F508@
+1 FAMC @F393@
+0 @I619@ INDI
+1 NAME g  2Mehmet                   
+1 SEX M
+1 FAMS @F509@
+1 FAMC @F393@
+0 @I620@ INDI
+1 NAME g  2Cumali                   
+1 SEX M
+1 FAMS @F510@
+1 FAMC @F393@
+0 @I621@ INDI
+1 NAME g  2Sultan                   
+1 SEX F
+1 FAMS @F511@
+1 FAMC @F393@
+0 @I622@ INDI
+1 NAME g  2Musiret                  
+1 SEX M
+1 FAMS @F512@
+1 FAMC @F393@
+0 @I624@ INDI
+1 NAME f  2Yeter                    
+1 SEX F
+1 FAMS @F513@
+1 FAMC @F504@
+0 @I625@ INDI
+1 NAME f   Not given (Hayta)        
+1 SEX M
+1 FAMS @F513@
+0 @I626@ INDI
+1 NAME f  2Huseyin C,avus,          
+1 SEX M
+1 FAMS @F514@
+1 FAMC @F504@
+0 @I627@ INDI
+1 NAME f   Lubeyen (Ismail's Da) (Ko
+1 SEX F
+1 FAMS @F514@
+0 @I628@ INDI
+1 NAME gS 2Durdu (Koylu - works in M
+1 SEX M
+1 FAMS @F515@
+1 FAMC @F514@
+0 @I629@ INDI
+1 NAME gS 2Hureyla                  
+1 SEX M
+1 FAMS @F516@
+1 FAMC @F514@
+0 @I630@ INDI
+1 NAME d   Hinali Musfafa m.MBSD (Ci
+1 SEX M
+1 FAMS @F144@
+0 @I631@ INDI
+1 NAME e   Ali                      
+1 SEX M
+1 FAMS @F522@
+1 FAMC @F144@
+0 @I632@ INDI
+1 NAME e   Not given                
+1 SEX F
+1 FAMS @F522@
+0 @I633@ INDI
+1 NAME f   Mustafa                  
+1 SEX M
+1 FAMS @F523@
+1 FAMC @F522@
+0 @I634@ INDI
+1 NAME e   Ali Hinali Mustafa       
+1 SEX M
+1 FAMS @F524@
+1 FAMC @F144@
+0 @I635@ INDI
+1 NAME e   Gullu (C,akal tribe-as,ir
+1 SEX F
+1 FAMS @F524@
+0 @I637@ INDI
+1 NAME fS  Ali (Settled in Korehe/Ko
+1 SEX M
+1 FAMS @F525@
+1 FAMC @F524@
+0 @I638@ INDI
+1 NAME gS  Ali                      
+1 SEX M
+1 FAMS @F526@
+1 FAMC @F525@
+0 @I639@ INDI
+1 NAME gS  Gullu                    
+1 SEX F
+1 FAMS @F527@
+1 FAMC @F525@
+0 @I640@ INDI
+1 NAME gS  Osman                    
+1 SEX M
+1 FAMS @F528@
+1 FAMC @F525@
+0 @I641@ INDI
+1 NAME gS  Fatma                    
+1 SEX F
+1 FAMS @F529@
+1 FAMC @F525@
+0 @I642@ INDI
+1 NAME gS  Mustafa                  
+1 SEX M
+1 FAMS @F530@
+1 FAMC @F525@
+0 @I643@ INDI
+1 NAME gS  Ziya                     
+1 SEX M
+1 FAMS @F531@
+1 FAMC @F525@
+0 @I644@ INDI
+1 NAME gS  Dis,yuze                 
+1 SEX F
+1 FAMS @F532@
+1 FAMC @F525@
+0 @I645@ INDI
+1 NAME gS  Hatib Ahmet              
+1 SEX M
+1 FAMS @F533@
+1 FAMC @F525@
+0 @I646@ INDI
+1 NAME f   Hinali Yusuf             
+1 SEX M
+1 FAMS @F534@
+1 FAMC @F524@
+0 @I647@ INDI
+1 NAME f   Remziye (Koylu)          
+1 SEX F
+1 FAMS @F534@
+0 @I648@ INDI
+1 NAME gS  Gulcan                   
+1 SEX F
+1 FAMS @F535@
+1 FAMC @F534@
+0 @I649@ INDI
+1 NAME gS  Mustafa                  
+1 SEX M
+1 FAMS @F536@
+1 FAMC @F534@
+0 @I650@ INDI
+1 NAME gS  Metin                    
+1 SEX M
+1 FAMS @F537@
+1 FAMC @F534@
+0 @I651@ INDI
+1 NAME gS  Gulsiniye                
+1 SEX F
+1 FAMS @F538@
+1 FAMC @F534@
+0 @I652@ INDI
+1 NAME f   Nuriye - m.Findikli Abbas
+1 SEX F
+1 FAMS @F539@
+1 FAMC @F524@
+0 @I653@ INDI
+1 NAME f   Fatma                    
+1 SEX F
+1 FAMS @F541@
+1 FAMC @F524@
+0 @I654@ INDI
+1 NAME f   Haci Mehmet (Koylu)      
+1 SEX M
+1 FAMS @F541@
+0 @I655@ INDI
+1 NAME f   Almaz m.FZS              
+1 SEX F
+1 FAMS @F543@
+1 FAMC @F524@
+0 @I656@ INDI
+1 NAME f   Ays,e                    
+1 SEX F
+1 FAMS @F544@
+1 FAMC @F524@
+0 @I657@ INDI
+1 NAME e 11Fatma (Mustafa's da) (C,i
+1 SEX F
+1 FAMS @F143@
+1 FAMC @F144@
+0 @I658@ INDI
+1 NAME e   Yusuf                    
+1 SEX M
+1 FAMS @F546@
+1 FAMC @F144@
+0 @I659@ INDI
+1 NAME b  3Abbas (Nomade bei Antalya
+1 SEX M
+1 FAMS @F547@
+0 @I660@ INDI
+1 NAME b   Not known                
+1 SEX F
+1 FAMS @F547@
+0 @I661@ INDI
+1 NAME c  3Haci Ketir Mehmet (one of
+1 SEX M
+1 FAMS @F548@
+1 FAMC @F547@
+0 @I662@ INDI
+1 NAME c   Not known                
+1 SEX F
+1 FAMS @F548@
+0 @I663@ INDI
+1 NAME d  3Ali                      
+1 SEX M
+1 FAMS @F549@
+1 FAMC @F548@
+0 @I664@ INDI
+1 NAME d   Not known                
+1 SEX F
+1 FAMS @F549@
+0 @I665@ INDI
+1 NAME d  3Suleyman                 
+1 SEX M
+1 FAMS @F550@
+1 FAMC @F548@
+0 @I666@ INDI
+1 NAME e  3Meryem                   
+1 SEX F
+1 FAMS @F426@
+1 FAMC @F550@
+0 @I667@ INDI
+1 NAME e  3Koca Ramazan             
+1 SEX M
+1 FAMS @F553@
+1 FAMC @F550@
+0 @I668@ INDI
+1 NAME f  3Emin                     
+1 SEX M
+1 FAMS @F554@
+1 FAMC @F553@
+0 @I669@ INDI
+1 NAME f   Not given                
+1 SEX F
+1 FAMS @F554@
+0 @I670@ INDI
+1 NAME g  3Ays,e (Da of ?+673 instea
+1 SEX F
+1 FAMS @F555@
+1 FAMC @F554@
+0 @I671@ INDI
+1 NAME g  3Gussun(Da of ?+673 instea
+1 SEX F
+1 FAMS @F556@
+1 FAMC @F554@
+0 @I672@ INDI
+1 NAME f  3Suleyman                 
+1 SEX M
+1 FAMS @F557@
+1 FAMC @F553@
+0 @I673@ INDI
+1 NAME f  3Emine                    
+1 SEX F
+1 FAMS @F558@
+1 FAMC @F553@
+0 @I674@ INDI
+1 NAME f  3Gussun (2nd wife of 99)  
+1 SEX F
+1 FAMS @F90@
+1 FAMC @F553@
+0 @I675@ INDI
+1 NAME f  3Goku                     
+1 SEX F
+1 FAMS @F560@
+1 FAMC @F553@
+0 @I676@ INDI
+1 NAME f   Kurt Huseyin (Susamli Koy
+1 SEX M
+1 FAMS @F560@
+0 @I677@ INDI
+1 NAME f  3Bobulo                   
+1 SEX M
+1 FAMS @F562@
+1 FAMC @F553@
+0 @I678@ INDI
+1 NAME g  3Yasar                    
+1 SEX M
+1 FAMS @F555@
+1 FAMC @F562@
+0 @I679@ INDI
+1 NAME h  3Senay                    
+1 SEX M
+1 FAMS @F563@
+1 FAMC @F555@
+0 @I680@ INDI
+1 NAME h  3Gazi                     
+1 SEX M
+1 FAMS @F564@
+1 FAMC @F555@
+0 @I681@ INDI
+1 NAME h  3Rahmaiye                 
+1 SEX F
+1 FAMS @F565@
+1 FAMC @F555@
+0 @I682@ INDI
+1 NAME h  3Bobuli                   
+1 SEX M
+1 FAMS @F567@
+1 FAMC @F555@
+0 @I683@ INDI
+1 NAME g  3Halil                    
+1 SEX M
+1 FAMS @F556@
+1 FAMC @F562@
+0 @I684@ INDI
+1 NAME g  3Hacil                    
+1 SEX M
+1 FAMS @F569@
+1 FAMC @F562@
+0 @I685@ INDI
+1 NAME g  3Nasuf                    
+1 SEX M
+1 FAMS @F570@
+1 FAMC @F562@
+0 @I686@ INDI
+1 NAME g  3Meryem                   
+1 SEX F
+1 FAMS @F571@
+1 FAMC @F562@
+0 @I687@ INDI
+1 NAME g  3Iraz                     
+1 SEX F
+1 FAMS @F572@
+1 FAMC @F562@
+0 @I688@ INDI
+1 NAME g  3Abdurrahman              
+1 SEX M
+1 FAMS @F573@
+1 FAMC @F562@
+0 @I689@ INDI
+1 NAME g  3Muzaffer                 
+1 SEX M
+1 FAMS @F574@
+1 FAMC @F562@
+0 @I690@ INDI
+1 NAME f  3Kerzivan                 
+1 SEX F
+1 FAMS @F575@
+1 FAMC @F553@
+0 @I691@ INDI
+1 NAME fS 3Meryem                   
+1 SEX F
+1 FAMS @F135@
+1 FAMC @F553@
+0 @I692@ INDI
+1 NAME fS  Aziz (Honamli Dinler Kabi
+1 SEX M
+1 FAMS @F576@
+0 @I693@ INDI
+1 NAME e  3Nasuf                    
+1 SEX M
+1 FAMS @F577@
+1 FAMC @F550@
+0 @I694@ INDI
+1 NAME e   Fikri (Koylu)            
+1 SEX F
+1 FAMS @F577@
+0 @I695@ INDI
+1 NAME f  3Huseyin                  
+1 SEX M
+1 FAMS @F578@
+1 FAMC @F577@
+0 @I696@ INDI
+1 NAME f  3Hakki                    
+1 SEX M
+1 FAMS @F575@
+1 FAMC @F577@
+0 @I697@ INDI
+1 NAME gS 3Mustafa                  
+1 SEX M
+1 FAMS @F579@
+1 FAMC @F575@
+0 @I698@ INDI
+1 NAME g  3Nafiye                   
+1 SEX F
+1 FAMS @F580@
+1 FAMC @F575@
+0 @I699@ INDI
+1 NAME g  3?erased Inzila           
+1 SEX F
+1 FAMS @F581@
+1 FAMC @F575@
+0 @I700@ INDI
+1 NAME g   Ari (Honamli tribe) not i
+1 SEX M
+1 FAMS @F581@
+0 @I701@ INDI
+1 NAME g  3Hukviye                  
+1 SEX F
+1 FAMS @F582@
+1 FAMC @F575@
+0 @I702@ INDI
+1 NAME g  3Tullu                    
+1 SEX F
+1 FAMS @F583@
+1 FAMC @F575@
+0 @I703@ INDI
+1 NAME g  3Yeter                    
+1 SEX F
+1 FAMS @F584@
+1 FAMC @F575@
+0 @I704@ INDI
+1 NAME f  3Osman                    
+1 SEX M
+1 FAMS @F585@
+1 FAMC @F577@
+0 @I705@ INDI
+1 NAME f   Cennet                   
+1 SEX F
+1 FAMS @F585@
+0 @I706@ INDI
+1 NAME g  3Yadigar                  
+1 SEX F
+1 FAMS @F586@
+1 FAMC @F585@
+0 @I708@ INDI
+1 NAME f  3Koreli Mustafa           
+1 SEX M
+1 FAMS @F378@
+1 FAMC @F577@
+0 @I709@ INDI
+1 NAME g  3Findik                   
+1 SEX F
+1 FAMS @F587@
+1 FAMC @F378@
+0 @I710@ INDI
+1 NAME g  3Omar                     
+1 SEX M
+1 FAMS @F588@
+1 FAMC @F378@
+0 @I711@ INDI
+1 NAME g  3Abbaz                    
+1 SEX M
+1 FAMS @F589@
+1 FAMC @F378@
+0 @I712@ INDI
+1 NAME g  3Ali                      
+1 SEX M
+1 FAMS @F590@
+1 FAMC @F378@
+0 @I713@ INDI
+1 NAME g  3Musa                     
+1 SEX M
+1 FAMS @F591@
+1 FAMC @F378@
+0 @I714@ INDI
+1 NAME f  3Zeynep                   
+1 SEX F
+1 FAMS @F592@
+1 FAMC @F577@
+0 @I715@ INDI
+1 NAME f  3Mehmet                   
+1 SEX M
+1 FAMS @F593@
+1 FAMC @F577@
+0 @I716@ INDI
+1 NAME c  3Mustan (Koca Mustafa?) Fo
+1 SEX M
+1 FAMS @F595@
+1 FAMC @F547@
+0 @I718@ INDI
+1 NAME d  3Fatma                    
+1 SEX F
+1 FAMS @F287@
+1 FAMC @F595@
+0 @I719@ INDI
+1 NAME d  3Saker Mustafa            
+1 SEX M
+1 FAMS @F596@
+1 FAMC @F595@
+0 @I720@ INDI
+1 NAME d   Uryuka (Honamli tribe)   
+1 SEX F
+1 FAMS @F596@
+0 @I721@ INDI
+1 NAME e  3Sakar Halil              
+1 SEX M
+1 FAMS @F597@
+1 FAMC @F596@
+0 @I722@ INDI
+1 NAME e   Ays,a (Kabak Hasan's Sist
+1 SEX F
+1 FAMS @F597@
+0 @I723@ INDI
+1 NAME f  3Nezli                    
+1 SEX F
+1 FAMS @F27@
+1 FAMC @F597@
+0 @I724@ INDI
+1 NAME f  3Fatma                    
+1 SEX F
+1 FAMS @F598@
+1 FAMC @F597@
+0 @I725@ INDI
+1 NAME f  3Meryem                   
+1 SEX F
+1 FAMS @F599@
+1 FAMC @F597@
+0 @I726@ INDI
+1 NAME f  3Urkuya                   
+1 SEX F
+1 FAMS @F600@
+1 FAMC @F597@
+0 @I727@ INDI
+1 NAME f  3Mehmet                   
+1 SEX M
+1 FAMS @F601@
+1 FAMC @F597@
+0 @I728@ INDI
+1 NAME f   Ali Isman (Kurt Ali's Da)
+1 SEX F
+1 FAMS @F601@
+1 FAMC @F602@
+0 @I734@ INDI
+1 NAME f  3Mustafa                  
+1 SEX M
+1 FAMS @F603@
+1 FAMC @F597@
+0 @I740@ INDI
+1 NAME f  3Abbas                    
+1 SEX M
+1 FAMS @F604@
+1 FAMC @F597@
+0 @I741@ INDI
+1 NAME f   Dondu (Kurt Ali's Da) (Ku
+1 SEX F
+1 FAMS @F604@
+1 FAMC @F602@
+0 @I742@ INDI
+1 NAME g  3Hasan                    
+1 SEX M
+1 FAMS @F605@
+1 FAMC @F604@
+0 @I743@ INDI
+1 NAME g  3Ahmer(?)                 
+1 SEX M
+1 FAMS @F606@
+1 FAMC @F604@
+0 @I744@ INDI
+1 NAME g  3Mahmut(?)                
+1 SEX M
+1 FAMS @F607@
+1 FAMC @F604@
+0 @I745@ INDI
+1 NAME g  3Mustafa                  
+1 SEX M
+1 FAMS @F608@
+1 FAMC @F604@
+0 @I748@ INDI
+1 NAME e  3Sakar Haci               
+1 SEX M
+1 FAMS @F609@
+1 FAMC @F596@
+0 @I749@ INDI
+1 NAME e   Mayali (Hayta) (Haci Bobu
+1 SEX F
+1 FAMS @F609@
+0 @I750@ INDI
+1 NAME f  3Mustafa                  
+1 SEX M
+1 FAMS @F610@
+1 FAMC @F609@
+0 @I751@ INDI
+1 NAME f   Fatma (Kurt Ahmet's da) (
+1 SEX F
+1 FAMS @F610@
+0 @I752@ INDI
+1 NAME g  3Koc,ali                  
+1 SEX M
+1 FAMS @F611@
+1 FAMC @F610@
+0 @I753@ INDI
+1 NAME f  3Havana                   
+1 SEX F
+1 FAMS @F613@
+1 FAMC @F609@
+0 @I754@ INDI
+1 NAME g  3Ummuhan                  
+1 SEX F
+1 FAMS @F614@
+1 FAMC @F610@
+0 @I755@ INDI
+1 NAME g   Not given (Hayta) Haci Bu
+1 SEX M
+1 FAMS @F614@
+0 @I758@ INDI
+1 NAME f  3Urkuya                   
+1 SEX F
+1 FAMS @F155@
+1 FAMC @F609@
+0 @I759@ INDI
+1 NAME f  3Havana                   
+1 SEX F
+1 FAMS @F603@
+1 FAMC @F609@
+0 @I760@ INDI
+1 NAME f  3Meliha (erased): m.to Mus
+1 SEX F
+1 FAMS @F213@
+1 FAMC @F609@
+0 @I761@ INDI
+1 NAME f  3Ahmed                    
+1 SEX M
+1 FAMS @F600@
+1 FAMC @F609@
+0 @I762@ INDI
+1 NAME g  3Not given                
+1 SEX M
+1 FAMS @F615@
+1 FAMC @F600@
+0 @I766@ INDI
+1 NAME e  3Sakar Ali                
+1 SEX M
+1 FAMS @F616@
+1 FAMC @F596@
+0 @I767@ INDI
+1 NAME f  3Osman m.MBD (unusual marr
+1 SEX M
+1 FAMS @F617@
+1 FAMC @F616@
+0 @I768@ INDI
+1 NAME e  3Sakar Kose Mustafa  (g-92
+1 SEX M
+1 FAMS @F620@
+1 FAMC @F596@
+0 @I769@ INDI
+1 NAME f  3Dondu                    
+1 SEX F
+1 FAMS @F247@
+1 FAMC @F621@
+0 @I770@ INDI
+1 NAME f  3Huseyin                  
+1 SEX M
+1 FAMS @F622@
+1 FAMC @F621@
+0 @I771@ INDI
+1 NAME f   Havana (Sari Kec,ili trib
+1 SEX F
+1 FAMS @F622@
+0 @I777@ INDI
+1 NAME fS 3Mustafa                  
+1 SEX M
+1 FAMS @F219@
+1 FAMC @F621@
+0 @I779@ INDI
+1 NAME f  3Ali                      
+1 SEX M
+1 FAMS @F623@
+1 FAMC @F621@
+0 @I780@ INDI
+1 NAME f   Ays,a (Sari Kec,ili tribe
+1 SEX F
+1 FAMS @F623@
+0 @I781@ INDI
+1 NAME f  3Ecevit                   
+1 SEX M
+1 FAMS @F624@
+1 FAMC @F621@
+0 @I782@ INDI
+1 NAME f  3Havana                   
+1 SEX F
+1 FAMS @F625@
+1 FAMC @F621@
+0 @I783@ INDI
+1 NAME f  3Fatma (graph line 17 chec
+1 SEX F
+1 FAMS @F217@
+1 FAMC @F621@
+0 @I784@ INDI
+1 NAME d  3Findik Ali (Findikli Ali?
+1 SEX M
+1 FAMS @F627@
+1 FAMC @F595@
+0 @I785@ INDI
+1 NAME e  3Mustafa (Bobulo) [Findikl
+1 SEX M
+1 FAMS @F628@
+1 FAMC @F627@
+0 @I786@ INDI
+1 NAME f  3Efe Hasan (Findikli Efe) 
+1 SEX M
+1 FAMS @F631@
+1 FAMC @F628@
+0 @I787@ INDI
+1 NAME g  3Kerzivan                 
+1 SEX F
+1 FAMS @F632@
+1 FAMC @F631@
+0 @I788@ INDI
+1 NAME g  3Emine                    
+1 SEX F
+1 FAMS @F633@
+1 FAMC @F631@
+0 @I789@ INDI
+1 NAME g  3Mahmut                   
+1 SEX M
+1 FAMS @F634@
+1 FAMC @F631@
+0 @I790@ INDI
+1 NAME g  3Abbas                    
+1 SEX M
+1 FAMS @F635@
+1 FAMC @F631@
+0 @I791@ INDI
+1 NAME g  3Ali                      
+1 SEX M
+1 FAMS @F636@
+1 FAMC @F631@
+0 @I792@ INDI
+1 NAME g  3Davud                    
+1 SEX M
+1 FAMS @F637@
+1 FAMC @F631@
+0 @I793@ INDI
+1 NAME g  3Leyla                    
+1 SEX F
+1 FAMS @F638@
+1 FAMC @F631@
+0 @I794@ INDI
+1 NAME f  3Terzi Mustafa (Findikli M
+1 SEX M
+1 FAMS @F544@
+1 FAMC @F628@
+0 @I795@ INDI
+1 NAME g  3Mehmet                   
+1 SEX M
+1 FAMS @F639@
+1 FAMC @F544@
+0 @I796@ INDI
+1 NAME g   Huspe (Koylu)            
+1 SEX F
+1 FAMS @F639@
+0 @I797@ INDI
+1 NAME h  3Epru                     
+1 SEX F
+1 FAMS @F640@
+1 FAMC @F639@
+0 @I798@ INDI
+1 NAME hS 3Faziliyet                
+1 SEX F
+1 FAMS @F641@
+1 FAMC @F639@
+0 @I799@ INDI
+1 NAME gS 3Ismet (Polis)            
+1 SEX M
+1 FAMS @F642@
+1 FAMC @F544@
+0 @I800@ INDI
+1 NAME g  3Yasar (Polis)            
+1 SEX M
+1 FAMS @F643@
+1 FAMC @F544@
+0 @I801@ INDI
+1 NAME g   Gulen (Koylu-Tepe Koyu)  
+1 SEX F
+1 FAMS @F643@
+0 @I802@ INDI
+1 NAME h  3Siir                     
+1 SEX F
+1 FAMS @F644@
+1 FAMC @F643@
+0 @I803@ INDI
+1 NAME h  3Mustafa                  
+1 SEX M
+1 FAMS @F645@
+1 FAMC @F643@
+0 @I804@ INDI
+1 NAME h  3Sibel                    
+1 SEX F
+1 FAMS @F646@
+1 FAMC @F643@
+0 @I805@ INDI
+1 NAME g  3S,erife                  
+1 SEX F
+1 FAMS @F647@
+1 FAMC @F544@
+0 @I806@ INDI
+1 NAME g  3Gulsun                   
+1 SEX F
+1 FAMS @F648@
+1 FAMC @F544@
+0 @I807@ INDI
+1 NAME g  3Ahmet                    
+1 SEX M
+1 FAMS @F649@
+1 FAMC @F544@
+0 @I808@ INDI
+1 NAME f  3Veli Kurabulut (=black cl
+1 SEX M
+1 FAMS @F650@
+1 FAMC @F628@
+0 @I809@ INDI
+1 NAME f                            
+1 SEX F
+1 FAMS @F652@
+0 @I810@ INDI
+1 NAME gS 3Hatice                   
+1 SEX F
+1 FAMS @F653@
+1 FAMC @F651@
+0 @I811@ INDI
+1 NAME g  3Donny                    
+1 SEX F
+1 FAMS @F654@
+1 FAMC @F651@
+0 @I812@ INDI
+1 NAME f   Hatice (aus Saimbeyli tow
+1 SEX F
+1 FAMS @F650@
+0 @I813@ INDI
+1 NAME g  3Fatma                    
+1 SEX F
+1 FAMS @F655@
+1 FAMC @F650@
+0 @I814@ INDI
+1 NAME g  3Savas                    
+1 SEX M
+1 FAMS @F619@
+1 FAMC @F650@
+0 @I815@ INDI
+1 NAME gS 3Not given                
+1 SEX F
+1 FAMS @F656@
+1 FAMC @F650@
+0 @I816@ INDI
+1 NAME f  3Ays,e                    
+1 SEX F
+1 FAMS @F657@
+1 FAMC @F628@
+0 @I817@ INDI
+1 NAME e  3Not given                
+1 SEX F
+1 FAMS @F616@
+1 FAMC @F627@
+0 @I818@ INDI
+1 NAME e  3Findikli Haci            
+1 SEX M
+1 FAMS @F323@
+1 FAMC @F627@
+0 @I819@ INDI
+1 NAME f  3Yusuf                    
+1 SEX M
+1 FAMS @F657@
+1 FAMC @F323@
+0 @I820@ INDI
+1 NAME g  3Oguz                     
+1 SEX M
+1 FAMS @F659@
+1 FAMC @F657@
+0 @I821@ INDI
+1 NAME g  3Hatice                   
+1 SEX F
+1 FAMS @F660@
+1 FAMC @F657@
+0 @I822@ INDI
+1 NAME g  3Turkan                   
+1 SEX M
+1 FAMS @F661@
+1 FAMC @F657@
+0 @I823@ INDI
+1 NAME f  3Ummuhan                  
+1 SEX F
+1 FAMS @F651@
+1 FAMC @F323@
+0 @I824@ INDI
+1 NAME f  3Done (Husband: Omer)     
+1 SEX F
+1 FAMS @F354@
+1 FAMC @F658@
+0 @I825@ INDI
+1 NAME f  3Gussun                   
+1 SEX F
+1 FAMS @F662@
+1 FAMC @F658@
+0 @I826@ INDI
+1 NAME fS 3Koc,ali (high head of adm
+1 SEX M
+1 FAMS @F663@
+1 FAMC @F658@
+0 @I827@ INDI
+1 NAME f   Not given (comes from Kay
+1 SEX F
+1 FAMS @F663@
+0 @I828@ INDI
+1 NAME gS 3Not given                
+1 SEX F
+1 FAMS @F664@
+1 FAMC @F663@
+0 @I829@ INDI
+1 NAME fS 3Mustafa                  
+1 SEX M
+1 FAMS @F665@
+1 FAMC @F658@
+0 @I830@ INDI
+1 NAME fS 3Ugar (Saimbeyla)         
+1 SEX M
+1 FAMS @F666@
+1 FAMC @F658@
+0 @I831@ INDI
+1 NAME f  3Mediha                   
+1 SEX F
+1 FAMS @F667@
+1 FAMC @F658@
+0 @I832@ INDI
+1 NAME fS  Not given (Horzum)       
+1 SEX M
+1 FAMS @F667@
+0 @I836@ INDI
+1 NAME f  3Hava                     
+1 SEX F
+1 FAMS @F668@
+1 FAMC @F658@
+0 @I837@ INDI
+1 NAME f  3?                        
+1 SEX M
+1 FAMS @F669@
+1 FAMC @F540@
+0 @I838@ INDI
+1 NAME f  3C,inali (Polizei sargent)
+1 SEX M
+1 FAMS @F670@
+1 FAMC @F540@
+0 @I839@ INDI
+1 NAME f  3Senina (gym teacher)     
+1 SEX F
+1 FAMS @F671@
+1 FAMC @F540@
+0 @I840@ INDI
+1 NAME e  3Findikli Abbas           
+1 SEX M
+1 FAMS @F539@
+1 FAMC @F627@
+0 @I841@ INDI
+1 NAME f  3Havana                   
+1 SEX F
+1 FAMS @F672@
+1 FAMC @F539@
+0 @I842@ INDI
+1 NAME f  3Durdu                    
+1 SEX F
+1 FAMS @F673@
+1 FAMC @F539@
+0 @I843@ INDI
+1 NAME f  3Gullu                    
+1 SEX F
+1 FAMS @F674@
+1 FAMC @F539@
+0 @I844@ INDI
+1 NAME f  3Nazik                    
+1 SEX F
+1 FAMS @F675@
+1 FAMC @F539@
+0 @I845@ INDI
+1 NAME f  3Yeter                    
+1 SEX F
+1 FAMS @F676@
+1 FAMC @F539@
+0 @I846@ INDI
+1 NAME f  3Suleyman                 
+1 SEX M
+1 FAMS @F677@
+1 FAMC @F539@
+0 @I847@ INDI
+1 NAME g  3Gungor                   
+1 SEX M
+1 FAMS @F678@
+1 FAMC @F677@
+0 @I848@ INDI
+1 NAME gS 3S,engul                  
+1 SEX F
+1 FAMS @F579@
+1 FAMC @F677@
+0 @I851@ INDI
+1 NAME fS 3Mahmut (Liseogretmeni-tea
+1 SEX M
+1 FAMS @F679@
+1 FAMC @F539@
+0 @I852@ INDI
+1 NAME gS 3Not given                
+1 SEX F
+1 FAMS @F680@
+1 FAMC @F679@
+0 @I853@ INDI
+1 NAME fS 3Ali (director of elem. sc
+1 SEX M
+1 FAMS @F681@
+1 FAMC @F539@
+0 @I854@ INDI
+1 NAME f  3Abbas (Traktorcu- tractor
+1 SEX M
+1 FAMS @F682@
+1 FAMC @F539@
+0 @I855@ INDI
+1 NAME eS 3Findikli Mahmut (S in Sai
+1 SEX M
+1 FAMS @F683@
+1 FAMC @F627@
+0 @I856@ INDI
+1 NAME f  3Inzila                   
+1 SEX F
+1 FAMS @F684@
+1 FAMC @F683@
+0 @I857@ INDI
+1 NAME f  3Zeynep                   
+1 SEX F
+1 FAMS @F685@
+1 FAMC @F683@
+0 @I858@ INDI
+1 NAME fS 3Halil (Avokat-lawyer) (Tu
+1 SEX M
+1 FAMS @F686@
+1 FAMC @F683@
+0 @I859@ INDI
+1 NAME g  3Not given                
+1 SEX M
+1 FAMS @F687@
+1 FAMC @F686@
+0 @I860@ INDI
+1 NAME g  3Not given                
+1 SEX M
+1 FAMS @F688@
+1 FAMC @F686@
+0 @I861@ INDI
+1 NAME f  3"Dondu"                  
+1 SEX F
+1 FAMS @F689@
+1 FAMC @F683@
+0 @I862@ INDI
+1 NAME f  3Mehmet                   
+1 SEX M
+1 FAMS @F690@
+1 FAMC @F683@
+0 @I863@ INDI
+1 NAME f  3Zekeriye                 
+1 SEX M
+1 FAMS @F691@
+1 FAMC @F683@
+0 @I864@ INDI
+1 NAME e  3Fatma                    
+1 SEX F
+1 FAMS @F692@
+1 FAMC @F627@
+0 @I865@ INDI
+1 NAME e  3Ays,a m.199?             
+1 SEX F
+1 FAMS @F182@
+1 FAMC @F627@
+0 @I866@ INDI
+1 NAME d  3Havana                   
+1 SEX F
+1 FAMS @F693@
+1 FAMC @F595@
+0 @I867@ INDI
+1 NAME d  3Aysa m.FFZS (mistakenly s
+1 SEX F
+1 FAMS @F144@
+1 FAMC @F595@
+0 @I868@ INDI
+1 NAME d  3Abbas m.MBD              
+1 SEX M
+1 FAMS @F694@
+1 FAMC @F595@
+0 @I869@ INDI
+1 NAME e  3Efe Mehmet               
+1 SEX M
+1 FAMS @F325@
+1 FAMC @F694@
+0 @I870@ INDI
+1 NAME f  3Habib Haci               
+1 SEX M
+1 FAMS @F306@
+1 FAMC @F325@
+0 @I871@ INDI
+1 NAME g  3Yeldiz                   
+1 SEX F
+1 FAMS @F695@
+1 FAMC @F306@
+0 @I872@ INDI
+1 NAME g  3Sinan                    
+1 SEX M
+1 FAMS @F696@
+1 FAMC @F306@
+0 @I873@ INDI
+1 NAME g  3Seycan                   
+1 SEX F
+1 FAMS @F697@
+1 FAMC @F306@
+0 @I874@ INDI
+1 NAME f  3Hasan                    
+1 SEX M
+1 FAMS @F698@
+1 FAMC @F325@
+0 @I875@ INDI
+1 NAME f  3Nezile                   
+1 SEX F
+1 FAMS @F699@
+1 FAMC @F325@
+0 @I876@ INDI
+1 NAME f  3Hatice                   
+1 SEX F
+1 FAMS @F686@
+1 FAMC @F325@
+0 @I877@ INDI
+1 NAME f  3Yasar                    
+1 SEX M
+1 FAMS @F700@
+1 FAMC @F325@
+0 @I878@ INDI
+1 NAME f  3Gerife                   
+1 SEX F
+1 FAMS @F701@
+1 FAMC @F325@
+0 @I879@ INDI
+1 NAME e  3Senam (Efe Halil's da)   
+1 SEX F
+1 FAMS @F683@
+1 FAMC @F694@
+0 @I880@ INDI
+1 NAME e  3Efe Halil                
+1 SEX M
+1 FAMS @F702@
+1 FAMC @F694@
+0 @I881@ INDI
+1 NAME e   Cemile                   
+1 SEX F
+1 FAMS @F702@
+0 @I882@ INDI
+1 NAME e  3Efe Hasan                
+1 SEX M
+1 FAMS @F284@
+1 FAMC @F694@
+0 @I883@ INDI
+1 NAME f  3Hasan Karabulut          
+1 SEX M
+1 FAMS @F229@
+1 FAMC @F339@
+0 @I884@ INDI
+1 NAME g  3Hasan                    
+1 SEX M
+1 FAMS @F703@
+1 FAMC @F229@
+0 @I885@ INDI
+1 NAME g   Elif (Sari Kec,ili tribe)
+1 SEX F
+1 FAMS @F703@
+1 FAMC @F704@
+0 @I886@ INDI
+1 NAME g  3Veli                     
+1 SEX M
+1 FAMS @F705@
+1 FAMC @F229@
+0 @I887@ INDI
+1 NAME g  3Maya                     
+1 SEX F
+1 FAMS @F225@
+1 FAMC @F229@
+0 @I888@ INDI
+1 NAME gS 3Senam                    
+1 SEX F
+1 FAMS @F706@
+1 FAMC @F229@
+0 @I889@ INDI
+1 NAME g   Haci (Koylu)             
+1 SEX M
+1 FAMS @F706@
+0 @I890@ INDI
+1 NAME g  3Yeter                    
+1 SEX F
+1 FAMS @F707@
+1 FAMC @F229@
+0 @I891@ INDI
+1 NAME gS 3Hava                     
+1 SEX F
+1 FAMS @F708@
+1 FAMC @F229@
+0 @I892@ INDI
+1 NAME g  3Mustafa                  
+1 SEX M
+1 FAMS @F709@
+1 FAMC @F229@
+0 @I893@ INDI
+1 NAME f  3                         
+1 SEX F
+1 FAMS @F327@
+1 FAMC @F339@
+0 @I894@ INDI
+1 NAME f  3Emine                    
+1 SEX F
+1 FAMS @F658@
+1 FAMC @F339@
+0 @I895@ INDI
+1 NAME f  3Fatma                    
+1 SEX F
+1 FAMS @F710@
+1 FAMC @F339@
+0 @I896@ INDI
+1 NAME f  3Topal Mahmut             
+1 SEX M
+1 FAMS @F711@
+1 FAMC @F339@
+0 @I897@ INDI
+1 NAME f  3Efe Suleyman             
+1 SEX M
+1 FAMS @F324@
+1 FAMC @F339@
+0 @I898@ INDI
+1 NAME f   Hasibe (Koylu)           
+1 SEX F
+1 FAMS @F712@
+0 @I899@ INDI
+1 NAME g  3Mehmet                   
+1 SEX M
+1 FAMS @F632@
+1 FAMC @F712@
+0 @I900@ INDI
+1 NAME h  3Yasemin                  
+1 SEX F
+1 FAMS @F713@
+1 FAMC @F632@
+0 @I901@ INDI
+1 NAME h  3Ays,egul                 
+1 SEX F
+1 FAMS @F714@
+1 FAMC @F632@
+0 @I902@ INDI
+1 NAME gS 3Duran                    
+1 SEX M
+1 FAMS @F708@
+1 FAMC @F712@
+0 @I903@ INDI
+1 NAME gS 3Hasan                    
+1 SEX M
+1 FAMS @F715@
+1 FAMC @F712@
+0 @I904@ INDI
+1 NAME gS 3Abbas                    
+1 SEX M
+1 FAMS @F716@
+1 FAMC @F712@
+0 @I905@ INDI
+1 NAME gS 3Levia                    
+1 SEX F
+1 FAMS @F717@
+1 FAMC @F712@
+0 @I906@ INDI
+1 NAME gS 3Mecmun                   
+1 SEX M
+1 FAMS @F718@
+1 FAMC @F712@
+0 @I907@ INDI
+1 NAME gS 3Not given                
+1 SEX F
+1 FAMS @F719@
+1 FAMC @F712@
+0 @I908@ INDI
+1 NAME gS 3Not given                
+1 SEX F
+1 FAMS @F720@
+1 FAMC @F712@
+0 @I909@ INDI
+1 NAME gS 3Not given                
+1 SEX M
+1 FAMS @F721@
+1 FAMC @F685@
+0 @I910@ INDI
+1 NAME e  3Guluskari (m.FZSD)       
+1 SEX F
+1 FAMS @F722@
+1 FAMC @F694@
+0 @I911@ INDI
+1 NAME e  3Ays,a m.FZS (Koca Mustafa
+1 SEX F
+1 FAMS @F723@
+1 FAMC @F694@
+0 @I912@ INDI
+1 NAME e  3Durdu (Abbas's da) m. Dev
+1 SEX F
+1 FAMS @F343@
+1 FAMC @F694@
+0 @I913@ INDI
+1 NAME e  3Emine                    
+1 SEX F
+1 FAMS @F724@
+1 FAMC @F694@
+0 @I914@ INDI
+1 NAME e  3Ali                      
+1 SEX M
+1 FAMS @F725@
+1 FAMC @F694@
+0 @I915@ INDI
+1 NAME e   Elif (Koylu)             
+1 SEX F
+1 FAMS @F725@
+1 FAMC @F726@
+0 @I916@ INDI
+1 NAME fS 3Isman(?)                 
+1 SEX F
+1 FAMS @F728@
+1 FAMC @F725@
+0 @I917@ INDI
+1 NAME fS  Kurtcu Kara (Koylu) (Kurd
+1 SEX M
+1 FAMS @F728@
+0 @I918@ INDI
+1 NAME f  3Kara Mehmet              
+1 SEX M
+1 FAMS @F729@
+1 FAMC @F725@
+0 @I919@ INDI
+1 NAME f   Cennet (Tutar) SAME AS 12
+1 SEX F
+1 FAMS @F729@
+0 @I920@ INDI
+1 NAME g  3Ismail Pas,a             
+1 SEX M
+1 FAMS @F86@
+1 FAMC @F729@
+0 @I921@ INDI
+1 NAME g  3Hava                     
+1 SEX F
+1 FAMS @F380@
+1 FAMC @F729@
+0 @I922@ INDI
+1 NAME h  3Abdullah                 
+1 SEX M
+1 FAMS @F731@
+1 FAMC @F86@
+0 @I923@ INDI
+1 NAME g  3Gussun (Kara Mehmet's da)
+1 SEX F
+1 FAMS @F429@
+1 FAMC @F729@
+0 @I924@ INDI
+1 NAME gS 3Kerzivan                 
+1 SEX F
+1 FAMS @F734@
+1 FAMC @F729@
+0 @I925@ INDI
+1 NAME gS  Not known(?) (Koylu) (Esk
+1 SEX M
+1 FAMS @F734@
+0 @I926@ INDI
+1 NAME gS 3Yasar                    
+1 SEX M
+1 FAMS @F674@
+1 FAMC @F729@
+0 @I927@ INDI
+1 NAME h  3Ahmet                    
+1 SEX M
+1 FAMS @F736@
+1 FAMC @F674@
+0 @I928@ INDI
+1 NAME h  3Nehrivan                 
+1 SEX F
+1 FAMS @F737@
+1 FAMC @F674@
+0 @I929@ INDI
+1 NAME h  3Zafer                    
+1 SEX M
+1 FAMS @F738@
+1 FAMC @F674@
+0 @I932@ INDI
+1 NAME g  3Osman                    
+1 SEX M
+1 FAMS @F739@
+1 FAMC @F729@
+0 @I933@ INDI
+1 NAME g   Fatma (Bostaklar Koy b.Ko
+1 SEX F
+1 FAMS @F739@
+0 @I934@ INDI
+1 NAME h  3Sila                     
+1 SEX M
+1 FAMS @F740@
+1 FAMC @F739@
+0 @I935@ INDI
+1 NAME h  3Cennet                   
+1 SEX F
+1 FAMS @F741@
+1 FAMC @F739@
+0 @I936@ INDI
+1 NAME h  3Erol                     
+1 SEX M
+1 FAMS @F742@
+1 FAMC @F739@
+0 @I937@ INDI
+1 NAME g  3Mahmut                   
+1 SEX M
+1 FAMS @F743@
+1 FAMC @F729@
+0 @I938@ INDI
+1 NAME g   Not given (Koylu) (name o
+1 SEX F
+1 FAMS @F743@
+0 @I939@ INDI
+1 NAME h  3Erdal                    
+1 SEX M
+1 FAMS @F744@
+1 FAMC @F743@
+0 @I943@ INDI
+1 NAME g  3Ali                      
+1 SEX M
+1 FAMS @F745@
+1 FAMC @F729@
+0 @I944@ INDI
+1 NAME g  3Hilmi                    
+1 SEX M
+1 FAMS @F746@
+1 FAMC @F729@
+0 @I945@ INDI
+1 NAME g   Not given (Orta Koy b.Koz
+1 SEX F
+1 FAMS @F746@
+0 @I946@ INDI
+1 NAME gS 3Emine                    
+1 SEX F
+1 FAMS @F679@
+1 FAMC @F729@
+0 @I947@ INDI
+1 NAME f  3Suleyman                 
+1 SEX M
+1 FAMS @F747@
+1 FAMC @F725@
+0 @I948@ INDI
+1 NAME f   Sultani                  
+1 SEX F
+1 FAMS @F747@
+0 @I949@ INDI
+1 NAME gS 3Mustafa                  
+1 SEX M
+1 FAMS @F748@
+1 FAMC @F747@
+0 @I950@ INDI
+1 NAME g  3Sultani                  
+1 SEX F
+1 FAMS @F749@
+1 FAMC @F747@
+0 @I951@ INDI
+1 NAME g  3Neliha m.MZS             
+1 SEX F
+1 FAMS @F750@
+1 FAMC @F747@
+0 @I952@ INDI
+1 NAME g   Ibrahim m.MZD            
+1 SEX M
+1 FAMS @F750@
+0 @I953@ INDI
+1 NAME e  3Mustafa                  
+1 SEX M
+1 FAMS @F727@
+1 FAMC @F694@
+0 @I954@ INDI
+1 NAME f  3Sapuk Halil              
+1 SEX M
+1 FAMS @F751@
+1 FAMC @F727@
+0 @I955@ INDI
+1 NAME f  3Ays,a                    
+1 SEX F
+1 FAMS @F350@
+1 FAMC @F727@
+0 @I956@ INDI
+1 NAME g  3Abbas (Maybe NOT the husb
+1 SEX M
+1 FAMS @F76@
+1 FAMC @F751@
+0 @I957@ INDI
+1 NAME g   Not given (Koylu) Satir K
+1 SEX F
+1 FAMS @F752@
+0 @I965@ INDI
+1 NAME h  3Remzi  (is mo 83?)       
+1 SEX M
+1 FAMS @F753@
+1 FAMC @F76@
+0 @I966@ INDI
+1 NAME h   Not given                
+1 SEX F
+1 FAMS @F753@
+0 @I967@ INDI
+1 NAME  S  Not given (Satir Koy)    
+1 SEX M
+1 FAMS @F754@
+0 @I968@ INDI
+1 NAME  S  Not given (Satir Koy)    
+1 SEX M
+1 FAMS @F755@
+0 @I969@ INDI
+1 NAME hS 3Medina (is mo 83?)       
+1 SEX M
+1 FAMS @F756@
+1 FAMC @F76@
+0 @I970@ INDI
+1 NAME g  3Mustafa wife Kerzivan is 
+1 SEX M
+1 FAMS @F126@
+1 FAMC @F751@
+0 @I973@ INDI
+1 NAME h  3Unal                     
+1 SEX M
+1 FAMS @F758@
+1 FAMC @F757@
+0 @I974@ INDI
+1 NAME h  3Nazim                    
+1 SEX M
+1 FAMS @F759@
+1 FAMC @F757@
+0 @I975@ INDI
+1 NAME h  3Huseyin                  
+1 SEX M
+1 FAMS @F580@
+1 FAMC @F757@
+0 @I976@ INDI
+1 NAME i  3Mustafa                  
+1 SEX M
+1 FAMS @F760@
+1 FAMC @F580@
+0 @I977@ INDI
+1 NAME h  3Celal                    
+1 SEX M
+1 FAMS @F761@
+1 FAMC @F757@
+0 @I978@ INDI
+1 NAME h  3Sahim                    
+1 SEX F
+1 FAMS @F762@
+1 FAMC @F757@
+0 @I979@ INDI
+1 NAME h  3Done                     
+1 SEX F
+1 FAMS @F763@
+1 FAMC @F757@
+0 @I980@ INDI
+1 NAME h  3Not given                
+1 SEX M
+1 FAMS @F764@
+1 FAMC @F757@
+0 @I990@ INDI
+1 NAME g  3Selahattin (Waldarbeiter 
+1 SEX M
+1 FAMS @F765@
+1 FAMC @F751@
+0 @I991@ INDI
+1 NAME g   Not given (Koylu) Satir K
+1 SEX F
+1 FAMS @F765@
+0 @I992@ INDI
+1 NAME g   Not given (Koylu) Satir K
+1 SEX F
+1 FAMS @F766@
+0 @I1002@ INDI
+1 NAME g  3Not given                
+1 SEX M
+1 FAMS @F767@
+1 FAMC @F751@
+0 @I1003@ INDI
+1 NAME gS 3Ibrahim (Fabrik arbeiter)
+1 SEX M
+1 FAMS @F768@
+1 FAMC @F751@
+0 @I1004@ INDI
+1 NAME gS  Emine (Sari Kec,ili tribe
+1 SEX F
+1 FAMS @F768@
+0 @I1005@ INDI
+1 NAME h  3Yasar                    
+1 SEX M
+1 FAMS @F769@
+1 FAMC @F768@
+0 @I1006@ INDI
+1 NAME gS 3Orhan S in Eyup bei Kadir
+1 SEX M
+1 FAMS @F770@
+1 FAMC @F751@
+0 @I1007@ INDI
+1 NAME gS  Not given (Koylu) S in Ey
+1 SEX F
+1 FAMS @F770@
+0 @I1008@ INDI
+1 NAME g  3Aymet                    
+1 SEX M
+1 FAMS @F771@
+1 FAMC @F751@
+0 @I1009@ INDI
+1 NAME g  3Zeliha                   
+1 SEX F
+1 FAMS @F95@
+1 FAMC @F751@
+0 @I1010@ INDI
+1 NAME g  3Emine                    
+1 SEX F
+1 FAMS @F745@
+1 FAMC @F751@
+0 @I1011@ INDI
+1 NAME g  3Nazik                    
+1 SEX F
+1 FAMS @F772@
+1 FAMC @F751@
+0 @I1012@ INDI
+1 NAME d  3Gokkiz                   
+1 SEX F
+1 FAMS @F550@
+1 FAMC @F595@
+0 @I1013@ INDI
+1 NAME d  3Mehmet Ali               
+1 SEX M
+1 FAMS @F165@
+1 FAMC @F595@
+0 @I1014@ INDI
+1 NAME e  3Yalniz Mehmet            
+1 SEX M
+1 FAMS @F773@
+1 FAMC @F165@
+0 @I1015@ INDI
+1 NAME e   Durdu (Ciriklu)          
+1 SEX F
+1 FAMS @F773@
+0 @I1016@ INDI
+1 NAME f  3Mehmet Ali               
+1 SEX M
+1 FAMS @F774@
+1 FAMC @F773@
+0 @I1017@ INDI
+1 NAME f   Fatma (Koylu)            
+1 SEX F
+1 FAMS @F775@
+0 @I1018@ INDI
+1 NAME g  3Ays,e                    
+1 SEX F
+1 FAMS @F776@
+1 FAMC @F775@
+0 @I1019@ INDI
+1 NAME g  3S,erife                  
+1 SEX M
+1 FAMS @F777@
+1 FAMC @F775@
+0 @I1020@ INDI
+1 NAME g  3Mummin m.FZD S?          
+1 SEX M
+1 FAMS @F296@
+1 FAMC @F775@
+0 @I1021@ INDI
+1 NAME h  3Not given                
+1 SEX M
+1 FAMS @F778@
+1 FAMC @F296@
+0 @I1022@ INDI
+1 NAME gS 3Humus                    
+1 SEX F
+1 FAMS @F779@
+1 FAMC @F780@
+0 @I1023@ INDI
+1 NAME gS 3Hassah                   
+1 SEX M
+1 FAMS @F781@
+1 FAMC @F780@
+0 @I1026@ INDI
+1 NAME f   Fatma                    
+1 SEX F
+1 FAMS @F780@
+0 @I1027@ INDI
+1 NAME f  3Ali                      
+1 SEX M
+1 FAMS @F318@
+1 FAMC @F773@
+0 @I1030@ INDI
+1 NAME f  3Durdu                    
+1 SEX F
+1 FAMS @F562@
+1 FAMC @F773@
+0 @I1031@ INDI
+1 NAME f  3Kerzivan                 
+1 SEX F
+1 FAMS @F292@
+1 FAMC @F773@
+0 @I1032@ INDI
+1 NAME f  3Selvi                    
+1 SEX F
+1 FAMS @F312@
+1 FAMC @F773@
+0 @I1033@ INDI
+1 NAME f  3Cumali                   
+1 SEX M
+1 FAMS @F328@
+1 FAMC @F773@
+0 @I1034@ INDI
+1 NAME e  3Karakoz                  
+1 SEX F
+1 FAMS @F782@
+1 FAMC @F165@
+0 @I1035@ INDI
+1 NAME e   Gokkullu (Ciriklu)       
+1 SEX M
+1 FAMS @F782@
+0 @I1036@ INDI
+1 NAME e  3Yalniz Mustafa (Ecevitii)
+1 SEX M
+1 FAMS @F164@
+1 FAMC @F165@
+0 @I1037@ INDI
+1 NAME e   Ummi (Tekeli)            
+1 SEX F
+1 FAMS @F784@
+0 @I1038@ INDI
+1 NAME f  3Halil                    
+1 SEX M
+1 FAMS @F785@
+1 FAMC @F164@
+0 @I1039@ INDI
+1 NAME f  3Suleyman                 
+1 SEX M
+1 FAMS @F131@
+1 FAMC @F164@
+0 @I1044@ INDI
+1 NAME f  3Not given                
+1 SEX M
+1 FAMS @F786@
+1 FAMC @F164@
+0 @I1045@ INDI
+1 NAME f  3Cumali                   
+1 SEX M
+1 FAMS @F787@
+1 FAMC @F164@
+0 @I1046@ INDI
+1 NAME f   Cennet (Tekeli)          
+1 SEX F
+1 FAMS @F787@
+0 @I1051@ INDI
+1 NAME f  3Mummin                   
+1 SEX M
+1 FAMS @F788@
+1 FAMC @F164@
+0 @I1052@ INDI
+1 NAME f   Not given (Koylu)        
+1 SEX F
+1 FAMS @F788@
+0 @I1053@ INDI
+1 NAME f  3Halil m.MZD              
+1 SEX M
+1 FAMS @F178@
+1 FAMC @F164@
+0 @I1054@ INDI
+1 NAME f  3Huseyin                  
+1 SEX M
+1 FAMS @F789@
+1 FAMC @F164@
+0 @I1055@ INDI
+1 NAME f  3Humus                    
+1 SEX F
+1 FAMS @F136@
+1 FAMC @F164@
+0 @I1056@ INDI
+1 NAME f  3Arzu                     
+1 SEX F
+1 FAMS @F791@
+1 FAMC @F164@
+0 @I1057@ INDI
+1 NAME f   Not given (Imamoglu Koylu
+1 SEX M
+1 FAMS @F791@
+0 @I1058@ INDI
+1 NAME fS 3Huseyin                  
+1 SEX M
+1 FAMS @F792@
+1 FAMC @F164@
+0 @I1059@ INDI
+1 NAME fS  Not given (Koylu)        
+1 SEX F
+1 FAMS @F792@
+0 @I1060@ INDI
+1 NAME d  3Gussun                   
+1 SEX F
+1 FAMS @F793@
+1 FAMC @F595@
+0 @I1061@ INDI
+1 NAME d  3Koc,ali (Koc,ili?)       
+1 SEX M
+1 FAMS @F17@
+1 FAMC @F595@
+0 @I1062@ INDI
+1 NAME e  3Haci Mehmet Ali          
+1 SEX M
+1 FAMS @F559@
+1 FAMC @F17@
+0 @I1067@ INDI
+1 NAME e  3Koc, Haci                
+1 SEX M
+1 FAMS @F794@
+1 FAMC @F17@
+0 @I1068@ INDI
+1 NAME e   Urkuye (Koylu)           
+1 SEX F
+1 FAMS @F795@
+0 @I1069@ INDI
+1 NAME fS 3Huseyin                  
+1 SEX M
+1 FAMS @F796@
+1 FAMC @F795@
+0 @I1070@ INDI
+1 NAME gS 3Emine                    
+1 SEX F
+1 FAMS @F797@
+1 FAMC @F796@
+0 @I1071@ INDI
+1 NAME d  4Gussun m.FZD (Ecevitli)  
+1 SEX F
+1 FAMS @F694@
+1 FAMC @F798@
+0 @I1072@ INDI
+1 NAME gS 3Cumali                   
+1 SEX M
+1 FAMS @F799@
+1 FAMC @F796@
+0 @I1073@ INDI
+1 NAME gS 3Mahmut                   
+1 SEX M
+1 FAMS @F800@
+1 FAMC @F796@
+0 @I1074@ INDI
+1 NAME gS 3Suleyman                 
+1 SEX M
+1 FAMS @F801@
+1 FAMC @F796@
+0 @I1075@ INDI
+1 NAME gS 3Not given                
+1 SEX F
+1 FAMS @F802@
+1 FAMC @F796@
+0 @I1076@ INDI
+1 NAME f  3Suleyman m. erschlagan   
+1 SEX M
+1 FAMS @F803@
+1 FAMC @F795@
+0 @I1077@ INDI
+1 NAME f  3Haci Mehmet              
+1 SEX M
+1 FAMS @F804@
+1 FAMC @F795@
+0 @I1078@ INDI
+1 NAME fS 3Not given                
+1 SEX F
+1 FAMS @F805@
+1 FAMC @F795@
+0 @I1079@ INDI
+1 NAME f  3Iraziye                  
+1 SEX F
+1 FAMS @F806@
+1 FAMC @F795@
+0 @I1080@ INDI
+1 NAME f  3Mustafa                  
+1 SEX M
+1 FAMS @F807@
+1 FAMC @F795@
+0 @I1081@ INDI
+1 NAME fS 3Not given                
+1 SEX M
+1 FAMS @F808@
+1 FAMC @F795@
+0 @I1082@ INDI
+1 NAME f  3Fazil                    
+1 SEX F
+1 FAMS @F809@
+1 FAMC @F795@
+0 @I1083@ INDI
+1 NAME fS 3Yasu                     
+1 SEX M
+1 FAMS @F810@
+1 FAMC @F795@
+0 @I1084@ INDI
+1 NAME fS 3Muhammed (Tepe Koylu-Kara
+1 SEX M
+1 FAMS @F811@
+1 FAMC @F795@
+0 @I1085@ INDI
+1 NAME f   Turkan (Sari Kec,ili trib
+1 SEX F
+1 FAMS @F305@
+0 @I1086@ INDI
+1 NAME f  3Meryem                   
+1 SEX F
+1 FAMS @F812@
+1 FAMC @F794@
+0 @I1087@ INDI
+1 NAME f   Not given                
+1 SEX M
+1 FAMS @F812@
+0 @I1088@ INDI
+1 NAME f  3Mehmet Ali               
+1 SEX M
+1 FAMS @F813@
+1 FAMC @F794@
+0 @I1089@ INDI
+1 NAME f   Mendufe (Koylu)          
+1 SEX F
+1 FAMS @F813@
+0 @I1090@ INDI
+1 NAME g  3Hatice                   
+1 SEX F
+1 FAMS @F814@
+1 FAMC @F813@
+0 @I1091@ INDI
+1 NAME g  3Zeliha                   
+1 SEX F
+1 FAMS @F815@
+1 FAMC @F813@
+0 @I1092@ INDI
+1 NAME g  3Tufet                    
+1 SEX F
+1 FAMS @F816@
+1 FAMC @F813@
+0 @I1093@ INDI
+1 NAME g  3Halil                    
+1 SEX M
+1 FAMS @F817@
+1 FAMC @F813@
+0 @I1094@ INDI
+1 NAME g  3Han                      
+1 SEX M
+1 FAMS @F818@
+1 FAMC @F813@
+0 @I1095@ INDI
+1 NAME g  3Yeter                    
+1 SEX F
+1 FAMS @F819@
+1 FAMC @F813@
+0 @I1096@ INDI
+1 NAME g  3Meryem                   
+1 SEX F
+1 FAMS @F820@
+1 FAMC @F813@
+0 @I1097@ INDI
+1 NAME g  3Not Given                
+1 SEX F
+1 FAMS @F821@
+1 FAMC @F813@
+0 @I1098@ INDI
+1 NAME f  3Koc,ali                  
+1 SEX M
+1 FAMS @F822@
+1 FAMC @F794@
+0 @I1099@ INDI
+1 NAME f   S,erife                  
+1 SEX F
+1 FAMS @F822@
+0 @I1100@ INDI
+1 NAME g  3Gemen                    
+1 SEX F
+1 FAMS @F823@
+1 FAMC @F822@
+0 @I1101@ INDI
+1 NAME g  3Elif                     
+1 SEX F
+1 FAMS @F824@
+1 FAMC @F822@
+0 @I1102@ INDI
+1 NAME g  3Durdu                    
+1 SEX F
+1 FAMS @F825@
+1 FAMC @F822@
+0 @I1103@ INDI
+1 NAME g  3Mustafa                  
+1 SEX M
+1 FAMS @F826@
+1 FAMC @F822@
+0 @I1104@ INDI
+1 NAME g  3Servet                   
+1 SEX M
+1 FAMS @F827@
+1 FAMC @F822@
+0 @I1105@ INDI
+1 NAME f  3Hatice                   
+1 SEX F
+1 FAMS @F828@
+1 FAMC @F794@
+0 @I1106@ INDI
+1 NAME f   Ismail (Koylu Misis)     
+1 SEX M
+1 FAMS @F828@
+0 @I1107@ INDI
+1 NAME f   Mustafa (Honamli tribe)  
+1 SEX M
+1 FAMS @F829@
+0 @I1108@ INDI
+1 NAME f  3Ays,e                    
+1 SEX F
+1 FAMS @F830@
+1 FAMC @F794@
+0 @I1109@ INDI
+1 NAME f   Not given (Koylu)        
+1 SEX M
+1 FAMS @F830@
+0 @I1110@ INDI
+1 NAME f  3(?)Ismail                
+1 SEX M
+1 FAMS @F831@
+1 FAMC @F794@
+0 @I1116@ INDI
+1 NAME e  3Durdu                    
+1 SEX F
+1 FAMS @F250@
+1 FAMC @F17@
+0 @I1117@ INDI
+1 NAME e  3Ebeli Kerzivan           
+1 SEX F
+1 FAMS @F120@
+1 FAMC @F17@
+0 @I1118@ INDI
+1 NAME e  3Nesibe                   
+1 SEX F
+1 FAMS @F88@
+1 FAMC @F17@
+0 @I1119@ INDI
+1 NAME e  3Meryem                   
+1 SEX F
+1 FAMS @F832@
+1 FAMC @F17@
+0 @I1120@ INDI
+1 NAME e   Ali (Koylu)              
+1 SEX M
+1 FAMS @F832@
+0 @I1121@ INDI
+1 NAME e  3Ismail (Koc,ali's-1061? S
+1 SEX M
+1 FAMS @F16@
+1 FAMC @F17@
+0 @I1127@ INDI
+1 NAME d  3Huseyin (Kara Hacili) Don
+1 SEX M
+1 FAMS @F833@
+1 FAMC @F595@
+0 @I1128@ INDI
+1 NAME e  3Haci Bey                 
+1 SEX M
+1 FAMS @F561@
+1 FAMC @F833@
+0 @I1129@ INDI
+1 NAME f  3Husein                   
+1 SEX M
+1 FAMS @F834@
+1 FAMC @F561@
+0 @I1130@ INDI
+1 NAME f   Not Given                
+1 SEX F
+1 FAMS @F834@
+0 @I1131@ INDI
+1 NAME f  3Not known                
+1 SEX M
+1 FAMS @F835@
+1 FAMC @F561@
+0 @I1132@ INDI
+1 NAME f  3Ays,e                    
+1 SEX F
+1 FAMS @F836@
+1 FAMC @F561@
+0 @I1134@ INDI
+1 NAME e  3Hatice                   
+1 SEX F
+1 FAMS @F794@
+1 FAMC @F833@
+0 @I1135@ INDI
+1 NAME e  3Yusuf                    
+1 SEX M
+1 FAMS @F837@
+1 FAMC @F833@
+0 @I1136@ INDI
+1 NAME e   Huriye (Koylu)           
+1 SEX F
+1 FAMS @F837@
+0 @I1137@ INDI
+1 NAME f  3                         
+1 SEX M
+1 FAMS @F838@
+1 FAMC @F837@
+0 @I1138@ INDI
+1 NAME f                            
+1 SEX F
+1 FAMS @F838@
+0 @I1139@ INDI
+1 NAME f  3Nuriye or Huriye         
+1 SEX F
+1 FAMS @F260@
+1 FAMC @F837@
+0 @I1146@ INDI
+1 NAME e  3Emine                    
+1 SEX F
+1 FAMS @F841@
+1 FAMC @F833@
+0 @I1147@ INDI
+1 NAME d  3Durdu                    
+1 SEX F
+1 FAMS @F87@
+1 FAMC @F595@
+0 @I1148@ INDI
+1 NAME d  3S,erife                  
+1 SEX F
+1 FAMS @F251@
+1 FAMC @F595@
+0 @I1149@ INDI
+1 NAME b  4Not given                
+1 SEX M
+1 FAMS @F842@
+0 @I1150@ INDI
+1 NAME b   Not given                
+1 SEX F
+1 FAMS @F842@
+0 @I1151@ INDI
+1 NAME c  4Ummuhan   (Ecevitli) (Kur
+1 SEX F
+1 FAMS @F595@
+1 FAMC @F842@
+0 @I1152@ INDI
+1 NAME c  4Not given (Ecevitli) (Kur
+1 SEX M
+1 FAMS @F798@
+1 FAMC @F842@
+0 @I1153@ INDI
+1 NAME c   Not given                
+1 SEX F
+1 FAMS @F798@
+0 @I1154@ INDI
+1 NAME d  4Kole Ali                 
+1 SEX M
+1 FAMS @F843@
+1 FAMC @F798@
+0 @I1155@ INDI
+1 NAME d   Not given                
+1 SEX F
+1 FAMS @F843@
+0 @I1156@ INDI
+1 NAME e  4Mahmut Kole Suleiman Hoca
+1 SEX M
+1 FAMS @F722@
+1 FAMC @F843@
+0 @I1157@ INDI
+1 NAME fS 4Huseyin der Bucklige     
+1 SEX M
+1 FAMS @F168@
+1 FAMC @F722@
+0 @I1161@ INDI
+1 NAME e   same as 366 M Halil      
+1 SEX M
+1 FAMS @F844@
+0 @I1162@ INDI
+1 NAME e   same as 367 F Ays,a (Hona
+1 SEX F
+1 FAMS @F845@
+0 @I1163@ INDI
+1 NAME fS 4Haziret Ali              
+1 SEX M
+1 FAMS @F311@
+1 FAMC @F722@
+0 @I1164@ INDI
+1 NAME g  4Abbas                    
+1 SEX M
+1 FAMS @F846@
+1 FAMC @F311@
+0 @I1165@ INDI
+1 NAME g  4Ummu m.MBS               
+1 SEX F
+1 FAMS @F847@
+1 FAMC @F311@
+0 @I1166@ INDI
+1 NAME g  4Mahmut                   
+1 SEX M
+1 FAMS @F849@
+1 FAMC @F311@
+0 @I1167@ INDI
+1 NAME g   Not given (Koylu Kozan)  
+1 SEX F
+1 FAMS @F849@
+0 @I1168@ INDI
+1 NAME g  4Serap                    
+1 SEX F
+1 FAMS @F66@
+1 FAMC @F311@
+0 @I1169@ INDI
+1 NAME d  4Halil (Ecevitli)         
+1 SEX M
+1 FAMS @F793@
+1 FAMC @F798@
+0 @I1170@ INDI
+1 NAME e  4Hatice (Kara Hacili)     
+1 SEX F
+1 FAMS @F289@
+1 FAMC @F793@
+0 @I1171@ INDI
+1 NAME e  4Kole Mahmut (Zitroni nadi
+1 SEX M
+1 FAMS @F692@
+1 FAMC @F793@
+0 @I1172@ INDI
+1 NAME f  4Musa (grandda: Emine) Mus
+1 SEX M
+1 FAMS @F850@
+1 FAMC @F724@
+0 @I1173@ INDI
+1 NAME g  4Bekir                    
+1 SEX M
+1 FAMS @F582@
+1 FAMC @F850@
+0 @I1174@ INDI
+1 NAME f   Isman (Donsuz Kabile) (Ku
+1 SEX F
+1 FAMS @F851@
+0 @I1175@ INDI
+1 NAME h  4Huseyin                  
+1 SEX M
+1 FAMS @F852@
+1 FAMC @F582@
+0 @I1176@ INDI
+1 NAME h  4Nejdet                   
+1 SEX F
+1 FAMS @F853@
+1 FAMC @F582@
+0 @I1177@ INDI
+1 NAME g  4Halil                    
+1 SEX M
+1 FAMS @F854@
+1 FAMC @F850@
+0 @I1178@ INDI
+1 NAME h  4Efe                      
+1 SEX M
+1 FAMS @F855@
+1 FAMC @F854@
+0 @I1179@ INDI
+1 NAME h  4Emine                    
+1 SEX F
+1 FAMS @F856@
+1 FAMC @F854@
+0 @I1180@ INDI
+1 NAME g  4Gussum                   
+1 SEX F
+1 FAMS @F757@
+1 FAMC @F850@
+0 @I1181@ INDI
+1 NAME gS 4Havana                   
+1 SEX F
+1 FAMS @F857@
+1 FAMC @F850@
+0 @I1182@ INDI
+1 NAME gS  Embiye (Eyuplu Koyu)     
+1 SEX M
+1 FAMS @F857@
+0 @I1183@ INDI
+1 NAME f  4Feride                   
+1 SEX F
+1 FAMS @F858@
+1 FAMC @F724@
+0 @I1184@ INDI
+1 NAME f   Hasan (Horzum) (went far 
+1 SEX M
+1 FAMS @F858@
+0 @I1185@ INDI
+1 NAME f  4Huseyin der unehrliche vo
+1 SEX M
+1 FAMS @F859@
+1 FAMC @F724@
+0 @I1186@ INDI
+1 NAME f  4Halil                    
+1 SEX M
+1 FAMS @F860@
+1 FAMC @F724@
+0 @I1187@ INDI
+1 NAME f   Hikmet (Saimbeyli)       
+1 SEX F
+1 FAMS @F860@
+0 @I1188@ INDI
+1 NAME f  4Bec,et                   
+1 SEX M
+1 FAMS @F861@
+1 FAMC @F692@
+0 @I1189@ INDI
+1 NAME f   Medine (Gedikli Koy)     
+1 SEX F
+1 FAMS @F861@
+0 @I1190@ INDI
+1 NAME g  4Gapip                    
+1 SEX M
+1 FAMS @F862@
+1 FAMC @F861@
+0 @I1191@ INDI
+1 NAME g   Not given (Hayta Gelebekl
+1 SEX F
+1 FAMS @F862@
+0 @I1195@ INDI
+1 NAME g  4Belkis                   
+1 SEX F
+1 FAMS @F200@
+1 FAMC @F861@
+0 @I1196@ INDI
+1 NAME g  4Zeliha                   
+1 SEX F
+1 FAMS @F854@
+1 FAMC @F861@
+0 @I1197@ INDI
+1 NAME g  4Sunay                    
+1 SEX F
+1 FAMS @F863@
+1 FAMC @F861@
+0 @I1198@ INDI
+1 NAME g   Not given (aus Kozan)    
+1 SEX M
+1 FAMS @F863@
+0 @I1199@ INDI
+1 NAME g  4Mahmut                   
+1 SEX M
+1 FAMS @F864@
+1 FAMC @F861@
+0 @I1200@ INDI
+1 NAME g  4Ali                      
+1 SEX M
+1 FAMS @F865@
+1 FAMC @F861@
+0 @I1201@ INDI
+1 NAME g  4S,erife                  
+1 SEX F
+1 FAMS @F866@
+1 FAMC @F861@
+0 @I1202@ INDI
+1 NAME g  4Not given                
+1 SEX M
+1 FAMS @F867@
+1 FAMC @F861@
+0 @I1203@ INDI
+1 NAME f  4Cennet (Mo:Emine)        
+1 SEX F
+1 FAMS @F631@
+1 FAMC @F724@
+0 @I1204@ INDI
+1 NAME f  4Kemal (Mahmut+Ermine's so
+1 SEX M
+1 FAMS @F673@
+1 FAMC @F724@
+0 @I1205@ INDI
+1 NAME g  4Huseyin                  
+1 SEX M
+1 FAMS @F868@
+1 FAMC @F673@
+0 @I1206@ INDI
+1 NAME g  4(Drillinge)              
+1 SEX F
+1 FAMS @F869@
+1 FAMC @F673@
+0 @I1207@ INDI
+1 NAME g  4(Drillinge)              
+1 SEX F
+1 FAMS @F870@
+1 FAMC @F673@
+0 @I1208@ INDI
+1 NAME g  4(Drillinge)              
+1 SEX M
+1 FAMS @F871@
+1 FAMC @F673@
+0 @I1214@ INDI
+1 NAME f  4Haci                     
+1 SEX M
+1 FAMS @F872@
+1 FAMC @F692@
+0 @I1215@ INDI
+1 NAME f   Cennet (Tarpan Koyu)     
+1 SEX F
+1 FAMS @F872@
+0 @I1219@ INDI
+1 NAME f  4Ali                      
+1 SEX M
+1 FAMS @F873@
+1 FAMC @F692@
+0 @I1220@ INDI
+1 NAME f   Not given (Tepe Koyu)    
+1 SEX F
+1 FAMS @F873@
+0 @I1223@ INDI
+1 NAME f  4Malik                    
+1 SEX M
+1 FAMS @F874@
+1 FAMC @F692@
+0 @I1224@ INDI
+1 NAME f   Not given (Koylu)        
+1 SEX F
+1 FAMS @F874@
+0 @I1228@ INDI
+1 NAME c   Mustafa                  
+1 SEX M
+1 FAMS @F875@
+0 @I1229@ INDI
+1 NAME c   Not given                
+1 SEX F
+1 FAMS @F875@
+0 @I1230@ INDI
+1 NAME d  7Deli Abdurrahman (v. Kurs
+1 SEX M
+1 FAMS @F693@
+1 FAMC @F875@
+0 @I1231@ INDI
+1 NAME e  7Kara Ahraz Ali or Kara Al
+1 SEX M
+1 FAMS @F876@
+1 FAMC @F693@
+0 @I1232@ INDI
+1 NAME e   Fatma (Koylu)            
+1 SEX F
+1 FAMS @F876@
+0 @I1233@ INDI
+1 NAME e   Not known                
+1 SEX F
+1 FAMS @F877@
+0 @I1234@ INDI
+1 NAME f  7Ismail                   
+1 SEX M
+1 FAMS @F282@
+1 FAMC @F876@
+0 @I1235@ INDI
+1 NAME gS 7Mustafa                  
+1 SEX M
+1 FAMS @F878@
+1 FAMC @F282@
+0 @I1236@ INDI
+1 NAME gS 7Ali Karabulu             
+1 SEX M
+1 FAMS @F879@
+1 FAMC @F282@
+0 @I1237@ INDI
+1 NAME g   Ays,e (Tekeli) (Kara Koyu
+1 SEX F
+1 FAMS @F879@
+0 @I1238@ INDI
+1 NAME hS 7Ismail (Otlu koy village)
+1 SEX M
+1 FAMS @F880@
+1 FAMC @F879@
+0 @I1239@ INDI
+1 NAME hS 7Halime (Otlu koy village)
+1 SEX F
+1 FAMS @F881@
+1 FAMC @F879@
+0 @I1240@ INDI
+1 NAME hS 7Meryem (Otlu koy village)
+1 SEX F
+1 FAMS @F882@
+1 FAMC @F879@
+0 @I1241@ INDI
+1 NAME hS 7Fatma (Otlu koy village) 
+1 SEX F
+1 FAMS @F883@
+1 FAMC @F879@
+0 @I1242@ INDI
+1 NAME g  7Yusuf                    
+1 SEX M
+1 FAMS @F884@
+1 FAMC @F282@
+0 @I1243@ INDI
+1 NAME g   Ays,e (Koylu)            
+1 SEX F
+1 FAMS @F884@
+0 @I1247@ INDI
+1 NAME gS 7Durdu (Koylu)            
+1 SEX F
+1 FAMS @F796@
+1 FAMC @F282@
+0 @I1248@ INDI
+1 NAME     Huseyin SAME AS 1069 I BE
+1 SEX M
+1 FAMS @F885@
+0 @I1249@ INDI
+1 NAME f  7Ays,e                    
+1 SEX F
+1 FAMS @F523@
+1 FAMC @F876@
+0 @I1250@ INDI
+1 NAME g  7Abdul Kadir              
+1 SEX M
+1 FAMS @F886@
+1 FAMC @F283@
+0 @I1251@ INDI
+1 NAME g   Ays,a (Manavli)          
+1 SEX F
+1 FAMS @F886@
+0 @I1256@ INDI
+1 NAME g  7Ali (Kurmancali village b
+1 SEX M
+1 FAMS @F122@
+1 FAMC @F283@
+0 @I1257@ INDI
+1 NAME g   Isman (Kara Koyunlu tribe
+1 SEX F
+1 FAMS @F887@
+0 @I1258@ INDI
+1 NAME h  7                         
+1 SEX F
+1 FAMS @F888@
+1 FAMC @F626@
+0 @I1261@ INDI
+1 NAME h  7                         
+1 SEX M
+1 FAMS @F889@
+1 FAMC @F626@
+0 @I1262@ INDI
+1 NAME f  7Arif Hoca                
+1 SEX M
+1 FAMS @F851@
+1 FAMC @F876@
+0 @I1263@ INDI
+1 NAME f   Ays,e                    
+1 SEX F
+1 FAMS @F890@
+0 @I1264@ INDI
+1 NAME g  7Duran                    
+1 SEX M
+1 FAMS @F625@
+1 FAMC @F890@
+0 @I1270@ INDI
+1 NAME g  7Durdu                    
+1 SEX F
+1 FAMS @F891@
+1 FAMC @F890@
+0 @I1271@ INDI
+1 NAME g   Not given (Andrev Stamm) 
+1 SEX M
+1 FAMS @F891@
+0 @I1272@ INDI
+1 NAME f  7Fatma                    
+1 SEX F
+1 FAMS @F892@
+1 FAMC @F876@
+0 @I1273@ INDI
+1 NAME e  7Koca Ibrahim m.MBD (or 12
+1 SEX M
+1 FAMS @F723@
+1 FAMC @F693@
+0 @I1274@ INDI
+1 NAME f  7Huseyin                  
+1 SEX M
+1 FAMS @F893@
+1 FAMC @F723@
+0 @I1275@ INDI
+1 NAME fS  Sultan (Koylu)           
+1 SEX F
+1 FAMS @F893@
+0 @I1276@ INDI
+1 NAME gS 7Adem                     
+1 SEX M
+1 FAMS @F894@
+1 FAMC @F893@
+0 @I1277@ INDI
+1 NAME gS 7Macnun                   
+1 SEX M
+1 FAMS @F895@
+1 FAMC @F893@
+0 @I1278@ INDI
+1 NAME gS 7Ays,a                    
+1 SEX F
+1 FAMS @F896@
+1 FAMC @F893@
+0 @I1279@ INDI
+1 NAME gS 7Leyla                    
+1 SEX F
+1 FAMS @F897@
+1 FAMC @F893@
+0 @I1280@ INDI
+1 NAME gS 7Teslime                  
+1 SEX F
+1 FAMS @F898@
+1 FAMC @F893@
+0 @I1281@ INDI
+1 NAME gS 7Mestinaz                 
+1 SEX F
+1 FAMS @F899@
+1 FAMC @F893@
+0 @I1282@ INDI
+1 NAME f  7Mahmut                   
+1 SEX M
+1 FAMS @F11@
+1 FAMC @F723@
+0 @I1283@ INDI
+1 NAME     SAME AS 11               
+1 SEX F
+1 FAMS @F900@
+0 @I1284@ INDI
+1 NAME g  7Ibrahim (erzogen bei Hava
+1 SEX M
+1 FAMS @F901@
+1 FAMC @F11@
+0 @I1285@ INDI
+1 NAME g  7Melek                    
+1 SEX F
+1 FAMS @F68@
+1 FAMC @F11@
+0 @I1286@ INDI
+1 NAME f  7Hava                     
+1 SEX F
+1 FAMS @F290@
+1 FAMC @F723@
+0 @I1287@ INDI
+1 NAME f  7Guluser                  
+1 SEX F
+1 FAMS @F902@
+1 FAMC @F723@
+0 @I1288@ INDI
+1 NAME f   Mustafa (Koylu)          
+1 SEX M
+1 FAMS @F902@
+1 FAMC @F903@
+0 @I1289@ INDI
+1 NAME f  7Durdu                    
+1 SEX F
+1 FAMS @F351@
+1 FAMC @F723@
+0 @I1290@ INDI
+1 NAME e  7Kula Mehmet              
+1 SEX M
+1 FAMS @F904@
+1 FAMC @F693@
+0 @I1291@ INDI
+1 NAME e   Isman (Koylu)            
+1 SEX F
+1 FAMS @F904@
+0 @I1292@ INDI
+1 NAME fS 7Fatma                    
+1 SEX F
+1 FAMS @F905@
+1 FAMC @F904@
+0 @I1293@ INDI
+1 NAME fS 7Durdu                    
+1 SEX F
+1 FAMS @F906@
+1 FAMC @F904@
+0 @I1294@ INDI
+1 NAME fS 7Ahmet                    
+1 SEX M
+1 FAMS @F907@
+1 FAMC @F904@
+0 @I1295@ INDI
+1 NAME f   Not given (Koylu)        
+1 SEX F
+1 FAMS @F907@
+0 @I1300@ INDI
+1 NAME fS 7Veli                     
+1 SEX M
+1 FAMS @F908@
+1 FAMC @F904@
+0 @I1301@ INDI
+1 NAME f  7Guluser                  
+1 SEX F
+1 FAMS @F909@
+1 FAMC @F904@
+0 @I1302@ INDI
+1 NAME f   Not given (Gumus,lu Koyu)
+1 SEX M
+1 FAMS @F909@
+0 @I1303@ INDI
+1 NAME f  7Havana                   
+1 SEX F
+1 FAMS @F910@
+1 FAMC @F904@
+0 @I1304@ INDI
+1 NAME e  7Ahraz Mustafa (wife was c
+1 SEX M
+1 FAMS @F545@
+1 FAMC @F693@
+0 @I1305@ INDI
+1 NAME f  7Ahraz Mahmet m.MBD       
+1 SEX M
+1 FAMS @F543@
+1 FAMC @F545@
+0 @I1306@ INDI
+1 NAME g  7Mustafa                  
+1 SEX M
+1 FAMS @F672@
+1 FAMC @F543@
+0 @I1307@ INDI
+1 NAME h  7Yusuf                    
+1 SEX M
+1 FAMS @F911@
+1 FAMC @F672@
+0 @I1308@ INDI
+1 NAME h  7Yeter                    
+1 SEX F
+1 FAMS @F912@
+1 FAMC @F672@
+0 @I1309@ INDI
+1 NAME h  7Servet                   
+1 SEX F
+1 FAMS @F913@
+1 FAMC @F672@
+0 @I1310@ INDI
+1 NAME h  7Ali                      
+1 SEX M
+1 FAMS @F914@
+1 FAMC @F672@
+0 @I1312@ INDI
+1 NAME g  7Ays,a                    
+1 SEX F
+1 FAMS @F677@
+1 FAMC @F543@
+0 @I1313@ INDI
+1 NAME g  7Yeter                    
+1 SEX F
+1 FAMS @F915@
+1 FAMC @F543@
+0 @I1314@ INDI
+1 NAME g  7Duran                    
+1 SEX M
+1 FAMS @F916@
+1 FAMC @F543@
+0 @I1315@ INDI
+1 NAME g  7Havana                   
+1 SEX F
+1 FAMS @F917@
+1 FAMC @F543@
+0 @I1316@ INDI
+1 NAME g  7Gullu                    
+1 SEX F
+1 FAMS @F918@
+1 FAMC @F543@
+0 @I1317@ INDI
+1 NAME g  7Fatma                    
+1 SEX F
+1 FAMS @F919@
+1 FAMC @F543@
+0 @I1318@ INDI
+1 NAME g  7Abbas                    
+1 SEX M
+1 FAMS @F920@
+1 FAMC @F543@
+0 @I1319@ INDI
+1 NAME fS 7Ali                      
+1 SEX M
+1 FAMS @F542@
+1 FAMC @F545@
+0 @I1320@ INDI
+1 NAME     SAME AS 653              
+1 SEX F
+1 FAMS @F921@
+0 @I1321@ INDI
+1 NAME gS 7Mustafa                  
+1 SEX M
+1 FAMS @F922@
+1 FAMC @F542@
+0 @I1322@ INDI
+1 NAME gS 7Ays,e                    
+1 SEX F
+1 FAMS @F923@
+1 FAMC @F542@
+0 @I1323@ INDI
+1 NAME gS 7Sadika                   
+1 SEX F
+1 FAMS @F924@
+1 FAMC @F542@
+0 @I1324@ INDI
+1 NAME gS  Ali (Koylu) Mutter-relati
+1 SEX M
+1 FAMS @F924@
+0 @I1325@ INDI
+1 NAME g  7Samiye                   
+1 SEX F
+1 FAMS @F925@
+1 FAMC @F542@
+0 @I1326@ INDI
+1 NAME g  7Safiye                   
+1 SEX F
+1 FAMS @F926@
+1 FAMC @F542@
+0 @I1327@ INDI
+1 NAME g  7Fatma                    
+1 SEX F
+1 FAMS @F927@
+1 FAMC @F542@
+0 @I1328@ INDI
+1 NAME g  7Emine                    
+1 SEX F
+1 FAMS @F928@
+1 FAMC @F542@
+0 @I1329@ INDI
+1 NAME g  7Cafer                    
+1 SEX M
+1 FAMS @F929@
+1 FAMC @F542@
+0 @I1330@ INDI
+1 NAME f  7Meryem (H=Ali Hinali's So
+1 SEX F
+1 FAMS @F525@
+1 FAMC @F545@
+0 @I1331@ INDI
+1 NAME f  7Duran                    
+1 SEX M
+1 FAMS @F930@
+1 FAMC @F545@
+0 @I1332@ INDI
+1 NAME e                            
+1 SEX F
+1 FAMS @F15@
+0 @I1333@ INDI
+1 NAME e   Durdu (Alsarinan's da fro
+1 SEX F
+1 FAMS @F46@
+0 @I1334@ INDI
+1 NAME e   Elif (Afs,ar tribe)      
+1 SEX F
+1 FAMS @F62@
+0 @I1335@ INDI
+1 NAME e   Gullu (Horzum)           
+1 SEX F
+1 FAMS @F93@
+0 @I1336@ INDI
+1 NAME d   Ays,e (Sari Kec,ili tribe
+1 SEX F
+1 FAMS @F252@
+1 FAMC @F931@
+0 @I1337@ INDI
+1 NAME d  2Koeghi? (the wrong wife!)
+1 SEX M
+1 FAMS @F295@
+1 FAMC @F422@
+0 @I1338@ INDI
+1 NAME d   Sidika (entlan fam.)     
+1 SEX F
+1 FAMS @F932@
+0 @I1339@ INDI
+1 NAME d   Ays,e (Kara Hacili)      
+1 SEX F
+1 FAMS @F833@
+0 @I1340@ INDI
+1 NAME g  1Suat?                    
+1 SEX M
+1 FAMS @F937@
+1 FAMC @F305@
+0 @I1341@ INDI
+1 NAME g  1Huseyin                  
+1 SEX M
+1 FAMS @F938@
+1 FAMC @F305@
+0 @I1342@ INDI
+1 NAME g  1Nuray                    
+1 SEX F
+1 FAMS @F939@
+1 FAMC @F305@
+0 @I1344@ INDI
+1 NAME g  1Shay                     
+1 SEX M
+1 FAMS @F940@
+1 FAMC @F305@
+0 @I1345@ INDI
+1 NAME e  2Kara Kiz-Iraz            
+1 SEX F
+1 FAMS @F553@
+1 FAMC @F424@
+0 @I1346@ INDI
+1 NAME e  2Ummu                     
+1 SEX F
+1 FAMS @F169@
+1 FAMC @F424@
+0 @I1347@ INDI
+1 NAME e   Not Given                
+1 SEX F
+1 FAMS @F9@
+0 @I1348@ INDI
+1 NAME g  6Munevver (Sari Abiler?)  
+1 SEX F
+1 FAMS @F941@
+1 FAMC @F380@
+0 @I1349@ INDI
+1 NAME f   Dondu (Tutar)            
+1 SEX F
+1 FAMS @F751@
+0 @I1350@ INDI
+1 NAME e   Tulay (Tekeli) (Saimbeyli
+1 SEX F
+1 FAMS @F58@
+0 @I1351@ INDI
+1 NAME e   Emine (Sari Kec,ili tribe
+1 SEX F
+1 FAMS @F117@
+0 @I1352@ INDI
+1 NAME d   Onbas Halil (Ten, head of
+1 SEX M
+1 FAMS @F286@
+0 @I1353@ INDI
+1 NAME f   Dondu (Eyuplis Koy or: Ko
+1 SEX F
+1 FAMS @F171@
+0 @I1354@ INDI
+1 NAME d   Fatma (Sari Mustafa's da)
+1 SEX F
+1 FAMS @F210@
+0 @I1356@ INDI
+1 NAME g   Dondu (Kara Veli's Da? Si
+1 SEX F
+1 FAMS @F447@
+0 @I1357@ INDI
+1 NAME e   Efe Mullah               
+1 SEX M
+1 FAMS @F230@
+0 @I1358@ INDI
+1 NAME e   Not given (Her first husb
+1 SEX F
+1 FAMS @F484@
+1 FAMC @F942@
+0 @I1359@ INDI
+1 NAME f   Hatice                   
+1 SEX F
+1 FAMS @F774@
+0 @I1360@ INDI
+1 NAME fS 7Deli Abdurrahman (was 124
+1 SEX M
+1 FAMS @F283@
+1 FAMC @F876@
+0 @I1361@ INDI
+1 NAME g   Sulum                    
+1 SEX M
+1 FAMS @F749@
+0 @I1362@ INDI
+1 NAME f   Beyram                   
+1 SEX M
+1 FAMS @F710@
+0 @I1363@ INDI
+1 NAME f   Musa                     
+1 SEX M
+1 FAMS @F599@
+0 @I1364@ INDI
+1 NAME f   Ahmet                    
+1 SEX M
+1 FAMS @F598@
+0 @I1365@ INDI
+1 NAME fS  Not given (Kozan)        
+1 SEX M
+1 FAMS @F39@
+0 @I1366@ INDI
+1 NAME f   Rugtlan?                 
+1 SEX M
+1 FAMS @F99@
+1 FAMC @F93@
+0 @I1367@ INDI
+1 NAME f 10Emin                     
+1 SEX M
+1 FAMS @F115@
+1 FAMC @F106@
+0 @I1368@ INDI
+1 NAME f 10Meryem                   
+1 SEX F
+1 FAMS @F116@
+1 FAMC @F106@
+0 @I1369@ INDI
+1 NAME e   Mustafa (Huseyin's son - 
+1 SEX M
+1 FAMS @F153@
+0 @I1370@ INDI
+1 NAME d  3Mehmet Ali               
+1 SEX M
+1 FAMS @F551@
+1 FAMC @F548@
+0 @I1372@ INDI
+1 NAME d  3Durdu                    
+1 SEX F
+1 FAMS @F552@
+1 FAMC @F548@
+0 @I1373@ INDI
+1 NAME g   Ummuhan (=83(?)Kose Haci'
+1 SEX F
+1 FAMS @F430@
+0 @I1374@ INDI
+1 NAME f  3Mustafa (Sakar Halil's so
+1 SEX M
+1 FAMS @F613@
+1 FAMC @F597@
+0 @I1375@ INDI
+1 NAME e   Kurt Ali (Kurdin)        
+1 SEX M
+1 FAMS @F602@
+0 @I1376@ INDI
+1 NAME e  3Osman m.MBD (Ali's son) (
+1 SEX M
+1 FAMS @F629@
+1 FAMC @F630@
+0 @I1377@ INDI
+1 NAME d  3Huseyin                  
+1 SEX M
+1 FAMS @F943@
+1 FAMC @F548@
+0 @I1378@ INDI
+1 NAME c   Kor Veli (fa of 1379, 138
+1 SEX M
+1 FAMS @F215@
+0 @I1379@ INDI
+1 NAME d   C,avus, Ali (Kor Veli's s
+1 SEX M
+1 FAMS @F214@
+1 FAMC @F215@
+0 @I1380@ INDI
+1 NAME e   Menevse (Kara Hacili) Kor
+1 SEX F
+1 FAMS @F340@
+1 FAMC @F341@
+0 @I1381@ INDI
+1 NAME a   Ismail                   
+1 SEX M
+1 FAMS @F23@
+0 @I1382@ INDI
+1 NAME gS 5Vinyamin                 
+1 SEX M
+1 FAMS @F944@
+1 FAMC @F171@
+0 @I1383@ INDI
+1 NAME g   Halime (Bostaklar Koy; Ko
+1 SEX F
+1 FAMS @F945@
+0 @I1384@ INDI
+1 NAME e  5Halil (Egri Mehmet's son 
+1 SEX M
+1 FAMS @F200@
+1 FAMC @F181@
+0 @I1385@ INDI
+1 NAME     Not given                
+1 SEX F
+1 FAMS @F946@
+0 @I1386@ INDI
+1 NAME g   Ummuhan (Koylu) NO 83 AS 
+1 SEX F
+1 FAMS @F76@
+0 @I1387@ INDI
+1 NAME e  8Kara Veli (Deli Ali's son
+1 SEX M
+1 FAMS @F839@
+1 FAMC @F840@
+0 @I1388@ INDI
+1 NAME     Not given                
+1 SEX M
+1 FAMS @F946@
+0 @I1389@ INDI
+1 NAME f   Not given (Koylu)        
+1 SEX M
+1 FAMS @F184@
+0 @I1390@ INDI
+1 NAME e   Virtual Mother of 1423 wh
+1 SEX F
+1 FAMS @F848@
+1 FAMC @F309@
+0 @I1392@ INDI
+1 NAME e   Hasan (Tazkirli Hasan)   
+1 SEX M
+1 FAMS @F403@
+0 @I1393@ INDI
+1 NAME f   Ays,e (Hasan Tazkirli Da)
+1 SEX F
+1 FAMS @F406@
+1 FAMC @F407@
+0 @I1394@ INDI
+1 NAME d   Kara Durdu (Mustafa's da)
+1 SEX F
+1 FAMS @F223@
+0 @I1395@ INDI
+1 NAME e   C,oban Ahmet (Musa Vavusi
+1 SEX M
+1 FAMS @F121@
+0 @I1396@ INDI
+1 NAME f   Suleyman Ciric (Mummun's 
+1 SEX M
+1 FAMS @F119@
+1 FAMC @F120@
+0 @I1397@ INDI
+1 NAME e   Mummun (Ciriklu)         
+1 SEX M
+1 FAMS @F120@
+0 @I1398@ INDI
+1 NAME d   Sihh Hoca (Honamli tribe)
+1 SEX M
+1 FAMS @F309@
+0 @I1399@ INDI
+1 NAME a      1 M multiply married b
+1 SEX M
+1 FAMS @F2@
+0 @I1400@ INDI
+1 NAME c 10  99 M multiply married b
+1 SEX M
+1 FAMS @F89@
+0 @I1401@ INDI
+1 NAME d    100 M multiply married b
+1 SEX M
+1 FAMS @F92@
+0 @I1402@ INDI
+1 NAME b  8 276 M multiply married b
+1 SEX M
+1 FAMS @F233@
+0 @I1403@ INDI
+1 NAME d    613 F multiply married b
+1 SEX M
+1 FAMS @F505@
+0 @I1404@ INDI
+1 NAME f    885 F multiply married b
+1 SEX M
+1 FAMS @F704@
+0 @I1405@ INDI
+1 NAME d    915 F multiply married b
+1 SEX M
+1 FAMS @F726@
+0 @I1407@ INDI
+1 NAME e   1288 F multiply married b
+1 SEX M
+1 FAMS @F903@
+0 @I1409@ INDI
+1 NAME c   1336 F multiply married b
+1 SEX M
+1 FAMS @F931@
+0 @I1411@ INDI
+1 NAME d   1358 F multiply married b
+1 SEX M
+1 FAMS @F942@
+0 @I1412@ INDI
+1 NAME e   wife whose name erased, w
+1 SEX F
+1 FAMS @F91@
+0 @I1413@ INDI
+1 NAME     S,erife (Mullah Mahmut's 
+1 SEX F
+1 FAMS @F627@
+0 @I1414@ INDI
+1 NAME f  9Fatma                    
+1 SEX F
+1 FAMS @F180@
+1 FAMC @F347@
+0 @I1415@ INDI
+1 NAME h  3Ismail                   
+1 SEX M
+1 FAMS @F566@
+1 FAMC @F555@
+0 @I1416@ INDI
+1 NAME g  3Mehmet                   
+1 SEX M
+1 FAMS @F612@
+1 FAMC @F610@
+0 @I1417@ INDI
+1 NAME f  3Huseyir                  
+1 SEX M
+1 FAMS @F780@
+1 FAMC @F773@
+0 @I1423@ INDI
+1 NAME gS  m.FZD (Gumus,lu Koyu b. I
+1 SEX M
+1 FAMS @F847@
+1 FAMC @F848@
+0 @I1424@ INDI
+1 NAME e  5Haci (Karaoglan's so)    
+1 SEX M
+1 FAMS @F105@
+1 FAMC @F125@
+0 @I1425@ INDI
+1 NAME g  2Sadi                     
+1 SEX M
+1 FAMS @F517@
+1 FAMC @F514@
+0 @I1426@ INDI
+1 NAME g  2Melek                    
+1 SEX F
+1 FAMS @F518@
+1 FAMC @F514@
+0 @I1427@ INDI
+1 NAME g  2Dilek                    
+1 SEX F
+1 FAMS @F519@
+1 FAMC @F514@
+0 @I1428@ INDI
+1 NAME g  2Mustafa                  
+1 SEX M
+1 FAMS @F520@
+1 FAMC @F514@
+0 @I1429@ INDI
+1 NAME g  2Songul                   
+1 SEX F
+1 FAMS @F521@
+1 FAMC @F514@
+0 @I1430@ INDI
+1 NAME g  2Hava                     
+1 SEX F
+1 FAMS @F496@
+1 FAMC @F307@
+0 @I1431@ INDI
+1 NAME g  2Erca                     
+1 SEX M
+1 FAMS @F502@
+1 FAMC @F490@
+0 @I1432@ INDI
+1 NAME h   Fatma                    
+1 SEX F
+1 FAMS @F947@
+1 FAMC @F481@
+0 @I1433@ INDI
+1 NAME h   Ferdi                    
+1 SEX F
+1 FAMS @F948@
+1 FAMC @F481@
+0 @I1434@ INDI
+1 NAME h  2Omer                     
+1 SEX M
+1 FAMS @F456@
+1 FAMC @F455@
+0 @I1435@ INDI
+1 NAME h  2Gullu                    
+1 SEX F
+1 FAMS @F457@
+1 FAMC @F455@
+0 @I1436@ INDI
+1 NAME h  2Emin                     
+1 SEX M
+1 FAMS @F458@
+1 FAMC @F455@
+0 @I1437@ INDI
+1 NAME b   Fa of 436 and 437        
+1 SEX M
+1 FAMS @F369@
+0 @I1438@ INDI
+1 NAME c  2Ahmet (SAME AS 51?)      
+1 SEX M
+1 FAMS @F933@
+1 FAMC @F419@
+0 @I1439@ INDI
+1 NAME d  2Ays,a                    
+1 SEX F
+1 FAMS @F934@
+1 FAMC @F422@
+0 @I1440@ INDI
+1 NAME d  2Kerzivan                 
+1 SEX F
+1 FAMS @F935@
+1 FAMC @F422@
+0 @I1441@ INDI
+1 NAME dS 2Yeter                    
+1 SEX M
+1 FAMS @F936@
+1 FAMC @F422@
+0 @I1442@ INDI
+1 NAME c   Not known                
+1 SEX F
+1 FAMS @F933@
+0 @I1443@ INDI
+1 NAME d  2Ali (Kirbas oglu)(Koylu) 
+1 SEX M
+1 FAMS @F935@
+1 FAMC @F933@
+0 @I1444@ INDI
+1 NAME d  2Yeter                    
+1 SEX F
+1 FAMS @F424@
+1 FAMC @F933@
+0 @I1453@ INDI
+1 NAME gS 6Arzi                     
+1 SEX F
+1 FAMS @F381@
+1 FAMC @F380@
+0 @I1464@ INDI
+1 NAME e   Iyivaz (Don Suzlu Kabile)
+1 SEX M
+1 FAMS @F841@
+0 @I1465@ INDI
+1 NAME g   Mustafa (Hosak)          
+1 SEX M
+1 FAMS @F294@
+0 @I1466@ INDI
+1 NAME c   Donsuz Osman (=baggy pant
+1 SEX M
+1 FAMS @F342@
+0 @I1467@ INDI
+1 NAME g   Mehmet (Tazkirli)        
+1 SEX M
+1 FAMS @F440@
+0 @I1468@ INDI
+1 NAME g   Not given (Fa unknown)   
+1 SEX M
+1 FAMS @F474@
+0 @I1469@ INDI
+1 NAME f   Huseyin Arab oglu (Koylu)
+1 SEX M
+1 FAMS @F506@
+0 @I1470@ INDI
+1 NAME f   Suleyman (Sariarik Mehmet
+1 SEX M
+1 FAMS @F558@
+0 @I1471@ INDI
+1 NAME h  3Davul                    
+1 SEX M
+1 FAMS @F568@
+1 FAMC @F555@
+0 @I1472@ INDI
+1 NAME f   Not given (Hayta)        
+1 SEX M
+1 FAMS @F592@
+0 @I1473@ INDI
+1 NAME f  3Not given                
+1 SEX M
+1 FAMS @F594@
+1 FAMC @F577@
+0 @I1474@ INDI
+1 NAME f   Not given (Horzum) (bei D
+1 SEX M
+1 FAMS @F662@
+0 @I1475@ INDI
+1 NAME g    (Korglu)                
+1 SEX M
+1 FAMS @F772@
+0 @I1476@ INDI
+1 NAME f   Not given m.MZD          
+1 SEX M
+1 FAMS @F790@
+0 @I1477@ INDI
+1 NAME f   Not given (Koylu)        
+1 SEX F
+1 FAMS @F127@
+0 @I1478@ INDI
+1 NAME e   Gulsun (Pepismail's Da)  
+1 SEX F
+1 FAMS @F275@
+0 @I1479@ INDI
+1 NAME e   Not given                
+1 SEX F
+1 FAMS @F291@
+0 @I1480@ INDI
+1 NAME e   Havana (Huseyin C,avus,'s
+1 SEX F
+1 FAMS @F344@
+0 @I1481@ INDI
+1 NAME g   (confusing blue line-igno
+1 SEX F
+1 FAMS @F439@
+0 @I1482@ INDI
+1 NAME e   Gussun (probably NOT g-92
+1 SEX F
+1 FAMS @F620@
+0 @I1483@ INDI
+1 NAME f   ?  (Honamli tribe)       
+1 SEX F
+1 FAMS @F624@
+0 @I1484@ INDI
+1 NAME g   Not given (Hayta)        
+1 SEX F
+1 FAMS @F771@
+0 @I1485@ INDI
+1 NAME f   Hatice                   
+1 SEX F
+1 FAMS @F783@
+1 FAMC @F782@
+0 @I1486@ INDI
+1 NAME d   Not given (Koylu)        
+1 SEX F
+1 FAMS @F936@
+0 @I1921@ INDI
+1 NAME h  3Zeynal                   
+1 SEX F
+1 FAMS @F730@
+1 FAMC @F86@
+0 @I1923@ INDI
+1 NAME h  3Ali                      
+1 SEX M
+1 FAMS @F732@
+1 FAMC @F86@
+0 @I1924@ INDI
+1 NAME h  3Iraz                     
+1 SEX F
+1 FAMS @F733@
+1 FAMC @F86@
+0 @F1@ FAM
+1 REFN F1
+1 HUSB @I1@
+1 WIFE @I2@
+0 @F2@ FAM
+1 REFN F2
+1 HUSB @I1399@
+1 CHIL @I1@
+1 CHIL @I1@
+0 @F3@ FAM
+1 REFN F3
+1 HUSB @I1@
+1 WIFE @I3@
+1 CHIL @I4@
+1 CHIL @I5@
+1 CHIL @I6@
+1 CHIL @I7@
+1 CHIL @I8@
+1 CHIL @I9@
+1 CHIL @I10@
+0 @F4@ FAM
+1 REFN F4
+1 HUSB @I154@
+1 WIFE @I4@
+1 CHIL @I164@
+1 CHIL @I155@
+1 CHIL @I155@
+1 CHIL @I165@
+1 CHIL @I179@
+1 CHIL @I199@
+1 CHIL @I199@
+0 @F5@ FAM
+1 REFN F5
+1 HUSB @I146@
+1 WIFE @I5@
+1 CHIL @I147@
+1 CHIL @I147@
+0 @F6@ FAM
+1 REFN F6
+1 HUSB @I267@
+1 WIFE @I6@
+1 CHIL @I268@
+1 CHIL @I272@
+1 CHIL @I273@
+1 CHIL @I274@
+1 CHIL @I274@
+0 @F7@ FAM
+1 REFN F7
+1 HUSB @I7@
+0 @F8@ FAM
+1 REFN F8
+1 HUSB @I8@
+0 @F9@ FAM
+1 REFN F9
+1 HUSB @I9@
+1 WIFE @I1347@
+1 CHIL @I11@
+1 CHIL @I12@
+0 @F10@ FAM
+1 REFN F10
+1 HUSB @I31@
+1 WIFE @I10@
+1 CHIL @I68@
+1 CHIL @I32@
+1 CHIL @I32@
+1 CHIL @I32@
+1 CHIL @I87@
+1 CHIL @I87@
+1 CHIL @I90@
+0 @F11@ FAM
+1 REFN F11
+1 HUSB @I1282@
+1 WIFE @I11@
+1 CHIL @I1285@
+1 CHIL @I1284@
+0 @F12@ FAM
+1 REFN F12
+1 HUSB @I68@
+1 WIFE @I12@
+1 CHIL @I69@
+1 CHIL @I74@
+1 CHIL @I75@
+1 CHIL @I80@
+1 CHIL @I81@
+1 CHIL @I83@
+1 CHIL @I84@
+1 CHIL @I89@
+0 @F13@ FAM
+1 REFN F13
+1 HUSB @I15@
+1 WIFE @I13@
+0 @F14@ FAM
+1 REFN F14
+1 HUSB @I14@
+1 WIFE @I164@
+1 CHIL @I15@
+1 CHIL @I16@
+1 CHIL @I17@
+1 CHIL @I18@
+1 CHIL @I19@
+1 CHIL @I20@
+1 CHIL @I21@
+0 @F15@ FAM
+1 REFN F15
+1 HUSB @I16@
+1 WIFE @I1332@
+0 @F16@ FAM
+1 REFN F16
+1 HUSB @I1121@
+1 WIFE @I17@
+0 @F17@ FAM
+1 REFN F17
+1 HUSB @I1061@
+1 WIFE @I223@
+1 CHIL @I1121@
+1 CHIL @I1118@
+1 CHIL @I1117@
+1 CHIL @I1116@
+1 CHIL @I1062@
+1 CHIL @I1067@
+1 CHIL @I1067@
+1 CHIL @I1119@
+0 @F18@ FAM
+1 REFN F18
+1 HUSB @I18@
+0 @F19@ FAM
+1 REFN F19
+1 WIFE @I19@
+0 @F20@ FAM
+1 REFN F20
+1 WIFE @I20@
+0 @F21@ FAM
+1 REFN F21
+1 HUSB @I21@
+0 @F22@ FAM
+1 REFN F22
+1 HUSB @I28@
+1 WIFE @I29@
+1 CHIL @I154@
+1 CHIL @I146@
+1 CHIL @I31@
+1 CHIL @I223@
+1 CHIL @I98@
+1 CHIL @I222@
+0 @F23@ FAM
+1 REFN F23
+1 HUSB @I1381@
+1 CHIL @I28@
+1 CHIL @I30@
+0 @F24@ FAM
+1 REFN F24
+1 HUSB @I30@
+0 @F25@ FAM
+1 REFN F25
+1 HUSB @I32@
+1 WIFE @I33@
+0 @F26@ FAM
+1 REFN F26
+1 HUSB @I32@
+1 WIFE @I365@
+0 @F27@ FAM
+1 REFN F27
+1 HUSB @I32@
+1 WIFE @I723@
+1 CHIL @I34@
+1 CHIL @I43@
+1 CHIL @I52@
+1 CHIL @I58@
+1 CHIL @I64@
+1 CHIL @I67@
+0 @F28@ FAM
+1 REFN F28
+1 HUSB @I34@
+1 WIFE @I96@
+1 CHIL @I35@
+1 CHIL @I36@
+1 CHIL @I37@
+1 CHIL @I38@
+1 CHIL @I39@
+1 CHIL @I40@
+1 CHIL @I41@
+1 CHIL @I42@
+0 @F29@ FAM
+1 REFN F29
+1 WIFE @I35@
+0 @F30@ FAM
+1 REFN F30
+1 HUSB @I36@
+0 @F31@ FAM
+1 REFN F31
+1 WIFE @I37@
+0 @F32@ FAM
+1 REFN F32
+1 WIFE @I38@
+0 @F33@ FAM
+1 REFN F33
+1 WIFE @I39@
+0 @F34@ FAM
+1 REFN F34
+1 HUSB @I40@
+0 @F35@ FAM
+1 REFN F35
+1 HUSB @I41@
+0 @F36@ FAM
+1 REFN F36
+1 WIFE @I42@
+0 @F37@ FAM
+1 REFN F37
+1 HUSB @I43@
+1 WIFE @I361@
+1 CHIL @I44@
+1 CHIL @I45@
+1 CHIL @I46@
+1 CHIL @I47@
+1 CHIL @I48@
+1 CHIL @I49@
+1 CHIL @I50@
+1 CHIL @I51@
+0 @F38@ FAM
+1 REFN F38
+1 HUSB @I44@
+0 @F39@ FAM
+1 REFN F39
+1 HUSB @I1365@
+1 WIFE @I45@
+0 @F40@ FAM
+1 REFN F40
+1 WIFE @I46@
+0 @F41@ FAM
+1 REFN F41
+1 HUSB @I47@
+0 @F42@ FAM
+1 REFN F42
+1 HUSB @I48@
+0 @F43@ FAM
+1 REFN F43
+1 WIFE @I49@
+0 @F44@ FAM
+1 REFN F44
+1 WIFE @I50@
+0 @F45@ FAM
+1 REFN F45
+1 HUSB @I51@
+0 @F46@ FAM
+1 REFN F46
+1 HUSB @I52@
+1 WIFE @I1333@
+1 CHIL @I53@
+1 CHIL @I54@
+1 CHIL @I55@
+1 CHIL @I56@
+1 CHIL @I57@
+0 @F47@ FAM
+1 REFN F47
+1 HUSB @I53@
+0 @F48@ FAM
+1 REFN F48
+1 HUSB @I348@
+1 WIFE @I54@
+1 CHIL @I349@
+0 @F49@ FAM
+1 REFN F49
+1 HUSB @I55@
+0 @F50@ FAM
+1 REFN F50
+1 HUSB @I56@
+0 @F51@ FAM
+1 REFN F51
+1 HUSB @I57@
+0 @F52@ FAM
+1 REFN F52
+1 HUSB @I58@
+1 WIFE @I97@
+1 CHIL @I59@
+1 CHIL @I60@
+1 CHIL @I61@
+1 CHIL @I62@
+1 CHIL @I63@
+0 @F53@ FAM
+1 REFN F53
+1 HUSB @I59@
+0 @F54@ FAM
+1 REFN F54
+1 WIFE @I60@
+0 @F55@ FAM
+1 REFN F55
+1 WIFE @I61@
+0 @F56@ FAM
+1 REFN F56
+1 WIFE @I62@
+0 @F57@ FAM
+1 REFN F57
+1 HUSB @I63@
+0 @F58@ FAM
+1 REFN F58
+1 HUSB @I64@
+1 WIFE @I1350@
+1 CHIL @I65@
+1 CHIL @I66@
+0 @F59@ FAM
+1 REFN F59
+1 HUSB @I65@
+0 @F60@ FAM
+1 REFN F60
+1 HUSB @I66@
+0 @F61@ FAM
+1 REFN F61
+1 HUSB @I92@
+1 WIFE @I67@
+1 CHIL @I93@
+1 CHIL @I94@
+0 @F62@ FAM
+1 REFN F62
+1 HUSB @I69@
+1 WIFE @I1334@
+1 CHIL @I70@
+1 CHIL @I71@
+1 CHIL @I72@
+1 CHIL @I73@
+0 @F63@ FAM
+1 REFN F63
+1 HUSB @I70@
+0 @F64@ FAM
+1 REFN F64
+1 WIFE @I71@
+0 @F65@ FAM
+1 REFN F65
+1 HUSB @I72@
+0 @F66@ FAM
+1 REFN F66
+1 HUSB @I73@
+1 WIFE @I1168@
+0 @F67@ FAM
+1 REFN F67
+1 HUSB @I74@
+0 @F68@ FAM
+1 REFN F68
+1 HUSB @I75@
+1 WIFE @I1285@
+1 CHIL @I76@
+1 CHIL @I77@
+1 CHIL @I78@
+1 CHIL @I79@
+0 @F69@ FAM
+1 REFN F69
+1 HUSB @I76@
+0 @F70@ FAM
+1 REFN F70
+1 HUSB @I77@
+0 @F71@ FAM
+1 REFN F71
+1 HUSB @I78@
+0 @F72@ FAM
+1 REFN F72
+1 HUSB @I79@
+0 @F73@ FAM
+1 REFN F73
+1 HUSB @I132@
+1 WIFE @I80@
+1 CHIL @I133@
+1 CHIL @I134@
+1 CHIL @I135@
+1 CHIL @I136@
+1 CHIL @I137@
+0 @F74@ FAM
+1 REFN F74
+1 HUSB @I82@
+1 WIFE @I81@
+0 @F75@ FAM
+1 REFN F75
+1 WIFE @I83@
+0 @F76@ FAM
+1 REFN F76
+1 HUSB @I956@
+1 WIFE @I1386@
+1 CHIL @I965@
+1 CHIL @I969@
+0 @F77@ FAM
+1 REFN F77
+1 HUSB @I84@
+1 WIFE @I88@
+1 CHIL @I85@
+1 CHIL @I86@
+0 @F78@ FAM
+1 REFN F78
+1 HUSB @I85@
+0 @F79@ FAM
+1 REFN F79
+1 HUSB @I86@
+0 @F80@ FAM
+1 REFN F80
+1 WIFE @I87@
+0 @F81@ FAM
+1 REFN F81
+1 HUSB @I131@
+1 WIFE @I87@
+1 CHIL @I132@
+0 @F82@ FAM
+1 REFN F82
+1 HUSB @I89@
+0 @F83@ FAM
+1 REFN F83
+1 HUSB @I90@
+1 WIFE @I91@
+1 CHIL @I96@
+1 CHIL @I97@
+1 CHIL @I92@
+1 CHIL @I95@
+0 @F84@ FAM
+1 REFN F84
+1 HUSB @I93@
+0 @F85@ FAM
+1 REFN F85
+1 HUSB @I94@
+0 @F86@ FAM
+1 REFN F86
+1 HUSB @I920@
+1 WIFE @I95@
+1 CHIL @I1921@
+1 CHIL @I922@
+1 CHIL @I1923@
+1 CHIL @I1924@
+0 @F87@ FAM
+1 REFN F87
+1 HUSB @I98@
+1 WIFE @I1147@
+1 CHIL @I131@
+1 CHIL @I131@
+0 @F88@ FAM
+1 REFN F88
+1 HUSB @I99@
+1 WIFE @I1118@
+1 CHIL @I114@
+1 CHIL @I115@
+1 CHIL @I124@
+1 CHIL @I125@
+1 CHIL @I126@
+1 CHIL @I127@
+1 CHIL @I128@
+1 CHIL @I129@
+0 @F89@ FAM
+1 REFN F89
+1 HUSB @I1400@
+1 CHIL @I99@
+1 CHIL @I99@
+0 @F90@ FAM
+1 REFN F90
+1 HUSB @I99@
+1 WIFE @I674@
+0 @F91@ FAM
+1 REFN F91
+1 HUSB @I100@
+1 WIFE @I1412@
+1 CHIL @I109@
+1 CHIL @I110@
+1 CHIL @I111@
+1 CHIL @I112@
+1 CHIL @I113@
+0 @F92@ FAM
+1 REFN F92
+1 HUSB @I1401@
+1 CHIL @I100@
+1 CHIL @I100@
+0 @F93@ FAM
+1 REFN F93
+1 HUSB @I100@
+1 WIFE @I1335@
+1 CHIL @I101@
+1 CHIL @I102@
+1 CHIL @I106@
+1 CHIL @I107@
+1 CHIL @I108@
+1 CHIL @I1366@
+0 @F94@ FAM
+1 REFN F94
+1 HUSB @I101@
+0 @F95@ FAM
+1 REFN F95
+1 HUSB @I102@
+1 WIFE @I1009@
+0 @F96@ FAM
+1 REFN F96
+1 HUSB @I106@
+0 @F97@ FAM
+1 REFN F97
+1 WIFE @I107@
+0 @F98@ FAM
+1 REFN F98
+1 HUSB @I108@
+0 @F99@ FAM
+1 REFN F99
+1 HUSB @I1366@
+0 @F100@ FAM
+1 REFN F100
+1 HUSB @I109@
+0 @F101@ FAM
+1 REFN F101
+1 HUSB @I110@
+0 @F102@ FAM
+1 REFN F102
+1 WIFE @I111@
+0 @F103@ FAM
+1 REFN F103
+1 HUSB @I112@
+0 @F104@ FAM
+1 REFN F104
+1 HUSB @I113@
+0 @F105@ FAM
+1 REFN F105
+1 HUSB @I1424@
+1 WIFE @I114@
+1 CHIL @I219@
+1 CHIL @I220@
+1 CHIL @I221@
+0 @F106@ FAM
+1 REFN F106
+1 HUSB @I115@
+1 WIFE @I537@
+1 CHIL @I116@
+1 CHIL @I117@
+1 CHIL @I118@
+1 CHIL @I119@
+1 CHIL @I120@
+1 CHIL @I121@
+1 CHIL @I122@
+1 CHIL @I123@
+1 CHIL @I1367@
+1 CHIL @I1368@
+0 @F107@ FAM
+1 REFN F107
+1 HUSB @I116@
+0 @F108@ FAM
+1 REFN F108
+1 HUSB @I117@
+0 @F109@ FAM
+1 REFN F109
+1 WIFE @I118@
+0 @F110@ FAM
+1 REFN F110
+1 WIFE @I119@
+0 @F111@ FAM
+1 REFN F111
+1 WIFE @I120@
+0 @F112@ FAM
+1 REFN F112
+1 WIFE @I121@
+0 @F113@ FAM
+1 REFN F113
+1 WIFE @I122@
+0 @F114@ FAM
+1 REFN F114
+1 HUSB @I123@
+0 @F115@ FAM
+1 REFN F115
+1 HUSB @I1367@
+0 @F116@ FAM
+1 REFN F116
+1 WIFE @I1368@
+0 @F117@ FAM
+1 REFN F117
+1 HUSB @I124@
+1 WIFE @I1351@
+0 @F118@ FAM
+1 REFN F118
+1 HUSB @I480@
+1 WIFE @I125@
+1 CHIL @I481@
+1 CHIL @I482@
+1 CHIL @I483@
+1 CHIL @I484@
+0 @F119@ FAM
+1 REFN F119
+1 HUSB @I1396@
+1 WIFE @I126@
+0 @F120@ FAM
+1 REFN F120
+1 HUSB @I1397@
+1 WIFE @I1117@
+1 CHIL @I1396@
+0 @F121@ FAM
+1 REFN F121
+1 HUSB @I1395@
+1 WIFE @I127@
+0 @F122@ FAM
+1 REFN F122
+1 HUSB @I1256@
+1 WIFE @I128@
+0 @F123@ FAM
+1 REFN F123
+1 WIFE @I129@
+0 @F124@ FAM
+1 REFN F124
+1 HUSB @I446@
+1 WIFE @I130@
+1 CHIL @I480@
+1 CHIL @I448@
+1 CHIL @I449@
+1 CHIL @I451@
+1 CHIL @I452@
+1 CHIL @I452@
+1 CHIL @I466@
+1 CHIL @I471@
+1 CHIL @I476@
+1 CHIL @I477@
+1 CHIL @I478@
+1 CHIL @I485@
+1 CHIL @I486@
+1 CHIL @I487@
+1 CHIL @I488@
+0 @F125@ FAM
+1 REFN F125
+1 HUSB @I131@
+1 WIFE @I489@
+1 CHIL @I1424@
+1 CHIL @I138@
+1 CHIL @I139@
+1 CHIL @I140@
+1 CHIL @I141@
+1 CHIL @I141@
+1 CHIL @I141@
+1 CHIL @I142@
+1 CHIL @I143@
+1 CHIL @I144@
+1 CHIL @I145@
+0 @F126@ FAM
+1 REFN F126
+1 HUSB @I970@
+1 WIFE @I133@
+0 @F127@ FAM
+1 REFN F127
+1 HUSB @I134@
+1 WIFE @I1477@
+0 @F128@ FAM
+1 REFN F128
+1 HUSB @I135@
+0 @F129@ FAM
+1 REFN F129
+1 HUSB @I136@
+0 @F130@ FAM
+1 REFN F130
+1 HUSB @I137@
+0 @F131@ FAM
+1 REFN F131
+1 HUSB @I1039@
+1 WIFE @I138@
+0 @F132@ FAM
+1 REFN F132
+1 HUSB @I139@
+1 WIFE @I176@
+0 @F133@ FAM
+1 REFN F133
+1 WIFE @I140@
+0 @F134@ FAM
+1 REFN F134
+1 HUSB @I141@
+0 @F135@ FAM
+1 REFN F135
+1 HUSB @I141@
+1 WIFE @I691@
+0 @F136@ FAM
+1 REFN F136
+1 HUSB @I141@
+1 WIFE @I1055@
+0 @F137@ FAM
+1 REFN F137
+1 HUSB @I142@
+1 WIFE @I448@
+0 @F138@ FAM
+1 REFN F138
+1 WIFE @I143@
+0 @F139@ FAM
+1 REFN F139
+1 WIFE @I144@
+0 @F140@ FAM
+1 REFN F140
+1 HUSB @I145@
+0 @F141@ FAM
+1 REFN F141
+1 HUSB @I147@
+1 WIFE @I148@
+0 @F142@ FAM
+1 REFN F142
+1 HUSB @I147@
+1 WIFE @I149@
+0 @F143@ FAM
+1 REFN F143
+1 HUSB @I155@
+1 WIFE @I657@
+0 @F144@ FAM
+1 REFN F144
+1 HUSB @I630@
+1 WIFE @I867@
+1 CHIL @I657@
+1 CHIL @I631@
+1 CHIL @I634@
+1 CHIL @I657@
+1 CHIL @I658@
+0 @F145@ FAM
+1 REFN F145
+1 HUSB @I156@
+1 WIFE @I190@
+1 CHIL @I157@
+1 CHIL @I158@
+1 CHIL @I159@
+1 CHIL @I160@
+1 CHIL @I161@
+1 CHIL @I162@
+0 @F146@ FAM
+1 REFN F146
+1 HUSB @I155@
+1 CHIL @I156@
+1 CHIL @I163@
+0 @F147@ FAM
+1 REFN F147
+1 WIFE @I157@
+0 @F148@ FAM
+1 REFN F148
+1 HUSB @I158@
+0 @F149@ FAM
+1 REFN F149
+1 HUSB @I159@
+0 @F150@ FAM
+1 REFN F150
+1 HUSB @I160@
+0 @F151@ FAM
+1 REFN F151
+1 HUSB @I161@
+0 @F152@ FAM
+1 REFN F152
+1 WIFE @I162@
+0 @F153@ FAM
+1 REFN F153
+1 HUSB @I1369@
+1 WIFE @I163@
+0 @F154@ FAM
+1 REFN F154
+1 HUSB @I165@
+1 WIFE @I166@
+1 CHIL @I176@
+1 CHIL @I167@
+1 CHIL @I167@
+1 CHIL @I167@
+1 CHIL @I175@
+1 CHIL @I177@
+1 CHIL @I178@
+1 CHIL @I178@
+0 @F155@ FAM
+1 REFN F155
+1 HUSB @I167@
+1 WIFE @I758@
+0 @F156@ FAM
+1 REFN F156
+1 HUSB @I167@
+1 WIFE @I174@
+0 @F157@ FAM
+1 REFN F157
+1 WIFE @I168@
+0 @F158@ FAM
+1 REFN F158
+1 HUSB @I167@
+1 CHIL @I168@
+1 CHIL @I169@
+1 CHIL @I170@
+1 CHIL @I171@
+1 CHIL @I172@
+1 CHIL @I173@
+0 @F159@ FAM
+1 REFN F159
+1 WIFE @I169@
+0 @F160@ FAM
+1 REFN F160
+1 HUSB @I170@
+0 @F161@ FAM
+1 REFN F161
+1 HUSB @I171@
+0 @F162@ FAM
+1 REFN F162
+1 WIFE @I172@
+0 @F163@ FAM
+1 REFN F163
+1 WIFE @I173@
+0 @F164@ FAM
+1 REFN F164
+1 HUSB @I1036@
+1 WIFE @I175@
+1 CHIL @I1039@
+1 CHIL @I1055@
+1 CHIL @I1053@
+1 CHIL @I1038@
+1 CHIL @I1044@
+1 CHIL @I1045@
+1 CHIL @I1051@
+1 CHIL @I1054@
+1 CHIL @I1055@
+1 CHIL @I1056@
+1 CHIL @I1058@
+0 @F165@ FAM
+1 REFN F165
+1 HUSB @I1013@
+1 WIFE @I222@
+1 CHIL @I1036@
+1 CHIL @I1014@
+1 CHIL @I1034@
+1 CHIL @I1036@
+0 @F166@ FAM
+1 REFN F166
+1 HUSB @I191@
+1 WIFE @I177@
+1 CHIL @I192@
+1 CHIL @I194@
+0 @F167@ FAM
+1 REFN F167
+1 HUSB @I198@
+1 WIFE @I178@
+0 @F168@ FAM
+1 REFN F168
+1 HUSB @I1157@
+1 WIFE @I178@
+0 @F169@ FAM
+1 REFN F169
+1 HUSB @I179@
+1 WIFE @I1346@
+1 CHIL @I190@
+1 CHIL @I191@
+1 CHIL @I198@
+1 CHIL @I180@
+1 CHIL @I188@
+1 CHIL @I198@
+1 CHIL @I190@
+0 @F170@ FAM
+1 REFN F170
+1 HUSB @I180@
+1 WIFE @I583@
+1 CHIL @I181@
+1 CHIL @I182@
+1 CHIL @I184@
+1 CHIL @I185@
+1 CHIL @I186@
+1 CHIL @I187@
+0 @F171@ FAM
+1 REFN F171
+1 HUSB @I181@
+1 WIFE @I1353@
+1 CHIL @I1382@
+0 @F172@ FAM
+1 REFN F172
+1 HUSB @I183@
+1 WIFE @I182@
+0 @F173@ FAM
+1 REFN F173
+1 HUSB @I184@
+0 @F174@ FAM
+1 REFN F174
+1 HUSB @I185@
+0 @F175@ FAM
+1 REFN F175
+1 HUSB @I186@
+0 @F176@ FAM
+1 REFN F176
+1 HUSB @I187@
+0 @F177@ FAM
+1 REFN F177
+1 HUSB @I189@
+1 WIFE @I188@
+0 @F178@ FAM
+1 REFN F178
+1 HUSB @I1053@
+1 WIFE @I192@
+0 @F179@ FAM
+1 REFN F179
+1 HUSB @I194@
+0 @F180@ FAM
+1 REFN F180
+1 HUSB @I198@
+1 WIFE @I1414@
+0 @F181@ FAM
+1 REFN F181
+1 HUSB @I199@
+1 WIFE @I200@
+1 CHIL @I201@
+1 CHIL @I211@
+1 CHIL @I216@
+1 CHIL @I1384@
+1 CHIL @I1384@
+0 @F182@ FAM
+1 REFN F182
+1 HUSB @I199@
+1 WIFE @I865@
+0 @F183@ FAM
+1 REFN F183
+1 HUSB @I201@
+1 WIFE @I329@
+1 CHIL @I202@
+1 CHIL @I203@
+1 CHIL @I204@
+1 CHIL @I205@
+1 CHIL @I206@
+1 CHIL @I207@
+1 CHIL @I208@
+1 CHIL @I209@
+1 CHIL @I210@
+0 @F184@ FAM
+1 REFN F184
+1 HUSB @I1389@
+1 WIFE @I202@
+0 @F185@ FAM
+1 REFN F185
+1 HUSB @I970@
+1 WIFE @I203@
+0 @F186@ FAM
+1 REFN F186
+1 WIFE @I204@
+0 @F187@ FAM
+1 REFN F187
+1 HUSB @I205@
+0 @F188@ FAM
+1 REFN F188
+1 HUSB @I206@
+0 @F189@ FAM
+1 REFN F189
+1 WIFE @I207@
+0 @F190@ FAM
+1 REFN F190
+1 HUSB @I208@
+0 @F191@ FAM
+1 REFN F191
+1 HUSB @I209@
+0 @F192@ FAM
+1 REFN F192
+1 WIFE @I210@
+0 @F193@ FAM
+1 REFN F193
+1 HUSB @I211@
+1 WIFE @I330@
+1 CHIL @I217@
+1 CHIL @I212@
+1 CHIL @I213@
+1 CHIL @I214@
+1 CHIL @I215@
+0 @F194@ FAM
+1 REFN F194
+1 HUSB @I217@
+0 @F195@ FAM
+1 REFN F195
+1 HUSB @I212@
+0 @F196@ FAM
+1 REFN F196
+1 WIFE @I213@
+0 @F197@ FAM
+1 REFN F197
+1 WIFE @I214@
+0 @F198@ FAM
+1 REFN F198
+1 HUSB @I215@
+0 @F199@ FAM
+1 REFN F199
+1 HUSB @I216@
+1 WIFE @I865@
+0 @F200@ FAM
+1 REFN F200
+1 HUSB @I1384@
+1 WIFE @I1195@
+0 @F201@ FAM
+1 REFN F201
+1 HUSB @I232@
+1 WIFE @I218@
+0 @F202@ FAM
+1 REFN F202
+1 HUSB @I219@
+0 @F203@ FAM
+1 REFN F203
+1 WIFE @I220@
+0 @F204@ FAM
+1 REFN F204
+1 WIFE @I221@
+0 @F205@ FAM
+1 REFN F205
+1 HUSB @I224@
+1 WIFE @I225@
+1 CHIL @I226@
+1 CHIL @I228@
+1 CHIL @I228@
+1 CHIL @I428@
+1 CHIL @I429@
+1 CHIL @I430@
+0 @F206@ FAM
+1 REFN F206
+1 HUSB @I226@
+1 WIFE @I227@
+0 @F207@ FAM
+1 REFN F207
+1 HUSB @I228@
+1 WIFE @I229@
+0 @F208@ FAM
+1 REFN F208
+1 HUSB @I228@
+1 WIFE @I230@
+1 CHIL @I231@
+1 CHIL @I343@
+1 CHIL @I408@
+0 @F209@ FAM
+1 REFN F209
+1 HUSB @I231@
+1 WIFE @I435@
+1 CHIL @I267@
+1 CHIL @I232@
+1 CHIL @I232@
+1 CHIL @I266@
+1 CHIL @I267@
+1 CHIL @I275@
+0 @F210@ FAM
+1 REFN F210
+1 HUSB @I232@
+1 WIFE @I1354@
+1 CHIL @I233@
+1 CHIL @I234@
+1 CHIL @I234@
+1 CHIL @I240@
+1 CHIL @I241@
+1 CHIL @I250@
+1 CHIL @I256@
+1 CHIL @I262@
+1 CHIL @I263@
+0 @F211@ FAM
+1 REFN F211
+1 HUSB @I280@
+1 WIFE @I233@
+1 CHIL @I281@
+1 CHIL @I282@
+1 CHIL @I283@
+1 CHIL @I284@
+1 CHIL @I285@
+0 @F212@ FAM
+1 REFN F212
+1 HUSB @I234@
+1 WIFE @I304@
+0 @F213@ FAM
+1 REFN F213
+1 HUSB @I234@
+1 WIFE @I760@
+0 @F214@ FAM
+1 REFN F214
+1 HUSB @I1379@
+1 WIFE @I240@
+0 @F215@ FAM
+1 REFN F215
+1 HUSB @I1378@
+1 CHIL @I1379@
+1 CHIL @I1379@
+0 @F216@ FAM
+1 REFN F216
+1 HUSB @I241@
+1 WIFE @I305@
+0 @F217@ FAM
+1 REFN F217
+1 HUSB @I250@
+1 WIFE @I783@
+0 @F218@ FAM
+1 REFN F218
+1 HUSB @I256@
+1 WIFE @I257@
+0 @F219@ FAM
+1 REFN F219
+1 HUSB @I777@
+1 WIFE @I262@
+0 @F220@ FAM
+1 REFN F220
+1 HUSB @I263@
+1 WIFE @I264@
+1 CHIL @I265@
+0 @F221@ FAM
+1 REFN F221
+1 HUSB @I265@
+1 WIFE @I281@
+0 @F222@ FAM
+1 REFN F222
+1 HUSB @I279@
+1 WIFE @I266@
+1 CHIL @I280@
+1 CHIL @I304@
+1 CHIL @I305@
+1 CHIL @I286@
+1 CHIL @I294@
+1 CHIL @I300@
+1 CHIL @I301@
+1 CHIL @I303@
+0 @F223@ FAM
+1 REFN F223
+1 HUSB @I267@
+1 WIFE @I1394@
+0 @F224@ FAM
+1 REFN F224
+1 HUSB @I268@
+1 WIFE @I269@
+1 CHIL @I270@
+1 CHIL @I271@
+0 @F225@ FAM
+1 REFN F225
+1 HUSB @I270@
+1 WIFE @I887@
+0 @F226@ FAM
+1 REFN F226
+1 HUSB @I271@
+0 @F227@ FAM
+1 REFN F227
+1 WIFE @I272@
+0 @F228@ FAM
+1 REFN F228
+1 WIFE @I273@
+0 @F229@ FAM
+1 REFN F229
+1 HUSB @I883@
+1 WIFE @I274@
+1 CHIL @I887@
+1 CHIL @I884@
+1 CHIL @I886@
+1 CHIL @I888@
+1 CHIL @I890@
+1 CHIL @I891@
+1 CHIL @I892@
+0 @F230@ FAM
+1 REFN F230
+1 HUSB @I1357@
+1 WIFE @I274@
+0 @F231@ FAM
+1 REFN F231
+1 HUSB @I275@
+0 @F232@ FAM
+1 REFN F232
+1 HUSB @I276@
+1 WIFE @I277@
+1 CHIL @I279@
+0 @F233@ FAM
+1 REFN F233
+1 HUSB @I1402@
+1 CHIL @I276@
+1 CHIL @I276@
+0 @F234@ FAM
+1 REFN F234
+1 HUSB @I276@
+1 WIFE @I278@
+1 CHIL @I306@
+1 CHIL @I306@
+1 CHIL @I306@
+1 CHIL @I332@
+1 CHIL @I340@
+1 CHIL @I340@
+1 CHIL @I341@
+1 CHIL @I341@
+1 CHIL @I342@
+1 CHIL @I306@
+0 @F235@ FAM
+1 REFN F235
+1 HUSB @I282@
+0 @F236@ FAM
+1 REFN F236
+1 HUSB @I283@
+0 @F237@ FAM
+1 REFN F237
+1 HUSB @I284@
+0 @F238@ FAM
+1 REFN F238
+1 WIFE @I285@
+0 @F239@ FAM
+1 REFN F239
+1 HUSB @I286@
+1 WIFE @I287@
+1 CHIL @I288@
+0 @F240@ FAM
+1 REFN F240
+1 HUSB @I288@
+0 @F241@ FAM
+1 REFN F241
+1 HUSB @I294@
+1 WIFE @I313@
+1 CHIL @I295@
+1 CHIL @I296@
+1 CHIL @I297@
+1 CHIL @I298@
+1 CHIL @I299@
+0 @F242@ FAM
+1 REFN F242
+1 HUSB @I295@
+0 @F243@ FAM
+1 REFN F243
+1 HUSB @I296@
+0 @F244@ FAM
+1 REFN F244
+1 HUSB @I297@
+0 @F245@ FAM
+1 REFN F245
+1 HUSB @I298@
+0 @F246@ FAM
+1 REFN F246
+1 WIFE @I299@
+0 @F247@ FAM
+1 REFN F247
+1 HUSB @I300@
+1 WIFE @I769@
+0 @F248@ FAM
+1 REFN F248
+1 HUSB @I301@
+1 WIFE @I302@
+0 @F249@ FAM
+1 REFN F249
+1 HUSB @I303@
+0 @F250@ FAM
+1 REFN F250
+1 HUSB @I306@
+1 WIFE @I1116@
+1 CHIL @I329@
+1 CHIL @I330@
+1 CHIL @I313@
+1 CHIL @I307@
+1 CHIL @I314@
+1 CHIL @I314@
+0 @F251@ FAM
+1 REFN F251
+1 HUSB @I306@
+1 WIFE @I1148@
+0 @F252@ FAM
+1 REFN F252
+1 HUSB @I306@
+1 WIFE @I1336@
+1 CHIL @I331@
+0 @F253@ FAM
+1 REFN F253
+1 HUSB @I307@
+1 WIFE @I339@
+1 CHIL @I308@
+1 CHIL @I309@
+1 CHIL @I310@
+1 CHIL @I311@
+1 CHIL @I312@
+0 @F254@ FAM
+1 REFN F254
+1 HUSB @I316@
+1 WIFE @I308@
+0 @F255@ FAM
+1 REFN F255
+1 WIFE @I309@
+0 @F256@ FAM
+1 REFN F256
+1 HUSB @I310@
+0 @F257@ FAM
+1 REFN F257
+1 WIFE @I311@
+0 @F258@ FAM
+1 REFN F258
+1 HUSB @I312@
+0 @F259@ FAM
+1 REFN F259
+1 HUSB @I314@
+1 WIFE @I324@
+1 CHIL @I325@
+1 CHIL @I326@
+1 CHIL @I327@
+1 CHIL @I328@
+0 @F260@ FAM
+1 REFN F260
+1 HUSB @I314@
+1 WIFE @I1139@
+1 CHIL @I316@
+1 CHIL @I315@
+1 CHIL @I317@
+1 CHIL @I318@
+1 CHIL @I319@
+1 CHIL @I320@
+1 CHIL @I321@
+1 CHIL @I322@
+1 CHIL @I323@
+0 @F261@ FAM
+1 REFN F261
+1 WIFE @I315@
+0 @F262@ FAM
+1 REFN F262
+1 WIFE @I317@
+0 @F263@ FAM
+1 REFN F263
+1 HUSB @I318@
+0 @F264@ FAM
+1 REFN F264
+1 WIFE @I319@
+0 @F265@ FAM
+1 REFN F265
+1 HUSB @I320@
+0 @F266@ FAM
+1 REFN F266
+1 HUSB @I321@
+0 @F267@ FAM
+1 REFN F267
+1 HUSB @I322@
+0 @F268@ FAM
+1 REFN F268
+1 HUSB @I323@
+0 @F269@ FAM
+1 REFN F269
+1 HUSB @I325@
+0 @F270@ FAM
+1 REFN F270
+1 WIFE @I326@
+0 @F271@ FAM
+1 REFN F271
+1 WIFE @I327@
+0 @F272@ FAM
+1 REFN F272
+1 HUSB @I328@
+0 @F273@ FAM
+1 REFN F273
+1 WIFE @I331@
+0 @F274@ FAM
+1 REFN F274
+1 HUSB @I332@
+1 WIFE @I1336@
+1 CHIL @I339@
+1 CHIL @I333@
+1 CHIL @I333@
+1 CHIL @I338@
+0 @F275@ FAM
+1 REFN F275
+1 HUSB @I333@
+1 WIFE @I1478@
+0 @F276@ FAM
+1 REFN F276
+1 HUSB @I334@
+0 @F277@ FAM
+1 REFN F277
+1 HUSB @I333@
+1 CHIL @I334@
+1 CHIL @I335@
+1 CHIL @I336@
+1 CHIL @I337@
+0 @F278@ FAM
+1 REFN F278
+1 HUSB @I335@
+0 @F279@ FAM
+1 REFN F279
+1 HUSB @I336@
+0 @F280@ FAM
+1 REFN F280
+1 WIFE @I337@
+0 @F281@ FAM
+1 REFN F281
+1 HUSB @I338@
+0 @F282@ FAM
+1 REFN F282
+1 HUSB @I1234@
+1 WIFE @I340@
+1 CHIL @I1247@
+1 CHIL @I1235@
+1 CHIL @I1236@
+1 CHIL @I1242@
+0 @F283@ FAM
+1 REFN F283
+1 HUSB @I1360@
+1 WIFE @I340@
+1 CHIL @I1256@
+1 CHIL @I1256@
+1 CHIL @I1250@
+1 CHIL @I1256@
+0 @F284@ FAM
+1 REFN F284
+1 HUSB @I882@
+1 WIFE @I341@
+0 @F285@ FAM
+1 REFN F285
+1 WIFE @I341@
+0 @F286@ FAM
+1 REFN F286
+1 HUSB @I1352@
+1 WIFE @I342@
+0 @F287@ FAM
+1 REFN F287
+1 HUSB @I343@
+1 WIFE @I718@
+1 CHIL @I344@
+1 CHIL @I345@
+1 CHIL @I405@
+1 CHIL @I406@
+1 CHIL @I407@
+0 @F288@ FAM
+1 REFN F288
+1 HUSB @I344@
+0 @F289@ FAM
+1 REFN F289
+1 HUSB @I345@
+1 WIFE @I1170@
+1 CHIL @I365@
+1 CHIL @I346@
+1 CHIL @I346@
+1 CHIL @I366@
+1 CHIL @I389@
+1 CHIL @I390@
+1 CHIL @I391@
+1 CHIL @I391@
+1 CHIL @I392@
+0 @F290@ FAM
+1 REFN F290
+1 HUSB @I346@
+1 WIFE @I1286@
+1 CHIL @I361@
+1 CHIL @I347@
+1 CHIL @I358@
+1 CHIL @I359@
+1 CHIL @I360@
+1 CHIL @I362@
+1 CHIL @I363@
+1 CHIL @I364@
+0 @F291@ FAM
+1 REFN F291
+1 HUSB @I346@
+1 WIFE @I1479@
+0 @F292@ FAM
+1 REFN F292
+1 HUSB @I347@
+1 WIFE @I1031@
+1 CHIL @I348@
+1 CHIL @I350@
+1 CHIL @I351@
+1 CHIL @I352@
+1 CHIL @I353@
+1 CHIL @I354@
+1 CHIL @I355@
+1 CHIL @I356@
+1 CHIL @I357@
+0 @F293@ FAM
+1 REFN F293
+1 HUSB @I349@
+0 @F294@ FAM
+1 REFN F294
+1 HUSB @I1465@
+1 WIFE @I350@
+0 @F295@ FAM
+1 REFN F295
+1 HUSB @I1337@
+1 WIFE @I351@
+0 @F296@ FAM
+1 REFN F296
+1 HUSB @I1020@
+1 WIFE @I352@
+1 CHIL @I1021@
+0 @F297@ FAM
+1 REFN F297
+1 WIFE @I353@
+0 @F298@ FAM
+1 REFN F298
+1 HUSB @I354@
+0 @F299@ FAM
+1 REFN F299
+1 WIFE @I355@
+0 @F300@ FAM
+1 REFN F300
+1 WIFE @I356@
+0 @F301@ FAM
+1 REFN F301
+1 WIFE @I357@
+0 @F302@ FAM
+1 REFN F302
+1 HUSB @I358@
+0 @F303@ FAM
+1 REFN F303
+1 HUSB @I586@
+1 WIFE @I359@
+1 CHIL @I587@
+1 CHIL @I589@
+1 CHIL @I590@
+1 CHIL @I591@
+1 CHIL @I592@
+1 CHIL @I593@
+1 CHIL @I594@
+1 CHIL @I595@
+0 @F304@ FAM
+1 REFN F304
+1 WIFE @I360@
+0 @F305@ FAM
+1 REFN F305
+1 HUSB @I362@
+1 WIFE @I1085@
+1 CHIL @I1340@
+1 CHIL @I1341@
+1 CHIL @I1342@
+1 CHIL @I1344@
+0 @F306@ FAM
+1 REFN F306
+1 HUSB @I870@
+1 WIFE @I363@
+1 CHIL @I871@
+1 CHIL @I872@
+1 CHIL @I873@
+0 @F307@ FAM
+1 REFN F307
+1 HUSB @I597@
+1 WIFE @I364@
+1 CHIL @I600@
+1 CHIL @I601@
+1 CHIL @I602@
+1 CHIL @I603@
+1 CHIL @I604@
+1 CHIL @I605@
+1 CHIL @I1430@
+0 @F308@ FAM
+1 REFN F308
+1 HUSB @I366@
+1 WIFE @I367@
+1 CHIL @I368@
+1 CHIL @I374@
+1 CHIL @I375@
+1 CHIL @I379@
+0 @F309@ FAM
+1 REFN F309
+1 HUSB @I1398@
+1 CHIL @I367@
+1 CHIL @I367@
+1 CHIL @I367@
+1 CHIL @I1390@
+0 @F310@ FAM
+1 REFN F310
+1 WIFE @I367@
+0 @F311@ FAM
+1 REFN F311
+1 HUSB @I1163@
+1 WIFE @I367@
+1 CHIL @I1168@
+1 CHIL @I1164@
+1 CHIL @I1165@
+1 CHIL @I1166@
+0 @F312@ FAM
+1 REFN F312
+1 HUSB @I368@
+1 WIFE @I1032@
+1 CHIL @I369@
+1 CHIL @I370@
+1 CHIL @I371@
+1 CHIL @I372@
+1 CHIL @I373@
+0 @F313@ FAM
+1 REFN F313
+1 WIFE @I369@
+0 @F314@ FAM
+1 REFN F314
+1 HUSB @I370@
+0 @F315@ FAM
+1 REFN F315
+1 WIFE @I371@
+0 @F316@ FAM
+1 REFN F316
+1 HUSB @I372@
+0 @F317@ FAM
+1 REFN F317
+1 WIFE @I373@
+0 @F318@ FAM
+1 REFN F318
+1 HUSB @I1027@
+1 WIFE @I374@
+0 @F319@ FAM
+1 REFN F319
+1 HUSB @I375@
+1 WIFE @I376@
+1 CHIL @I377@
+1 CHIL @I378@
+0 @F320@ FAM
+1 REFN F320
+1 HUSB @I377@
+0 @F321@ FAM
+1 REFN F321
+1 HUSB @I378@
+0 @F322@ FAM
+1 REFN F322
+1 HUSB @I379@
+1 WIFE @I388@
+0 @F323@ FAM
+1 REFN F323
+1 HUSB @I818@
+1 WIFE @I389@
+1 CHIL @I823@
+1 CHIL @I819@
+0 @F324@ FAM
+1 REFN F324
+1 HUSB @I897@
+1 WIFE @I390@
+0 @F325@ FAM
+1 REFN F325
+1 HUSB @I869@
+1 WIFE @I391@
+1 CHIL @I870@
+1 CHIL @I876@
+1 CHIL @I874@
+1 CHIL @I875@
+1 CHIL @I877@
+1 CHIL @I878@
+0 @F326@ FAM
+1 REFN F326
+1 WIFE @I391@
+0 @F327@ FAM
+1 REFN F327
+1 HUSB @I392@
+1 WIFE @I893@
+1 CHIL @I393@
+1 CHIL @I394@
+1 CHIL @I395@
+1 CHIL @I396@
+1 CHIL @I398@
+1 CHIL @I399@
+1 CHIL @I402@
+1 CHIL @I403@
+1 CHIL @I404@
+0 @F328@ FAM
+1 REFN F328
+1 HUSB @I1033@
+1 WIFE @I393@
+0 @F329@ FAM
+1 REFN F329
+1 HUSB @I394@
+0 @F330@ FAM
+1 REFN F330
+1 HUSB @I395@
+0 @F331@ FAM
+1 REFN F331
+1 HUSB @I396@
+1 WIFE @I397@
+0 @F332@ FAM
+1 REFN F332
+1 HUSB @I398@
+0 @F333@ FAM
+1 REFN F333
+1 HUSB @I399@
+1 WIFE @I400@
+1 CHIL @I401@
+0 @F334@ FAM
+1 REFN F334
+1 WIFE @I401@
+0 @F335@ FAM
+1 REFN F335
+1 HUSB @I402@
+0 @F336@ FAM
+1 REFN F336
+1 HUSB @I403@
+0 @F337@ FAM
+1 REFN F337
+1 WIFE @I404@
+0 @F338@ FAM
+1 REFN F338
+1 HUSB @I519@
+1 WIFE @I405@
+0 @F339@ FAM
+1 REFN F339
+1 HUSB @I882@
+1 WIFE @I406@
+1 CHIL @I883@
+1 CHIL @I897@
+1 CHIL @I893@
+1 CHIL @I894@
+1 CHIL @I897@
+1 CHIL @I895@
+1 CHIL @I896@
+1 CHIL @I897@
+0 @F340@ FAM
+1 REFN F340
+1 HUSB @I407@
+1 WIFE @I1380@
+0 @F341@ FAM
+1 REFN F341
+1 HUSB @I1379@
+1 CHIL @I1380@
+0 @F342@ FAM
+1 REFN F342
+1 HUSB @I1466@
+1 WIFE @I408@
+0 @F343@ FAM
+1 REFN F343
+1 HUSB @I409@
+1 WIFE @I912@
+1 CHIL @I410@
+1 CHIL @I411@
+1 CHIL @I410@
+1 CHIL @I416@
+1 CHIL @I416@
+0 @F344@ FAM
+1 REFN F344
+1 HUSB @I410@
+1 WIFE @I1480@
+0 @F345@ FAM
+1 REFN F345
+1 HUSB @I412@
+1 WIFE @I411@
+0 @F346@ FAM
+1 REFN F346
+1 HUSB @I413@
+0 @F347@ FAM
+1 REFN F347
+1 HUSB @I410@
+1 CHIL @I1414@
+1 CHIL @I413@
+1 CHIL @I414@
+1 CHIL @I415@
+0 @F348@ FAM
+1 REFN F348
+1 HUSB @I414@
+0 @F349@ FAM
+1 REFN F349
+1 HUSB @I415@
+0 @F350@ FAM
+1 REFN F350
+1 HUSB @I416@
+1 WIFE @I955@
+1 CHIL @I423@
+1 CHIL @I424@
+1 CHIL @I425@
+1 CHIL @I426@
+1 CHIL @I427@
+0 @F351@ FAM
+1 REFN F351
+1 HUSB @I416@
+1 WIFE @I1289@
+1 CHIL @I417@
+1 CHIL @I418@
+1 CHIL @I420@
+1 CHIL @I420@
+1 CHIL @I422@
+0 @F352@ FAM
+1 REFN F352
+1 HUSB @I417@
+0 @F353@ FAM
+1 REFN F353
+1 HUSB @I419@
+1 WIFE @I418@
+0 @F354@ FAM
+1 REFN F354
+1 HUSB @I420@
+1 WIFE @I824@
+0 @F355@ FAM
+1 REFN F355
+1 HUSB @I421@
+0 @F356@ FAM
+1 REFN F356
+1 HUSB @I420@
+1 CHIL @I421@
+0 @F357@ FAM
+1 REFN F357
+1 HUSB @I422@
+0 @F358@ FAM
+1 REFN F358
+1 HUSB @I423@
+0 @F359@ FAM
+1 REFN F359
+1 HUSB @I424@
+0 @F360@ FAM
+1 REFN F360
+1 WIFE @I425@
+0 @F361@ FAM
+1 REFN F361
+1 WIFE @I426@
+0 @F362@ FAM
+1 REFN F362
+1 WIFE @I427@
+0 @F363@ FAM
+1 REFN F363
+1 WIFE @I428@
+0 @F364@ FAM
+1 REFN F364
+1 WIFE @I429@
+0 @F365@ FAM
+1 REFN F365
+1 HUSB @I430@
+1 WIFE @I431@
+1 CHIL @I435@
+1 CHIL @I432@
+1 CHIL @I433@
+0 @F366@ FAM
+1 REFN F366
+1 HUSB @I432@
+0 @F367@ FAM
+1 REFN F367
+1 HUSB @I433@
+0 @F368@ FAM
+1 REFN F368
+1 HUSB @I436@
+0 @F369@ FAM
+1 REFN F369
+1 HUSB @I1437@
+1 CHIL @I436@
+1 CHIL @I437@
+0 @F370@ FAM
+1 REFN F370
+1 HUSB @I437@
+1 WIFE @I438@
+1 CHIL @I439@
+1 CHIL @I441@
+0 @F371@ FAM
+1 REFN F371
+1 HUSB @I439@
+1 WIFE @I440@
+0 @F372@ FAM
+1 REFN F372
+1 HUSB @I441@
+1 WIFE @I442@
+1 CHIL @I446@
+1 CHIL @I489@
+1 CHIL @I443@
+1 CHIL @I445@
+1 CHIL @I446@
+1 CHIL @I446@
+1 CHIL @I490@
+1 CHIL @I491@
+1 CHIL @I492@
+1 CHIL @I501@
+0 @F373@ FAM
+1 REFN F373
+1 HUSB @I444@
+1 WIFE @I443@
+0 @F374@ FAM
+1 REFN F374
+1 HUSB @I584@
+1 WIFE @I445@
+1 CHIL @I586@
+1 CHIL @I597@
+1 CHIL @I596@
+1 CHIL @I597@
+1 CHIL @I611@
+0 @F375@ FAM
+1 REFN F375
+1 HUSB @I446@
+1 WIFE @I447@
+0 @F376@ FAM
+1 REFN F376
+1 HUSB @I446@
+1 WIFE @I613@
+0 @F377@ FAM
+1 REFN F377
+1 HUSB @I450@
+1 WIFE @I449@
+0 @F378@ FAM
+1 REFN F378
+1 HUSB @I708@
+1 WIFE @I451@
+1 CHIL @I709@
+1 CHIL @I710@
+1 CHIL @I711@
+1 CHIL @I712@
+1 CHIL @I713@
+0 @F379@ FAM
+1 REFN F379
+1 HUSB @I452@
+1 WIFE @I453@
+0 @F380@ FAM
+1 REFN F380
+1 HUSB @I452@
+1 WIFE @I921@
+1 CHIL @I1453@
+1 CHIL @I455@
+1 CHIL @I457@
+1 CHIL @I458@
+1 CHIL @I460@
+1 CHIL @I462@
+1 CHIL @I463@
+1 CHIL @I464@
+1 CHIL @I465@
+1 CHIL @I1348@
+0 @F381@ FAM
+1 REFN F381
+1 HUSB @I454@
+1 WIFE @I1453@
+0 @F382@ FAM
+1 REFN F382
+1 HUSB @I455@
+1 WIFE @I456@
+0 @F383@ FAM
+1 REFN F383
+1 HUSB @I457@
+0 @F384@ FAM
+1 REFN F384
+1 HUSB @I459@
+1 WIFE @I458@
+0 @F385@ FAM
+1 REFN F385
+1 HUSB @I461@
+1 WIFE @I460@
+0 @F386@ FAM
+1 REFN F386
+1 WIFE @I462@
+0 @F387@ FAM
+1 REFN F387
+1 HUSB @I463@
+0 @F388@ FAM
+1 REFN F388
+1 WIFE @I464@
+0 @F389@ FAM
+1 REFN F389
+1 HUSB @I465@
+0 @F390@ FAM
+1 REFN F390
+1 HUSB @I466@
+1 WIFE @I467@
+0 @F391@ FAM
+1 REFN F391
+1 HUSB @I471@
+1 WIFE @I475@
+0 @F392@ FAM
+1 REFN F392
+1 HUSB @I476@
+0 @F393@ FAM
+1 REFN F393
+1 HUSB @I617@
+1 WIFE @I477@
+1 CHIL @I618@
+1 CHIL @I619@
+1 CHIL @I620@
+1 CHIL @I621@
+1 CHIL @I622@
+0 @F394@ FAM
+1 REFN F394
+1 HUSB @I479@
+1 WIFE @I478@
+0 @F395@ FAM
+1 REFN F395
+1 HUSB @I481@
+0 @F396@ FAM
+1 REFN F396
+1 WIFE @I482@
+0 @F397@ FAM
+1 REFN F397
+1 WIFE @I483@
+0 @F398@ FAM
+1 REFN F398
+1 WIFE @I484@
+0 @F399@ FAM
+1 REFN F399
+1 HUSB @I485@
+0 @F400@ FAM
+1 REFN F400
+1 HUSB @I486@
+0 @F401@ FAM
+1 REFN F401
+1 WIFE @I487@
+0 @F402@ FAM
+1 REFN F402
+1 HUSB @I488@
+0 @F403@ FAM
+1 REFN F403
+1 HUSB @I1392@
+1 WIFE @I490@
+0 @F404@ FAM
+1 REFN F404
+1 HUSB @I521@
+1 WIFE @I491@
+1 CHIL @I522@
+1 CHIL @I522@
+1 CHIL @I528@
+0 @F405@ FAM
+1 REFN F405
+1 HUSB @I492@
+1 WIFE @I530@
+1 CHIL @I493@
+1 CHIL @I493@
+1 CHIL @I495@
+1 CHIL @I496@
+1 CHIL @I497@
+1 CHIL @I498@
+1 CHIL @I499@
+1 CHIL @I500@
+0 @F406@ FAM
+1 REFN F406
+1 HUSB @I493@
+1 WIFE @I1393@
+0 @F407@ FAM
+1 REFN F407
+1 HUSB @I1392@
+1 CHIL @I1393@
+0 @F408@ FAM
+1 REFN F408
+1 HUSB @I493@
+0 @F409@ FAM
+1 REFN F409
+1 HUSB @I495@
+0 @F410@ FAM
+1 REFN F410
+1 HUSB @I496@
+0 @F411@ FAM
+1 REFN F411
+1 HUSB @I497@
+0 @F412@ FAM
+1 REFN F412
+1 HUSB @I498@
+0 @F413@ FAM
+1 REFN F413
+1 HUSB @I499@
+0 @F414@ FAM
+1 REFN F414
+1 HUSB @I500@
+0 @F415@ FAM
+1 REFN F415
+1 HUSB @I501@
+1 WIFE @I502@
+1 CHIL @I503@
+1 CHIL @I504@
+0 @F416@ FAM
+1 REFN F416
+1 HUSB @I503@
+0 @F417@ FAM
+1 REFN F417
+1 WIFE @I504@
+0 @F418@ FAM
+1 REFN F418
+1 HUSB @I507@
+1 WIFE @I508@
+1 CHIL @I509@
+0 @F419@ FAM
+1 REFN F419
+1 HUSB @I509@
+1 WIFE @I512@
+1 CHIL @I513@
+1 CHIL @I514@
+1 CHIL @I1438@
+0 @F420@ FAM
+1 REFN F420
+1 HUSB @I510@
+1 WIFE @I511@
+1 CHIL @I512@
+0 @F421@ FAM
+1 REFN F421
+1 HUSB @I513@
+0 @F422@ FAM
+1 REFN F422
+1 HUSB @I514@
+1 WIFE @I515@
+1 CHIL @I1337@
+1 CHIL @I516@
+1 CHIL @I517@
+1 CHIL @I1337@
+1 CHIL @I1439@
+1 CHIL @I1440@
+1 CHIL @I1441@
+1 CHIL @I1441@
+0 @F423@ FAM
+1 REFN F423
+1 HUSB @I516@
+0 @F424@ FAM
+1 REFN F424
+1 HUSB @I517@
+1 WIFE @I1444@
+1 CHIL @I1346@
+1 CHIL @I519@
+1 CHIL @I584@
+1 CHIL @I519@
+1 CHIL @I519@
+1 CHIL @I532@
+1 CHIL @I584@
+1 CHIL @I612@
+1 CHIL @I1345@
+0 @F425@ FAM
+1 REFN F425
+1 HUSB @I519@
+1 WIFE @I518@
+0 @F426@ FAM
+1 REFN F426
+1 HUSB @I519@
+1 WIFE @I666@
+1 CHIL @I521@
+1 CHIL @I530@
+1 CHIL @I521@
+1 CHIL @I531@
+0 @F427@ FAM
+1 REFN F427
+1 HUSB @I539@
+1 WIFE @I520@
+1 CHIL @I540@
+1 CHIL @I541@
+1 CHIL @I542@
+1 CHIL @I543@
+1 CHIL @I544@
+1 CHIL @I545@
+0 @F428@ FAM
+1 REFN F428
+1 HUSB @I521@
+1 WIFE @I581@
+1 CHIL @I555@
+0 @F429@ FAM
+1 REFN F429
+1 HUSB @I522@
+1 WIFE @I923@
+1 CHIL @I525@
+1 CHIL @I526@
+1 CHIL @I527@
+0 @F430@ FAM
+1 REFN F430
+1 HUSB @I522@
+1 WIFE @I1373@
+1 CHIL @I523@
+0 @F431@ FAM
+1 REFN F431
+1 HUSB @I523@
+1 WIFE @I524@
+0 @F432@ FAM
+1 REFN F432
+1 WIFE @I525@
+0 @F433@ FAM
+1 REFN F433
+1 HUSB @I526@
+0 @F434@ FAM
+1 REFN F434
+1 HUSB @I527@
+0 @F435@ FAM
+1 REFN F435
+1 HUSB @I529@
+1 WIFE @I528@
+0 @F436@ FAM
+1 REFN F436
+1 HUSB @I565@
+1 WIFE @I531@
+1 CHIL @I566@
+1 CHIL @I573@
+1 CHIL @I575@
+1 CHIL @I576@
+1 CHIL @I578@
+1 CHIL @I579@
+1 CHIL @I580@
+0 @F437@ FAM
+1 REFN F437
+1 HUSB @I532@
+1 WIFE @I533@
+1 CHIL @I583@
+1 CHIL @I581@
+1 CHIL @I565@
+1 CHIL @I534@
+1 CHIL @I581@
+0 @F438@ FAM
+1 REFN F438
+1 HUSB @I534@
+1 WIFE @I535@
+1 CHIL @I537@
+1 CHIL @I539@
+1 CHIL @I536@
+1 CHIL @I538@
+1 CHIL @I546@
+1 CHIL @I554@
+1 CHIL @I556@
+1 CHIL @I558@
+1 CHIL @I560@
+1 CHIL @I561@
+1 CHIL @I562@
+1 CHIL @I563@
+1 CHIL @I564@
+0 @F439@ FAM
+1 REFN F439
+1 HUSB @I536@
+1 WIFE @I1481@
+0 @F440@ FAM
+1 REFN F440
+1 HUSB @I1467@
+1 WIFE @I538@
+0 @F441@ FAM
+1 REFN F441
+1 HUSB @I540@
+0 @F442@ FAM
+1 REFN F442
+1 HUSB @I541@
+0 @F443@ FAM
+1 REFN F443
+1 WIFE @I542@
+0 @F444@ FAM
+1 REFN F444
+1 HUSB @I543@
+0 @F445@ FAM
+1 REFN F445
+1 WIFE @I544@
+0 @F446@ FAM
+1 REFN F446
+1 WIFE @I545@
+0 @F447@ FAM
+1 REFN F447
+1 HUSB @I546@
+1 WIFE @I1356@
+1 CHIL @I547@
+1 CHIL @I548@
+1 CHIL @I549@
+1 CHIL @I550@
+1 CHIL @I551@
+1 CHIL @I552@
+1 CHIL @I553@
+0 @F448@ FAM
+1 REFN F448
+1 WIFE @I547@
+0 @F449@ FAM
+1 REFN F449
+1 WIFE @I548@
+0 @F450@ FAM
+1 REFN F450
+1 HUSB @I549@
+0 @F451@ FAM
+1 REFN F451
+1 WIFE @I550@
+0 @F452@ FAM
+1 REFN F452
+1 WIFE @I551@
+0 @F453@ FAM
+1 REFN F453
+1 HUSB @I552@
+0 @F454@ FAM
+1 REFN F454
+1 HUSB @I553@
+0 @F455@ FAM
+1 REFN F455
+1 HUSB @I554@
+1 WIFE @I555@
+1 CHIL @I1434@
+1 CHIL @I1435@
+1 CHIL @I1436@
+0 @F456@ FAM
+1 REFN F456
+1 HUSB @I1434@
+0 @F457@ FAM
+1 REFN F457
+1 WIFE @I1435@
+0 @F458@ FAM
+1 REFN F458
+1 HUSB @I1436@
+0 @F459@ FAM
+1 REFN F459
+1 HUSB @I557@
+1 WIFE @I556@
+0 @F460@ FAM
+1 REFN F460
+1 HUSB @I559@
+1 WIFE @I558@
+0 @F461@ FAM
+1 REFN F461
+1 WIFE @I560@
+0 @F462@ FAM
+1 REFN F462
+1 WIFE @I561@
+0 @F463@ FAM
+1 REFN F463
+1 WIFE @I562@
+0 @F464@ FAM
+1 REFN F464
+1 WIFE @I563@
+0 @F465@ FAM
+1 REFN F465
+1 HUSB @I564@
+1 WIFE @I600@
+0 @F466@ FAM
+1 REFN F466
+1 HUSB @I566@
+1 WIFE @I598@
+1 CHIL @I567@
+1 CHIL @I568@
+1 CHIL @I569@
+1 CHIL @I570@
+1 CHIL @I571@
+1 CHIL @I572@
+0 @F467@ FAM
+1 REFN F467
+1 WIFE @I567@
+0 @F468@ FAM
+1 REFN F468
+1 HUSB @I568@
+0 @F469@ FAM
+1 REFN F469
+1 HUSB @I569@
+0 @F470@ FAM
+1 REFN F470
+1 WIFE @I570@
+0 @F471@ FAM
+1 REFN F471
+1 HUSB @I571@
+0 @F472@ FAM
+1 REFN F472
+1 WIFE @I572@
+0 @F473@ FAM
+1 REFN F473
+1 HUSB @I574@
+1 WIFE @I573@
+0 @F474@ FAM
+1 REFN F474
+1 HUSB @I1468@
+1 WIFE @I575@
+0 @F475@ FAM
+1 REFN F475
+1 HUSB @I577@
+1 WIFE @I576@
+0 @F476@ FAM
+1 REFN F476
+1 WIFE @I578@
+0 @F477@ FAM
+1 REFN F477
+1 HUSB @I579@
+0 @F478@ FAM
+1 REFN F478
+1 HUSB @I580@
+0 @F479@ FAM
+1 REFN F479
+1 HUSB @I582@
+1 WIFE @I581@
+0 @F480@ FAM
+1 REFN F480
+1 HUSB @I584@
+1 WIFE @I585@
+0 @F481@ FAM
+1 REFN F481
+1 HUSB @I588@
+1 WIFE @I587@
+1 CHIL @I1432@
+1 CHIL @I1433@
+0 @F482@ FAM
+1 REFN F482
+1 WIFE @I589@
+0 @F483@ FAM
+1 REFN F483
+1 WIFE @I590@
+0 @F484@ FAM
+1 REFN F484
+1 HUSB @I591@
+1 WIFE @I1358@
+0 @F485@ FAM
+1 REFN F485
+1 HUSB @I592@
+0 @F486@ FAM
+1 REFN F486
+1 WIFE @I593@
+0 @F487@ FAM
+1 REFN F487
+1 HUSB @I594@
+0 @F488@ FAM
+1 REFN F488
+1 HUSB @I595@
+0 @F489@ FAM
+1 REFN F489
+1 HUSB @I596@
+0 @F490@ FAM
+1 REFN F490
+1 HUSB @I597@
+1 WIFE @I599@
+1 CHIL @I606@
+1 CHIL @I607@
+1 CHIL @I608@
+1 CHIL @I609@
+1 CHIL @I610@
+1 CHIL @I1431@
+0 @F491@ FAM
+1 REFN F491
+1 HUSB @I601@
+0 @F492@ FAM
+1 REFN F492
+1 HUSB @I602@
+0 @F493@ FAM
+1 REFN F493
+1 HUSB @I603@
+0 @F494@ FAM
+1 REFN F494
+1 WIFE @I604@
+0 @F495@ FAM
+1 REFN F495
+1 WIFE @I605@
+0 @F496@ FAM
+1 REFN F496
+1 WIFE @I1430@
+0 @F497@ FAM
+1 REFN F497
+1 HUSB @I606@
+0 @F498@ FAM
+1 REFN F498
+1 WIFE @I607@
+0 @F499@ FAM
+1 REFN F499
+1 HUSB @I608@
+0 @F500@ FAM
+1 REFN F500
+1 WIFE @I609@
+0 @F501@ FAM
+1 REFN F501
+1 HUSB @I610@
+0 @F502@ FAM
+1 REFN F502
+1 HUSB @I1431@
+0 @F503@ FAM
+1 REFN F503
+1 WIFE @I611@
+0 @F504@ FAM
+1 REFN F504
+1 HUSB @I612@
+1 WIFE @I613@
+1 CHIL @I617@
+1 CHIL @I614@
+1 CHIL @I615@
+1 CHIL @I624@
+1 CHIL @I626@
+0 @F505@ FAM
+1 REFN F505
+1 HUSB @I1403@
+1 CHIL @I613@
+1 CHIL @I613@
+0 @F506@ FAM
+1 REFN F506
+1 HUSB @I1469@
+1 WIFE @I614@
+0 @F507@ FAM
+1 REFN F507
+1 HUSB @I616@
+1 WIFE @I615@
+0 @F508@ FAM
+1 REFN F508
+1 WIFE @I618@
+0 @F509@ FAM
+1 REFN F509
+1 HUSB @I619@
+0 @F510@ FAM
+1 REFN F510
+1 HUSB @I620@
+0 @F511@ FAM
+1 REFN F511
+1 WIFE @I621@
+0 @F512@ FAM
+1 REFN F512
+1 HUSB @I622@
+0 @F513@ FAM
+1 REFN F513
+1 HUSB @I625@
+1 WIFE @I624@
+0 @F514@ FAM
+1 REFN F514
+1 HUSB @I626@
+1 WIFE @I627@
+1 CHIL @I628@
+1 CHIL @I629@
+1 CHIL @I1425@
+1 CHIL @I1426@
+1 CHIL @I1427@
+1 CHIL @I1428@
+1 CHIL @I1429@
+0 @F515@ FAM
+1 REFN F515
+1 HUSB @I628@
+0 @F516@ FAM
+1 REFN F516
+1 HUSB @I629@
+0 @F517@ FAM
+1 REFN F517
+1 HUSB @I1425@
+0 @F518@ FAM
+1 REFN F518
+1 WIFE @I1426@
+0 @F519@ FAM
+1 REFN F519
+1 WIFE @I1427@
+0 @F520@ FAM
+1 REFN F520
+1 HUSB @I1428@
+0 @F521@ FAM
+1 REFN F521
+1 WIFE @I1429@
+0 @F522@ FAM
+1 REFN F522
+1 HUSB @I631@
+1 WIFE @I632@
+1 CHIL @I633@
+0 @F523@ FAM
+1 REFN F523
+1 HUSB @I633@
+1 WIFE @I1249@
+0 @F524@ FAM
+1 REFN F524
+1 HUSB @I634@
+1 WIFE @I635@
+1 CHIL @I637@
+1 CHIL @I646@
+1 CHIL @I652@
+1 CHIL @I652@
+1 CHIL @I653@
+1 CHIL @I653@
+1 CHIL @I655@
+1 CHIL @I656@
+0 @F525@ FAM
+1 REFN F525
+1 HUSB @I637@
+1 WIFE @I1330@
+1 CHIL @I638@
+1 CHIL @I639@
+1 CHIL @I640@
+1 CHIL @I641@
+1 CHIL @I642@
+1 CHIL @I643@
+1 CHIL @I644@
+1 CHIL @I645@
+0 @F526@ FAM
+1 REFN F526
+1 HUSB @I638@
+0 @F527@ FAM
+1 REFN F527
+1 WIFE @I639@
+0 @F528@ FAM
+1 REFN F528
+1 HUSB @I640@
+0 @F529@ FAM
+1 REFN F529
+1 WIFE @I641@
+0 @F530@ FAM
+1 REFN F530
+1 HUSB @I642@
+0 @F531@ FAM
+1 REFN F531
+1 HUSB @I643@
+0 @F532@ FAM
+1 REFN F532
+1 WIFE @I644@
+0 @F533@ FAM
+1 REFN F533
+1 HUSB @I645@
+0 @F534@ FAM
+1 REFN F534
+1 HUSB @I646@
+1 WIFE @I647@
+1 CHIL @I648@
+1 CHIL @I649@
+1 CHIL @I650@
+1 CHIL @I651@
+0 @F535@ FAM
+1 REFN F535
+1 WIFE @I648@
+0 @F536@ FAM
+1 REFN F536
+1 HUSB @I649@
+0 @F537@ FAM
+1 REFN F537
+1 HUSB @I650@
+0 @F538@ FAM
+1 REFN F538
+1 WIFE @I651@
+0 @F539@ FAM
+1 REFN F539
+1 HUSB @I840@
+1 WIFE @I652@
+1 CHIL @I841@
+1 CHIL @I842@
+1 CHIL @I843@
+1 CHIL @I844@
+1 CHIL @I845@
+1 CHIL @I846@
+1 CHIL @I851@
+1 CHIL @I853@
+1 CHIL @I854@
+0 @F540@ FAM
+1 REFN F540
+1 HUSB @I818@
+1 WIFE @I652@
+1 CHIL @I837@
+1 CHIL @I838@
+1 CHIL @I839@
+0 @F541@ FAM
+1 REFN F541
+1 HUSB @I654@
+1 WIFE @I653@
+0 @F542@ FAM
+1 REFN F542
+1 HUSB @I1319@
+1 WIFE @I653@
+1 CHIL @I1321@
+1 CHIL @I1322@
+1 CHIL @I1323@
+1 CHIL @I1325@
+1 CHIL @I1326@
+1 CHIL @I1327@
+1 CHIL @I1328@
+1 CHIL @I1329@
+0 @F543@ FAM
+1 REFN F543
+1 HUSB @I1305@
+1 WIFE @I655@
+1 CHIL @I1306@
+1 CHIL @I1312@
+1 CHIL @I1313@
+1 CHIL @I1314@
+1 CHIL @I1315@
+1 CHIL @I1316@
+1 CHIL @I1317@
+1 CHIL @I1318@
+0 @F544@ FAM
+1 REFN F544
+1 HUSB @I794@
+1 WIFE @I656@
+1 CHIL @I795@
+1 CHIL @I799@
+1 CHIL @I800@
+1 CHIL @I805@
+1 CHIL @I806@
+1 CHIL @I807@
+0 @F545@ FAM
+1 REFN F545
+1 HUSB @I1304@
+1 WIFE @I657@
+1 CHIL @I1330@
+1 CHIL @I1319@
+1 CHIL @I1305@
+1 CHIL @I1331@
+0 @F546@ FAM
+1 REFN F546
+1 HUSB @I658@
+0 @F547@ FAM
+1 REFN F547
+1 HUSB @I659@
+1 WIFE @I660@
+1 CHIL @I661@
+1 CHIL @I716@
+0 @F548@ FAM
+1 REFN F548
+1 HUSB @I661@
+1 WIFE @I662@
+1 CHIL @I663@
+1 CHIL @I665@
+1 CHIL @I1370@
+1 CHIL @I1372@
+1 CHIL @I1377@
+0 @F549@ FAM
+1 REFN F549
+1 HUSB @I663@
+1 WIFE @I664@
+0 @F550@ FAM
+1 REFN F550
+1 HUSB @I665@
+1 WIFE @I1012@
+1 CHIL @I666@
+1 CHIL @I667@
+1 CHIL @I693@
+0 @F551@ FAM
+1 REFN F551
+1 HUSB @I1370@
+0 @F552@ FAM
+1 REFN F552
+1 WIFE @I1372@
+0 @F553@ FAM
+1 REFN F553
+1 HUSB @I667@
+1 WIFE @I1345@
+1 CHIL @I674@
+1 CHIL @I691@
+1 CHIL @I668@
+1 CHIL @I672@
+1 CHIL @I673@
+1 CHIL @I674@
+1 CHIL @I675@
+1 CHIL @I675@
+1 CHIL @I677@
+1 CHIL @I690@
+1 CHIL @I691@
+0 @F554@ FAM
+1 REFN F554
+1 HUSB @I668@
+1 WIFE @I669@
+1 CHIL @I670@
+1 CHIL @I671@
+0 @F555@ FAM
+1 REFN F555
+1 HUSB @I678@
+1 WIFE @I670@
+1 CHIL @I679@
+1 CHIL @I680@
+1 CHIL @I681@
+1 CHIL @I1415@
+1 CHIL @I682@
+1 CHIL @I1471@
+0 @F556@ FAM
+1 REFN F556
+1 HUSB @I683@
+1 WIFE @I671@
+0 @F557@ FAM
+1 REFN F557
+1 HUSB @I672@
+0 @F558@ FAM
+1 REFN F558
+1 HUSB @I1470@
+1 WIFE @I673@
+0 @F559@ FAM
+1 REFN F559
+1 HUSB @I1062@
+1 WIFE @I674@
+0 @F560@ FAM
+1 REFN F560
+1 HUSB @I676@
+1 WIFE @I675@
+0 @F561@ FAM
+1 REFN F561
+1 HUSB @I1128@
+1 WIFE @I675@
+1 CHIL @I1129@
+1 CHIL @I1131@
+1 CHIL @I1132@
+0 @F562@ FAM
+1 REFN F562
+1 HUSB @I677@
+1 WIFE @I1030@
+1 CHIL @I678@
+1 CHIL @I683@
+1 CHIL @I684@
+1 CHIL @I685@
+1 CHIL @I686@
+1 CHIL @I687@
+1 CHIL @I688@
+1 CHIL @I689@
+0 @F563@ FAM
+1 REFN F563
+1 HUSB @I679@
+0 @F564@ FAM
+1 REFN F564
+1 HUSB @I680@
+0 @F565@ FAM
+1 REFN F565
+1 WIFE @I681@
+0 @F566@ FAM
+1 REFN F566
+1 HUSB @I1415@
+0 @F567@ FAM
+1 REFN F567
+1 HUSB @I682@
+0 @F568@ FAM
+1 REFN F568
+1 HUSB @I1471@
+0 @F569@ FAM
+1 REFN F569
+1 HUSB @I684@
+0 @F570@ FAM
+1 REFN F570
+1 HUSB @I685@
+0 @F571@ FAM
+1 REFN F571
+1 WIFE @I686@
+0 @F572@ FAM
+1 REFN F572
+1 WIFE @I687@
+0 @F573@ FAM
+1 REFN F573
+1 HUSB @I688@
+0 @F574@ FAM
+1 REFN F574
+1 HUSB @I689@
+0 @F575@ FAM
+1 REFN F575
+1 HUSB @I696@
+1 WIFE @I690@
+1 CHIL @I697@
+1 CHIL @I698@
+1 CHIL @I699@
+1 CHIL @I701@
+1 CHIL @I702@
+1 CHIL @I703@
+0 @F576@ FAM
+1 REFN F576
+1 HUSB @I692@
+1 WIFE @I691@
+0 @F577@ FAM
+1 REFN F577
+1 HUSB @I693@
+1 WIFE @I694@
+1 CHIL @I708@
+1 CHIL @I696@
+1 CHIL @I695@
+1 CHIL @I704@
+1 CHIL @I714@
+1 CHIL @I715@
+1 CHIL @I1473@
+0 @F578@ FAM
+1 REFN F578
+1 HUSB @I695@
+0 @F579@ FAM
+1 REFN F579
+1 HUSB @I697@
+1 WIFE @I848@
+0 @F580@ FAM
+1 REFN F580
+1 HUSB @I975@
+1 WIFE @I698@
+1 CHIL @I976@
+0 @F581@ FAM
+1 REFN F581
+1 HUSB @I700@
+1 WIFE @I699@
+0 @F582@ FAM
+1 REFN F582
+1 HUSB @I1173@
+1 WIFE @I701@
+1 CHIL @I1175@
+1 CHIL @I1176@
+0 @F583@ FAM
+1 REFN F583
+1 WIFE @I702@
+0 @F584@ FAM
+1 REFN F584
+1 WIFE @I703@
+0 @F585@ FAM
+1 REFN F585
+1 HUSB @I704@
+1 WIFE @I705@
+1 CHIL @I706@
+0 @F586@ FAM
+1 REFN F586
+1 WIFE @I706@
+0 @F587@ FAM
+1 REFN F587
+1 WIFE @I709@
+0 @F588@ FAM
+1 REFN F588
+1 HUSB @I710@
+0 @F589@ FAM
+1 REFN F589
+1 HUSB @I711@
+0 @F590@ FAM
+1 REFN F590
+1 HUSB @I712@
+0 @F591@ FAM
+1 REFN F591
+1 HUSB @I713@
+0 @F592@ FAM
+1 REFN F592
+1 HUSB @I1472@
+1 WIFE @I714@
+0 @F593@ FAM
+1 REFN F593
+1 HUSB @I715@
+0 @F594@ FAM
+1 REFN F594
+1 HUSB @I1473@
+0 @F595@ FAM
+1 REFN F595
+1 HUSB @I716@
+1 WIFE @I1151@
+1 CHIL @I1061@
+1 CHIL @I1147@
+1 CHIL @I867@
+1 CHIL @I1013@
+1 CHIL @I1148@
+1 CHIL @I718@
+1 CHIL @I1012@
+1 CHIL @I719@
+1 CHIL @I784@
+1 CHIL @I784@
+1 CHIL @I866@
+1 CHIL @I868@
+1 CHIL @I1060@
+1 CHIL @I1127@
+0 @F596@ FAM
+1 REFN F596
+1 HUSB @I719@
+1 WIFE @I720@
+1 CHIL @I721@
+1 CHIL @I748@
+1 CHIL @I766@
+1 CHIL @I768@
+1 CHIL @I768@
+0 @F597@ FAM
+1 REFN F597
+1 HUSB @I721@
+1 WIFE @I722@
+1 CHIL @I723@
+1 CHIL @I724@
+1 CHIL @I725@
+1 CHIL @I726@
+1 CHIL @I727@
+1 CHIL @I734@
+1 CHIL @I740@
+1 CHIL @I1374@
+0 @F598@ FAM
+1 REFN F598
+1 HUSB @I1364@
+1 WIFE @I724@
+0 @F599@ FAM
+1 REFN F599
+1 HUSB @I1363@
+1 WIFE @I725@
+0 @F600@ FAM
+1 REFN F600
+1 HUSB @I761@
+1 WIFE @I726@
+1 CHIL @I762@
+0 @F601@ FAM
+1 REFN F601
+1 HUSB @I727@
+1 WIFE @I728@
+0 @F602@ FAM
+1 REFN F602
+1 HUSB @I1375@
+1 CHIL @I728@
+1 CHIL @I741@
+0 @F603@ FAM
+1 REFN F603
+1 HUSB @I734@
+1 WIFE @I759@
+0 @F604@ FAM
+1 REFN F604
+1 HUSB @I740@
+1 WIFE @I741@
+1 CHIL @I742@
+1 CHIL @I743@
+1 CHIL @I744@
+1 CHIL @I745@
+0 @F605@ FAM
+1 REFN F605
+1 HUSB @I742@
+0 @F606@ FAM
+1 REFN F606
+1 HUSB @I743@
+0 @F607@ FAM
+1 REFN F607
+1 HUSB @I744@
+0 @F608@ FAM
+1 REFN F608
+1 HUSB @I745@
+0 @F609@ FAM
+1 REFN F609
+1 HUSB @I748@
+1 WIFE @I749@
+1 CHIL @I758@
+1 CHIL @I760@
+1 CHIL @I761@
+1 CHIL @I759@
+1 CHIL @I750@
+1 CHIL @I753@
+0 @F610@ FAM
+1 REFN F610
+1 HUSB @I750@
+1 WIFE @I751@
+1 CHIL @I752@
+1 CHIL @I1416@
+1 CHIL @I754@
+0 @F611@ FAM
+1 REFN F611
+1 HUSB @I752@
+0 @F612@ FAM
+1 REFN F612
+1 HUSB @I1416@
+0 @F613@ FAM
+1 REFN F613
+1 HUSB @I1374@
+1 WIFE @I753@
+0 @F614@ FAM
+1 REFN F614
+1 HUSB @I755@
+1 WIFE @I754@
+0 @F615@ FAM
+1 REFN F615
+1 HUSB @I762@
+0 @F616@ FAM
+1 REFN F616
+1 HUSB @I766@
+1 WIFE @I817@
+1 CHIL @I767@
+0 @F617@ FAM
+1 REFN F617
+1 HUSB @I767@
+1 WIFE @I824@
+0 @F618@ FAM
+1 REFN F618
+1 WIFE @I824@
+0 @F619@ FAM
+1 REFN F619
+1 HUSB @I814@
+1 CHIL @I824@
+0 @F620@ FAM
+1 REFN F620
+1 HUSB @I768@
+1 WIFE @I1482@
+0 @F621@ FAM
+1 REFN F621
+1 HUSB @I768@
+1 CHIL @I783@
+1 CHIL @I777@
+1 CHIL @I769@
+1 CHIL @I770@
+1 CHIL @I779@
+1 CHIL @I781@
+1 CHIL @I782@
+1 CHIL @I783@
+0 @F622@ FAM
+1 REFN F622
+1 HUSB @I770@
+1 WIFE @I771@
+0 @F623@ FAM
+1 REFN F623
+1 HUSB @I779@
+1 WIFE @I780@
+0 @F624@ FAM
+1 REFN F624
+1 HUSB @I781@
+1 WIFE @I1483@
+0 @F625@ FAM
+1 REFN F625
+1 HUSB @I1264@
+1 WIFE @I782@
+0 @F626@ FAM
+1 REFN F626
+1 HUSB @I1256@
+1 WIFE @I783@
+1 CHIL @I1258@
+1 CHIL @I1261@
+0 @F627@ FAM
+1 REFN F627
+1 HUSB @I784@
+1 WIFE @I1413@
+1 CHIL @I865@
+1 CHIL @I865@
+1 CHIL @I818@
+1 CHIL @I840@
+1 CHIL @I818@
+1 CHIL @I817@
+1 CHIL @I785@
+1 CHIL @I818@
+1 CHIL @I855@
+1 CHIL @I864@
+0 @F628@ FAM
+1 REFN F628
+1 HUSB @I785@
+1 WIFE @I1358@
+1 CHIL @I794@
+1 CHIL @I786@
+1 CHIL @I808@
+1 CHIL @I808@
+1 CHIL @I816@
+0 @F629@ FAM
+1 REFN F629
+1 HUSB @I1376@
+0 @F630@ FAM
+1 REFN F630
+1 HUSB @I784@
+1 CHIL @I1376@
+0 @F631@ FAM
+1 REFN F631
+1 HUSB @I786@
+1 WIFE @I1203@
+1 CHIL @I787@
+1 CHIL @I788@
+1 CHIL @I789@
+1 CHIL @I790@
+1 CHIL @I791@
+1 CHIL @I792@
+1 CHIL @I793@
+0 @F632@ FAM
+1 REFN F632
+1 HUSB @I899@
+1 WIFE @I787@
+1 CHIL @I900@
+1 CHIL @I901@
+0 @F633@ FAM
+1 REFN F633
+1 WIFE @I788@
+0 @F634@ FAM
+1 REFN F634
+1 HUSB @I789@
+0 @F635@ FAM
+1 REFN F635
+1 HUSB @I790@
+0 @F636@ FAM
+1 REFN F636
+1 HUSB @I791@
+0 @F637@ FAM
+1 REFN F637
+1 HUSB @I792@
+0 @F638@ FAM
+1 REFN F638
+1 WIFE @I793@
+0 @F639@ FAM
+1 REFN F639
+1 HUSB @I795@
+1 WIFE @I796@
+1 CHIL @I797@
+1 CHIL @I798@
+0 @F640@ FAM
+1 REFN F640
+1 WIFE @I797@
+0 @F641@ FAM
+1 REFN F641
+1 WIFE @I798@
+0 @F642@ FAM
+1 REFN F642
+1 HUSB @I799@
+0 @F643@ FAM
+1 REFN F643
+1 HUSB @I800@
+1 WIFE @I801@
+1 CHIL @I802@
+1 CHIL @I803@
+1 CHIL @I804@
+0 @F644@ FAM
+1 REFN F644
+1 WIFE @I802@
+0 @F645@ FAM
+1 REFN F645
+1 HUSB @I803@
+0 @F646@ FAM
+1 REFN F646
+1 WIFE @I804@
+0 @F647@ FAM
+1 REFN F647
+1 WIFE @I805@
+0 @F648@ FAM
+1 REFN F648
+1 WIFE @I806@
+0 @F649@ FAM
+1 REFN F649
+1 HUSB @I807@
+0 @F650@ FAM
+1 REFN F650
+1 HUSB @I808@
+1 WIFE @I812@
+1 CHIL @I814@
+1 CHIL @I813@
+1 CHIL @I815@
+0 @F651@ FAM
+1 REFN F651
+1 HUSB @I808@
+1 WIFE @I823@
+1 CHIL @I810@
+1 CHIL @I811@
+0 @F652@ FAM
+1 REFN F652
+1 WIFE @I809@
+0 @F653@ FAM
+1 REFN F653
+1 WIFE @I810@
+0 @F654@ FAM
+1 REFN F654
+1 WIFE @I811@
+0 @F655@ FAM
+1 REFN F655
+1 WIFE @I813@
+0 @F656@ FAM
+1 REFN F656
+1 WIFE @I815@
+0 @F657@ FAM
+1 REFN F657
+1 HUSB @I819@
+1 WIFE @I816@
+1 CHIL @I820@
+1 CHIL @I821@
+1 CHIL @I822@
+0 @F658@ FAM
+1 REFN F658
+1 HUSB @I818@
+1 WIFE @I894@
+1 CHIL @I824@
+1 CHIL @I824@
+1 CHIL @I825@
+1 CHIL @I826@
+1 CHIL @I829@
+1 CHIL @I830@
+1 CHIL @I831@
+1 CHIL @I836@
+0 @F659@ FAM
+1 REFN F659
+1 HUSB @I820@
+0 @F660@ FAM
+1 REFN F660
+1 WIFE @I821@
+0 @F661@ FAM
+1 REFN F661
+1 HUSB @I822@
+0 @F662@ FAM
+1 REFN F662
+1 HUSB @I1474@
+1 WIFE @I825@
+0 @F663@ FAM
+1 REFN F663
+1 HUSB @I826@
+1 WIFE @I827@
+1 CHIL @I828@
+0 @F664@ FAM
+1 REFN F664
+1 WIFE @I828@
+0 @F665@ FAM
+1 REFN F665
+1 HUSB @I829@
+0 @F666@ FAM
+1 REFN F666
+1 HUSB @I830@
+0 @F667@ FAM
+1 REFN F667
+1 HUSB @I832@
+1 WIFE @I831@
+0 @F668@ FAM
+1 REFN F668
+1 WIFE @I836@
+0 @F669@ FAM
+1 REFN F669
+1 HUSB @I837@
+0 @F670@ FAM
+1 REFN F670
+1 HUSB @I838@
+0 @F671@ FAM
+1 REFN F671
+1 WIFE @I839@
+0 @F672@ FAM
+1 REFN F672
+1 HUSB @I1306@
+1 WIFE @I841@
+1 CHIL @I1307@
+1 CHIL @I1308@
+1 CHIL @I1309@
+1 CHIL @I1310@
+0 @F673@ FAM
+1 REFN F673
+1 HUSB @I1204@
+1 WIFE @I842@
+1 CHIL @I1205@
+1 CHIL @I1206@
+1 CHIL @I1207@
+1 CHIL @I1208@
+0 @F674@ FAM
+1 REFN F674
+1 HUSB @I926@
+1 WIFE @I843@
+1 CHIL @I927@
+1 CHIL @I928@
+1 CHIL @I929@
+0 @F675@ FAM
+1 REFN F675
+1 WIFE @I844@
+0 @F676@ FAM
+1 REFN F676
+1 WIFE @I845@
+0 @F677@ FAM
+1 REFN F677
+1 HUSB @I846@
+1 WIFE @I1312@
+1 CHIL @I848@
+1 CHIL @I847@
+0 @F678@ FAM
+1 REFN F678
+1 HUSB @I847@
+0 @F679@ FAM
+1 REFN F679
+1 HUSB @I851@
+1 WIFE @I946@
+1 CHIL @I852@
+0 @F680@ FAM
+1 REFN F680
+1 WIFE @I852@
+0 @F681@ FAM
+1 REFN F681
+1 HUSB @I853@
+0 @F682@ FAM
+1 REFN F682
+1 HUSB @I854@
+0 @F683@ FAM
+1 REFN F683
+1 HUSB @I855@
+1 WIFE @I879@
+1 CHIL @I856@
+1 CHIL @I857@
+1 CHIL @I858@
+1 CHIL @I861@
+1 CHIL @I862@
+1 CHIL @I863@
+0 @F684@ FAM
+1 REFN F684
+1 WIFE @I856@
+0 @F685@ FAM
+1 REFN F685
+1 HUSB @I897@
+1 WIFE @I857@
+1 CHIL @I909@
+0 @F686@ FAM
+1 REFN F686
+1 HUSB @I858@
+1 WIFE @I876@
+1 CHIL @I859@
+1 CHIL @I860@
+0 @F687@ FAM
+1 REFN F687
+1 HUSB @I859@
+0 @F688@ FAM
+1 REFN F688
+1 HUSB @I860@
+0 @F689@ FAM
+1 REFN F689
+1 WIFE @I861@
+0 @F690@ FAM
+1 REFN F690
+1 HUSB @I862@
+0 @F691@ FAM
+1 REFN F691
+1 HUSB @I863@
+0 @F692@ FAM
+1 REFN F692
+1 HUSB @I1171@
+1 WIFE @I864@
+1 CHIL @I1188@
+1 CHIL @I1214@
+1 CHIL @I1219@
+1 CHIL @I1223@
+0 @F693@ FAM
+1 REFN F693
+1 HUSB @I1230@
+1 WIFE @I866@
+1 CHIL @I1304@
+1 CHIL @I1273@
+1 CHIL @I1231@
+1 CHIL @I1231@
+1 CHIL @I1290@
+0 @F694@ FAM
+1 REFN F694
+1 HUSB @I868@
+1 WIFE @I1071@
+1 CHIL @I882@
+1 CHIL @I869@
+1 CHIL @I882@
+1 CHIL @I912@
+1 CHIL @I879@
+1 CHIL @I880@
+1 CHIL @I910@
+1 CHIL @I911@
+1 CHIL @I913@
+1 CHIL @I914@
+1 CHIL @I953@
+0 @F695@ FAM
+1 REFN F695
+1 WIFE @I871@
+0 @F696@ FAM
+1 REFN F696
+1 HUSB @I872@
+0 @F697@ FAM
+1 REFN F697
+1 WIFE @I873@
+0 @F698@ FAM
+1 REFN F698
+1 HUSB @I874@
+0 @F699@ FAM
+1 REFN F699
+1 WIFE @I875@
+0 @F700@ FAM
+1 REFN F700
+1 HUSB @I877@
+0 @F701@ FAM
+1 REFN F701
+1 WIFE @I878@
+0 @F702@ FAM
+1 REFN F702
+1 HUSB @I880@
+1 WIFE @I881@
+0 @F703@ FAM
+1 REFN F703
+1 HUSB @I884@
+1 WIFE @I885@
+0 @F704@ FAM
+1 REFN F704
+1 HUSB @I1404@
+1 CHIL @I885@
+1 CHIL @I885@
+0 @F705@ FAM
+1 REFN F705
+1 HUSB @I886@
+1 WIFE @I885@
+0 @F706@ FAM
+1 REFN F706
+1 HUSB @I889@
+1 WIFE @I888@
+0 @F707@ FAM
+1 REFN F707
+1 WIFE @I890@
+0 @F708@ FAM
+1 REFN F708
+1 HUSB @I902@
+1 WIFE @I891@
+0 @F709@ FAM
+1 REFN F709
+1 HUSB @I892@
+0 @F710@ FAM
+1 REFN F710
+1 HUSB @I1362@
+1 WIFE @I895@
+0 @F711@ FAM
+1 REFN F711
+1 HUSB @I896@
+0 @F712@ FAM
+1 REFN F712
+1 HUSB @I897@
+1 WIFE @I898@
+1 CHIL @I899@
+1 CHIL @I902@
+1 CHIL @I903@
+1 CHIL @I904@
+1 CHIL @I905@
+1 CHIL @I906@
+1 CHIL @I907@
+1 CHIL @I908@
+0 @F713@ FAM
+1 REFN F713
+1 WIFE @I900@
+0 @F714@ FAM
+1 REFN F714
+1 WIFE @I901@
+0 @F715@ FAM
+1 REFN F715
+1 HUSB @I903@
+0 @F716@ FAM
+1 REFN F716
+1 HUSB @I904@
+0 @F717@ FAM
+1 REFN F717
+1 WIFE @I905@
+0 @F718@ FAM
+1 REFN F718
+1 HUSB @I906@
+0 @F719@ FAM
+1 REFN F719
+1 WIFE @I907@
+0 @F720@ FAM
+1 REFN F720
+1 WIFE @I908@
+0 @F721@ FAM
+1 REFN F721
+1 HUSB @I909@
+0 @F722@ FAM
+1 REFN F722
+1 HUSB @I1156@
+1 WIFE @I910@
+1 CHIL @I1157@
+1 CHIL @I1163@
+0 @F723@ FAM
+1 REFN F723
+1 HUSB @I1273@
+1 WIFE @I911@
+1 CHIL @I1282@
+1 CHIL @I1286@
+1 CHIL @I1289@
+1 CHIL @I1274@
+1 CHIL @I1287@
+0 @F724@ FAM
+1 REFN F724
+1 HUSB @I1171@
+1 WIFE @I913@
+1 CHIL @I1203@
+1 CHIL @I1204@
+1 CHIL @I1172@
+1 CHIL @I1183@
+1 CHIL @I1185@
+1 CHIL @I1186@
+0 @F725@ FAM
+1 REFN F725
+1 HUSB @I914@
+1 WIFE @I915@
+1 CHIL @I916@
+1 CHIL @I918@
+1 CHIL @I947@
+0 @F726@ FAM
+1 REFN F726
+1 HUSB @I1405@
+1 CHIL @I915@
+1 CHIL @I915@
+0 @F727@ FAM
+1 REFN F727
+1 HUSB @I953@
+1 WIFE @I915@
+1 CHIL @I955@
+1 CHIL @I954@
+0 @F728@ FAM
+1 REFN F728
+1 HUSB @I917@
+1 WIFE @I916@
+0 @F729@ FAM
+1 REFN F729
+1 HUSB @I918@
+1 WIFE @I919@
+1 CHIL @I920@
+1 CHIL @I921@
+1 CHIL @I923@
+1 CHIL @I926@
+1 CHIL @I946@
+1 CHIL @I924@
+1 CHIL @I932@
+1 CHIL @I937@
+1 CHIL @I943@
+1 CHIL @I944@
+0 @F730@ FAM
+1 REFN F730
+1 WIFE @I1921@
+0 @F731@ FAM
+1 REFN F731
+1 HUSB @I922@
+0 @F732@ FAM
+1 REFN F732
+1 HUSB @I1923@
+0 @F733@ FAM
+1 REFN F733
+1 WIFE @I1924@
+0 @F734@ FAM
+1 REFN F734
+1 HUSB @I925@
+1 WIFE @I924@
+0 @F735@ FAM
+1 REFN F735
+1 HUSB @I925@
+0 @F736@ FAM
+1 REFN F736
+1 HUSB @I927@
+0 @F737@ FAM
+1 REFN F737
+1 WIFE @I928@
+0 @F738@ FAM
+1 REFN F738
+1 HUSB @I929@
+0 @F739@ FAM
+1 REFN F739
+1 HUSB @I932@
+1 WIFE @I933@
+1 CHIL @I934@
+1 CHIL @I935@
+1 CHIL @I936@
+0 @F740@ FAM
+1 REFN F740
+1 HUSB @I934@
+0 @F741@ FAM
+1 REFN F741
+1 WIFE @I935@
+0 @F742@ FAM
+1 REFN F742
+1 HUSB @I936@
+0 @F743@ FAM
+1 REFN F743
+1 HUSB @I937@
+1 WIFE @I938@
+1 CHIL @I939@
+0 @F744@ FAM
+1 REFN F744
+1 HUSB @I939@
+0 @F745@ FAM
+1 REFN F745
+1 HUSB @I943@
+1 WIFE @I1010@
+0 @F746@ FAM
+1 REFN F746
+1 HUSB @I944@
+1 WIFE @I945@
+0 @F747@ FAM
+1 REFN F747
+1 HUSB @I947@
+1 WIFE @I948@
+1 CHIL @I949@
+1 CHIL @I950@
+1 CHIL @I951@
+0 @F748@ FAM
+1 REFN F748
+1 HUSB @I949@
+0 @F749@ FAM
+1 REFN F749
+1 HUSB @I1361@
+1 WIFE @I950@
+0 @F750@ FAM
+1 REFN F750
+1 HUSB @I952@
+1 WIFE @I951@
+0 @F751@ FAM
+1 REFN F751
+1 HUSB @I954@
+1 WIFE @I1349@
+1 CHIL @I956@
+1 CHIL @I1009@
+1 CHIL @I970@
+1 CHIL @I970@
+1 CHIL @I1010@
+1 CHIL @I956@
+1 CHIL @I970@
+1 CHIL @I990@
+1 CHIL @I990@
+1 CHIL @I1002@
+1 CHIL @I1003@
+1 CHIL @I1006@
+1 CHIL @I1008@
+1 CHIL @I1011@
+0 @F752@ FAM
+1 REFN F752
+1 HUSB @I956@
+1 WIFE @I957@
+0 @F753@ FAM
+1 REFN F753
+1 HUSB @I965@
+1 WIFE @I966@
+0 @F754@ FAM
+1 REFN F754
+1 HUSB @I967@
+0 @F755@ FAM
+1 REFN F755
+1 HUSB @I968@
+0 @F756@ FAM
+1 REFN F756
+1 HUSB @I969@
+0 @F757@ FAM
+1 REFN F757
+1 HUSB @I970@
+1 WIFE @I1180@
+1 CHIL @I975@
+1 CHIL @I973@
+1 CHIL @I974@
+1 CHIL @I977@
+1 CHIL @I978@
+1 CHIL @I979@
+1 CHIL @I980@
+0 @F758@ FAM
+1 REFN F758
+1 HUSB @I973@
+0 @F759@ FAM
+1 REFN F759
+1 HUSB @I974@
+0 @F760@ FAM
+1 REFN F760
+1 HUSB @I976@
+0 @F761@ FAM
+1 REFN F761
+1 HUSB @I977@
+0 @F762@ FAM
+1 REFN F762
+1 WIFE @I978@
+0 @F763@ FAM
+1 REFN F763
+1 WIFE @I979@
+0 @F764@ FAM
+1 REFN F764
+1 HUSB @I980@
+0 @F765@ FAM
+1 REFN F765
+1 HUSB @I990@
+1 WIFE @I991@
+0 @F766@ FAM
+1 REFN F766
+1 HUSB @I990@
+1 WIFE @I992@
+0 @F767@ FAM
+1 REFN F767
+1 HUSB @I1002@
+0 @F768@ FAM
+1 REFN F768
+1 HUSB @I1003@
+1 WIFE @I1004@
+1 CHIL @I1005@
+0 @F769@ FAM
+1 REFN F769
+1 HUSB @I1005@
+0 @F770@ FAM
+1 REFN F770
+1 HUSB @I1006@
+1 WIFE @I1007@
+0 @F771@ FAM
+1 REFN F771
+1 HUSB @I1008@
+1 WIFE @I1484@
+0 @F772@ FAM
+1 REFN F772
+1 HUSB @I1475@
+1 WIFE @I1011@
+0 @F773@ FAM
+1 REFN F773
+1 HUSB @I1014@
+1 WIFE @I1015@
+1 CHIL @I1031@
+1 CHIL @I1032@
+1 CHIL @I1027@
+1 CHIL @I1033@
+1 CHIL @I1030@
+1 CHIL @I1016@
+1 CHIL @I1016@
+1 CHIL @I1417@
+0 @F774@ FAM
+1 REFN F774
+1 HUSB @I1016@
+1 WIFE @I1359@
+0 @F775@ FAM
+1 REFN F775
+1 HUSB @I1016@
+1 WIFE @I1017@
+1 CHIL @I1020@
+1 CHIL @I1018@
+1 CHIL @I1019@
+0 @F776@ FAM
+1 REFN F776
+1 WIFE @I1018@
+0 @F777@ FAM
+1 REFN F777
+1 HUSB @I1019@
+0 @F778@ FAM
+1 REFN F778
+1 HUSB @I1021@
+0 @F779@ FAM
+1 REFN F779
+1 WIFE @I1022@
+0 @F780@ FAM
+1 REFN F780
+1 HUSB @I1417@
+1 WIFE @I1026@
+1 CHIL @I1022@
+1 CHIL @I1023@
+0 @F781@ FAM
+1 REFN F781
+1 HUSB @I1023@
+0 @F782@ FAM
+1 REFN F782
+1 HUSB @I1035@
+1 WIFE @I1034@
+1 CHIL @I1485@
+0 @F783@ FAM
+1 REFN F783
+1 WIFE @I1485@
+0 @F784@ FAM
+1 REFN F784
+1 HUSB @I1036@
+1 WIFE @I1037@
+0 @F785@ FAM
+1 REFN F785
+1 HUSB @I1038@
+0 @F786@ FAM
+1 REFN F786
+1 HUSB @I1044@
+0 @F787@ FAM
+1 REFN F787
+1 HUSB @I1045@
+1 WIFE @I1046@
+0 @F788@ FAM
+1 REFN F788
+1 HUSB @I1051@
+1 WIFE @I1052@
+0 @F789@ FAM
+1 REFN F789
+1 HUSB @I1054@
+0 @F790@ FAM
+1 REFN F790
+1 HUSB @I1476@
+1 WIFE @I1055@
+0 @F791@ FAM
+1 REFN F791
+1 HUSB @I1057@
+1 WIFE @I1056@
+0 @F792@ FAM
+1 REFN F792
+1 HUSB @I1058@
+1 WIFE @I1059@
+0 @F793@ FAM
+1 REFN F793
+1 HUSB @I1169@
+1 WIFE @I1060@
+1 CHIL @I1170@
+1 CHIL @I1171@
+1 CHIL @I1171@
+0 @F794@ FAM
+1 REFN F794
+1 HUSB @I1067@
+1 WIFE @I1134@
+1 CHIL @I1086@
+1 CHIL @I1088@
+1 CHIL @I1098@
+1 CHIL @I1105@
+1 CHIL @I1105@
+1 CHIL @I1108@
+1 CHIL @I1110@
+0 @F795@ FAM
+1 REFN F795
+1 HUSB @I1067@
+1 WIFE @I1068@
+1 CHIL @I1069@
+1 CHIL @I1076@
+1 CHIL @I1077@
+1 CHIL @I1078@
+1 CHIL @I1079@
+1 CHIL @I1080@
+1 CHIL @I1081@
+1 CHIL @I1082@
+1 CHIL @I1083@
+1 CHIL @I1084@
+0 @F796@ FAM
+1 REFN F796
+1 HUSB @I1069@
+1 WIFE @I1247@
+1 CHIL @I1070@
+1 CHIL @I1072@
+1 CHIL @I1073@
+1 CHIL @I1074@
+1 CHIL @I1075@
+0 @F797@ FAM
+1 REFN F797
+1 WIFE @I1070@
+0 @F798@ FAM
+1 REFN F798
+1 HUSB @I1152@
+1 WIFE @I1153@
+1 CHIL @I1071@
+1 CHIL @I1169@
+1 CHIL @I1154@
+0 @F799@ FAM
+1 REFN F799
+1 HUSB @I1072@
+0 @F800@ FAM
+1 REFN F800
+1 HUSB @I1073@
+0 @F801@ FAM
+1 REFN F801
+1 HUSB @I1074@
+0 @F802@ FAM
+1 REFN F802
+1 WIFE @I1075@
+0 @F803@ FAM
+1 REFN F803
+1 HUSB @I1076@
+0 @F804@ FAM
+1 REFN F804
+1 HUSB @I1077@
+0 @F805@ FAM
+1 REFN F805
+1 WIFE @I1078@
+0 @F806@ FAM
+1 REFN F806
+1 WIFE @I1079@
+0 @F807@ FAM
+1 REFN F807
+1 HUSB @I1080@
+0 @F808@ FAM
+1 REFN F808
+1 HUSB @I1081@
+0 @F809@ FAM
+1 REFN F809
+1 WIFE @I1082@
+0 @F810@ FAM
+1 REFN F810
+1 HUSB @I1083@
+0 @F811@ FAM
+1 REFN F811
+1 HUSB @I1084@
+0 @F812@ FAM
+1 REFN F812
+1 HUSB @I1087@
+1 WIFE @I1086@
+0 @F813@ FAM
+1 REFN F813
+1 HUSB @I1088@
+1 WIFE @I1089@
+1 CHIL @I1090@
+1 CHIL @I1091@
+1 CHIL @I1092@
+1 CHIL @I1093@
+1 CHIL @I1094@
+1 CHIL @I1095@
+1 CHIL @I1096@
+1 CHIL @I1097@
+0 @F814@ FAM
+1 REFN F814
+1 WIFE @I1090@
+0 @F815@ FAM
+1 REFN F815
+1 WIFE @I1091@
+0 @F816@ FAM
+1 REFN F816
+1 WIFE @I1092@
+0 @F817@ FAM
+1 REFN F817
+1 HUSB @I1093@
+0 @F818@ FAM
+1 REFN F818
+1 HUSB @I1094@
+0 @F819@ FAM
+1 REFN F819
+1 WIFE @I1095@
+0 @F820@ FAM
+1 REFN F820
+1 WIFE @I1096@
+0 @F821@ FAM
+1 REFN F821
+1 WIFE @I1097@
+0 @F822@ FAM
+1 REFN F822
+1 HUSB @I1098@
+1 WIFE @I1099@
+1 CHIL @I1100@
+1 CHIL @I1101@
+1 CHIL @I1102@
+1 CHIL @I1103@
+1 CHIL @I1104@
+0 @F823@ FAM
+1 REFN F823
+1 WIFE @I1100@
+0 @F824@ FAM
+1 REFN F824
+1 WIFE @I1101@
+0 @F825@ FAM
+1 REFN F825
+1 WIFE @I1102@
+0 @F826@ FAM
+1 REFN F826
+1 HUSB @I1103@
+0 @F827@ FAM
+1 REFN F827
+1 HUSB @I1104@
+0 @F828@ FAM
+1 REFN F828
+1 HUSB @I1106@
+1 WIFE @I1105@
+0 @F829@ FAM
+1 REFN F829
+1 HUSB @I1107@
+1 WIFE @I1105@
+0 @F830@ FAM
+1 REFN F830
+1 HUSB @I1109@
+1 WIFE @I1108@
+0 @F831@ FAM
+1 REFN F831
+1 HUSB @I1110@
+0 @F832@ FAM
+1 REFN F832
+1 HUSB @I1120@
+1 WIFE @I1119@
+0 @F833@ FAM
+1 REFN F833
+1 HUSB @I1127@
+1 WIFE @I1339@
+1 CHIL @I1128@
+1 CHIL @I1134@
+1 CHIL @I1135@
+1 CHIL @I1146@
+0 @F834@ FAM
+1 REFN F834
+1 HUSB @I1129@
+1 WIFE @I1130@
+0 @F835@ FAM
+1 REFN F835
+1 HUSB @I1131@
+0 @F836@ FAM
+1 REFN F836
+1 WIFE @I1132@
+0 @F837@ FAM
+1 REFN F837
+1 HUSB @I1135@
+1 WIFE @I1136@
+1 CHIL @I1139@
+1 CHIL @I1137@
+1 CHIL @I1139@
+0 @F838@ FAM
+1 REFN F838
+1 HUSB @I1137@
+1 WIFE @I1138@
+0 @F839@ FAM
+1 REFN F839
+1 HUSB @I1387@
+1 WIFE @I1139@
+0 @F840@ FAM
+1 REFN F840
+1 HUSB @I306@
+1 CHIL @I1387@
+0 @F841@ FAM
+1 REFN F841
+1 HUSB @I1464@
+1 WIFE @I1146@
+0 @F842@ FAM
+1 REFN F842
+1 HUSB @I1149@
+1 WIFE @I1150@
+1 CHIL @I1151@
+1 CHIL @I1152@
+0 @F843@ FAM
+1 REFN F843
+1 HUSB @I1154@
+1 WIFE @I1155@
+1 CHIL @I1156@
+0 @F844@ FAM
+1 REFN F844
+1 HUSB @I1161@
+0 @F845@ FAM
+1 REFN F845
+1 WIFE @I1162@
+0 @F846@ FAM
+1 REFN F846
+1 HUSB @I1164@
+0 @F847@ FAM
+1 REFN F847
+1 HUSB @I1423@
+1 WIFE @I1165@
+0 @F848@ FAM
+1 REFN F848
+1 WIFE @I1390@
+1 CHIL @I1423@
+0 @F849@ FAM
+1 REFN F849
+1 HUSB @I1166@
+1 WIFE @I1167@
+0 @F850@ FAM
+1 REFN F850
+1 HUSB @I1172@
+1 WIFE @I190@
+1 CHIL @I1173@
+1 CHIL @I1180@
+1 CHIL @I1177@
+1 CHIL @I1181@
+0 @F851@ FAM
+1 REFN F851
+1 HUSB @I1262@
+1 WIFE @I1174@
+0 @F852@ FAM
+1 REFN F852
+1 HUSB @I1175@
+0 @F853@ FAM
+1 REFN F853
+1 WIFE @I1176@
+0 @F854@ FAM
+1 REFN F854
+1 HUSB @I1177@
+1 WIFE @I1196@
+1 CHIL @I1178@
+1 CHIL @I1179@
+0 @F855@ FAM
+1 REFN F855
+1 HUSB @I1178@
+0 @F856@ FAM
+1 REFN F856
+1 WIFE @I1179@
+0 @F857@ FAM
+1 REFN F857
+1 HUSB @I1182@
+1 WIFE @I1181@
+0 @F858@ FAM
+1 REFN F858
+1 HUSB @I1184@
+1 WIFE @I1183@
+0 @F859@ FAM
+1 REFN F859
+1 HUSB @I1185@
+0 @F860@ FAM
+1 REFN F860
+1 HUSB @I1186@
+1 WIFE @I1187@
+0 @F861@ FAM
+1 REFN F861
+1 HUSB @I1188@
+1 WIFE @I1189@
+1 CHIL @I1195@
+1 CHIL @I1196@
+1 CHIL @I1190@
+1 CHIL @I1197@
+1 CHIL @I1199@
+1 CHIL @I1200@
+1 CHIL @I1201@
+1 CHIL @I1202@
+0 @F862@ FAM
+1 REFN F862
+1 HUSB @I1190@
+1 WIFE @I1191@
+0 @F863@ FAM
+1 REFN F863
+1 HUSB @I1198@
+1 WIFE @I1197@
+0 @F864@ FAM
+1 REFN F864
+1 HUSB @I1199@
+0 @F865@ FAM
+1 REFN F865
+1 HUSB @I1200@
+0 @F866@ FAM
+1 REFN F866
+1 WIFE @I1201@
+0 @F867@ FAM
+1 REFN F867
+1 HUSB @I1202@
+0 @F868@ FAM
+1 REFN F868
+1 HUSB @I1205@
+0 @F869@ FAM
+1 REFN F869
+1 WIFE @I1206@
+0 @F870@ FAM
+1 REFN F870
+1 WIFE @I1207@
+0 @F871@ FAM
+1 REFN F871
+1 HUSB @I1208@
+0 @F872@ FAM
+1 REFN F872
+1 HUSB @I1214@
+1 WIFE @I1215@
+0 @F873@ FAM
+1 REFN F873
+1 HUSB @I1219@
+1 WIFE @I1220@
+0 @F874@ FAM
+1 REFN F874
+1 HUSB @I1223@
+1 WIFE @I1224@
+0 @F875@ FAM
+1 REFN F875
+1 HUSB @I1228@
+1 WIFE @I1229@
+1 CHIL @I1230@
+0 @F876@ FAM
+1 REFN F876
+1 HUSB @I1231@
+1 WIFE @I1232@
+1 CHIL @I1234@
+1 CHIL @I1360@
+1 CHIL @I1249@
+1 CHIL @I1262@
+1 CHIL @I1262@
+1 CHIL @I1272@
+0 @F877@ FAM
+1 REFN F877
+1 HUSB @I1231@
+1 WIFE @I1233@
+0 @F878@ FAM
+1 REFN F878
+1 HUSB @I1235@
+0 @F879@ FAM
+1 REFN F879
+1 HUSB @I1236@
+1 WIFE @I1237@
+1 CHIL @I1238@
+1 CHIL @I1239@
+1 CHIL @I1240@
+1 CHIL @I1241@
+0 @F880@ FAM
+1 REFN F880
+1 HUSB @I1238@
+0 @F881@ FAM
+1 REFN F881
+1 WIFE @I1239@
+0 @F882@ FAM
+1 REFN F882
+1 WIFE @I1240@
+0 @F883@ FAM
+1 REFN F883
+1 WIFE @I1241@
+0 @F884@ FAM
+1 REFN F884
+1 HUSB @I1242@
+1 WIFE @I1243@
+0 @F885@ FAM
+1 REFN F885
+1 HUSB @I1248@
+0 @F886@ FAM
+1 REFN F886
+1 HUSB @I1250@
+1 WIFE @I1251@
+0 @F887@ FAM
+1 REFN F887
+1 HUSB @I1256@
+1 WIFE @I1257@
+0 @F888@ FAM
+1 REFN F888
+1 WIFE @I1258@
+0 @F889@ FAM
+1 REFN F889
+1 HUSB @I1261@
+0 @F890@ FAM
+1 REFN F890
+1 HUSB @I1262@
+1 WIFE @I1263@
+1 CHIL @I1264@
+1 CHIL @I1270@
+0 @F891@ FAM
+1 REFN F891
+1 HUSB @I1271@
+1 WIFE @I1270@
+0 @F892@ FAM
+1 REFN F892
+1 WIFE @I1272@
+0 @F893@ FAM
+1 REFN F893
+1 HUSB @I1274@
+1 WIFE @I1275@
+1 CHIL @I1276@
+1 CHIL @I1277@
+1 CHIL @I1278@
+1 CHIL @I1279@
+1 CHIL @I1280@
+1 CHIL @I1281@
+0 @F894@ FAM
+1 REFN F894
+1 HUSB @I1276@
+0 @F895@ FAM
+1 REFN F895
+1 HUSB @I1277@
+0 @F896@ FAM
+1 REFN F896
+1 WIFE @I1278@
+0 @F897@ FAM
+1 REFN F897
+1 WIFE @I1279@
+0 @F898@ FAM
+1 REFN F898
+1 WIFE @I1280@
+0 @F899@ FAM
+1 REFN F899
+1 WIFE @I1281@
+0 @F900@ FAM
+1 REFN F900
+1 WIFE @I1283@
+0 @F901@ FAM
+1 REFN F901
+1 HUSB @I1284@
+0 @F902@ FAM
+1 REFN F902
+1 HUSB @I1288@
+1 WIFE @I1287@
+0 @F903@ FAM
+1 REFN F903
+1 HUSB @I1407@
+1 CHIL @I1288@
+0 @F904@ FAM
+1 REFN F904
+1 HUSB @I1290@
+1 WIFE @I1291@
+1 CHIL @I1292@
+1 CHIL @I1293@
+1 CHIL @I1294@
+1 CHIL @I1300@
+1 CHIL @I1301@
+1 CHIL @I1303@
+0 @F905@ FAM
+1 REFN F905
+1 WIFE @I1292@
+0 @F906@ FAM
+1 REFN F906
+1 WIFE @I1293@
+0 @F907@ FAM
+1 REFN F907
+1 HUSB @I1294@
+1 WIFE @I1295@
+0 @F908@ FAM
+1 REFN F908
+1 HUSB @I1300@
+0 @F909@ FAM
+1 REFN F909
+1 HUSB @I1302@
+1 WIFE @I1301@
+0 @F910@ FAM
+1 REFN F910
+1 WIFE @I1303@
+0 @F911@ FAM
+1 REFN F911
+1 HUSB @I1307@
+0 @F912@ FAM
+1 REFN F912
+1 WIFE @I1308@
+0 @F913@ FAM
+1 REFN F913
+1 WIFE @I1309@
+0 @F914@ FAM
+1 REFN F914
+1 HUSB @I1310@
+0 @F915@ FAM
+1 REFN F915
+1 WIFE @I1313@
+0 @F916@ FAM
+1 REFN F916
+1 HUSB @I1314@
+0 @F917@ FAM
+1 REFN F917
+1 WIFE @I1315@
+0 @F918@ FAM
+1 REFN F918
+1 WIFE @I1316@
+0 @F919@ FAM
+1 REFN F919
+1 WIFE @I1317@
+0 @F920@ FAM
+1 REFN F920
+1 HUSB @I1318@
+0 @F921@ FAM
+1 REFN F921
+1 WIFE @I1320@
+0 @F922@ FAM
+1 REFN F922
+1 HUSB @I1321@
+0 @F923@ FAM
+1 REFN F923
+1 WIFE @I1322@
+0 @F924@ FAM
+1 REFN F924
+1 HUSB @I1324@
+1 WIFE @I1323@
+0 @F925@ FAM
+1 REFN F925
+1 WIFE @I1325@
+0 @F926@ FAM
+1 REFN F926
+1 WIFE @I1326@
+0 @F927@ FAM
+1 REFN F927
+1 WIFE @I1327@
+0 @F928@ FAM
+1 REFN F928
+1 WIFE @I1328@
+0 @F929@ FAM
+1 REFN F929
+1 HUSB @I1329@
+0 @F930@ FAM
+1 REFN F930
+1 HUSB @I1331@
+0 @F931@ FAM
+1 REFN F931
+1 HUSB @I1409@
+1 CHIL @I1336@
+1 CHIL @I1336@
+0 @F932@ FAM
+1 REFN F932
+1 HUSB @I1337@
+1 WIFE @I1338@
+0 @F933@ FAM
+1 REFN F933
+1 HUSB @I1438@
+1 WIFE @I1442@
+1 CHIL @I1444@
+1 CHIL @I1443@
+0 @F934@ FAM
+1 REFN F934
+1 WIFE @I1439@
+0 @F935@ FAM
+1 REFN F935
+1 HUSB @I1443@
+1 WIFE @I1440@
+0 @F936@ FAM
+1 REFN F936
+1 HUSB @I1441@
+1 WIFE @I1486@
+0 @F937@ FAM
+1 REFN F937
+1 HUSB @I1340@
+0 @F938@ FAM
+1 REFN F938
+1 HUSB @I1341@
+0 @F939@ FAM
+1 REFN F939
+1 WIFE @I1342@
+0 @F940@ FAM
+1 REFN F940
+1 HUSB @I1344@
+0 @F941@ FAM
+1 REFN F941
+1 WIFE @I1348@
+0 @F942@ FAM
+1 REFN F942
+1 HUSB @I1411@
+1 CHIL @I1358@
+1 CHIL @I1358@
+0 @F943@ FAM
+1 REFN F943
+1 HUSB @I1377@
+0 @F944@ FAM
+1 REFN F944
+1 HUSB @I1382@
+0 @F945@ FAM
+1 REFN F945
+1 HUSB @I1384@
+1 WIFE @I1383@
+0 @F946@ FAM
+1 REFN F946
+1 HUSB @I1388@
+1 WIFE @I1385@
+0 @F947@ FAM
+1 REFN F947
+1 WIFE @I1432@
+0 @F948@ FAM
+1 REFN F948
+1 WIFE @I1433@
+0 @F949@ FAM
+1 REFN F949
+1 HUSB @I1441@
+0 TRLR
