@@ -34,10 +34,10 @@ When publishing results obtained using this data set the original authors should
 |[Dutch Elite 2006](./2mode/DutchElite.md) |    3810+937 |   5221 |      0 | multirelational, 2-mode |
 |[Graph products](./2mode/sandi/Sandi.md) |  674/314 |      0 |   ?  | collaboration, 2-mode |
 |[Slovenian magazines<br> and journals](./2mode/journals.md) |    124 |      0 |  ?  | valued,<br>derived from 2-mode|
-|[Computational geometry](./collab/geom.md) |  7343 |  11898 |  0 | collaboration |
-|[Network theory](./collab/netscience.md) |  1589 |  2742 |  0 | collaboration |
+|[Computational geometry](./bib/collab/Geom.md) |  7343 |  11898 |  0 | collaboration |
+|[Network theory](./bib/collab/NetScience.md) |  1589 |  2742 |  0 | collaboration |
 |[September 11](./CRA/terror.md) |  13332 |  243447 |      0 | text, temporal |
-|[HEP / KDD Cup 2003](./hep-th/hep-th.md) |  27770 |  352807 |      0 | citation |
+|[HEP / KDD Cup 2003](./bib/hep-th/hep-th.md) |  27770 |  352807 |      0 | citation |
 |[US patents](./patents/Patents.md) |  37774768 |      0 |  16522438 | citation |
 |[EVA](./econ/eva/Eva.md) |  8343 |      0 |  6726 | ownership|
 |[Graph and Digraph Glossary](./dic/TG/glossTG.md) |      72 |      0 |    122 | dictionary |
