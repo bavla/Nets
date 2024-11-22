@@ -22,8 +22,8 @@ When publishing results obtained using this data set the original authors should
 | network  | n  | m<sub>E</sub> | m<sub>A</sub> | description |
 | ------------------- | ------ | ------- | -------- | ------------------------- |
 |[Yeast](./bio/Yeast/Yeast.md) |  2361 | 7182 | 0  | biology,<br>protein interactions |
-|[Tina](http://vlado.fmf.uni-lj.si/pub/networks/data/soc/Tina/Tina.htm) |  11 |  0 |  29-48 | sociology, (6 relations),<br>measurements |
-|[Football](http://vlado.fmf.uni-lj.si/pub/networks/data/sport/football.htm) |  35 |  0 |  118 | sport, valued |
+|[Tina](./soc/Tina/Tina.md) |  11 |  0 |  29-48 | sociology, (6 relations),<br>measurements |
+|[Football](./sport/Football.htm) |  35 |  0 |  118 | sport, valued |
 |[Slovene parties 1994](./soc/Samo/Stranke94.md) |   10 |  0 |  90 | sociology, valued signed |
 |[US presidents](http://vlado.fmf.uni-lj.si/pub/networks/data//GED/Presdnts.GED) |  ?  |  0 |   ?  | genealogy |
 |[Turkish nomads](http://vlado.fmf.uni-lj.si/pub/networks/data//GED/P-Tur.GED) |  ?  |  0 |  ?  | genealogy |
