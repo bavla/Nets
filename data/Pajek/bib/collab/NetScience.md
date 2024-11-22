@@ -1,14 +1,13 @@
-<html>
-<head>
-  <title>Pajek data: Collaboration in science of networks</title>
-  <meta HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=UTF-8">
+<html>
+<head>
+  <meta HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=UTF-8">
   <link rel=StyleSheet href="../esna/esna.css" type="text/css" title="ESNA Style" media="screen, print">
-</head>
-<body bgcolor=darkgreen>
-<center>
-<table width=650 bgcolor=lightyellow cellpadding=10 border=0 bordercolor=brown><tr><td>
-<h1><img src=../pajek.gif width=100>Pajek datasets</h1>
-<hr>
+</head>
+<body bgcolor=darkgreen>
+<center>
+<table width=650 bgcolor=lightyellow cellpadding=10 border=0 bordercolor=brown><tr><td>
+<h1><img src="../../pajek.gif" width=100>Pajek datasets</h1>
+<hr>
 <h2>NetScience<br>Collaboration network in science of networks</h2>
 
 <p><b>Dataset</b> &nbsp; <code>NetScience</code>
@@ -65,5 +64,14 @@ Preprint physics/0605087 (2006).</p>
      <i>Finding community structure in networks using the eigenvectors of matrices</i></a>,
      Preprint physics/0605087.</li>
 </ol>
-<hr><a href="../default.htm">Pajek Data</a>;<a href="http://vlado.fmf.uni-lj.si/pub/networks/pajek/default.htm">Pajek Home</a><hr>1. March 2007
-</td></tr></table></center></body></html>
+<hr>
+1. March 2007
+</td></tr></table>
+</center>
+</body>
+</html>
+<hr>
+
+[Pajek network data sets](../../README.md);
+[Network data sets](../../../README.md)
+
