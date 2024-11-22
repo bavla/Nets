@@ -1,0 +1,839 @@
+% London Tube network (2005)
+% based on
+%   http://www.tfl.gov.uk/tfl/pdfdocs/colormap.pdf
+% by Maja Sever, 2005
+%
+*Vertices 352
+1 "Harrow & Wealdstone"
+2 "Kenton"
+3 "South Kenton"
+4 "North Wembley"
+5 "Wembley Central"
+6 "Stonebridge Park"
+7 "Harlesden"
+8 "Wilesden Junction"
+9 "Kensal Green"
+10 "Queen`s Park"
+11 "Kilburn Park"
+12 "Maida Vale"
+13 "Warwick Avenue"
+14 "Paddington"
+15 "Edgware Road"
+16 "Marylebone"
+17 "Baker Street"
+18 "Regent`s Park"
+19 "Oxford Circus"
+20 "Piccadilly Circus"
+21 "Charing Cross"
+22 "Embankment"
+23 "Waterloo"
+24 "Lambeth North"
+25 "Elephant & Castle"
+26 "West Ruislip"
+27 "Ruislip Gardens"
+28 "South Ruislip"
+29 "Northolt"
+30 "Greenford"
+31 "Perivale"
+32 "Hanger Lane"
+33 "Ealing Broadway"
+34 "West Acton"
+35 "North Acton"
+36 "East Acton"
+37 "White City"
+38 "Shepherd`s Bush"
+39 "Holland Park"
+40 "Notting Hill Gate"
+41 "Queensway"
+42 "Lancaster Gate"
+43 "Marble Arch"
+44 "Bond Street"
+45 "Tottenham Court Road"
+46 "Holborn"
+47 "Chancery Lane"
+48 "St. Paul`s"
+49 "Bank"
+50 "Liverpool Street"
+51 "Bethnal Green"
+52 "Mile End"
+53 "Stratford"
+54 "Leyton"
+55 "Leytonstone"
+56 "Snaresbrook"
+57 "South Woodford"
+58 "Woodford"
+59 "Wanstead"
+60 "Redbridge"
+61 "Gants Hill"
+62 "Newbury Park"
+63 "Barkingside"
+64 "Fairlop"
+65 "Hainault
+66 "Grange Hill"
+67 "Chigwell"
+68 "Roding Valley"
+69 "Woodford"
+70 "Buckhurst Hill"
+71 "Loughton"
+72 "Debden"
+73 "Theydon Bois"
+74 "Epping"
+75 "Bayswater"
+76 "Paddington"
+77 "Edgware Road"
+78 "Baker Street"
+79 "Great Portland Street"
+80 "Euston Square"
+81 "King`s Cross St. Pancras"
+82 "Farringdon"
+83 "Barbican"
+84 "Moorgate"
+85 "Aldgate"
+86 "Tower Hill"
+87 "Monument"
+88 "Cannon Street"
+89 "Mansion House"
+90 "Blackfriars"
+91 "Temple"
+92 "Westminster"
+93 "St. James`s Park"
+94 "Victoria"
+95 "Sloane Square"
+96 "South Kensington"
+97 "Gloucester Road"
+98 "High Street Kensington"
+99 "Ealing Common"
+100 "Acton Town"
+101 "Chiswick Park"
+102 "Richmond"
+103 "Kew Gardens"
+104 "Gunnersbury"
+105 "Turnham Green"
+106 "Stamford Brook"
+107 "Ravenscourt Park"
+108 "Hammersmith"
+109 "Barons Court"
+110 "West Kensington"
+111 "Kensington (Olympia)"
+112 "Wimbledon"
+113 "Wimbledon Park"
+114 "Southfields"
+115 "East Putney"
+116 "Putney Bridge"
+117 "Parsons Green"
+118 "Fulham Broadway"
+119 "West Brompton"
+120 "Earl`s Court"
+121 "Earl`s Court"
+122 "Aldgate East"
+123 "Whitechapel"
+124 "Stepney Green"
+125 "Mile End"
+126 "Bow Road"
+127 "Bromley-by-Bow"
+128 "West Ham"
+129 "Plaistow"
+130 "Upton Park"
+131 "East Ham"
+132 "Barking"
+133 "Upney"
+134 "Becontree"
+135 "Dagenham Heathway"
+136 "Dagenham East"
+137 "Elm Park"
+138 "Hornchurch"
+139 "Upminster Bridge"
+140 "Upminster"
+141 "New Cross Gate"
+142 "New Cross"
+143 "Surrey Quays"
+144 "Canada Water"
+145 "Rotherhithe"
+146 "Wapping"
+147 "Shadwell"
+148 "Shoreditch"
+149 "Hammersmith"
+150 "Goldhawk Road"
+151 "Shepherd`s Bush"
+152 "Latimer Road"
+153 "Ladbroke Grove"
+154 "Westbourne Park"
+155 "Royal Oak"
+156 "Paddington"
+157 "Stratford"
+158 "Canning Town"
+159 "North Greenwich"
+160 "Canary Wharf"
+161 "Bermondsey"
+162 "London Bridge"
+163 "Southwark"
+164 "Green Park"
+165 "St. John`s Wood"
+166 "Swiss Cottage"
+167 "Finchley Road"
+168 "West Hampstead"
+169 "Kilburn"
+170 "Willesden Green"
+171 "Dollis Hill"
+172 "Neasden"
+173 "Wembley Park"
+174 "Kingsbury"
+175 "Queensbury"
+176 "Canons Park"
+177 "Stanmore"
+178 "Finchley Road"
+179 "Wembley Park"
+180 "Preston Road"
+181 "Northwick Park"
+182 "Harrow-on-the-Hill"
+183 "West Harrow"
+184 "Rayners Lane"
+185 "Eastcote"
+186 "Ruislip Manor"
+187 "Ruislip"
+188 "Ickenham"
+189 "Hillingdon"
+190 "Uxbridge"
+191 "North Harrow"
+192 "Pinner"
+193 "Northwood Hills"
+194 "Northwood"
+195 "Moor Park"
+196 "Croxley"
+197 "Watford"
+198 "Rickmansworth"
+199 "Chorleywood"
+200 "Chalfront & Latimer"
+201 "Chesham"
+202 "Amersham"
+203 "Morden"
+204 "South Wimbledon"
+205 "Colliers Wood"
+206 "Tooting Broadway"
+207 "Tooting Bec"
+208 "Balham"
+209 "Clapham South"
+210 "Clapham Common"
+211 "Clapham North"
+212 "Stockwell"
+213 "Oval"
+214 "Kennington"
+215 "Borough"
+216 "Bank"
+217 "Old Street"
+218 "Angel"
+219 "King`s Cross St. Pancras"
+220 "Euston"
+221 "Waterloo"
+222 "Embankment"
+223 "Leicester Square"
+224 "Goodge Street"
+225 "Warren Street"
+226 "Euston"
+227 "Mornington Crescent"
+228 "Camden Town"
+229 "Chalk Farm"
+230 "Belsize Park"
+231 "Hampstead"
+232 "Golders Green"
+233 "Brent Cross"
+234 "Hendon Central"
+235 "Colindale"
+236 "Burnt Oak"
+237 "Edgware"
+238 "Kentish Town"
+239 "Tufnell Park"
+240 "Archway"
+241 "Highgate"
+242 "East Finchley"
+243 "Finchley Central"
+244 "Mill Hill East"
+245 "West Finchley"
+246 "Woodside Park"
+247 "Totteridge & Whetstone"
+248 "High Barnet"
+249 "South Harrow"
+250 "Sudbury Hill"
+251 "Sudbury Town"
+252 "Alperton"
+253 "Park Royal"
+254 "North Ealing"
+255 "Acton Town"
+256 "South Ealing"
+257 "Northfields"
+258 "Boston Manor"
+259 "Osterley"
+260 "Hounslow East"
+261 "Hounslow Central"
+262 "Hounslow West"
+263 "Hatton Cross"
+264 "Heathrow Terminal 4"
+265 "Heathrow Terminals 1,2,3"
+266 "Turnham Green"
+267 "Hammersmith"
+268 "Barons Court"
+269 "Earl`s Court"
+270 "Gloucester Road"
+271 "South Kensington"
+272 "Knightsbridge"
+273 "Hyde Park Corner"
+274 "Covent Garden"
+275 "Russell Square"
+276 "Caledonian Road"
+277 "Holloway Road"
+278 "Arsenal"
+279 "Finsbury Park"
+280 "Manor House"
+281 "Turnpike Lane"
+282 "Wood Green"
+283 "Bounds Green"
+284 "Arnos Grove"
+285 "Southgate"
+286 "Oakwood"
+287 "Cockfosters"
+288 "Brixton"
+289 "Vauxhall"
+290 "Pimlico"
+291 "King`s Cross St. Pancras"
+292 "Highbury & Islington"
+293 "Seven Sisters"
+294 "Tottenham Hale"
+295 "Blackhorse Road"
+296 "Walthamstow Central"
+297 "Tower Gateway"
+298 "Shadwell"
+299 "Limehouse"
+300 "Westferry"
+301 "Poplar"
+302 "All Saints"
+303 "Devons Road"
+304 "Bow Church"
+305 "Pudding Mill Lane"
+306 "West India Quay"
+307 "Heron Quays"
+308 "South Quay"
+309 "Crossharbour & London Arena"
+310 "Mudchute"
+311 "Island Gardens"
+312 "Cutty Sark"
+313 "Greenwich"
+314 "Deptford Bridge"
+315 "Elverson Road"
+316 "Lewisham"
+317 "Blackwall"
+318 "East India"
+319 "Royal Victoria"
+320 "Custom House"
+321 "Prince Regent"
+322 "Royal Albert"
+323 "Beckton Park"
+324 "Cyprus"
+325 "Gallions Reach"
+326 "Beckton"
+327 "West Silverstone"
+328 "Pontoon Dock"
+329 "London City Airport"
+330 "King George V"
+331 "North Woolwich"
+332 "Silvertown"
+333 "Custom House"
+334 "Canning Town"
+335 "Hackney Wick"
+336 "Homerton"
+337 "Hackney Central"
+338 "Dalston Kinngsland"
+339 "Canonbury"
+340 "Caledonian Road & Barnsbury"
+341 "Camden Road"
+342 "Kentish Town West"
+343 "Gospel Oak"
+344 "Hampstead Heath"
+345 "Finchley Road & Frogal"
+346 "Brondesbury"
+347 "Brondesbury Park"
+348 "Kensal Rise"
+349 "Acton Central"
+350 "South Acton"
+351 "Liverpool Street"
+352 "Finsbury Park"
+*edges :0 "Link"
+14 76
+17 78
+22 222
+23 221
+49 216
+50 351
+52 125
+53 157
+69 58
+81 219
+219 291
+86 297
+49 216
+87 216
+96 271
+100 255
+108 267
+120 269
+121 269
+126 304
+147 298
+173 179
+167 178
+158 334
+320 333
+220 226
+279 352
+*edges :1 "Bakerloo"
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+10 11
+11 12
+12 13
+13 14
+14 15
+15 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+22 23
+23 24
+24 25
+*edges :2 "Central"
+26 27
+27 28
+28 29
+29 30
+30 31
+31 32
+32 35
+33 34
+34 35
+35 36
+36 37
+37 38
+38 39
+39 40
+40 41
+41 42
+42 43
+43 44
+44 19
+19 45
+45 46
+46 47
+47 48
+48 49
+49 50
+50 51
+51 52
+52 53
+53 54
+54 55
+55 56
+56 57
+57 58
+55 59
+59 60
+60 61
+61 62
+62 63
+63 64
+64 65
+65 66
+66 67
+67 68
+68 69
+58 70
+70 71
+71 72
+72 73
+73 74
+*edges :3 "Circle"
+75 76
+76 77
+77 78
+78 79
+79 80
+80 81
+81 82
+82 83
+83 84
+84 351
+351 85
+85 86
+86 87
+87 88
+88 89
+89 90
+90 91
+91 22
+22 92
+92 93
+93 94
+94 95
+95 96
+96 97
+97 98
+98 40
+40 75
+*edges :4 "District"
+33 99
+99 100
+100 101
+101 105
+102 103
+103 104
+104 105
+105 106
+106 107
+107 108
+108 109
+109 110
+110 120
+111 121
+112 113
+113 114
+114 115
+115 116
+116 117
+117 118
+118 119
+119 120
+119 121
+121 98
+98 40
+40 75
+75 76
+76 77
+120 97
+97 96
+96 95
+95 94
+94 93
+93 92
+92 22
+22 91
+91 90
+90 89
+89 88
+88 87
+87 86
+86 122
+122 123
+123 124
+124 125
+125 126
+126 127
+127 128
+128 129
+129 130
+130 131
+131 132
+132 133
+133 134
+134 135
+135 136
+136 137
+137 138
+138 139
+139 140
+*edges :5 "East London"
+141 143
+142 143
+143 144
+144 145
+145 146
+146 147
+147 123
+123 148
+*edges :5 "East London"
+149 150
+150 151
+151 152
+152 153
+153 154
+154 155
+155 156
+156 77
+77 78
+78 79
+79 80
+80 81
+81 82
+82 83
+83 84
+84 351
+351 122
+122 123
+123 124
+124 125
+125 126
+126 127
+127 128
+128 129
+129 130
+130 131
+131 132
+*edges :6 "Hammersmith & City"
+157 128
+128 158
+158 159
+159 160
+160 144
+144 161
+161 162
+162 163
+163 23
+23 92
+92 164
+164 44
+44 17
+17 165
+165 166
+166 167
+167 168
+168 169
+169 170
+170 171
+171 172
+172 173
+173 174
+174 175
+175 176
+176 177
+*edges :8 "Metropolitan"
+85 351
+351 84
+84 83
+83 82
+82 81
+81 80
+80 79
+79 78
+78 178
+178 179
+179 180
+180 181
+181 182
+182 183
+183 184
+184 185
+185 186
+186 187
+187 188
+188 189
+189 190
+182 191
+191 192
+192 193
+193 194
+194 195
+195 196
+196 197
+195 198
+198 199
+199 200
+200 201
+200 202
+*edges :9 "Northern"
+203 204
+204 205
+205 206
+206 207
+207 208
+208 209
+209 210
+210 211
+211 212
+212 213
+213 214
+214 25
+25 215
+215 162
+162 216
+216 84
+84 217
+217 218
+218 219
+219 220
+214 221
+221 222
+222 21
+21 223
+223 45
+45 224
+224 225
+225 226
+226 227
+227 228
+220 228
+228 229
+229 230
+230 231
+231 232
+232 233
+233 234
+234 235
+235 236
+236 237
+228 238
+238 239
+239 240
+240 241
+241 242
+242 243
+243 244
+243 245
+245 246
+246 247
+247 248
+*edges :10 "Piccadilly"
+190 189
+189 188
+188 187
+187 186
+186 185
+185 184
+184 249
+249 250
+250 251
+251 252
+252 253
+253 254
+254 99
+99 255
+255 266
+266 100
+100 256
+256 257
+257 258
+258 259
+259 260
+260 261
+261 262
+262 263
+266 267
+267 268
+268 269
+269 270
+270 271
+271 272
+272 273
+273 164
+164 20
+20 223
+223 274
+274 46
+46 275
+275 276
+276 277
+277 278
+278 279
+279 280
+280 281
+281 282
+282 283
+283 284
+284 285
+285 286
+286 287
+*arcs
+10: 263 264
+10: 264 265
+10: 265 263
+*edges :11 "Victoria"
+288 212
+212 289
+289 290
+290 94
+94 164
+164 19
+19 225
+225 220
+220 291
+291 292
+292 352
+352 293
+293 294
+294 295
+295 296
+*edges :12 "Waterloo & City"
+23 49
+*edges :13 "Docklands Light Railway"
+216 298
+297 298
+298 299
+299 300
+300 301
+301 302
+302 303
+303 304
+304 305
+305 53
+300 306
+301 306
+306 160
+160 307
+307 308
+308 309
+309 310
+310 311
+311 312
+312 313
+313 314
+314 315
+315 316
+301 317
+317 318
+318 158
+158 319
+319 320
+320 321
+321 322
+322 323
+323 324
+324 325
+325 326
+158 327
+327 328
+328 329
+329 330
+*edges :14 "National Railway"
+102 103
+103 104
+104 350
+350 349
+349 8
+8 348
+348 347
+347 346
+346 168
+168 345
+331 332
+332 333
+333 334
+334 128
+128 157
+157 335
+335 336
+336 337
+337 338
+338 339
+339 292
+292 340
+340 341
+341 342
+342 343
+343 344
+344 345

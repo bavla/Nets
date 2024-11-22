@@ -1,0 +1,12 @@
+NETBEGIN 1
+CLUBEGIN 1
+PERBEGIN 1
+CLSBEGIN 1
+HIEBEGIN 1
+VECBEGIN 1
+
+Msg Reading Pajek Project File  ---    \\193.2.67.80\d$\Vlado\Pub\networks\Data\mix\borner.paj
+Msg Reading Network   ---    Borner
+Msg Reading Vector   ---    vertex sizes
+N 9999 RDPAJ "\\193.2.67.80\d$\Vlado\Pub\networks\Data\mix\borner.paj"
+E 1 DRAW 0 1 0 0 0
