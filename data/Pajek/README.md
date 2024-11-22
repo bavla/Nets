@@ -23,7 +23,7 @@ When publishing results obtained using this data set the original authors should
 | ------------------- | ------ | ------- | -------- | ------------------------- |
 |[Yeast](./bio/Yeast/Yeast.md) |  2361 | 7182 | 0  | biology,<br>protein interactions |
 |[Tina](./soc/Tina/Tina.md) |  11 |  0 |  29-48 | sociology, (6 relations),<br>measurements |
-|[Football](./sport/Football.htm) |  35 |  0 |  118 | sport, valued |
+|[Football](./sport/Football.md) |  35 |  0 |  118 | sport, valued |
 |[Slovene parties 1994](./soc/Samo/Stranke94.md) |   10 |  0 |  90 | sociology, valued signed |
 |[US presidents](http://vlado.fmf.uni-lj.si/pub/networks/data//GED/Presdnts.GED) |  ?  |  0 |   ?  | genealogy |
 |[Turkish nomads](http://vlado.fmf.uni-lj.si/pub/networks/data//GED/P-Tur.GED) |  ?  |  0 |  ?  | genealogy |
