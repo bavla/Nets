@@ -1,14 +1,16 @@
-<html>
-<head>
-  <title>Pajek data: USF Free Association Norms</title>
-  <meta HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=UTF-8">
+<html>
+<head>
+  <meta HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=UTF-8">
   <link rel=StyleSheet href="../../esna/esna.css" type="text/css" title="ESNA Style" media="screen, print">
-</head>
-<body bgcolor=darkgreen>
-<center>
-<table width=650 bgcolor=lightyellow cellpadding=10 border=0 bordercolor=brown><tr><td>
-<h1><img src=../../pajek.gif width=100>Pajek datasets</h1>
-<hr>
+</head>
+<body bgcolor=darkgreen>
+<center>
+<table width=650 bgcolor=lightyellow cellpadding=10 border=0 bordercolor=brown><tr><td>
+
+<h1><img src=../../pajek.gif width=100>Pajek datasets</h1>
+
+<hr>
+
 <h2> FreeAssoc<br>The University of South Florida word association, rhyme, and word fragment norms</h2>
 
 <p><b>Dataset</b> &nbsp; <code>FreeAssoc</code>
@@ -84,5 +86,14 @@ pairs (AJ - ADJ). The label A in <tt>pofs.clu</tt> was assigned the code 9.
   EAT</a> and
   <a href="../Wordnet/wordnet.zip">WordNet</a></li>
 </ol>
-<hr><a href="../../default.htm">Pajek Data</a>;<a href="http://vlado.fmf.uni-lj.si/pub/networks/pajek/default.htm">Pajek Home</a><hr>24. February 2007
-</td></tr></table></center></body></html>
+<hr>
+24. February 2007
+</td></tr></table>
+</center>
+</body>
+</html>
+<hr>
+
+[Pajek network data sets](../../README.md);
+[Network data sets](../../../README.md)
+
