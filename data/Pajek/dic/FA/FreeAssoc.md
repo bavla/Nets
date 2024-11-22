@@ -32,7 +32,7 @@ relation 2 - target not normed.
 </p>
 
 <p><b>Download</b>
-<p><a HREF="./Pairs.zip">USF Free Association Norms</a> (ZIP, 764K)
+<p><a HREF="https://github.com/bavla/Nets/raw/refs/heads/master/data/Pajek/dic/FA/Pairs.zip">USF Free Association Norms</a> (ZIP, 764K)
 
 <h3>Background</h3>
 <p>More than 6,000 participants produced nearly three-quarters of
