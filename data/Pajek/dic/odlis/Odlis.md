@@ -21,7 +21,7 @@
  <code>odlis.net</code> directed network with 2909 vertices and 18419 arcs
                     (5 loops).
 <p><b>Download</b>
-<p><a HREF="./Odlis.zip">odlis.net</a> (ZIP, 62K)
+<p><a HREF="https://github.com/bavla/Nets/raw/refs/heads/master/data/Pajek/dic/odlis/Odlis.zip">odlis.net</a> (ZIP, 62K)
 
 <h3>Background</h3>
 <p>The network <tt>Odlis.net</tt> is based on the
