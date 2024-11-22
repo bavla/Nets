@@ -1,0 +1,2607 @@
+*Vertices 1882
+1 "Stal Aanderaa"
+2 "Hao Wang"
+3 "Lars Aarvik"
+4 "?"
+5 "Martin Abadi"
+6 "Zohar Manna"
+7 "James Abbott"
+8 "Richard Brent"
+9 "Serge Abiteboul"
+10 "Seymour Ginsburg"
+11 "Karl Abrahamson"
+12 "Michael J. Fischer"
+13 "Hosame Abu-Amara"
+14 "Michael Loui"
+15 "John Addison"
+16 "Stephen Kleene"
+17 "Len Adleman"
+18 "Manuel Blum"
+19 "P.W. Adriaans"
+20 "Peter van_Emde_Boas"
+21 "Valery Agafonov"
+22 "Boris Trakhtenbrot"
+23 "Richa Agarwala"
+24 "David Fernandez-Baca"
+25 "Alok Aggarwal"
+26 "Joseph O'Rourke"
+27 "Shmuel Agmon"
+28 "Scholem Mandelbrojt"
+29 "Ajit Agrawal"
+30 "Philip Klein"
+31 "Al Aho"
+32 "John Hopcroft"
+33 "Bill Aiello"
+34 "Shafi Goldwasser"
+35 "Howard Aiken"
+36 "E.L. Chaffee"
+37 "Miklos Ajtai"
+38 "Andras Hajnal"
+39 "Varol Akman"
+40 "William Randolph Franklin"
+41 "Romas Aleliunas"
+42 "Stephen Cook"
+43 "Farid Alizadeh"
+44 "J.B. Rosen"
+45 "Brian Allen"
+46 "Ian Munro"
+47 "Eric Allender"
+48 "Kimberly King"
+49 "Helmut Alt"
+50 "Kurt Mehlhorn"
+51 "Lorenzo Alvisi"
+52 "Keith Marzullo"
+53 "Nancy Amato"
+54 "Franco Preparata"
+55 "Vardi Amdursky"
+56 "Eli Shamir"
+57 "Nina Amenta"
+58 "Raimund Seidel"
+59 "Foued Ameur"
+60 "Friedhelm Meyer_auf_der_Heide"
+61 "Amihood Amir"
+62 "Dov Gabbay"
+63 "D.G.M. Anderson"
+64 "M. Krook"
+65 "R.J. Anderson"
+66 "Ernst W. Mayr"
+67 "Arne Andersson"
+68 "Svante Carlsson"
+69 "Greg Andrews"
+70 "Alan Shaw"
+71 "Jamie Andrews"
+72 "Don Sannella"
+73 "Agnis Andzans"
+74 "Rusins Martins Freivalds"
+75 "Dana Angluin"
+76 "Fred Annexstein"
+77 "Arny Rosenberg"
+78 "? Apers"
+79 "? van_de_Riet"
+80 "David Applegate"
+81 "Ravi Kannan"
+82 "Krzysztof Apt"
+83 "Andrzej Mostowski"
+84 "Lars Arge"
+85 "Erik Meineche Schmidt"
+86 "Eshrat Arjomandi"
+87 "Derek G. Corneil"
+88 "Dmitry Arkhangelsky"
+89 "Mikhail Taitslin"
+90 "Sanjeev Arora"
+91 "Umesh Vazirani"
+92 "Robert Ashenhurst"
+93 "James Aspnes"
+94 "Steven Rudich"
+95 "Bengt Aspvall"
+96 "Robert E. Tarjan"
+97 "Mikhail Atallah"
+98 "Rao Kosaraju"
+99 "Hagit Attiya"
+100 "Danny Dolev"
+101 "Franz Aurenhammer"
+102 "Herbert Edelsbrunner"
+103 "Gideon Avrahami"
+104 "Vaughan Pratt"
+105 "Baruch Awerbuch"
+106 "Shimon Even"
+107 "Paul Axt"
+108 "Yossi Azar"
+109 "Noga Alon"
+110 "Salman Azhar"
+111 "John Reif"
+112 "Pieter Cornelis Baayen"
+113 "J. de_Groot"
+114 "Laszlo Babai"
+115 "Paul Turan"
+116 "Vera Sos"
+117 "Eric Bach"
+118 "Leo Bachmair"
+119 "Nachum Dershowitz"
+120 "Ralph-Johan Back"
+121 "Martti Tienari"
+122 "Norman I. Badler"
+123 "John Mylopoulos"
+124 "Jos Baeten"
+125 "W. Richter"
+126 "Ricardo Baeza-Yates"
+127 "Gaston Gonnet"
+128 "Chandrajit Bajaj"
+129 "Brenda Baker"
+130 "Ron Book"
+131 "Ted Baker"
+132 "Juris Hartmanis"
+133 "Miriam Balaban"
+134 "Jose Balcazar"
+135 "Josep Diaz"
+136 "M.L. Balinsky"
+137 "Albert Tucker"
+138 "Amotz Bar-Noy"
+139 "Eduardo F. Barbosa"
+140 "Nivio Ziviani"
+141 "Henk Barendregt"
+142 "Georg Kreisel"
+143 "David Mix Barrington"
+144 "Michael Sipser"
+145 "Yair Bartal"
+146 "Amos Fiat"
+147 "Janis Barzdins"
+148 "Joe Bates"
+149 "Alan Demers"
+150 "Giuseppe Di Battista"
+151 "Carlo Batini"
+152 "G.M. Baudet"
+153 "H.T. Kung"
+154 "Marianne Baudinet"
+155 "Aime J. Bayle"
+156 "Forouzan Golshani"
+157 "Rida Bazzi"
+158 "Gil Neiger"
+159 "Robert Beals"
+160 "Paul Beame"
+161 "John Beatty"
+162 "Michael Harrison"
+163 "Donald Beaver"
+164 "Michael O. Rabin"
+165 "John Beebee"
+166 "Victor Klee"
+167 "Catriel Beeri"
+168 "Richard Beigel"
+169 "John Gill"
+170 "L.W. Beineke"
+171 "Frank Harary"
+172 "Mihir Bellare"
+173 "Silvio Micali"
+174 "Richard Bellman"
+175 "Solomon Lefschetz"
+176 "Amir Ben-Amram"
+177 "Zvi Galil"
+178 "Moti Ben-Ari"
+179 "Amir Pnueli"
+180 "Michael Ben-Or"
+181 "J.D.C. Benaloh"
+182 "? Benison"
+183 "Robert Soare"
+184 "Gary Benson"
+185 "Samuel Bent"
+186 "Jon Bentley"
+187 "Donald Stanat"
+188 "Jan A. Bergstra"
+189 "Dirk van_Dalen"
+190 "Hans Berliner"
+191 "Allen Newell"
+192 "Fran Berman"
+193 "Bob Ritchie"
+194 "Len Berman"
+195 "Piotr Berman"
+196 "Albert Meyer"
+197 "Marshall Bern"
+198 "Gene Lawler"
+199 "Phil Bernstein"
+200 "D. Tsichritzis"
+201 "Andre Berthiaume"
+202 "Gilles Brassard"
+203 "Eike Best"
+204 "Brian Randell"
+205 "Peter E. Lauer"
+206 "Sandeep Bhatt"
+207 "Charles E. Leiserson"
+208 "Nicole Bidoit"
+209 "? Biezeno"
+210 "---"
+211 "Gianfranco Bilardi"
+212 "G.D. Birkhoff"
+213 "E.H. Moore"
+214 "Garrett Birkhoff"
+215 "Alex Birman"
+216 "Jeffrey Ullman"
+217 "James Bitner"
+218 "Ed Reingold"
+219 "Iliana Bjorling-Sachs"
+220 "Diane Souvaine"
+221 "Kenneth Blaha"
+222 "Eugene Luks"
+223 "Jean Blair"
+224 "Errol Lloyd"
+225 "J.O. Blanco"
+226 "Robert Bland"
+227 "D.R. Fulkerson"
+228 "Meera Blattner"
+229 "Sheila Greibach"
+230 "Woody Bledsoe"
+231 "A. P. Morse"
+232 "Guy Blelloch"
+233 "G.A. Bliss"
+234 "Oskar Bolza"
+235 "Stephen Bloch"
+236 "Sam Buss"
+237 "Peter Bloniarz"
+238 "Avrim Blum"
+239 "Ronald L. Rivest"
+240 "Lenore Blum"
+241 "Gerald Sacks"
+242 "Marvin Minsky"
+243 "Richard F. Blute"
+244 "Andre Scedrov"
+245 "Raymond Board"
+246 "Lenny Pitt"
+247 "Hans Bodlaender"
+248 "Jan van_Leeuwen"
+249 "Hans Boehm"
+250 "Karl Weierstrass"
+251 "Maria Paola Bonacina"
+252 "Jieh Hsiang"
+253 "Maria Luisa Bonet"
+254 "Richard J. Bonneau"
+255 "William Boone"
+256 "Alonzo Church"
+257 "Kelly Booth"
+258 "Dick Karp"
+259 "Ravi Boppana"
+260 "V.A.J. Borghuis"
+261 "Richard Borie"
+262 "Craig Tovey"
+263 "Gary Parker"
+264 "Allan Borodin"
+265 "Karol Borsuk"
+266 "Stefan Mazurkiewicz"
+267 "W. Bosma"
+268 "Joan Boyar"
+269 "Robert Boyer"
+270 "Dan Brand"
+271 "Nikolai Dmitrievich Brashman"
+272 "? von_Littrov"
+273 "David Bray"
+274 "J.A. Robinson"
+275 "Seth Breidbart"
+276 "Gene Golub"
+277 "George Forsythe"
+278 "Andrei Broder"
+279 "Donald E. Knuth"
+280 "Andrej Brodnik"
+281 "Fred Brooks"
+282 "Felix Browder"
+283 "Cynthia Brown"
+284 "A. Blass"
+285 "Donna Brown"
+286 "Peter Elias"
+287 "John Brown"
+288 "David Gries"
+289 "Mark Brown"
+290 "Sally Browning"
+291 "Carver Mead"
+292 "Manfred Broy"
+293 "F.L. Bauer"
+294 "Kim Bruce"
+295 "H.J. Keisler"
+296 "John Bruno"
+297 "Lou Weinberg"
+298 "Anna Bruss"
+299 "B.K.P. Horn"
+300 "Adam L. Buchsbaum"
+301 "Mark Buckingham"
+302 "Martin Golumbic"
+303 "Anatoli Buda"
+304 "A.P. Ershov"
+305 "Navin Budhiraja"
+306 "Khaled Bugrara"
+307 "Paul Purdom"
+308 "Harry Buhrman"
+309 "Leen Torenvliet"
+310 "Steven Homer"
+311 "Thang Bui"
+312 "Tom Leighton"
+313 "William Bultman"
+314 "Wolfgang Maass"
+315 "Peter Buneman"
+316 "E. C. Zeeman"
+317 "H. Bunt"
+318 "Brandt Corstius"
+319 "Jennifer J. Burg"
+320 "Charles E. Hughes"
+321 "Rainer Burkard"
+322 "Edmund Hlawka"
+323 "Walter Burkhard"
+324 "P. Varaiya"
+325 "James Burns"
+326 "Nancy Lynch"
+327 "Rich DeMillo"
+328 "Jonathan Buss"
+329 "Simon Kochen"
+330 "Jean Butler"
+331 "? Buys"
+332 "? Zoutendijk"
+333 "Cezar C&acirc;mpeanu"
+334 "Cristian S. Calude"
+335 "Jean-Marie Cadiou"
+336 "Jin-yi Cai"
+337 "Rob Calderbank"
+338 "Marshall Hall"
+339 "Paul Callahan"
+340 "Solomon Marcus"
+341 "David Carlson"
+342 "John Savage"
+343 "Rolf Karlsson"
+344 "Jack Carlyle"
+345 "A. Thomasian"
+346 "Larry Carter"
+347 "Berlekamp"
+348 "John Case"
+349 "Tom McLaughlin"
+350 "Ross Casley"
+351 "Bob Caviness"
+352 "Alan Perlis"
+353 "Pedro Celis"
+354 "Paul Larson"
+355 "Karlis Cerans"
+356 "Seth Chaiken"
+357 "Dan Kleitman"
+358 "Tat-hung Chan"
+359 "Bob Constable"
+360 "William Chandler"
+361 "Ashok Chandra"
+362 "Tushar D. Chandra"
+363 "Sam Toueg"
+364 "Chen-Chung Chang"
+365 "Alfred Tarski"
+366 "Jik Chang"
+367 "Oscar H. Ibarra"
+368 "Richard Chang"
+369 "Min Te Chao"
+370 "John Franco"
+371 "Bruce W. Char"
+372 "Richard J. Fateman"
+373 "Witold Charatonik"
+374 "Leszek Pacholski"
+375 "Shiva Chaudhuri"
+376 "Soma Chaudhuri"
+377 "Richard Ladner"
+378 "Surajit Chaudhuri"
+379 "Bernard Chazelle"
+380 "David Dobkin"
+381 "Thomas E. Cheatham"
+382 "Pafnuty Lvovich Chebyshev"
+383 "Brad Chen"
+384 "Doug Tygar"
+385 "Jingsen Chen"
+386 "Keh-Jian Chen"
+387 "Wen-Chin Chen"
+388 "Jeff Vitter"
+389 "Yui-Bin Chen"
+390 "Doug Ierardi"
+391 "Siu Wing Cheng"
+392 "Ravi Janardan"
+393 "John Cherniavsky"
+394 "Paul Chew"
+395 "Mike O'Donnell"
+396 "L. Chiaraviglio"
+397 "A. Hartzhorn"
+398 "Andrew Chin"
+399 "W.F. McColl"
+400 "Francis Chin"
+401 "Kenneth Steiglitz"
+402 "Donald Chinn"
+403 "Martin Tompa"
+404 "Jawahar Chirimar"
+405 "Dale Miller"
+406 "Yookun Cho"
+407 "Sartaj Sahni"
+408 "Jan Chomicki"
+409 "Tomasz Imielinski"
+410 "Benny Chor"
+411 "Yaacov Choveka"
+412 "Claude-Andre Christen"
+413 "Ernst Specker"
+414 "Jeff Chu"
+415 "Georg Schnitger"
+416 "Fan Chung"
+417 "Herb Wilf"
+418 "M.-J. Chung"
+419 "Hal Sudborough"
+420 "Oswald Veblen"
+421 "W. Chvatal"
+422 "C. Nash-Williams"
+423 "Edmund Clarke"
+424 "Ken Clarkson"
+425 "Andy Yao"
+426 "V. Claus"
+427 "Gunther Hotz"
+428 "John Cleave"
+429 "Andrew Booth"
+430 "Rance Cleaveland"
+431 "Peter Clote"
+432 "J.R. Shoenfield"
+433 "Brian Coan"
+434 "Alan Cobham"
+435 "E.F. Codd"
+436 "John H. Holland"
+437 "J.A.A. Coenen"
+438 "Ed Coffman"
+439 "Leonard Kleinrock"
+440 "Daniel Cohen"
+441 "Robert Cohen"
+442 "Roberto Tamassia"
+443 "Charles Colbourn"
+444 "Richard Cole"
+445 "George Collins"
+446 "Barkley Rosser"
+447 "Doug Comer"
+448 "Ravi Sethi"
+449 "K.T. Compton"
+450 "O.W. Richardson"
+451 "Anne Condon"
+452 "Tim Connors"
+453 "Curtis Cook"
+454 "Steve Hedetniemi"
+455 "Arthur H. Copeland_Jr"
+456 "Norman Steenrod"
+457 "Don Coppersmith"
+458 "Shlomo Sternberg"
+459 "Thomas C. Cormen"
+460 "Kelly Gotleib"
+461 "Aad van_Wijngaarden"
+462 "Richard Courant"
+463 "David Hilbert"
+464 "Lenore Cowen"
+465 "Claude Cr&eacute;peau"
+466 "Roger Crew"
+467 "Isabel Cruz"
+468 "Alberto Mendelzon"
+469 "Joseph Culberson"
+470 "William Cunningham"
+471 "Jack Edmonds"
+472 "Walter Cunto"
+473 "Jan Cuny"
+474 "Bill Rounds"
+475 "Haskell Curry"
+476 "Nigel Cutland"
+477 "Artur Czumaj"
+478 "Paul Dagum"
+479 "Michael Luby"
+480 "Robert Daley"
+481 "Don Loveland"
+482 "J.G. Danaraj"
+483 "David Magerman"
+484 "Martin Davis"
+485 "Scott Decatur"
+486 "Leslie G. Valiant"
+487 "Eliezer Dekel"
+488 "Michael Dekhtyar"
+489 "Peter Denning"
+490 "Jack Dennis"
+491 "? Derksen"
+492 "? Van_der_Poel"
+493 "Marcia Derr"
+494 "Lloyd Devore"
+495 "D.C. Duncan"
+496 "W.R. Ham"
+497 "Paul Warren DeVore"
+498 "?"
+499 "A.K. Dewdney"
+500 "T.K. Dey"
+501 "Jaco W. de_Bakker"
+502 "Mark de_Berg"
+503 "Mark Overmars"
+504 "? de_Bruin"
+505 "D.M.G. de_Champeaux_de_laboulaye"
+506 "A.F. de_Geus"
+507 "Wiebren de_Jonge"
+508 "W.P. de_Roever"
+509 "M. de_Rougement"
+510 "Yiannis Moschovakis"
+511 "? de_Troye"
+512 "Erik P. de_Vink"
+513 "Aditi Dhagat"
+514 "Angel Dichev"
+515 "Dimiter Skordev"
+516 "Paul Dietz"
+517 "Martin Dietzfelbinger"
+518 "Edsger Wybe Dijkstra"
+519 "R.P. Dilworth"
+520 "?"
+521 "Nevenka Dimitrova"
+522 "Nahed El Djabri"
+523 "R.W. Brockett"
+524 "Gayla Domke"
+525 "Renu Laskar"
+526 "Guozhu Dong"
+527 "Martin Dowd"
+528 "Peter Downey"
+529 "Jon Doyle"
+530 "Gerald Jay Sussman"
+531 "Burton Dreben"
+532 "Jim Driscoll"
+533 "Merrick Furst"
+534 "Doron Drusinsky"
+535 "David Harel"
+536 "Scot Drysdale"
+537 "Ding-Zhu Du"
+538 "Weichang Du"
+539 "William W. Wadge"
+540 "Peter Deussen"
+541 "O.S. Duffendack"
+542 "Paul E. Dunne"
+543 "Michael S. Paterson"
+544 "Cynthia Dwork"
+545 "Rex Dwyer"
+546 "Daniel Sleator"
+547 "Patrick Dymond"
+548 "J.C. Earley"
+549 "Robert W. Floyd"
+550 "? Ebergen"
+551 "Martin Rem"
+552 "Hermann Maurer"
+553 "Jeff Edmonds"
+554 "Faith Fich"
+555 "Andrzej Ehrenfeucht"
+556 "Hartmut Ehrig"
+557 "K. Leichweiss"
+558 "U. Simon"
+559 "G. Ehrlich"
+560 "Samuel Eilenberg"
+561 "Le Corbeiller"
+562 "Allen Emerson"
+563 "Erwin Engeler"
+564 "Bernays"
+565 "Joost Engelfriet"
+566 "Gregorz Rozenberg"
+567 "David Eppstein"
+568 "Javier Esparza"
+569 "Manuel Silva"
+570 "Kousha Etessami"
+571 "Neil Immerman"
+572 "Evan_Cohn"
+573 "Ron Fagin"
+574 "Robert Vaught"
+575 "Martin Farach"
+576 "A.M. Farley"
+577 "William Farmer"
+578 "Kenneth Kunen"
+579 "Joel Moses"
+580 "Tony Oettinger"
+581 "Antony Faustini"
+582 "Joan Feigenbaum"
+583 "Alan Fekete"
+584 "David Mumford"
+585 "Yishai Feldman"
+586 "Abdelaziz Fellah"
+587 "?"
+588 "Mike Fellows"
+589 "Mike Fredman"
+590 "Walter Felscher"
+591 "F.W.D. Levi"
+592 "Amy Felty"
+593 "Stephen Fenner"
+594 "Stuart A. Kurtz"
+595 "Chip Martel"
+596 "Jeanne Ferrante"
+597 "Hartley Rogers"
+598 "Adi Shamir"
+599 "Charles Fiduccia"
+600 "Ion Filotti"
+601 "Charles Fischer"
+602 "John Williams"
+603 "Patrick Fischer"
+604 "Sophie Fischer"
+605 "Marshall Fisher"
+606 "Jeremy Shapiro"
+607 "Philippe Flajolet"
+608 "Jean Vuillemin"
+609 "Sally Floyd"
+610 "W.J. Fokkink"
+611 "Amelia Fong"
+612 "Ira R. Forman"
+613 "Harlan D. Mills"
+614 "J.D. Tamarkin"
+615 "Lance Fortnow"
+616 "Steve Fortune"
+617 "Alfred Foster"
+618 "Gregg Foster"
+619 "James A. Foster"
+620 "James Kenevan"
+621 "Michael Fourman"
+622 "Dana Scott"
+623 "Ralph Fox"
+624 "Aviezri S. Fraenkel"
+625 "E.G. Straus"
+626 "J. Estrin"
+627 "Nissim Francez"
+628 "Marvin Paull"
+629 "Gudmund S. Frandsen"
+630 "Mogens Nielsen"
+631 "Andras Frank"
+632 "Laszlo Lovasz"
+633 "Peter Frankl"
+634 "G. Katona"
+635 "Harry Lewis"
+636 "Helmut Franzen"
+637 "C.H. Koster"
+638 "Greg Frederickson"
+639 "Matthew Hecht"
+640 "Art Friedman"
+641 "Steve Unger"
+642 "Emily Friedman"
+643 "Harvey Friedman"
+644 "Joel Friedman"
+645 "Steve Smale"
+646 "Nathan Friedman"
+647 "Don Friesen"
+648 "C.L. Liu"
+649 "Mark Fulk"
+650 "Martin Furer"
+651 "Donald Fussell"
+652 "Zvi M. Kedem"
+653 "Hal Gabow"
+654 "Harold Stone"
+655 "Peter Gacs"
+656 "C.P. Schnorr"
+657 "David Gale"
+658 "Herve Gallaire"
+659 "Bernard A. Galler"
+660 "Marshall Stone"
+661 "Paul Halmos"
+662 "Jean Gallier"
+663 "Robin Gandy"
+664 "Alan Turing"
+665 "Harald Ganzinger"
+666 "Juergen Eickel"
+667 "Juan Garay"
+668 "Mike Garey"
+669 "E.F. Moore"
+670 "George Gargov"
+671 "A.G. Dragalin"
+672 "V.A. Uspenskij"
+673 "Stephen Garland"
+674 "Harvey Garner"
+675 "Norman Scott"
+676 "Oscar Garrido"
+677 "Andrzej Lingas"
+678 "Max Garzon"
+679 "Paul E. Schupp"
+680 "William Gasarch"
+681 "J. von zur Gathen"
+682 "Volker Strassen"
+683 "Fanica Gavril"
+684 "Hillel Gazit"
+685 "Gary Miller"
+686 "Matt Geller"
+687 "Pete Gemmell"
+688 "Rosario Gennaro"
+689 "Mihaly Gereb-Graus"
+690 "John Geske"
+691 "Alan Selman"
+692 "Mujtaba Ghouse"
+693 "Michael T. Goodrich"
+694 "Raffaele Giancarlo"
+695 "Peter B. Gibbons"
+696 "Phil Gibbons"
+697 "Joseph Gil"
+698 "Avi Wigderson"
+699 "John Gilbert"
+700 "Rick Giles"
+701 "R.W. Robinson"
+702 "David Gillman"
+703 "Ben Dushnik"
+704 "Jay Gischer"
+705 "Arthur Gittleman"
+706 "Magnus Hestenes"
+707 "Joseph Giuliano"
+708 "Shafee Give'on"
+709 "David Gladstein"
+710 "Mitchell Wand"
+711 "Wayne Goddard"
+712 "Kurt G&ouml;del"
+713 "Hans Hahn"
+714 "Igal Golan"
+715 "Allen Goldberg"
+716 "Andrew Goldberg"
+717 "Leslie Goldberg"
+718 "Mark Jerrum"
+719 "Paul Goldberg"
+720 "Kenneth Goldman"
+721 "Sally Goldman"
+722 "Mikael Goldmann"
+723 "Johan Hastad"
+724 "Oded Goldreich"
+725 "Leslie M. Goldschlager"
+726 "Judy Goldsmith"
+727 "Deborah Joseph"
+728 "Arthur Goldstein"
+729 "Jon Goldstine"
+730 "Edwin Spanier"
+731 "Mordecai Golin"
+732 "Robert Sedgewick"
+733 "A.H. Taub"
+734 "Ralph Gomory"
+735 "Jacob Gonczarowski"
+736 "Alan George"
+737 "Teofilo Gonzalez"
+738 "Don Good"
+739 "Ralph London"
+740 "Nat Goodman"
+741 "Ajei Gopal"
+742 "Dan Gordon"
+743 "Vivek Gore"
+744 "Deepak Goyal"
+745 "Albert Gr&auml;ef"
+746 "Clemens Lautemann"
+747 "Niall Graham"
+748 "Ron Graham"
+749 "Derrick Lehmer"
+750 "Scott Graham"
+751 "Susan Graham"
+752 "Gosta Grahne"
+753 "Kari-Jouko Raiha"
+754 "Ed Granirer"
+755 "Harry Kesten"
+756 "Jim Gray"
+757 "Frederic Green"
+758 "Feza Gursey"
+759 "Albert Greenberg"
+760 "Ronald Greenberg"
+761 "Dan Greene"
+762 "Raymond Greenlaw"
+763 "Larry Ruzzo"
+764 "John Grefenstette"
+765 "Andreas Griewank"
+766 "Michelangelo Grigni"
+767 "Victor Grinberg"
+768 "Yuri Lyubich"
+769 "Dana Grinstead"
+770 "Peter J. Slater"
+771 "Joachim Grollmann"
+772 "Jan Friso Groote"
+773 "Jerrold W. Grossman"
+774 "Daniel M. Kan"
+775 "Adam Grove"
+776 "Joe Halpern"
+777 "Stephane Grumbach"
+778 "Jim Grundy"
+779 "Michael J. C. Gordon"
+780 "? Grune"
+781 "Dah Jyh Guan"
+782 "Steve Guattery"
+783 "Leonidas J. Guibas"
+784 "Katia Guimaraes"
+785 "Ashish Gupta"
+786 "Udai Gupta"
+787 "Vineet Gupta"
+788 "Eitan Gurari"
+789 "Yuri Gurevich"
+790 "P.G. Kontorovich"
+791 "Dan Gusfield"
+792 "Annegret Habel"
+793 "Hans-Joerg Kreowski"
+794 "Stuart Haber"
+795 "A. Nico Habermann"
+796 "Jacques Hadamard"
+797 "?"
+798 "Ramsey Haddad"
+799 "Thilo Hafer"
+800 "Wolfgang Thomas"
+801 "David Haglin"
+802 "Shankar Venkatesan"
+803 "Brent Hailpern"
+804 "Sue Owicki"
+805 "L. Kalmar"
+806 "Cordelia V. Hall"
+807 "David S. Wise"
+808 "Oystein Ore"
+809 "Magnus Halldorsson"
+810 "Bernd Halstenberg"
+811 "R. Reischuk"
+812 "Robert Millikan"
+813 "Suzanne Hambrusch"
+814 "Janos Simon"
+815 "Dick Hamlet"
+816 "Michael M. Hammer"
+817 "Yenjo Han"
+818 "Lane Hemaspaandra"
+819 "Vijay Hanagandi"
+820 "Michael Nikolaou"
+821 "John Hannan"
+822 "Eleanor Hare"
+823 "Dov Harel"
+824 "George Lueker"
+825 "T. Harju"
+826 "Arto Salomaa"
+827 "Neal Harman"
+828 "John Tucker"
+829 "Leo Harrington"
+830 "R. Carnap"
+831 "Carl Hauser"
+832 "David Haussler"
+833 "Ivan Havel"
+834 "Lenny Heath"
+835 "Erich Hecke"
+836 "Don Heller"
+837 "J.F. Traub"
+838 "Hans Heller"
+839 "R. Bayer"
+840 "Lisa Hellerstein"
+841 "D.P. Helmbold"
+842 "Monika R. Henzinger"
+843 "Thomas A. Henzinger"
+844 "Maurice Herlihy"
+845 "Barbara H. Liskov"
+846 "John Hershberger"
+847 "Amir Herzberg"
+848 "Uschi Heuter"
+849 "Rattikorn Hewett"
+850 "Giora Slutzki"
+851 "Carl Hewitt"
+852 "Seymour Papert"
+853 "Allan Heydon"
+854 "A. Heyting"
+855 "L.E.J. Brouwer"
+856 "Ferdinand Lindemann"
+857 "Friedhelm Hinz"
+858 "Dan Hirschberg"
+859 "Chun-Kuen Ho"
+860 "My Hoang"
+861 "John Mitchell"
+862 "John Hobby"
+863 "Dorit Hochbaum"
+864 "Peter Hochschild"
+865 "Joshua Hodas"
+866 "Berthold Hoffman"
+867 "Chris Hoffman"
+868 "Larry Landweber"
+869 "Martin Hofmann"
+870 "Thomas Hofmeister"
+871 "Ingo Wegener"
+872 "Walter Hohberg"
+873 "Arthur Banks"
+874 "Nicolas Holzschuch"
+875 "Claude Puech"
+876 "Peter Honeyman"
+877 "Jim Hoover"
+878 "R.L. Matson"
+879 "Heinz Hopf"
+880 "Erhard Schmidt"
+881 "Ellis Horowitz"
+882 "Alexander Horsch"
+883 "Ned Horvath"
+884 "K. Reidemeister"
+885 "Brian Howard"
+886 "Paul G. Howard"
+887 "Rodney Howell"
+888 "Louis E. Rosier"
+889 "Tom Howell"
+890 "Scott Huddleston"
+891 "W.E. Singletary"
+892 "Richard Hull"
+893 "Chao-Kuei Hung"
+894 "Harry Hunt"
+895 "Greg Hunter"
+896 "Joan Hutchinson"
+897 "Hans Huttel"
+898 "Colin Stirling"
+899 "Dung Huynh"
+900 "Martin Hyland"
+901 "Dexter Kozen"
+902 "Edmund Ihler"
+903 "Peter Widmayer"
+904 "Newman Ilan"
+905 "Witold Lipski"
+906 "Russell Impagliazzo"
+907 "Sandra Irani"
+908 "Isaac Saias"
+909 "Alexander T. Ishii"
+910 "Veysi Isler"
+911 "Bulent Ozguc"
+912 "Alon Itai"
+913 "Pino Italiano"
+914 "Ljubomir Ivanov"
+915 "Ken Iverson"
+916 "Kazuo Iwano"
+917 "Kenneth Steiglitz?"
+918 "Kenkichi Iwasawa"
+919 "Shokichi Iyanaga"
+920 "Teiji Takagi"
+921 "Joseph Ja'Ja'"
+922 "Konrad Jacobs"
+923 "Wilhelm Maak"
+924 "Jeff Jaffe"
+925 "Arun K. Jagota"
+926 "Kenneth Regan"
+927 "Sanjay Jain"
+928 "Hakan Jakobsson"
+929 "Fahimeh Jalili"
+930 "Jan van_der_Craats"
+931 "? Spijker"
+932 "Theo M.V. Janssen"
+933 "Prasad Jayanti"
+934 "Eric Jeltsch"
+935 "Tom Jenkyns"
+936 "Niels Jensen"
+937 "Grant D. Fisher"
+938 "Tao Jiang"
+939 "Carl Jockusch"
+940 "David S. Johnson"
+941 "Donald B. Johnson"
+942 "Steven D. Johnson"
+943 "Anita Jones"
+944 "Douglas Jones"
+945 "Thomas T. Chen"
+946 "Neil D. Jones"
+947 "S. Takasu"
+948 "Paul Young"
+949 "J.H. Jou"
+950 "Yuh-Jzer Joung"
+951 "Scott Smolka"
+952 "David Juedes"
+953 "Jack Lutz"
+954 "Ramana Juvvadi"
+955 "Mark Kac"
+956 "Hugo Steinhaus"
+957 "James Kadin"
+958 "Jeff Kahn"
+959 "D. Ray-Chaudhuri"
+960 "? Kaldewaij"
+961 "Burton Kaliski"
+962 "Eric Kaltofen"
+963 "Bala Kalyanasundaram"
+964 "John Kam"
+965 "Anil Kamath"
+966 "Serge Plotkin"
+967 "Tsutomu Kamimura"
+968 "A.H.G. Rinnooy Kan"
+969 "G. de_Leve"
+970 "Paris Kanellakis"
+971 "Christos H. Papadimitriou"
+972 "Arkady Kanevsky"
+973 "Vijaya Ramachandran"
+974 "Viggo Kann"
+975 "Les Trotter"
+976 "Sampath Kannan"
+977 "Goos Kant"
+978 "Mark Kaplan"
+979 "Sanjiv Kapoor"
+980 "Bruce Kapron"
+981 "David Karger"
+982 "Rajeev Motwani"
+983 "J. Karhumaki"
+984 "Oded Kariv"
+985 "Anna Karlin"
+986 "Howard Karloff"
+987 "Narendra Karmarkar"
+988 "Mark Karpinsky"
+989 "W. Orlicz"
+990 "Kevin Karplus"
+991 "Owen Kaser"
+992 "I.V. Ramakrishnan"
+993 "Sam Kashdan"
+994 "Jyrki Katajainen"
+995 "Olli Nevalainen"
+996 "Dinesh Katiyar"
+997 "Howard Katseff"
+998 "Matthew J. Katz"
+999 "Micha Sharir"
+1000 "Shmuel Katz"
+1001 "John Kececioglu"
+1002 "Gene Myers"
+1003 "Alexander Kechris"
+1004 "A. Paz"
+1005 "Sam Winograd"
+1006 "Mark Keil"
+1007 "John Kemeny"
+1008 "R. Kemp"
+1009 "Robert Kennedy"
+1010 "Brian Kernighan"
+1011 "Peter Weiner"
+1012 "? Kersten"
+1013 "Yonit Kesten"
+1014 "A.J. Kfoury"
+1015 "Michael Kharitonov"
+1016 "Samir Khuller"
+1017 "Vijay Vazirani"
+1018 "Don Kiel"
+1019 "M. Kifer"
+1020 "Joe Kilian"
+1021 "Pekka Kilpelainen"
+1022 "Heikki Mannila"
+1023 "Chul Kim"
+1024 "Sam Kim"
+1025 "Efim Kinber"
+1026 "R.M. King"
+1027 "Valerie King"
+1028 "C.M.R. Kintala"
+1029 "Shlomo Kipnis"
+1030 "Walter Kirchherr"
+1031 "David Kirkpatrick"
+1032 "Lefteris Kirousis"
+1033 "Jyrki Kivinen"
+1034 "Esko Ukkonen"
+1035 "Maria Klawe"
+1036 "Tony Lau"
+1037 "E.J. McShane"
+1038 "Felix Klein"
+1039 "Julius Plucker"
+1040 "David Shmoys"
+1041 "J. Schwinger"
+1042 "R. Glauber"
+1043 "Ton Kloks"
+1044 "J.W. Klop"
+1045 "Tony Klug"
+1046 "A.S. Klusener"
+1047 "Edgar Knapp"
+1048 "Jayadev Misra"
+1049 "Ker-I Ko"
+1050 "Daniel Moore"
+1051 "Pascal Koiran"
+1052 "Michel Cosnard"
+1053 "J.N. Kok"
+1054 "Phokion Kolaitis"
+1055 "Daphne Koller"
+1056 "Janos Komlos"
+1057 "Alfred Renyi"
+1058 "Kireeti Kompella"
+1059 "Ephraim Korach"
+1060 "Tmima Koren"
+1061 "Hank Korth"
+1062 "H.P. Korver"
+1063 "Martha Kosa"
+1064 "Jennifer Welch"
+1065 "H. Yamada"
+1066 "Anthony Kosky"
+1067 "Susan B. Davidson"
+1068 "T. Kowaltowski"
+1069 "J.H. Morris"
+1070 "Dean Krafft"
+1071 "Dina Kravets"
+1072 "Hugo Krawczyk"
+1073 "Mark Krentel"
+1074 "B. Krishnamurthy"
+1075 "Robert Moll"
+1076 "P. Krishnan"
+1077 "Habib Krit"
+1078 "Ken Krohn"
+1079 "Fred Kruher"
+1080 "Kurt Schutte"
+1081 "Clyde Kruskal"
+1082 "Jack Schwartz"
+1083 "Joe Kruskal"
+1084 "Harold Kuhn"
+1085 "Werner Kuich"
+1086 "V.K.P. Kumar"
+1087 "Gabi Kuper"
+1088 "Bradley C. Kuszmaul"
+1089 "Shay Kutten"
+1090 "Shlomo Moran"
+1091 "Miroslaw Kutylowski"
+1092 "K.L. Kwast"
+1093 "Martin H. L&ouml;b"
+1094 "John von_Neumann"
+1095 "Ludwig L&ouml;we"
+1096 "?"
+1097 "Jeff Lagarias"
+1098 "Harold Stark"
+1099 "? Lakshman"
+1100 "Shui Lam"
+1101 "Tak-Wah Lam"
+1102 "Edmund Lamagna"
+1103 "Alexis Lamouret"
+1104 "Marie-Paule Gascuel"
+1105 "Gad Landau"
+1106 "Uzi Vishkin"
+1107 "Susan Landau"
+1108 "J.R. Buchi"
+1109 "Mike Langston"
+1110 "Amy Lansky"
+1111 "Andrea LaPaugh"
+1112 "Lawrence L. Larmore"
+1113 "Sharon Laskowski"
+1114 "Dirk Siefkes"
+1115 "Joan Lawry"
+1116 "Aldo Lazar"
+1117 "Joram Lindenstrauss"
+1118 "D.T. Lee"
+1119 "Sing-Ling Lee"
+1120 "William Edward Story"
+1121 "Daniel Lehmann"
+1122 "Brian Leininger"
+1123 "R. Leipala"
+1124 "Dan Leivant"
+1125 "A.S. Troelstra"
+1126 "Tom Lengauer"
+1127 "A.K. Lenstra"
+1128 "H.K. Lenstra"
+1129 "F. Oort"
+1130 "J.K. Lenstra"
+1131 "Katja Lenz"
+1132 "Hon Wai Leong"
+1133 "Pierre Lescanne"
+1134 "Claude Pair"
+1135 "John Leuchner"
+1136 "Joe Leung"
+1137 "Christos Levcopoulos"
+1138 "Gary Levin"
+1139 "Leonid A. Levin"
+1140 "David Levine"
+1141 "Forbes Lewis"
+1142 "John Lewis"
+1143 "Phil Lewis"
+1144 "Ernie Guillemin"
+1145 "Lide Li"
+1146 "Ming Li"
+1147 "Chuck Liang"
+1148 "Y. Daniel Liang"
+1149 "S.K. Dhall"
+1150 "Ran Libeskind-Hadas"
+1151 "Leonid Libkin"
+1152 "David Lichtenstein"
+1153 "Orna Lichtenstein"
+1154 "Karl Lieberherr"
+1155 "Arthur L. Liestman"
+1156 "Roy H. Campbell"
+1157 "Jyh-Han Lin"
+1158 "Shen Lin"
+1159 "Tibor Rado"
+1160 "Patrick Lincoln"
+1161 "Steven Lindell"
+1162 "Erik Sandewall"
+1163 "M. Linna"
+1164 "Wiktor Marek"
+1165 "Dick Lipton"
+1166 "David Parnas"
+1167 "Maciej Liskiewicz"
+1168 "Dean Arden"
+1169 "Austin Lobo"
+1170 "Irina Lomazova"
+1171 "Jean-Christophe Lombardo"
+1172 "Phil Long"
+1173 "Tim Long"
+1174 "John Longley"
+1175 "Luc Longpre"
+1176 "Krzysztof Lorys"
+1177 "Tibor Gallai"
+1178 "C L. Lucchesi"
+1179 "D.H. Younger"
+1180 "David Luckham"
+1181 "David Luginbuhl"
+1182 "Carsten Lund"
+1183 "Zhaohui Luo"
+1184 "Rod Burstall"
+1185 "Yuh-Dauh Lyuu"
+1186 "Michael Machtey"
+1187 "Saunders MacLane"
+1188 "Herman Weyl"
+1189 "Eugene Madison"
+1190 "George Mager"
+1191 "Bruce Maggs"
+1192 "Talal Maghrabi"
+1193 "Tom Magnanti"
+1194 "George Dantzig"
+1195 "Steve Mahaney"
+1196 "Bernd Mahr"
+1197 "David Maier"
+1198 "? Mailloux"
+1199 "Harry Mairson"
+1200 "Aniket Majumdar"
+1201 "Fillia Makedon"
+1202 "G. Krulee"
+1203 "Erkki Makinen"
+1204 "Reino Kurki-Suonio"
+1205 "Yoni Malachi"
+1206 "Oded Maler"
+1207 "Miller Maley"
+1208 "Seth Malitz"
+1209 "Mark Manasse"
+1210 "Terry Millar"
+1211 "Rachel Manber"
+1212 "Udi Manber"
+1213 "Ken Manders"
+1214 "Joseph Manning"
+1215 "Yishai Mansour"
+1216 "Weizhen Mao"
+1217 "Madhav Marathe"
+1218 "Richard Stearns"
+1219 "Yves Marcoux"
+1220 "Pierre McKenzie"
+1221 "Peter Mark"
+1222 "Tassos Markas"
+1223 "Andrei Andreevich Markov"
+1224 "Assaf Marron"
+1225 "Conrado Martinez"
+1226 "Rafael Casas"
+1227 "Vic Massad"
+1228 "Barton A. Weitz"
+1229 "Tom Mathies"
+1230 "Steve Matthews"
+1231 "Steve Maurer"
+1232 "S. Mauw"
+1233 "John Mayberry"
+1234 "Brian Mayoh"
+1235 "Elvira Mayordomo"
+1236 "Manfred Paul"
+1237 "Waclaw Sierpinski"
+1238 "John McCarthy"
+1239 "Ed McCreight"
+1240 "Cathy McGeoch"
+1241 "Lyle McGeoch"
+1242 "David McQueen"
+1243 "Nimrod Megiddo"
+1244 "Michael Maschler"
+1245 "J. Meidanis"
+1246 "Karl Meinke"
+1247 "R. Melville"
+1248 "Arif Merchant"
+1249 "Mike Merritt"
+1250 "Takis Metaxas"
+1251 "Wolfgang Paul"
+1252 "Ruben Michel"
+1253 "A. Middeldorp"
+1254 "Milena Mihail"
+1255 "Victor Milenkovic"
+1256 "Takeo Kanade"
+1257 "Michael Morley"
+1258 "Peter Andrews"
+1259 "Ray Miller"
+1260 "Franz Hohn"
+1261 "Webb Miller"
+1262 "Ogden Rood"
+1263 "Peter Miltersen"
+1264 "Sven Skyum"
+1265 "Nathaniel Mishkin"
+1266 "Joseph Mitchell"
+1267 "Sandra Mitchell"
+1268 "William H. Mitchell"
+1269 "Sarah Mocas"
+1270 "Bob Moenck"
+1271 "John Lipson"
+1272 "Faron Moller"
+1273 "Robin Milner"
+1274 "Margaret Montenyohl"
+1275 "H.A. Newton"
+1276 "Kate Morris"
+1277 "Mohamed Mosbah"
+1278 "Bruno Courcelle"
+1279 "Yoram Moses"
+1280 "Nils Nilsson"
+1281 "Ben Moszkowski"
+1282 "Howard Motteler"
+1283 "Carl Smith"
+1284 "D. Mount"
+1285 "Arnaldo V. Moura"
+1286 "Steve Muchnick"
+1287 "Inderpal Mumick"
+1288 "Daniel Allen Muntz"
+1289 "Dick Muntz"
+1290 "Ilmir Musikaev"
+1291 "Jean Musinski"
+1292 "Thomas Myers"
+1293 "Theo Pavlidis"
+1294 "Gopalan Nadathur"
+1295 "Ashish V. Naik"
+1296 "Dalit Naor"
+1297 "Joseph Naor"
+1298 "Moni Naor"
+1299 "Giri Narasimhan"
+1300 "Chandra Narayanan"
+1301 "Lata Narayanan"
+1302 "Danny Krizanc"
+1303 "Jeffrey F. Naughton"
+1304 "Greg Nelson"
+1305 "Anil Nerode"
+1306 "Carl Gottfried Neumann"
+1307 "?"
+1308 "Herb Simon"
+1309 "A. Nijholt"
+1310 "Bengt J. Nilsson"
+1311 "Stefan Nilsson"
+1312 "Noam Nisan"
+1313 "Damian Niwinski"
+1314 "Jerzy Tiuryn"
+1315 "Mark H. Nodine"
+1316 "Lars Nyland"
+1317 "Colm O'Dunlaing"
+1318 "Zoran Obradovic"
+1319 "Ian Parberry"
+1320 "Bojana Obrenic"
+1321 "Andrew Odlyzko"
+1322 "Mitsunori Ogihara"
+1323 "Kojiro Kobayashi"
+1324 "Hans J&uuml;rgen Ohlbach"
+1325 "J&ouml;rg Siekmann"
+1326 "Atsushi Ohori"
+1327 "E.R. Olderog"
+1328 "Hans Langmaack"
+1329 "Dino P. Oliva"
+1330 "Derek Oppen"
+1331 "Fredrik Orava"
+1332 "Joachim Parrow"
+1333 "Thor Skolem"
+1334 "Mehmet Orgun"
+1335 "Jim Orlin"
+1336 "Arthur Veinott"
+1337 "Pekka Orponen"
+1338 "Sylvia Osborn"
+1339 "Frank Tompa"
+1340 "Ross Overbeek"
+1341 "Leszek Pacholki"
+1342 "Czeslaw Ryll-Nardzewski"
+1343 "Peter Padawitz"
+1344 "Carl V. Page"
+1345 "Sophia A. Paleologou"
+1346 "Michael Palis"
+1347 "Luquan Pan"
+1348 "Viktor Pan"
+1349 "A.G. Vitushkin"
+1350 "Jean-Jacques Pansiot"
+1351 "Thomas Papadakis"
+1352 "Marios C. Papaefthymiou"
+1353 "Panos Pardalos"
+1354 "Luis Trabb Pardo"
+1355 "Rohit Parikh"
+1356 "David Park"
+1357 "James K. Park"
+1358 "Kunsoo Park"
+1359 "Bruce Parker"
+1360 "Bj&ouml;rn Pehrson"
+1361 "Tory Parsons"
+1362 "Helmut Partsch"
+1363 "Solomon Passy"
+1364 "Shaunak Pawagi"
+1365 "Andrzej Pelc"
+1366 "Doron Peled"
+1367 "Sriram Pemmaraju"
+1368 "M. Penttonen"
+1369 "Peter Pepper"
+1370 "Rene Peralta"
+1371 "Yehoshua Perl"
+1372 "Pino Persiano"
+1373 "Gary L. Peterson"
+1374 "Ola Petersson"
+1375 "Petjo Petkov"
+1376 "A.A. Markov"
+1377 "Erez Petrank"
+1378 "Cynthia Phillips"
+1379 "Steven Phillips"
+1380 "Geoff Phipps"
+1381 "Paul Pilgrim"
+1382 "Tad Pinkerton"
+1383 "Ron Pinter"
+1384 "Shlomit Pinter"
+1385 "Nick Pippenger"
+1386 "David Plaisted"
+1387 "Thane Plambeck"
+1388 "Mike Plass"
+1389 "C. Greg Plaxton"
+1390 "Mark Pleszkoch"
+1391 "Gordon Plotkin"
+1392 "Detlef Plump"
+1393 "C.L. Pekeris"
+1394 "Patricio Poblete"
+1395 "Michel Pocchiola"
+1396 "Andy Podgurski"
+1397 "Lori Clarke"
+1398 "A. Ponse"
+1399 "Kjell Post"
+1400 "Allen van_Gelder"
+1401 "Andreas Potthoff"
+1402 "Han la Poutre"
+1403 "Roberto Vacca"
+1404 "Jan Prins"
+1405 "Robert Probert"
+1406 "Helmut Prodinger"
+1407 "Kirk Pruhs"
+1408 "Teresa Przytycka"
+1409 "Geppino Pucci"
+1410 "Fabrizio Luccio"
+1411 "Bill Pulleyblank"
+1412 "R.W. Kavanaugh"
+1413 "Yuval Rabani"
+1414 "Alexander Rabinovich"
+1415 "Charles Rackoff"
+1416 "Slavian Radev"
+1417 "A. Skowron"
+1418 "Helena Rasiowa"
+1419 "Jaikumar Radhakrishnan"
+1420 "Endre Szemeredi"
+1421 "Tomasz Radzik"
+1422 "Prabhakar Ragde"
+1423 "Balaji Raghavachari"
+1424 "Prabhakar Raghavan"
+1425 "Clark Thomborson"
+1426 "Arvind Raghunathan"
+1427 "Sanguthevar Rajasekaran"
+1428 "Sergio Rajsbaum"
+1429 "Rajeev Raman"
+1430 "Venkatesh Raman"
+1431 "Sridhar Ramaswamy"
+1432 "G.D. Ramkumar"
+1433 "Lyle Ramshaw"
+1434 "Desh Ranjan"
+1435 "R. Ravi"
+1436 "S.S. Ravi"
+1437 "Yiftach Ravid"
+1438 "Bala Ravikumar"
+1439 "R.C. Bose"
+1440 "Vaclar Raylich"
+1441 "Gene Rose"
+1442 "Samuel A. Rebelsky"
+1443 "David A. Reckhow"
+1444 "Philip C. Singer"
+1445 "Robert Reckhow"
+1446 "Larry Reeker"
+1447 "Dominic Welsh"
+1448 "Nick Reingold"
+1449 "S. Reisch?"
+1450 "Gyorgy Revesz"
+1451 "Injong Rhee"
+1452 "Greg Riccardi"
+1453 "Craig Rich"
+1454 "J.J. Thomson"
+1455 "Moty Ricklin"
+1456 "Jon Riecke"
+1457 "Tom Rigles"
+1458 "Dennis Ritchie"
+1459 "Ed Robertson"
+1460 "Abraham Robinson"
+1461 "Paul Dienes"
+1462 "Mickey Rodeh"
+1463 "Susan Rodger"
+1464 "John D. Rogers"
+1465 "Pankaj Rohatgi"
+1466 "David Rolston"
+1467 "Kathleen Romanik"
+1468 "John Rompel"
+1469 "P. Rondogiannis"
+1470 "Robert Roos"
+1471 "Don Rose"
+1472 "Kristoffer H. Rose"
+1473 "Barry Rosen"
+1474 "Dan Rosenkrantz"
+1475 "Arnie Rosenthal"
+1476 "Roni Rosner"
+1477 "Kenneth Ross"
+1478 "G&uuml;nter Rote"
+1479 "E.P. Rotterdam"
+1480 "Branislav Rovan"
+1481 "Jim Royer"
+1482 "Aviel David Rubin"
+1483 "Ronitt Rubinfeld"
+1484 "Roy Rubinstein"
+1485 "K. Ruohonen"
+1486 "Daniela Rus"
+1487 "Michael Rusinowitch"
+1488 "David. Russo"
+1489 "Laura Sabel"
+1490 "George Sacerdote"
+1491 "Daryel Sachse-Akerlind"
+1492 "Martin Ward"
+1493 "Fred Sadri"
+1494 "Hershel Safer"
+1495 "Muli Safra"
+1496 "Yehoshua Sagiv"
+1497 "Bill Sakoda"
+1498 "Mike Saks"
+1499 "Gerard Salton"
+1500 "Laura Sanchis"
+1501 "Daniel P. Sanders"
+1502 "Robin Thomas"
+1503 "Yatin Saraiya"
+1504 "Huzur Saran"
+1505 "Majid Sarragzadeh"
+1506 "Carla Savage"
+1507 "David Muller"
+1508 "Irwin Jacobs"
+1509 "Homer Savige"
+1510 "Wiley Housewright"
+1511 "Walter Savitch"
+1512 "Larry Saxton"
+1513 "Vladimir Sazonov"
+1514 "John Myhill"
+1515 "Tom Schaefer"
+1516 "Robert E. Schapire"
+1517 "Barry Schaudt"
+1518 "Edward R. Scheinerman"
+1519 "Douglas West"
+1520 "William Scherlis"
+1521 "Baruch Schieber"
+1522 "Karl Schimf"
+1523 "Ulrich Schmid"
+1524 "Heinz-Wilhelm Schmidt"
+1525 "Jeanette Schmidt-Prozan"
+1526 "Walter Schnyder"
+1527 "Uwe Schoning"
+1528 "Wolfram Schwabh&auml;user"
+1529 "Leonard Schulman"
+1530 "Martin Schultz"
+1531 "?"
+1532 "Steve Schwartz"
+1533 "Otfried Schwarzkopf"
+1534 "Thomas Schwentick"
+1535 "Edward Sciore"
+1536 "William T. Scott"
+1537 "Silke Seehusen"
+1538 "Joel Seiferas"
+1539 "Stanley Selkow"
+1540 "James Korsh"
+1541 "Warren Semon"
+1542 "Sandeep Sen"
+1543 "Ken Sevcik"
+1544 "Linus Shrage"
+1545 "Vivian Sewelson"
+1546 "Jeffrey Shaffer"
+1547 "Amitabh Shah"
+1548 "Jeffrey Shallit"
+1549 "Ron Shamir"
+1550 "Ilan Adler"
+1551 "Mike Shamos"
+1552 "Claude Shannon"
+1553 "Frank Hitchcock"
+1554 "Greg Shannon"
+1555 "Lloyd Shapley"
+1556 "Mary Shaw"
+1557 "Jim Shearer"
+1558 "Xiaojun Shen"
+1559 "Anil M. Shende"
+1560 "Alan T. Sherman"
+1561 "Rivka Sherman"
+1562 "Yossi Shiloach"
+1563 "Oded Shmueli"
+1564 "Peter Shor"
+1565 "Robert Shostak"
+1566 "Victor Shoup"
+1567 "Bill Maxwell"
+1568 "Alan Siegal"
+1569 "Alex Siegel"
+1570 "Howard Siegel"
+1571 "Georgy Fedoseevich Voronoi"
+1572 "Ron Sigal"
+1573 "Elaine Weyuker"
+1574 "Vishal Sikka"
+1575 "Michael Genesereth"
+1576 "Hans-Ulrich Simon"
+1577 "?"
+1578 "Istvan Simon"
+1579 "Barbara Simons"
+1580 "Shai Simonson"
+1581 "Alistair Sinclair"
+1582 "Seppo Sippu"
+1583 "Eljas Soisalon-Soininen"
+1584 "A.P. Sistla"
+1585 "Peter Sj&ouml;din"
+1586 "Kostas Skandalis"
+1587 "Steven Skiena"
+1588 "Axel Thue"
+1589 "Yaroslav Tagamlitzki"
+1590 "Dale Skrien"
+1591 "Robert Sloan"
+1592 "Raoul Bott"
+1593 "M. Smid"
+1594 "Sean Smith"
+1595 "Steven Smoliar"
+1596 "Raymond Smullyan"
+1597 "? Snepscheut"
+1598 "Marc Snir"
+1599 "Larry Snyder"
+1600 "Timothy Law Snyder"
+1601 "J. Michael Steele"
+1602 "Soeren Soe"
+1603 "M. Soittola"
+1604 "Marv Solomon"
+1605 "Jon Sorenson"
+1606 "Ivan Soskov"
+1607 "Vladimir Sotirov"
+1608 "Edith Spaan"
+1609 "Johan F.A.K. van_Benthem"
+1610 "Joel Spencer"
+1611 "Paul Erdos?"
+1612 "T.H. Spencer"
+1613 "Daniel A. Spielman"
+1614 "Jerry Spinrad"
+1615 "Jacobo Valdes"
+1616 "Paul Spirakis"
+1617 "Fred Springsteel"
+1618 "M.A. Sridhar"
+1619 "Mandayam Srinivas"
+1620 "Aravind Srinivasan"
+1621 "Matt Stallmann"
+1622 "Tom Standish"
+1623 "John Staples"
+1624 "Eugene Stark"
+1625 "Richard Statman"
+1626 "Paul Steckler"
+1627 "Edward Stedman"
+1628 "S.S.L. Chang"
+1629 "Clifford Stein"
+1630 "M. Steinby"
+1631 "Volker Stemann"
+1632 "Michael Stob"
+1633 "Larry Stockmeyer"
+1634 "Paul Stockmeyer"
+1635 "Alexei P. Stolboushkin"
+1636 "Jorge Stolfi"
+1637 "Jim Storer"
+1638 "Tom Szymanski"
+1639 "Carl Gottfried Neumann?"
+1640 "Martin Strauss"
+1641 "Bob Streett"
+1642 "Juris Strods"
+1643 "Ray Strong"
+1644 "Gordon Stuart"
+1645 "Carl Sturtivant"
+1646 "Peter Su"
+1647 "Ashok Subramanian"
+1648 "Sairam Subramanian"
+1649 "Madhu Sudan"
+1650 "Torsten Suel"
+1651 "Ken Supowit"
+1652 "Subhash Suri"
+1653 "Ivan Sutherland"
+1654 "Hendra Suwanda"
+1655 "Sowmitri Swamy"
+1656 "Mario Szegedy"
+1657 "A. Szilard"
+1658 "Wieslaw Szwast"
+1659 "Kuo-chung Tai"
+1660 "Anatoly Maltsev"
+1661 "Paul J. Tanenbaum"
+1662 "Senhua Tao"
+1663 "Eva Tardos"
+1664 "Stanislaw Lefniewski"
+1665 "Jun Tarui"
+1666 "Steve Tate"
+1667 "Paul Taylor"
+1668 "Peter Johnstone"
+1669 "? Teer"
+1670 "Monique Teillaud"
+1671 "J-D Boissonnat"
+1672 "Gerard Tel"
+1673 "Ewan Tempero"
+1674 "Shang-Hua Teng"
+1675 "Richard Tenney"
+1676 "H.J.J. te_Riele"
+1677 "James Thatcher"
+1678 "Stan Thomas"
+1679 "Hans Hermes"
+1680 "Hans-Dieter Ebbinghaus"
+1681 "David Blackwell"
+1682 "Ben Thompson"
+1683 "Clark Thompson"
+1684 "Ken Thompson"
+1685 "Prasoon Tiwari"
+1686 "Seinosuke Toda"
+1687 "See P. Toh"
+1688 "Ioannis Tollis"
+1689 "Kelly Gottlieb"
+1690 "Jacobo Toran"
+1691 "Eric Torng"
+1692 "Alberto Torres"
+1693 "Jerry Trahan"
+1694 "Nicholas Tran"
+1695 "Henry Foley"
+1696 "Mart Trautwein"
+1697 "Howard Trickey"
+1698 "John Tromp"
+1699 "P.M.B. Vitanyi"
+1700 "George Nemhauser"
+1701 "Athanasios Tsakalidis"
+1702 "Manolis Tsangaris"
+1703 "Thanasis Tsantilas"
+1704 "E.J. McCluskey"
+1705 "Philippas Tsigas"
+1706 "D.-M. Tsou"
+1707 "Shalom Tsur"
+1708 "John Tukey"
+1709 "P. Turakainen"
+1710 "Jon Turner"
+1711 "Mark Tuttle"
+1712 "Akhilesh Tyagi"
+1713 "Jerzy Tyszkiewicz"
+1714 "Wen-Guey Tzeng"
+1715 "? Udding"
+1716 "David Udin"
+1717 "R.T. Udink"
+1718 "S.D.S. Swierstra"
+1719 "Arch McKellar"
+1720 "Yoon-Sup Um"
+1721 "David Huffman"
+1722 "Eli Upfal"
+1723 "T. Urponen"
+1724 "Pawel Urzyczyn"
+1725 "Pravin Vaidya"
+1726 "Dimiter Vakarelov"
+1727 "Thomas Valente"
+1728 "Gabriel Valiente"
+1729 "Francesc Rossello"
+1730 "Mars Valiev"
+1731 "S. van_Denneheuvel"
+1732 "M.P. van_der_Hulst"
+1733 "M.H. van_Emden"
+1734 "R.J. van_Glabbeek"
+1735 "Dirk Van_Gucht"
+1736 "? van_Katwijk"
+1737 "Marc van_Kreveld"
+1738 "V. van_Oostrom"
+1739 "Frances Van_Scoy"
+1740 "? van_Vliet"
+1741 "Chris van_Wyk"
+1742 "Lotfi Zadeh"
+1743 "Moshe Vardi"
+1744 "George Varghese"
+1745 "? Veen"
+1746 "Mahandren Velauthapillai"
+1747 "Marinus Veldhorst"
+1748 "K.M. Venkataraman"
+1749 "Ann Yasuhara"
+1750 "H. Venkateswaran"
+1751 "? Verhoef"
+1752 "Rakesh M. Verma"
+1753 "Victor Vianu"
+1754 "G. Vijayan"
+1755 "Alfredo Viola"
+1756 "Ramesh Viswanathan"
+1757 "Emil Volcheck"
+1758 "David Cantor"
+1759 "Heribert Vollmer"
+1760 "Klaus W. Wagner"
+1761 "Orli Waarts"
+1762 "Alf Wachsmann"
+1763 "Bob Wagner"
+1764 "David Wall"
+1765 "Emmanuel Waller"
+1766 "H. Walter"
+1767 "Igor Walukiewicz"
+1768 "Alex Wang"
+1769 "Hui Wang"
+1770 "Jie Wang"
+1771 "Rolf Wanka"
+1772 "Manfred Warmuth"
+1773 "Tandy Warnow"
+1774 "Osamu Watanabe"
+1775 "Takuya Katayama"
+1776 "Ben Wegbreit"
+1777 "Mark Wegman"
+1778 "Trudy Weibel"
+1779 "Bruce Weide"
+1780 "William E. Weihl"
+1781 "W.P. Weijland"
+1782 "Peter Weinberger"
+1783 "Mark Allen Weiss"
+1784 "Richard Hammersley"
+1785 "Emo Welzl"
+1786 "Ralph Werchner"
+1787 "Arthur Werschulz"
+1788 "Charles Wetherell"
+1789 "Peter D. White"
+1790 "William White"
+1791 "Hassler Whitney"
+1792 "Rolf Wiehagen"
+1793 "Helmut Thiele"
+1794 "Bob Wilber"
+1795 "Herb Robbins"
+1796 "Gordon Wilfong"
+1797 "Thomas Wilke"
+1798 "Dan Willard"
+1799 "Ugo Gagliardi"
+1800 "Christopher Wilson"
+1801 "Thomas Wimer"
+1802 "Peter Winkler"
+1803 "Karl Winklmann"
+1804 "Vincent Wino"
+1805 "Terry Winograd"
+1806 "C. Witteveen"
+1807 "Markus Wloka"
+1808 "Gerhard Woeginger"
+1809 "Franz Rendl"
+1810 "Marty Wolf"
+1811 "Karl Schr&ouml;ter"
+1812 "Ouri Wolfson"
+1813 "Heather Woll"
+1814 "Pierre Wolper"
+1815 "Limsoon Wong"
+1816 "Patrick Wong"
+1817 "Derrick Wood"
+1818 "Mike Wells"
+1819 "Mark Wood"
+1820 "Don Woods"
+1821 "Hans Wossner"
+1822 "Detlef Wotschke"
+1823 "Celia Wrathall"
+1824 "David A. Wright"
+1825 "C. Baker-Finch"
+1826 "P. Collier"
+1827 "Rebecca N. Wright"
+1828 "Michael Wu"
+1829 "Peter Yick Fai Wu"
+1830 "James Wyllie"
+1831 "Harry Wyshoff"
+1832 "Yacov Yacobi"
+1833 "Ali Yaghi"
+1834 "Bob McNaughton"
+1835 "Pei-Yuan Yan"
+1836 "Mihalis Yannakakis"
+1837 "S. Glashow"
+1838 "Frances Yao"
+1839 "Chee Yap"
+1840 "Bennet Yee"
+1841 "Raymond Yeh"
+1842 "R. Bar Yehuda"
+1843 "Amiram Yehudai"
+1844 "Hsu-Chun Yen"
+1845 "Yaacov Yesha"
+1846 "Akitoshi Yoshida"
+1847 "Neal E. Young"
+1848 "David Yun"
+1849 "Moti Yung"
+1850 "Sami Zaiddan"
+1851 "Shmuel Zaks"
+1852 "Christos D. Zaroliagis"
+1853 "Jordan Zashev"
+1854 "Bernhard Zeigler"
+1855 "Suzanne Zeitman"
+1856 "Thomas Zeugmann"
+1857 "Louxin Zhang"
+1858 "Yanjun Zhang"
+1859 "Qi Zheng"
+1860 "Huang Zhisheng"
+1861 "P. Zhou"
+1862 "Marius Zimand"
+1863 "Rich Zippel"
+1864 "? Zonneveld"
+1865 "Lenore Zuck"
+1866 "Jeff Zucker"
+1867 "S. Feferman"
+1868 "David Zuckerman"
+1869 "Uri Zwick"
+1870 "J. Zwiers"
+1871 "---"
+1872 "---"
+1873 "---"
+1874 "---"
+1875 "---"
+1876 "---"
+1877 "---"
+1878 "---"
+1879 "---"
+1880 "---"
+1881 "---"
+1882 "---"
+*Arcslist
+2 1 42 106 1078
+4 3
+6 5 154 335 361 119 843 1000 1205 1281 1520 598 608 1814
+8 7 765 1491
+9 208 777 1765
+10 9 360 452 526 707 1018 1190 1480 1753 1850
+12 11 181 254 816 940 1252 1265 1345 1373 710 1827 1838
+14 13 1181 1685 1693 1828
+15 673 539
+16 15 107 359 510 1441
+17 1058
+18 17 75 117 268 600 687 169 34 906 976 997 1213 173 685 1298 1370 1483 94 1497 1548 144 91 1017
+20 19 267 308 505 506 604 932 1092 1127 1479 1593 309 1696 1731 1732 1806 1860 1870
+22 21 147 488 74 1170 1414 1513 1730
+24 23
+25 1071
+26 25 1652
+27 56
+28 27
+30 29 1435 1648
+32 31 128 202 444 516 544 616 533 177 889 894 1291 1350 1486 1796 1830
+34 33 723 1020 1215
+35 92 281 915 580 1499 1541
+36 35
+38 37
+40 39 1829
+42 41 160 270 527 547 725 877 980 1220 1330 1445 1511
+44 43 1353
+46 45 280 353 469 472 343 1338 1351 1394 1430 1654 1755
+47 743 1640
+48 47
+49 1533
+50 49 1701
+52 51 305 1489 1547 1569 1819
+54 53 211 1118 1505 442 1688
+56 55 133 167 440 100 735 742 1121 1297 1525 1598 1707 1722
+58 57
+60 59 477 1631 1762 1771
+61 184 575
+62 61
+63 1471
+64 63
+66 65 841 1026 1131 1248 1389 1612 1647 1768 1786
+67 1311
+68 67 385 1310
+70 69
+72 71 869
+74 73 1025
+75 246
+77 76 834 1320 1396
+79 78 507 1012 1669
+81 80 1229
+83 82 555 1164 1418
+85 84
+87 86 443 695 1006 403
+89 88 1290 1635
+91 90 1254 1649 1868
+94 93
+96 95 185 300 699 842 1126 1304 546 1615 1820 1847
+97 693 1214
+98 97 339
+100 99 138
+102 101 1587
+104 103 350 466 483 704 787 535 1641 1761
+105 1744
+106 105 559 683 724 912 984 1371 1428 1462 1562 1832 1842
+107 691
+109 108 1869
+111 110 1222 1316 1427 1542 1616 1646 1666 1846
+112 20
+113 112
+114 159 1656
+115 114 1420
+116 114
+117 1245 1566 1605 1810
+119 118 252
+121 120 753 1582 1583 1034
+122 26 911
+123 122
+124 225 260 437 610 1046 1062 1232 1398 1781 1861
+125 124
+126 139
+127 126 140
+128 500
+130 129 275 528 537 642 1317 1347 1473 1488 1823
+132 131 194 264 336 368 818 571 957 901 1141 1146 1175 1195 1434 218 1465 85 1545 814 20
+134 1235 1690
+135 134
+137 136 657 1083 1231 242 1361 1555
+140 139
+142 141 1625
+144 143 259 328 513 615 702 766 1529 1613
+146 145 1413 1437 1455
+147 355 1642
+149 148 249 1604
+151 150
+153 152 207 1425 1683
+156 155 521 1192 1536 1687 1720 1789
+158 157
+160 1115
+162 161 658 686 756 833 367 48 1285 763 1843
+164 163 180 411 689 714 1185 1004 1372 384
+166 165 330 482 1211 1590 1627
+167 1019 1743
+168 1448
+169 168 1578
+171 170 747 454 1634
+173 172 465 688
+175 174 282 623 734 1238 456 137 1708
+177 176 567 694 794 913 1358 1849
+179 178 627 1013 1060 1153 1206 1366 1476 1495 1561 850 1865
+183 182 1532 1632
+185 1618
+186 207 1240
+187 186
+188 772
+189 188 1044 248
+191 190 576 739 1446
+193 192 815 890 1261 1617 1643
+195 667 1470
+196 195 237 596 776 535 924 1139 14 326 1239 861 1075 1415 1456 1538 1633 1641
+198 197 1152 595 1426 1475 1504 1040 1773
+199 740
+200 199 1045
+202 201 1219
+204 203
+205 203
+207 206 232 459 716 760 909 1029 1088 1191 1207 1352 1357 1378 1383 966
+209 461
+210 209
+1871 214
+1872  381
+1873 434
+1874 531
+1875 471
+1876   549
+1877  1275
+1878 1166
+1879 1262
+1880 826
+1881 1684
+1882  272
+213 212 420
+214 1471 1530 1791
+216 215 378 149 493 522 572 611 744 785 786 639 858 864 876 883 895 928 964 978 985 990 1061 1087 824 1197 1199 468 1276 1287 1303 1380 1387 1477 1493 1496 1503 1535 448 1568 1570 1637 1692 1697 1400 1836
+218 217 728 979 1558 1651
+220 219
+222 221 1221
+224 223 1436 1804
+227 226
+229 228 130 12 662 1822
+230 269
+231 230
+233 706 1037
+234 233
+236 235 253
+239 238 410 721 961 1111 224 1383 1516 1560 1591
+241 240 643 776 829 310 1186 1242 701
+242 18 579 1595
+244 243
+246 245
+247 977 1043
+248 247 977 1043 503 1402 1672 1747 1831
+250 234
+252 251 1487
+255 1189 1233 1234 1490 891 1749
+256 255 484 617 1007 16 329 164 193 597 446 622 1596 664
+258 257 554 609 696 791 840 907 986 987 1027 479 982 1312 1422 1515 1549 1579 1858
+259 375 809
+262 261
+263 261
+264 547 646 1031 1220 1270 46 403
+265 560
+266 265
+271 382
+272 271
+274 273
+276 8
+277 8
+279 278 289 589 761 783 798 862 1354 1388 104 1433 732 1741 388
+284 283
+286 285 1385
+288 287 751 941 1138 1247 804 1404 1659
+291 290
+293 292 540 288 882 1362 1236 1369 1821
+295 294
+297 296
+299 298
+302 301
+304 303
+307 306
+309 308 604 1696
+310 308 1770
+312 311 1071 1208 1468 1564
+314 313 517 1030
+315 1066 1151 1326 1815
+316 315
+318 317
+320 319
+321 1478
+322 321 1085 552
+324 323
+326 325 433 583 720 908 1624 1711 1744 1064
+327 325 1249
+328 1857
+329 236
+332 331 931
+334 333 1862
+338 337 279
+340 334
+342 341 599 1102 1655 1807
+343 68
+344 509
+345 344
+347 346
+348 386 649 1050 1452 1481 1559 1283
+349 348
+351 962
+352 351 6 1556 1622 1763
+354 353
+357 356 464 711 1498 1557 1519
+359 358 393 423 430 831 1070 50 1286 395
+363 362 741 933 158
+364 349
+365 364 83 574
+367 366 788 938 1023 1024 1122 1346 1438 888 1694 1769 1859
+370 369
+372 371 618
+374 373 1091 1167 1176 1586 1658
+377 376 451 759 1212 1673
+380 379 1113 1142 1551 220
+381 196 1565 1716 1776
+382 1223
+384 383 782 853 1594 1840
+388 387 886 1076 1157 1315 1648
+390 389 893
+392 391
+395 394 1442
+396 327
+397 396
+399 398
+401 400 971 363
+403 402 759 1750 1813
+405 404 592 821 865 1147 1294
+407 406 487 737
+409 408
+413 412 650 1526
+415 414 963
+417 416 896
+419 418 1580 1710
+420 256
+422 421 499
+423 562 1584
+425 424 536 582 1216
+427 426 899 1008 1251 656 1576 1766
+428 476 1623 828
+429 428
+432 431
+436 435 708 1344 187 1677 1854
+438 1136 1289
+439 438
+442 441 1648
+445 881
+446 445 241
+448 447 1100
+449 541
+450 449
+453 1816
+454 453 524 822 1200 1267 1300 770 1739 1801
+455 1112
+456 455
+458 457
+460 87
+461 318 501 511 518 780 1198 1676 492 79 1733 20 1740 1751 1864 332
+463 462 475 835 880 1080 956 920 1188
+468 467
+471 470 700 935 1059 1411
+474 473
+479 478
+480 764
+481 480
+484 715 481 1572
+486 485 718 1645 1703
+489 750
+490 489
+492 491 1736
+494 675
+495 494
+496 494
+498 497
+501 504 508 512 1053 1309 1699
+503 502 1402 1737
+510 509 1003 1032 1054 1161
+515 514 914 1363 1606 1853
+516 1429
+518 795 551
+519 132
+520 519
+523 380 921
+525 524 1200
+530 529
+531 635 1355
+533 532 1241 1794
+535 534 585 1561
+536 1140 1517
+539 538 581 156 1230 1334 1381 1469 1644 1662 1833
+541 495
+543 542 1014 399 1319 486
+546 545 1241 1255
+549 548 6 1386 239 96
+551 550 960 1597 1715 1745
+552 102 1785
+554 553
+555 832 1002 566
+556 636 866 793 1196 1343
+557 556
+558 556
+560 302 774
+561 286
+563 1154 1778
+564 563 1187
+566 565
+569 568
+571 570
+574 573
+578 577
+579 372 1848 1863
+580 372 229 258 198
+581 1268 1466
+584 583
+587 586
+589 588
+591 590
+594 593 859 1464
+595 24
+597 596 603 939 1180 1355 1356 948
+598 146
+602 601 1638 1788
+603 949 1028 196 1405 1458 77 1512 1678 1706 1735
+605 863
+606 605
+608 607
+613 612
+614 277
+615 1145 1182
+617 171
+620 619
+621 1174
+622 621 578 474
+623 1084
+624 1845
+625 624
+626 624
+628 370
+630 629
+631 1663
+632 631
+634 633
+635 40 680 111
+637 636 866
+638 781 392 1463 1554 1619
+639 638 1546
+641 640 1474
+642 662
+643 1049
+645 644
+647 1109
+648 647 1132 1150 1725 425 1851
+649 927 1500
+650 1423
+651 992
+652 651
+653 1621 1772
+654 653
+656 655
+659 1382
+660 659
+661 659
+662 929 1292 1522
+663 900
+664 663
+666 665
+669 668 602
+671 670 1607
+672 670 1607
+674 162
+675 674
+677 676 1137
+679 678
+680 784 1390
+682 681
+685 684 782 1107 312 1674
+691 690 771 1295 1484
+693 692 1661
+698 697 904
+699 58
+701 169 377
+703 10
+706 705
+710 709 1274 1329 1626 1790
+713 712
+716 1009 1015 1421
+718 717 719 1581
+723 722 974
+724 847 1072 1377
+727 726 1245
+730 729 892
+732 731 1783
+733 276
+736 127
+737 1119
+739 738
+740 1563
+746 745 1534
+749 748 1098 1782
+751 1777
+753 752
+754 1036
+755 754
+758 757
+763 762 1101
+768 767
+770 769
+774 773
+776 775 1055 1279
+779 778
+783 846 1432 1636
+789 1855
+790 789
+791 1296
+793 792 934 1392 1524 1537
+795 943 1599
+796 28
+797 796
+800 799 848 857 1401 1797
+802 801
+804 803 1110 52 1764
+805 38 1450
+807 806 942
+808 338
+811 810 872
+812 496
+814 813 1656
+818 817
+820 819
+824 823
+826 825 946 983 1123 1163 630 1368 1485 1264 1603 1630 1657 1709 1723
+828 827 1246 1682
+830 397
+832 1172
+834 954 1367
+835 923
+837 836 153 1787
+839 838
+845 844 1780
+850 849 967 1135 1453
+852 851 530 1805 1848
+854 1125 189
+855 854
+856 463
+858 1112
+861 860 885 996 1160 1756
+867 1284
+868 867 1459
+871 870
+873 436
+875 874 1103 1171 1395
+876 1288 1482
+878 32
+879 413
+880 879
+881 407
+884 427
+888 887 1844
+891 320 1340
+894 1217
+898 897
+900 1667
+901 390
+903 902
+905 409
+911 910
+917 916
+918 222
+919 918
+920 919
+921 1086
+922 682
+923 922
+926 925
+931 930
+932 1696
+937 936
+939 594
+941 993 1250 802
+945 944
+946 1472 419
+947 946
+948 727 1173 1803
+951 950
+953 952
+955 755
+956 955
+959 958
+962 1099 1169 1727
+966 965 1761
+969 968 1130
+970 1431 951
+971 970 1266
+973 972
+975 81
+982 981 1379 1691
+989 988
+990 1077 1602
+992 991 1364 1752
+995 994
+999 998
+1000 1366
+1002 1001
+1003 953
+1004 652 1090
+1005 652
+1011 1010
+1017 1016 1073
+1022 1021
+1031 1408
+1032 1705
+1034 1033 1022 1337
+1036 1035
+1037 166
+1038 856
+1039 1038
+1040 30 1620 1629
+1041 357
+1042 357
+1044 1253 1734 1738
+1048 1047
+1049 1224 1714
+1050 1049
+1052 1051
+1053 1717
+1057 1056
+1059 1089
+1064 1063 1451
+1065 98
+1067 1066
+1069 1068
+1075 1074
+1080 1079 314
+1082 1081 1005
+1084 1218
+1085 1406
+1090 1089
+1093 1609
+1094 1093
+1096 1095
+1098 1097 1321
+1104 1103
+1106 1105 1521
+1108 868
+1114 746 1196
+1116 999
+1117 1116
+1120 175
+1125 1124
+1129 1128
+1134 1133
+1137 1374
+1144 1143
+1149 1148
+1156 1155
+1159 1158
+1162 677
+1164 905 1365
+1165 973 1754 698 1839
+1166 1165
+1168 648
+1175 1269
+1177 632
+1179 1178
+1184 1183 1391 72
+1187 1257 1305
+1188 1187
+1194 1193 262
+1202 1201
+1204 1203
+1210 1209
+1211 1299
+1212 1407
+1218 1217
+1220 1219
+1223 1571
+1226 1225
+1228 1227
+1236 66
+1237 266
+1244 1243
+1251 60 1449 811 415
+1256 1255
+1257 1210
+1258 405
+1260 1259
+1262 812
+1264 1263
+1271 1270
+1273 1272
+1275 213
+1278 1277
+1280 1279
+1283 1282 1467 1746
+1293 123
+1302 1301
+1303 1702
+1305 183 1675
+1307 1306
+1308 191
+1314 1313 1457 1713 1724 1767
+1319 1318 1359 1835
+1323 1322 1686 1774
+1325 1324
+1328 1327
+1332 1331 1585
+1333 808
+1335 1494
+1336 1335
+1339 1338
+1342 1341
+1349 1348
+1355 1384
+1356 543
+1360 1332
+1376 1375
+1382 807
+1389 1650
+1393 179
+1397 1396
+1400 1399
+1403 54
+1406 1523
+1410 1409
+1412 307
+1415 1800
+1417 1416
+1418 1416 1314 1726
+1420 1419
+1425 1424
+1439 959
+1441 1440
+1444 1443
+1447 926
+1454 450
+1460 1802
+1461 1460
+1492 1491
+1502 1501
+1507 1506 1841
+1508 342
+1510 1509
+1514 244
+1518 1661
+1519 1518
+1528 1527
+1531 1082
+1538 1665
+1540 1539
+1544 1543
+1550 1549
+1551 1779
+1552 1653
+1553 1552
+1562 1106
+1567 1544
+1571 1237
+1573 1572
+1575 1574
+1577 1308
+1583 1582
+1588 1333
+1589 515
+1592 645
+1599 1712
+1601 1600
+1609 1608
+1611 1610
+1615 1614
+1616 1812 1852
+1628 401
+1638 1637
+1639 1120
+1660 89
+1664 365
+1668 1667
+1671 1670
+1679 800
+1680 800
+1681 345
+1689 1339
+1695 837
+1699 1698
+1700 975
+1704 200
+1718 1717
+1719 216
+1721 641
+1729 1728
+1742 324
+1749 1748 1573
+1758 1757
+1760 1759
+1775 1774
+1784 1447
+1792 1856
+1793 1792
+1795 417
+1799 1798
+1809 1808
+1811 1528
+1818 1817
+1825 1824
+1826 1824
+1834 1065
+1837 425
+1867 1866

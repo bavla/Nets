@@ -1,0 +1,2959 @@
+*Network ATscience.net
+% The network of co-occurrences of classification codes assigned by the submitter
+% of a proposal to 5217 projects funded by the Austrian Science Fund (FWF)
+% from 1994 to 2004. line value >= 2
+% Source: FWF Austrian Science Fund: http://www.fwf.ac.at/en/index.asp
+% Network constructed by FAS research: http://www.fas.at/
+*Vertices     524
+  1 "algebra"                                0.5461    0.1747    0.5000   ellipse  ic Red
+  2 "mathematical analysis"                  0.6226    0.1898    0.5000
+  3 "applied mathematics"                    0.5946    0.2930    0.5000
+  4 "programming"                            0.5515    0.2372    0.5000
+  5 "formal languages"                       0.4582    0.1676    0.5000
+  6 "geometry"                               0.6082    0.2154    0.5000
+  7 "information technology"                 0.4790    0.3163    0.5000
+  8 "information and data processing"        0.4092    0.3327    0.5000
+  9 "cybernetics"                            0.3765    0.2141    0.5000
+ 10 "mathematical logic"                     0.4783    0.2506    0.5000
+ 11 "statistics"                             0.5184    0.2888    0.5000
+ 12 "numerical analysis"                     0.6226    0.2574    0.5000
+ 13 "engineering mathematics"                0.6660    0.2062    0.5000
+ 14 "algebraic topology"                     0.5867    0.0900    0.5000
+ 15 "actuarial mathematics"                  0.5968    0.0816    0.5000
+ 16 "probability theory"                     0.5924    0.1852    0.5000
+ 17 "number theory"                          0.5619    0.1544    0.5000
+ 18 "combinatorial analysis"                 0.5188    0.2509    0.5000
+ 19 "#operations research"                   0.4677    0.3486    0.5000
+ 20 "artificial intelligence"                0.5098    0.4235    0.5000
+ 21 "digital image processing and graphics"    0.6161    0.3564    0.5000
+ 22 "#computer networks"                     0.5539    0.3188    0.5000
+ 23 "information science"                    0.5235    0.0513    0.5000
+ 24 "supercomputing"                         0.6431    0.1801    0.5000
+ 25 "#mechatronics"                          0.8586    0.2212    0.5000
+ 26 "#biomathematics"                        0.6758    0.5357    0.5000
+ 27 "computer algebra"                       0.5407    0.1835    0.5000
+ 28 "#computer-aided simulation"             0.6721    0.3339    0.5000
+ 29 "computer supported co-operative work (CSCW)"    0.6549    0.2373    0.5000
+ 30 "differential geometry"                  0.6898    0.1018    0.5000
+ 31 "#integrated circuits design"            0.5583    0.4957    0.5000
+ 32 "#financial mathematics"                 0.6014    0.1657    0.5000
+ 33 "#information systems"                   0.4011    0.1679    0.5000
+ 34 "#neural networks"                       0.5034    0.4526    0.5000
+ 35 "software engineering"                   0.7210    0.2308    0.5000
+ 36 "symbolic computing"                     0.4963    0.1796    0.5000
+ 37 "systems theory"                         0.4435    0.1324    0.5000
+ 38 "virtual reality"                        0.5393    0.2469    0.5000
+ 39 "#Fourier analysis"                      0.4153    0.2281    0.5000
+ 40 "classical mechanics"                    0.6223    0.1383    0.5000
+ 41 "acoustics"                              0.9330    0.6304    0.5000
+ 42 "applied physics"                        0.7088    0.3916    0.5000
+ 43 "astronomy"                              0.8198    0.3280    0.5000
+ 44 "astrophysics"                           0.7170    0.2937    0.5000
+ 45 "atomic, nuclear physics"                0.7713    0.3424    0.5000
+ 46 "#biophysics"                            0.7436    0.5364    0.5000
+ 47 "elementary particle physics"            0.7393    0.2231    0.5000
+ 48 "experimental physics"                   0.7002    0.3846    0.5000
+ 49 "solid state physics"                    0.7749    0.4104    0.5000
+ 50 "high energy physics"                    0.7803    0.1640    0.5000
+ 51 "atomic, nuclear energy"                 0.8082    0.2316    0.5000
+ 52 "optics"                                 0.7458    0.4004    0.5000
+ 53 "#electronics"                           0.8093    0.3668    0.5000
+ 54 "quantum mechanics"                      0.7771    0.3000    0.5000
+ 55 "reactor physics"                        0.8309    0.2257    0.5000
+ 56 "relativity"                             0.7020    0.1897    0.5000
+ 57 "#fluid dynamics"                        0.7256    0.2739    0.5000
+ 58 "industrial physics"                     0.7124    0.2230    0.5000
+ 59 "theoretical physics"                    0.7529    0.2917    0.5000
+ 60 "#space research"                        0.6302    0.2057    0.5000
+ 61 "mathematical physics"                   0.6894    0.2506    0.5000
+ 62 "neutron physics"                        0.8176    0.3445    0.5000
+ 63 "photo physics"                          0.7827    0.3801    0.5000
+ 64 "plasma physics"                         0.7368    0.3192    0.5000
+ 65 "physics of semiconductors"              0.7455    0.4171    0.5000
+ 66 "laser physics"                          0.7929    0.3600    0.5000
+ 67 "metal physics"                          0.7763    0.3725    0.5000
+ 68 "#biomechanics"                          0.8902    0.3169    0.5000
+ 69 "#fracture mechanics"                    0.7034    0.2404    0.5000
+ 70 "ion physics"                            0.9488    0.4275    0.5000
+ 71 "#laser spectroscopy"                    0.7993    0.3700    0.5000
+ 72 "surface physics"                        0.7695    0.3869    0.5000
+ 73 "polymer physics"                        0.8133    0.3903    0.5000
+ 74 "statistical physics"                    0.7419    0.3314    0.5000
+ 75 "mass spectrometry"                      0.8633    0.4458    0.5000
+ 76 "#micromechanics"                        0.7903    0.3492    0.5000
+ 77 "medium energy physics"                  0.8008    0.1766    0.5000
+ 78 "molecular nanotechnology (nano-engineering)"    0.7128    0.4821    0.5000
+ 79 "quantum field theory"                   0.8062    0.3483    0.5000
+ 80 "kinetics"                               0.8554    0.3731    0.5000
+ 81 "#spectroscopy"                          0.7408    0.4379    0.5000
+ 82 "analytical chemistry"                   0.6685    0.4837    0.5000
+ 83 "inorganic chemistry"                    0.7832    0.4453    0.5000
+ 84 "#biochemistry"                          0.7074    0.5889    0.5000
+ 85 "#biochemical technology"                0.7785    0.5159    0.5000
+ 86 "#chemical technology"                   0.8324    0.4341    0.5000
+ 87 "electrochemistry"                       0.8008    0.4787    0.5000
+ 88 "food chemistry"                         0.8220    0.4774    0.5000
+ 89 "organic chemistry"                      0.7178    0.5076    0.5000
+ 90 "photo chemistry"                        0.7225    0.4537    0.5000
+ 91 "physical chemistry"                     0.7131    0.4223    0.5000
+ 92 "structural chemistry"                   0.7695    0.5080    0.5000
+ 93 "#industrial chemistry"                  0.8995    0.4498    0.5000
+ 94 "theoretical chemistry"                  0.7006    0.4717    0.5000
+ 95 "solid state chemistry"                  0.8047    0.4099    0.5000
+ 96 "#biotechnology"                         0.7462    0.5939    0.5000
+ 97 "macromolecular chemistry"               0.8234    0.4591    0.5000
+ 98 "surface chemistry"                      0.8011    0.4420    0.5000
+ 99 "polymer chemistry"                      0.8274    0.4837    0.5000
+100 "#enzymology"                            0.8087    0.5885    0.5000
+101 "#corrosion prevention"                  0.8230    0.4666    0.5000
+102 "spectrochemistry"                       0.7511    0.4675    0.5000
+103 "reaction kinetics"                      0.6883    0.4230    0.5000
+104 "general biology"                        0.5985    0.6528    0.5000
+105 "botany"                                 0.5562    0.5691    0.5000
+106 "#cytology"                              0.6758    0.5576    0.5000
+107 "experimental zoology"                   0.6460    0.6122    0.5000
+108 "genetics"                               0.6638    0.6488    0.5000
+109 "geobotany"                              0.6025    0.6790    0.5000
+110 "human biology"                          0.5848    0.5666    0.5000
+111 "#microbiology"                          0.6211    0.5734    0.5000
+112 "molecular biology"                      0.7074    0.6682    0.5000
+113 "plant ecology"                          0.6183    0.6603    0.5000
+114 "animal ecology"                         0.5784    0.5720    0.5000
+115 "ecological system research"             0.6057    0.6215    0.5000
+116 "palaeobotany"                           0.3889    0.3770    0.5000
+117 "palaeontology"                          0.4769    0.5026    0.5000
+118 "plant anatomy"                          0.5813    0.7638    0.5000
+119 "plant physiology"                       0.6445    0.6875    0.5000
+120 "#animal anatomy"                        0.5637    0.6596    0.5000
+121 "#animal physiology"                     0.7368    0.5644    0.5000
+122 "behavioural biology"                    0.6036    0.5889    0.5000
+123 "#zoology"                               0.5849    0.5909    0.5000
+124 "zoophysiology"                          0.6442    0.6819    0.5000
+125 "developmental biology"                  0.5849    0.6133    0.5000
+126 "evolutionary biology"                   0.6229    0.5450    0.5000
+127 "plant morphology"                       0.6276    0.6449    0.5000
+128 "#phytochemistry"                        0.5518    0.8119    0.5000
+129 "systematic botany"                      0.5813    0.6822    0.5000
+130 "zoogeography"                           0.4986    0.6133    0.5000
+131 "systematic zoology"                     0.5914    0.6419    0.5000
+132 "biological engineering"                 0.7372    0.6284    0.5000
+133 "#genetic engineering"                   0.7289    0.6524    0.5000
+134 "mycology"                               0.6883    0.6369    0.5000
+135 "ultrastructure research"                0.6564    0.5447    0.5000
+136 "chronobiology"                          0.8945    0.5871    0.5000
+137 "nanotechnology (nano-engineering)"      0.7637    0.5216    0.5000
+138 "photo biology"                          0.5697    0.8676    0.5000
+139 "petroleum geology"                      0.4550    0.2301    0.5000
+140 "geodynamics"                            0.5314    0.3481    0.5000
+141 "geology"                                0.5569    0.3948    0.5000
+142 "#geophysics"                            0.6133    0.3348    0.5000
+143 "#petrology"                             0.6366    0.3310    0.5000
+144 "crystallography"                        0.7458    0.3702    0.5000
+145 "mineralogy"                             0.6481    0.3810    0.5000
+146 "#mining geology"                        0.5586    0.3359    0.5000
+147 "paleontology"                           0.5119    0.4738    0.5000
+148 "petrography"                            0.5838    0.4072    0.5000
+149 "sedimentology"                          0.5134    0.4519    0.5000
+150 "structural geology"                     0.6571    0.7062    0.5000
+151 "geological engineering"                 0.4564    0.1974    0.5000
+152 "tectonics"                              0.5349    0.3686    0.5000
+153 "geochemistry"                           0.6082    0.4444    0.5000
+154 "#glaciology"                            0.5044    0.1533    0.5000
+155 "geomorphology"                          0.4616    0.0419    0.5000
+156 "#erosion (erosion control)"             0.5037    0.0299    0.5000
+157 "climatology"                            0.4986    0.2240    0.5000
+158 "meteorology"                            0.5310    0.2214    0.5000
+159 "waste-water purification"               0.6093    0.4826    0.5000
+160 "water purification"                     0.5460    0.7436    0.5000
+161 "water pollution control"                0.5697    0.8676    0.5000
+162 "hydrobiology"                           0.5015    0.6930    0.5000
+163 "hydrology"                              0.4776    0.1643    0.5000
+164 "limnology"                              0.6054    0.7461    0.5000
+165 "torrents and avalanches research"       0.4993    0.1352    0.5000
+166 "#cartography"                           0.7286    0.1075    0.5000
+167 "cultural geography"                     0.0516    0.5335    0.5000
+168 "physical geography"                     0.4657    0.2730    0.5000
+169 "economic geography"                     0.2793    0.1735    0.5000
+170 "#geographic information systems (GIS)"    0.4458    0.1023    0.5000
+171 "#electron microscopy"                   0.7077    0.4871    0.5000
+172 "interdisciplinary natural science"      0.5812    0.4611    0.5000
+173 "#radiographic structural analysis"      0.7293    0.4808    0.5000
+174 "#environmental research"                0.5396    0.4068    0.5000
+175 "soil science, -protection"              0.6046    0.3982    0.5000
+176 "#archeometry"                           0.4329    0.4329    0.5000
+177 "ecological engineering"                 0.6179    0.7235    0.5000
+178 "#environmental protection"              0.5202    0.1430    0.5000
+179 "fireproof materials"                    0.6492    0.2030    0.5000
+180 "#conveying technology"                  0.8654    0.2029    0.5000
+181 "metallurgy of non-ferrous metals"       0.8011    0.2283    0.5000
+182 "mineral deposit science"                0.6029    0.3445    0.5000
+183 "metallography"                          0.8039    0.3695    0.5000
+184 "metallurgy"                             0.7214    0.3231    0.5000
+185 "#materials testing"                     0.8054    0.3355    0.5000
+186 "#computer engineering"                  0.4519    0.1985    0.5000
+187 "#energy technology"                     0.9035    0.3228    0.5000
+188 "motor vehicle engineering"              0.5163    0.3431    0.5000
+189 "#light-weight structure engineering"    0.5702    0.0355    0.5000
+190 "mechanical engineering"                 0.6779    0.1532    0.5000
+191 "measurement technology"                 0.8342    0.1753    0.5000
+192 "technical mechanics"                    0.5784    0.1731    0.5000
+193 "thermal turbomachines"                  0.8434    0.2590    0.5000
+194 "water engines and pumps"                0.9254    0.2840    0.5000
+195 "#pulp and paper technology"             0.9610    0.4004    0.5000
+196 "#robotics (robot technology)"           0.7608    0.2289    0.5000
+197 "construction physics"                   0.7645    0.2205    0.5000
+198 "construction statics"                   0.3357    0.1208    0.5000
+199 "soil mechanics"                         0.3079    0.0736    0.5000
+200 "rock mechanics"                         0.6219    0.0375    0.5000
+201 "theory of strength"                     0.6890    0.1708    0.5000
+202 "foundation"                             0.3079    0.0736    0.5000
+203 "steel construction"                     0.3079    0.0736    0.5000
+204 "reinforced concrete construction"       0.7433    0.1062    0.5000
+205 "building dynamics"                      0.5837    0.0297    0.5000
+206 "#fire prevention and protection"        0.6818    0.2398    0.5000
+207 "tunnel construction"                    0.6258    0.1547    0.5000
+208 "architecture"                           0.1576    0.4047    0.5000
+209 "building research"                      0.1863    0.3799    0.5000
+210 "building design"                        0.1767    0.4013    0.5000
+211 "#monument conservation"                 0.2520    0.4749    0.5000
+212 "building practice"                      0.0688    0.4918    0.5000
+213 "urban design"                           0.1661    0.3729    0.5000
+214 "electrical propulsion"                  0.3856    0.0533    0.5000
+215 "electrical machines"                    0.3355    0.0604    0.5000
+216 "#automation"                            0.4162    0.1456    0.5000
+217 "electrical and biomedical engineering"    0.8499    0.4480    0.5000
+218 "semiconductor technology"               0.7497    0.3370    0.5000
+219 "micro-electronics"                      0.5824    0.3226    0.5000
+220 "communication engineering"              0.8503    0.2286    0.5000
+221 "physical electronics"                   0.6315    0.2678    0.5000
+222 "radio engineering"                      0.6096    0.2451    0.5000
+223 "theoretical electrical technology"      0.9610    0.4047    0.5000
+224 "wave propagation"                       0.6567    0.0621    0.5000
+225 "laser technology"                       0.8169    0.4345    0.5000
+226 "fibre optics communication technology"    0.4580    0.5853    0.5000
+227 "signal processing"                      0.7950    0.2642    0.5000
+228 "superconductivity"                      0.9095    0.3240    0.5000
+229 "photovoltaics"                          0.8560    0.3079    0.5000
+230 "sensorics"                              0.7081    0.2471    0.5000
+231 "inorganic chemical technology"          0.9117    0.4029    0.5000
+232 "#geodesy"                               0.7102    0.1270    0.5000
+233 "remote sensing"                         0.4629    0.2339    0.5000
+234 "photogrammetry"                         0.5289    0.2417    0.5000
+235 "geodetic engineering"                   0.4101    0.3115    0.5000
+236 "waste technology"                       0.7749    0.1250    0.5000
+237 "process engineering"                    0.7792    0.2917    0.5000
+238 "interdisciplinary technical sciences"    0.6747    0.2994    0.5000
+239 "environmental technology"               0.7408    0.1854    0.5000
+240 "waste air clearance"                    0.7677    0.2284    0.5000
+241 "harmful substance emission"             0.6966    0.1932    0.5000
+242 "manufacturing engineering"              0.9093    0.2653    0.5000
+243 "general pathology"                      0.8539    0.7353    0.5000
+244 "embryology"                             0.7541    0.7516    0.5000
+245 "experimental pathology"                 0.8269    0.6700    0.5000
+246 "functional pathology"                   0.8195    0.7098    0.5000
+247 "histology"                              0.8396    0.7285    0.5000
+248 "#cancer research"                       0.7414    0.6819    0.5000
+249 "#neuropathology"                        0.7336    0.7354    0.5000
+250 "oncology"                               0.7652    0.7408    0.5000
+251 "pathological anatomy"                   0.7401    0.8651    0.5000
+252 "#medical diagnostics"                   0.7688    0.5626    0.5000
+253 "functional anatomy"                     0.8133    0.7544    0.5000
+254 "general physiology"                     0.8079    0.6169    0.5000
+255 "balneology"                             0.7993    0.8270    0.5000
+256 "electrical and biomedical technics"     0.8567    0.6826    0.5000
+257 "human genetics"                         0.6445    0.7027    0.5000
+258 "medical biochemistry"                   0.7929    0.6312    0.5000
+259 "medical biology"                        0.7541    0.7278    0.5000
+260 "medical chemistry"                      0.8378    0.5741    0.5000
+261 "medical molecular biology"              0.7789    0.7156    0.5000
+262 "medical physics"                        0.8008    0.5389    0.5000
+263 "medical physiology"                     0.8122    0.6467    0.5000
+264 "neurochemistry"                         0.7540    0.6776    0.5000
+265 "#neurophysiology"                       0.7278    0.6294    0.5000
+266 "#nuclear medicine"                      0.6725    0.7203    0.5000
+267 "#radiology"                             0.6919    0.5734    0.5000
+268 "cell biology / cytology"                0.7688    0.6463    0.5000
+269 "cytogenetics"                           0.7770    0.8001    0.5000
+270 "#sonography"                            0.9437    0.5360    0.5000
+271 "magnetic resonance tomography"          0.9437    0.5360    0.5000
+272 "#vaccine development"                   0.7677    0.7440    0.5000
+273 "#neuropharmacology"                     0.7684    0.6825    0.5000
+274 "pharmacodynamics"                       0.9513    0.5529    0.5000
+275 "pharmacology"                           0.7814    0.6165    0.5000
+276 "pharmaceutical chemistry"               0.7741    0.5817    0.5000
+277 "pharmaceutics"                          0.8909    0.5809    0.5000
+278 "#psychopharmacology"                    0.6911    0.7792    0.5000
+279 "toxicology"                             0.6481    0.5960    0.5000
+280 "drug morphology (- design)"             0.9480    0.5252    0.5000
+281 "drug analysis"                          0.7950    0.5248    0.5000
+282 "#allergy research"                      0.7922    0.7148    0.5000
+283 "haematology"                            0.8305    0.7034    0.5000
+284 "hygiene"                                0.7993    0.8270    0.5000
+285 "immunology"                             0.8025    0.6851    0.5000
+286 "leukemia research"                      0.8151    0.6873    0.5000
+287 "medical microbiology"                   0.7475    0.6578    0.5000
+288 "parasitology"                           0.8262    0.7807    0.5000
+289 "#rehabilitation research"               0.7358    0.7512    0.5000
+290 "virology"                               0.7559    0.7024    0.5000
+291 "ophthalmology"                          0.8313    0.5471    0.5000
+292 "dermatology"                            0.7975    0.6671    0.5000
+293 "endocrinology"                          0.8582    0.7002    0.5000
+294 "gastro enterology"                      0.8205    0.6959    0.5000
+295 "obstetrics"                             0.7009    0.9042    0.5000
+296 "gynaecology"                            0.7411    0.8065    0.5000
+297 "ear, nose and throat illnesses"         0.8396    0.7735    0.5000
+298 "hepatology"                             0.8517    0.7584    0.5000
+299 "internal medicine"                      0.8101    0.6668    0.5000
+300 "#intensive medicine"                    0.8992    0.7146    0.5000
+301 "cardiology"                             0.8460    0.6097    0.5000
+302 "paediatrics"                            0.7828    0.7559    0.5000
+303 "circulatory diseases"                   0.8916    0.6973    0.5000
+304 "respiratory medicine"                   0.8496    0.7684    0.5000
+305 "neonatology"                            0.7419    0.8726    0.5000
+306 "nephrology"                             0.8438    0.7145    0.5000
+307 "#orthopaedics"                          0.9243    0.4187    0.5000
+308 "radiodiagnostics"                       0.9358    0.3305    0.5000
+309 "rheumatology"                           0.8428    0.7516    0.5000
+310 "metabolic disease"                      0.8536    0.6990    0.5000
+311 "urology"                                0.7770    0.8001    0.5000
+312 "angiology"                              0.9380    0.6370    0.5000
+313 "laboratory diagnostics"                 0.7839    0.7825    0.5000
+314 "#computer-aided diagnosis and therapy"    0.9473    0.4034    0.5000
+315 "diabetology"                            0.8621    0.6420    0.5000
+316 "anaesthesiology"                        0.8859    0.7185    0.5000
+317 "microsurgery"                           0.6183    0.9139    0.5000
+318 "#neurosurgery"                          0.6126    0.8241    0.5000
+319 "plastic and reconstruction surgery"     0.5722    0.9150    0.5000
+320 "transplantation surgery"                0.7993    0.8270    0.5000
+321 "emergency surgery"                      0.8909    0.4004    0.5000
+322 "heart surgery"                          0.8536    0.6323    0.5000
+323 "brain research"                         0.6406    0.6366    0.5000
+324 "clinical psychiatry"                    0.6746    0.7605    0.5000
+325 "medical psychiatry"                     0.6668    0.8180    0.5000
+326 "neurology"                              0.6945    0.7013    0.5000
+327 "psychosomatics"                         0.5303    0.9071    0.5000
+328 "social psychiatry"                      0.6603    0.9128    0.5000
+329 "#depth psychology"                      0.2117    0.6800    0.5000
+330 "behavioural therapy"                    0.5166    0.8923    0.5000
+331 "neuroimmunology"                        0.7361    0.8632    0.5000
+332 "history of medicine"                    0.1023    0.6836    0.5000
+333 "interdisciplinary human medicine"       0.7310    0.3594    0.5000
+334 "medical statistics"                     0.4564    0.1589    0.5000
+335 "gene technology"                        0.7559    0.6790    0.5000
+336 "nutritional sciences"                   0.5256    0.5917    0.5000
+337 "#patients' rights"                      0.3562    0.8748    0.5000
+338 "grain cultivation, grain"               0.7149    0.7580    0.5000
+339 "agricultural-chemical research"         0.5447    0.5708    0.5000
+340 "plant protection"                       0.6244    0.6815    0.5000
+341 "plant breeding"                         0.6898    0.7529    0.5000
+342 "#soil science"                          0.5432    0.7450    0.5000
+343 "forest entomology"                      0.8743    0.6025    0.5000
+344 "forest ecology"                         0.5777    0.7383    0.5000
+345 "forest protection"                      0.9531    0.6154    0.5000
+346 "wood chemistry"                         0.8471    0.1937    0.5000
+347 "wood research"                          0.8877    0.2615    0.5000
+348 "meat hygiene"                           0.5432    0.7450    0.5000
+349 "#animal nutrition"                      0.9075    0.5942    0.5000
+350 "animal production"                      0.9075    0.5942    0.5000
+351 "animal breeding"                        0.7027    0.7706    0.5000
+352 "#wildlife science"                      0.4966    0.7124    0.5000
+353 "bacteriology (animals)"                 0.7512    0.7465    0.5000
+354 "animal embryology"                      0.6898    0.7529    0.5000
+355 "virology (animals)"                     0.8244    0.6564    0.5000
+356 "#development cooperation"               0.0767    0.6427    0.5000
+357 "ideology review"                        0.1137    0.5217    0.5000
+358 "#international relations"               0.1580    0.6808    0.5000
+359 "philosophy of politics"                 0.0790    0.5982    0.5000
+360 "political theory"                       0.1553    0.6164    0.5000
+361 "political sciences"                     0.0873    0.6147    0.5000
+362 "agricultural law"                       0.2422    0.8769    0.5000
+363 "general juridicial law"                 0.3122    0.8841    0.5000
+364 "#civil law"                             0.2985    0.7972    0.5000
+365 "company law"                            0.3553    0.8162    0.5000
+366 "liability law"                          0.2829    0.8241    0.5000
+367 "industrial and commercial law"          0.2730    0.7997    0.5000
+368 "international civil law"                0.3504    0.8457    0.5000
+369 "criminology"                            0.1106    0.7117    0.5000
+370 "public law"                             0.2727    0.8550    0.5000
+371 "Austrian administrative law"            0.3003    0.8952    0.5000
+372 "#history of law"                        0.1421    0.5325    0.5000
+373 "comparative law"                        0.3018    0.8324    0.5000
+374 "roman law"                              0.2054    0.2928    0.5000
+375 "criminal procedures law"                0.0718    0.6161    0.5000
+376 "criminal law"                           0.1018    0.6029    0.5000
+377 "insurance law"                          0.3224    0.8718    0.5000
+378 "administrative science"                 0.1376    0.3777    0.5000
+379 "international law"                      0.2389    0.7785    0.5000
+380 "european law"                           0.2969    0.8644    0.5000
+381 "labour market study"                    0.2820    0.6172    0.5000
+382 "business administration"                0.1810    0.7609    0.5000
+383 "financial science"                      0.3147    0.7166    0.5000
+384 "marketing"                              0.2292    0.8417    0.5000
+385 "political economy"                      0.3154    0.6079    0.5000
+386 "econometrics"                           0.3664    0.4232    0.5000
+387 "organizational research"                0.1483    0.7530    0.5000
+388 "political economics"                    0.2554    0.8108    0.5000
+389 "#locational economics"                  0.2675    0.1162    0.5000
+390 "enterprise management"                  0.1846    0.8119    0.5000
+391 "national policy"                        0.2039    0.8014    0.5000
+392 "national theory"                        0.2087    0.7548    0.5000
+393 "advertising"                            0.2666    0.8944    0.5000
+394 "#economic history"                      0.2578    0.4589    0.5000
+395 "economic policy"                        0.2736    0.6761    0.5000
+396 "economic theory"                        0.3208    0.3341    0.5000
+397 "foreign trade"                          0.2132    0.8313    0.5000
+398 "non-profit sector research"             0.1421    0.7796    0.5000
+399 "#demography"                            0.1498    0.6151    0.5000
+400 "empirical social research"              0.0895    0.6424    0.5000
+401 "ethics and social sciences"             0.1934    0.1720    0.5000
+402 "#cultural science"                      0.1018    0.4440    0.5000
+403 "social philosophy"                      0.1502    0.7371    0.5000
+404 "applied sociology"                      0.1676    0.5575    0.5000
+405 "women research"                         0.1247    0.7250    0.5000
+406 "general psychology"                     0.1502    0.7371    0.5000
+407 "differential psychology"                0.6161    0.8008    0.5000
+408 "experimental psychology"                0.5988    0.6994    0.5000
+409 "educational psychology"                 0.5332    0.7008    0.5000
+410 "psychotherapy"                          0.1840    0.6654    0.5000
+411 "social psychology"                      0.2748    0.8851    0.5000
+412 "cognition psychology"                   0.4397    0.6607    0.5000
+413 "psycho-physiology"                      0.6567    0.7667    0.5000
+414 "city and region analysis"               0.2675    0.1162    0.5000
+415 "applied statistics"                     0.4523    0.1579    0.5000
+416 "human geography"                        0.2644    0.3068    0.5000
+417 "social policy"                          0.1607    0.8108    0.5000
+418 "interdisciplinary social sciences"      0.3077    0.4571    0.5000
+419 "#communication science"                 0.0728    0.4286    0.5000
+420 "#media research"                        0.0921    0.4007    0.5000
+421 "#publicity"                             0.0710    0.3989    0.5000
+422 "technical implications estimation"      0.3856    0.3837    0.5000
+423 "environmental economy"                  0.4902    0.3905    0.5000
+424 "civil and disaster service"             0.4869    0.4054    0.5000
+425 "ethnography"                            0.4318    0.9376    0.5000
+426 "#ethnology"                             0.1303    0.6136    0.5000
+427 "ethnosociology"                         0.0842    0.6549    0.5000
+428 "cultural anthropology"                  0.1186    0.6639    0.5000
+429 "folklore"                               0.2354    0.5695    0.5000
+430 "womens' research"                       0.0513    0.4769    0.5000
+431 "generic philosophy"                     0.2114    0.6419    0.5000
+432 "epistemology"                           0.1763    0.5942    0.5000
+433 "ethics"                                 0.2002    0.5666    0.5000
+434 "logic"                                  0.0934    0.6309    0.5000
+435 "metaphysics"                            0.0873    0.5957    0.5000
+436 "natural philosophy"                     0.1474    0.5982    0.5000
+437 "philosophical social science"           0.1327    0.6460    0.5000
+438 "theory of science"                      0.1010    0.5616    0.5000
+439 "language philosophy"                    0.0966    0.5479    0.5000
+440 "esthetics"                              0.1036    0.5131    0.5000
+441 "old testament bible studies"            0.2079    0.3167    0.5000
+442 "christian archaeology"                  0.3434    0.3767    0.5000
+443 "christian philosophy"                   0.0612    0.4896    0.5000
+444 "church history"                         0.1571    0.6205    0.5000
+445 "liturgics"                              0.1208    0.4146    0.5000
+446 "new testament bible studies"            0.2031    0.1594    0.5000
+447 "patrology"                              0.1508    0.2470    0.5000
+448 "religion science"                       0.1463    0.2216    0.5000
+449 "#feminism"                              0.1391    0.4614    0.5000
+450 "ancient history"                        0.2205    0.3722    0.5000
+451 "classical studies"                      0.2116    0.3506    0.5000
+452 "numismatics"                            0.2101    0.4090    0.5000
+453 "archivistics"                           0.1150    0.3158    0.5000
+454 "early history"                          0.4207    0.5116    0.5000
+455 "history of the Austro-Hungarian monarchy"    0.1438    0.4810    0.5000
+456 "historical area studies"                0.2281    0.3950    0.5000
+457 "science of history"                     0.1115    0.3014    0.5000
+458 "historical auxiliary science"           0.2363    0.4165    0.5000
+459 "#classical archaeology"                 0.2707    0.3907    0.5000
+460 "medieval history"                       0.2319    0.5302    0.5000
+461 "modern history"                         0.1457    0.5439    0.5000
+462 "Austrian history"                       0.1878    0.5364    0.5000
+463 "East-European history"                  0.1167    0.5522    0.5000
+464 "source study, source editing"           0.2099    0.5105    0.5000
+465 "social history"                         0.1851    0.4927    0.5000
+466 "South-European history"                 0.1326    0.5217    0.5000
+467 "prehistory"                             0.4832    0.4302    0.5000
+468 "contemporary history"                   0.2020    0.5662    0.5000
+469 "archaeology"                            0.3246    0.4309    0.5000
+470 "regional history"                       0.1658    0.4708    0.5000
+471 "urban history"                          0.1429    0.4945    0.5000
+472 "history of science"                     0.2569    0.5411    0.5000
+473 "cultural history"                       0.2791    0.5012    0.5000
+474 "#papyrology"                            0.1652    0.2136    0.5000
+475 "#epigraphics"                           0.2469    0.3352    0.5000
+476 "general literature science"             0.0794    0.4699    0.5000
+477 "general linguistics"                    0.2096    0.3907    0.5000
+478 "American languages and literature"      0.1744    0.4384    0.5000
+479 "applied linguistics"                    0.1840    0.2872    0.5000
+480 "English language and literature"        0.1074    0.3201    0.5000
+481 "diachronic languages"                   0.1352    0.3370    0.5000
+482 "german language and literature"         0.1870    0.4776    0.5000
+483 "Indo-European linguistics"              0.1106    0.4508    0.5000
+484 "classical philology"                    0.1933    0.3375    0.5000
+485 "linguistics"                            0.2442    0.3472    0.5000
+486 "dialectology"                           0.1377    0.3217    0.5000
+487 "onomastics"                             0.0877    0.3522    0.5000
+488 "romance languages and literature"       0.1437    0.4083    0.5000
+489 "slavic languages and literature"        0.1352    0.3677    0.5000
+490 "comparative literature science"         0.1272    0.4244    0.5000
+491 "comparative linguistics"                0.1614    0.3352    0.5000
+492 "lexicology"                             0.1960    0.4230    0.5000
+493 "history of literature"                  0.1115    0.4072    0.5000
+494 "latin language and literature"          0.1731    0.3747    0.5000
+495 "psycholinguistics"                      0.1743    0.2827    0.5000
+496 "sociolinguistics"                       0.1351    0.3944    0.5000
+497 "language instruction research"          0.1533    0.2240    0.5000
+498 "research in technical languages"        0.1303    0.2518    0.5000
+499 "terminology"                            0.1080    0.2863    0.5000
+500 "egyptology"                             0.3398    0.4047    0.5000
+501 "old semitic languages and literature"    0.1702    0.3438    0.5000
+502 "arabic languages and literature"        0.0935    0.4257    0.5000
+503 "buddhism"                               0.0926    0.6736    0.5000
+504 "byzantinistic language and literature"    0.1580    0.3700    0.5000
+505 "finnish and hungarian language and literature"    0.0592    0.4429    0.5000
+506 "indian languages and literature"        0.1457    0.5777    0.5000
+507 "islamism"                               0.0502    0.4947    0.5000
+508 "japanese language and literature"       0.1044    0.3267    0.5000
+509 "jewish languages and literature"        0.1208    0.3995    0.5000
+510 "tibetology"                             0.0930    0.6610    0.5000
+511 "turkology"                              0.0597    0.5558    0.5000
+512 "history of religion"                    0.0825    0.6632    0.5000
+513 "applied art"                            0.2188    0.2547    0.5000
+514 "educational art"                        0.2944    0.4268    0.5000
+515 "history of art"                         0.2381    0.4629    0.5000
+516 "museology / museum administration"      0.2527    0.5479    0.5000
+517 "music"                                  0.0535    0.5137    0.5000
+518 "music studies"                          0.1439    0.4882    0.5000
+519 "renovation, conservation"               0.3639    0.5432    0.5000
+520 "theater studies"                        0.1177    0.4833    0.5000
+521 "folk music research"                    0.2337    0.6495    0.5000
+522 "library science"                        0.1819    0.3853    0.5000
+523 "documentation"                          0.1036    0.4837    0.5000
+524 "interdisciplinary humanities"           0.1659    0.4584    0.5000
+*Edges
+402 404 5    c Gray
+469 500 6    c Gray
+418 524 5    c Gray
+402 520 4    c Gray
+389 414 2    c Gray
+361 468 3    c Gray
+382 384 2    c Gray
+468 471 2    c Gray
+431 435 2    c Gray
+468 482 3    c Gray
+518 520 9    c Gray
+504 518 3    c Gray
+460 482 2    c Gray
+476 488 3    c Gray
+431 437 3    c Gray
+461 464 6    c Gray
+420 482 3    c Gray
+431 482 4    c Gray
+485 489 3    c Gray
+482 518 2    c Gray
+208 515 7    c Gray
+462 464 13    c Gray
+515 520 4    c Gray
+463 468 6    c Gray
+454 467 3    c Gray
+384 393 3    c Gray
+460 504 3    c Gray
+465 508 2    c Gray
+493 505 3    c Gray
+  1  10 4    c Gray
+458 460 16    c Gray
+460 464 12    c Gray
+462 463 10    c Gray
+236 239 2    c Gray
+426 510 4    c Gray
+451 464 2    c Gray
+462 496 2    c Gray
+469 515 4    c Gray
+452 457 2    c Gray
+458 504 7    c Gray
+486 487 5    c Gray
+485 495 2    c Gray
+462 465 17    c Gray
+488 492 3    c Gray
+517 518 5    c Gray
+450 469 9    c Gray
+462 482 5    c Gray
+239 240 3    c Gray
+ 87  91 5    c Gray
+ 87  98 2    c Gray
+ 91  98 16    c Gray
+ 97  99 4    c Gray
+ 98  99 2    c Gray
+ 93  98 2    c Gray
+ 97  98 2    c Gray
+ 21 234 2    c Gray
+ 21  22 2    c Gray
+ 78 111 2    c Gray
+108 111 19    c Gray
+ 78 108 2    c Gray
+201 204 2    c Gray
+198 203 2    c Gray
+ 72  91 5    c Gray
+ 72  98 8    c Gray
+ 49  63 2    c Gray
+ 52  63 3    c Gray
+ 49  52 8    c Gray
+217 227 2    c Gray
+ 21 179 2    c Gray
+ 34 142 3    c Gray
+ 42  91 4    c Gray
+151 207 2    c Gray
+ 28 207 3    c Gray
+  8 151 2    c Gray
+  8  28 2    c Gray
+112 335 5    c Gray
+290 335 4    c Gray
+249 335 3    c Gray
+112 290 11    c Gray
+112 249 2    c Gray
+249 290 2    c Gray
+ 12  32 3    c Gray
+ 21  38 5    c Gray
+ 12  57 4    c Gray
+ 82  85 6    c Gray
+ 99 280 2    c Gray
+ 89  99 2    c Gray
+ 89 276 7    c Gray
+ 75  82 3    c Gray
+ 70  75 3    c Gray
+ 82  88 7    c Gray
+ 86 195 3    c Gray
+ 21 171 3    c Gray
+  4   7 7    c Gray
+ 48  79 11    c Gray
+ 84 150 3    c Gray
+111 150 2    c Gray
+ 84 111 39    c Gray
+261 268 43    c Gray
+ 84 112 207    c Gray
+106 112 35    c Gray
+108 112 141    c Gray
+ 84 106 14    c Gray
+ 84 108 76    c Gray
+106 108 8    c Gray
+ 84 258 15    c Gray
+ 87  93 2    c Gray
+ 83  87 3    c Gray
+356 461 2    c Gray
+437 461 2    c Gray
+356 437 2    c Gray
+439 524 9    c Gray
+520 524 2    c Gray
+439 520 2    c Gray
+358 468 2    c Gray
+461 468 2    c Gray
+358 461 2    c Gray
+466 504 5    c Gray
+466 490 2    c Gray
+208 524 2    c Gray
+515 524 5    c Gray
+419 421 2    c Gray
+420 421 2    c Gray
+419 524 2    c Gray
+420 524 6    c Gray
+419 420 4    c Gray
+420 479 2    c Gray
+479 488 7    c Gray
+479 524 2    c Gray
+488 524 6    c Gray
+402 420 5    c Gray
+108 133 6    c Gray
+112 133 13    c Gray
+119 133 3    c Gray
+133 335 10    c Gray
+108 119 9    c Gray
+108 335 2    c Gray
+112 119 20    c Gray
+418 468 3    c Gray
+447 484 5    c Gray
+449 455 2    c Gray
+449 465 3    c Gray
+449 473 5    c Gray
+455 465 5    c Gray
+455 473 2    c Gray
+465 473 6    c Gray
+450 459 10    c Gray
+374 459 2    c Gray
+451 459 4    c Gray
+374 450 3    c Gray
+450 451 10    c Gray
+488 518 2    c Gray
+480 488 3    c Gray
+480 490 2    c Gray
+488 490 7    c Gray
+476 482 6    c Gray
+460 509 3    c Gray
+462 509 4    c Gray
+460 462 4    c Gray
+449 462 2    c Gray
+479 498 5    c Gray
+480 498 3    c Gray
+479 480 3    c Gray
+479 497 2    c Gray
+272 285 4    c Gray
+285 288 2    c Gray
+479 481 2    c Gray
+481 488 2    c Gray
+364 367 2    c Gray
+364 373 6    c Gray
+402 468 4    c Gray
+468 524 3    c Gray
+473 524 4    c Gray
+509 524 2    c Gray
+468 473 9    c Gray
+278 323 2    c Gray
+318 326 3    c Gray
+402 482 4    c Gray
+  7  36 3    c Gray
+ 10  36 5    c Gray
+  7  10 14    c Gray
+476 524 3    c Gray
+482 524 8    c Gray
+482 488 3    c Gray
+462 515 5    c Gray
+462 524 4    c Gray
+503 506 2    c Gray
+479 496 4    c Gray
+402 438 3    c Gray
+261 285 19    c Gray
+282 285 19    c Gray
+261 282 4    c Gray
+476 505 2    c Gray
+476 493 2    c Gray
+ 49  94 5    c Gray
+410 426 3    c Gray
+258 302 2    c Gray
+362 379 2    c Gray
+370 379 3    c Gray
+362 370 2    c Gray
+111 123 3    c Gray
+120 123 5    c Gray
+402 524 4    c Gray
+402 515 2    c Gray
+104 112 4    c Gray
+ 84  91 12    c Gray
+ 90  91 5    c Gray
+ 84  90 2    c Gray
+106 248 2    c Gray
+110 248 2    c Gray
+112 261 7    c Gray
+144 145 13    c Gray
+ 83  94 5    c Gray
+ 91  94 9    c Gray
+ 83  91 4    c Gray
+248 279 2    c Gray
+285 301 4    c Gray
+285 290 20    c Gray
+117 123 2    c Gray
+ 82 112 2    c Gray
+ 82  84 19    c Gray
+ 84 277 2    c Gray
+  7 485 2    c Gray
+  8 485 2    c Gray
+  7   8 5    c Gray
+248 286 2    c Gray
+ 85 285 2    c Gray
+112 285 34    c Gray
+ 85 112 2    c Gray
+111 115 18    c Gray
+112 115 6    c Gray
+111 112 63    c Gray
+112 301 2    c Gray
+476 520 3    c Gray
+482 520 2    c Gray
+ 46  84 31    c Gray
+ 46  89 3    c Gray
+ 84  89 37    c Gray
+  3 190 2    c Gray
+ 94 172 2    c Gray
+392 437 2    c Gray
+428 437 2    c Gray
+392 428 2    c Gray
+268 275 7    c Gray
+410 472 2    c Gray
+329 472 2    c Gray
+329 410 2    c Gray
+ 89 112 3    c Gray
+121 349 2    c Gray
+323 408 2    c Gray
+289 323 3    c Gray
+ 92  94 3    c Gray
+243 285 3    c Gray
+268 285 16    c Gray
+243 268 2    c Gray
+210 515 6    c Gray
+115 344 2    c Gray
+115 164 5    c Gray
+250 251 3    c Gray
+265 323 18    c Gray
+273 323 7    c Gray
+265 273 7    c Gray
+ 82  83 5    c Gray
+ 83  84 3    c Gray
+392 397 3    c Gray
+249 323 5    c Gray
+318 323 2    c Gray
+248 263 3    c Gray
+327 330 2    c Gray
+112 268 43    c Gray
+317 319 3    c Gray
+318 319 2    c Gray
+317 318 2    c Gray
+112 250 5    c Gray
+248 250 7    c Gray
+112 248 38    c Gray
+ 91 218 2    c Gray
+171 218 2    c Gray
+112 264 5    c Gray
+111 348 2    c Gray
+ 83  90 5    c Gray
+ 89  90 7    c Gray
+ 83  89 26    c Gray
+ 46 265 4    c Gray
+172 265 2    c Gray
+ 46 172 5    c Gray
+275 301 2    c Gray
+285 306 4    c Gray
+108 126 26    c Gray
+112 126 36    c Gray
+ 84 285 8    c Gray
+284 285 2    c Gray
+268 306 2    c Gray
+245 268 2    c Gray
+262 307 2    c Gray
+123 131 6    c Gray
+126 131 9    c Gray
+123 126 19    c Gray
+358 379 4    c Gray
+ 82  89 12    c Gray
+382 444 2    c Gray
+387 444 2    c Gray
+382 387 3    c Gray
+ 94 276 3    c Gray
+261 276 3    c Gray
+ 94 261 2    c Gray
+283 299 2    c Gray
+286 299 5    c Gray
+  4   8 4    c Gray
+108 268 8    c Gray
+248 268 24    c Gray
+108 248 13    c Gray
+  9 186 2    c Gray
+248 290 7    c Gray
+261 290 4    c Gray
+248 261 29    c Gray
+ 84  92 20    c Gray
+ 84 248 17    c Gray
+299 310 3    c Gray
+249 261 3    c Gray
+249 299 3    c Gray
+261 299 11    c Gray
+ 49  95 12    c Gray
+ 91  95 4    c Gray
+ 49  91 19    c Gray
+282 304 2    c Gray
+282 292 2    c Gray
+ 59  94 3    c Gray
+ 46  49 2    c Gray
+248 299 3    c Gray
+248 257 5    c Gray
+ 89 260 5    c Gray
+257 268 3    c Gray
+257 261 10    c Gray
+391 392 6    c Gray
+ 45  91 4    c Gray
+  6  59 5    c Gray
+  3  12 19    c Gray
+ 84  94 9    c Gray
+ 84  85 7    c Gray
+477 491 3    c Gray
+439 476 2    c Gray
+ 47  61 9    c Gray
+ 59  61 12    c Gray
+ 47  59 23    c Gray
+507 511 2    c Gray
+268 290 3    c Gray
+316 322 2    c Gray
+458 459 2    c Gray
+450 458 2    c Gray
+ 49 218 14    c Gray
+ 40 189 2    c Gray
+  4  40 2    c Gray
+285 299 6    c Gray
+285 286 5    c Gray
+275 299 3    c Gray
+ 92 112 6    c Gray
+265 326 13    c Gray
+300 304 2    c Gray
+  4 186 3    c Gray
+112 353 6    c Gray
+287 353 4    c Gray
+112 287 9    c Gray
+295 296 2    c Gray
+420 478 2    c Gray
+402 478 3    c Gray
+  3  46 2    c Gray
+ 84 299 3    c Gray
+ 84 286 2    c Gray
+261 306 6    c Gray
+472 524 6    c Gray
+436 472 2    c Gray
+477 489 2    c Gray
+275 276 4    c Gray
+ 84 260 3    c Gray
+ 82 111 3    c Gray
+289 326 2    c Gray
+323 326 15    c Gray
+366 373 3    c Gray
+112 121 6    c Gray
+121 350 2    c Gray
+402 490 2    c Gray
+402 488 2    c Gray
+324 326 2    c Gray
+ 46 261 6    c Gray
+217 301 4    c Gray
+268 322 2    c Gray
+301 322 5    c Gray
+390 397 2    c Gray
+382 390 2    c Gray
+ 45  48 8    c Gray
+ 44  45 2    c Gray
+108 123 6    c Gray
+112 258 10    c Gray
+114 340 4    c Gray
+250 299 3    c Gray
+268 323 5    c Gray
+157 174 4    c Gray
+361 400 2    c Gray
+360 361 2    c Gray
+285 320 4    c Gray
+ 74  94 2    c Gray
+ 83  95 14    c Gray
+ 92  95 7    c Gray
+ 83  92 13    c Gray
+ 46 112 17    c Gray
+ 57 193 4    c Gray
+248 285 6    c Gray
+244 261 2    c Gray
+250 261 8    c Gray
+ 46 273 2    c Gray
+252 323 2    c Gray
+252 326 2    c Gray
+183 184 4    c Gray
+275 291 2    c Gray
+261 275 8    c Gray
+ 83 102 8    c Gray
+283 302 2    c Gray
+157 163 2    c Gray
+ 84 100 8    c Gray
+265 291 2    c Gray
+171 265 3    c Gray
+256 289 2    c Gray
+488 496 5    c Gray
+487 488 2    c Gray
+ 87 231 2    c Gray
+208 402 2    c Gray
+ 91 103 5    c Gray
+  1  17 9    c Gray
+283 285 5    c Gray
+261 283 3    c Gray
+273 316 2    c Gray
+264 323 4    c Gray
+264 268 5    c Gray
+ 82 172 3    c Gray
+ 46  92 8    c Gray
+ 91  92 5    c Gray
+ 46  91 4    c Gray
+155 156 2    c Gray
+ 95 231 2    c Gray
+258 310 5    c Gray
+275 282 2    c Gray
+ 92 102 11    c Gray
+105 112 18    c Gray
+105 108 14    c Gray
+ 49  78 7    c Gray
+ 78  91 2    c Gray
+248 252 2    c Gray
+387 390 2    c Gray
+301 312 2    c Gray
+258 301 3    c Gray
+469 475 3    c Gray
+446 474 3    c Gray
+ 84 173 7    c Gray
+ 84 171 7    c Gray
+ 78  84 2    c Gray
+102 112 6    c Gray
+ 84 102 17    c Gray
+258 261 44    c Gray
+ 46 258 3    c Gray
+112 244 2    c Gray
+ 84 132 15    c Gray
+111 132 5    c Gray
+ 29  35 2    c Gray
+140 152 12    c Gray
+141 152 13    c Gray
+142 152 5    c Gray
+140 141 15    c Gray
+140 142 6    c Gray
+141 142 6    c Gray
+ 68 314 4    c Gray
+307 314 3    c Gray
+314 321 3    c Gray
+ 68 307 3    c Gray
+ 68 321 3    c Gray
+307 321 4    c Gray
+440 524 5    c Gray
+518 524 4    c Gray
+462 518 4    c Gray
+112 292 3    c Gray
+285 292 9    c Gray
+108 285 3    c Gray
+ 46 171 4    c Gray
+135 171 2    c Gray
+ 84 135 5    c Gray
+ 46 135 9    c Gray
+258 285 9    c Gray
+275 285 3    c Gray
+258 275 3    c Gray
+ 84 276 4    c Gray
+ 21  81 3    c Gray
+ 44  81 8    c Gray
+ 21  44 3    c Gray
+ 81  86 2    c Gray
+ 81  87 3    c Gray
+ 81  91 12    c Gray
+ 81 102 62    c Gray
+ 86  87 3    c Gray
+ 91 102 11    c Gray
+477 485 3    c Gray
+272 290 3    c Gray
+263 268 9    c Gray
+261 263 18    c Gray
+ 84 275 14    c Gray
+ 46 275 3    c Gray
+112 275 8    c Gray
+252 265 2    c Gray
+257 412 2    c Gray
+323 412 3    c Gray
+257 323 2    c Gray
+285 287 10    c Gray
+432 438 8    c Gray
+437 438 3    c Gray
+432 437 3    c Gray
+ 46 254 3    c Gray
+ 82 126 2    c Gray
+113 126 2    c Gray
+108 113 3    c Gray
+ 81  83 8    c Gray
+ 81  89 11    c Gray
+ 89 102 15    c Gray
+ 81  92 13    c Gray
+106 275 3    c Gray
+106 107 4    c Gray
+107 112 6    c Gray
+248 296 6    c Gray
+ 84 264 2    c Gray
+343 345 3    c Gray
+121 343 4    c Gray
+ 46 173 9    c Gray
+135 173 2    c Gray
+258 268 28    c Gray
+ 43  81 3    c Gray
+ 43  44 10    c Gray
+ 44 102 2    c Gray
+111 268 3    c Gray
+ 26 111 2    c Gray
+ 26 112 8    c Gray
+302 305 2    c Gray
+275 283 6    c Gray
+275 302 3    c Gray
+  4 165 2    c Gray
+158 165 2    c Gray
+163 165 3    c Gray
+  4 158 2    c Gray
+  4 163 2    c Gray
+158 163 4    c Gray
+489 490 2    c Gray
+108 326 2    c Gray
+266 326 3    c Gray
+267 326 5    c Gray
+108 266 2    c Gray
+108 267 2    c Gray
+266 267 2    c Gray
+107 122 3    c Gray
+114 122 11    c Gray
+107 114 7    c Gray
+ 90 174 3    c Gray
+ 91 174 2    c Gray
+103 174 2    c Gray
+ 90 103 3    c Gray
+ 80  91 2    c Gray
+383 392 2    c Gray
+245 292 2    c Gray
+245 285 6    c Gray
+ 81  90 4    c Gray
+ 81  98 7    c Gray
+ 90  98 3    c Gray
+ 90 102 5    c Gray
+ 98 102 7    c Gray
+285 309 7    c Gray
+ 49 228 2    c Gray
+ 49  72 15    c Gray
+ 11 386 3    c Gray
+ 11  20 2    c Gray
+430 490 3    c Gray
+482 490 7    c Gray
+ 11 334 2    c Gray
+112 299 2    c Gray
+  8 233 2    c Gray
+157 233 2    c Gray
+174 233 3    c Gray
+  8 157 3    c Gray
+  8 174 2    c Gray
+ 91 172 3    c Gray
+142 172 3    c Gray
+ 91 142 3    c Gray
+248 335 4    c Gray
+250 311 2    c Gray
+248 311 2    c Gray
+458 470 2    c Gray
+460 470 2    c Gray
+ 46 102 6    c Gray
+ 46  81 10    c Gray
+ 81  84 19    c Gray
+ 59  74 8    c Gray
+ 61  74 4    c Gray
+  3  57 5    c Gray
+261 302 3    c Gray
+293 302 2    c Gray
+428 466 7    c Gray
+ 16  17 4    c Gray
+  1  14 5    c Gray
+300 316 2    c Gray
+ 89 100 3    c Gray
+ 82  99 3    c Gray
+ 82  98 2    c Gray
+ 50  59 4    c Gray
+ 47  50 5    c Gray
+112 272 3    c Gray
+ 81  82 5    c Gray
+133 282 4    c Gray
+133 285 6    c Gray
+285 335 2    c Gray
+250 302 3    c Gray
+250 275 2    c Gray
+  7  20 11    c Gray
+ 10  20 9    c Gray
+ 18  20 6    c Gray
+  7  18 6    c Gray
+ 10  18 3    c Gray
+258 292 3    c Gray
+261 292 4    c Gray
+111 131 4    c Gray
+112 131 5    c Gray
+115 131 2    c Gray
+308 314 2    c Gray
+171 275 2    c Gray
+265 275 3    c Gray
+ 82  87 4    c Gray
+364 365 2    c Gray
+364 368 2    c Gray
+365 368 2    c Gray
+365 373 2    c Gray
+368 373 2    c Gray
+245 248 4    c Gray
+248 283 3    c Gray
+  1  18 8    c Gray
+ 17  18 7    c Gray
+ 87  95 4    c Gray
+ 28 333 2    c Gray
+262 333 2    c Gray
+ 28 262 2    c Gray
+256 262 2    c Gray
+112 135 9    c Gray
+ 92 248 2    c Gray
+249 331 2    c Gray
+245 249 2    c Gray
+ 81 112 12    c Gray
+ 46 291 2    c Gray
+440 473 3    c Gray
+473 514 3    c Gray
+ 28 197 2    c Gray
+264 265 4    c Gray
+261 296 3    c Gray
+431 524 10    c Gray
+455 524 2    c Gray
+455 518 3    c Gray
+258 299 2    c Gray
+268 299 2    c Gray
+104 123 3    c Gray
+107 123 2    c Gray
+114 123 8    c Gray
+104 107 2    c Gray
+ 45  79 8    c Gray
+ 54  79 7    c Gray
+ 66  79 4    c Gray
+ 45  54 7    c Gray
+ 45  66 6    c Gray
+ 54  66 2    c Gray
+142 153 4    c Gray
+379 380 2    c Gray
+383 412 2    c Gray
+384 411 3    c Gray
+323 324 3    c Gray
+263 294 4    c Gray
+248 292 4    c Gray
+108 115 2    c Gray
+302 304 2    c Gray
+  2  12 6    c Gray
+  2   3 10    c Gray
+260 276 4    c Gray
+ 81 258 2    c Gray
+ 26  28 8    c Gray
+ 28  81 3    c Gray
+112 173 4    c Gray
+  2  17 5    c Gray
+ 44  57 2    c Gray
+ 12  24 2    c Gray
+ 12  44 3    c Gray
+ 24  44 2    c Gray
+ 16  32 5    c Gray
+ 12  16 3    c Gray
+ 12  28 16    c Gray
+ 20 323 2    c Gray
+ 34 323 3    c Gray
+ 20  34 3    c Gray
+ 84  87 2    c Gray
+ 59  77 2    c Gray
+431 439 6    c Gray
+432 439 2    c Gray
+434 439 6    c Gray
+431 432 2    c Gray
+432 434 5    c Gray
+ 49  79 2    c Gray
+ 48  49 8    c Gray
+ 49  74 5    c Gray
+ 28  78 2    c Gray
+ 28  49 5    c Gray
+ 28  74 4    c Gray
+ 11  21 2    c Gray
+ 20  21 4    c Gray
+ 11  16 2    c Gray
+262 270 2    c Gray
+262 299 3    c Gray
+  2  18 7    c Gray
+  1   2 6    c Gray
+  2  14 3    c Gray
+  3 219 3    c Gray
+111 287 3    c Gray
+261 287 7    c Gray
+111 261 2    c Gray
+ 84 268 27    c Gray
+254 268 2    c Gray
+ 84 254 3    c Gray
+112 254 3    c Gray
+250 285 4    c Gray
+ 28 237 5    c Gray
+114 162 3    c Gray
+114 121 8    c Gray
+294 299 3    c Gray
+298 299 3    c Gray
+485 488 6    c Gray
+485 492 3    c Gray
+ 20 235 2    c Gray
+ 73  91 3    c Gray
+ 89  92 14    c Gray
+406 432 2    c Gray
+220 227 2    c Gray
+109 129 5    c Gray
+112 129 6    c Gray
+126 129 18    c Gray
+109 112 2    c Gray
+109 126 6    c Gray
+107 108 2    c Gray
+285 310 3    c Gray
+449 524 2    c Gray
+478 524 2    c Gray
+ 46  94 2    c Gray
+ 81  94 4    c Gray
+  4  24 2    c Gray
+  4  12 7    c Gray
+  7  12 6    c Gray
+299 309 2    c Gray
+ 46  52 6    c Gray
+ 46 137 3    c Gray
+ 52 137 2    c Gray
+402 419 2    c Gray
+438 439 3    c Gray
+438 476 2    c Gray
+438 524 3    c Gray
+439 440 2    c Gray
+402 439 2    c Gray
+440 476 3    c Gray
+402 440 4    c Gray
+402 476 2    c Gray
+ 54  59 6    c Gray
+ 56  59 3    c Gray
+ 54  56 2    c Gray
+248 275 3    c Gray
+ 46 108 2    c Gray
+ 46 132 2    c Gray
+112 132 9    c Gray
+ 84 119 20    c Gray
+ 49 171 2    c Gray
+ 72 171 3    c Gray
+ 49  54 9    c Gray
+ 54  72 4    c Gray
+250 268 2    c Gray
+112 137 2    c Gray
+ 26  84 2    c Gray
+ 26 108 4    c Gray
+381 386 3    c Gray
+107 126 2    c Gray
+114 126 9    c Gray
+ 78  98 2    c Gray
+402 430 2    c Gray
+ 25  68 2    c Gray
+  8 234 2    c Gray
+ 12 192 4    c Gray
+ 12  40 4    c Gray
+141 153 12    c Gray
+148 153 29    c Gray
+141 148 15    c Gray
+ 16  61 2    c Gray
+  1   4 7    c Gray
+147 153 7    c Gray
+141 147 12    c Gray
+ 49  92 7    c Gray
+ 40 205 2    c Gray
+ 48  54 6    c Gray
+  3  19 4    c Gray
+  3   4 5    c Gray
+  1   3 2    c Gray
+ 42 185 5    c Gray
+  7 186 2    c Gray
+455 490 2    c Gray
+459 513 2    c Gray
+481 489 7    c Gray
+481 485 2    c Gray
+114 147 6    c Gray
+130 147 3    c Gray
+114 130 4    c Gray
+441 509 2    c Gray
+246 275 3    c Gray
+ 49  59 14    c Gray
+ 59  64 5    c Gray
+ 58  59 2    c Gray
+477 479 3    c Gray
+263 275 5    c Gray
+ 52  64 5    c Gray
+ 87  90 2    c Gray
+ 87  89 3    c Gray
+ 56  61 4    c Gray
+ 30  56 6    c Gray
+455 462 4    c Gray
+394 455 2    c Gray
+153 182 3    c Gray
+455 464 2    c Gray
+ 45  72 7    c Gray
+ 45  49 9    c Gray
+ 52  62 4    c Gray
+105 113 8    c Gray
+  1   6 6    c Gray
+ 89  91 2    c Gray
+  3 227 2    c Gray
+357 473 2    c Gray
+357 465 2    c Gray
+357 468 3    c Gray
+465 468 7    c Gray
+431 433 4    c Gray
+ 52  66 6    c Gray
+ 59  66 2    c Gray
+ 52  59 4    c Gray
+359 372 2    c Gray
+372 436 2    c Gray
+372 461 3    c Gray
+359 436 2    c Gray
+359 461 2    c Gray
+436 461 2    c Gray
+  2  69 2    c Gray
+  3  69 2    c Gray
+ 12  69 2    c Gray
+461 465 6    c Gray
+432 435 5    c Gray
+434 435 4    c Gray
+515 516 6    c Gray
+ 84 126 8    c Gray
+ 45  81 8    c Gray
+ 64  81 4    c Gray
+ 66  81 9    c Gray
+ 45  64 3    c Gray
+ 45 102 3    c Gray
+ 64  66 3    c Gray
+ 64 102 2    c Gray
+ 66 102 4    c Gray
+467 469 4    c Gray
+482 491 2    c Gray
+482 485 4    c Gray
+  2 142 2    c Gray
+461 511 3    c Gray
+ 69 185 3    c Gray
+ 76 185 8    c Gray
+ 69  76 2    c Gray
+361 463 2    c Gray
+427 463 2    c Gray
+361 427 2    c Gray
+  6  17 3    c Gray
+ 89 281 2    c Gray
+102 281 2    c Gray
+ 81 281 2    c Gray
+275 281 2    c Gray
+ 89 275 4    c Gray
+102 275 4    c Gray
+ 81 275 2    c Gray
+ 94 112 5    c Gray
+ 94 102 2    c Gray
+ 52  78 2    c Gray
+ 67  78 2    c Gray
+ 72  78 6    c Gray
+ 52  67 2    c Gray
+ 52  72 3    c Gray
+ 67  72 2    c Gray
+484 494 3    c Gray
+490 494 2    c Gray
+493 494 2    c Gray
+484 490 2    c Gray
+484 493 3    c Gray
+490 493 2    c Gray
+108 338 2    c Gray
+132 338 2    c Gray
+108 132 2    c Gray
+120 131 2    c Gray
+117 126 2    c Gray
+120 126 5    c Gray
+ 60 224 4    c Gray
+430 496 3    c Gray
+490 496 2    c Gray
+430 488 2    c Gray
+444 464 2    c Gray
+463 464 4    c Gray
+455 463 2    c Gray
+145 182 2    c Gray
+148 182 2    c Gray
+145 148 19    c Gray
+145 153 22    c Gray
+ 83  99 5    c Gray
+489 524 5    c Gray
+402 489 2    c Gray
+107 135 3    c Gray
+126 135 5    c Gray
+432 524 2    c Gray
+450 484 4    c Gray
+459 484 2    c Gray
+ 95 144 4    c Gray
+ 95 145 4    c Gray
+ 42  52 5    c Gray
+142 145 6    c Gray
+145 467 2    c Gray
+111 164 13    c Gray
+138 164 2    c Gray
+ 78  89 2    c Gray
+489 504 2    c Gray
+ 31 219 2    c Gray
+ 31 226 2    c Gray
+104 126 2    c Gray
+107 121 3    c Gray
+394 460 3    c Gray
+456 460 2    c Gray
+145 184 2    c Gray
+462 468 21    c Gray
+ 45  47 4    c Gray
+  3 142 2    c Gray
+ 12  42 2    c Gray
+429 518 3    c Gray
+  3   7 7    c Gray
+166 232 2    c Gray
+399 428 3    c Gray
+517 523 2    c Gray
+518 523 4    c Gray
+141 145 11    c Gray
+ 53  54 5    c Gray
+113 119 16    c Gray
+ 84 113 5    c Gray
+485 496 2    c Gray
+486 496 3    c Gray
+485 486 3    c Gray
+108 341 6    c Gray
+  3 126 4    c Gray
+187 193 2    c Gray
+ 52 193 2    c Gray
+ 52  57 2    c Gray
+  7 216 2    c Gray
+ 60 154 3    c Gray
+149 152 6    c Gray
+139 140 2    c Gray
+ 83 183 5    c Gray
+ 95 183 5    c Gray
+ 49  86 3    c Gray
+ 49  89 2    c Gray
+429 454 2    c Gray
+419 468 2    c Gray
+515 522 6    c Gray
+114 115 4    c Gray
+261 288 2    c Gray
+ 46 262 2    c Gray
+264 275 3    c Gray
+261 304 3    c Gray
+245 261 6    c Gray
+420 476 2    c Gray
+237 238 2    c Gray
+248 259 2    c Gray
+ 46 248 2    c Gray
+455 461 3    c Gray
+  8 477 2    c Gray
+ 91 145 2    c Gray
+211 515 5    c Gray
+246 285 5    c Gray
+246 261 2    c Gray
+248 269 2    c Gray
+506 510 4    c Gray
+ 63  64 2    c Gray
+ 64  82 2    c Gray
+ 82  86 3    c Gray
+  3  91 2    c Gray
+461 462 12    c Gray
+109 115 2    c Gray
+403 432 2    c Gray
+250 269 2    c Gray
+106 119 8    c Gray
+258 259 2    c Gray
+141 168 2    c Gray
+152 168 2    c Gray
+122 126 5    c Gray
+ 63  90 3    c Gray
+ 42  63 2    c Gray
+265 324 2    c Gray
+323 325 2    c Gray
+462 493 3    c Gray
+482 493 5    c Gray
+503 510 2    c Gray
+114 117 3    c Gray
+460 469 3    c Gray
+275 323 4    c Gray
+249 275 2    c Gray
+396 418 2    c Gray
+ 42  62 2    c Gray
+123 409 5    c Gray
+408 409 4    c Gray
+123 408 4    c Gray
+325 328 2    c Gray
+108 127 5    c Gray
+112 127 5    c Gray
+ 12  17 6    c Gray
+154 158 3    c Gray
+117 149 3    c Gray
+ 85  89 2    c Gray
+209 459 5    c Gray
+106 129 4    c Gray
+515 518 3    c Gray
+514 515 2    c Gray
+  3   8 2    c Gray
+217 223 2    c Gray
+363 371 2    c Gray
+370 371 2    c Gray
+363 370 2    c Gray
+ 49 183 8    c Gray
+481 487 5    c Gray
+481 486 5    c Gray
+161 164 2    c Gray
+258 263 7    c Gray
+126 171 2    c Gray
+ 46 322 3    c Gray
+ 46 301 4    c Gray
+117 467 4    c Gray
+  4  17 2    c Gray
+112 245 2    c Gray
+107 164 3    c Gray
+  4   6 2    c Gray
+109 113 3    c Gray
+323 407 4    c Gray
+184 185 2    c Gray
+500 515 2    c Gray
+441 484 3    c Gray
+441 447 3    c Gray
+  5   7 3    c Gray
+  4   5 2    c Gray
+110 467 4    c Gray
+115 162 3    c Gray
+332 428 2    c Gray
+404 418 2    c Gray
+450 456 2    c Gray
+372 464 4    c Gray
+468 490 2    c Gray
+465 471 2    c Gray
+465 523 2    c Gray
+111 172 2    c Gray
+268 283 5    c Gray
+ 47  54 4    c Gray
+426 464 2    c Gray
+  6 234 3    c Gray
+455 515 2    c Gray
+  6  12 5    c Gray
+  6   7 6    c Gray
+127 129 4    c Gray
+111 342 2    c Gray
+111 174 2    c Gray
+302 325 2    c Gray
+ 57  59 2    c Gray
+111 114 3    c Gray
+112 114 8    c Gray
+107 111 2    c Gray
+293 310 2    c Gray
+112 282 4    c Gray
+209 211 3    c Gray
+245 275 2    c Gray
+ 89 287 4    c Gray
+479 485 2    c Gray
+ 52  54 2    c Gray
+ 48  52 3    c Gray
+111 126 6    c Gray
+265 408 2    c Gray
+ 11 192 2    c Gray
+114 352 2    c Gray
+  3 158 2    c Gray
+  3  16 2    c Gray
+  8 458 5    c Gray
+259 268 5    c Gray
+112 341 2    c Gray
+ 49 185 4    c Gray
+183 185 4    c Gray
+108 121 2    c Gray
+122 123 5    c Gray
+ 49 144 5    c Gray
+482 487 3    c Gray
+464 468 5    c Gray
+112 257 2    c Gray
+463 465 3    c Gray
+181 184 2    c Gray
+ 49  53 8    c Gray
+372 376 5    c Gray
+394 468 3    c Gray
+394 465 13    c Gray
+455 520 2    c Gray
+  3 192 2    c Gray
+110 112 4    c Gray
+121 126 4    c Gray
+121 123 4    c Gray
+ 19 396 4    c Gray
+429 468 2    c Gray
+ 49  61 3    c Gray
+  8 186 2    c Gray
+502 504 2    c Gray
+458 502 2    c Gray
+465 470 3    c Gray
+456 469 2    c Gray
+248 276 3    c Gray
+157 158 6    c Gray
+523 524 6    c Gray
+ 84 279 5    c Gray
+394 471 2    c Gray
+465 469 2    c Gray
+394 469 3    c Gray
+ 58 190 2    c Gray
+  7   9 2    c Gray
+ 60 158 3    c Gray
+105 119 3    c Gray
+141 143 2    c Gray
+108 122 2    c Gray
+112 123 7    c Gray
+111 119 2    c Gray
+115 119 3    c Gray
+ 86  95 2    c Gray
+105 472 2    c Gray
+256 297 2    c Gray
+143 145 5    c Gray
+143 144 2    c Gray
+ 95 185 2    c Gray
+ 83 187 2    c Gray
+141 149 8    c Gray
+ 45  53 3    c Gray
+119 344 5    c Gray
+ 82 339 2    c Gray
+369 376 2    c Gray
+ 84 114 2    c Gray
+  3 333 2    c Gray
+ 12 333 2    c Gray
+145 152 2    c Gray
+125 126 3    c Gray
+122 409 4    c Gray
+ 84 343 4    c Gray
+460 466 2    c Gray
+ 49 145 5    c Gray
+ 83  86 2    c Gray
+273 275 11    c Gray
+482 492 2    c Gray
+187 194 2    c Gray
+  8 464 3    c Gray
+458 464 11    c Gray
+462 471 2    c Gray
+117 147 2    c Gray
+448 508 2    c Gray
+112 171 3    c Gray
+493 524 2    c Gray
+210 213 3    c Gray
+464 494 2    c Gray
+ 85 237 2    c Gray
+172 238 2    c Gray
+  7 172 2    c Gray
+275 294 2    c Gray
+209 210 3    c Gray
+458 515 3    c Gray
+460 515 6    c Gray
+174 188 2    c Gray
+142 148 3    c Gray
+432 436 3    c Gray
+464 515 6    c Gray
+470 515 2    c Gray
+464 470 3    c Gray
+ 57 142 2    c Gray
+259 285 3    c Gray
+427 428 3    c Gray
+416 469 2    c Gray
+452 461 2    c Gray
+106 111 2    c Gray
+105 123 2    c Gray
+249 273 2    c Gray
+ 46 268 8    c Gray
+262 268 2    c Gray
+258 287 5    c Gray
+436 438 2    c Gray
+208 210 3    c Gray
+  6  18 2    c Gray
+212 520 2    c Gray
+462 520 5    c Gray
+212 462 2    c Gray
+108 351 2    c Gray
+148 152 5    c Gray
+ 52 174 2    c Gray
+453 458 2    c Gray
+401 448 2    c Gray
+486 488 5    c Gray
+113 115 4    c Gray
+ 91 183 3    c Gray
+108 129 3    c Gray
+ 84 122 2    c Gray
+121 122 9    c Gray
+ 84 121 8    c Gray
+ 11 415 3    c Gray
+263 306 2    c Gray
+ 84 261 3    c Gray
+ 90  92 3    c Gray
+248 258 8    c Gray
+287 290 2    c Gray
+515 519 4    c Gray
+516 519 2    c Gray
+245 301 3    c Gray
+199 202 2    c Gray
+444 460 2    c Gray
+460 461 3    c Gray
+ 84 290 5    c Gray
+158 174 2    c Gray
+  8 219 2    c Gray
+  3  18 3    c Gray
+154 168 4    c Gray
+ 46 119 3    c Gray
+112 340 5    c Gray
+ 84 105 4    c Gray
+254 275 4    c Gray
+265 268 5    c Gray
+112 265 3    c Gray
+293 299 3    c Gray
+275 293 2    c Gray
+268 273 3    c Gray
+105 106 7    c Gray
+ 89  94 2    c Gray
+245 246 3    c Gray
+468 520 3    c Gray
+466 511 3    c Gray
+429 466 3    c Gray
+466 468 2    c Gray
+218 219 2    c Gray
+459 491 2    c Gray
+484 500 2    c Gray
+492 500 2    c Gray
+484 492 2    c Gray
+ 84 263 3    c Gray
+112 263 2    c Gray
+ 46 263 7    c Gray
+440 482 3    c Gray
+473 482 3    c Gray
+464 524 2    c Gray
+465 524 2    c Gray
+464 465 2    c Gray
+398 417 2    c Gray
+385 386 2    c Gray
+372 466 2    c Gray
+111 134 5    c Gray
+112 134 8    c Gray
+147 149 15    c Gray
+ 59  72 3    c Gray
+ 60 142 7    c Gray
+ 66  71 5    c Gray
+ 71  76 2    c Gray
+ 82 281 4    c Gray
+ 85 281 3    c Gray
+214 215 4    c Gray
+ 48 184 2    c Gray
+ 67 184 7    c Gray
+ 48  67 2    c Gray
+140 149 6    c Gray
+285 294 3    c Gray
+111 340 2    c Gray
+259 261 5    c Gray
+257 259 2    c Gray
+ 46  78 3    c Gray
+ 21  29 2    c Gray
+111 519 2    c Gray
+211 519 3    c Gray
+399 465 2    c Gray
+ 82 467 3    c Gray
+ 82 110 3    c Gray
+ 82 454 2    c Gray
+110 454 2    c Gray
+140 148 4    c Gray
+ 25 196 3    c Gray
+426 428 3    c Gray
+462 470 4    c Gray
+468 470 3    c Gray
+120 135 3    c Gray
+123 135 8    c Gray
+125 135 3    c Gray
+123 125 3    c Gray
+275 303 2    c Gray
+283 303 2    c Gray
+246 268 2    c Gray
+246 248 3    c Gray
+402 462 2    c Gray
+ 52  71 3    c Gray
+258 283 2    c Gray
+418 472 2    c Gray
+  1  36 4    c Gray
+  4  36 3    c Gray
+ 27  36 2    c Gray
+  1  27 5    c Gray
+  4  27 3    c Gray
+ 84 107 2    c Gray
+ 49 102 2    c Gray
+102 145 4    c Gray
+  8 479 2    c Gray
+ 37 178 2    c Gray
+ 39 178 2    c Gray
+ 37  39 3    c Gray
+431 523 4    c Gray
+439 523 4    c Gray
+108 110 4    c Gray
+ 67 183 7    c Gray
+ 49  83 3    c Gray
+ 94 175 3    c Gray
+174 175 2    c Gray
+ 94 174 2    c Gray
+  2  61 4    c Gray
+  3  61 3    c Gray
+118 119 6    c Gray
+113 118 4    c Gray
+ 84 133 9    c Gray
+115 340 2    c Gray
+429 473 2    c Gray
+454 473 2    c Gray
+263 293 2    c Gray
+274 291 3    c Gray
+106 135 7    c Gray
+106 126 6    c Gray
+116 168 2    c Gray
+504 515 5    c Gray
+459 515 3    c Gray
+459 504 3    c Gray
+277 280 2    c Gray
+ 17  23 2    c Gray
+ 28 126 6    c Gray
+ 94 126 2    c Gray
+ 28  94 2    c Gray
+ 28 112 5    c Gray
+263 322 2    c Gray
+263 301 3    c Gray
+ 90  97 2    c Gray
+ 13  40 2    c Gray
+ 12  13 5    c Gray
+108 354 2    c Gray
+112 354 2    c Gray
+454 469 4    c Gray
+ 42 174 2    c Gray
+ 82 174 2    c Gray
+ 49  67 2    c Gray
+451 469 8    c Gray
+481 482 3    c Gray
+451 484 3    c Gray
+ 75 101 2    c Gray
+ 82 101 2    c Gray
+  1  37 2    c Gray
+114 172 2    c Gray
+114 149 2    c Gray
+ 21 230 2    c Gray
+196 230 2    c Gray
+ 21 196 2    c Gray
+372 468 3    c Gray
+121 265 2    c Gray
+108 250 3    c Gray
+473 515 7    c Gray
+459 473 3    c Gray
+ 84 287 3    c Gray
+256 315 2    c Gray
+293 315 3    c Gray
+299 315 3    c Gray
+256 293 2    c Gray
+256 299 2    c Gray
+268 287 5    c Gray
+140 153 2    c Gray
+152 153 3    c Gray
+ 76 183 2    c Gray
+ 40  69 3    c Gray
+442 469 2    c Gray
+452 469 2    c Gray
+451 452 2    c Gray
+464 518 5    c Gray
+ 20 412 3    c Gray
+435 439 4    c Gray
+300 301 2    c Gray
+ 89 111 4    c Gray
+458 522 2    c Gray
+494 522 2    c Gray
+514 522 2    c Gray
+458 494 2    c Gray
+458 514 2    c Gray
+494 514 2    c Gray
+ 41 301 2    c Gray
+360 468 2    c Gray
+283 300 2    c Gray
+ 65 218 3    c Gray
+  3  28 4    c Gray
+ 28 219 4    c Gray
+468 472 6    c Gray
+485 524 2    c Gray
+479 486 2    c Gray
+ 82 103 2    c Gray
+102 103 3    c Gray
+ 82 102 11    c Gray
+105 127 3    c Gray
+429 521 2    c Gray
+262 271 3    c Gray
+477 495 2    c Gray
+506 512 2    c Gray
+445 515 7    c Gray
+445 460 2    c Gray
+373 380 2    c Gray
+377 380 2    c Gray
+373 377 2    c Gray
+154 157 6    c Gray
+ 42  67 2    c Gray
+ 84  96 21    c Gray
+247 253 3    c Gray
+247 297 2    c Gray
+253 297 2    c Gray
+ 76 171 2    c Gray
+171 183 2    c Gray
+265 413 3    c Gray
+323 413 3    c Gray
+407 413 3    c Gray
+ 84 124 2    c Gray
+444 462 2    c Gray
+132 134 2    c Gray
+ 11  28 3    c Gray
+261 309 3    c Gray
+247 261 3    c Gray
+247 268 2    c Gray
+ 97 102 2    c Gray
+ 92  97 2    c Gray
+ 55  64 2    c Gray
+ 65  72 2    c Gray
+ 49  65 10    c Gray
+ 65  66 3    c Gray
+268 310 2    c Gray
+265 294 4    c Gray
+263 265 3    c Gray
+490 520 3    c Gray
+114 131 5    c Gray
+130 131 5    c Gray
+378 515 2    c Gray
+378 458 2    c Gray
+378 504 2    c Gray
+257 326 2    c Gray
+ 26 126 6    c Gray
+ 49  81 11    c Gray
+418 433 2    c Gray
+ 19  20 3    c Gray
+  7  19 3    c Gray
+ 18  19 3    c Gray
+432 506 3    c Gray
+482 522 5    c Gray
+105 171 2    c Gray
+106 171 4    c Gray
+ 21 105 2    c Gray
+ 21 106 2    c Gray
+245 263 2    c Gray
+245 258 3    c Gray
+172 500 2    c Gray
+467 500 2    c Gray
+172 467 4    c Gray
+172 469 2    c Gray
+481 496 2    c Gray
+489 496 2    c Gray
+492 496 4    c Gray
+481 499 3    c Gray
+489 499 3    c Gray
+491 499 2    c Gray
+481 491 2    c Gray
+489 491 3    c Gray
+461 466 2    c Gray
+466 496 2    c Gray
+466 492 2    c Gray
+114 141 2    c Gray
+146 153 3    c Gray
+141 146 3    c Gray
+146 148 3    c Gray
+167 402 2    c Gray
+ 28 241 2    c Gray
+237 241 3    c Gray
+ 84 355 3    c Gray
+116 469 2    c Gray
+117 469 2    c Gray
+116 117 2    c Gray
+105 115 3    c Gray
+104 105 2    c Gray
+104 108 2    c Gray
+394 462 6    c Gray
+133 248 2    c Gray
+ 89 258 2    c Gray
+258 315 2    c Gray
+268 315 3    c Gray
+  7  21 5    c Gray
+372 458 2    c Gray
+372 460 2    c Gray
+ 12  61 3    c Gray
+ 52 262 5    c Gray
+462 472 4    c Gray
+113 344 4    c Gray
+118 344 3    c Gray
+ 64 142 3    c Gray
+ 60  64 5    c Gray
+458 523 3    c Gray
+482 523 3    c Gray
+458 482 2    c Gray
+ 46 106 2    c Gray
+112 323 4    c Gray
+ 42  48 5    c Gray
+ 42  49 6    c Gray
+258 276 3    c Gray
+487 489 2    c Gray
+490 524 4    c Gray
+473 490 4    c Gray
+  7  38 2    c Gray
+126 134 4    c Gray
+472 473 3    c Gray
+464 473 3    c Gray
+209 451 2    c Gray
+184 467 3    c Gray
+ 75  98 2    c Gray
+  3  21 3    c Gray
+ 28  76 4    c Gray
+ 19 418 3    c Gray
+ 89 268 2    c Gray
+102 268 2    c Gray
+111 177 3    c Gray
+ 75  97 2    c Gray
+102 144 2    c Gray
+ 73  87 2    c Gray
+464 520 4    c Gray
+163 233 2    c Gray
+461 463 3    c Gray
+381 383 4    c Gray
+282 302 2    c Gray
+469 473 3    c Gray
+176 469 2    c Gray
+123 340 4    c Gray
+  7  33 4    c Gray
+123 130 2    c Gray
+247 263 2    c Gray
+108 131 5    c Gray
+178 241 2    c Gray
+ 48 174 3    c Gray
+172 174 2    c Gray
+ 48 172 3    c Gray
+157 170 2    c Gray
+157 168 2    c Gray
+ 52 291 4    c Gray
+262 291 4    c Gray
+112 355 2    c Gray
+105 126 6    c Gray
+ 42  73 2    c Gray
+ 28  35 5    c Gray
+147 152 2    c Gray
+ 82  96 7    c Gray
+ 84 115 2    c Gray
+ 78  81 9    c Gray
+ 28 159 2    c Gray
+ 28 111 2    c Gray
+111 159 3    c Gray
+122 408 4    c Gray
+ 82 173 2    c Gray
+ 89 173 2    c Gray
+102 173 4    c Gray
+372 462 5    c Gray
+372 465 5    c Gray
+ 11  19 2    c Gray
+  2   6 3    c Gray
+  8  18 2    c Gray
+112 164 3    c Gray
+132 133 4    c Gray
+225 252 2    c Gray
+252 291 3    c Gray
+225 291 2    c Gray
+263 291 2    c Gray
+261 298 2    c Gray
+473 516 2    c Gray
+450 452 2    c Gray
+268 292 2    c Gray
+ 89 153 2    c Gray
+ 89 148 2    c Gray
+ 48  71 2    c Gray
+145 146 2    c Gray
+273 294 2    c Gray
+263 315 2    c Gray
+ 39 386 2    c Gray
+ 11  39 2    c Gray
+209 515 4    c Gray
+209 464 3    c Gray
+211 464 2    c Gray
+ 28 121 2    c Gray
+ 28 122 2    c Gray
+452 459 2    c Gray
+131 135 3    c Gray
+106 123 2    c Gray
+ 42 173 2    c Gray
+ 76 173 2    c Gray
+ 42  46 2    c Gray
+ 42  76 4    c Gray
+ 67  76 2    c Gray
+445 522 5    c Gray
+  2  16 5    c Gray
+128 129 2    c Gray
+399 405 2    c Gray
+250 259 2    c Gray
+445 482 3    c Gray
+482 515 3    c Gray
+ 83  97 2    c Gray
+477 506 2    c Gray
+483 506 3    c Gray
+492 506 2    c Gray
+477 483 2    c Gray
+477 492 2    c Gray
+483 492 2    c Gray
+434 506 2    c Gray
+ 96 135 2    c Gray
+ 46  96 2    c Gray
+394 450 2    c Gray
+394 452 3    c Gray
+461 473 4    c Gray
+394 473 2    c Gray
+394 461 6    c Gray
+ 49 229 2    c Gray
+ 53 229 3    c Gray
+218 229 3    c Gray
+ 53 218 3    c Gray
+ 45  71 2    c Gray
+ 53  71 3    c Gray
+ 48  53 2    c Gray
+482 496 2    c Gray
+332 506 2    c Gray
+ 28 221 2    c Gray
+219 221 2    c Gray
+149 153 6    c Gray
+443 524 3    c Gray
+431 443 2    c Gray
+443 482 2    c Gray
+172 336 2    c Gray
+279 336 2    c Gray
+172 279 3    c Gray
+ 46 279 2    c Gray
+106 113 4    c Gray
+ 42 171 2    c Gray
+ 42  72 2    c Gray
+100 132 3    c Gray
+399 472 2    c Gray
+140 145 2    c Gray
+112 279 2    c Gray
+112 124 2    c Gray
+237 240 3    c Gray
+502 507 2    c Gray
+108 134 2    c Gray
+108 109 2    c Gray
+462 473 3    c Gray
+ 52  73 2    c Gray
+  2  56 2    c Gray
+  2  30 4    c Gray
+ 22  31 2    c Gray
+  8  22 2    c Gray
+ 22  28 7    c Gray
+  6  61 3    c Gray
+  6  47 3    c Gray
+ 79  81 3    c Gray
+ 84 137 3    c Gray
+132 137 2    c Gray
+133 137 2    c Gray
+176 459 2    c Gray
+148 176 2    c Gray
+153 176 3    c Gray
+ 28 225 2    c Gray
+381 395 2    c Gray
+383 395 2    c Gray
+381 385 2    c Gray
+383 385 2    c Gray
+ 28  64 4    c Gray
+262 267 2    c Gray
+455 482 3    c Gray
+455 505 2    c Gray
+482 505 2    c Gray
+ 98 103 2    c Gray
+ 76 227 2    c Gray
+ 49  76 3    c Gray
+ 28  57 4    c Gray
+ 28 239 2    c Gray
+ 28 240 3    c Gray
+ 59  60 3    c Gray
+ 83 184 4    c Gray
+ 95 184 2    c Gray
+200 207 2    c Gray
+472 482 2    c Gray
+  4  22 4    c Gray
+ 28 201 7    c Gray
+399 466 3    c Gray
+ 96 133 8    c Gray
+ 96 335 4    c Gray
+133 351 2    c Gray
+ 81  97 2    c Gray
+ 81  99 2    c Gray
+ 78 137 7    c Gray
+ 81 173 4    c Gray
+145 173 2    c Gray
+ 81 145 4    c Gray
+ 81 153 2    c Gray
+449 450 2    c Gray
+450 473 3    c Gray
+442 459 3    c Gray
+435 440 2    c Gray
+169 414 2    c Gray
+ 63  91 2    c Gray
+ 63  81 2    c Gray
+ 81 137 5    c Gray
+ 49 137 2    c Gray
+ 21 206 2    c Gray
+ 28 206 6    c Gray
+ 21  28 4    c Gray
+ 53  75 2    c Gray
+372 394 2    c Gray
+337 373 2    c Gray
+143 153 4    c Gray
+258 264 2    c Gray
+  4  28 4    c Gray
+ 42 172 2    c Gray
+ 31 125 2    c Gray
+112 125 2    c Gray
+ 31 112 2    c Gray
+ 28 172 2    c Gray
+273 278 2    c Gray
+264 273 5    c Gray
+ 81 103 2    c Gray
+ 34 514 2    c Gray
+ 21  34 2    c Gray
+ 44  60 2    c Gray
+ 28 252 4    c Gray
+217 252 2    c Gray
+ 28 217 5    c Gray
+469 504 3    c Gray
+ 51  59 2    c Gray
+ 51  64 2    c Gray
+114 135 2    c Gray
+104 111 2    c Gray
+122 412 3    c Gray
+263 299 2    c Gray
+265 299 2    c Gray
+441 500 2    c Gray
+ 96 111 6    c Gray
+ 96 112 6    c Gray
+ 96 132 23    c Gray
+255 285 2    c Gray
+140 147 2    c Gray
+468 518 4    c Gray
+473 518 2    c Gray
+261 286 2    c Gray
+154 155 2    c Gray
+ 87  96 3    c Gray
+ 46 276 2    c Gray
+ 65  81 5    c Gray
+ 65  78 4    c Gray
+ 65 137 3    c Gray
+ 65 102 2    c Gray
+450 475 3    c Gray
+451 475 3    c Gray
+  3  11 2    c Gray
+  7  11 2    c Gray
+372 455 2    c Gray
+262 315 2    c Gray
+458 462 3    c Gray
+459 475 2    c Gray
+ 22 222 2    c Gray
+ 28 222 3    c Gray
+ 12  22 2    c Gray
+ 81  95 4    c Gray
+ 81 144 2    c Gray
+261 313 3    c Gray
+473 519 2    c Gray
+211 473 2    c Gray
+ 84 134 3    c Gray
+442 467 2    c Gray
+459 467 2    c Gray
+106 285 2    c Gray
+ 28  58 3    c Gray
+ 49  62 2    c Gray
+243 283 2    c Gray
+105 129 2    c Gray
+126 127 4    c Gray
+ 28  61 4    c Gray
+402 473 2    c Gray
+112 113 2    c Gray
+112 273 2    c Gray
+  7  34 2    c Gray
+346 347 3    c Gray
+ 67  83 3    c Gray
+ 82 276 2    c Gray
+ 96 134 3    c Gray
+432 433 2    c Gray
+261 264 2    c Gray
+ 28  59 3    c Gray
+ 59  81 2    c Gray
+ 71  81 2    c Gray
+472 488 2    c Gray
+360 472 2    c Gray
+ 16  18 2    c Gray
+ 65  71 4    c Gray
+ 53  65 2    c Gray
+ 53  66 2    c Gray
+  3  32 3    c Gray
+ 15  32 3    c Gray
+ 15  16 2    c Gray
+111 133 3    c Gray
+ 84 335 2    c Gray
+ 65 172 2    c Gray
+ 78 172 2    c Gray
+ 53  81 3    c Gray
+253 265 2    c Gray
+ 82 176 2    c Gray
+ 96 106 2    c Gray
+ 46 185 2    c Gray
+ 18  27 2    c Gray
+112 177 2    c Gray
+376 468 2    c Gray
+376 462 2    c Gray
+372 375 2    c Gray
+ 96 100 6    c Gray
+133 290 2    c Gray
+ 89  96 3    c Gray
+449 468 2    c Gray
+ 49  71 3    c Gray
+176 515 2    c Gray
+185 242 2    c Gray
+ 68  76 2    c Gray
+ 28 218 2    c Gray
+213 515 2    c Gray
+208 213 3    c Gray
+201 207 2    c Gray
+ 53  72 2    c Gray
+121 136 2    c Gray
+111 160 2    c Gray
+160 164 2    c Gray
+248 313 2    c Gray
+296 313 2    c Gray
+ 28 230 2    c Gray
+412 432 2    c Gray
+262 323 2    c Gray
+418 422 2    c Gray
+174 422 2    c Gray
+ 19 422 2    c Gray
+174 418 2    c Gray
+ 19 174 2    c Gray
+ 76 347 2    c Gray
+ 68 347 2    c Gray
+ 44 232 2    c Gray
+ 60 232 3    c Gray
+252 292 2    c Gray
+  3  27 2    c Gray
+400 404 2    c Gray
+191 193 2    c Gray
+ 57 191 2    c Gray
+180 237 2    c Gray
+ 52 185 2    c Gray
+ 84 127 2    c Gray
+394 470 2    c Gray
+458 472 2    c Gray
+174 424 2    c Gray
+115 174 2    c Gray
+108 340 2    c Gray
+174 423 2    c Gray
+174 394 2    c Gray
+123 172 2    c Gray
+126 172 2    c Gray
+114 124 2    c Gray
+ 45  59 2    c Gray
+ 60 157 2    c Gray
+383 388 2    c Gray
+ 21 267 2    c Gray
+394 501 2    c Gray
+474 484 2    c Gray
+ 81  96 4    c Gray
+ 96 102 2    c Gray
+ 13  28 3    c Gray
+
+*Partition ATscience.clu
+% 1 - humanities and philosophy       5 - natural sciences
+% 2 - social sciences and law         6 - medical sciences
+% 3 - formal sciences                 7 - agricultural sciences
+% 4 - engineering and technology
+*Vertices 524
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+5
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+
