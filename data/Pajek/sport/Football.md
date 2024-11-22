@@ -51,9 +51,6 @@ some countries are only importers.
  Link Analysis and Visualization</A>, Dagstuhl 1-6. July 2001</li>
 </ol>
 <hr>
-<a href="../default.htm">Pajek Data</a>;
-<a href="http://vlado.fmf.uni-lj.si/pub/networks/pajek/default.htm">Pajek Home</a>
-<hr>
 21. September 2005
 </td></tr></tbody></table>
 </center>
