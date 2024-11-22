@@ -1,0 +1,80 @@
+ADVICE
+
+male       box
+female     ellipse
+
+secretary  Yellow
+audit      Green
+superv     Blue
+mgt        Red
+
+MONK
+
+old        box     Blue
+new        ellipse Red
+
+FYSTUD
+
+g:
+f          1 ellipse
+m          2 box
+
+c:
+w          1 White
+b          2 Black
+i          3 Red
+a          4 Magenta
+h          5 Green
+x          6 Yellow
+
+MITCH
+
+focal      1 Green
+husband    2 Blue
+wife       3 Red
+shelter    4 Yellow
+
+HERE3
+
+mgt        1 Red
+union      2 Blue
+non-rep    3 Green
+
+MARV
+
+HF         1 Red
+CA         2 Yellow
+MI         3 Blue
+LR         4 Green
+
+MIT
+
+org:
+European-Americ   1 White
+African-America   2 Black
+Native_American   3 Red
+Chinese           4 Yellow 
+Japanese          5 Green
+Indian            6 Magenta
+Filipino          7 Orange
+Hispanic          8 Brown
+Korean            9 Pink
+Vietnamese       10 Violet
+Missing          11 Cyan
+Other            12 Blue
+
+gen:
+Native            1 Yellow
+1st_Generation    2 Green
+2nd_Generation    3 Blue
+3rd_Generation    4 Red
+
+deg:
+US_Degree         1 ellipse
+Non-US_Degree     2 box
+Other             3 diamond
+
+edu:
+BS                1 x_fact 0.4 y_fact 0.4
+Masters           2 x_fact 0.6 y_fact 0.6
+Other             3 x_fact 0.2 y_fact 0.2

@@ -1,0 +1,32 @@
+*Vertices    14
+   1 "Manuel"    242    142     box     ic Red
+   2 "Stuart"    176    166     box     ic Blue
+   3 "Charles"   219    293     box     ic Blue
+   4 "Donna"     418    109     ellipse ic Blue
+   5 "Sharon"     30    139     ellipse ic Green
+   6 "Fred"      122     12     box     ic Green
+   7 "Bob"        68     69     box     ic Green
+   8 "Harold"    283    442     box     ic Green
+   9 "Wynn"      105    398     box     ic Green
+  10 "Carol"     197    451     ellipse ic Green
+  11 "Kathy"     450    144     ellipse ic Yellow
+  12 "Nancy"     316    201     ellipse ic Yellow
+  13 "Tanya"     461    196     ellipse ic Yellow
+  14 "Susan"     569    122     ellipse ic Yellow
+*Matrix
+0 0 0 0 0 0 0 0 0 0 0 1 0 0
+1 0 1 0 0 0 0 0 0 0 0 1 0 0
+1 1 0 0 0 0 0 0 0 0 0 1 0 0
+1 0 0 0 0 0 0 0 0 0 0 1 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 1 1 0 0 0 0 0 0 0 0
+0 0 1 0 0 0 0 0 0 0 0 0 0 0
+0 0 1 0 0 0 0 0 0 0 0 0 0 0
+0 0 1 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 1 0 0 0 0 0 0 0 1 1 0
+0 0 0 1 0 0 0 0 0 0 0 0 0 0
+0 0 0 1 0 0 0 0 0 0 1 1 0 0
+0 0 0 1 0 0 0 0 0 0 1 0 1 0
+
+

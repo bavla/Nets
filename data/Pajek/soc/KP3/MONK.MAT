@@ -1,0 +1,39 @@
+*Vertices 18  
+   1 "Romauld"      box ic Blue
+   2 "Bonaventure"  box ic Blue
+   3 "Ambrose"      box ic Blue
+   4 "Berth"        box ic Blue
+   5 "Peter"        box ic Blue
+   6 "Louis"        ellipse ic Red
+   7 "Victor"       box ic Blue
+   8 "Winfred"      ellipse ic Red
+   9 "John"         ellipse ic Red
+  10 "Greg"         ellipse ic Red
+  11 "Hugh"         ellipse ic Red
+  12 "Boni"         ellipse ic Red
+  13 "Mark"         box ic Blue
+  14 "Albert"       ellipse ic Red
+  15 "Amand"        ellipse ic Red
+  16 "Basil"        ellipse ic Red
+  17 "Elias"        ellipse ic Red
+  18 "Simp"         ellipse ic Red
+*Matrix
+ 0 0 2 0 3 0 0 0 0 0 0 0 0 1 0 0 0 0
+ 3 0 0 0 0 0 2 0 0 0 0 0 0 1 0 0 0 0
+ 2 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0
+ 0 0 0 0 3 1 0 0 0 2 0 0 0 0 0 0 0 0
+ 0 0 0 3 0 0 0 0 0 0 2 0 1 0 0 0 0 0
+ 1 0 0 3 0 0 0 0 2 0 0 0 0 0 0 0 0 0
+ 0 2 0 0 0 0 0 1 0 0 0 0 0 0 0 3 0 0
+ 3 2 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 2 0 0 3 0 0 0 0 0 0 0 1 0 0
+ 0 0 0 3 0 0 0 1 0 0 0 0 0 2 0 0 0 0
+ 0 0 0 0 3 0 0 1 0 0 0 0 0 2 0 0 0 0
+ 3 2 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0
+ 0 0 0 0 2 0 1 0 0 0 0 0 0 0 0 0 0 3
+ 3 0 0 0 0 0 0 0 0 0 1 2 0 0 2 0 0 0
+ 3 2 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0
+ 1 2 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 3 0 0 0 0 0 0 0 0 0 2 0 0 0 0 1
+ 2 3 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0
+

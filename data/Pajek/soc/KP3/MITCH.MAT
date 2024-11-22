@@ -1,0 +1,43 @@
+*Vertices 20 
+  1 "Respondent" 316 441 ic Green
+  2 "ic Blue"    382 431 ic Blue
+  3 "Mother"     442 400 ic Red
+  4 "Father"     489 353 ic Red
+  5 "Sister"     520 293 ic Red
+  6 "HFather"    530 226 ic Blue
+  7 "HMother"    520 160 ic Blue
+  8 "HSisterA"   489 100 ic Blue
+  9 "HSisterB"   442  53 ic Blue
+ 10 "HSistersB"  382  22 ic Blue
+ 11 "HSisterC"   315  12 ic Blue
+ 12 "HBrother"   249  22 ic Blue
+ 13 "HSisterD"   189  53 ic Blue
+ 14 "HSisterE"   142 100 ic Blue
+ 15 "AFriend"    111 160 ic Yellow
+ 16 "BFriend"    101 227 ic Yellow
+ 17 "CFriend"    111 293 ic Yellow
+ 18 "DFriend"    142 353 ic Yellow
+ 19 "EFriend"    189 400 ic Yellow
+ 20 "SocialWkr"  249 431 ic Yellow
+*Matrix
+0 0 3 2 1 0 0 0 0 3 0 0 0 0 3 3 1 1 1 1
+0 0 0 0 0 3 3 3 2 1 3 3 2 3 0 0 0 0 0 0
+3 0 0 3 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2 0 3 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1 0 3 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 3 0 0 0 0 3 3 3 1 3 3 2 3 0 0 0 0 0 0
+0 3 0 0 0 3 0 3 3 1 3 3 3 3 0 0 0 0 0 0
+0 3 0 0 0 3 3 0 3 1 3 3 0 3 0 0 0 0 0 0
+0 2 0 0 0 3 3 3 0 3 3 3 3 3 0 0 0 0 0 0
+3 1 0 0 0 1 1 3 3 0 1 1 1 1 0 0 0 0 0 1
+0 3 0 0 0 3 3 3 3 1 0 3 3 3 0 0 0 0 0 0
+0 3 0 0 0 3 3 3 3 1 3 0 3 3 0 0 0 0 0 0
+0 2 0 0 0 2 3 0 3 1 3 3 0 3 0 0 0 0 0 0
+0 3 0 0 0 3 3 3 3 1 3 3 3 0 0 0 0 0 0 0
+3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 2
+3 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 3 3 1 2
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 0 3 0 3
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 3 0 1 1
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 0 1
+1 0 0 0 0 0 0 0 0 1 0 0 0 0 2 2 3 1 1 0 
+
