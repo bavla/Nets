@@ -82,7 +82,7 @@ pairs (AJ - ADJ). The label A in <tt>pofs.clu</tt> was assigned the code 9.
 <li> <a href="http://www.cogsci.princeton.edu/%7Ewn/">WordNet</a></li>
 <li><a href="http://www.psych.rl.ac.uk/">
   MRC Psycholinguistic Database</a></li>
-<li>See also Pajek data: <a href="../eat/eat.md">
+<li>See also Pajek data: <a href="../EAT/eat.md">
   EAT</a> and
   <a href="../wordnet/wordnet.md">WordNet</a></li>
 </ol>
