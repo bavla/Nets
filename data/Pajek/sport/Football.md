@@ -1,5 +1,4 @@
 <html><head>
- <title>Pajek data: World Soccer Data Paris 1998</title>
  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
  <link rel=StyleSheet href="../esna/esna.css" type="text/css" title="ESNA Style" media="screen, print">
 </head>
@@ -59,3 +58,8 @@ some countries are only importers.
 </td></tr></tbody></table>
 </center>
 </body></html>
+<hr>
+
+[Pajek network data sets](../README.md);
+[Network data sets](../../README.md)
+
