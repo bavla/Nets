@@ -22,7 +22,7 @@
  <tt>yeast.clu</tt> partition of vertices.<br>
  <tt>yeast.paj</tt> Pajek project file with complete dataset.
 </p><p><b>Download</b>
-</p><p><a href="http://vlado.fmf.uni-lj.si/pub/networks/data/bio/Yeast/yeast.zip">complete dataset</a> (ZIP, 134K)
+</p><p><a href="yeast.zip">complete dataset</a> (ZIP, 134K)
 
 
 </p><p><b>Background</b>
