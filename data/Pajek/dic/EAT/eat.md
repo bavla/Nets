@@ -31,9 +31,9 @@
  </p>
 
 <p><b>Download</b>
-<p><a HREF="./eatRS.zip">EAT response-stimulus</a> (ZIP, 1321K)<br>
-<a HREF="./eatSR.zip">EAT stimulus-response</a> (ZIP, 1306K)<br>
-<a HREF="./EATnew.zip">EAT stimulus-response NEW</a> (ZIP, 1043K)
+<p><a HREF="https://github.com/bavla/Nets/raw/refs/heads/master/data/Pajek/dic/EAT/eatRS.zip">EAT response-stimulus</a> (ZIP, 1321K)<br>
+<a HREF="https://github.com/bavla/Nets/raw/refs/heads/master/data/Pajek/dic/EAT/eatSR.zip">EAT stimulus-response</a> (ZIP, 1306K)<br>
+<a HREF="https://github.com/bavla/Nets/raw/refs/heads/master/data/Pajek/dic/EAT/EATnew.zip">EAT stimulus-response NEW</a> (ZIP, 1043K)
 
 <h3>Background</h3>
 <p>The Edinburgh Associative Thesaurus (EAT) is a set
