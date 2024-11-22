@@ -21,12 +21,12 @@
  <code>odlis.net</code> directed network with 2909 vertices and 18419 arcs
                     (5 loops).
 <p><b>Download</b>
-<p><a HREF="./odlis.zip">odlis.net</a> (ZIP, 62K)
+<p><a HREF="./Odlis.zip">odlis.net</a> (ZIP, 62K)
 
 <h3>Background</h3>
 <p>The network <tt>Odlis.net</tt> is based on the
 <tt>ODLIS</tt>:
-<a href="./odlis.pdf"><i>Online Dictionary of Library and Information Science</i></a>.
+<a href="./Odlis.pdf"><i>Online Dictionary of Library and Information Science</i></a>.
  version December 2000.
 </p>
 <p>
