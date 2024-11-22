@@ -18,7 +18,7 @@
   author X wrote a joint work with author Y; value is the number of joint works.
 
 <p><b>Download</b>
-<p><a HREF="./Geom.zip">Geom.net</a> (ZIP, 139K)
+<p><a HREF="./geom.zip">Geom.net</a> (ZIP, 139K)
 
 <p><b>Background</b>
 <p>The network <code>Geom.net</code> is based on the file
