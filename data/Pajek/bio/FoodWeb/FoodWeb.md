@@ -71,8 +71,8 @@
 </p>
 <p>
 Complete datasets:
-<a href="http://vlado.fmf.uni-lj.si/pub/networks/data/bio/FoodWeb/Webs_paj.zip">Food-webs</a> (ZIP, 55K),
-<a href="http://vlado.fmf.uni-lj.si/pub/networks/data/bio/FoodWeb/ATLSS_paj.zip">ATLSS</a> (ZIP, 90K)
+<a href="Webs_paj.zip">Food-webs</a> (ZIP, 55K),
+<a href="ATLSS_paj.zip">ATLSS</a> (ZIP, 90K)
 
 
 </p><p><b>Background</b>
