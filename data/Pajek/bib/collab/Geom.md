@@ -1,14 +1,14 @@
-<html>
-<head>
-  <title>Pajek data: Collaboration in computational geometry</title>
-  <meta HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=UTF-8">
+<html>
+<head>
+  <meta HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=UTF-8">
   <link rel=StyleSheet href="../esna/esna.css" type="text/css" title="ESNA Style" media="screen, print">
-</head>
-<body bgcolor=darkgreen>
-<center>
-<table width=650 bgcolor=lightyellow cellpadding=10 border=0 bordercolor=brown><tr><td>
-<h1><img src=../pajek.gif width=100>Pajek datasets</h1>
-<hr>
+</head>
+<body bgcolor=darkgreen>
+<center>
+<table width=650 bgcolor=lightyellow cellpadding=10 border=0 bordercolor=brown><tr><td>
+<h1><img src=../pajek.gif width=100>Pajek datasets</h1>
+<hr>
+
 <h2> Geom<br>Collaboration network in computational geometry</h2>
 
 <p><b>Dataset</b> &nbsp; <code>Geom</code>
@@ -95,5 +95,14 @@ It is a sparse network - its average degree is 2m/n = 3.24.
     <a href="ftp://ftp.cs.usask.ca/pub/geometry/">FTP</a> /
     <a href="http://compgeom.cs.uiuc.edu/~jeffe/compgeom/biblios.html">HTTP</a></li>
 </ol>
-<hr><a href="../default.htm">Pajek Data</a>;<a href="http://vlado.fmf.uni-lj.si/pub/networks/pajek/default.htm">Pajek Home</a><hr>27. January 2004
-</td></tr></table></center></body></html>
+<hr>
+27. January 2004
+</td></tr></table>
+</center>
+</body>
+</html>
+<hr>
+
+[Pajek network data sets](../../README.md);
+[Network data sets](../../../README.md)
+
