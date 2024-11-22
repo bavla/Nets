@@ -25,7 +25,7 @@
 <tt>DisCalSn.net </tt> - network with 11 vertices and 41 arcs<br>
 <tt>Tina.paj</tt> - Pajek project file with complete dataset.
 </p><p><b>Download</b>
-</p><p><a href="./Tina.zip">complete dataset</a> (ZIP, 3K)<br>
+</p><p><a href="https://github.com/bavla/Nets/raw/refs/heads/master/data/Pajek/soc/Tina/Tina.zip">complete dataset</a> (ZIP, 3K)<br>
   <a href="./DisCalSn.net"><code>DisCalSn.net </code></a>
 
 </p>
