@@ -26,7 +26,7 @@ When publishing results obtained using this data set the original authors should
 |[Football](./sport/Football.md) |  35 |  0 |  118 | sport, valued |
 |[Slovene parties 1994](./soc/Samo/Stranke94.md) |   10 |  0 |  90 | sociology, valued signed |
 |[US presidents](./ged/PRESDNTS.GED) |  ?  |  0 |   ?  | genealogy |
-|[Turkish nomads](./ged/P-Tur.GED) |  ?  |  0 |  ?  | genealogy |
+|[Turkish nomads](./ged/P-TUR.GED) |  ?  |  0 |  ?  | genealogy |
 |[CS phd](./ged/CSphd.ZIP) |  1882 |  ?  |  0 | genealogy |
 |[US Air lines](http://vlado.fmf.uni-lj.si/pub/networks/data/mix/USAir97.net) |    332 |       0 |  ?  | transport |
 |[Cities and services](https://github.com/bavla/Nets/raw/refs/heads/master/data/Pajek/2mode/cities.zip) |  101/55 |      0 |  ?  | valued, 2-mode data|
