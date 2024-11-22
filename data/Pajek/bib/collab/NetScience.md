@@ -17,7 +17,7 @@
   author X wrote a joint work with author Y; value is the MEJ Newman weight.
 
 <p><b>Download</b>
-<p><a HREF="./NetScience.zip">NetScience.net</a> (ZIP, 24K)
+<p><a HREF="./netscience.zip">NetScience.net</a> (ZIP, 24K)
 
 <p><b>Background</b>
 <p>Downloaded from M.E.J. Newman's
