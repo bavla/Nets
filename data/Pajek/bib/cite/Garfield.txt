@@ -1,0 +1,80 @@
+Return-path: <Garfield@codex.cis.upenn.edu>
+Received: from mx2.isigateway.com ("port 36260"@[199.4.154.3])
+ by Uni-Lj.si (PMDF V5.2-32 #41715) with SMTP id <01KLZV1R6N4I000H98@Uni-Lj.si>
+ for vlado@Uni-Lj.si (ORCPT rfc822;vladimir.batagelj@Uni-Lj.si); Sun,
+ 1 Sep 2002 18:17:11 CET
+Received: (qmail 15759 invoked from network); Sun, 01 Sep 2002 16:26:22 +0000
+Received: from unknown (HELO galahad.isinet.com) (199.4.155.10)
+ by mx2.isigateway.com with SMTP; Sun, 01 Sep 2002 16:26:22 +0000
+Received: (qmail 18965 invoked from network); Sun, 01 Sep 2002 15:10:57 +0000
+Received: from isi-mail.isinet.com (198.62.99.181) by galahad.isinet.com with
+ SMTP; Sun, 01 Sep 2002 15:10:57 +0000
+Received: by ISI-MAIL.isinet.com with Internet Mail Service (5.5.2653.19)
+ id <P08R2WNA>; Sun, 01 Sep 2002 12:18:52 -0400
+Date: Sun, 01 Sep 2002 12:18:42 -0400
+From: "Garfield, Eugene" <Garfield@codex.cis.upenn.edu>
+Subject: RE: Small world citation network
+To: "'vladimir.batagelj@Uni-Lj.si'" <vladimir.batagelj@Uni-Lj.si>
+Cc: 'sasha pudovkin' <aipud@online.ru>
+Message-id: <545FBF6566286E45A9573ED3C4E4EFE606FB0624@ISI-MAIL.isinet.com>
+MIME-version: 1.0
+X-Mailer: Internet Mail Service (5.5.2653.19)
+Content-type: text/plain;	charset="iso-8859-1"
+Original-recipient: rfc822;vladimir.batagelj@Uni-Lj.si
+X-PMFLAGS: 35127424 0 1 P5E3B0.CNM
+
+This all looks very good, but I would ask you to later, in November, add a
+reference to our paper at ASIST meeting In Philadelphia. I can send you a
+URL once the Proceedings are printed. They are distributed to all
+participants at the meeting. Have you ever attended an ASIST meeting?
+
+I have not yet heard from my co-author about your paper. We have completed
+programming for a new version of HistCite which includes graphing
+capabilities. We still need to do further testing. Please be patient. We
+have a long holiday weekend now in USA. Where will you publish your paper?
+EG
+
+
+Eugene Garfield, PhD. email garfield@codex.cis.upenn.edu
+tel 215-243-2205   fax 215-387-1266
+President, The Scientist   www.the-scientist.com
+Chairman Emeritus, ISI  www.isinet.com
+home page: www.eugenegarfield.org
+Past President, American Society for Information Science and Technology
+(ASIS&T)  www.asis.org
+
+
+
+
+
+-----Original Message-----
+From: vladimir.batagelj@Uni-Lj.si [mailto:vladimir.batagelj@Uni-Lj.si]
+Sent: Sunday, September 01, 2002 9:32 AM
+To: Garfield, Eugene
+Subject: RE: Small world citation network
+
+
+Thank you very much for quick response and many useful
+suggestions.
+As you can see in the attached new version of the paper
+I considered all of them.
+If you agree, I would make publicly available the selected
+networks also in Pajek's format as prepared at
+  http://vlado.fmf.uni-lj.si/pub/networks/data/cite/
+There was some (nontrivial for social scientists) work to
+transform HistCite tables into PAJ files. I think that this can
+contribute to increase the interest for citation network analysis.
+
+I am attaching also another paper of us that may be interesting
+for you.
+
+best regards,   Vladimir Batagelj
+
+--------------------------------------------------------------------
+Vladimir Batagelj, University of Ljubljana, Department of Mathematics
+  Jadranska 19, 1000 Ljubljana, Slovenia
+
+tel:  +386 (0)1 4766 672          e-mail: vladimir.batagelj@uni-lj.si
+fax:  +386 (0)1 4766 685          WWW:    http://vlado.fmf.uni-lj.si/
+
+
