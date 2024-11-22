@@ -1,14 +1,16 @@
-<html>
-<head>
-  <title>Pajek data: WordNet</title>
-  <meta HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=UTF-8">
+<html>
+<head>
+  <meta HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=UTF-8">
   <link rel=StyleSheet href="../../esna/esna.css" type="text/css" title="ESNA Style" media="screen, print">
-</head>
-<body bgcolor=darkgreen>
-<center>
-<table width=650 bgcolor=lightyellow cellpadding=10 border=0 bordercolor=brown><tr><td>
-<h1><img src=../../pajek.gif width=100>Pajek datasets</h1>
-<hr>
+</head>
+
+<body bgcolor=darkgreen>
+<center>
+<table width=650 bgcolor=lightyellow cellpadding=10 border=0 bordercolor=brown><tr><td>
+<h1><img src=../../pajek.gif width=100>Pajek datasets</h1>
+
+<hr>
+
 <h2> WordNet</h2>
 
 <p><b>Dataset</b> &nbsp; <code>WordNet 1.7.1</code>
@@ -69,5 +71,14 @@
 <ol>
 <li>
 </ol>
-<hr><a href="../../default.htm">Pajek Data</a>;<a href="http://vlado.fmf.uni-lj.si/pub/networks/pajek/default.htm">Pajek Home</a><hr>22. November 2004
-</td></tr></table></center></body></html>
+<hr>
+22. November 2004
+</td></tr></table>
+</center>
+</body>
+</html>
+<hr>
+
+[Pajek network data sets](../../README.md);
+[Network data sets](../../../README.md)
+
