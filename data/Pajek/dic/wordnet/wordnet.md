@@ -19,7 +19,7 @@
  <tt>WordNet.net</tt> directed multirelational network with 82670  vertices and
      133445 arcs; word X is related to word Y.
 <p><b>Download</b>
-<p><a HREF="./wordNet.zip">WordNet.net</a> (ZIP, 17K)
+<p><a HREF="./WordNet.zip">WordNet.net</a> (ZIP, 17K)
 
 <p><b>Background</b>
 <p><a HREF="./5papers.pdf">5 papers</a> /
