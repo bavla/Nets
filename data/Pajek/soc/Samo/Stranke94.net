@@ -1,0 +1,39 @@
+*Network Stranke94
+% Samo Kropivnik and Andrej Mrvar:
+%   An Analysis of the Slovene Parliamentary Parties Network.
+%   Developments in Statistics and Methodology. (A. Ferligoj, A. Kramberger, eds)
+%   Metodolo"ski zvezki 12, FDV, Ljubljana, 1996, p. 209-216.
+% SKD - Slovene Christian Democrats;
+% ZLSD - Associated List of Social Democrats;
+% SDSS - Social Democratic Party of Slovenia;
+% LDS - Liberal Democratic Party;
+% ZS-ESS - first of two Green Parties, separated after 1992 elections;
+% ZS - second Green Party;
+% DS - Democratic Party;
+% SLS - Slovene People's Party;
+% SPS SNS - a group of deputies, former members of SNS, separated after 1992 elections
+% SNS - Slovene National Party;
+% ------------------------------------
+*Vertices 10
+1 SKD     0.3 0.1
+2 ZLSD    0.7 0.1
+3 SDSS    0.2 0.3
+4 LDS     0.8 0.3
+5 ZS-ESS  0.9 0.5
+6 ZS      0.1 0.5
+7 DS      0.8 0.7
+8 SLS     0.2 0.7
+9 SPS     0.3 0.9
+10 SNS    0.5 0.5
+*Matrix
+   0 -215  114  -89  -77   94 -170  176  117 -210
+-215    0 -217  134   77 -150   57 -253 -230   49
+ 114 -217    0 -203  -80  138 -109  177  180 -174
+ -89  134 -203    0  157 -142  173 -241 -254   23
+ -77   77  -80  157    0 -188  170 -120 -160   -9
+  94 -150  138 -142 -188    0  -97  140  116 -106
+-170   57 -109  173  170  -97    0 -184 -191   -6
+ 176 -253  177 -241 -120  140 -184    0  235 -132
+ 117 -230  180 -254 -160  116 -191  235    0 -164
+-210   49 -174   23   -9 -106   -6 -132 -164    0
+
