@@ -1,6 +1,5 @@
 <html>
 <head>
-  <title>Pajek data: EVA</title>
   <meta HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=UTF-8">
   <link rel=StyleSheet href="../../esna/esna.css" type="text/css" title="ESNA Style" media="screen, print">
 </head>
@@ -22,7 +21,7 @@
 <p>
  <code>EVA.net</code> directed network with 8343 vertices and 6726 arcs.
 <p><b>Download</b>
-<p><a HREF="./EVA.zip">EVA.net</a> (ZIP, 204K); included also original files
+<p><a HREF="./eva.zip">EVA.net</a> (ZIP, 204K); included also original files
 <code>names.txt</code> and <code>ownership.txt</code>.
 
 <h3>Background</h3>
