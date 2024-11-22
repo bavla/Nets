@@ -40,7 +40,7 @@ When publishing results obtained using this data set the original authors should
 |[HEP / KDD Cup 2003](http://vlado.fmf.uni-lj.si/pub/networks/data/hep-th/hep-th.htm) |  27770 |  352807 |      0 | citation |
 |[US patents](http://vlado.fmf.uni-lj.si/pub/networks/data/patents/Patents.htm) |  37774768 |      0 |  16522438 | citation |
 |[EVA](http://vlado.fmf.uni-lj.si/pub/networks/data/econ/Eva/Eva.htm) |  8343 |      0 |  6726 | ownership|
-|[Graph and Digraph Glossary](http://vlado.fmf.uni-lj.si/pub/networks/data/DIC/TG/glossTG.htm) |      72 |      0 |    122 | dictionary |
+|[Graph and Digraph Glossary](./dic/TG/glossTG.md) |      72 |      0 |    122 | dictionary |
 |[Erdos](http://vlado.fmf.uni-lj.si/pub/networks/data/Erdos/Erdos02.net) |   6927 |  11850 |      0 | collaboration |
 |[The Edinburgh Associative Thesaurus](./dic/EAT/eat.md) |   23219 |      0 |  325624 | dictionary |
 |[ODLIS](./dic/odlis/Odlis.md) |   2909 |      0 |  18419 | dictionary |
