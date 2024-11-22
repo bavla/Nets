@@ -1,5 +1,4 @@
 <html><head>
- <title>Pajek data: Slovenian magazines and journals 1999 and 2000</title>
  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
  <link rel=StyleSheet href="../esna/esna.css" type="text/css" title="ESNA Style" media="screen, print">
 </head>
@@ -74,10 +73,11 @@ containing large cliques (readers of particular journal).
  Link Analysis and Visualization</A>, Dagstuhl 1-6. July 2001</li>
 </ol>
 <hr>
-<a href="../default.htm">Pajek Data</a>;
-<a href="http://vlado.fmf.uni-lj.si/pub/networks/pajek/default.htm">Pajek Home</a>
-<hr>
 21. December 2003
 </td></tr></tbody></table>
 </center>
 </body></html>
+<hr>
+
+[Pajek network data sets](../README.md);
+[Network data sets](../../README.md)
