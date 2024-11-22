@@ -38,11 +38,11 @@
  <code>BalkanMonths.net</code> directed multirelational temporal network with 325 vertices and 78667 arcs.
   From Balkan event data, granularity is 1 month.
 <p><b>Download</b>
-<p><a HREF="./GulfLDays.zip">GulfLDays.net</a> (ZIP, 239K) <br>
-   <a HREF="./GulfLMonths.zip">GulfLMonths.net</a> (ZIP, 197K) <br>
-   <a HREF="./GulfLDow.zip">GulfLDow.net</a> (ZIP, 213K) <br>
-   <a HREF="./GulfADays.zip">GulfADays.net</a> (ZIP, 1078K) <br>
-   <a HREF="./GulfAMonths.zip">GulfAMonths.net</a> (ZIP, 941K) <br>
+<p><a HREF="./gulfLDays.zip">GulfLDays.net</a> (ZIP, 239K) <br>
+   <a HREF="./gulfLMonths.zip">GulfLMonths.net</a> (ZIP, 197K) <br>
+   <a HREF="./gulfLDow.zip">GulfLDow.net</a> (ZIP, 213K) <br>
+   <a HREF="./gulfADays.zip">GulfADays.net</a> (ZIP, 1078K) <br>
+   <a HREF="./gulfAMonths.zip">GulfAMonths.net</a> (ZIP, 941K) <br>
    <a HREF="./LevantDays.zip">LevantDays.net</a> (ZIP, 855K) <br>
    <a HREF="./LevantMonths.zip">LevantMonths.net</a> (ZIP, 735K) <br>
    <a HREF="./BalkanDays.zip">BalkanDays.net</a> (ZIP, 335K) <br>
