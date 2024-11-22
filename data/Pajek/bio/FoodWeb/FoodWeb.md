@@ -1,16 +1,7 @@
 <html><head>
- <title>Pajek data: Food Webs</title>
  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
  <link rel=StyleSheet href="./esna.css" type="text/css" title="ESNA Style" media="screen, print">
  <link rel=StyleSheet href="../../esna/esna.css" type="text/css" title="ESNA Style" media="screen, print">
- <style>
- .secondarydrop {
-  font-family: arial,helvetica, sans-serif;
-  font-size: 1em;
-  font-weight: bold;
-  color: #666666;
- }
- </style>
 </head>
 <body bgcolor="darkgreen">
 
@@ -307,10 +298,11 @@ Local trophodynamics and the interaction of marine mammals and fisheries in the 
 </li -->
 </ol>
 <hr>
-<a href="http://vlado.fmf.uni-lj.si/pub/networks/data/default.htm">Pajek Data</a>;
-<a href="http://vlado.fmf.uni-lj.si/pub/networks/pajek/default.htm">Pajek Home</a>
-<hr>
 13. June 2004
 </td></tr></tbody></table>
 </center>
 </body></html>
+<hr>
+
+[Pajek network data sets](../../README.md);
+[Network data sets](../../../README.md)
