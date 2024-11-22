@@ -52,7 +52,7 @@ When publishing results obtained using this data set the original authors should
 |[Graph Drawing Contests](http://vlado.fmf.uni-lj.si/pub/networks/data/GD/GD.htm) |  *  |  *  |  *  | collection |
 |[GD'99 - Linden strasse](http://vlado.fmf.uni-lj.si/pub/networks/data/GD/a99m.zip) |  234 |   278 |    48 | literature, multi, temporal|
 |[GD'01<br>GD proceedings self-citing](http://vlado.fmf.uni-lj.si/pub/networks/data/GD/a01.zip) |  311 |      0 |   645 | citation|
-|[KEDS](http://vlado.fmf.uni-lj.si/pub/networks/data/KEDS/KEDS.htm) |    *  |    *  |    *  | activity, multi, temporal|
+|[KEDS](./keds/KEDS.md) |    *  |    *  |    *  | activity, multi, temporal|
 |[Notre Dame WWW](http://vlado.fmf.uni-lj.si/pub/networks/data/ND/NDnets.htm) |  325729 |      0 |  1497135 | internet|
 |[Notre Dame actors](http://vlado.fmf.uni-lj.si/pub/networks/data/ND/NDnets.htm) |  520223 |  1470418 |  0 | 2-mode|
 |[European projects on simulation](https://github.com/bavla/Nets/blob/master/data/Pajek/SimPro.zip) |  *  |  *  |  *  | 2-mode|
