@@ -21,7 +21,7 @@ When publishing results obtained using this data set the original authors should
 
 | network  | n  | m<sub>E</sub> | m<sub>A</sub> | description |
 | ------------------- | ------ | ------- | -------- | ------------------------- |
-|[Yeast](http://vlado.fmf.uni-lj.si/pub/networks/data/bio/Yeast/Yeast.htm) |  2361 | 7182 | 0  | biology,<br>protein interactions |
+|[Yeast](./bio/Yeast/Yeast.md) |  2361 | 7182 | 0  | biology,<br>protein interactions |
 |[Tina](http://vlado.fmf.uni-lj.si/pub/networks/data/soc/Tina/Tina.htm) |  11 |  0 |  29-48 | sociology, (6 relations),<br>measurements |
 |[Football](http://vlado.fmf.uni-lj.si/pub/networks/data/sport/football.htm) |  35 |  0 |  118 | sport, valued |
 |[Slovene parties 1994](http://vlado.fmf.uni-lj.si/pub/networks/data/soc/Samo/Stranke94.htm) |   10 |  0 |  90 | sociology, valued signed |
@@ -59,7 +59,7 @@ When publishing results obtained using this data set the original authors should
 |[Citation networks](http://vlado.fmf.uni-lj.si/pub/networks/data/cite/default.htm) |   *  |   *  |   *  | citation / collection|
 |[Networks from<br>Exploratory Network Analysis with Pajek](./esna/README.md) |  *  |   *  |   *  | collection|
 |[Networks from Generalized Blockmodeling](http://vlado.fmf.uni-lj.si/pub/networks/data/GBM/default.htm) |   *  |   *  |   *  | collection|
-|[Food-webs](http://vlado.fmf.uni-lj.si/pub/networks/data/bio/foodweb/foodweb.htm) |  *  |  *  |   *  | collection |
+|[Food-webs](./bio/FoodWeb/FoodWeb.md) |  *  |  *  |   *  | collection |
 |[UCINET IV datasets](./ucinet/README.md) |      *  |      *  |      *  | collection|
 |[Wasserman and Faust datasets](http://vlado.fmf.uni-lj.si/pub/networks/data/WaFa/default.htm) |      *  |      *  |      *  | collection |
 |[Mixed networks](http://vlado.fmf.uni-lj.si/pub/networks/data/mix/mixed.htm) |      *  |      *  |      *  | collection |
