@@ -16,7 +16,7 @@
  <tt>roget.net</tt> directed network with 1022 vertices and 5075 arcs (1 loop);
       word X is related to word Y.
 <p><b>Download</b>
-<p><a HREF="./ROGET.ZIP">Roget.net</a> (ZIP, 17K)
+<p><a HREF="https://github.com/bavla/Nets/raw/refs/heads/master/data/Pajek/dic/Roget/ROGET.ZIP">Roget.net</a> (ZIP, 17K)
 
 <p><b>Background</b>
 <p>The network <code>Roget.net</code> is based on the file
