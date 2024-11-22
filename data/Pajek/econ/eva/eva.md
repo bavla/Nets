@@ -21,7 +21,7 @@
 <p>
  <code>EVA.net</code> directed network with 8343 vertices and 6726 arcs.
 <p><b>Download</b>
-<p><a HREF="./eva.zip">EVA.net</a> (ZIP, 204K); included also original files
+<p><a HREF="https://github.com/bavla/Nets/raw/refs/heads/master/data/Pajek/econ/eva/eva.zip">EVA.net</a> (ZIP, 204K); included also original files
 <code>names.txt</code> and <code>ownership.txt</code>.
 
 <h3>Background</h3>
@@ -98,11 +98,13 @@ If you have any questions, please contact:
 </ol>
 
 <hr>
-<a href="../../default.htm">Pajek Data</a>;
-<a href="http://vlado.fmf.uni-lj.si/pub/networks/pajek/default.htm">Pajek Home</a>
-<hr>
 6. March 2004
 </td></tr></table>
 </center>
 </body>
 </html>
+<hr>
+
+[Pajek network data sets](../../README.md);
+[Network data sets](../../../README.md)
+
