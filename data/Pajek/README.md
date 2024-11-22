@@ -46,7 +46,7 @@ When publishing results obtained using this data set the original authors should
 |[ODLIS](./dic/odlis/Odlis.md) |   2909 |      0 |  18419 | dictionary |
 |[FOLDOC](./dic/foldoc/Foldoc.md) |  13356 |      0 |  120238 | dictionary |
 |[Words 2-8](https://github.com/bavla/Nets/raw/refs/heads/master/data/Pajek/dic/knuth/DIC28.ZIP) |  ?  |      0 |   ?  | close words |
-|[Roget](./dic/Roget/Roget.htm) |   1022 |      0 |   5075 | dictionary |
+|[Roget](./dic/Roget/Roget.md) |   1022 |      0 |   5075 | dictionary |
 |[Wordnet](./dic/wordnet/wordnet.md) |  82670 |      0 |  133445 | dictionary, multi |
 |[USF Word Association,<br>Rhyme and Word Fragment Norms](./dic/FA/FreeAssoc.md) |  10617 |      0 |  72176 | dictionary |
 |[Graph Drawing Contests](http://vlado.fmf.uni-lj.si/pub/networks/data/GD/GD.htm) |  *  |  *  |  *  | collection |
