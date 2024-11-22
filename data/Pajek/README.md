@@ -14,7 +14,7 @@ If the source of the data set is not specified otherwise, these data sets are li
 [Creative Commons Attribution-NonCommercial-ShareAlike 2.5 License](http://creativecommons.org/licenses/by-nc-sa/2.5/).
 
 When publishing results obtained using this data set the original authors should be cited.  In addition, this collection should be cited as:
-  * Vladimir Batagelj  and Andrej Mrvar (2003): Pajek data sets.<br> ''<URL: [https://github.com/bavla/Nets/tree/master/data/Pajek](https://github.com/bavla/Nets/tree/master/data/Pajek)>''.
+  * Vladimir Batagelj  and Andrej Mrvar (2003): Pajek data sets.<br> <URL: [https://github.com/bavla/Nets/tree/master/data/Pajek](https://github.com/bavla/Nets/tree/master/data/Pajek)>.
 
 ## Networks 
 
