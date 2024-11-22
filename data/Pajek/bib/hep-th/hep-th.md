@@ -20,7 +20,7 @@
  <tt>date-new.vec</tt> integer vector on 27770 vertices.<br>
  <tt>year-new.vec</tt> integer vector on 27770 vertices.
 <p><b>Download</b>
-<p><A HREF="./hep-th.zip">complete dataset</A> (ZIP, 2607K)
+<p><A HREF="https://github.com/bavla/Nets/raw/refs/heads/master/data/Pajek/bib/hep-th/hep-th.zip">complete dataset</A> (ZIP, 2607K)
 
 <p><b>Background</b>
 Citation data from KDD Cup 2003, a knowledge discovery and data mining
