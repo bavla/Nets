@@ -25,10 +25,10 @@ be published in the symposium proceedings.
 <h3> How to Enter the Competition </h3>
 Graphs A, B, C, and D are available via the following links:
 <UL>
-<LI>  <A HREF="./A96.gph">Graph A</A>
-<LI>  <A HREF="./B96.gph">Graph B</A>
-<LI>  <A HREF="./C96.gph">Graph C</A>
-<LI>  <A HREF="./D96.gph">Graph D</A>
+<LI>  <A HREF="./A96.GPH">Graph A</A>
+<LI>  <A HREF="./B96.GPH">Graph B</A>
+<LI>  <A HREF="./C96.GPH">Graph C</A>
+<LI>  <A HREF="./D96.GPH">Graph D</A>
 </UL>
 Graph A represents a finite automaton used in
 a natural-language processing system.  Separate prizes will
