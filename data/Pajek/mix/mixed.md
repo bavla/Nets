@@ -8,7 +8,7 @@
 <table width="650" bgcolor="lightyellow" cellpadding="10" border="0" bordercolor="brown"><tbody><tr><td>
 
 <table><tr><td>
-<img src="../pajek.gif" width="100"> &nbsp; &nbsp;</td><td><h1>Pajek datasets from</h1><br><h2><font color=Navy>different sources</font></h2>
+<img src="../pajek.gif" width="100"> &nbsp; &nbsp;</td><td><h1>Pajek datasets from</h1><h2><font color=Navy>different sources</font></h2>
  </td></tr></table>
 
 
