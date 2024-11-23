@@ -3,8 +3,8 @@
 
 # <img src="pajek.gif" width=100>   Old Pajek Data Sets 
 
-  * [Network data sets](https://github.com/bavla/Nets/tree/master/data)
-  * [Original version of Pajek Data Sets](http://vlado.fmf.uni-lj.si/pub/networks/data/default.htm) 
+[Network data sets](https://github.com/bavla/Nets/tree/master/data/README.md);
+[Original version of Pajek Data Sets](http://vlado.fmf.uni-lj.si/pub/networks/data/default.htm) 
 
 
 ## Licenses and Citation 
