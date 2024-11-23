@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<graphml
+  xmlns="http://graphml.graphdrawing.org/xmlns/1.0rc"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+
+  xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns/1.0rc
+                      graphml-structure.xsd
+
+                      http://graphml.graphdrawing.org/xmlns/1.0rc
+                      graphml-attributes.xsd"
+>
+
+  <!-- ****************** CONTENTS ************************** -->
+
+  <desc>
+    This document contains one of two graphs provided for 
+    the 2003 Graph Drawing Contest.  
+
+    It is a small social network, in which nodes represent organizations 
+    involved in drug policy making, and edges represent (undirected) informal 
+    communication between members of different organizations.  Due to the 
+    nature of the data, there is uncertainty about the existence of a relation.
+    Confirmed relations, i.e. those that exist for sure, are regarded more 
+    important than others.
+
+    The state of an edge is marked by a boolean attribute.
+
+    A visualization of this network should clearly depict the structure
+    of the overall network, of the subnetwork consisting only of confirmed
+    relations, and the way in which the latter is embedded in the former.
+
+    Data courtesy of Patrick Kenis, Tilburg University, The Netherlands.
+  </desc>
+
+  <!-- *************** DATA ACCESS KEYS ********************** -->
+
+  <key id="k0" for="edge" attr.name="important" attr.type="boolean">
+    <desc>
+      Boolean edge attribute indicating whether an edge is confirmed
+      and therefore part of the more important subnetwork.  Default
+      value is false.
+    </desc>
+    <default>false</default>
+  </key>
+
+  <!-- ******************** GRAPH **************************** -->
+
+  <graph edgedefault="undirected">
+    <node id="n1" />
+    <node id="n2" />
+    <node id="n3" />
+    <node id="n4" />
+    <node id="n5" />
+    <node id="n6" />
+    <node id="n7" />
+    <node id="n8" />
+    <node id="n9" />
+    <node id="n10" />
+    <node id="n11" />
+    <node id="n12" />
+    <node id="n13" />
+    <node id="n14" />
+    <node id="n15" />
+    <node id="n16" />
+    <node id="n17" />
+    <node id="n18" />
+    <node id="n19" />
+    <node id="n20" />
+    <node id="n21" />
+    <node id="n22" />
+    <node id="n23" />
+    <node id="n24" />
+    <node id="n25" />
+    <node id="n26" />
+    <edge source="n9" target="n24" />
+    <edge source="n10" target="n20"><data key="k0">true</data></edge>
+    <edge source="n11" target="n25"><data key="k0">true</data></edge>
+    <edge source="n12" target="n21"><data key="k0">true</data></edge>
+    <edge source="n13" target="n26" />
+    <edge source="n13" target="n22" />
+    <edge source="n13" target="n18" />
+    <edge source="n13" target="n12" />
+    <edge source="n13" target="n24" />
+    <edge source="n16" target="n21" />
+    <edge source="n16" target="n22"><data key="k0">true</data></edge>
+    <edge source="n17" target="n10" />
+    <edge source="n17" target="n4" />
+    <edge source="n17" target="n9" />
+    <edge source="n17" target="n8" />
+    <edge source="n18" target="n12" />
+    <edge source="n18" target="n10" />
+    <edge source="n18" target="n21" />
+    <edge source="n18" target="n5" />
+    <edge source="n18" target="n26"><data key="k0">true</data></edge>
+    <edge source="n19" target="n16" />
+    <edge source="n19" target="n15" />
+    <edge source="n19" target="n23"><data key="k0">true</data></edge>
+    <edge source="n20" target="n21" />
+    <edge source="n20" target="n18" />
+    <edge source="n20" target="n7" />
+    <edge source="n20" target="n14" />
+    <edge source="n20" target="n15" />
+    <edge source="n21" target="n11" />
+    <edge source="n21" target="n14" />
+    <edge source="n22" target="n21" />
+    <edge source="n22" target="n14" />
+    <edge source="n22" target="n15" />
+    <edge source="n22" target="n19"><data key="k0">true</data></edge>
+    <edge source="n23" target="n10" />
+    <edge source="n23" target="n6" />
+    <edge source="n23" target="n3" />
+    <edge source="n23" target="n7" />
+    <edge source="n23" target="n5" />
+    <edge source="n23" target="n14" />
+    <edge source="n23" target="n15" />
+    <edge source="n24" target="n26" />
+    <edge source="n24" target="n23"><data key="k0">true</data></edge>
+    <edge source="n24" target="n19"><data key="k0">true</data></edge>
+    <edge source="n24" target="n22"><data key="k0">true</data></edge>
+    <edge source="n24" target="n16"><data key="k0">true</data></edge>
+    <edge source="n25" target="n2" />
+    <edge source="n25" target="n21" />
+    <edge source="n25" target="n20" />
+    <edge source="n25" target="n9" />
+    <edge source="n25" target="n6" />
+    <edge source="n25" target="n8" />
+    <edge source="n25" target="n15" />
+    <edge source="n25" target="n17"><data key="k0">true</data></edge>
+    <edge source="n26" target="n12" />
+    <edge source="n26" target="n21" />
+    <edge source="n26" target="n15" />
+    <edge source="n26" target="n14" />
+    <edge source="n26" target="n8" />
+    <edge source="n26" target="n9" />
+    <edge source="n26" target="n17" />
+    <edge source="n26" target="n25" />
+    <edge source="n26" target="n20"><data key="k0">true</data></edge>
+    <edge source="n26" target="n11"><data key="k0">true</data></edge>
+  </graph>
+
+</graphml>

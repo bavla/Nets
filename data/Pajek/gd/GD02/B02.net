@@ -1,0 +1,315 @@
+*Vertices      80
+       1 "9709"                                   0.3129    0.3824    0.5000 ellipse ic White bc  Black  x_fact 1 
+       2 "9712"                                   0.3445    0.3964    0.5000
+       3 "9715"                                   0.2923    0.4622    0.5000 ellipse ic Cyan bc Blue x_fact 2.0
+       4 "9718"                                   0.3758    0.4571    0.5000 ellipse ic Red bc  Black  x_fact 1 
+       5 "9721"                                   0.3280    0.4797    0.5000 ellipse ic Cyan bc  Black  x_fact 2.0
+       6 "9724"                                   0.3002    0.5490    0.5000
+       7 "9727"                                   0.3003    0.6403    0.5000 ellipse ic Red bc  Black  x_fact 1 
+       8 "9730"                                   0.2366    0.7080    0.5000 ellipse ic Cyan bc Cyan x_fact 1 
+       9 "9733"                                   0.2316    0.7838    0.5000
+      10 "9736"                                   0.2672    0.7121    0.5000
+      11 "9739"                                   0.3244    0.6465    0.5000 ellipse ic Red bc  Black  x_fact 1 
+      12 "9742"                                   0.2220    0.6612    0.5000 ellipse ic White bc  Black  x_fact 1 
+      13 "9745"                                   0.2545    0.6210    0.5000
+      14 "9748"                                   0.2629    0.5355    0.5000 ellipse ic Cyan bc Blue x_fact 2.0
+      15 "9751"                                   0.2273    0.6088    0.5000 ellipse ic White bc  Black  x_fact 1 
+      16 "9754"                                   0.3198    0.5988    0.5000 ellipse ic Red bc  Black  x_fact 1 
+      17 "9757"                                   0.2679    0.7877    0.5000 ellipse ic Cyan bc Cyan x_fact 1 
+      18 "9760"                                   0.3321    0.8590    0.5000 ellipse ic Red bc  Black  x_fact 1 
+      19 "9763"                                   0.2293    0.8413    0.5000 ellipse ic White bc  Black  x_fact 1 
+      20 "9766"                                   0.3058    0.8498    0.5000 ellipse ic Red bc  Black  x_fact 1 
+      21 "9769"                                   0.3187    0.9508    0.5000 ellipse ic Cyan bc  Black  x_fact 2.0
+      22 "9772"                                   0.3364    0.9100    0.5000 ellipse ic Red bc  Black  x_fact 1 
+      23 "9775"                                   0.2314    0.8780    0.5000 ellipse ic White bc  Black  x_fact 1 
+      24 "9778"                                   0.2664    0.8795    0.5000
+      25 "9781"                                   0.2552    0.9468    0.5000 ellipse ic Cyan bc Blue x_fact 2.0
+      26 "9784"                                   0.4122    0.4250    0.5000 ellipse ic Red bc  Black  x_fact 1 
+      27 "9787"                                   0.3434    0.3437    0.5000 ellipse ic White bc  Black  x_fact 1 
+      28 "9790"                                   0.4116    0.3361    0.5000 ellipse ic Cyan bc Cyan x_fact 1 
+      29 "9793"                                   0.4391    0.2581    0.5000
+      30 "9796"                                   0.5024    0.1830    0.5000 ellipse ic White bc  Black  x_fact 1 
+      31 "9799"                                   0.5810    0.1581    0.5000 ellipse ic Cyan bc Blue x_fact 2.0
+      32 "9802"                                   0.5204    0.2125    0.5000 ellipse ic White bc  Black  x_fact 1 
+      33 "9805"                                   0.5527    0.2766    0.5000 ellipse ic Red bc  Black  x_fact 1 
+      34 "9808"                                   0.6037    0.1922    0.5000 ellipse ic Cyan bc  Black  x_fact 2.0
+      35 "9811"                                   0.6714    0.1614    0.5000
+      36 "9814"                                   0.7536    0.1484    0.5000 ellipse ic Red bc  Black  x_fact 1 
+      37 "9817"                                   0.7086    0.0793    0.5000 ellipse ic White bc  Black  x_fact 1 
+      38 "9820"                                   0.7437    0.1084    0.5000
+      39 "9823"                                   0.6495    0.1229    0.5000 ellipse ic Cyan bc Blue x_fact 2.0
+      40 "9826"                                   0.7255    0.1714    0.5000 ellipse ic Red bc  Black  x_fact 1 
+      41 "9829"                                   0.7794    0.1791    0.5000
+      42 "9832"                                   0.8016    0.0931    0.5000 ellipse ic White bc  Black  x_fact 1 
+      43 "9835"                                   0.8413    0.1253    0.5000 ellipse ic Cyan bc Cyan x_fact 1 
+      44 "9838"                                   0.7678    0.0492    0.5000
+      45 "9841"                                   0.5852    0.2404    0.5000 ellipse ic Red bc  Black  x_fact 1 
+      46 "9844"                                   0.5354    0.2523    0.5000
+      47 "9847"                                   0.4667    0.2130    0.5000 ellipse ic White bc  Black  x_fact 1 
+      48 "9850"                                   0.4624    0.2813    0.5000 ellipse ic Cyan bc Cyan x_fact 1 
+      49 "9853"                                   0.3862    0.3161    0.5000
+      50 "9856"                                   0.3857    0.4110    0.5000 ellipse ic Red bc  Black  x_fact 1 
+      51 "9859"                                   0.4152    0.8674    0.5000
+      52 "9862"                                   0.4765    0.8802    0.5000 ellipse ic White bc  Black  x_fact 1 
+      53 "9865"                                   0.4909    0.8510    0.5000
+      54 "9868"                                   0.4778    0.7903    0.5000
+      55 "9871"                                   0.4473    0.7811    0.5000
+      56 "9874"                                   0.4137    0.8376    0.5000 ellipse ic Red bc  Black  x_fact 1 
+      57 "9877"                                   0.4796    0.7024    0.5000 ellipse ic White bc  Black  x_fact 1 
+      58 "9880"                                   0.4533    0.7072    0.5000
+      59 "9883"                                   0.4688    0.6145    0.5000
+      60 "9886"                                   0.4923    0.6295    0.5000
+      61 "9889"                                   0.4147    0.6662    0.5000 ellipse ic Red bc  Black  x_fact 1 
+      62 "9892"                                   0.4028    0.6429    0.5000
+      63 "9895"                                   0.5248    0.5524    0.5000 ellipse ic White bc  Black  x_fact 1 
+      64 "9898"                                   0.4964    0.5422    0.5000
+      65 "9901"                                   0.5663    0.4864    0.5000
+      66 "9904"                                   0.5451    0.4643    0.5000
+      67 "9907"                                   0.4651    0.4724    0.5000 ellipse ic Red bc  Black  x_fact 1 
+      68 "9910"                                   0.4937    0.4818    0.5000
+      69 "9913"                                   0.5973    0.4071    0.5000 ellipse ic White bc  Black  x_fact 1 
+      70 "9916"                                   0.6223    0.4263    0.5000
+      71 "9919"                                   0.6734    0.3533    0.5000
+      72 "9922"                                   0.6861    0.3803    0.5000
+      73 "9925"                                   0.6167    0.3532    0.5000 ellipse ic Red bc  Black  x_fact 1 
+      74 "9928"                                   0.6029    0.3267    0.5000
+      75 "9931"                                   0.7426    0.3139    0.5000 ellipse ic White bc  Black  x_fact 1 
+      76 "9934"                                   0.7575    0.3421    0.5000
+      77 "9937"                                   0.8380    0.2953    0.5000
+      78 "9940"                                   0.8268    0.3286    0.5000
+      79 "9943"                                   0.7756    0.2459    0.5000 ellipse ic Red bc  Black  x_fact 1 
+      80 "9946"                                   0.8051    0.2676    0.5000
+*Arcs
+       3       1       1  c  Black  w  2.0
+      12      10       1  c  Black  w  2.0
+      12       7       1  c  Black  w  2.0
+       8      15       1  c  Black  w  2.0
+       7      15       1  c  Black  w  2.0
+      16      13       1  c  Black  w  2.0
+      16      14       1  c  Black  w  2.0
+      14       3       1  c LightCyan w  2.0
+      11      13       1  c  Black  w  2.0
+      11       6       1  c  Black  w  2.0
+      20      18       1  c  Black  w  2.0
+      20      21       1  c  Black  w  2.0
+      22      21       1  c  Black  w  2.0
+      22      25       1  c  Black  w  2.0
+      24      25       1  c  Black  w  2.0
+      23      24       1  c  Black  w  2.0
+      22      23       1  c  Black  w  2.0
+      20       9       1  c  Black  w  2.0
+      19      17       1  c  Black  w  2.0
+      18      19       1  c  Black  w  2.0
+      17      10       1  c Green w  2.0
+       8       9       1  c Green w  2.0
+       5       6       1  c LightCyan w  2.0
+      32      30       1  c  Black  w  2.0
+      38      39       1  c  Black  w  2.0
+      40      36       1  c  Black  w  2.0
+      41      38       1  c  Black  w  2.0
+      43      41       1  c  Black  w  2.0
+      42      43       1  c  Black  w  2.0
+      42      36       1  c  Black  w  2.0
+      44      37       1  c  Black  w  2.0
+      44      42       1  c  Black  w  2.0
+      41      35       1  c  Black  w  2.0
+      34      39       1  c LightCyan w  2.0
+      37      38       1  c  Black  w  2.0
+      31      35       1  c LightCyan w  2.0
+      45      32       1  c  Black  w  2.0
+      45      34       1  c  Black  w  2.0
+      47      29       1  c  Black  w  2.0
+      46      47       1  c  Black  w  2.0
+      33      48       1  c  Black  w  2.0
+      28      48       1  c Green w  2.0
+      49      27       1  c  Black  w  2.0
+      29      49       1  c Green w  2.0
+      50       5       1  c  Black  w  2.0
+      50      26       1  c  Black  w  2.0
+      50       1       1  c  Black  w  2.0
+      33      46       1  c  Black  w  2.0
+      30      31       1  c  Black  w  2.0
+      28       2       1  c  Black  w  2.0
+      26      27       1  c  Black  w  2.0
+      26       4       1  c  Black  w  2.0
+      26       2       1  c  Black  w  2.0
+       6       3       1  c  Black  w  1.0 
+      15      13       1  c  Black  w  1.0 
+      12      15       1  c  Black  w  1.0 
+      16       7       1  c  Black  w  1.0 
+      16       6       1  c  Black  w  1.0 
+      16      15       1  c  Black  w  1.0 
+      11      16       1  c  Black  w  1.0 
+      14      15       1  c  Black  w  1.0 
+      13      14       1  c  Black  w  1.0 
+       5      14       1  c  Black  w  1.0 
+      10      13       1  c  Black  w  1.0 
+      12      13       1  c  Black  w  1.0 
+       8      12       1  c  Black  w  1.0 
+      11      12       1  c  Black  w  1.0 
+       7      11       1  c  Black  w  1.0 
+      10      11       1  c  Black  w  1.0 
+      18      21       1  c  Black  w  1.0 
+      22      20       1  c  Black  w  1.0 
+      25      23       1  c  Black  w  1.0 
+      22      24       1  c  Black  w  1.0 
+      19      24       1  c  Black  w  1.0 
+      18      24       1  c  Black  w  1.0 
+      17      24       1  c  Black  w  1.0 
+      20      23       1  c  Black  w  1.0 
+      19      23       1  c  Black  w  1.0 
+       9      23       1  c  Black  w  1.0 
+      18      22       1  c  Black  w  1.0 
+      19      20       1  c  Black  w  1.0 
+       9      19       1  c  Black  w  1.0 
+      17      18       1  c  Black  w  1.0 
+      17       8       1  c  Black  w  1.0 
+       9      10       1  c  Black  w  1.0 
+       7       8       1  c  Black  w  1.0 
+       7       6       1  c  Black  w  1.0 
+      26       5       1  c  Black  w  1.0 
+      28      26       1  c  Black  w  1.0 
+      31      32       1  c  Black  w  1.0 
+      33      32       1  c  Black  w  1.0 
+      39      37       1  c  Black  w  1.0 
+      31      39       1  c  Black  w  1.0 
+      40      37       1  c  Black  w  1.0 
+      40      39       1  c  Black  w  1.0 
+      40      38       1  c  Black  w  1.0 
+      40      35       1  c  Black  w  1.0 
+      41      40       1  c  Black  w  1.0 
+      42      37       1  c  Black  w  1.0 
+      42      38       1  c  Black  w  1.0 
+      43      38       1  c  Black  w  1.0 
+      41      42       1  c  Black  w  1.0 
+      36      44       1  c  Black  w  1.0 
+      36      41       1  c  Black  w  1.0 
+      36      37       1  c  Black  w  1.0 
+      36      35       1  c  Black  w  1.0 
+      34      35       1  c  Black  w  1.0 
+      33      34       1  c  Black  w  1.0 
+      45      30       1  c  Black  w  1.0 
+      45      31       1  c  Black  w  1.0 
+      45      33       1  c  Black  w  1.0 
+      46      30       1  c  Black  w  1.0 
+      46      34       1  c  Black  w  1.0 
+      46      45       1  c  Black  w  1.0 
+      47      30       1  c  Black  w  1.0 
+      47      32       1  c  Black  w  1.0 
+      47      33       1  c  Black  w  1.0 
+      48      32       1  c  Black  w  1.0 
+      48      47       1  c  Black  w  1.0 
+      49      48       1  c  Black  w  1.0 
+      49       1       1  c  Black  w  1.0 
+      50      49       1  c  Black  w  1.0 
+      27      50       1  c  Black  w  1.0 
+       4      50       1  c  Black  w  1.0 
+      29      46       1  c  Black  w  1.0 
+      29      30       1  c  Black  w  1.0 
+      28      29       1  c  Black  w  1.0 
+      27      28       1  c  Black  w  1.0 
+      27       2       1  c  Black  w  1.0 
+      27       1       1  c  Black  w  1.0 
+       4       5       1  c  Black  w  1.0 
+       4       3       1  c  Black  w  1.0 
+       4       2       1  c  Black  w  1.0 
+       4       1       1  c  Black  w  1.0 
+       2       3       1  c  Black  w  1.0 
+       1       2       1  c  Black  w  1.0 
+      51      54       1  c  Black  w  1.0 
+      51      56       1  c Red w  2.0
+      51      55       1  c  Black  w  1.0 
+      51      53       1  c  Black  w  1.0 
+      52      51       1  c  Black  w  1.0 
+      52      53       1  c  Black  w  1.0 
+      53      55       1  c  Black  w  1.0 
+      54      52       1  c  Black  w  1.0 
+      54      57       1  c Green w  2.0
+      54      58       1  c Green w  2.0
+      55      54       1  c  Black  w  1.0 
+      55      58       1  c Green w  2.0
+      56      53       1  c  Black  w  1.0 
+      56      55       1  c  Black  w  1.0 
+      56      52       1  c  Black  w  1.0 
+      56      54       1  c  Black  w  1.0 
+      57      61       1  c  Black  w  1.0 
+      57      58       1  c  Black  w  1.0 
+      57      55       1  c Green w  2.0
+      58      60       1  c  Black  w  1.0 
+      59      57       1  c  Black  w  1.0 
+      59      63       1  c Green w  2.0
+      59      64       1  c Green w  2.0
+      60      59       1  c  Black  w  1.0 
+      60      64       1  c Green w  2.0
+      61      59       1  c  Black  w  1.0 
+      61      62       1  c Red w  2.0
+      61      60       1  c  Black  w  1.0 
+      61      58       1  c  Black  w  1.0 
+      62      58       1  c  Black  w  1.0 
+      62      60       1  c  Black  w  1.0 
+      62      57       1  c  Black  w  1.0 
+      62      59       1  c  Black  w  1.0 
+      63      67       1  c  Black  w  1.0 
+      63      64       1  c  Black  w  1.0 
+      63      60       1  c Green w  2.0
+      64      66       1  c  Black  w  1.0 
+      65      63       1  c  Black  w  1.0 
+      65      69       1  c Green w  2.0
+      66      65       1  c  Black  w  1.0 
+      66      70       1  c Green w  2.0
+      67      65       1  c  Black  w  1.0 
+      67      68       1  c Red w  2.0
+      67      66       1  c  Black  w  1.0 
+      67      64       1  c  Black  w  1.0 
+      68      64       1  c  Black  w  1.0 
+      68      66       1  c  Black  w  1.0 
+      68      63       1  c  Black  w  1.0 
+      68      65       1  c  Black  w  1.0 
+      69      73       1  c  Black  w  1.0 
+      69      70       1  c  Black  w  1.0 
+      69      66       1  c Green w  2.0
+      70      72       1  c  Black  w  1.0 
+      70      65       1  c Green w  2.0
+      71      69       1  c  Black  w  1.0 
+      71      75       1  c Green w  2.0
+      72      71       1  c  Black  w  1.0 
+      72      76       1  c Green w  2.0
+      73      71       1  c  Black  w  1.0 
+      73      74       1  c Red w  2.0
+      73      72       1  c  Black  w  1.0 
+      73      70       1  c  Black  w  1.0 
+      74      70       1  c  Black  w  1.0 
+      74      72       1  c  Black  w  1.0 
+      74      69       1  c  Black  w  1.0 
+      74      71       1  c  Black  w  1.0 
+      75      79       1  c  Black  w  1.0 
+      75      76       1  c  Black  w  1.0 
+      75      72       1  c Green w  2.0
+      76      78       1  c  Black  w  1.0 
+      76      71       1  c Green w  2.0
+      77      75       1  c  Black  w  1.0 
+      78      77       1  c  Black  w  1.0 
+      79      77       1  c  Black  w  1.0 
+      79      80       1  c Red w  2.0
+      79      78       1  c  Black  w  1.0 
+      79      76       1  c  Black  w  1.0 
+      80      76       1  c  Black  w  1.0 
+      80      78       1  c  Black  w  1.0 
+      80      75       1  c  Black  w  1.0 
+      80      77       1  c  Black  w  1.0 
+      22      51       1  c Magenta w  3.0
+      18      51       1  c Magenta w  3.0
+      56      20       1  c Magenta w  3.0
+      61       7       1  c Magenta w  3.0
+      62      11       1  c Magenta w  3.0
+      16      62       1  c Magenta w  3.0
+      67       4       1  c Magenta w  3.0
+      26      68       1  c Magenta w  3.0
+      67      50       1  c Magenta w  3.0
+      73      33       1  c Magenta w  3.0
+      46      74       1  c Magenta w  3.0
+      74      45       1  c Magenta w  3.0
+      79      40       1  c Magenta w  3.0
+      80      41       1  c Magenta w  3.0
+      36      79       1  c Magenta w  3.0
+*Edges

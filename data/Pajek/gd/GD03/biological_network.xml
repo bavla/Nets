@@ -1,0 +1,1062 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<graphml
+  xmlns="http://graphml.graphdrawing.org/xmlns/1.0rc"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+
+  xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns/1.0rc
+                      graphml-structure.xsd
+
+                      http://graphml.graphdrawing.org/xmlns/1.0rc
+                      graphml-attributes.xsd"
+>
+
+  <!-- ****************** CONTENTS ************************** -->
+
+  <desc>
+    This document contains one of two graphs provided for 
+    the 2003 Graph Drawing Contest.
+
+    It consists of a biological network representing the transcriptional
+    regulation of Escherichia coli, i.e. nodes represent operons and
+    transcription factors, and (directed) edges represent interactions.
+    Note that there are loops (autoregulation).
+
+    There is a string-valued node attribute (operon name) 
+    and an integer edge attribute (regulation type).
+
+    Particularly interesting about this network is the frequent
+    occurrence of small subgraphs, so-called motifs, described in 
+
+      Network motifs 
+      in the transcriptional regulation network of Escherichia coli
+      S S SHEN-ORR, R MILO, S MANGAN and U ALON, Nature Genetics 31(1):64-68
+
+    How can a visualization highlight such motifs using graph drawing methods?
+
+    Data courtesy of Uri Alon, The Weizmann Institute, Israel.
+  </desc>
+
+  <!-- *************** DATA ACCESS KEYS ********************** -->
+
+  <key id="k0" for="node" attr.name="name" attr.type="string">
+    <desc>Name of operon (no default value).</desc>
+  </key>
+
+  <key id="k1" for="edge" attr.name="type" attr.type="int">
+    <desc>
+      Regulation type (1: activator, 2: repressor, 3: dual).
+      Default is 1 (activator).
+    </desc>
+    <default>1</default>
+  </key>
+
+  <!-- ******************** GRAPH **************************** -->
+
+  <graph edgedefault="directed">
+    <node id="n1"><data key="k0">aceBAK</data></node>
+    <node id="n2"><data key="k0">acnA</data></node>
+    <node id="n3"><data key="k0">acrAB</data></node>
+    <node id="n4"><data key="k0">acrR</data></node>
+    <node id="n5"><data key="k0">acs</data></node>
+    <node id="n6"><data key="k0">ada_alkB</data></node>
+    <node id="n7"><data key="k0">adhE</data></node>
+    <node id="n8"><data key="k0">adiA</data></node>
+    <node id="n9"><data key="k0">adiA_adiY</data></node>
+    <node id="n10"><data key="k0">ahpCF</data></node>
+    <node id="n11"><data key="k0">aidB</data></node>
+    <node id="n12"><data key="k0">alaWX</data></node>
+    <node id="n13"><data key="k0">aldB</data></node>
+    <node id="n14"><data key="k0">alkA</data></node>
+    <node id="n15"><data key="k0">alpA</data></node>
+    <node id="n16"><data key="k0">ansB</data></node>
+    <node id="n17"><data key="k0">appCBA</data></node>
+    <node id="n18"><data key="k0">appY</data></node>
+    <node id="n19"><data key="k0">araBAD</data></node>
+    <node id="n20"><data key="k0">araC</data></node>
+    <node id="n21"><data key="k0">araE</data></node>
+    <node id="n22"><data key="k0">araFG_araH_1H_2</data></node>
+    <node id="n23"><data key="k0">araJ</data></node>
+    <node id="n24"><data key="k0">arcA</data></node>
+    <node id="n25"><data key="k0">argCBH</data></node>
+    <node id="n26"><data key="k0">argD</data></node>
+    <node id="n27"><data key="k0">argE</data></node>
+    <node id="n28"><data key="k0">argF</data></node>
+    <node id="n29"><data key="k0">argI</data></node>
+    <node id="n30"><data key="k0">argR</data></node>
+    <node id="n31"><data key="k0">argU</data></node>
+    <node id="n32"><data key="k0">argW</data></node>
+    <node id="n33"><data key="k0">argX_hisR_leuT_proM</data></node>
+    <node id="n34"><data key="k0">aroF_tyrA</data></node>
+    <node id="n35"><data key="k0">aroG</data></node>
+    <node id="n36"><data key="k0">aroH</data></node>
+    <node id="n37"><data key="k0">aroL_yaiA_aroM</data></node>
+    <node id="n38"><data key="k0">aroP</data></node>
+    <node id="n39"><data key="k0">arsEFG</data></node>
+    <node id="n40"><data key="k0">arsR</data></node>
+    <node id="n41"><data key="k0">aslB</data></node>
+    <node id="n42"><data key="k0">asnA</data></node>
+    <node id="n43"><data key="k0">asnC</data></node>
+    <node id="n44"><data key="k0">aspA</data></node>
+    <node id="n45"><data key="k0">aspV</data></node>
+    <node id="n46"><data key="k0">atoC</data></node>
+    <node id="n47"><data key="k0">atoDAB</data></node>
+    <node id="n48"><data key="k0">atoDAE</data></node>
+    <node id="n49"><data key="k0">betIBA</data></node>
+    <node id="n50"><data key="k0">betT</data></node>
+    <node id="n51"><data key="k0">bioA</data></node>
+    <node id="n52"><data key="k0">bioBFCD</data></node>
+    <node id="n53"><data key="k0">birA_murA</data></node>
+    <node id="n54"><data key="k0">cadBA</data></node>
+    <node id="n55"><data key="k0">cadC</data></node>
+    <node id="n56"><data key="k0">caiF</data></node>
+    <node id="n57"><data key="k0">caiTABCDE</data></node>
+    <node id="n58"><data key="k0">carAB</data></node>
+    <node id="n59"><data key="k0">cbl</data></node>
+    <node id="n60"><data key="k0">cirA</data></node>
+    <node id="n61"><data key="k0">clpP</data></node>
+    <node id="n62"><data key="k0">codBA</data></node>
+    <node id="n63"><data key="k0">cpdB</data></node>
+    <node id="n64"><data key="k0">cpxAR</data></node>
+    <node id="n65"><data key="k0">cpxP</data></node>
+    <node id="n66"><data key="k0">crp</data></node>
+    <node id="n67"><data key="k0">csgBA</data></node>
+    <node id="n68"><data key="k0">csgDEFG</data></node>
+    <node id="n69"><data key="k0">cspA</data></node>
+    <node id="n70"><data key="k0">cutC</data></node>
+    <node id="n71"><data key="k0">cvpA_purF_ubiX</data></node>
+    <node id="n72"><data key="k0">cyaA</data></node>
+    <node id="n73"><data key="k0">cydAB</data></node>
+    <node id="n74"><data key="k0">cynR</data></node>
+    <node id="n75"><data key="k0">cynTSX</data></node>
+    <node id="n76"><data key="k0">cyoABCDE</data></node>
+    <node id="n77"><data key="k0">cysB</data></node>
+    <node id="n78"><data key="k0">cysDNC</data></node>
+    <node id="n79"><data key="k0">cysJIH</data></node>
+    <node id="n80"><data key="k0">cysK</data></node>
+    <node id="n81"><data key="k0">cysPUWAM</data></node>
+    <node id="n82"><data key="k0">cytR</data></node>
+    <node id="n83"><data key="k0">dadAX</data></node>
+    <node id="n84"><data key="k0">dapA_nlpB_purA</data></node>
+    <node id="n85"><data key="k0">dctA</data></node>
+    <node id="n86"><data key="k0">dcuB_fumB</data></node>
+    <node id="n87"><data key="k0">deoCABD</data></node>
+    <node id="n88"><data key="k0">deoR</data></node>
+    <node id="n89"><data key="k0">dmsABC</data></node>
+    <node id="n90"><data key="k0">dnaA</data></node>
+    <node id="n91"><data key="k0">dnaKJ</data></node>
+    <node id="n92"><data key="k0">dps</data></node>
+    <node id="n93"><data key="k0">dsbA</data></node>
+    <node id="n94"><data key="k0">dsdC</data></node>
+    <node id="n95"><data key="k0">dsdXA</data></node>
+    <node id="n96"><data key="k0">ebgAC</data></node>
+    <node id="n97"><data key="k0">ebgR</data></node>
+    <node id="n98"><data key="k0">ecfABC</data></node>
+    <node id="n99"><data key="k0">ecfD</data></node>
+    <node id="n100"><data key="k0">ecfF</data></node>
+    <node id="n101"><data key="k0">ecfG</data></node>
+    <node id="n102"><data key="k0">ecfH</data></node>
+    <node id="n103"><data key="k0">ecfI</data></node>
+    <node id="n104"><data key="k0">ecfJ</data></node>
+    <node id="n105"><data key="k0">ecfK</data></node>
+    <node id="n106"><data key="k0">ecfLM</data></node>
+    <node id="n107"><data key="k0">ecpD_htrE</data></node>
+    <node id="n108"><data key="k0">edd_eda</data></node>
+    <node id="n109"><data key="k0">emrRAB</data></node>
+    <node id="n110"><data key="k0">entCEBA</data></node>
+    <node id="n111"><data key="k0">envY_ompT</data></node>
+    <node id="n112"><data key="k0">epd_pgk</data></node>
+    <node id="n113"><data key="k0">evgA</data></node>
+    <node id="n114"><data key="k0">exuR</data></node>
+    <node id="n115"><data key="k0">exuT</data></node>
+    <node id="n116"><data key="k0">fabA</data></node>
+    <node id="n117"><data key="k0">fadBA</data></node>
+    <node id="n118"><data key="k0">fadL</data></node>
+    <node id="n119"><data key="k0">fadR</data></node>
+    <node id="n120"><data key="k0">fdhF</data></node>
+    <node id="n121"><data key="k0">fdnGHI</data></node>
+    <node id="n122"><data key="k0">fecABCDE</data></node>
+    <node id="n123"><data key="k0">fecIR</data></node>
+    <node id="n124"><data key="k0">fepA_entD</data></node>
+    <node id="n125"><data key="k0">fepB</data></node>
+    <node id="n126"><data key="k0">fepDGC</data></node>
+    <node id="n127"><data key="k0">fhlA</data></node>
+    <node id="n128"><data key="k0">fhuACDB</data></node>
+    <node id="n129"><data key="k0">fixABCX</data></node>
+    <node id="n130"><data key="k0">fkpA</data></node>
+    <node id="n131"><data key="k0">flgAMN</data></node>
+    <node id="n132"><data key="k0">flgBCDEFGHIJK</data></node>
+    <node id="n133"><data key="k0">flgKL</data></node>
+    <node id="n134"><data key="k0">flgMN</data></node>
+    <node id="n135"><data key="k0">flhBAE</data></node>
+    <node id="n136"><data key="k0">flhDC</data></node>
+    <node id="n137"><data key="k0">fliAZY</data></node>
+    <node id="n138"><data key="k0">fliC</data></node>
+    <node id="n139"><data key="k0">fliDST</data></node>
+    <node id="n140"><data key="k0">fliE</data></node>
+    <node id="n141"><data key="k0">fliFGHIJK</data></node>
+    <node id="n142"><data key="k0">fliLMNOPQR</data></node>
+    <node id="n143"><data key="k0">fnr</data></node>
+    <node id="n144"><data key="k0">focA_pflB</data></node>
+    <node id="n145"><data key="k0">fpr</data></node>
+    <node id="n146"><data key="k0">frdABCD</data></node>
+    <node id="n147"><data key="k0">fruBKA</data></node>
+    <node id="n148"><data key="k0">FruR</data></node>
+    <node id="n149"><data key="k0">ftsQAZ</data></node>
+    <node id="n150"><data key="k0">fucAO</data></node>
+    <node id="n151"><data key="k0">fucPIKUR</data></node>
+    <node id="n152"><data key="k0">fumA</data></node>
+    <node id="n153"><data key="k0">fumC</data></node>
+    <node id="n154"><data key="k0">fur</data></node>
+    <node id="n155"><data key="k0">galETKM</data></node>
+    <node id="n156"><data key="k0">GalR</data></node>
+    <node id="n157"><data key="k0">galS</data></node>
+    <node id="n158"><data key="k0">gatR_1</data></node>
+    <node id="n159"><data key="k0">gatYZABCDR_2</data></node>
+    <node id="n160"><data key="k0">gcvA</data></node>
+    <node id="n161"><data key="k0">gcvR</data></node>
+    <node id="n162"><data key="k0">gcvTHP</data></node>
+    <node id="n163"><data key="k0">gdhA</data></node>
+    <node id="n164"><data key="k0">glcC</data></node>
+    <node id="n165"><data key="k0">glcDEFGB</data></node>
+    <node id="n166"><data key="k0">glgCAP</data></node>
+    <node id="n167"><data key="k0">glgS</data></node>
+    <node id="n168"><data key="k0">glmUS</data></node>
+    <node id="n169"><data key="k0">glnALG</data></node>
+    <node id="n170"><data key="k0">glnB</data></node>
+    <node id="n171"><data key="k0">glnHPQ</data></node>
+    <node id="n172"><data key="k0">glpACB</data></node>
+    <node id="n173"><data key="k0">glpD</data></node>
+    <node id="n174"><data key="k0">glpFK</data></node>
+    <node id="n175"><data key="k0">glpR</data></node>
+    <node id="n176"><data key="k0">glpTQ</data></node>
+    <node id="n177"><data key="k0">gltA</data></node>
+    <node id="n178"><data key="k0">gltBDF</data></node>
+    <node id="n179"><data key="k0">glyA</data></node>
+    <node id="n180"><data key="k0">gntKU</data></node>
+    <node id="n181"><data key="k0">gntR</data></node>
+    <node id="n182"><data key="k0">gntT</data></node>
+    <node id="n183"><data key="k0">gorA</data></node>
+    <node id="n184"><data key="k0">grpE</data></node>
+    <node id="n185"><data key="k0">guaBA</data></node>
+    <node id="n186"><data key="k0">gyrA</data></node>
+    <node id="n187"><data key="k0">hcaA1A2CBD_yphA</data></node>
+    <node id="n188"><data key="k0">hcaR</data></node>
+    <node id="n189"><data key="k0">hflB</data></node>
+    <node id="n190"><data key="k0">himA</data></node>
+    <node id="n191"><data key="k0">himD</data></node>
+    <node id="n192"><data key="k0">hipBA</data></node>
+    <node id="n193"><data key="k0">hns</data></node>
+    <node id="n194"><data key="k0">htpG</data></node>
+    <node id="n195"><data key="k0">htpY</data></node>
+    <node id="n196"><data key="k0">htrA</data></node>
+    <node id="n197"><data key="k0">hycABCDEFGH</data></node>
+    <node id="n198"><data key="k0">hydHG</data></node>
+    <node id="n199"><data key="k0">hypA</data></node>
+    <node id="n200"><data key="k0">hypABCDE</data></node>
+    <node id="n201"><data key="k0">ibpAB</data></node>
+    <node id="n202"><data key="k0">icdA</data></node>
+    <node id="n203"><data key="k0">iclMR</data></node>
+    <node id="n204"><data key="k0">idnDOTR</data></node>
+    <node id="n205"><data key="k0">ilvC</data></node>
+    <node id="n206"><data key="k0">ilvIH</data></node>
+    <node id="n207"><data key="k0">ilvY</data></node>
+    <node id="n208"><data key="k0">inaA</data></node>
+    <node id="n209"><data key="k0">ivbL_ilvBN</data></node>
+    <node id="n210"><data key="k0">katG</data></node>
+    <node id="n211"><data key="k0">kbl_tdh</data></node>
+    <node id="n212"><data key="k0">kdpABC</data></node>
+    <node id="n213"><data key="k0">kdpDE</data></node>
+    <node id="n214"><data key="k0">ksgA_epaG_epaH</data></node>
+    <node id="n215"><data key="k0">lacI</data></node>
+    <node id="n216"><data key="k0">lacZYA</data></node>
+    <node id="n217"><data key="k0">lctPRD</data></node>
+    <node id="n218"><data key="k0">leuLABCD</data></node>
+    <node id="n219"><data key="k0">leuO</data></node>
+    <node id="n220"><data key="k0">leuQPV</data></node>
+    <node id="n221"><data key="k0">leuX</data></node>
+    <node id="n222"><data key="k0">lexA_dinF</data></node>
+    <node id="n223"><data key="k0">livJ</data></node>
+    <node id="n224"><data key="k0">livKHMGF</data></node>
+    <node id="n225"><data key="k0">lon</data></node>
+    <node id="n226"><data key="k0">lpxDA_fabZ</data></node>
+    <node id="n227"><data key="k0">lrp</data></node>
+    <node id="n228"><data key="k0">lysA</data></node>
+    <node id="n229"><data key="k0">lysR</data></node>
+    <node id="n230"><data key="k0">lysT_valT_lysW</data></node>
+    <node id="n231"><data key="k0">lysU</data></node>
+    <node id="n232"><data key="k0">malEFG</data></node>
+    <node id="n233"><data key="k0">malI</data></node>
+    <node id="n234"><data key="k0">malK_lamB_malM</data></node>
+    <node id="n235"><data key="k0">malPQ</data></node>
+    <node id="n236"><data key="k0">malS</data></node>
+    <node id="n237"><data key="k0">malT</data></node>
+    <node id="n238"><data key="k0">malXY</data></node>
+    <node id="n239"><data key="k0">malZ</data></node>
+    <node id="n240"><data key="k0">manXYZ</data></node>
+    <node id="n241"><data key="k0">marRAB</data></node>
+    <node id="n242"><data key="k0">mdh</data></node>
+    <node id="n243"><data key="k0">mdlA</data></node>
+    <node id="n244"><data key="k0">mdoGH</data></node>
+    <node id="n245"><data key="k0">melAB</data></node>
+    <node id="n246"><data key="k0">melR</data></node>
+    <node id="n247"><data key="k0">metA</data></node>
+    <node id="n248"><data key="k0">metC</data></node>
+    <node id="n249"><data key="k0">metF</data></node>
+    <node id="n250"><data key="k0">metH</data></node>
+    <node id="n251"><data key="k0">metJ</data></node>
+    <node id="n252"><data key="k0">metR</data></node>
+    <node id="n253"><data key="k0">metT_leuW_glnUW_metU_glnVX</data></node>
+    <node id="n254"><data key="k0">metY_yhbC_nusA_infB</data></node>
+    <node id="n255"><data key="k0">mglBAC</data></node>
+    <node id="n256"><data key="k0">mhpABCDFE</data></node>
+    <node id="n257"><data key="k0">mhpR</data></node>
+    <node id="n258"><data key="k0">mlc</data></node>
+    <node id="n259"><data key="k0">moaABCDE</data></node>
+    <node id="n260"><data key="k0">modABC</data></node>
+    <node id="n261"><data key="k0">modE</data></node>
+    <node id="n262"><data key="k0">mopA</data></node>
+    <node id="n263"><data key="k0">mopB</data></node>
+    <node id="n264"><data key="k0">motABcheAW</data></node>
+    <node id="n265"><data key="k0">mtlADR</data></node>
+    <node id="n266"><data key="k0">mtr</data></node>
+    <node id="n267"><data key="k0">nac</data></node>
+    <node id="n268"><data key="k0">nadB</data></node>
+    <node id="n269"><data key="k0">nadR</data></node>
+    <node id="n270"><data key="k0">nagBACD</data></node>
+    <node id="n271"><data key="k0">nagE</data></node>
+    <node id="n272"><data key="k0">narGHJI</data></node>
+    <node id="n273"><data key="k0">narK</data></node>
+    <node id="n274"><data key="k0">narL</data></node>
+    <node id="n275"><data key="k0">narZYWV</data></node>
+    <node id="n276"><data key="k0">ndh</data></node>
+    <node id="n277"><data key="k0">nfo</data></node>
+    <node id="n278"><data key="k0">nhaA</data></node>
+    <node id="n279"><data key="k0">nhaR</data></node>
+    <node id="n280"><data key="k0">nirBDC_cysG</data></node>
+    <node id="n281"><data key="k0">nlpB_purA</data></node>
+    <node id="n282"><data key="k0">nlpD_rpoS</data></node>
+    <node id="n283"><data key="k0">nrdAB</data></node>
+    <node id="n284"><data key="k0">nrfABCDEFG</data></node>
+    <node id="n285"><data key="k0">nuoABCEFGHIJKLMN</data></node>
+    <node id="n286"><data key="k0">nupC</data></node>
+    <node id="n287"><data key="k0">nupG</data></node>
+    <node id="n288"><data key="k0">nycA</data></node>
+    <node id="n289"><data key="k0">ompA</data></node>
+    <node id="n290"><data key="k0">ompC</data></node>
+    <node id="n291"><data key="k0">ompF</data></node>
+    <node id="n292"><data key="k0">ompR_envZ</data></node>
+    <node id="n293"><data key="k0">oppABCDF</data></node>
+    <node id="n294"><data key="k0">osmC</data></node>
+    <node id="n295"><data key="k0">osmE</data></node>
+    <node id="n296"><data key="k0">osmY</data></node>
+    <node id="n297"><data key="k0">ostA_surA_pdxA</data></node>
+    <node id="n298"><data key="k0">oxyR</data></node>
+    <node id="n299"><data key="k0">pdhR_aceEF_lpdA</data></node>
+    <node id="n300"><data key="k0">pheU</data></node>
+    <node id="n301"><data key="k0">pheV</data></node>
+    <node id="n302"><data key="k0">phnCDE_f73_phnFGHIJKLMNOP</data></node>
+    <node id="n303"><data key="k0">phoA</data></node>
+    <node id="n304"><data key="k0">phoBR</data></node>
+    <node id="n305"><data key="k0">phoE</data></node>
+    <node id="n306"><data key="k0">pncB</data></node>
+    <node id="n307"><data key="k0">polB</data></node>
+    <node id="n308"><data key="k0">ppiA</data></node>
+    <node id="n309"><data key="k0">ppsA</data></node>
+    <node id="n310"><data key="k0">proK</data></node>
+    <node id="n311"><data key="k0">proL</data></node>
+    <node id="n312"><data key="k0">proP</data></node>
+    <node id="n313"><data key="k0">prsA</data></node>
+    <node id="n314"><data key="k0">pspABCDE</data></node>
+    <node id="n315"><data key="k0">pspF</data></node>
+    <node id="n316"><data key="k0">pstSCAB_phoU</data></node>
+    <node id="n317"><data key="k0">ptsG</data></node>
+    <node id="n318"><data key="k0">ptsHI_crr</data></node>
+    <node id="n319"><data key="k0">purC</data></node>
+    <node id="n320"><data key="k0">purEK</data></node>
+    <node id="n321"><data key="k0">purHD</data></node>
+    <node id="n322"><data key="k0">purL</data></node>
+    <node id="n323"><data key="k0">purMN</data></node>
+    <node id="n324"><data key="k0">purR</data></node>
+    <node id="n325"><data key="k0">putAP</data></node>
+    <node id="n326"><data key="k0">pykF</data></node>
+    <node id="n327"><data key="k0">pyrC</data></node>
+    <node id="n328"><data key="k0">pyrD</data></node>
+    <node id="n329"><data key="k0">rbsDACBK</data></node>
+    <node id="n330"><data key="k0">rbsR</data></node>
+    <node id="n331"><data key="k0">rcsA</data></node>
+    <node id="n332"><data key="k0">rcsAB</data></node>
+    <node id="n333"><data key="k0">recA</data></node>
+    <node id="n334"><data key="k0">recN</data></node>
+    <node id="n335"><data key="k0">rfaDFCL</data></node>
+    <node id="n336"><data key="k0">rhaBAD</data></node>
+    <node id="n337"><data key="k0">rhaSR</data></node>
+    <node id="n338"><data key="k0">rhaT</data></node>
+    <node id="n339"><data key="k0">rob</data></node>
+    <node id="n340"><data key="k0">rotA</data></node>
+    <node id="n341"><data key="k0">rpiB</data></node>
+    <node id="n342"><data key="k0">rpiR_alsBACEK</data></node>
+    <node id="n343"><data key="k0">rpoD</data></node>
+    <node id="n344"><data key="k0">rpoE_rseABC</data></node>
+    <node id="n345"><data key="k0">rpoH</data></node>
+    <node id="n346"><data key="k0">rpoN</data></node>
+    <node id="n347"><data key="k0">rpsU_dnaG_rpoD</data></node>
+    <node id="n348"><data key="k0">rtcAB</data></node>
+    <node id="n349"><data key="k0">rtcR</data></node>
+    <node id="n350"><data key="k0">sdaA</data></node>
+    <node id="n351"><data key="k0">sdhCDAB_b0725_sucABCD</data></node>
+    <node id="n352"><data key="k0">serA</data></node>
+    <node id="n353"><data key="k0">serT</data></node>
+    <node id="n354"><data key="k0">serX</data></node>
+    <node id="n355"><data key="k0">skp_lpxDA_fabZ</data></node>
+    <node id="n356"><data key="k0">slp</data></node>
+    <node id="n357"><data key="k0">sodA</data></node>
+    <node id="n358"><data key="k0">soxR</data></node>
+    <node id="n359"><data key="k0">soxS</data></node>
+    <node id="n360"><data key="k0">speA</data></node>
+    <node id="n361"><data key="k0">speC</data></node>
+    <node id="n362"><data key="k0">srlAEBD_gutM_srlR_gutQ</data></node>
+    <node id="n363"><data key="k0">ssb</data></node>
+    <node id="n364"><data key="k0">ssuEADCB</data></node>
+    <node id="n365"><data key="k0">stpA</data></node>
+    <node id="n366"><data key="k0">sulA</data></node>
+    <node id="n367"><data key="k0">tarTapcheRBYZ</data></node>
+    <node id="n368"><data key="k0">tauABCD</data></node>
+    <node id="n369"><data key="k0">tdcABCDEFG</data></node>
+    <node id="n370"><data key="k0">tdcAR</data></node>
+    <node id="n371"><data key="k0">thrU_tyrU_glyT_thrT</data></node>
+    <node id="n372"><data key="k0">thrW</data></node>
+    <node id="n373"><data key="k0">tnaLAB</data></node>
+    <node id="n374"><data key="k0">tonB</data></node>
+    <node id="n375"><data key="k0">torCAD</data></node>
+    <node id="n376"><data key="k0">torR</data></node>
+    <node id="n377"><data key="k0">treBC</data></node>
+    <node id="n378"><data key="k0">treR</data></node>
+    <node id="n379"><data key="k0">trpLEDCBA</data></node>
+    <node id="n380"><data key="k0">trpR</data></node>
+    <node id="n381"><data key="k0">tsr</data></node>
+    <node id="n382"><data key="k0">tsx</data></node>
+    <node id="n383"><data key="k0">tyrB</data></node>
+    <node id="n384"><data key="k0">tyrP</data></node>
+    <node id="n385"><data key="k0">tyrR</data></node>
+    <node id="n386"><data key="k0">tyrTV</data></node>
+    <node id="n387"><data key="k0">ubiG</data></node>
+    <node id="n388"><data key="k0">udp</data></node>
+    <node id="n389"><data key="k0">uhpA</data></node>
+    <node id="n390"><data key="k0">uhpT</data></node>
+    <node id="n391"><data key="k0">uidR</data></node>
+    <node id="n392"><data key="k0">uidRABC</data></node>
+    <node id="n393"><data key="k0">umuDC</data></node>
+    <node id="n394"><data key="k0">uppS_cdsA_ecfE</data></node>
+    <node id="n395"><data key="k0">uspA</data></node>
+    <node id="n396"><data key="k0">uvrA</data></node>
+    <node id="n397"><data key="k0">uvrB</data></node>
+    <node id="n398"><data key="k0">uvrC</data></node>
+    <node id="n399"><data key="k0">uvrD</data></node>
+    <node id="n400"><data key="k0">uxaCA</data></node>
+    <node id="n401"><data key="k0">uxuABR</data></node>
+    <node id="n402"><data key="k0">valUXY_lysV</data></node>
+    <node id="n403"><data key="k0">wza_wzb_b2060_wcaA_wcaB</data></node>
+    <node id="n404"><data key="k0">xapAB</data></node>
+    <node id="n405"><data key="k0">xapR</data></node>
+    <node id="n406"><data key="k0">xprB_dsbC_recJ</data></node>
+    <node id="n407"><data key="k0">xylAB</data></node>
+    <node id="n408"><data key="k0">xylFGHR</data></node>
+    <node id="n409"><data key="k0">ybaO</data></node>
+    <node id="n410"><data key="k0">ybiS</data></node>
+    <node id="n411"><data key="k0">ycfC_purB</data></node>
+    <node id="n412"><data key="k0">yfhD</data></node>
+    <node id="n413"><data key="k0">yhdG_fis</data></node>
+    <node id="n414"><data key="k0">yhfA</data></node>
+    <node id="n415"><data key="k0">yiaJ</data></node>
+    <node id="n416"><data key="k0">yiaKLMNOPQRS</data></node>
+    <node id="n417"><data key="k0">yjbK</data></node>
+    <node id="n418"><data key="k0">yjdHG</data></node>
+    <node id="n419"><data key="k0">zntA</data></node>
+    <node id="n420"><data key="k0">zntR</data></node>
+    <node id="n421"><data key="k0">znuABC</data></node>
+    <node id="n422"><data key="k0">zraP</data></node>
+    <node id="n423"><data key="k0">zwf</data></node>
+
+    <edge source="n3" target="n4"><data key="k1">2</data></edge>
+    <edge source="n6" target="n6"><data key="k1">3</data></edge>
+    <edge source="n11" target="n6" />
+    <edge source="n14" target="n6" />
+    <edge source="n8" target="n9" />
+    <edge source="n356" target="n15" />
+    <edge source="n17" target="n18" />
+    <edge source="n19" target="n20"><data key="k1">3</data></edge>
+    <edge source="n20" target="n20"><data key="k1">2</data></edge>
+    <edge source="n21" target="n20"><data key="k1">3</data></edge>
+    <edge source="n22" target="n20"><data key="k1">3</data></edge>
+    <edge source="n23" target="n20" />
+    <edge source="n1" target="n24"><data key="k1">2</data></edge>
+    <edge source="n17" target="n24" />
+    <edge source="n18" target="n24" />
+    <edge source="n49" target="n24"><data key="k1">2</data></edge>
+    <edge source="n73" target="n24" />
+    <edge source="n76" target="n24"><data key="k1">2</data></edge>
+    <edge source="n85" target="n24"><data key="k1">2</data></edge>
+    <edge source="n117" target="n24"><data key="k1">2</data></edge>
+    <edge source="n144" target="n24" />
+    <edge source="n152" target="n24"><data key="k1">2</data></edge>
+    <edge source="n153" target="n24"><data key="k1">2</data></edge>
+    <edge source="n165" target="n24"><data key="k1">2</data></edge>
+    <edge source="n172" target="n24"><data key="k1">2</data></edge>
+    <edge source="n177" target="n24"><data key="k1">2</data></edge>
+    <edge source="n202" target="n24"><data key="k1">2</data></edge>
+    <edge source="n217" target="n24"><data key="k1">2</data></edge>
+    <edge source="n242" target="n24"><data key="k1">2</data></edge>
+    <edge source="n285" target="n24"><data key="k1">2</data></edge>
+    <edge source="n351" target="n24"><data key="k1">2</data></edge>
+    <edge source="n357" target="n24"><data key="k1">2</data></edge>
+    <edge source="n25" target="n30"><data key="k1">2</data></edge>
+    <edge source="n26" target="n30"><data key="k1">2</data></edge>
+    <edge source="n27" target="n30"><data key="k1">2</data></edge>
+    <edge source="n28" target="n30"><data key="k1">2</data></edge>
+    <edge source="n29" target="n30"><data key="k1">2</data></edge>
+    <edge source="n30" target="n30"><data key="k1">2</data></edge>
+    <edge source="n58" target="n30"><data key="k1">2</data></edge>
+    <edge source="n39" target="n40"><data key="k1">2</data></edge>
+    <edge source="n42" target="n43" />
+    <edge source="n43" target="n43"><data key="k1">2</data></edge>
+    <edge source="n47" target="n46" />
+    <edge source="n48" target="n46" />
+    <edge source="n49" target="n49"><data key="k1">2</data></edge>
+    <edge source="n50" target="n49"><data key="k1">2</data></edge>
+    <edge source="n51" target="n53"><data key="k1">2</data></edge>
+    <edge source="n52" target="n53"><data key="k1">2</data></edge>
+    <edge source="n54" target="n55" />
+    <edge source="n57" target="n56" />
+    <edge source="n129" target="n56" />
+    <edge source="n364" target="n59" />
+    <edge source="n368" target="n59" />
+    <edge source="n64" target="n64" />
+    <edge source="n65" target="n64" />
+    <edge source="n93" target="n64" />
+    <edge source="n103" target="n64" />
+    <edge source="n196" target="n64" />
+    <edge source="n264" target="n64"><data key="k1">2</data></edge>
+    <edge source="n340" target="n64" />
+    <edge source="n355" target="n64" />
+    <edge source="n381" target="n64"><data key="k1">2</data></edge>
+    <edge source="n406" target="n64" />
+    <edge source="n5" target="n66" />
+    <edge source="n13" target="n66" />
+    <edge source="n16" target="n66" />
+    <edge source="n19" target="n66" />
+    <edge source="n20" target="n66" />
+    <edge source="n21" target="n66" />
+    <edge source="n22" target="n66" />
+    <edge source="n23" target="n66" />
+    <edge source="n56" target="n66" />
+    <edge source="n57" target="n66" />
+    <edge source="n60" target="n66" />
+    <edge source="n63" target="n66" />
+    <edge source="n66" target="n66"><data key="k1">3</data></edge>
+    <edge source="n72" target="n66"><data key="k1">2</data></edge>
+    <edge source="n83" target="n66" />
+    <edge source="n85" target="n66"><data key="k1">2</data></edge>
+    <edge source="n86" target="n66"><data key="k1">2</data></edge>
+    <edge source="n87" target="n66"><data key="k1">3</data></edge>
+    <edge source="n95" target="n66" />
+    <edge source="n96" target="n66" />
+    <edge source="n112" target="n66" />
+    <edge source="n118" target="n66"><data key="k1">2</data></edge>
+    <edge source="n129" target="n66" />
+    <edge source="n136" target="n66" />
+    <edge source="n144" target="n66" />
+    <edge source="n150" target="n66" />
+    <edge source="n151" target="n66" />
+    <edge source="n154" target="n66" />
+    <edge source="n155" target="n66"><data key="k1">3</data></edge>
+    <edge source="n157" target="n66" />
+    <edge source="n166" target="n66" />
+    <edge source="n167" target="n66" />
+    <edge source="n169" target="n66" />
+    <edge source="n172" target="n66" />
+    <edge source="n173" target="n66" />
+    <edge source="n174" target="n66" />
+    <edge source="n176" target="n66" />
+    <edge source="n177" target="n66" />
+    <edge source="n180" target="n66" />
+    <edge source="n182" target="n66" />
+    <edge source="n209" target="n66" />
+    <edge source="n216" target="n66" />
+    <edge source="n232" target="n66" />
+    <edge source="n233" target="n66"><data key="k1">2</data></edge>
+    <edge source="n234" target="n66" />
+    <edge source="n236" target="n66" />
+    <edge source="n237" target="n66" />
+    <edge source="n238" target="n66"><data key="k1">3</data></edge>
+    <edge source="n240" target="n66" />
+    <edge source="n245" target="n66" />
+    <edge source="n246" target="n66" />
+    <edge source="n255" target="n66" />
+    <edge source="n270" target="n66" />
+    <edge source="n271" target="n66" />
+    <edge source="n287" target="n66"><data key="k1">3</data></edge>
+    <edge source="n289" target="n66"><data key="k1">2</data></edge>
+    <edge source="n308" target="n66"><data key="k1">3</data></edge>
+    <edge source="n312" target="n66"><data key="k1">3</data></edge>
+    <edge source="n318" target="n66"><data key="k1">3</data></edge>
+    <edge source="n336" target="n66"><data key="k1">3</data></edge>
+    <edge source="n338" target="n66" />
+    <edge source="n345" target="n66"><data key="k1">3</data></edge>
+    <edge source="n351" target="n66" />
+    <edge source="n361" target="n66"><data key="k1">2</data></edge>
+    <edge source="n362" target="n66" />
+    <edge source="n369" target="n66" />
+    <edge source="n373" target="n66" />
+    <edge source="n382" target="n66"><data key="k1">3</data></edge>
+    <edge source="n387" target="n66" />
+    <edge source="n388" target="n66" />
+    <edge source="n390" target="n66" />
+    <edge source="n414" target="n66"><data key="k1">3</data></edge>
+    <edge source="n416" target="n66" />
+    <edge source="n67" target="n68" />
+    <edge source="n68" target="n68" />
+    <edge source="n186" target="n69" />
+    <edge source="n193" target="n69" />
+    <edge source="n74" target="n74"><data key="k1">2</data></edge>
+    <edge source="n75" target="n74" />
+    <edge source="n77" target="n77"><data key="k1">2</data></edge>
+    <edge source="n78" target="n77" />
+    <edge source="n79" target="n77" />
+    <edge source="n80" target="n77" />
+    <edge source="n81" target="n77" />
+    <edge source="n368" target="n77" />
+    <edge source="n87" target="n82"><data key="k1">2</data></edge>
+    <edge source="n286" target="n82"><data key="k1">2</data></edge>
+    <edge source="n287" target="n82"><data key="k1">2</data></edge>
+    <edge source="n308" target="n82"><data key="k1">2</data></edge>
+    <edge source="n345" target="n82"><data key="k1">2</data></edge>
+    <edge source="n382" target="n82"><data key="k1">3</data></edge>
+    <edge source="n388" target="n82"><data key="k1">2</data></edge>
+    <edge source="n87" target="n88"><data key="k1">2</data></edge>
+    <edge source="n287" target="n88"><data key="k1">2</data></edge>
+    <edge source="n382" target="n88"><data key="k1">2</data></edge>
+    <edge source="n283" target="n90" />
+    <edge source="n345" target="n90"><data key="k1">2</data></edge>
+    <edge source="n94" target="n94"><data key="k1">2</data></edge>
+    <edge source="n95" target="n94" />
+    <edge source="n96" target="n97"><data key="k1">2</data></edge>
+    <edge source="n109" target="n109"><data key="k1">2</data></edge>
+    <edge source="n290" target="n111" />
+    <edge source="n291" target="n111" />
+    <edge source="n290" target="n113" />
+    <edge source="n114" target="n114"><data key="k1">2</data></edge>
+    <edge source="n115" target="n114"><data key="k1">2</data></edge>
+    <edge source="n400" target="n114"><data key="k1">2</data></edge>
+    <edge source="n401" target="n114"><data key="k1">2</data></edge>
+    <edge source="n116" target="n119" />
+    <edge source="n117" target="n119"><data key="k1">2</data></edge>
+    <edge source="n118" target="n119"><data key="k1">2</data></edge>
+    <edge source="n203" target="n119"><data key="k1">2</data></edge>
+    <edge source="n395" target="n119"><data key="k1">2</data></edge>
+    <edge source="n122" target="n123" />
+    <edge source="n123" target="n123" />
+    <edge source="n120" target="n127" />
+    <edge source="n197" target="n127" />
+    <edge source="n200" target="n127" />
+    <edge source="n131" target="n136" />
+    <edge source="n132" target="n136" />
+    <edge source="n135" target="n136" />
+    <edge source="n137" target="n136" />
+    <edge source="n140" target="n136" />
+    <edge source="n141" target="n136" />
+    <edge source="n142" target="n136" />
+    <edge source="n132" target="n137" />
+    <edge source="n133" target="n137" />
+    <edge source="n134" target="n137" />
+    <edge source="n135" target="n137" />
+    <edge source="n137" target="n137" />
+    <edge source="n138" target="n137" />
+    <edge source="n139" target="n137" />
+    <edge source="n140" target="n137" />
+    <edge source="n141" target="n137" />
+    <edge source="n142" target="n137" />
+    <edge source="n264" target="n137" />
+    <edge source="n367" target="n137" />
+    <edge source="n381" target="n137" />
+    <edge source="n5" target="n143" />
+    <edge source="n16" target="n143" />
+    <edge source="n24" target="n143" />
+    <edge source="n44" target="n143" />
+    <edge source="n56" target="n143" />
+    <edge source="n73" target="n143"><data key="k1">2</data></edge>
+    <edge source="n76" target="n143"><data key="k1">2</data></edge>
+    <edge source="n86" target="n143" />
+    <edge source="n89" target="n143" />
+    <edge source="n121" target="n143" />
+    <edge source="n143" target="n143"><data key="k1">2</data></edge>
+    <edge source="n144" target="n143" />
+    <edge source="n146" target="n143" />
+    <edge source="n172" target="n143" />
+    <edge source="n200" target="n143" />
+    <edge source="n202" target="n143"><data key="k1">2</data></edge>
+    <edge source="n272" target="n143" />
+    <edge source="n273" target="n143" />
+    <edge source="n276" target="n143"><data key="k1">2</data></edge>
+    <edge source="n280" target="n143" />
+    <edge source="n285" target="n143"><data key="k1">2</data></edge>
+    <edge source="n351" target="n143"><data key="k1">2</data></edge>
+    <edge source="n369" target="n143" />
+    <edge source="n1" target="n148"><data key="k1">2</data></edge>
+    <edge source="n7" target="n148"><data key="k1">2</data></edge>
+    <edge source="n147" target="n148"><data key="k1">2</data></edge>
+    <edge source="n202" target="n148" />
+    <edge source="n309" target="n148" />
+    <edge source="n318" target="n148"><data key="k1">3</data></edge>
+    <edge source="n326" target="n148"><data key="k1">2</data></edge>
+    <edge source="n150" target="n151" />
+    <edge source="n151" target="n151" />
+    <edge source="n60" target="n154"><data key="k1">2</data></edge>
+    <edge source="n110" target="n154"><data key="k1">2</data></edge>
+    <edge source="n123" target="n154"><data key="k1">2</data></edge>
+    <edge source="n124" target="n154"><data key="k1">2</data></edge>
+    <edge source="n125" target="n154"><data key="k1">2</data></edge>
+    <edge source="n126" target="n154"><data key="k1">2</data></edge>
+    <edge source="n128" target="n154"><data key="k1">2</data></edge>
+    <edge source="n154" target="n154"><data key="k1">2</data></edge>
+    <edge source="n357" target="n154"><data key="k1">2</data></edge>
+    <edge source="n374" target="n154"><data key="k1">2</data></edge>
+    <edge source="n155" target="n156"><data key="k1">2</data></edge>
+    <edge source="n157" target="n156"><data key="k1">2</data></edge>
+    <edge source="n157" target="n157"><data key="k1">2</data></edge>
+    <edge source="n255" target="n157"><data key="k1">2</data></edge>
+    <edge source="n159" target="n158"><data key="k1">2</data></edge>
+    <edge source="n160" target="n160"><data key="k1">2</data></edge>
+    <edge source="n162" target="n160"><data key="k1">3</data></edge>
+    <edge source="n162" target="n161"><data key="k1">2</data></edge>
+    <edge source="n165" target="n164" />
+    <edge source="n169" target="n169"><data key="k1">3</data></edge>
+    <edge source="n171" target="n169"><data key="k1">3</data></edge>
+    <edge source="n267" target="n169" />
+    <edge source="n172" target="n175"><data key="k1">2</data></edge>
+    <edge source="n173" target="n175"><data key="k1">2</data></edge>
+    <edge source="n174" target="n175"><data key="k1">2</data></edge>
+    <edge source="n176" target="n175"><data key="k1">2</data></edge>
+    <edge source="n108" target="n181"><data key="k1">2</data></edge>
+    <edge source="n180" target="n181"><data key="k1">2</data></edge>
+    <edge source="n182" target="n181"><data key="k1">2</data></edge>
+    <edge source="n187" target="n188" />
+    <edge source="n188" target="n188"><data key="k1">2</data></edge>
+    <edge source="n1" target="n190" />
+    <edge source="n57" target="n190"><data key="k1">2</data></edge>
+    <edge source="n58" target="n190"><data key="k1">3</data></edge>
+    <edge source="n92" target="n190" />
+    <edge source="n107" target="n190" />
+    <edge source="n144" target="n190" />
+    <edge source="n165" target="n190" />
+    <edge source="n171" target="n190"><data key="k1">3</data></edge>
+    <edge source="n190" target="n190"><data key="k1">2</data></edge>
+    <edge source="n191" target="n190"><data key="k1">2</data></edge>
+    <edge source="n197" target="n190" />
+    <edge source="n200" target="n190" />
+    <edge source="n272" target="n190" />
+    <edge source="n273" target="n190" />
+    <edge source="n285" target="n190"><data key="k1">2</data></edge>
+    <edge source="n290" target="n190"><data key="k1">2</data></edge>
+    <edge source="n291" target="n190"><data key="k1">3</data></edge>
+    <edge source="n292" target="n190"><data key="k1">2</data></edge>
+    <edge source="n295" target="n190"><data key="k1">2</data></edge>
+    <edge source="n314" target="n190" />
+    <edge source="n357" target="n190"><data key="k1">2</data></edge>
+    <edge source="n369" target="n190" />
+    <edge source="n192" target="n192" />
+    <edge source="n56" target="n193"><data key="k1">2</data></edge>
+    <edge source="n136" target="n193" />
+    <edge source="n137" target="n193" />
+    <edge source="n193" target="n193"><data key="k1">2</data></edge>
+    <edge source="n278" target="n193" />
+    <edge source="n294" target="n193" />
+    <edge source="n332" target="n193" />
+    <edge source="n365" target="n193"><data key="k1">2</data></edge>
+    <edge source="n197" target="n197"><data key="k1">2</data></edge>
+    <edge source="n422" target="n198" />
+    <edge source="n1" target="n203"><data key="k1">2</data></edge>
+    <edge source="n5" target="n203"><data key="k1">2</data></edge>
+    <edge source="n204" target="n204" />
+    <edge source="n205" target="n207" />
+    <edge source="n207" target="n207"><data key="k1">2</data></edge>
+    <edge source="n212" target="n213" />
+    <edge source="n216" target="n215"><data key="k1">2</data></edge>
+    <edge source="n218" target="n219" />
+    <edge source="n222" target="n222"><data key="k1">2</data></edge>
+    <edge source="n307" target="n222"><data key="k1">2</data></edge>
+    <edge source="n333" target="n222"><data key="k1">2</data></edge>
+    <edge source="n334" target="n222"><data key="k1">2</data></edge>
+    <edge source="n347" target="n222"><data key="k1">2</data></edge>
+    <edge source="n363" target="n222"><data key="k1">2</data></edge>
+    <edge source="n366" target="n222"><data key="k1">2</data></edge>
+    <edge source="n393" target="n222"><data key="k1">2</data></edge>
+    <edge source="n396" target="n222"><data key="k1">2</data></edge>
+    <edge source="n397" target="n222"><data key="k1">2</data></edge>
+    <edge source="n398" target="n222"><data key="k1">2</data></edge>
+    <edge source="n399" target="n222"><data key="k1">2</data></edge>
+    <edge source="n162" target="n227" />
+    <edge source="n178" target="n227" />
+    <edge source="n206" target="n227" />
+    <edge source="n211" target="n227"><data key="k1">3</data></edge>
+    <edge source="n223" target="n227"><data key="k1">2</data></edge>
+    <edge source="n224" target="n227"><data key="k1">2</data></edge>
+    <edge source="n227" target="n227"><data key="k1">2</data></edge>
+    <edge source="n231" target="n227"><data key="k1">2</data></edge>
+    <edge source="n290" target="n227"><data key="k1">2</data></edge>
+    <edge source="n291" target="n227" />
+    <edge source="n293" target="n227"><data key="k1">2</data></edge>
+    <edge source="n294" target="n227" />
+    <edge source="n350" target="n227"><data key="k1">2</data></edge>
+    <edge source="n352" target="n227" />
+    <edge source="n365" target="n227" />
+    <edge source="n228" target="n229" />
+    <edge source="n229" target="n229"><data key="k1">2</data></edge>
+    <edge source="n369" target="n229" />
+    <edge source="n233" target="n233"><data key="k1">2</data></edge>
+    <edge source="n238" target="n233"><data key="k1">2</data></edge>
+    <edge source="n232" target="n237" />
+    <edge source="n234" target="n237" />
+    <edge source="n235" target="n237" />
+    <edge source="n236" target="n237" />
+    <edge source="n239" target="n237" />
+    <edge source="n145" target="n241" />
+    <edge source="n153" target="n241" />
+    <edge source="n241" target="n241"><data key="k1">2</data></edge>
+    <edge source="n277" target="n241" />
+    <edge source="n357" target="n241" />
+    <edge source="n423" target="n241" />
+    <edge source="n245" target="n246" />
+    <edge source="n246" target="n246"><data key="k1">2</data></edge>
+    <edge source="n247" target="n251"><data key="k1">2</data></edge>
+    <edge source="n248" target="n251"><data key="k1">2</data></edge>
+    <edge source="n249" target="n251"><data key="k1">2</data></edge>
+    <edge source="n251" target="n251"><data key="k1">2</data></edge>
+    <edge source="n252" target="n251"><data key="k1">2</data></edge>
+    <edge source="n179" target="n252" />
+    <edge source="n247" target="n252" />
+    <edge source="n250" target="n252" />
+    <edge source="n252" target="n252"><data key="k1">2</data></edge>
+    <edge source="n256" target="n257" />
+    <edge source="n237" target="n258"><data key="k1">2</data></edge>
+    <edge source="n240" target="n258"><data key="k1">2</data></edge>
+    <edge source="n317" target="n258"><data key="k1">2</data></edge>
+    <edge source="n318" target="n258"><data key="k1">2</data></edge>
+    <edge source="n259" target="n259" />
+    <edge source="n260" target="n261"><data key="k1">2</data></edge>
+    <edge source="n265" target="n265"><data key="k1">2</data></edge>
+    <edge source="n163" target="n267"><data key="k1">2</data></edge>
+    <edge source="n267" target="n267"><data key="k1">2</data></edge>
+    <edge source="n325" target="n267" />
+    <edge source="n268" target="n269"><data key="k1">2</data></edge>
+    <edge source="n306" target="n269"><data key="k1">2</data></edge>
+    <edge source="n168" target="n270"><data key="k1">3</data></edge>
+    <edge source="n240" target="n270"><data key="k1">2</data></edge>
+    <edge source="n270" target="n270"><data key="k1">2</data></edge>
+    <edge source="n271" target="n270"><data key="k1">2</data></edge>
+    <edge source="n7" target="n274"><data key="k1">2</data></edge>
+    <edge source="n56" target="n274"><data key="k1">2</data></edge>
+    <edge source="n86" target="n274"><data key="k1">2</data></edge>
+    <edge source="n89" target="n274"><data key="k1">2</data></edge>
+    <edge source="n121" target="n274" />
+    <edge source="n144" target="n274"><data key="k1">2</data></edge>
+    <edge source="n146" target="n274"><data key="k1">2</data></edge>
+    <edge source="n272" target="n274" />
+    <edge source="n273" target="n274" />
+    <edge source="n280" target="n274" />
+    <edge source="n284" target="n274" />
+    <edge source="n285" target="n274" />
+    <edge source="n375" target="n274"><data key="k1">2</data></edge>
+    <edge source="n278" target="n279" />
+    <edge source="n5" target="n282" />
+    <edge source="n7" target="n282" />
+    <edge source="n13" target="n282" />
+    <edge source="n14" target="n282" />
+    <edge source="n18" target="n282" />
+    <edge source="n64" target="n282" />
+    <edge source="n92" target="n282" />
+    <edge source="n149" target="n282" />
+    <edge source="n210" target="n282" />
+    <edge source="n275" target="n282" />
+    <edge source="n278" target="n282" />
+    <edge source="n294" target="n282" />
+    <edge source="n296" target="n282" />
+    <edge source="n312" target="n282" />
+    <edge source="n67" target="n292" />
+    <edge source="n68" target="n292" />
+    <edge source="n118" target="n292"><data key="k1">2</data></edge>
+    <edge source="n136" target="n292"><data key="k1">2</data></edge>
+    <edge source="n290" target="n292" />
+    <edge source="n291" target="n292"><data key="k1">3</data></edge>
+    <edge source="n10" target="n298" />
+    <edge source="n92" target="n298" />
+    <edge source="n183" target="n298" />
+    <edge source="n210" target="n298" />
+    <edge source="n298" target="n298"><data key="k1">2</data></edge>
+    <edge source="n299" target="n299"><data key="k1">2</data></edge>
+    <edge source="n302" target="n304" />
+    <edge source="n303" target="n304" />
+    <edge source="n304" target="n304" />
+    <edge source="n305" target="n304" />
+    <edge source="n316" target="n304" />
+    <edge source="n314" target="n315" />
+    <edge source="n62" target="n324"><data key="k1">2</data></edge>
+    <edge source="n71" target="n324"><data key="k1">2</data></edge>
+    <edge source="n162" target="n324"><data key="k1">2</data></edge>
+    <edge source="n170" target="n324"><data key="k1">2</data></edge>
+    <edge source="n179" target="n324"><data key="k1">2</data></edge>
+    <edge source="n185" target="n324"><data key="k1">2</data></edge>
+    <edge source="n313" target="n324"><data key="k1">2</data></edge>
+    <edge source="n319" target="n324"><data key="k1">2</data></edge>
+    <edge source="n320" target="n324"><data key="k1">2</data></edge>
+    <edge source="n321" target="n324"><data key="k1">2</data></edge>
+    <edge source="n322" target="n324"><data key="k1">2</data></edge>
+    <edge source="n323" target="n324"><data key="k1">2</data></edge>
+    <edge source="n324" target="n324"><data key="k1">2</data></edge>
+    <edge source="n327" target="n324"><data key="k1">2</data></edge>
+    <edge source="n328" target="n324"><data key="k1">2</data></edge>
+    <edge source="n360" target="n324"><data key="k1">2</data></edge>
+    <edge source="n411" target="n324"><data key="k1">2</data></edge>
+    <edge source="n325" target="n325"><data key="k1">2</data></edge>
+    <edge source="n329" target="n330"><data key="k1">2</data></edge>
+    <edge source="n149" target="n331" />
+    <edge source="n331" target="n331" />
+    <edge source="n403" target="n331" />
+    <edge source="n336" target="n337" />
+    <edge source="n337" target="n337" />
+    <edge source="n338" target="n337" />
+    <edge source="n41" target="n339" />
+    <edge source="n153" target="n339" />
+    <edge source="n155" target="n339"><data key="k1">2</data></edge>
+    <edge source="n208" target="n339" />
+    <edge source="n241" target="n339" />
+    <edge source="n243" target="n339" />
+    <edge source="n277" target="n339" />
+    <edge source="n357" target="n339" />
+    <edge source="n409" target="n339" />
+    <edge source="n410" target="n339" />
+    <edge source="n412" target="n339" />
+    <edge source="n423" target="n339" />
+    <edge source="n341" target="n342"><data key="k1">2</data></edge>
+    <edge source="n342" target="n342"><data key="k1">2</data></edge>
+    <edge source="n70" target="n344" />
+    <edge source="n84" target="n344" />
+    <edge source="n98" target="n344" />
+    <edge source="n99" target="n344" />
+    <edge source="n100" target="n344" />
+    <edge source="n101" target="n344" />
+    <edge source="n102" target="n344" />
+    <edge source="n103" target="n344" />
+    <edge source="n104" target="n344" />
+    <edge source="n105" target="n344" />
+    <edge source="n106" target="n344" />
+    <edge source="n130" target="n344" />
+    <edge source="n196" target="n344" />
+    <edge source="n214" target="n344" />
+    <edge source="n226" target="n344" />
+    <edge source="n244" target="n344" />
+    <edge source="n281" target="n344" />
+    <edge source="n297" target="n344" />
+    <edge source="n335" target="n344" />
+    <edge source="n343" target="n344" />
+    <edge source="n344" target="n344" />
+    <edge source="n345" target="n344" />
+    <edge source="n355" target="n344" />
+    <edge source="n394" target="n344" />
+    <edge source="n406" target="n344" />
+    <edge source="n61" target="n345" />
+    <edge source="n91" target="n345" />
+    <edge source="n184" target="n345" />
+    <edge source="n189" target="n345" />
+    <edge source="n194" target="n345" />
+    <edge source="n195" target="n345" />
+    <edge source="n201" target="n345" />
+    <edge source="n225" target="n345" />
+    <edge source="n262" target="n345" />
+    <edge source="n263" target="n345" />
+    <edge source="n46" target="n346" />
+    <edge source="n85" target="n346" />
+    <edge source="n120" target="n346" />
+    <edge source="n127" target="n346" />
+    <edge source="n169" target="n346" />
+    <edge source="n171" target="n346" />
+    <edge source="n197" target="n346" />
+    <edge source="n199" target="n346" />
+    <edge source="n267" target="n346" />
+    <edge source="n288" target="n346" />
+    <edge source="n314" target="n346" />
+    <edge source="n349" target="n346" />
+    <edge source="n422" target="n346" />
+    <edge source="n348" target="n349"><data key="k1">2</data></edge>
+    <edge source="n358" target="n358"><data key="k1">2</data></edge>
+    <edge source="n359" target="n358" />
+    <edge source="n2" target="n359" />
+    <edge source="n145" target="n359" />
+    <edge source="n153" target="n359" />
+    <edge source="n277" target="n359" />
+    <edge source="n357" target="n359" />
+    <edge source="n359" target="n359"><data key="k1">2</data></edge>
+    <edge source="n423" target="n359" />
+    <edge source="n362" target="n362"><data key="k1">2</data></edge>
+    <edge source="n369" target="n369" />
+    <edge source="n369" target="n370" />
+    <edge source="n375" target="n376" />
+    <edge source="n376" target="n376"><data key="k1">2</data></edge>
+    <edge source="n377" target="n378"><data key="k1">2</data></edge>
+    <edge source="n36" target="n380"><data key="k1">2</data></edge>
+    <edge source="n37" target="n380"><data key="k1">2</data></edge>
+    <edge source="n266" target="n380"><data key="k1">2</data></edge>
+    <edge source="n379" target="n380"><data key="k1">2</data></edge>
+    <edge source="n380" target="n380"><data key="k1">2</data></edge>
+    <edge source="n34" target="n385"><data key="k1">2</data></edge>
+    <edge source="n35" target="n385"><data key="k1">2</data></edge>
+    <edge source="n37" target="n385"><data key="k1">2</data></edge>
+    <edge source="n38" target="n385"><data key="k1">2</data></edge>
+    <edge source="n266" target="n385" />
+    <edge source="n383" target="n385"><data key="k1">2</data></edge>
+    <edge source="n384" target="n385"><data key="k1">3</data></edge>
+    <edge source="n385" target="n385"><data key="k1">2</data></edge>
+    <edge source="n390" target="n389" />
+    <edge source="n392" target="n391"><data key="k1">2</data></edge>
+    <edge source="n392" target="n401"><data key="k1">2</data></edge>
+    <edge source="n401" target="n401"><data key="k1">2</data></edge>
+    <edge source="n404" target="n405" />
+    <edge source="n407" target="n408" />
+    <edge source="n408" target="n408" />
+    <edge source="n7" target="n413" />
+    <edge source="n12" target="n413" />
+    <edge source="n13" target="n413"><data key="k1">3</data></edge>
+    <edge source="n31" target="n413" />
+    <edge source="n32" target="n413" />
+    <edge source="n33" target="n413" />
+    <edge source="n45" target="n413" />
+    <edge source="n220" target="n413" />
+    <edge source="n221" target="n413" />
+    <edge source="n230" target="n413" />
+    <edge source="n253" target="n413" />
+    <edge source="n254" target="n413" />
+    <edge source="n283" target="n413" />
+    <edge source="n299" target="n413" />
+    <edge source="n300" target="n413" />
+    <edge source="n301" target="n413" />
+    <edge source="n310" target="n413" />
+    <edge source="n311" target="n413" />
+    <edge source="n312" target="n413" />
+    <edge source="n351" target="n413" />
+    <edge source="n353" target="n413" />
+    <edge source="n354" target="n413" />
+    <edge source="n371" target="n413" />
+    <edge source="n372" target="n413" />
+    <edge source="n386" target="n413" />
+    <edge source="n402" target="n413" />
+    <edge source="n413" target="n413"><data key="k1">2</data></edge>
+    <edge source="n416" target="n415"><data key="k1">2</data></edge>
+    <edge source="n421" target="n417"><data key="k1">2</data></edge>
+    <edge source="n85" target="n418" />
+    <edge source="n86" target="n418" />
+    <edge source="n146" target="n418" />
+    <edge source="n419" target="n420" />
+  </graph>
+
+</graphml>

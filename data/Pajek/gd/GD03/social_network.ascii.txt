@@ -1,0 +1,36 @@
+** Description
+
+This document contains one of two graphs provided for 
+the 2003 Graph Drawing Contest.  
+
+It is a small social network, in which nodes represent organizations 
+involved in drug policy making, and edges represent (undirected) informal 
+communication between members of different organizations.  Due to the 
+nature of the data, there is uncertainty about the existence of a relation.
+Confirmed relations, i.e. those that exist for sure, are regarded more 
+important than others.
+
+The state of an edge is marked by a boolean attribute.
+
+A visualization of this network should clearly depict the structure
+of the overall network, of the subnetwork consisting only of confirmed
+relations, and the way in which the latter is embedded in the former.
+
+Data courtesy of Patrick Kenis, Tilburg University, The Netherlands.
+
+** DATA FORMAT
+
+<int>no of nodes
+<int>id_node1
+<int>id_node2
+<int>id_node3
+...
+
+<int>no of edges
+<int>id_source_node <int>id_target_node <int>important
+...
+
+where
+
+important is 0: false
+	     1: true

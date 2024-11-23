@@ -1,0 +1,43 @@
+** Description
+
+This document contains one of two graphs provided for 
+the 2003 Graph Drawing Contest.
+
+It consists of a biological network representing the transcriptional
+regulation of Escherichia coli, i.e. nodes represent operons and
+transcription factors, and (directed) edges represent interactions.
+Note that there are loops (autoregulation).
+
+There is a string-valued node attribute (operon name) 
+and an integer edge attribute (regulation type).
+
+Particularly interesting about this network is the frequent
+occurrence of small subgraphs, so-called motifs, described in 
+
+Network motifs 
+in the transcriptional regulation network of Escherichia coli
+S S SHEN-ORR, R MILO, S MANGAN and U ALON, Nature Genetics 31(1):64-68
+
+How can a visualization highlight such motifs using graph drawing methods?
+
+Data courtesy of Uri Alon, The Weizmann Institute, Israel.
+
+** DATA FORMAT
+
+<int>no of nodes
+<int>id_node1 <string>name
+<int>id_node2 <string>name
+<int>id_node3 <string>name
+...
+
+<int>no of edges
+<int>id_source_node <int>id_target_node <int>type
+...
+
+where
+
+name is Name of operon
+
+type is 1: activator
+	2: repressor
+	3: dual

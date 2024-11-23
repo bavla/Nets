@@ -1,0 +1,959 @@
+*Vertices    311
+      1 "GD 94, 1 Cohen, ..."                    0.1143    0.8214    0.5000 box ic Yellow x_fact    8.2 y_fact    4.2
+      2 "GD 94, 12 Reiss"                        0.1500    0.5643    0.5000 box ic Yellow x_fact    8.6 y_fact    4.2
+      3 "GD 94, 25 Jeron, ..."                   0.1786    0.8214    0.5000
+      4 "GD 94, 33 Mohar"                        0.0600    0.3071    0.5000
+      5 "GD 94, 40 Papakostas, ..."              0.1250    0.8857    0.5000 box ic Yellow x_fact   12.0 y_fact    4.2
+      6 "GD 94, 52 Foessmeier, ..."              0.0821    0.3714    0.5000 box ic Yellow x_fact   11.1 y_fact    4.2
+      7 "GD 94, 64 Even, ..."                    0.1143    0.3714    0.5000 box ic Yellow x_fact    8.6 y_fact    4.2
+      8 "GD 94, 76 Djidjev"                      0.0700    0.3071    0.5000
+      9 "GD 94, 84 Garg"                         0.0974    0.6929    0.5000
+     10 "GD 94, 96 He, ..."                      0.0800    0.3071    0.5000
+     11 "GD 94, 104 Chrobak, ..."                0.1464    0.3714    0.5000 box ic Yellow x_fact    9.6 y_fact    4.2
+     12 "GD 94, 111 Fraysseix, ..."              0.1786    0.3714    0.5000 box ic Yellow x_fact   10.0 y_fact    4.2
+     13 "GD 94, 119 Juenger, ..."                0.0900    0.3071    0.5000 box ic Yellow x_fact    9.6 y_fact    4.2
+     14 "GD 94, 131 Shahrokhi, ..."              0.1000    0.3071    0.5000 box ic Yellow x_fact   10.8 y_fact    4.2
+     15 "GD 94, 143 Eades, ..."                  0.1063    0.4357    0.5000 box ic Yellow x_fact    9.6 y_fact    4.2
+     16 "GD 94, 147 Abello, ..."                 0.1100    0.3071    0.5000
+     17 "GD 94, 159 Dean, ..."                   0.1318    0.5000    0.5000
+     18 "GD 94, 167 Kranakis, ..."               0.2107    0.3714    0.5000 box ic Yellow x_fact    9.7 y_fact    4.2
+     19 "GD 94, 177 Romanik"                     0.2429    0.3714    0.5000 box ic Yellow x_fact    9.6 y_fact    4.2
+     20 "GD 94, 182 Himsolt"                     0.2000    0.8857    0.5000
+     21 "GD 94, 194 Sander"                      0.2750    0.3714    0.5000
+     22 "GD 94, 206 Tollis, ..."                 0.2136    0.5000    0.5000
+     23 "GD 94, 218 Kimelman, ..."               0.3071    0.3714    0.5000 box ic Yellow x_fact   10.3 y_fact    4.2
+     24 "GD 94, 226 Vogt, ..."                   0.3393    0.3714    0.5000 box ic Yellow x_fact    9.6 y_fact    4.2
+     25 "GD 94, 234 Tanenbaum, ..."              0.1200    0.3071    0.5000 box ic Yellow x_fact   12.1 y_fact    4.2
+     26 "GD 94, 246 Abellanas, ..."              0.1300    0.3071    0.5000 box ic Yellow x_fact   10.5 y_fact    4.2
+     27 "GD 94, 254 Godau"                       0.1400    0.3071    0.5000 box ic Yellow x_fact    9.6 y_fact    4.2
+     28 "GD 94,262 Manning, ..."                 0.2500    0.5643    0.5000 box ic Yellow x_fact    9.7 y_fact    4.2
+     29 "GD 94, 266 Froehlich, ..."              0.1625    0.4357    0.5000 box ic Yellow x_fact    9.6 y_fact    4.2
+     30 "GD 94, 270 McCreary, ..."               0.2429    0.8214    0.5000 box ic Yellow x_fact   10.3 y_fact    4.2
+     31 "GD 94, 274 McWhirter"                   0.1500    0.3071    0.5000 box ic Yellow x_fact    9.6 y_fact    4.2
+     32 "GD 94, 278 Kaugars, ..."                0.2955    0.5000    0.5000
+     33 "GD 94, 282 Fowler, ..."                 0.3071    0.8214    0.5000
+     34 "GD 94, 286 Garg, .... "                 0.3500    0.9500    0.5000
+     35 "GD 94, 298 Papakostas"                  0.6500    0.9500    0.5000 box ic Yellow x_fact    9.7 y_fact    4.2
+     36 "GD 94, 307 Crescenzi, ..."              0.3714    0.3714    0.5000 box ic Yellow x_fact   10.5 y_fact    4.2
+     37 "GD 94, 318 Jourdan, ..."                0.1600    0.3071    0.5000 box ic Yellow x_fact    9.6 y_fact    4.2
+     38 "GD 94, 328 Di Battista, ..."            0.4036    0.3714    0.5000 box ic Yellow x_fact   10.8 y_fact    4.2
+     39 "GD 94, 340 Bose, ..."                   0.4357    0.3714    0.5000 box ic Yellow x_fact    9.6 y_fact    4.2
+     40 "GD 94, 352 ElGindy, ..."                0.4679    0.3714    0.5000
+     41 "GD 94, 364 Sugiyama, ..."               0.3714    0.8214    0.5000 box ic Yellow x_fact   10.5 y_fact    4.2
+     42 "GD 94,  376 Lin, ..."                   0.4357    0.8214    0.5000 box ic Yellow x_fact   10.0 y_fact    4.2
+     43 "GD 94, 388 Frick, ..."                  0.5000    0.8214    0.5000 box ic Yellow x_fact    9.6 y_fact    4.2
+     44 "GD 94, 404 Cruz, ..."                   0.0929    0.7571    0.5000
+     45 "GD 94, 416 Brandenburg"                 0.1357    0.7571    0.5000 box ic Yellow x_fact   10.5 y_fact    4.2
+     46 "GD 94, 428 Noik"                        0.3773    0.5000    0.5000 box ic Yellow x_fact    9.6 y_fact    4.2
+     47 "GD 94, 436 Luo, ..."                    0.1700    0.3071    0.5000
+     48 "GD 94, 444 Saalfeld"                    0.1800    0.3071    0.5000
+     49 "GD 94, 452 Stumme, ..."                 0.1900    0.3071    0.5000
+     50 "GD 94, 461 Whitesides"                  0.2000    0.3071    0.5000
+     51 "GD 95, 1 Agarwal, ..."                  0.5000    0.3714    0.5000 box ic Cyan x_fact    9.2 y_fact    4.2
+     52 "GD 95, 8 Alt, ..."                      0.2100    0.3071    0.5000 box ic Cyan x_fact    7.7 y_fact    4.2
+     53 "GD 95, 20 Benz"                         0.2200    0.3071    0.5000 box ic Cyan x_fact    8.6 y_fact    4.2
+     54 "GD 95, 24 Bertault"                     0.5321    0.3714    0.5000
+     55 "GD 95, 28 Biedl"                        0.2750    0.8857    0.5000
+     56 "GD 95, 40 Blythe, ..."                  0.1447    0.6929    0.5000
+     57 "GD 95, 52 Bose, ..."                    0.0684    0.2429    0.5000
+     58 "GD 95, 64 Bose, ..."                    0.2300    0.3071    0.5000
+     59 "GD 95, 76 Brandenburg, ..."             0.1786    0.7571    0.5000 box ic Cyan x_fact   12.7 y_fact    4.2
+     60 "GD 95, 88 Breu, ..."                    0.3500    0.8857    0.5000 box ic Cyan x_fact    8.6 y_fact    4.2
+     61 "GD 95, 99 Bruss, ..."                   0.4591    0.5000    0.5000
+     62 "GD 95, 111 Buti, ..."                   0.5643    0.8214    0.5000 box ic Cyan x_fact    9.6 y_fact    4.2
+     63 "GD 95, 123 Carbonneaux, ..."            0.5643    0.3714    0.5000 box ic Cyan x_fact   13.0 y_fact    4.2
+     64 "GD 95, 127 Carpendale, ..."             0.2188    0.4357    0.5000 box ic Cyan x_fact   11.7 y_fact    4.2
+     65 "GD 95, 140 Chandramouli, ..."           0.4250    0.8857    0.5000 box ic Cyan x_fact   13.2 y_fact    4.2
+     66 "GD 95, 152 Cobos"                       0.0867    0.2429    0.5000 box ic Cyan x_fact    9.6 y_fact    4.2
+     67 "GD 95, 162 Cruz, ..."                   0.2214    0.7571    0.5000
+     68 "GD 95, 166 Devroye, ..."                0.2400    0.3071    0.5000
+     69 "GD 95, 178 Di Battista, ..."            0.2500    0.3071    0.5000 box ic Cyan x_fact   10.8 y_fact    4.2
+     70 "GD 95, 190 Dodson"                      0.2750    0.4357    0.5000 box ic Cyan x_fact    9.6 y_fact    4.2
+     71 "GD 95, 202 Eades, ..."                  0.2600    0.3071    0.5000
+     72 "GD 95, 212 Eades, ..."                  0.2643    0.7571    0.5000
+     73 "GD 95, 224 Eades, ..."                  0.3071    0.7571    0.5000
+     74 "GD 95, 234 Fekete, ..."                 0.2700    0.3071    0.5000
+     75 "GD 95, 242 Formella, ..."               0.2800    0.3071    0.5000
+     76 "GD 95, 254 Foessmeier, ..."             0.5000    0.8857    0.5000 box ic Cyan x_fact   11.1 y_fact    4.2
+     77 "GD 95, 267 Gropp"                       0.2900    0.3071    0.5000 box ic Cyan x_fact    9.6 y_fact    4.2
+     78 "GD 95, 277 Hashemi, ..."                0.5750    0.8857    0.5000 box ic Cyan x_fact    9.7 y_fact    4.2
+     79 "GD 95, 287 He"                          0.3000    0.3071    0.5000 box ic Cyan x_fact    9.6 y_fact    4.2
+     80 "GD 95, 300 Heath, ..."                  0.6500    0.8857    0.5000
+     81 "GD 95, 312 Hlineny"                     0.7250    0.8857    0.5000
+     82 "GD 95, 324 Hutchinson, ..."             0.3313    0.4357    0.5000 box ic Cyan x_fact   11.7 y_fact    4.2
+     83 "GD 95, 333 Ignatowicz"                  0.3500    0.7571    0.5000 box ic Cyan x_fact    9.6 y_fact    4.2
+     84 "GD 95, 337 Juenger, ..."                0.5964    0.3714    0.5000
+     85 "GD 95, 349 Kamps, ..."                  0.3929    0.7571    0.5000
+     86 "GD 95, 361 Kikusts, ..."                0.4357    0.7571    0.5000
+     87 "GD 95, 365 Kratochvil, ..."             0.8000    0.8857    0.5000 box ic Cyan x_fact   10.6 y_fact    4.2
+     88 "GD 95, 373 Lenhart, ..."                0.1051    0.2429    0.5000 box ic Cyan x_fact    9.6 y_fact    4.2
+     89 "GD 95, 385 Madden, ..."                 0.6286    0.8214    0.5000
+     90 "GD 95, 396 Monien, ..."                 0.4786    0.7571    0.5000
+     91 "GD 95, 409 North"                       0.5214    0.7571    0.5000
+     92 "GD 95, 419 Papakostas, ..."             0.6929    0.8214    0.5000 box ic Cyan x_fact   12.0 y_fact    4.2
+     93 "GD 95, 431 Paris"                       0.3100    0.3071    0.5000 box ic Cyan x_fact    9.6 y_fact    4.2
+     94 "GD 95, 435 Purchase, ..."               0.1786    0.6286    0.5000 box ic Cyan x_fact   10.3 y_fact    4.2
+     95 "GD 95, 447 Sander"                      0.3200    0.3071    0.5000 box ic Cyan x_fact    9.6 y_fact    4.2
+     96 "GD 95, 459 Sander, ..."                 0.3300    0.3071    0.5000
+     97 "GD 95, 463 Shahrokhi, ..."              0.1235    0.2429    0.5000 box ic Cyan x_fact   10.8 y_fact    4.2
+     98 "GD 95, 472 Shieh, ..."                  0.5643    0.7571    0.5000 box ic Cyan x_fact    9.6 y_fact    4.2
+     99 "GD 95, 487 Storey, ...."                0.1418    0.2429    0.5000
+    100 "GD 95, 500 Sugiyama, ..."               0.6286    0.3714    0.5000 box ic Cyan x_fact   10.5 y_fact    4.2
+    101 "GD 95, 504 Wang, ..."                   0.6071    0.7571    0.5000 box ic Cyan x_fact    9.6 y_fact    4.2
+    102 "GD 95, 516 Webber, ..."                 0.3400    0.3071    0.5000
+    103 "GD 95, 520 Yang, ..."                   0.1602    0.2429    0.5000
+    104 "GD 96, 1 Abellanas, ..."                0.1921    0.6929    0.5000 box ic Magenta x_fact   10.5 y_fact    4.2
+    105 "GD 96, 11 Alzohairi, ..."               0.3500    0.3071    0.5000 box ic Magenta x_fact    9.4 y_fact    4.2
+    106 "GD 96, 25 Bose, ..."                    0.1786    0.2429    0.5000 box ic Magenta x_fact    8.6 y_fact    4.2
+    107 "GD 96, 45 Bridgeman, ..."               0.2395    0.6929    0.5000 box ic Magenta x_fact   11.1 y_fact    4.2
+    108 "GD 96, 53 Calamoneri, ..."              0.6500    0.7571    0.5000 box ic Magenta x_fact   11.4 y_fact    4.2
+    109 "GD 96, 63 Chan, ..."                    0.3600    0.3071    0.5000 box ic Magenta x_fact    8.6 y_fact    4.2
+    110 "GD 96, 76 Di Battista, ..."             0.0810    0.1786    0.5000 box ic Magenta x_fact   10.8 y_fact    4.2
+    111 "GD 96, 92 Dogrusoez, ..."               0.3875    0.4357    0.5000
+    112 "GD 96, 101 Eades, ..."                  0.6929    0.7571    0.5000 box ic Magenta x_fact    9.6 y_fact    4.2
+    113 "GD 96, 113 Eades, ..."                  0.5409    0.5000    0.5000
+    114 "GD 96, 129 Eades, ..."                  0.4438    0.4357    0.5000
+    115 "GD 96, 139 Eades, ..."                  0.2868    0.6929    0.5000
+    116 "GD 96, 155 Foessmeier, ..."             0.6607    0.3714    0.5000 box ic Magenta x_fact   11.1 y_fact    4.2
+    117 "GD 96, 169 Frick"                       0.3700    0.3071    0.5000 box ic Magenta x_fact    9.6 y_fact    4.2
+    118 "GD 96, 184 Frick, ..."                  0.5000    0.4357    0.5000
+    119 "GD 96, 193 Garg, ..."                   0.6929    0.3714    0.5000
+    120 "GD 96, 201 Garg, ..."                   0.3800    0.3071    0.5000
+    121 "GD 96, 217 He, ..."                     0.3342    0.6929    0.5000
+    122 "GD 96, 233 Himsolt"                     0.3900    0.3071    0.5000
+    123 "GD 96, 241 Kakoulis, ..."               0.1969    0.2429    0.5000
+    124 "GD 96, 257 Kratochvil"                  0.7571    0.8214    0.5000
+    125 "GD 96, 271 Kuchem, ..."                 0.4000    0.3071    0.5000
+    126 "GD 96, 286 Lenhart, ..."                0.2153    0.2429    0.5000
+    127 "GD 96, 303 Lozada, ..."                 0.4100    0.3071    0.5000
+    128 "GD 96, 318 Mutzel"                      0.4200    0.3071    0.5000
+    129 "GD 96, 334 Nakano, ..."                 0.4300    0.3071    0.5000
+    130 "GD 96, 345 Pach, ..."                   0.4400    0.3071    0.5000
+    131 "GD 96, 355 Papakostas, ..."             0.7357    0.7571    0.5000 box ic Magenta x_fact   12.0 y_fact    4.2
+    132 "GD 96, 371 Papakostas, ..."             0.7786    0.7571    0.5000
+    133 "GD 96, 387 Ryall, ..."                  0.3816    0.6929    0.5000 box ic Magenta x_fact    9.6 y_fact    4.2
+    134 "GD 96, 395 Sablowski, ..."              0.4289    0.6929    0.5000 box ic Magenta x_fact   10.8 y_fact    4.2
+    135 "GD 96, 401 Wittenburg, ..."             0.4500    0.3071    0.5000 box ic Magenta x_fact   11.4 y_fact    4.2
+    136 "GD 98, 1 Aggarwal, ..."                 0.2337    0.2429    0.5000 box ic Red x_fact   10.2 y_fact    4.2
+    137 "GD 98, 15 Bertolazzi, ..."              0.2520    0.2429    0.5000 box ic Red x_fact   10.3 y_fact    4.2
+    138 "GD 98, 30 Biedl"                        0.1121    0.1786    0.5000 box ic Red x_fact    8.6 y_fact    4.2
+    139 "GD 98, 44 Brandes, ..."                 0.3071    0.6286    0.5000 box ic Red x_fact    9.4 y_fact    4.2
+    140 "GD 98, 57 Bridgeman, ..."               0.3500    0.5643    0.5000 box ic Red x_fact   11.1 y_fact    4.2
+    141 "GD 98, 72 Di Battista, ..."             0.2704    0.2429    0.5000 box ic Red x_fact   10.8 y_fact    4.2
+    142 "GD 98, 87 Di Battista, ..."             0.1431    0.1786    0.5000
+    143 "GD 98, 102 Dillencourt, ..."            0.4600    0.3071    0.5000 box ic Red x_fact   11.1 y_fact    4.2
+    144 "GD 98, 111 Duncan, ..."                 0.5563    0.4357    0.5000 box ic Red x_fact    9.6 y_fact    4.2
+    145 "GD 98, 125 F&Atilde;&para;ssmeier, ..."    0.2888    0.2429    0.5000 box ic Red x_fact   11.1 y_fact    4.2
+    146 "GD 98, 138 Gelfand, ..."                0.3071    0.2429    0.5000 box ic Red x_fact    9.6 y_fact    4.2
+    147 "GD 98, 153 Goodrich, ..."               0.3255    0.2429    0.5000 box ic Red x_fact   10.0 y_fact    4.2
+    148 "GD 98, 167 Gutwenger, ..."              0.3439    0.2429    0.5000 box ic Red x_fact   11.4 y_fact    4.2
+    149 "GD 98, 183 Hayashi, ..."                0.1741    0.1786    0.5000 box ic Red x_fact    9.6 y_fact    4.2
+    150 "GD 98, 198 Hong, ..."                   0.4500    0.5643    0.5000
+    151 "GD 98, 210 Houle, ..."                  0.1143    0.1143    0.5000
+    152 "GD 98, 224 J&Atilde;&frac14;nger, ..."    0.8214    0.7571    0.5000
+    153 "GD 98, 238 Kratochvil"                  0.3622    0.2429    0.5000
+    154 "GD 98, 246 Meyer"                       0.4763    0.6929    0.5000
+    155 "GD 98, 263 Pach, ..."                   0.4700    0.3071    0.5000
+    156 "GD 98, 275 Penna, ..."                  0.2052    0.1786    0.5000
+    157 "GD 98, 288 Schreiber, ..."              0.3806    0.2429    0.5000 box ic Red x_fact   10.3 y_fact    4.2
+    158 "GD 98, 302 Six, ..."                    0.3990    0.2429    0.5000 box ic Red x_fact    9.6 y_fact    4.2
+    159 "GD 98, 316 Wagner, ..."                 0.7250    0.3714    0.5000
+    160 "GD 98, 332 Wood"                        0.2362    0.1786    0.5000
+    161 "GD 98, 347 Biedl, ..."                  0.6227    0.5000    0.5000
+    162 "GD 98 356 Dogrus&Atilde;&para;z, ..."    0.1786    0.1143    0.5000 box ic Red x_fact   10.8 y_fact    4.2
+    163 "GD 98, 364 Gansner, ..."                0.2672    0.1786    0.5000 box ic Red x_fact    9.6 y_fact    4.2
+    164 "GD 98, 374 Huang, ..."                  0.7571    0.3714    0.5000
+    165 "GD 98, 384 Munzner"                     0.4800    0.3071    0.5000
+    166 "GD 98, 394 Paris"                       0.4173    0.2429    0.5000
+    167 "GD 98, 403 Steckelbach"                 0.4900    0.3071    0.5000 box ic Red x_fact   10.3 y_fact    4.2
+    168 "GD 98, 413 Tunkelang"                   0.7893    0.3714    0.5000 box ic Red x_fact    9.6 y_fact    4.2
+    169 "GD 98, 423 Eades, ..."                  0.6125    0.4357    0.5000
+    170 "GD 98, 436 Cruz, ..."                   0.5237    0.6929    0.5000
+    171 "GD 98, 438 Demaine, ..."                0.5000    0.3071    0.5000 box ic Red x_fact    9.9 y_fact    4.2
+    172 "GD 98, 441 Dengler, ..."                0.7045    0.5000    0.5000 box ic Red x_fact    9.6 y_fact    4.2
+    173 "GD 98, 444 Di Battista, ..."            0.2983    0.1786    0.5000 box ic Red x_fact   10.8 y_fact    4.2
+    174 "GD 98, 446 Frick, ..."                  0.8643    0.7571    0.5000 box ic Red x_fact    9.6 y_fact    4.2
+    175 "GD 98, 448 Garvey"                      0.5100    0.3071    0.5000
+    176 "GD 98, 450 Holzer, ..."                 0.5200    0.3071    0.5000
+    177 "GD 98, 452 Iturriaga, ..."              0.2429    0.1143    0.5000
+    178 "GD 98, 454 McCreary, ..."               0.5300    0.3071    0.5000 box ic Red x_fact   10.3 y_fact    4.2
+    179 "GD 98, 456 Mutzel, ..."                 0.5400    0.3071    0.5000 box ic Red x_fact    9.6 y_fact    4.2
+    180 "GD 98, 458 Soss"                        0.5500    0.3071    0.5000
+    181 "GD 98, 460 Wang, ..."                   0.5600    0.3071    0.5000
+    182 "GD 98, 462 Wiese, ..."                  0.4357    0.2429    0.5000
+    183 "GD 98, 464 Zhu, ..."                    0.5700    0.3071    0.5000
+    184 "GD 97, 1 Lenhart, ..."                  0.3293    0.1786    0.5000 box ic Blue x_fact    8.9 y_fact    4.2
+    185 "GD 97, 13 Juenger, ..."                 0.4541    0.2429    0.5000 box ic Blue x_fact    8.8 y_fact    4.2
+    186 "GD 97, 25 Bose"                         0.5800    0.3071    0.5000 box ic Blue x_fact    8.6 y_fact    4.2
+    187 "GD 97, 37 Shahrokhi, ..."               0.4724    0.2429    0.5000 box ic Blue x_fact   10.8 y_fact    4.2
+    188 "GD 97, 47 Pach, ..."                    0.5711    0.6929    0.5000 box ic Blue x_fact    8.6 y_fact    4.2
+    189 "GD 97, 52 Papakostas, ..."              0.5900    0.3071    0.5000 box ic Blue x_fact   12.0 y_fact    4.2
+    190 "GD 97, 64 Calamoneri, ..."              0.4908    0.2429    0.5000 box ic Blue x_fact   11.4 y_fact    4.2
+    191 "GD 97, 76 Biedl, ...."                  0.5092    0.2429    0.5000 box ic Blue x_fact    8.6 y_fact    4.2
+    192 "GD 97, 87 Eades, ..."                   0.3603    0.1786    0.5000
+    193 "GD 97, 99 Rahman, ..."                  0.5276    0.2429    0.5000 box ic Blue x_fact    9.6 y_fact    4.2
+    194 "GD 97, 111 Foessmeier"                  0.6184    0.6929    0.5000
+    195 "GD 97, 124 Angeles, ..."                0.8750    0.8857    0.5000
+    196 "GD 97, 134 Foessmeier, ..."             0.6000    0.3071    0.5000 box ic Blue x_fact   11.1 y_fact    4.2
+    197 "GD 97, 146 Eades, ..."                  0.3914    0.1786    0.5000 box ic Blue x_fact    9.6 y_fact    4.2
+    198 "GD 97, 158 Brandenburg"                 0.8214    0.3714    0.5000 box ic Blue x_fact   10.5 y_fact    4.2
+    199 "GD 97, 169 Kakoulis, ..."               0.4224    0.1786    0.5000 box ic Blue x_fact    9.6 y_fact    4.2
+    200 "GD 97, 181 Iturriaga, ..."              0.4534    0.1786    0.5000
+    201 "GD 97, 193 Juenger, ..."                0.8214    0.8214    0.5000
+    202 "GD 97, 205 Valtr"                       0.6100    0.3071    0.5000
+    203 "GD 97, 219 Lin, ..."                    0.6688    0.4357    0.5000
+    204 "GD 97, 230 de Fraysseix, ..."           0.6200    0.3071    0.5000 box ic Blue x_fact   12.3 y_fact    4.2
+    205 "GD 97, 236 Brandes, ..."                0.6658    0.6929    0.5000 box ic Blue x_fact    9.6 y_fact    4.2
+    206 "GD 97, 248 Purchase"                    0.4357    0.6286    0.5000
+    207 "GD 97, 262 Dobkin, ..."                 0.5459    0.2429    0.5000
+    208 "GD 97, 272 Fekete, ..."                 0.4845    0.1786    0.5000
+    209 "GD 97, 284 Patrignani, ..."             0.5643    0.2429    0.5000 box ic Blue x_fact   10.6 y_fact    4.2
+    210 "GD 97, 291 Roxborough, ..."             0.6300    0.3071    0.5000 box ic Blue x_fact   12.3 y_fact    4.2
+    211 "GD 97, 297 Hundack, ..."                0.6400    0.3071    0.5000 box ic Blue x_fact   10.2 y_fact    4.2
+    212 "GD 97, 303 Bridgeman"                   0.5643    0.6286    0.5000 box ic Blue x_fact    9.6 y_fact    4.2
+    213 "GD 97, 309 Didimo, ..."                 0.5827    0.2429    0.5000
+    214 "GD 97, 316 Tunkelang, ..."              0.7132    0.6929    0.5000 box ic Blue x_fact   11.2 y_fact    4.2
+    215 "GD 97, 322 Andalman, ..."               0.5500    0.5643    0.5000 box ic Blue x_fact   10.6 y_fact    4.2
+    216 "GD 97, 330 Eades, ..."                  0.7250    0.4357    0.5000 box ic Blue x_fact    9.6 y_fact    4.2
+    217 "GD 97, 336 Barghouti, ..."              0.6929    0.6286    0.5000 box ic Blue x_fact   10.3 y_fact    4.2
+    218 "GD 97, 344 Lauer, ..."                  0.5155    0.1786    0.5000 box ic Blue x_fact    9.6 y_fact    4.2
+    219 "GD 97, 350 Hlineny"                     0.9071    0.7571    0.5000
+    220 "GD 97, 359 Czyzowicz, ..."              0.8857    0.8214    0.5000 box ic Blue x_fact   10.9 y_fact    4.2
+    221 "GD 97, 371 Crescenzi, ..."              0.6010    0.2429    0.5000 box ic Blue x_fact   10.5 y_fact    4.2
+    222 "GD 97, 383 Garcia, ..."                 0.6500    0.3071    0.5000 box ic Blue x_fact    9.6 y_fact    4.2
+    223 "GD 97, 391 Biedl, ..."                  0.6600    0.3071    0.5000
+    224 "GD 97, 403 Wills"                       0.6700    0.3071    0.5000
+    225 "GD 97, 415 Seemann"                     0.6194    0.2429    0.5000
+    226 "GD 97, 425 Berry, ..."                  0.6800    0.3071    0.5000
+    227 "GD 97, 438 Eades, ..."                  0.7813    0.4357    0.5000
+    228 "GD 99, 1 Matousek"                      0.6378    0.2429    0.5000 box ic Fuchsia x_fact    8.3 y_fact    4.2
+    229 "GD 99, 8 Bridgeman, ..."                0.5466    0.1786    0.5000 box ic Fuchsia x_fact   11.1 y_fact    4.2
+    230 "GD 99, 27 Klau, ..."                    0.3071    0.1143    0.5000 box ic Fuchsia x_fact    8.6 y_fact    4.2
+    231 "GD 99, 38 Garg, ..."                    0.5776    0.1786    0.5000
+    232 "GD 99, 49 Closson, ..."                 0.3714    0.1143    0.5000 box ic Fuchsia x_fact    9.1 y_fact    4.2
+    233 "GD 99, 59 Waddle, ..."                  0.6561    0.2429    0.5000
+    234 "GD 99, 72 Juenger, ..."                 0.7605    0.6929    0.5000 box ic Fuchsia x_fact    8.8 y_fact    4.2
+    235 "GD 99, 82 Listsyn, ..."                 0.4357    0.1143    0.5000 box ic Fuchsia x_fact    8.6 y_fact    4.2
+    236 "GD 99, 90 Batageli, ..."                0.6745    0.2429    0.5000 box ic Fuchsia x_fact    9.2 y_fact    4.2
+    237 "GD 99, 98 Edechery, ...."               0.6929    0.2429    0.5000 box ic Fuchsia x_fact   10.8 y_fact    4.2
+    238 "GD 99,  107 Six, ..."                   0.6900    0.3071    0.5000 box ic Fuchsia x_fact   10.0 y_fact    4.2
+    239 "GD 99, 117 Cheng, ..."                  0.6086    0.1786    0.5000 box ic Fuchsia x_fact    9.6 y_fact    4.2
+    240 "GD 99, 127 Mohar"                       0.7112    0.2429    0.5000
+    241 "GD 99, 137 Thomas"                      0.7000    0.3071    0.5000
+    242 "GD 99, 145 Miura, ..."                  0.7100    0.3071    0.5000
+    243 "GD 99, 155 Dornheim"                    0.8214    0.6286    0.5000
+    244 "GD 99, 165  Kaufmann, ..."              0.7296    0.2429    0.5000 box ic Fuchsia x_fact   10.8 y_fact    4.2
+    245 "GD 99, 175 Mutzel, ..."                 0.7200    0.3071    0.5000 box ic Fuchsia x_fact    9.6 y_fact    4.2
+    246 "GD 99, 186 Duncan, ..."                 0.8536    0.3714    0.5000
+    247 "GD 99, 197 Bertault, ..."               0.7300    0.3071    0.5000
+    248 "GD 99, 205 Healy, ..."                  0.6397    0.1786    0.5000
+    249 "GD 99, 217 Matuszewski, ..."            0.7480    0.2429    0.5000 box ic Fuchsia x_fact   12.7 y_fact    4.2
+    250 "GD 99, 225 Shahrokhi, ..."              0.6707    0.1786    0.5000 box ic Fuchsia x_fact   10.8 y_fact    4.2
+    251 "GD 99, 232 Barouni, ..."                0.7400    0.3071    0.5000 box ic Fuchsia x_fact    9.6 y_fact    4.2
+    252 "GD 99, 242 Behzadi"                     0.7663    0.2429    0.5000
+    253 "GD 99, 250 Brandes, ..."                0.7500    0.3071    0.5000
+    254 "GD 99, 259 Basalaj, ..."                0.7017    0.1786    0.5000
+    255 "GD 99, 267 Nesetril"                    0.7600    0.3071    0.5000
+    256 "GD 99, 276 de Fraysseix"                0.6500    0.5643    0.5000 box ic Fuchsia x_fact   10.0 y_fact    4.2
+    257 "GD 99, 286 Bachl"                       0.7500    0.5643    0.5000 box ic Fuchsia x_fact    9.6 y_fact    4.2
+    258 "GD 99, 297 Di Battista, ..."            0.7328    0.1786    0.5000 box ic Fuchsia x_fact   10.8 y_fact    4.2
+    259 "GD 99, 311 Wood"                        0.5000    0.1143    0.5000 box ic Fuchsia x_fact    9.6 y_fact    4.2
+    260 "GD 99, 323 de Mendez"                   0.7700    0.3071    0.5000
+    261 "GD 99, 333 Babilon, ..."                0.7847    0.2429    0.5000
+    262 "GD 99, 341 de Castro, ..."              0.7800    0.3071    0.5000 box ic Fuchsia x_fact   10.3 y_fact    4.2
+    263 "GD 99, 351 Bertault"                    0.8031    0.2429    0.5000 box ic Fuchsia x_fact    9.6 y_fact    4.2
+    264 "GD 99, 359 Biedl, ..."                  0.7638    0.1786    0.5000
+    265 "GD 99, 369 Liotta, ..."                 0.7900    0.3071    0.5000
+    266 "GD 99, 379 Demetrescu, ..."             0.8214    0.2429    0.5000 box ic Fuchsia x_fact   12.1 y_fact    4.2
+    267 "GD 99, 392 Herman, ..."                 0.8398    0.2429    0.5000 box ic Fuchsia x_fact    9.6 y_fact    4.2
+    268 "GD 99, 400 Brandenburg, ..."            0.8857    0.3714    0.5000 box ic Fuchsia x_fact   12.7 y_fact    4.2
+    269 "GD 99, 410 Brandes"                     0.8582    0.2429    0.5000 box ic Fuchsia x_fact    9.6 y_fact    4.2
+    270 "GD 99, 416 Chen, ..."                   0.8079    0.6929    0.5000
+    271 "GD 99, 418 Kanne, ..."                  0.8000    0.3071    0.5000
+    272 "GD 95, 483 Skorsky"                     0.8100    0.3071    0.5000 box ic Cyan x_fact    8.8 y_fact    4.0
+    273 "GD00,1 Ware"                            0.8200    0.3071    0.5000 box ic Green x_fact    6.3 y_fact    4.0
+    274 "GD00,5 Purchase, ..."                   0.8500    0.5643    0.5000 box ic Green x_fact    9.5 y_fact    4.0
+    275 "GD00,19 Bridgeman, ..."                 0.8375    0.4357    0.5000 box ic Green x_fact   10.5 y_fact    4.0
+    276 "GD00, 31 Lesh, ..."                     0.8300    0.3071    0.5000 box ic Green x_fact    7.5 y_fact    4.0
+    277 "GD00, 37 Klau, ..."                     0.7948    0.1786    0.5000
+    278 "GD00, 259 Wood"                         0.2750    0.0500    0.5000 box ic Green x_fact    8.4 y_fact    4.0
+    279 "GD00, 63 Hutchinson"                    0.8259    0.1786    0.5000 box ic Green x_fact    8.9 y_fact    4.0
+    280 "GD00, 52 Herman, ..."                   0.8400    0.3071    0.5000 box ic Green x_fact    8.5 y_fact    4.0
+    281 "GD00, 150 Carmignani, ..."              0.5643    0.1143    0.5000 box ic Green x_fact   11.0 y_fact    4.0
+    282 "GD00, 139 Castello, ..."                0.6286    0.1143    0.5000 box ic Green x_fact    7.5 y_fact    4.0
+    283 "GD00, 127 Brandes, ..."                 0.6929    0.1143    0.5000 box ic Green x_fact    8.8 y_fact    4.0
+    284 "GD00, 115 Boissonnat, ..."              0.8500    0.3071    0.5000 box ic Green x_fact   10.8 y_fact    4.0
+    285 "GD00, 103 Brandes, ..."                 0.8765    0.2429    0.5000 box ic Green x_fact    8.8 y_fact    4.0
+    286 "GD00,91 Nakano, ..."                    0.8600    0.3071    0.5000 box ic Green x_fact    8.3 y_fact    4.0
+    287 "GD00, 77 Gutwenger ..."                 0.8700    0.3071    0.5000 box ic Green x_fact   10.0 y_fact    4.0
+    288 "GD00, 253 G&Atilde;&frac14;nther, ..."    0.8569    0.1786    0.5000 box ic Green x_fact    9.5 y_fact    4.0
+    289 "GD00,241 Waddle"                        0.8879    0.1786    0.5000 box ic Green x_fact    8.0 y_fact    4.0
+    290 "GD00, 229 Buchheim, ..."                0.8949    0.2429    0.5000 box ic Green x_fact    9.9 y_fact    4.0
+    291 "GD00, 211 Gajer, ..."                   0.9179    0.3714    0.5000 box ic Green x_fact    8.4 y_fact    4.0
+    292 "GD00, 197 Quigley, ..."                 0.9190    0.1786    0.5000
+    293 "GD00, 183 Harel, ..."                   0.8553    0.6929    0.5000
+    294 "GD00, 171 Walshaw"                      0.8800    0.3071    0.5000
+    295 "GD00, 170 Jensen"                       0.8900    0.3071    0.5000
+    296 "GD00, 164 Bertault, ..."                0.9000    0.3071    0.5000
+    297 "GD00, 222 Gajer, ..."                   0.8938    0.4357    0.5000
+    298 "GD00, 350 Dean"                         0.9133    0.2429    0.5000
+    299 "GD00, 338 Lenhart, ..."                 0.7571    0.1143    0.5000
+    300 "GD00, 328 Pach, ..."                    0.9100    0.3071    0.5000
+    301 "GD00, 321 Barequet"                     0.8214    0.1143    0.5000
+    302 "GD00, 308 Lynn, ..."                    0.5000    0.0500    0.5000
+    303 "GD00, 296 Nakano"                       0.9316    0.2429    0.5000
+    304 "GD00, 284 Biedl, ..."                   0.7250    0.0500    0.5000
+    305 "GD00, 272 Di Battista, ..."             0.8857    0.1143    0.5000 box ic Green x_fact    8.8 y_fact    4.0
+    306 "GD00, 407 Brandes, ..."                 0.9200    0.3071    0.5000
+    307 "GD00, 396 Friedrich, ..."               0.9300    0.3071    0.5000 box ic Green x_fact    8.9 y_fact    4.0
+    308 "GD00, 384 Shieh, ..."                   0.9026    0.6929    0.5000 box ic Green x_fact    8.4 y_fact    4.0
+    309 "GD00, 372 Chen, ..."                    0.7864    0.5000    0.5000
+    310 "GD00, 360 Hong, ..."                    0.8682    0.5000    0.5000
+    311 "GD00, 410 Brandenburg, ..."             0.9400    0.3071    0.5000 box ic Green x_fact   11.9 y_fact    4.0
+*Arcs
+    229     55       1
+    229    141       1
+    229     76       1
+    229    228       3
+    229     34       1
+    229    120       1
+    229    146       1
+    229    158       1
+    230    223       1
+    230     76       1
+    230    196       1
+    230    200       1
+    230    199       1
+    231     34       1
+    231    119       1
+    231      5       1
+    231    193       1
+    232    191       1
+    232    142       1
+    232    115       1
+    232    160       1
+    234     80       1
+    234    152       1
+    235     21       1
+    235     29       1
+    235    122       1
+    235    218       1
+    235     89       1
+    235    100       1
+    235    197       1
+    235    112       1
+    235    113       1
+    235    164       1
+    237    198       1
+    237    112       1
+    237    210       1
+    238    198       1
+    238    111       1
+    238     22       1
+    239    147       1
+    239    148       1
+    240    165       1
+    243    121       1
+    244    186       1
+    244    155       1
+    246    144       1
+    246    112       1
+    246    113       1
+    246    134       1
+    247    112       1
+    247    113       1
+    247    100       1
+    248    185       1
+    248     84       1
+    249    179       1
+    250     84       1
+    250    185       1
+    250    128       1
+    250    206       1
+    252    107       1
+    252     43       1
+    252    122       1
+    252    178       1
+    254    215       1
+    254     99       1
+    257     45       1
+    257    206       1
+    257     94       1
+    258    137       1
+    258    145       1
+    258     76       1
+    258    196       1
+    258    158       1
+    259    223       1
+    259    191       1
+    259    138       1
+    259    258       1
+    259      7       1
+    259    115       1
+    259    116       1
+    259     76       1
+    259    196       1
+    259    189       1
+    259    160       1
+    260     12       1
+    261     52       1
+    261     74       1
+    264     38       1
+    265     38       1
+    266    205       1
+    266    144       1
+    266    216       1
+    266     32       1
+    266     23       1
+    266    165       1
+    266     91       1
+    266    224       1
+    267     29       1
+    267    206       1
+    267    224       1
+    268     15       1
+    268     73       1
+    268    169       1
+    268    114       1
+    268    227       1
+    269    179       1
+    270     45       1
+    136    109       1
+    136    115       1
+    136    132       1
+    136    131       1
+    137     34       1
+    137    120       1
+    137    203       1
+    137     35       1
+    138    191       1
+    138    115       1
+    138     76       1
+    138    196       1
+    138    189       1
+    139    205       1
+    140    205       1
+    140    212       1
+    140    194       1
+    140     91       1
+    140    132       1
+    140     92       1
+    140    206       1
+    140     94       1
+    140    133       1
+    142     52       1
+    142     61       1
+    142    108       1
+    142     67       1
+    142     70       1
+    142    115       1
+    142     74       1
+    142    118       1
+    142     90       1
+    142    188       1
+    142    189       1
+    142    209       1
+    142    102       1
+    144    112       1
+    144    113       1
+    144     32       1
+    144    134       1
+    145    223       1
+    145    116       1
+    145    196       1
+    145     76       1
+    145      5       1
+    146    107       1
+    146    122       1
+    147    109       1
+    148    223       1
+    148    196       1
+    148    120       1
+    148    211       1
+    148    206       1
+    149     99       1
+    151     57       1
+    151     61       1
+    151    190       1
+    151    192       1
+    152     80       1
+    152    201       1
+    153     14       1
+    154     59       1
+    154     67       1
+    156     52       1
+    156     38       1
+    156     69       1
+    156     39       1
+    156    108       1
+    156      1       1
+    156     40       1
+    156    119       1
+    156    209       1
+    157    198       1
+    157    112       1
+    157    122       1
+    157    210       1
+    158    223       1
+    158    212       1
+    158    107       1
+    158    194       1
+    158    196       1
+    158    132       1
+    158     92       1
+    160     52       1
+    160    191       1
+    160    190       1
+    160    112       1
+    160     72       1
+    160    115       1
+    160     74       1
+    160    188       1
+    160    189       1
+    160    209       1
+    160      2       1
+    161    215       1
+    161    140       1
+    161    206       1
+    162    123       1
+    162    199       1
+    163     59       1
+    163    207       1
+    163     76       1
+    163     43       1
+    163    121       1
+    163     85       1
+    163     99       1
+    163     41       1
+    163    101       1
+    163    224       1
+    164    216       1
+    165     29       1
+    165    119       1
+    165     23       1
+    166     93       1
+    166    210       1
+    166    113       1
+    166    116       1
+    166     95       1
+    168     43       1
+    168     83       1
+    168     41       1
+    169    161       1
+     15    169       1
+    169     73       1
+    169    114       1
+    169    227       1
+    170     44       1
+    174     89       1
+    177    200       1
+    182    223       1
+    184     39       1
+    184     38       1
+    184     69       1
+    184     88       1
+    184    126       1
+    185    128       1
+    185     98       1
+    186     39       1
+    186      7       1
+    186     36       1
+    187     84       1
+    187     14       1
+    185     14       1
+    188      1       1
+    188    108       1
+    189     61       1
+    189      1       1
+    189     67       1
+    189    115       1
+    189    119       1
+    189     92       1
+    189    131       1
+    189    132       1
+    190     55       1
+    190    108       1
+    190      1       1
+    190    112       1
+    190    115       1
+    190    188       1
+    191    223       1
+    191    115       1
+    191     74       1
+    191     76       1
+    191    189       1
+    192     57       1
+    192    114       1
+    193     34       1
+    193    120       1
+    194     55       1
+    194     34       1
+    194    132       1
+    194     92       1
+    194      5       1
+    195     34       1
+    196     15       1
+    196     76       1
+    196    116       1
+    197     55       1
+    197    106       1
+    197    113       1
+    197      7       1
+    197    116       1
+    197     34       1
+    197      5       1
+    197    131       1
+    198     45       1
+    198    111       1
+    198    112       1
+    198    113       1
+    198    114       1
+    198    134       1
+    198     98       1
+    199    123       1
+    201     80       1
+    202     51       1
+    203    113       1
+    203     34       1
+    203     80       1
+    205     91       1
+    205     92       1
+    206     56       1
+    207     91       1
+    207     96       1
+    208     52       1
+    208     66       1
+    208      1       1
+    208     17       1
+    208     69       1
+    208     40       1
+    208     74       1
+    208     82       1
+    208     19       1
+    209     61       1
+    209      1       1
+    209     67       1
+    209     70       1
+    209    115       1
+    209    118       1
+    209    119       1
+    209    122       1
+    209     90       1
+    209      2       1
+    209    102       1
+    210    134       1
+    210    111       1
+    210    112       1
+    210    198       1
+    212    121       1
+    212     91       1
+    212    132       1
+    212     92       1
+    212    133       1
+    213    119       1
+    213    122       1
+    214     91       1
+    217    107       1
+    218     62       1
+    218    194       1
+    218     76       1
+    218     43       1
+    218     29       1
+    218     20       1
+    218    122       1
+    218     89       1
+    218     92       1
+    218     21       1
+    219     60       1
+    219     81       1
+    219    124       1
+    220     60       1
+    221    109       1
+    221     36       1
+    223    116       1
+    223     76       1
+    223    132       1
+    223     92       1
+    223    131       1
+    225     95       1
+    225    117       1
+    225    128       1
+    227     15       1
+    227     73       1
+    227    114       1
+    227     76       1
+    227     43       1
+    104     59       1
+    106     82       1
+    107     59       1
+    107      5       1
+    108      1       1
+    109     36       1
+    110     59       1
+    110     62       1
+    110     88       1
+    111     22       1
+    111     89       1
+    112     89       1
+    114     15       1
+    114     73       1
+    115     55       1
+    115    131       1
+    116     76       1
+    116     82       1
+    116      5       1
+    117     29       1
+    117     20       1
+    117     89       1
+    117     21       1
+    118     67       1
+    118     45       1
+    118     61       1
+    119     42       1
+    118     42       1
+    119     61       1
+    119      1       1
+    119     67       1
+    119     70       1
+    119     90       1
+    119      2       1
+    120      7       1
+    120      6       1
+    120     34       1
+    120     54       1
+    120      5       1
+    121     45       1
+    121     59       1
+    121     44       1
+    121     73       1
+    121     43       1
+    121     85       1
+    121     86       1
+    121     91       1
+    121     41       1
+    122     62       1
+    122     63       1
+    122     29       1
+    122     20       1
+    122     89       1
+    122     91       1
+    122     21       1
+    122    100       1
+    124     60       1
+    124     65       1
+    124     81       1
+    124     87       1
+    126     52       1
+    126     39       1
+    126     38       1
+    126     69       1
+    126     72       1
+    126     74       1
+    128     80       1
+    128     84       1
+    131     55       1
+    131     34       1
+    131      5       1
+    131     92       1
+    132     20       1
+    132      5       1
+    132     92       1
+    134     45       1
+    135     45       1
+    135     29       1
+    135     23       1
+    135     21       1
+     52     17       1
+     52     74       1
+     52     18       1
+     52     19       1
+     55     34       1
+     57     34       1
+     57     14       1
+     58     39       1
+     58     36       1
+     59     43       1
+     59     20       1
+     61      1       1
+     61     43       1
+     61     56       1
+     61     90       1
+     61     94       1
+     61      2       1
+     62     20       1
+     63     29       1
+     63     20       1
+     64     20       1
+     64     32       1
+     65     34       1
+     65     80       1
+     66     52       1
+     66     74       1
+     66     87       1
+     67      1       1
+     67      3       1
+     69     39       1
+     69     38       1
+     70     43       1
+     70     32       1
+     70     42       1
+     70     46       1
+     72      1       1
+    106     52       1
+     74      1       1
+     74     52       1
+     74     17       1
+     74     18       1
+     74     19       1
+     76     34       1
+     78     34       1
+     79     11       1
+     80     65       1
+     82     17       1
+     83     41       1
+     85     43       1
+     85     42       1
+     85     41       1
+     86     92       1
+     89      5       1
+     90      1       1
+     90     33       1
+     90     43       1
+     92     34       1
+     92      5       1
+     95      7       1
+     95     20       1
+     95     21       1
+     96     43       1
+     96     21       1
+     97     14       1
+     98     30       1
+    272     24       1
+    101     43       1
+    101     42       1
+    101     41       1
+      5     34       1
+      9     44       1
+     34     35       1
+     35     34       1
+     38     39       1
+     38     40       1
+     39     38       1
+     40     39       1
+     40     38       1
+     43     20       1
+     44      1       1
+     44     34       1
+    274    206       1
+    275    161       1
+    275    212       1
+    275    172       1
+    275    194       1
+    275     91       1
+    275    132       1
+    275    133       1
+    277     76       1
+    277    146       1
+    277     84       1
+    277     59       1
+    279    106       1
+    279    298       1
+    286    159       1
+    285    120       1
+    285    179       1
+    283    239       1
+    283    207       1
+    283    163       1
+    283    147       1
+    283    148       1
+    282    197       1
+    282    113       1
+    282    199       1
+    282    123       1
+    282    206       1
+    282    225       1
+    281    140       1
+    281    212       1
+    281    258       1
+    281    173       1
+    281    216       1
+    281     76       1
+    281     91       1
+    294    246       1
+    294    112       1
+    294    134       1
+    294    168       1
+    293     59       1
+    292    263       1
+    292    121       1
+    292    267       1
+    292    237       1
+    292    134       1
+    292     41       1
+    292    168       1
+    292    236       1
+    291     61       1
+    291    144       1
+    291    112       1
+    291    113       1
+    291     43       1
+    291    297       1
+    291     32       1
+    297     61       1
+    297     43       1
+    290    179       1
+    290     95       1
+    289    121       1
+    289     85       1
+    289     91       1
+    289    133       1
+    289    225       1
+    289    233       1
+    289    103       1
+    288    249       1
+    288    179       1
+    278    232       1
+    278    142       1
+    278    209       1
+    278    160       1
+    305    160       1
+    304    138       1
+    304    232       1
+    304    142       1
+    304    160       1
+    304    259       1
+    303     34       1
+    303    120       1
+    302    232       1
+    302    142       1
+    302    145       1
+    302    209       1
+    302    158       1
+    302    160       1
+    301    239       1
+    299    264       1
+    299     38       1
+    299     88       1
+    299    184       1
+    298     82       1
+    310    256       1
+    310    150       1
+    309    257       1
+    309    256       1
+    309    150       1
+    309     28       1
+    308     30       1
+    308     91       1
+    308     98       1
+    307    268       1
+    307     43       1
+    307    164       1
+    311    268       1
+    311     15       1
+    311     73       1
+    311    169       1
+    311    114       1
+    311    227       1
+    311    291       1
+    311    297       1
+*Edges

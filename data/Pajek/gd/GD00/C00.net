@@ -1,0 +1,1747 @@
+*Vertices    638
+      1 "XXXXX XXXX /n XXXXX /n XXXX /n XXXX"    0.4777    0.6570    0.5000 box x_fact 83.3 y_fact 57.6
+      2 "XXXX XXXX /n XXXX /n XXXX"              0.4883    0.2358    0.5000 box x_fact 75.8 y_fact 43.9
+      3 "XXX XXXXXXX /n XXXXXXX /n XXXXXX"       0.6301    0.4450    0.5000 box x_fact 90.9 y_fact 43.9
+      4 "XXXXXXX XXXXX /n XX /n XXXXXXXX"        0.6275    0.5200    0.5000 box x_fact 106.1 y_fact 43.9
+      5 "XXXXXXX XXXXXXXXXXX /n XXXXXXX /n XXXXXXXXXXX /n XXXX"    0.7322    0.5301    0.5000 box x_fact 151.5 y_fact 57.6
+      6 "XXXXXXX XXXXXXX /n XXX /n XXXX"         0.5776    0.4450    0.5000 box x_fact 121.2 y_fact 43.9
+      7 "XXXXXXX XXXX XXXXXXX XXXXXXXXX /n XXX /n XXXX /n XXXX"    0.6889    0.5813    0.5000 box x_fact 225.8 y_fact 57.6
+      8 "XXXXXXX XXXX XXXXXXX XXXX /n XXX /n XXXX /n XXXXXXXX"    0.5334    0.4850    0.5000 box x_fact 187.9 y_fact 57.6
+      9 "XXXXXXX XXXXXXXXX /n XXXXXXX /n XXX /n XX"    0.6320    0.4151    0.5000 box x_fact 136.4 y_fact 57.6
+     10 "XXXXXXX XXXX /n XXXXXXX /n XXXX /n XXXXXXXXXXX"    0.6183    0.3158    0.5000 box x_fact 98.5 y_fact 57.6
+     11 "XXXXXXX XXXXXX / XXXXXXX XXXX /n XXX /n XXXXXXX /n XXXX /n XX /n XXXXXXX"    0.5099    0.3913    0.5000 box x_fact 209.1 y_fact 84.8
+     12 "XXXX /n XXXX"                           0.5220    0.4344    0.5000 box x_fact 42.4 y_fact 30.3
+     13 "XXXX XXXXX /n XXXX /n XXXXX /n XXXX"    0.4651    0.5443    0.5000 box x_fact 83.3 y_fact 57.6
+     14 "XXXXXXX X XXXX /n XXX /n XXXX"          0.7311    0.4034    0.5000 box x_fact 109.1 y_fact 43.9
+     15 "XXXXXXX /n XXXXXXXXX /n XX"             0.5687    0.5504    0.5000 box x_fact 80.3 y_fact 43.9
+     16 "XXXXXXX XXXXX /n XXXXXX /n XXXX /n XX"    0.6768    0.5738    0.5000 box x_fact 106.1 y_fact 57.6
+     17 "XXXXXXX XXXXXXXX /n XXXXXXXX /n XX"     0.5270    0.5514    0.5000 box x_fact 128.8 y_fact 43.9
+     18 "XXXXXXX XXXXXXXX XXXX /n XXXXXXX /n XXXXXXXX /n XXXX /n XXXX"    0.4416    0.6913    0.5000 box x_fact 162.1 y_fact 71.2
+     19 "XXXXXXXXXXXXXXXXXXXXXXXXX /n XX_XXXX_XXXX"    0.2394    0.3558    0.5000 box x_fact 201.5 y_fact 30.3
+     20 "XXXXXXXXXX /n XXXXXXXXXXXX /n XXXX"     0.6095    0.6016    0.5000 box x_fact 103.0 y_fact 43.9
+     21 "XXXXXXX /n XXXXXXXX /n XXXXX /n XX"     0.3615    0.3219    0.5000 box x_fact 72.7 y_fact 57.6
+     22 "XXX XXXXXXXXXX XXXXXXXXXXX XXX /n XXX /n XXXXXXXXXX /n XXXXXXXXXXX /n XXX"    0.7862    0.5215    0.5000 box x_fact 225.8 y_fact 71.2
+     23 "XXX XXXXXXXX /n XXXXXXXX /n XXXXX"      0.5476    0.8134    0.5000 box x_fact 98.5 y_fact 43.9
+     24 "XXX XXXXXXXX XXXXXXXX XXXX /n XXX /n XXXXXXXX /n XXXXXXXX /n XXXX /n XXX"    0.7008    0.9072    0.5000 box x_fact 195.5 y_fact 84.8
+     25 "XXX XXXXXXXX XXXXXXXX XXXXXXXX /n XXXXXXXXX /n XXXX"    0.6006    0.7668    0.5000 box x_fact 225.8 y_fact 43.9
+     26 "XXX XXXXXXXX XXXXXXXX XXXX /n XXX /n XXXXXXXX /n XXXXXXXX /n XXXX /n XXX"    0.4867    0.9482    0.5000 box x_fact 195.5 y_fact 84.8
+     27 "XXX XXXXXXXX XXXXXXXX XXXXXXXX /n XXXXXXXXX /n XXXX"    0.5136    0.8058    0.5000 box x_fact 225.8 y_fact 43.9
+     28 "XXX XXXXXXXX XXXX /n XXX /n XXXXXXXX /n XXXX /n XXXXXXXXXXX"    0.5629    0.9198    0.5000 box x_fact 131.8 y_fact 71.2
+     29 "XXX XXXXXXX XXXX /n XXXXXX /n XX"       0.7931    0.7632    0.5000 box x_fact 124.2 y_fact 43.9
+     30 "XXX XXXX /n XXXXXX /n XX"               0.5888    0.6522    0.5000 box x_fact 68.2 y_fact 43.9
+     31 "XXX XXXXX XXXXXXXXX /n XXXX /n XXXXX /n XXXX /n XXXX"    0.5624    0.6802    0.5000 box x_fact 147.0 y_fact 71.2
+     32 "XXX XXXXXXX XXXX /n X_XXXXXXXX"         0.9040    0.6877    0.5000 box x_fact 124.2 y_fact 30.3
+     33 "XXX XXXXXXX XXXXX XXXX /n XXX /n XX /n XXXX /n XXXXXXXXXXX"    0.7793    0.6689    0.5000 box x_fact 165.2 y_fact 71.2
+     34 "XXX XX XXXXXXXX XXXXXXXXXX /n XXXXXXXX /n XXXXXX"    0.5790    0.7527    0.5000 box x_fact 195.5 y_fact 43.9
+     35 "XXX XX XXXXXXXX XXXX /n XXX /n XX /n XXXXXXXX /n XXXX /n XXXX"    0.6099    0.9118    0.5000 box x_fact 150.0 y_fact 84.8
+     36 "XXX XX XXXXXXX XXXXXXXX /n XXXXXX /n XXXXXXX /n XX"    0.5961    0.8367    0.5000 box x_fact 172.7 y_fact 57.6
+     37 "XXX XX XXXXXXXX XXXXXXXXXX /n XXXXXXXX /n XXXXXX"    0.5136    0.7855    0.5000 box x_fact 195.5 y_fact 43.9
+     38 "XXX XX XXXXXXXX XXXX /n XXX /n XX /n XXXXXXXX /n XXXX /n XXXX"    0.4356    0.9026    0.5000 box x_fact 150.0 y_fact 84.8
+     39 "XXX XX XXXX XXXXXXX /n XXX /n XX"       0.6973    0.6716    0.5000 box x_fact 142.4 y_fact 43.9
+     40 "XXX XX XXXX XXXXXXXXXXX /n XXX_XXXXXX_XXXX_XXXXXXX_XXXX"    0.6968    0.6285    0.5000 box x_fact 218.2 y_fact 30.3
+     41 "XXX XX XX XXXXXXXX XXXXXXXXXX /n XXXXXXXX /n XXXXXX"    0.6428    0.7207    0.5000 box x_fact 213.6 y_fact 43.9
+     42 "XXX XX XX XXXXXXXX XXXX /n XXX /n XX /n XX /n XXXXXXXX /n XXXX /n XXXX"    0.6776    0.8955    0.5000 box x_fact 168.2 y_fact 98.5
+     43 "XXX XX XX XXXXXXXX XXXXXXXXXX /n XXXXXXXX /n XXXXXX"    0.6198    0.7120    0.5000 box x_fact 213.6 y_fact 43.9
+     44 "XXX XX XX XXXXXXXX XXXX /n XXX /n XX /n XX /n XXXXXXXX /n XXXX /n XXXX"    0.5231    0.4672    0.5000 box x_fact 168.2 y_fact 98.5
+     45 "XXX XX XXXX XXXX /n XXXXXXXXXX_XXXXXX"    0.6615    0.6106    0.5000 box x_fact 139.4 y_fact 30.3
+     46 "XXX XX XXXXXX /n XXX /n XX /n XXXXXX /n XX"    0.4991    0.8169    0.5000 box x_fact 101.5 y_fact 71.2
+     47 "XXX XXXXXXXX XXXXXXX XXXXXXXXX /n XXX /n XXXXXXXX /n XXXXXXX /n XXXXXXXXX"    0.7773    0.5368    0.5000 box x_fact 225.8 y_fact 71.2
+     48 "XXX XXX XXXX /n XXX /n XXX /n XXXX"     0.3733    0.3518    0.5000 box x_fact 93.9 y_fact 57.6
+     49 "XXXXXXXX /n XXXX /n XXXXXXX /n XXXX"    0.5555    0.5403    0.5000 box x_fact 72.7 y_fact 57.6
+     50 "XXXXXXXX XXXXXXXX XXXXXXXXXX /n XXXX /n XXX /n XXXXXXXXXX /n XX"    0.5526    0.6528    0.5000 box x_fact 215.2 y_fact 71.2
+     51 "XXXXXXXX XXXXXXXX XXXX /n XX /n XXXXXXX"    0.4701    0.8307    0.5000 box x_fact 169.7 y_fact 43.9
+     52 "XXXXXXXX XXXXXXXX XXXXXXXXXX /n XXXXXXXX /n XXXXXXXX /n XXXXXXXXXX /n X"    0.6119    0.6417    0.5000 box x_fact 215.2 y_fact 71.2
+     53 "XXXXXXXX XXXXXXXX XXXX /n XX /n XXXXXXX"    0.6979    0.8058    0.5000 box x_fact 169.7 y_fact 43.9
+     54 "XXXXXXXX XXX XXXXXXXX XXXXXXXX /n XXXXXXXX /n XXX /n XXXXXXXX /n XXXXXXXX"    0.6605    0.5667    0.5000 box x_fact 225.8 y_fact 71.2
+     55 "XXXXXXXX XXX XXXXXXXX XXXX /n XXX /n XXXX /n XXXXXXX /n XXXX"    0.5334    0.4835    0.5000 box x_fact 195.5 y_fact 71.2
+     56 "XXXXXXXX XXX XXXXXXXX XXXXXXXX /n XXXXXXXX /n XXX /n XXXXXXXX /n XXXXXXXX"    0.6272    0.6148    0.5000 box x_fact 225.8 y_fact 71.2
+     57 "XXXXXXXX XXX XXXXXXXX XXXX /n XXX /n XXXX /n XXXX"    0.5304    0.4774    0.5000 box x_fact 195.5 y_fact 57.6
+     58 "XXXXXXXX XXXXXXXX /n XXX_XXXXXXXX_XXXXXXX_XXXX"    0.9512    0.9160    0.5000 box x_fact 197.0 y_fact 30.3
+     59 "XXXXXXXX XXXXXXX XXXXXXXXX /n XXX /n XXXXXX /n XXXX"    0.6021    0.5454    0.5000 box x_fact 200.0 y_fact 57.6
+     60 "XXXX XXXXXXXX XXXXXXXXX /n XXXX /n XXXX"    0.8555    0.5625    0.5000 box x_fact 177.3 y_fact 43.9
+     61 "XXXXXXXX XXXX /n XXXXXXX /n XXXX /n XX"    0.5859    0.5844    0.5000 box x_fact 106.1 y_fact 57.6
+     62 "XXXXXXXX XXXXX /n XXXXX /n XX"          0.5025    0.4805    0.5000 box x_fact 113.6 y_fact 43.9
+     63 "XXXX /n XXXXXXX_XX"                     0.5328    0.5924    0.5000 box x_fact 86.4 y_fact 30.3
+     64 "XXXX XXXXXXXXXX /n XXXX /n XX"          0.5521    0.6634    0.5000 box x_fact 121.2 y_fact 43.9
+     65 "XXXX XXXXXXXX XXXXXXXXXX /n XXXX /n XX"    0.5171    0.6988    0.5000 box x_fact 184.8 y_fact 43.9
+     66 "XXXX XXXXXXXX XXXX /n XX /n XXXX /n XXXX"    0.5437    0.8580    0.5000 box x_fact 139.4 y_fact 57.6
+     67 "XXXX XXXXXXXX XXXXXXXXXX /n XXXX /n XX"    0.5521    0.7004    0.5000 box x_fact 184.8 y_fact 43.9
+     68 "XXXX XXXXXXXX XXXX /n XXXXXXXXXXXX /n XXXX"    0.5642    0.8545    0.5000 box x_fact 139.4 y_fact 43.9
+     69 "XXXX XXX XXXXX /n XXXX /n XX"           0.5088    0.7506    0.5000 box x_fact 109.1 y_fact 43.9
+     70 "XXXX XXXXX /n XXXX /n XX"               0.4946    0.6750    0.5000 box x_fact 83.3 y_fact 43.9
+     71 "XXXX XXXXX XXXXXXXXXXX /n XXXXXXXXXXXX /n XXXX"    0.4166    0.7997    0.5000 box x_fact 169.7 y_fact 43.9
+     72 "XXXX XXXXXX /n XXXXXXXXXXXX /n XXXX"    0.4651    0.6680    0.5000 box x_fact 103.0 y_fact 43.9
+     73 "XXXX XXXXXXX /n XXXX /n XX"             0.5107    0.6705    0.5000 box x_fact 98.5 y_fact 43.9
+     74 "XXXXXXX XXXXXXX /n XXX /n XXXXXX /n XXXX"    0.6193    0.4887    0.5000 box x_fact 121.2 y_fact 57.6
+     75 "XXXXXXXX XXXXXXXXXXXX /n XXXXXX /n XX"    0.4907    0.7815    0.5000 box x_fact 166.7 y_fact 43.9
+     76 "XXXXXXXX XXX XXXX /n XX /n XXXXXXXX"    0.5289    0.7684    0.5000 box x_fact 131.8 y_fact 43.9
+     77 "XXXXXXXXXX XXXXXXX XXXX /n XXXXXXXXXX /n XXXXXXX /n XXXX /n XXXX"    0.4013    0.8727    0.5000 box x_fact 177.3 y_fact 71.2
+     78 "XXX XX XXX XXX XXXX /n XXX /n XX /n XXX /n XXX /n XXXX /n XX"    0.8534    0.3934    0.5000 box x_fact 137.9 y_fact 98.5
+     79 "XXX XX XXX XXX XXXX XXXXXXX /n XXX /n XXXX /n XXXXXXX /n XXXXXX"    0.7622    0.3441    0.5000 box x_fact 193.9 y_fact 71.2
+     80 "XXX XX XXX XXX XXXX XXXXXXX /n XX /n XXXXXXX /n XX"    0.7042    0.4567    0.5000 box x_fact 193.9 y_fact 57.6
+     81 "XXXXX /n XXXXX /n XX"                   0.6246    0.4009    0.5000 box x_fact 50.0 y_fact 43.9
+     82 "XXXXXXXX XXXXXX /n XXXXXXXXXXXX /n XXXX"    0.5761    0.6102    0.5000 box x_fact 121.2 y_fact 43.9
+     83 "XXXXXXXX XXXXXX XXXXXXX /n XXXXXXXXXXXX /n XXXX"    0.6272    0.6143    0.5000 box x_fact 177.3 y_fact 43.9
+     84 "XXXX XXXXXXXX XXXXXXXXXX /n XXXXXX /n XX"    0.6522    0.5864    0.5000 box x_fact 184.8 y_fact 43.9
+     85 "XXXX XXXXXXXX XXXX /n XXXX /n XXXX /n XXXX"    0.8166    0.6193    0.5000 box x_fact 139.4 y_fact 57.6
+     86 "XXXX XXX XXXXX /n XXXX /n XX"           0.7219    0.3953    0.5000 box x_fact 109.1 y_fact 43.9
+     87 "XXXX XXXXX /n XXXX /n XXXXX /n XXXX"    0.7346    0.4308    0.5000 box x_fact 83.3 y_fact 57.6
+     88 "XX XXX XX XXXXXX /n XXX /n XXXXXXX /n XX /n XXXX"    0.2864    0.4490    0.5000 box x_fact 119.7 y_fact 71.2
+     89 "XX XXXXXXX /n XXXXXXXXX /n XXXX /n XXXX"    0.6090    0.4419    0.5000 box x_fact 83.3 y_fact 57.6
+     90 "XX XXXXXXX XXXX /n XX /n XXXXXXX /n XX"    0.4896    0.4921    0.5000 box x_fact 116.7 y_fact 57.6
+     91 "XX XXXXXXXX /n XXXXXXXX /n XXXXXXXX /n XXXX"    0.6217    0.5079    0.5000 box x_fact 90.9 y_fact 57.6
+     92 "XX XXXXXXXX XXXX /n XX /n XXXXXXXX /n XXXX /n XXXXXXXXXXX"    0.7430    0.5489    0.5000 box x_fact 124.2 y_fact 71.2
+     93 "XX XXXX /n XXX /n XXX /n XX /n XXXXXXX /n XX"    0.6517    0.3305    0.5000 box x_fact 65.2 y_fact 84.8
+     94 "XX XXXXXXX XXXX /n XX_XXXX_XXXXX"       0.4970    0.4576    0.5000 box x_fact 116.7 y_fact 30.3
+     95 "XX XXXXXX /n XXXXXXXXX /n XXXX"         0.3881    0.5245    0.5000 box x_fact 80.3 y_fact 43.9
+     96 "XX XXXXXX XXXX /n XXXXXXXXXX"           0.2663    0.5063    0.5000 box x_fact 109.1 y_fact 30.3
+     97 "XX XXXX /n XX_XXXX_XXXX"                0.4696    0.4339    0.5000 box x_fact 100.0 y_fact 30.3
+     98 "XX XXXX XXXXXX /n XXXXXXXXX /n XXXX"    0.3939    0.4887    0.5000 box x_fact 109.1 y_fact 43.9
+     99 "XX XXXX XXXX /n XX_XXXX_XXXX"           0.3684    0.3620    0.5000 box x_fact 100.0 y_fact 30.3
+    100 "XX XXXXXXXX XXXX /n XXX /n XXXXXXX /n XX"    0.3738    0.3731    0.5000 box x_fact 124.2 y_fact 57.6
+    101 "XX XXXX XXXXX /n XXX1_XX_XXXX_XXXXX"    0.5898    0.3867    0.5000 box x_fact 142.4 y_fact 30.3
+    102 "XX XXXX XXXX /n XX /n XXXX /n XXXX"     0.4587    0.3407    0.5000 box x_fact 93.9 y_fact 57.6
+    103 "XX XXX /n XXXXXXX /n XXX /n XX"         0.6133    0.3978    0.5000 box x_fact 65.2 y_fact 57.6
+    104 "XX XXXXXXX XXXXXXX /n XXXXXXXXX /n XX"    0.5845    0.5606    0.5000 box x_fact 139.4 y_fact 43.9
+    105 "XXXX XXXXXXX XXXX /n XXXX /n XXXX"      0.7720    0.7030    0.5000 box x_fact 131.8 y_fact 43.9
+    106 "XXXX XXXXXXXX XXXX /n XXXXXXXX /n XXXX /n XXXXXXXXXXX"    0.6673    0.6584    0.5000 box x_fact 139.4 y_fact 57.6
+    107 "XXXX XX XXXX XXX XXXXXX XXXX /n XXX /n XXX"    0.7234    0.3244    0.5000 box x_fact 201.5 y_fact 43.9
+    108 "XXXX XX XXXXXXXX XXXXXXXX /n XXXXXXX /n XXXXXX /n XXXX /n XXXX"    0.9160    0.0271    0.5000 box x_fact 187.9 y_fact 71.2
+    109 "XXXX XXXXXXXX XXXXXXXXXX /n XXX /n XXXX"    0.5972    0.6917    0.5000 box x_fact 184.8 y_fact 43.9
+    110 "XXXX XXXXXXXX XXXX /n XX /n XXXXXX /n XXXX"    0.6747    0.8336    0.5000 box x_fact 139.4 y_fact 57.6
+    111 "XXXX XXXXXX /n XXXX /n XXXXXX /n XX"    0.6738    0.6294    0.5000 box x_fact 90.9 y_fact 57.6
+    112 "XXXX XXXXX /n XXXXXXX /n XXXXX"         0.6483    0.6365    0.5000 box x_fact 83.3 y_fact 43.9
+    113 "XXXX XXXX XXXXXX /n XXXXXX /n XXXXXXXX /n XX"    0.7414    0.6948    0.5000 box x_fact 124.2 y_fact 57.6
+    114 "X/X XXXX /n X/X /n XXXX /n XXXX"        0.6792    0.2722    0.5000 box x_fact 63.6 y_fact 57.6
+    115 "XXXX XXXXX /n XX /n XXXXXXX /n XX"      0.6905    0.4774    0.5000 box x_fact 83.3 y_fact 57.6
+    116 "XXXXXXX XXXXXXXX XXXX /n XXXXXXXXXXXX /n XXXX"    0.7498    0.8129    0.5000 box x_fact 162.1 y_fact 43.9
+    117 "XXXXXXXXXXXX XXXXX /n XXXXXXXXXXXX /n XXXX"    0.6713    0.7556    0.5000 box x_fact 143.9 y_fact 43.9
+    118 "XXXXXXXXX XXXXXXXX XX XXXX /n XXXX /n XXXXXXXX /n XXXX"    0.7601    0.6700    0.5000 box x_fact 195.5 y_fact 57.6
+    119 "XXXXX XXXXXX XXXXXXXXX /n XXXXXX /n XX"    0.8377    0.2023    0.5000 box x_fact 169.7 y_fact 43.9
+    120 "XXXXXXXX XXXXXX /n XXXXXXXX /n XXXXXX /n XXXX"    0.7522    0.4557    0.5000 box x_fact 121.2 y_fact 57.6
+    121 "XXXXX XXXXXXX XXXX /n XXXXX /n XXXXXXX /n XXXX /n XX"    0.5579    0.5965    0.5000 box x_fact 139.4 y_fact 71.2
+    122 "XXXXX XXXXXXX XXXX XXXXXXXXXX /n XXXXXX /n XX"    0.4632    0.6827    0.5000 box x_fact 218.2 y_fact 43.9
+    123 "XXXXX XXXXXXX XXXX XXXX /n XXXXX /n XXXXXXX /n XXXX /n XXXX /n XXXX"    0.5349    0.4841    0.5000 box x_fact 172.7 y_fact 84.8
+    124 "XXXXXXXXXXXX /n XXXXXXXXXXXXX /n XXXX /n XXXXXX"    0.8908    0.3031    0.5000 box x_fact 110.6 y_fact 57.6
+    125 "XXXX XXXXXXXXXX XXXX /n XXXX /n XXXXXXXXXX /n XXXX /n XXXX"    0.5594    0.3963    0.5000 box x_fact 154.5 y_fact 71.2
+    126 "XXXXXX XXXXX /n XXXX /n XXXXX /n XXXX"    0.8775    0.3568    0.5000 box x_fact 98.5 y_fact 57.6
+    127 "XXXXXXXX /n XXXXXX /n XXXX"             0.4469    0.4816    0.5000 box x_fact 72.7 y_fact 43.9
+    128 "XXX /n XXXXXXXX /n XX"                  0.5250    0.2772    0.5000
+    129 "XXXXXXXXXXX XXXXXXXX /n XXXXXXXX /n XXXXX /n XX"    0.7380    0.7694    0.5000 box x_fact 159.1 y_fact 57.6
+    130 "XXXXXXXXXXXX /n XXXXXXXXXXXX /n XX"     0.6301    0.5859    0.5000 box x_fact 103.0 y_fact 43.9
+    131 "XXXXXXXXXXXX XXX XXXXXXX /n X_XXXXXX_XXXX"    0.7414    0.6959    0.5000 box x_fact 184.8 y_fact 30.3
+    132 "XXXXXX XXXXXX /n XXXXXXXXXXXX /n XXXX"    0.5953    0.5711    0.5000 box x_fact 106.1 y_fact 43.9
+    133 "XXXXXX XXXXXX XXXXXXXXXX /n XXXXXXXXXXXX /n XXXX"    0.5207    0.7262    0.5000 box x_fact 184.8 y_fact 43.9
+    134 "XXXXXX XXXXXX XXXX /n XX /n XXXX /n XXXX"    0.4632    0.8671    0.5000 box x_fact 139.4 y_fact 57.6
+    135 "XXXXXX XXXX XXXXXXXXXX /n XXXXXX /n XX"    0.6006    0.7414    0.5000 box x_fact 169.7 y_fact 43.9
+    136 "XXXXXX XXXX XXXX /n XXXXXX /n XXXX /n XXXX /n XXXX"    0.5244    0.3371    0.5000 box x_fact 124.2 y_fact 71.2
+    137 "XXXXXXXXXX /n XXXX /n XXXX"             0.6762    0.6629    0.5000 box x_fact 87.9 y_fact 43.9
+    138 "XX XXXX /n XX /n XXXXXXXX /n XXXX"      0.6591    0.4034    0.5000 box x_fact 72.7 y_fact 57.6
+    139 "XXX XXXXXXXX XXXXXXXX XXXX /n XXXX /n XXXXXXXX /n XXXX"    0.6694    0.3528    0.5000 box x_fact 195.5 y_fact 57.6
+    140 "XXX XXXXXX XXXX /n XXX /n XXXXXXXX /n XXXX"    0.6762    0.4435    0.5000 box x_fact 116.7 y_fact 57.6
+    141 "XXX XXX XXXX XXX /n XXXXXXX"            0.6193    0.4410    0.5000 box x_fact 119.7 y_fact 30.3
+    142 "XXXXXXX XXXXXX XXXX /n XXX /n XX /n XXXXXX /n XXXX"    0.6733    0.3898    0.5000 box x_fact 147.0 y_fact 71.2
+    143 "XXXXXXX XXXXXXX XXXXX /n XXXXXXXXX /n XXXX"    0.6267    0.3457    0.5000 box x_fact 162.1 y_fact 43.9
+    144 "XXXXXXX XXX /n XXX_XX"                  0.2871    0.0442    0.5000 box x_fact 90.9 y_fact 30.3
+    145 "XXXXXXX XXXXXXXXX XXXX /n XXXXXXXXX /n XXXX /n XXXX"    0.6915    0.4085    0.5000 box x_fact 169.7 y_fact 57.6
+    146 "XXXXXXX XXXXX XXXXXXXXX /n XXXX /n XX"    0.4883    0.5732    0.5000 box x_fact 177.3 y_fact 43.9
+    147 "XXXXXXXXXXXX XXXX /n XXXXXXXXXXXX /n XXXX /n XXXXXXXXXXX"    0.4155    0.8934    0.5000 box x_fact 136.4 y_fact 57.6
+    148 "XXXXXX /n X1 /n XXXXX /n XXXX /n XXXX"    0.0840    0.9046    0.5000 box x_fact 57.6 y_fact 71.2
+    149 "XXXXXX XXX XX XXXX /n XX /n XXX /n XXX /n XXXX /n XXXXXX"    0.3955    0.6645    0.5000 box x_fact 134.8 y_fact 84.8
+    150 "XXXXXX XXXXXXXX /n XXXXXXXXXXXX /n XXXX"    0.5078    0.5499    0.5000 box x_fact 121.2 y_fact 43.9
+    151 "XXXXXX XXXXXXXX XXXX /n XXXXXXXX /n XXXX /n XX"    0.3075    0.7906    0.5000 box x_fact 154.5 y_fact 57.6
+    152 "XXXXX XXXXXX /n XXXXXXXXXXXX /n XXXX"    0.4347    0.5393    0.5000 box x_fact 103.0 y_fact 43.9
+    153 "XXXXX XXXXXX /n XXXXX /n XXXXXX /n XXXX"    0.6011    0.2818    0.5000 box x_fact 98.5 y_fact 57.6
+    154 "XXXXX XXXX /n XX /n XXXXXXX"            0.4754    0.6275    0.5000 box x_fact 83.3 y_fact 43.9
+    155 "XXXXX XXXX XXXXXXX /n XXXXX /n XXXX /n XXXX"    0.5618    0.6193    0.5000 box x_fact 139.4 y_fact 57.6
+    156 "XXXXX XXXX XXXXXXXX /n XXXXXXXXXXXX /n XXXX"    0.4032    0.5468    0.5000 box x_fact 147.0 y_fact 43.9
+    157 "XXXXX XXXX XXXXXX /n XXXXXXXXXXXX /n XXXX"    0.4852    0.6426    0.5000 box x_fact 131.8 y_fact 43.9
+    158 "XXXX XXXX XX XXXXXX /n XXXXXXX /n XXXX /n XXXXXX"    0.5049    0.3209    0.5000 box x_fact 142.4 y_fact 57.6
+    159 "XXXXXXX XXXX XXXXXXX /n XXXXX /n XXXX"    0.6099    0.3842    0.5000 box x_fact 154.5 y_fact 43.9
+    160 "XXXXXXX XXXXXXXXXXX XXXXXXXXX /n XXXXXX /n XX"    0.4991    0.4475    0.5000 box x_fact 222.7 y_fact 43.9
+    161 "XXXXXXX XXXXXXXXXXX XXXXX /n XXXXXXXX /n XXXXX /n XX"    0.6443    0.7490    0.5000 box x_fact 192.4 y_fact 57.6
+    162 "XXXXXXXX XXXX /n XXXXXXXX /n XXXX /n XX"    0.6881    0.5408    0.5000 box x_fact 106.1 y_fact 57.6
+    163 "XXXXXXXX XXXX XX XXXXXXXX XXXX /n XX_XXXX_XXXXX"    0.6807    0.4557    0.5000 box x_fact 221.2 y_fact 30.3
+    164 "XXXXXXXX XXX /n XXXXXXXX /n XXX /n XXXXXX"    0.9383    0.3736    0.5000 box x_fact 98.5 y_fact 57.6
+    165 "XXXXXXXX XXX XXXXXXX /n XXXXXXXX /n XXX /n XXXXXX"    0.8308    0.4055    0.5000 box x_fact 154.5 y_fact 57.6
+    166 "XXX XXXX /n XXXX /n XXXXX"              0.6807    0.5514    0.5000 box x_fact 68.2 y_fact 43.9
+    167 "XXX XXXX XXXXXXX /n XX /n XXXXXXX /n XX"    0.6728    0.4369    0.5000 box x_fact 124.2 y_fact 57.6
+    168 "XXX XXXX XXXXXXX XXXX /n XXX /n XXXX /n XXXXXXX /n XXXX /n XXXXXXXX"    0.5215    0.5042    0.5000 box x_fact 157.6 y_fact 84.8
+    169 "XXX XXXXXXX /n XX_XXXXXXXX_XX"          0.6889    0.3558    0.5000 box x_fact 115.2 y_fact 30.3
+    170 "XXX XXXXXXX XXXXXXXXXXXX XXXX /n XXX /n XXX /n XXX /n XXXX /n XXXXXXXXXXX"    0.7931    0.2519    0.5000 box x_fact 218.2 y_fact 84.8
+    171 "XXXX XXXXXXX /n XXXXXXXXXXXXX /n XXXX /n XXXXXX"    0.9389    0.2651    0.5000 box x_fact 110.6 y_fact 57.6
+    172 "XXXX XXXXXXX XX XXXXXXX XXXX /n XXXX /n XXXXXXX /n XX"    0.8627    0.3092    0.5000 box x_fact 206.1 y_fact 57.6
+    173 "XXXXXXXXX XXXX /n XXXXXXXXX /n XXXX /n XXXX"    0.7047    0.2686    0.5000 box x_fact 113.6 y_fact 57.6
+    174 "XXXXXXXXX XXXXXX /n XXX /n XXXX /n XXXX /n XXXX"    0.5658    0.5119    0.5000 box x_fact 128.8 y_fact 71.2
+    175 "XXXXXXXXX XXXXXX XXXXXXXXXX /n XXXXXXXXX /n XXXXXX /n XX"    0.5387    0.6244    0.5000 box x_fact 207.6 y_fact 57.6
+    176 "XXXXX XXXX /n XXXXXX"                   0.4696    0.5813    0.5000 box x_fact 83.3 y_fact 30.3
+    177 "XXXXX XXXX XXXXXXXXXX /n XXXXXXX"       0.4057    0.6031    0.5000 box x_fact 162.1 y_fact 30.3
+    178 "XXXXXXXX XXXXX /n XXXXXXX /n XXXXXXXXXXX /n XXXXXXXX /n X"    0.5840    0.7789    0.5000 box x_fact 113.6 y_fact 71.2
+    179 "XXXXXXX XXXXXXXX XX XXXX /n XXXXXX /n XX"    0.6889    0.5408    0.5000 box x_fact 180.3 y_fact 43.9
+    180 "XXXXXXX XXXX /n XXXXXXX /n XXXX /n XXXX"    0.7970    0.3817    0.5000 box x_fact 98.5 y_fact 57.6
+    181 "XXXX XXXXXXX /n XXXXXXXX /n XX"         0.6159    0.4304    0.5000 box x_fact 98.5 y_fact 43.9
+    182 "XXXX XXXXXX XXXXXX /n XXXX /n XXXXXXX /n XXXXX /n XXXX /n XXXX"    0.7092    0.5661    0.5000 box x_fact 139.4 y_fact 84.8
+    183 "XXXX XXXXXXXXXXXX XXXXXXX /n XXXX /n XXXX"    0.8416    0.7713    0.5000 box x_fact 192.4 y_fact 43.9
+    184 "XXXX XXXXXXXX XXXXXX /n XXXX /n XXXX"    0.8485    0.5514    0.5000 box x_fact 154.5 y_fact 43.9
+    185 "XXXX XXXXXXX XXXX /n XXXX /n XXXXXXX /n XXXX /n XXXX"    0.8033    0.6689    0.5000 box x_fact 131.8 y_fact 71.2
+    186 "XXXX XXXX XXXX /n XXXX /n XXXX /n XXXXXXXXXXX"    0.8455    0.7698    0.5000 box x_fact 109.1 y_fact 57.6
+    187 "XXXX XXXXX XXXXX /n XXX /n XX /n XX /n XX"    0.6968    0.7086    0.5000 box x_fact 124.2 y_fact 71.2
+    188 "XXXX XXXXX XXXXX XXXX XXXX /n XXXXXXXX"    0.7527    0.6436    0.5000 box x_fact 190.9 y_fact 30.3
+    189 "XXXX XXXXXXX XXXXX /n XXXX /n XXXX"     0.8044    0.6589    0.5000 box x_fact 139.4 y_fact 43.9
+    190 "XXXX XXXXXX XXXXXX /n XXXX /n XXXXXX /n XXXXXX /n 2"    0.7100    0.5874    0.5000 box x_fact 139.4 y_fact 71.2
+    191 "XXXX XXXXXX XXXX XXX XXXX /n XXXX /n XXXX"    0.8529    0.5859    0.5000 box x_fact 183.3 y_fact 43.9
+    192 "XXXXXX XXXX /n XXXXXX /n XXXX /n XXXX"    0.8152    0.6198    0.5000 box x_fact 90.9 y_fact 57.6
+    193 "XXXX XXXXXXXX XXXXXXXXXX /n XXX /n XXXX /n XXXX"    0.6776    0.7126    0.5000 box x_fact 184.8 y_fact 57.6
+    194 "XXXX XXXXXXXX XXXX /n XXX /n XXXX /n XXXXXXXX"    0.7100    0.8671    0.5000 box x_fact 139.4 y_fact 57.6
+    195 "XXXX XXXXX /n XXXX /n XXXX"             0.8015    0.4946    0.5000 box x_fact 83.3 y_fact 43.9
+    196 "XXXX XXXXX /n XXXX /n XXXXX /n XXXX"    0.7901    0.5378    0.5000 box x_fact 83.3 y_fact 57.6
+    197 "XXXX XXXXX XXX XXXXX /n XXXX /n XXXXX /n XXXX"    0.9064    0.5104    0.5000 box x_fact 150.0 y_fact 57.6
+    198 "XXXX XXXXX XXXX /n XXXX /n XXXXX /n XXXX /n XXXX"    0.8991    0.4860    0.5000 box x_fact 116.7 y_fact 71.2
+    199 "XXXX XXXXX /n XXXX /n XXXXX /n XXXXXXXXXXXXXX /n XXXX"    0.8982    0.5008    0.5000 box x_fact 118.2 y_fact 71.2
+    200 "XXXXX XXXXXXXX /n XXXXXXXX /n XXXXX /n XX"    0.4490    0.3771    0.5000 box x_fact 113.6 y_fact 57.6
+    201 "XXXXXX /n XXXXXX /n XXXX /n XXXX"       0.8092    0.3340    0.5000 box x_fact 57.6 y_fact 57.6
+    202 "XXXX XXXX /n XXXX /n XXXX /n XXXX"      0.5004    0.3802    0.5000 box x_fact 75.8 y_fact 57.6
+    203 "XXX XXXXXXX /n XXX /n XXXXXXX /n XX"    0.6045    0.3796    0.5000 box x_fact 90.9 y_fact 57.6
+    204 "XXX XXXXXX /n XXXXXXXX /n XXXXXXXX /n XX"    0.6389    0.3741    0.5000 box x_fact 83.3 y_fact 57.6
+    205 "XXX XXXX /n XXX /n XXXX /n XX"          0.6227    0.3746    0.5000 box x_fact 68.2 y_fact 57.6
+    206 "XXXXXXXXX XXXXXXX /n XXXXXXXXXXXX /n XXXX"    0.3488    0.6969    0.5000 box x_fact 136.4 y_fact 43.9
+    207 "X X XXXX XXXXXXXXX /n XXXXX /n XX /n XXXXXXX /n XX"    0.6708    0.3422    0.5000 box x_fact 134.8 y_fact 71.2
+    208 "XXXXX XXX XXXXXXX /n XXXXXX /n XX"      0.8534    0.6031    0.5000 box x_fact 131.8 y_fact 43.9
+    209 "XXXX /n XXXX /n XXXX"                   0.4843    0.5368    0.5000 box x_fact 42.4 y_fact 43.9
+    210 "XXX XXXXXXXX /n XXXXXX /n XXX /n XXXXX /n XXXX"    0.5455    0.6700    0.5000 box x_fact 98.5 y_fact 71.2
+    211 "XXX XXXXXXXXXX XXXXXXX /n XXXXX /n XXXX"    0.4469    0.7369    0.5000 box x_fact 169.7 y_fact 43.9
+    212 "`XXX XXXXX /n XXXXXX /n XXXXX /n XX"    0.3768    0.8336    0.5000 box x_fact 78.8 y_fact 57.6
+    213 "XXXXXX /n XX_XXXXXXXX_XXXXXX_XXXX"      0.5943    0.6451    0.5000 box x_fact 181.8 y_fact 30.3
+    214 "XXXXXX XXXXXXXX XXXXXXXXXX /n XXXXXXXXXXXX /n XXXX"    0.6232    0.6842    0.5000 box x_fact 200.0 y_fact 43.9
+    215 "XXXXXX XXXXXXXX XXXX /n XXX /n XXXXXXX /n XXXX"    0.5236    0.4709    0.5000 box x_fact 154.5 y_fact 57.6
+    216 "XXXXXX XXXXXXXXXXXX XXX XXXXXX /n XXXXXXX_XXXX"    0.7052    0.6467    0.5000 box x_fact 225.8 y_fact 30.3
+    217 "XXX XXXX XXXXXXXXXXX /n XXX /n XXXX /n XXXXXXXXXXX /n XXXX"    0.3733    0.7845    0.5000 box x_fact 154.5 y_fact 71.2
+    218 "XXX XXXX /n XXXXXXXX /n XXXXX /n XX"    0.3997    0.4369    0.5000 box x_fact 72.7 y_fact 57.6
+    219 "XXXXXXX XXXX XXXX /n XXX_XXXX_XXXX_XXXX"    0.4814    0.3620    0.5000 box x_fact 143.9 y_fact 30.3
+    220 "XXXXXX XXXXX /n XXXXXXXXX /n XXXXXX /n XX"    0.5289    0.5920    0.5000 box x_fact 98.5 y_fact 57.6
+    221 "XXXXXXXXXXXX XXXX /n XXXXXXXXXXXXX /n XXXX /n XXXX"    0.9467    0.2914    0.5000 box x_fact 136.4 y_fact 57.6
+    222 "XXXXX XXX XXXXXXXXXX /n XXXXXX /n XX"    0.7018    0.3873    0.5000 box x_fact 154.5 y_fact 43.9
+    223 "XXXXXXX XXXXXXXX /n XXXXXXXXXXXXX /n XXXX /n XXXXXX"    0.4332    0.5686    0.5000 box x_fact 128.8 y_fact 57.6
+    224 "XXXXXXX XXXX XXXXXX XXXXX /n XXXXXX /n XXXXX /n XXX"    0.7253    0.5520    0.5000 box x_fact 187.9 y_fact 57.6
+    225 "XXXXX XXXXXX /n XXXXX /n XXXXXX /n XXXXXXXXXXX"    0.2634    0.6026    0.5000 box x_fact 98.5 y_fact 57.6
+    226 "XXXXXX XXXXXXXXXXX XXXXXXXXX /n XXXXXX /n XXXX"    0.5663    0.4739    0.5000 box x_fact 215.2 y_fact 43.9
+    227 "XX XXXXX XXXXXXX /n XX /n XXXXX /n XXXX"    0.2884    0.6528    0.5000 box x_fact 124.2 y_fact 57.6
+    228 "XXXXXX XXXXXXXX /n XX /n XXXXX /n XXXX"    0.1582    0.6259    0.5000 box x_fact 121.2 y_fact 57.6
+    229 "XXXXXX XXXXX XXXXXXXX /n XXXXXX /n XXXXX /n XXXXXXXX /n XX"    0.1292    0.7044    0.5000 box x_fact 162.1 y_fact 71.2
+    230 "XXXXXX XXXXX /n XXXXXX /n XXXX"         0.0533    0.7212    0.5000 box x_fact 98.5 y_fact 43.9
+    231 "XXXXXXX XXXX XXXXXX /n XXXXXX /n XXXX"    0.5766    0.4653    0.5000 box x_fact 147.0 y_fact 43.9
+    232 "XXXXX XXXX XXXXXXXXXX XXXX /n XXXXXXXXXXXX /n XXXX"    0.2663    0.6720    0.5000 box x_fact 195.5 y_fact 43.9
+    233 "XXXXXXXX XXX /n XXXXXX /n XXXX /n XX"    0.8603    0.7293    0.5000 box x_fact 98.5 y_fact 57.6
+    234 "XXXXXX XXX XXX XXXXXXX XXX /n XXXXXXX /n XXXXXX /n XXXX"    0.8058    0.7724    0.5000 box x_fact 190.9 y_fact 57.6
+    235 "XXXXXXX XXX /n XXXXXX /n XXXX /n XX"    0.9094    0.5723    0.5000 box x_fact 90.9 y_fact 57.6
+    236 "XXXXXX XXX /n XXXXXX /n XXXX /n XX"     0.8824    0.6533    0.5000 box x_fact 83.3 y_fact 57.6
+    237 "XXXXXX XXX /n XXXXXX /n XXXX /n XX"     0.8347    0.7385    0.5000
+    238 "XXXXXXXX XXX /n XXXXXX /n XXXX /n XX"    0.9094    0.5834    0.5000 box x_fact 98.5 y_fact 57.6
+    239 "XXX XXX XXXXXXX XXX /n XXXXXX /n XXXX /n XX"    0.8804    0.7182    0.5000 box x_fact 142.4 y_fact 57.6
+    240 "XXXXXXXXXXXX XXX /n XXXXXX /n XXXX /n XX"    0.9080    0.5449    0.5000 box x_fact 128.8 y_fact 57.6
+    241 "XXX XX XXXX XXXX XXX /n XXXXXX /n XXXX /n XX"    0.9183    0.6168    0.5000 box x_fact 145.5 y_fact 57.6
+    242 "XXX XXXXX XXXXXX XXX /n XXX /n XX /n XXX"    0.8769    0.7040    0.5000 box x_fact 150.0 y_fact 57.6
+    243 "XXXX XXX /n XXXXXX /n XXXX /n XX"       0.8864    0.6497    0.5000 box x_fact 68.2 y_fact 57.6
+    244 "XXX XX XXXX XXXXXXXXXXX XXX /n XXXXXX /n XXXX /n XX"    0.9359    0.5514    0.5000 box x_fact 198.5 y_fact 57.6
+    245 "XXXX XXXXX XXX /n XXXXXX /n XXXX /n XX"    0.8624    0.7243    0.5000 box x_fact 109.1 y_fact 57.6
+    246 "XXX XX XXXX XXXXXXX XXX /n XXX /n XXX /n XXXX /n XX"    0.9059    0.6852    0.5000 box x_fact 168.2 y_fact 71.2
+    247 "XXXX XXXX /n XXXX /n XXXX /n XXXX"      0.7337    0.4197    0.5000 box x_fact 75.8 y_fact 57.6
+    248 "XXXXXXX XXXXXXX XXXXXX /n XXXXXXX /n XXXXXX /n XXXX"    0.7680    0.4739    0.5000 box x_fact 169.7 y_fact 57.6
+    249 "XXXXXXX XXXX XXXXX /n XXXXXXX /n XXXX /n XXXXX"    0.4450    0.4795    0.5000 box x_fact 139.4 y_fact 57.6
+    250 "XXXXXXX XXXXXXXX /n XXXXXXX /n XXXXXXXX"    0.7292    0.4845    0.5000 box x_fact 128.8 y_fact 43.9
+    251 "XXX XXX /n XX /n XXXXXXX /n XX"         0.6483    0.3777    0.5000 box x_fact 65.2 y_fact 57.6
+    252 "XXXXXX XXXX /n XXXXXX /n XXXX /n XXXX"    0.8466    0.2383    0.5000 box x_fact 90.9 y_fact 57.6
+    253 "XXX /n XXX /n XXXXXXXX /n XXXX"         0.7253    0.2818    0.5000 box x_fact 72.7 y_fact 57.6
+    254 "XXXX XXXXX XXX /n XX_XXXX_XXXXX"        0.6600    0.2728    0.5000 box x_fact 109.1 y_fact 30.3
+    255 "XXXXXX XXXX XXXXXXXX XXXX /n XXXXXXXXXXXX /n XXXX"    0.4857    0.8854    0.5000 box x_fact 187.9 y_fact 43.9
+    256 "XXXXXX XXXX XXXXXXXX XXXXXXXXX /n XXXX /n XX"    0.5407    0.7166    0.5000 box x_fact 225.8 y_fact 43.9
+    257 "XXXXXXXXX XXXX /n XXXXXXXXX /n XXXX /n XXXXXXXXXXX"    0.3238    0.8043    0.5000 box x_fact 113.6 y_fact 57.6
+    258 "XXXXXXXXX /n XXXXXXXXX /n XXXXXXX /n XXXXXXXXX /n XX"    0.5128    0.5945    0.5000 box x_fact 80.3 y_fact 71.2
+    259 "XXXX XXXX XXXXXX /n XXX /n XXXXXXXX /n XXXXX"    0.4023    0.5889    0.5000 box x_fact 124.2 y_fact 57.6
+    260 "XXXXXXXXX XXXXXXXXXX /n XXXXXXXXXX /n XXXXXXXXXXX"    0.3473    0.7369    0.5000 box x_fact 159.1 y_fact 43.9
+    261 "XXXXXXXXX /n XXXX /n XXXXX /n XXXX"     0.2642    0.6472    0.5000 box x_fact 80.3 y_fact 57.6
+    262 "XXXX XXXX /n XXXX /n XXXX /n XXXXXXXXXXX"    0.3968    0.7607    0.5000 box x_fact 95.5 y_fact 57.6
+    263 "XXXX XXXXXXXXX XXXXXX /n XXXXXXX /n XXXX /n XXXXX"    0.3459    0.5763    0.5000 box x_fact 162.1 y_fact 57.6
+    264 "XXXXXXXX /n XXXXXXXX /n XXXX"           0.2716    0.6335    0.5000 box x_fact 72.7 y_fact 43.9
+    265 "XXXXXX XXXXXXXXX /n XXXXXX /n XX"       0.4474    0.5905    0.5000 box x_fact 128.8 y_fact 43.9
+    266 "XXXXXXXXXX XXXX-XXXXXX XXXXXXX /n XXXX /n XXXXX"    0.3773    0.6158    0.5000 box x_fact 228.8 y_fact 43.9
+    267 "XXXXX XXXX-XXXXXX XXXXXXX /n XXXX /n XXXXX"    0.3380    0.5823    0.5000 box x_fact 190.9 y_fact 43.9
+    268 "XXXXX XXXX /n XXXXX /n XXXX /n XXXX"    0.4862    0.6330    0.5000 box x_fact 83.3 y_fact 57.6
+    269 "XXXXXXXXXXXXXXXX /n XXX /n XXXXXXXX"    0.4347    0.7774    0.5000 box x_fact 133.3 y_fact 43.9
+    270 "XXXXXXXX XXXX /n XXXX /n XXXXXXXXXXX"    0.4572    0.6604    0.5000 box x_fact 106.1 y_fact 43.9
+    271 "XXXXXXX XXXXXXXXX XXXX /n XXXXXXXXX /n XX"    0.3949    0.6959    0.5000 box x_fact 169.7 y_fact 43.9
+    272 "XXXXXXXX XXXX /n XXXXXX /n XXXXXXXXXX /n XXXX"    0.0801    0.0798    0.5000 box x_fact 106.1 y_fact 57.6
+    273 "XXX XXXXXXX XXX /n XXXXXX /n XXXX /n XX"    0.9148    0.5899    0.5000 box x_fact 116.7 y_fact 57.6
+    274 "XXX XXXX XXXXXXXX /n XXX /n XXXX /n XXXXXXXX /n XXXX"    0.7337    0.2728    0.5000 box x_fact 131.8 y_fact 71.2
+    275 "XXXX XXXXXXX /n XX /n XXXX"             0.3498    0.6858    0.5000 box x_fact 98.5 y_fact 43.9
+    276 "XXXX XXXXXXX XXXX /n XXXX /n XXXX"      0.2678    0.7719    0.5000 box x_fact 131.8 y_fact 43.9
+    277 "XXXX XXXXXXX XXXXXXXX /n XXXXXXXXX"     0.3659    0.5838    0.5000 box x_fact 162.1 y_fact 30.3
+    278 "XXXX XXXX XXXXXX XXXXX /n XXXX /n XXXXX"    0.3522    0.5525    0.5000 box x_fact 165.2 y_fact 43.9
+    279 "XXXXXXX XXXXXXXX XXXXXXXXXX /n XXXXXX /n XX"    0.6747    0.6168    0.5000 box x_fact 207.6 y_fact 43.9
+    280 "XXXXXXX XXXXXXXX XXXX /n XXXXXXX /n XXXXXXXX /n XXXX /n XXXXXXXX"    0.7828    0.7602    0.5000 box x_fact 162.1 y_fact 71.2
+    281 "XXXXXXXXX XXXXX XXXXXXX XXXX /n XXXXXXXXX /n XXXXX /n XXXXXXX /n XXXX /n X"    0.7749    0.1649    0.5000 box x_fact 210.6 y_fact 84.8
+    282 "XXXXXXXXX XXXXXX XXXX /n XXXXXXXXX /n XXXXX /n XXXXXXX /n XXXX /n X"    0.7106    0.2003    0.5000 box x_fact 162.1 y_fact 84.8
+    283 "XXXXXXX XXXX /n XXXXXXXX_XXXX_XXXX"     0.5171    0.3589    0.5000 box x_fact 145.5 y_fact 30.3
+    284 "XXXXXXX XXXXXXX XXXX /n XXXXXXX /n XXXX /n XXXX"    0.5834    0.3305    0.5000 box x_fact 154.5 y_fact 57.6
+    285 "XX XXXXXXX XXXX /n XX /n XXXXXXX /n XXXX /n XXXXXXXXXXX"    0.6291    0.3213    0.5000 box x_fact 116.7 y_fact 71.2
+    286 "XX XXXXXX /n XXX /n XXXXXXX /n XXXXXXXXXX /n XXXX"    0.4514    0.3817    0.5000 box x_fact 87.9 y_fact 71.2
+    287 "XX XXXXXXXX XXXXX /n XX /n XXXXXXXX /n XXXXX /n XXXX"    0.4749    0.3974    0.5000 box x_fact 131.8 y_fact 71.2
+    288 "XX XXXX XXXXXX XXXXXXXX /n XXXXX /n XXXX /n XX"    0.5349    0.3923    0.5000 box x_fact 172.7 y_fact 57.6
+    289 "XXXXXXX XXXXXX XXXX /n XXX /n XXXXXXX /n XXXXXXXXXX /n XXXX"    0.4121    0.3802    0.5000 box x_fact 147.0 y_fact 71.2
+    290 "XXXXXXX XXXXXX XXXXXXX XXXXX /n XXXXXXX /n XXXXX /n XX"    0.4485    0.3154    0.5000 box x_fact 210.6 y_fact 57.6
+    291 "XXXXXXX XXXXXX XXXXXXX /n XXX_XXXXXXXXXX_XXXX"    0.4886    0.5600    0.5000 box x_fact 169.7 y_fact 30.3
+    292 "XXXXXXX XXXXXX /n XX_XXXXXXX_XXX_XXXX_XXXX"    0.4991    0.4517    0.5000 box x_fact 187.9 y_fact 30.3
+    293 "XXXXXX XXXXXXX XXXXXXXXXX XXXX /n XXXXXXX /n XXXXXX /n XX"    0.3984    0.5550    0.5000 box x_fact 225.8 y_fact 57.6
+    294 "XXXXXX XXX XXXX /n XX /n XXXXXXX"       0.2304    0.4774    0.5000 box x_fact 116.7 y_fact 43.9
+    295 "XXXXXX XXX XXXXX /n XXXXXX /n XXXXX /n XXXX"    0.3541    0.5124    0.5000 box x_fact 124.2 y_fact 57.6
+    296 "XXXXXXX XXXXXXXXXX XXXXXX /n XXX /n XXXXXXX /n XXXXX"    0.5589    0.4916    0.5000 box x_fact 192.4 y_fact 57.6
+    297 "XXXXXXX XXXXX /n XX_XXXXXX_XXXX"        0.3997    0.4120    0.5000 box x_fact 115.2 y_fact 30.3
+    298 "XXX XXXX /n XX /n XXXXXXX"              0.4598    0.2839    0.5000 box x_fact 68.2 y_fact 43.9
+    299 "XXX XXXXX XXXX /n XXX /n XXXX"          0.4126    0.2448    0.5000 box x_fact 109.1 y_fact 43.9
+    300 "XXX XXXXX XXXXXX /n XXX /n XXXXX /n XXXXXX /n XXXXX"    0.4361    0.1628    0.5000 box x_fact 124.2 y_fact 71.2
+    301 "XXXXXXX XXXXX /n XXXXXXX /n XXXXX /n XX /n XXXX"    0.4960    0.2550    0.5000 box x_fact 106.1 y_fact 71.2
+    302 "XXX XXXXXXX XXXX /n XXX /n XXXX"        0.5015    0.2130    0.5000 box x_fact 124.2 y_fact 43.9
+    303 "XXX XXXXXXX /n X_XXX_XXXXXX_XXX"        0.5289    0.3284    0.5000 box x_fact 128.8 y_fact 30.3
+    304 "XXXXXXX XXXX /n XXXXXXX /n XXXX /n XXXXXXX /n XXXX"    0.3889    0.6846    0.5000 box x_fact 98.5 y_fact 71.2
+    305 "XXXXXXX XXXXXX /n XX /n XXXXXXXXXX /n XXXX"    0.3762    0.6660    0.5000 box x_fact 113.6 y_fact 57.6
+    306 "XXXXXX XXXXXXXXX XXXXX /n XXXX /n XXXX"    0.3071    0.2287    0.5000 box x_fact 169.7 y_fact 43.9
+    307 "XXXX XXX XXXXXX XXXXXXXXXX /n XXXXXXXX /n XXXXXX"    0.7052    0.5119    0.5000 box x_fact 195.5 y_fact 43.9
+    308 "XXX XX /n XXX /n XX"                    0.5737    0.4770    0.5000 box x_fact 53.0 y_fact 43.9
+    309 "XXXXXXXX XXXXX XXXX XXX XXXXX /n XXXXXXX /n XXXXX /n XXXX /n XX"    0.2958    0.2849    0.5000 box x_fact 213.6 y_fact 71.2
+    310 "XXXXXXXX XXXXXX /n XXXXXXXX /n XXXXXX /n XXXXXXXXXXX"    0.4744    0.7243    0.5000 box x_fact 121.2 y_fact 57.6
+    311 "XXXXX XXXX /n XXXXXX /n XX /n XX /n XXXX /n XXXX"    0.4514    0.3564    0.5000 box x_fact 83.3 y_fact 84.8
+    312 "XXXXX XXXXXXXX /n XXXXXXXXXX /n XXXXXX /n XXXX"    0.4303    0.4060    0.5000 box x_fact 113.6 y_fact 57.6
+    313 "XXXXX XXXX XXXX /n XXXXX /n XXXX /n XXXX /n XXXX"    0.4282    0.4252    0.5000 box x_fact 116.7 y_fact 71.2
+    314 "XXXXX XXXX XXXXXXXX XXXX /n XXXXX /n XXXX /n XXXXXXXX /n XXXX /n XXXX"    0.6212    0.5337    0.5000 box x_fact 180.3 y_fact 84.8
+    315 "XXXXX XXXX /n XX_XXXXXXX_XXXX_XX"       0.5064    0.4810    0.5000 box x_fact 143.9 y_fact 30.3
+    316 "XXXXX XXXXXXXX XXXXXXXX /n XXXXX /n XXXXXXXX /n XXXXXXXX /n XX"    0.4018    0.2119    0.5000 box x_fact 177.3 y_fact 71.2
+    317 "XXXXX XXXXXXXX XXXXX /n XXXXX /n XXXXXXXX /n XXXXX /n XX"    0.3282    0.2692    0.5000 box x_fact 154.5 y_fact 71.2
+    318 "XXXX XXXXXXXX XXXXXXX /n XXXX /n XXXX"    0.3641    0.7475    0.5000 box x_fact 162.1 y_fact 43.9
+    319 "XXXXXXX XXXX XXXXX /n XXXXX /n XXXX"    0.6272    0.2190    0.5000 box x_fact 139.4 y_fact 43.9
+    320 "XXXXX /n XXXXX /n XXXXXXXXXXX"          0.5555    0.2717    0.5000 box x_fact 95.5 y_fact 43.9
+    321 "XXX XXXXXX /n XXX /n XXXXXX /n XXXXXXXXXXX"    0.7224    0.4724    0.5000 box x_fact 95.5 y_fact 57.6
+    322 "XXXXXXX XXXXXXXXXX XXXX /n XXX /n XXXXXX /n XXXX"    0.4268    0.3209    0.5000 box x_fact 177.3 y_fact 57.6
+    323 "XXXXXXX XXXXXXXX /n XXXX /n XXXX"       0.3860    0.1866    0.5000 box x_fact 128.8 y_fact 43.9
+    324 "XXXXXXXX /n XXXX /n XXXX"               0.3675    0.2134    0.5000 box x_fact 72.7 y_fact 43.9
+    325 "XXXXXXXX /n XXXX /n XXXX"               0.3243    0.2485    0.5000
+    326 "XXXXXXXXX XXXXX XXXXXXX /n XX /n XXXX /n XXX /n XXXXXX"    0.6973    0.2387    0.5000 box x_fact 177.3 y_fact 71.2
+    327 "XXXXXXXXX XXXXX XXXXXXX XXXXX /n XXXX /n XXXXXXXXXXX"    0.8431    0.2287    0.5000 box x_fact 218.2 y_fact 43.9
+    328 "XXXXXXXXX XXXXX XXXXXXX /n XXX /n XXXXXX /n XXXX /n XX"    0.7390    0.3275    0.5000 box x_fact 177.3 y_fact 71.2
+    329 "XXXX XXXXXXXXX /n XXXX /n XXXX"         0.7572    0.7030    0.5000 box x_fact 113.6 y_fact 43.9
+    330 "XXX XX XXXXXXXX XXXXXXXX /n XXXXXXXX_XXXXXXXX"    0.6045    0.6264    0.5000 box x_fact 180.3 y_fact 30.3
+    331 "XXXX XXXXX XXXXX XX XXXX /n XXXX /n XXXXXX /n XXXX /n XX"    0.4514    0.4151    0.5000 box x_fact 175.8 y_fact 71.2
+    332 "XXXX XXXXXXX XXX /n XXXXXXXX /n XXXX"    0.5927    0.6695    0.5000 box x_fact 124.2 y_fact 43.9
+    333 "XXXX XXXXX XXXXX XXXXXXXXXXX /n XXX /n XXXX"    0.6109    0.7855    0.5000 box x_fact 210.6 y_fact 43.9
+    334 "XXX XXXXXXXXXXX XXXX /n XXX /n XXXX"    0.6251    0.9208    0.5000 box x_fact 154.5 y_fact 43.9
+    335 "XXXX XXXXX XXXXX XXXXXXXX /n XXXX /n XXXX"    0.7690    0.8114    0.5000 box x_fact 187.9 y_fact 43.9
+    336 "XXXX XXXXX XXXX /n XXXXXX /n XX"        0.6449    0.7044    0.5000 box x_fact 116.7 y_fact 43.9
+    337 "XXXX XXXXXX XXXXXX /n XXXX /n XXXX"     0.8392    0.5880    0.5000 box x_fact 139.4 y_fact 43.9
+    338 "XXXX XX XXXXXXXX XXXX /n XXXX /n XXXX"    0.8339    0.6223    0.5000 box x_fact 157.6 y_fact 43.9
+    339 "XXXX XXXXXX XXXXXXXX XXXX /n XXXX /n XXXX"    0.8471    0.6250    0.5000 box x_fact 187.9 y_fact 43.9
+    340 "XX XXXXX /n XX /n XXXXX /n XXXX"        0.2083    0.7232    0.5000 box x_fact 68.2 y_fact 57.6
+    341 "XXXXX XXXXXXX /n XXXX /n XXXXX"         0.3762    0.5803    0.5000 box x_fact 106.1 y_fact 43.9
+    342 "XXXXX XXXXXXX XXXXXX /n XXXXX /n XXXXXXX /n XX"    0.2805    0.6518    0.5000 box x_fact 154.5 y_fact 57.6
+    343 "XX XXXXXX XXXXXXX /n XXXXX"             0.3359    0.7339    0.5000 box x_fact 131.8 y_fact 30.3
+    344 "XX XXXXXX XXXX /n XX /n XXXXXX /n XXXX /n XXXX"    0.5913    0.4394    0.5000 box x_fact 109.1 y_fact 71.2
+    345 "XXX XXXXXXXXXXX XXXX /n XXX /n XXXXXXXXXXX /n XXXX /n XXXX"    0.7596    0.5079    0.5000 box x_fact 154.5 y_fact 71.2
+    346 "XXXXXXX XXXXXXX XX XXXXXXX XXX /n XXXXXXX /n XXXXXXX /n XX"    0.7788    0.4446    0.5000 box x_fact 221.2 y_fact 57.6
+    347 "XXXXXXX XXXXX /n XXXXXXX /n XXXXX /n XXXX /n XXXX"    0.8937    0.4329    0.5000 box x_fact 106.1 y_fact 71.2
+    348 "XXXXXXX XXXXX XXXX /n XXXXXXX /n XXXXX /n XXXX /n XXXXXXXXXXX"    0.5167    0.4952    0.5000 box x_fact 139.4 y_fact 71.2
+    349 "XXX XXXX /n XXXXXXXX /n XXX /n XXXXX"    0.6320    0.2479    0.5000 box x_fact 72.7 y_fact 57.6
+    350 "XXX XXXX XXXX /n X/X /n XXXXXXXX /n XXXX"    0.4780    0.5707    0.5000 box x_fact 101.5 y_fact 57.6
+    351 "XXX XXXXXXXXX XXXX /n XXX /n XXXXXXXXX /n XXXX /n XXXXXXXXXXX"    0.7980    0.3001    0.5000 box x_fact 139.4 y_fact 71.2
+    352 "XXX XXXX /n XX /n XXXXXXX"              0.5123    0.2402    0.5000 box x_fact 68.2 y_fact 43.9
+    353 "XXX XXXX XXX /n XXX"                    0.5260    0.5570    0.5000 box x_fact 93.9 y_fact 30.3
+    354 "XXX XXXX XXXX /n XXXXX /n XXX /n XXXXX"    0.4960    0.1279    0.5000 box x_fact 101.5 y_fact 57.6
+    355 "XXX XXXX /n XXXX /n XXXXXXX"            0.7013    0.3564    0.5000 box x_fact 68.2 y_fact 43.9
+    356 "XXX XXX /n X /n - /n X /n XXXX /n XXXXX"    0.7828    0.1906    0.5000 box x_fact 60.6 y_fact 84.8
+    357 "XXX XXXXXXX XXXXX /n XXX /n XXXXXXX /n XXXXX /n XXX /n XXXX"    0.6644    0.1223    0.5000 box x_fact 131.8 y_fact 84.8
+    358 "XXX XXXXXX /n XXX /n XXXXXX /n XXXXX /n XXXXXXXXXXX"    0.8666    0.2676    0.5000 box x_fact 95.5 y_fact 71.2
+    359 "XXX XXX /n XXX /n XXXXXX"               0.8215    0.2302    0.5000 box x_fact 60.6 y_fact 43.9
+    360 "XXX XXX /n XXX /n XXXXXX"               0.7720    0.2889    0.5000
+    361 "XXXXXXXXXXX XXXXXX /n XXXXXXXXXXX /n XXXXXX /n XXXX /n XXXXXX"    0.7572    0.4040    0.5000 box x_fact 143.9 y_fact 71.2
+    362 "XX XXX /n XX /n XXX /n XXXX /n XXXX"    0.2737    0.4825    0.5000 box x_fact 53.0 y_fact 71.2
+    363 "XX XXX XXXX /n XX /n XXX /n XXXX /n XXXX /n XXXXXXXXXXX"    0.1780    0.4187    0.5000 box x_fact 95.5 y_fact 84.8
+    364 "XXXX XXXXXXXX XXXXX /n XXXX /n XXXX"    0.7111    0.6022    0.5000 box x_fact 147.0 y_fact 43.9
+    365 "XXXXXXXX XXXXX /n XXXXXXXX /n XXXXXX /n XXXXXXXXX /n XX"    0.8687    0.4613    0.5000 box x_fact 113.6 y_fact 71.2
+    366 "XXXXXXXX XXXXXX /n XXX /n XXXXX /n XXXXXX"    0.7430    0.4734    0.5000 box x_fact 121.2 y_fact 57.6
+    367 "XX-XXXX XXXXXXXXXX /n XXXXXXXX /n XXXXXX /n XXXXX /n XXXX /n ."    0.8455    0.3766    0.5000 box x_fact 142.4 y_fact 84.8
+    368 "XXXX XXXXX XXXXXXX XXXX /n XXXX /n XXXXX /n XXXXXXX /n XXXX /n XXXXXX"    0.0762    0.7070    0.5000 box x_fact 172.7 y_fact 84.8
+    369 "XXXXXXXXX XXXXXXXXXXXX XXXXXX /n XXX /n XXXXXX /n XXX /n XXXXXX /n XXXX"    0.3483    0.6234    0.5000 box x_fact 222.7 y_fact 84.8
+    370 "XXXXXXXXX XXXXXXXXXXXX XXXXXXX /n XXXXXXXXXX /n XXXX"    0.1896    0.6547    0.5000 box x_fact 230.3 y_fact 43.9
+    371 "XXXXXXX /n XXXXXX /n XX"                0.6747    0.6036    0.5000 box x_fact 65.2 y_fact 43.9
+    372 "XXXXXXX XXXXXXX /n XXXXXXX /n XXXX"     0.7867    0.6193    0.5000 box x_fact 121.2 y_fact 43.9
+    373 "XXXXXX XXXXXXXXXX /n XX /n XXXXX /n XXXX"    0.2623    0.8063    0.5000 box x_fact 136.4 y_fact 57.6
+    374 "XXX XXXX /n XXX /n XXXX /n XXXXXXX"     0.3773    0.5606    0.5000 box x_fact 68.2 y_fact 57.6
+    375 "XXX XXXX XXXX /n XXX /n XXXX /n XXXX /n XXXXX"    0.2855    0.6392    0.5000 box x_fact 101.5 y_fact 71.2
+    376 "XXX XX XX XXX XXXX XXXX XXXXX /n XXX /n XX /n XX /n XXXXXXXX /n XXXX /n XXXX"    0.2270    0.7257    0.5000 box x_fact 204.5 y_fact 98.5
+    377 "XXX XX XX XXXXXXXX XXXXXXX /n XXX /n XX /n XX /n XX"    0.5073    0.6877    0.5000 box x_fact 190.9 y_fact 71.2
+    378 "XXX XX XX XXXXXXXX XXXX /n XXX /n XX /n XX /n XXXXXXXX /n XXXX /n XXXX"    0.3944    0.8255    0.5000 box x_fact 168.2 y_fact 98.5
+    379 "XXX XX XX XXX XXXX XXXX XXXXX /n XXX /n XX /n XX /n XXXXXXXX /n XXXX /n XXXX"    0.5461    0.4597    0.5000 box x_fact 204.5 y_fact 98.5
+    380 "XXX XX XX XXXXXXXX XXXXXXX /n XXX /n XX /n XX /n XX"    0.5634    0.7561    0.5000 box x_fact 190.9 y_fact 71.2
+    381 "XXX XX XX XXXXXXXX XXXX /n XXX /n XX /n XX /n XXXXXXXX /n XXXX /n XXXX"    0.5294    0.8986    0.5000 box x_fact 168.2 y_fact 98.5
+    382 "XXX XX XX XXXXXX /n XXX /n XX /n XX /n XX"    0.4543    0.6112    0.5000 box x_fact 119.7 y_fact 71.2
+    383 "XXX XX XXX XXXX /n XXXX /n XXXXX"       0.4342    0.6006    0.5000 box x_fact 112.1 y_fact 43.9
+    384 "XXX XX XXX XXXX XXXX XXXXX /n XXX /n XX /n XXXXXXXX /n XXXX /n XXXX"    0.2708    0.7653    0.5000 box x_fact 186.4 y_fact 84.8
+    385 "XXXXXXXX XXXXXXX /n XXXXXXX /n XXXX"    0.6193    0.5767    0.5000 box x_fact 128.8 y_fact 43.9
+    386 "XXXX XX XXXXXXXX XXXX /n XXX /n XXXX /n XXXXXXXXXXX"    0.2574    0.6127    0.5000 box x_fact 157.6 y_fact 57.6
+    387 "XXXXXXX /n XXXXXXX /n XXXX"             0.7229    0.6457    0.5000 box x_fact 65.2 y_fact 43.9
+    388 "XXXXXX XXXX XXXXXXX /n XXXXXXXXXXXXXX"    0.7636    0.7586    0.5000 box x_fact 147.0 y_fact 30.3
+    389 "XXXXXX XXXXXXXXXXX XXXXXXXXX X /n XXXXXX /n XXXXX /n XXXXXXXX /n XX"    0.5668    0.4800    0.5000 box x_fact 225.8 y_fact 71.2
+    390 "XXXXXX XXXXX XXXXXXXX /n XX /n XXXXX /n XXXX"    0.1642    0.6072    0.5000 box x_fact 162.1 y_fact 57.6
+    391 "XXXXXXXXXX /n XXXXXXXXXX /n XXXXXXXXXXX"    0.5387    0.4672    0.5000 box x_fact 95.5 y_fact 43.9
+    392 "XXXXXX XXXXXXX /n XXXXXX /n XX"         0.6605    0.7324    0.5000 box x_fact 113.6 y_fact 43.9
+    393 "XXXXXXXXX XXXX XXXXX /n XXXXXXXXX /n XX"    0.4292    0.7172    0.5000 box x_fact 154.5 y_fact 43.9
+    394 "XXXXXX XX XXXXXXX /n XXXXXXXXX /n XX"    0.5289    0.6168    0.5000 box x_fact 131.8 y_fact 43.9
+    395 "XXXXXXXX XXXXXX XXXXX XXXX /n XXXXXXXXXXX"    0.5202    0.5042    0.5000 box x_fact 195.5 y_fact 30.3
+    396 "XXX XXXXXXXX /n XXX /n XXXXXXX /n XX"    0.5668    0.2170    0.5000 box x_fact 98.5 y_fact 57.6
+    397 "XXX XXXX /n XXX /n XXXX /n XXXX"        0.6575    0.2606    0.5000 box x_fact 68.2 y_fact 57.6
+    398 "XXX XXXX XXXX XXXX XXXX /n XXXX /n XXXX /n XXXX /n XXXX /n XXXX"    0.5176    0.0872    0.5000 box x_fact 168.2 y_fact 84.8
+    399 "XXXXXXXX XXXXX /n XX /n XXXXXXX"        0.4656    0.4176    0.5000 box x_fact 113.6 y_fact 43.9
+    400 "XXXXXXX XXXXXXX XXX XXX XXXXXX /n XXXXXXXXXXXX /n XXXX"    0.5015    0.5190    0.5000 box x_fact 221.2 y_fact 43.9
+    401 "XXXXXXX XXXXXXXX XXXXXXXXXX /n XXXXXXXXXXXX /n XXXX"    0.4764    0.5424    0.5000 box x_fact 207.6 y_fact 43.9
+    402 "XXXXXXX XXXXXXX XXXX /n XXXXXXXXXXX"    0.3925    0.6492    0.5000 box x_fact 154.5 y_fact 30.3
+    403 "XXXXXXX XXXXXX /n XXXXXXX /n XXXXXXXX /n XXXXXXXXXXX"    0.6349    0.7536    0.5000 box x_fact 113.6 y_fact 57.6
+    404 "XXXXXXX XX XXXXXX /n XXXXXX /n XX /n XX /n XXXXXX"    0.8308    0.7136    0.5000 box x_fact 131.8 y_fact 71.2
+    405 "XXXXXX /n XXXXXX /n XXXXXXX /n XXXXXXXXXXX"    0.4337    0.2003    0.5000 box x_fact 95.5 y_fact 57.6
+    406 "XXXXXX XXXXXXX XXXXX /n XXXXXX /n XX"    0.3641    0.2651    0.5000 box x_fact 154.5 y_fact 43.9
+    407 "XXXXXX XXXXXXX XXXX /n XXXX /n XXXX /n XXXX"    0.4725    0.3467    0.5000 box x_fact 147.0 y_fact 57.6
+    408 "XXXXXXXX XXX XXXXX XXXXXXXXX /n XXXXXX /n XX"    0.4867    0.6994    0.5000 box x_fact 210.6 y_fact 43.9
+    409 "XXXXXXXX XXX XX XXXX XXX /n XXXXXXX_XXXXX"    0.5534    0.8292    0.5000 box x_fact 175.8 y_fact 30.3
+    410 "XXXXXXXX XXX XX XXXX XXXX /n XXXXXXXXXX_XXXXXX"    0.6984    0.8322    0.5000 box x_fact 183.3 y_fact 30.3
+    411 "XXXXXXXX XXX XX XXXX XXXXX /n XXXXXXXXXXX /n XXXX"    0.5943    0.7981    0.5000 box x_fact 190.9 y_fact 43.9
+    412 "XXXXXXXX XXX XX XXXX XXXXXXX /n XXXXXXXX /n XXX /n XX /n XX /n XX"    0.5888    0.8169    0.5000 box x_fact 206.1 y_fact 84.8
+    413 "XXXXXX /n XXXXXX /n XXXXX /n XXXX"      0.3994    0.2682    0.5000 box x_fact 57.6 y_fact 57.6
+    414 "XXXX XXXXX XXXXX XX XXXXXXXXX /n XXXXX"    0.7975    0.6275    0.5000 box x_fact 213.6 y_fact 30.3
+    415 "XX XXXX XXXXXX /n XXXX /n XXXXXXXXX /n XXXX"    0.4028    0.4293    0.5000 box x_fact 109.1 y_fact 57.6
+    416 "XXXX XXXXXX XXXXX /n XXXXXXX /n XXXXXX /n XX"    0.3551    0.5341    0.5000 box x_fact 131.8 y_fact 57.6
+    417 "XXXX XXX XXXXX /n XXXX /n XX /n XXXXXXXX /n XXXXXXXX /n XXXX"    0.7479    0.3836    0.5000 box x_fact 109.1 y_fact 84.8
+    418 "XX XXXXXXX XXXXXX /n XX /n XXXXXXX /n XX"    0.3963    0.6725    0.5000 box x_fact 131.8 y_fact 57.6
+    419 "XXXX XXXXXX XXXXX /n XXXXXX /n XXXX /n XXXXX"    0.4174    0.5874    0.5000
+    420 "XXXXXXXX XXXXXXX /n XXXXXX /n XX"       0.5785    0.6143    0.5000 box x_fact 128.8 y_fact 43.9
+    421 "XXXXXXX XXXX XXXXX /n XXXXXXX /n XXXXXXXXXXX /n XXXXX /n XX /n X"    0.6668    0.7567    0.5000 box x_fact 139.4 y_fact 84.8
+    422 "XXXX XXXXXXXXXX /n XXXX /n XXXX"        0.6757    0.8154    0.5000 box x_fact 121.2 y_fact 43.9
+    423 "XXXXXX XXXXXXXX XXXXX /n XX /n XXXXXXX"    0.3601    0.4222    0.5000 box x_fact 162.1 y_fact 43.9
+    424 "XXX XX XX XXXXXX /n XXX /n XX /n XX /n XXXXXX /n XXXX"    0.6900    0.7283    0.5000 box x_fact 119.7 y_fact 84.8
+    425 "XXXXXXX XXXXXX /n XXXXX"                0.3498    0.7906    0.5000 box x_fact 113.6 y_fact 30.3
+    426 "XXXXXX XX XXX XXXXXX XXXX /n XXX /n XXXXXX /n XXXX /n XXXX"    0.4342    0.6817    0.5000 box x_fact 183.3 y_fact 71.2
+    427 "XXXXXX XXXXXXXXX XX XXX XXXX /n XXX /n XXXX /n XXXX"    0.3006    0.8691    0.5000 box x_fact 206.1 y_fact 57.6
+    428 "XXX XXXXXX XXXX /n XXX /n XXXX /n XXXX"    0.4047    0.7577    0.5000 box x_fact 116.7 y_fact 57.6
+    429 "XXX XXXX /n XXXXXXXXXXXX_XXXX"          0.3733    0.8671    0.5000 box x_fact 139.4 y_fact 30.3
+    430 "XXXXXXX XXXXXX /n XXXXXX /n XX"         0.6915    0.7212    0.5000 box x_fact 113.6 y_fact 43.9
+    431 "XXX XXX /n XXX /n XXXXXX /n XXXX /n XXXX"    0.4769    0.6609    0.5000 box x_fact 60.6 y_fact 71.2
+    432 "XXX XXX XXXXX /n XXX /n XXXXXX /n XXXX /n XXXX"    0.4387    0.7719    0.5000 box x_fact 101.5 y_fact 71.2
+    433 "XXX XXX XXXXXX /n XXX /n XXX /n XXXXXX /n XXXXXXXXXXX"    0.1975    0.4659    0.5000 box x_fact 109.1 y_fact 71.2
+    434 "XXX XXXXXXXXX XXXX XXXX /n XXX /n XX"    0.7440    0.8422    0.5000 box x_fact 172.7 y_fact 43.9
+    435 "XXX XXXXX XXXX /n XXX /n XXXXX /n XXXX /n XXXX"    0.5991    0.7759    0.5000 box x_fact 109.1 y_fact 71.2
+    436 "XXX XXXXXXX XXXXX XXXX /n XXX /n XXXXXXX /n XXXXX /n XXXX /n XXXX"    0.5334    0.8033    0.5000 box x_fact 165.2 y_fact 84.8
+    437 "XXXXXXXXXX XXXX /n XX /n XXXXXXX"       0.1574    0.6604    0.5000 box x_fact 121.2 y_fact 43.9
+    438 "XXXXXXXXXX /n XXXXXXXXXX /n XXXX /n XXXXX /n XX"    0.2716    0.6660    0.5000 box x_fact 87.9 y_fact 71.2
+    439 "XXXXXXXXXX XXXX XXXXX /n XX /n XXXXXXXX"    0.3934    0.6031    0.5000 box x_fact 162.1 y_fact 43.9
+    440 "XXXXXXXX XXXX XXXXX /n XXXXXXX /n XXXX"    0.3551    0.5236    0.5000 box x_fact 147.0 y_fact 43.9
+    441 "XXXXXXXX XXXXXXX /n XXXXXXX /n XXXX /n XXXXX"    0.0949    0.5094    0.5000 box x_fact 128.8 y_fact 57.6
+    442 "XXXXXXXX XXXX XXXXXXX /n XXXXXXXX /n XXXXXXX /n XX"    0.2025    0.4916    0.5000 box x_fact 162.1 y_fact 57.6
+    443 "XXXXXX XXXX /n XXXXXXX /n XXXX /n XXXX"    0.3949    0.4293    0.5000 box x_fact 90.9 y_fact 57.6
+    444 "XXXXXXXXX XXXXXX /n XXXXXXX /n XXXX"    0.7522    0.4455    0.5000 box x_fact 128.8 y_fact 43.9
+    445 "XXXXXXXX XXXXXXXX XXXXXX /n XXXXXXX /n XXXX"    0.7488    0.3624    0.5000 box x_fact 184.8 y_fact 43.9
+    446 "XXXXXXXX XXXXXXX XXXXXX /n XXXXXXXX /n XXXXXXX /n XXXXXX /n XXXX"    0.7459    0.5439    0.5000 box x_fact 177.3 y_fact 71.2
+    447 "XXXXXXXX XXXXXXX XXXX /n XXXXXXX /n XXXX"    0.7160    0.5119    0.5000 box x_fact 162.1 y_fact 43.9
+    448 "XXXXXXXX XXXXXXX /n XX /n XXXXX /n XXXX /n XXXXXXX"    0.5991    0.5023    0.5000 box x_fact 128.8 y_fact 71.2
+    449 "XXXXXXXX XXXXXXX XXX /n XXXXXXXX /n XXXX"    0.4553    0.5175    0.5000 box x_fact 154.5 y_fact 43.9
+    450 "XXX XX XX XXX XXXX /n XXXX /n XXXXX"    0.4661    0.6022    0.5000 box x_fact 130.3 y_fact 43.9
+    451 "XXXX XXXXXXX XXXXXXX /n XXXX /n XXXX"    0.8648    0.7247    0.5000 box x_fact 154.5 y_fact 43.9
+    452 "XXXXXXXX XXXXXXXX /n XXXXX"             0.6246    0.2439    0.5000 box x_fact 136.4 y_fact 30.3
+    453 "XXXXXXXX XXXX /n XXXXX"                 0.6040    0.2343    0.5000 box x_fact 106.1 y_fact 30.3
+    454 "XXXXXXXX /n XXXXXXXX"                   0.3973    0.5301    0.5000 box x_fact 72.7 y_fact 30.3
+    455 "XXXXXX XXXXXXXX /n XXXXXXXX /n XX"      0.2747    0.5707    0.5000 box x_fact 121.2 y_fact 43.9
+    456 "XXXXXXXX XXXXXXX XXXXXX /n XXXX /n XXXXX"    0.7361    0.4830    0.5000 box x_fact 177.3 y_fact 43.9
+    457 "XXXXXXXX XXXXXXX XXXX XXXXX /n XXXXXXX /n XXXX"    0.7514    0.5261    0.5000 box x_fact 203.0 y_fact 43.9
+    458 "XXXX XXXXXXXXXX XXXXXX /n XXXX_XXXXXXX_XXXXXX_XXXX"    0.7799    0.4354    0.5000 box x_fact 189.4 y_fact 30.3
+    459 "XXXXXX XXXXXX /n XX /n XXXXXXXXX"       0.2623    0.5236    0.5000 box x_fact 106.1 y_fact 43.9
+    460 "XXXXXXXX /n XXXXXX /n XXXXXX /n XX"     0.3744    0.4971    0.5000 box x_fact 72.7 y_fact 57.6
+    461 "XXXXXXXX XXXXX XXXXXXXXXX /n XXXXXXXX /n XXXX /n XXXXX /n XX"    0.3222    0.5397    0.5000 box x_fact 192.4 y_fact 71.2
+    462 "XXX XX XXXX XXX XXXXXX XXXX /n XXX /n XX /n XX /n XXXXXX /n XXXX /n XXXXX"    0.6462    0.7952    0.5000 box x_fact 193.9 y_fact 98.5
+    463 "XXX XX XXXX XXX XXXX XXX /n XXX /n XX /n XX /n XX"    0.3370    0.4805    0.5000 box x_fact 171.2 y_fact 71.2
+    464 "XXXXXXXX XXXXX XXXXXXXXXX /n XXXXXXXX /n XXXX /n XXXXX /n XX"    0.3243    0.5545    0.5000 box x_fact 192.4 y_fact 71.2
+    465 "XXXXXXXX XXX XXXXX /n XXXXXXXX /n XXXX"    0.4744    0.5539    0.5000 box x_fact 139.4 y_fact 43.9
+    466 "XXXXXXXX XXX XXXXX /n XXXXXXXX /n XXXX"    0.4018    0.4931    0.5000
+    467 "XXX XXX XXX XXXXX /n XXXXXXX /n XXX /n XX"    0.4809    0.4647    0.5000 box x_fact 127.3 y_fact 57.6
+    468 "XXXXXXX /n XXXXX_XXXXXXXXXXXX_XX"       0.4730    0.4764    0.5000 box x_fact 168.2 y_fact 30.3
+    469 "XXXXXXX XXXXXXX /n XXXXX /n XXXXXXX /n XX"    0.5358    0.3756    0.5000 box x_fact 121.2 y_fact 57.6
+    470 "XXXXXXX XXX XXXX /n XX /n XXXXXXX"      0.2471    0.5636    0.5000 box x_fact 124.2 y_fact 43.9
+    471 "XXXXXXX XXX XXXXX /n XXXX /n XXXXX"     0.3910    0.5200    0.5000 box x_fact 131.8 y_fact 43.9
+    472 "XXXXXXXXXXX XXXXXXXX /n XXXXXXXX /n XXXX /n XXXX"    0.4342    0.2525    0.5000 box x_fact 159.1 y_fact 57.6
+    473 "XXXX XXXX /n XX /n XXXXXXX"             0.3114    0.3457    0.5000 box x_fact 75.8 y_fact 43.9
+    474 "XXXXX XXXXXX XXXX /n XX /n XXXXXXX"     0.3433    0.3848    0.5000 box x_fact 131.8 y_fact 43.9
+    475 "XXX XXXXXX /n XXX /n XX"                0.4601    0.5641    0.5000 box x_fact 83.3 y_fact 43.9
+    476 "XXXXX XXXX /n XXXXX /n XX"              0.5147    0.2834    0.5000
+    477 "XXX XXXX /n XX /n XX"                   0.7593    0.3209    0.5000 box x_fact 68.2 y_fact 43.9
+    478 "XXXX XXXXXXXX XXXXXX /n XX /n XX"       0.7533    0.3796    0.5000 box x_fact 154.5 y_fact 43.9
+    479 "XX XXXX XXXXX XXX XXXXXX XXXX /n XXX_XXXXXXX_XX_XXXX"    0.6871    0.2454    0.5000 box x_fact 209.1 y_fact 30.3
+    480 "XXXXXXXX /n X_XXXXX_XXXXXXXXXXXX"       0.5500    0.3792    0.5000 box x_fact 160.6 y_fact 30.3
+    481 "XXXXXXXX XXXXX /n XXXXXXXX /n XX"       0.4450    0.3097    0.5000 box x_fact 113.6 y_fact 43.9
+    482 "XXXXXXXX XXXX /n XXXXXXXX /n XXXXX /n XX"    0.4032    0.3204    0.5000 box x_fact 106.1 y_fact 57.6
+    483 "XXXXXX XXXX /n XXXXXXXXX_XX"            0.5466    0.4268    0.5000 box x_fact 101.5 y_fact 30.3
+    484 "XXXXXX XXXX XXXXXXXXX XXXXX /n XXXXXX /n XXXX /n XX"    0.6713    0.3133    0.5000 box x_fact 203.0 y_fact 57.6
+    485 "XXXXXX XXXX XXXX /n XXXXXXXXX /n XXXX /n XXXX"    0.6232    0.3062    0.5000 box x_fact 124.2 y_fact 57.6
+    486 "XXXXXX XXXX XXXX XXXX /n XXXXXXXXXXXX /n XXXX /n XXXX /n XX"    0.5864    0.1557    0.5000 box x_fact 157.6 y_fact 71.2
+    487 "XXXXXX XXXX XXXXXXX XXXX /n XXXXXX /n XXXX /n XXXX /n XX"    0.5210    0.5255    0.5000 box x_fact 180.3 y_fact 71.2
+    488 "XXXX XX XXXXXXX XXXX /n XX /n XXXXXXX"    0.6807    0.3518    0.5000 box x_fact 150.0 y_fact 43.9
+    489 "XXXXXXXXX /n X_XXXXX_XXXXXXXXXXXX"      0.5112    0.3848    0.5000 box x_fact 160.6 y_fact 30.3
+    490 "XXXXXXXXX XXXX /n XXXXXX /n XXXX /n XXXX /n XXXXX"    0.7003    0.1810    0.5000 box x_fact 113.6 y_fact 71.2
+    491 "XXX XXXXXXX XXXXX /n XXXXXXX /n XXXX /n XXXX"    0.6860    0.2220    0.5000 box x_fact 131.8 y_fact 57.6
+    492 "XXXXXXXXXXX /n XXXXXXXXXXX /n XXXX /n XX"    0.4435    0.4450    0.5000 box x_fact 95.5 y_fact 57.6
+    493 "XXXXXX XXXX XXXXX XXXX /n XXXXXX /n XXXX /n XXXX /n XX"    0.6929    0.1607    0.5000 box x_fact 165.2 y_fact 71.2
+    494 "XXXX XXXX /n XX /n XXXXXXX"             0.5677    0.2784    0.5000 box x_fact 75.8 y_fact 43.9
+    495 "XXXXXXX XXXX /n XX /n XXXXXXX"          0.4387    0.3989    0.5000 box x_fact 98.5 y_fact 43.9
+    496 "XXXX XXXXXXXXX XXXX /n XX /n XXXXXXX"    0.5579    0.2510    0.5000 box x_fact 147.0 y_fact 43.9
+    497 "XXXX XXXX /n XX /n XXXXXXX"             0.5922    0.3821    0.5000 box x_fact 75.8 y_fact 43.9
+    498 "XXX XXXX /n XX /n XXXXXXX"              0.6668    0.2504    0.5000 box x_fact 68.2 y_fact 43.9
+    499 "XXXX XXXXXXX /n XXXX /n XXXXXXX /n XX"    0.6172    0.1699    0.5000 box x_fact 98.5 y_fact 57.6
+    500 "XXXXXX XXXXX XXXX /n XXXX /n XXXXXXXX /n XXXX"    0.5987    0.3731    0.5000 box x_fact 131.8 y_fact 57.6
+    501 "XXXX XXXXXXX /n XXXX /n XXXXXXX /n XXXX"    0.5824    0.2799    0.5000 box x_fact 98.5 y_fact 57.6
+    502 "XXXXXXX XXXXXXX /n XXXXXXX /n XXXX /n XXXX"    0.5790    0.3437    0.5000 box x_fact 121.2 y_fact 57.6
+    503 "XXXXXXX XXXXXXX XXXXXXXXX /n XX /n XXXXXXX /n XXXX"    0.5461    0.2287    0.5000 box x_fact 192.4 y_fact 57.6
+    504 "XX XXX XXXXX /n XXX /n XX"              0.6433    0.2226    0.5000 box x_fact 93.9 y_fact 43.9
+    505 "XXXX XXXX XXXXX /n XXXXXXXXXXX_XXXXX_XX"    0.5344    0.2013    0.5000 box x_fact 160.6 y_fact 30.3
+    506 "XXX XXX XXX XXXX XXXXX /n XXXXXXX /n XXXX /n XXXX"    0.5953    0.2276    0.5000 box x_fact 160.6 y_fact 57.6
+    507 "XXXX XXXXXXX XXXX /n XX /n XXXXXXX"     0.4366    0.7724    0.5000 box x_fact 131.8 y_fact 43.9
+    508 "XXXX XXXXXXX /n XXXXXX /n XX"           0.4936    0.6547    0.5000 box x_fact 98.5 y_fact 43.9
+    509 "XXXX XXX XXXXX XXXXX /n XXXX_XX"        0.5603    0.3528    0.5000 box x_fact 150.0 y_fact 30.3
+    510 "XXXXXXX /n XXX_XXXX_XX"                 0.4666    0.1223    0.5000 box x_fact 92.4 y_fact 30.3
+    511 "XXXXXXXXX XXXXX XXX /n XXXXXXXXX /n XXXXXX /n XXXX /n XX"    0.3905    0.3407    0.5000 box x_fact 147.0 y_fact 71.2
+    512 "XXXXXXX XXXXX /n XXXXXXX_XXX_XXXXXXXX_XXXXXXXX"    0.3483    0.4916    0.5000 box x_fact 227.3 y_fact 30.3
+    513 "XXXXXXXX XXXX XXXX /n XX /n XXXXXXX"    0.5431    0.4937    0.5000 box x_fact 139.4 y_fact 43.9
+    514 "XXXXXXXX XXXX /n XXXXXXXX /n XXXX /n XXXX /n XXXX"    0.2255    0.5711    0.5000 box x_fact 106.1 y_fact 71.2
+    515 "XXX /n XXXXXXXXX_XX"                    0.4917    0.2697    0.5000 box x_fact 101.5 y_fact 30.3
+    516 "XXXXXX XXXX XXXXXXXX /n XX /n XXXXXXX"    0.3364    0.2332    0.5000 box x_fact 154.5 y_fact 43.9
+    517 "XXXXXXXXX XXXXXX /n XXXXXXX /n XX"      0.5486    0.5560    0.5000 box x_fact 128.8 y_fact 43.9
+    518 "XXXXXX XXXX XXXXXX /n XXXXXX /n XXXX /n XXXXXXXX /n XX"    0.4421    0.3731    0.5000 box x_fact 139.4 y_fact 71.2
+    519 "XXX XXXX /n XXX /n XXXX /n XX"          0.6871    0.3163    0.5000 box x_fact 68.2 y_fact 57.6
+    520 "XXXXXXXXXX XXXXXXXXX /n XX /n XXXX /n XX /n XXXX"    0.4037    0.2996    0.5000 box x_fact 159.1 y_fact 71.2
+    521 "XX XXX /n XXX /n XXXXXX /n XXXX"        0.6605    0.4162    0.5000 box x_fact 57.6 y_fact 57.6
+    522 "XX XXX XXXXXX /n XX /n XX"              0.7867    0.3675    0.5000 box x_fact 101.5 y_fact 43.9
+    523 "XXXXXXXX XXXXX XXXX /n XX /n XXXXXXX"    0.5339    0.5195    0.5000 box x_fact 147.0 y_fact 43.9
+    524 "XXXXXXXX XXXX /n XX /n XXXXXXX"         0.4352    0.1162    0.5000 box x_fact 106.1 y_fact 43.9
+    525 "XXXXX XXXXXXXXX XXXXXXXX XXXX /n XXXXXXX_XXXX"    0.1991    0.2960    0.5000 box x_fact 218.2 y_fact 30.3
+    526 "XXXXX XXXXXXXXX XXXX /n XXXXXXX /n XXXX /n XXXX"    0.5136    0.2500    0.5000 box x_fact 154.5 y_fact 57.6
+    527 "XXXX XXXXXX XXXX /n XX /n XXXXXXX"      0.4455    0.2713    0.5000 box x_fact 124.2 y_fact 43.9
+    528 "XXXXXXXX XXXXXXXX XXXX /n XX /n XXXXXXX"    0.4774    0.2586    0.5000 box x_fact 169.7 y_fact 43.9
+    529 "XXXXXX XXX XXX /n XXXX_XX"              0.5397    0.2839    0.5000 box x_fact 109.1 y_fact 30.3
+    530 "XXXXXXXXXX XXXXXX XXXX /n XX /n XXXXXXX"    0.1936    0.4546    0.5000 box x_fact 169.7 y_fact 43.9
+    531 "XXXXXXX XXXXXX XXXX /n XX /n XXXXXXX"    0.6164    0.5054    0.5000 box x_fact 147.0 y_fact 43.9
+    532 "XXXXXXX XXXXX XXX /n XXXX /n XXXXX"     0.3728    0.5696    0.5000 box x_fact 131.8 y_fact 43.9
+    533 "XXXXXXX XXXXX XXX XXXX /n XX /n XXXXXXX"    0.2394    0.6164    0.5000 box x_fact 165.2 y_fact 43.9
+    534 "XXXXXXX XXXXX XXXX /n XXXXXXXXXX_XXXXXXXXX_XXXXXXXXX"    0.3546    0.5951    0.5000 box x_fact 236.4 y_fact 30.3
+    535 "XXXX XXXXXXXX XXXX /n XXXXXXXXXX_XXXXXXXXX_XXXXXXXXX"    0.3217    0.5023    0.5000
+    536 "XXXX XXXXXXXX /n XXXXX /n XXXX"         0.2143    0.5341    0.5000 box x_fact 106.1 y_fact 43.9
+    537 "XX XXXX XXXXX XXX XXXXXX XXX /n XX_XXXX_XXXXX"    0.7519    0.2044    0.5000 box x_fact 201.5 y_fact 30.3
+    538 "XXXXX XXXXXXX XXXXX XXXX /n XX /n XXXXXXX"    0.2510    0.4567    0.5000 box x_fact 180.3 y_fact 43.9
+    539 "XXXXXXXX XXXXX XXXXX XXXX /n XX /n XXXXXXX"    0.6198    0.5408    0.5000 box x_fact 187.9 y_fact 43.9
+    540 "XXXXXXXX XXXXX XXXX XXXX /n XX /n XXXXXXX"    0.3143    0.7354    0.5000 box x_fact 180.3 y_fact 43.9
+    541 "XXXXXXXX XXXXX XXXXXXX XXXX /n XX /n XXXXXXX"    0.2824    0.1946    0.5000 box x_fact 203.0 y_fact 43.9
+    542 "XX XXXX XXXXXXXX XXXX /n XX /n XXXXXXX"    0.2466    0.2398    0.5000 box x_fact 157.6 y_fact 43.9
+    543 "XX XXXX XXXXX XXXX /n XX /n XXXXXXX"    0.2397    0.2686    0.5000 box x_fact 134.8 y_fact 43.9
+    544 "XX XXXX XXXXXX XXXX /n XX /n XXXXXXX"    0.3040    0.1998    0.5000 box x_fact 142.4 y_fact 43.9
+    545 "XXXXX XXXXXXXX XXXX /n XX /n XXXXXXX"    0.2412    0.4400    0.5000 box x_fact 147.0 y_fact 43.9
+    546 "XXXXX XXXXXXXXX XXXX /n XX /n XXXXXXX"    0.2570    0.3700    0.5000 box x_fact 154.5 y_fact 43.9
+    547 "XXXXX XXXX XXXX /n XX /n XXXXXXX"       0.2476    0.4212    0.5000 box x_fact 116.7 y_fact 43.9
+    548 "XXXXX XXXXXX XXXX /n XX /n XXXXXXX"     0.2678    0.3750    0.5000 box x_fact 131.8 y_fact 43.9
+    549 "XXXXX XXXXXXX XXXX /n XX /n XXXXXXX"    0.5397    0.1587    0.5000 box x_fact 139.4 y_fact 43.9
+    550 "XXXXX XXXXXXXXX XXXX /n XX /n XXXXXXX"    0.5431    0.1597    0.5000 box x_fact 154.5 y_fact 43.9
+    551 "XXXXX XXXXXXX XXXX XXXXXXX /n XXXXX /n XXXXXXXXX /n XXXX /n XXXX"    0.6080    0.0518    0.5000 box x_fact 195.5 y_fact 71.2
+    552 "XXXXX XXXXXXX /n XXXXX /n XXXXXXXXXXXX"    0.3905    0.4734    0.5000 box x_fact 106.1 y_fact 43.9
+    553 "XXXXXXXX XXXXX /n XX /n XXXXX /n XXXX /n XXXX"    0.3846    0.4206    0.5000 box x_fact 113.6 y_fact 71.2
+    554 "XXXXXXXX XXXXX XXXXXXX /n XXXXXX /n XX"    0.4287    0.6148    0.5000 box x_fact 169.7 y_fact 43.9
+    555 "XXXXXXXX XXXXX XXXX XXXX /n XXXXXXXX /n XXXXX /n XX"    0.2442    0.3478    0.5000 box x_fact 180.3 y_fact 57.6
+    556 "XXX XXXXX XXXX /n XX /n XXXX /n XXXXXX /n XXXX /n XXXX"    0.3467    0.3163    0.5000 box x_fact 109.1 y_fact 84.8
+    557 "XX XXXXXXXXX XXXX /n XXXX /n XXXXX"     0.3654    0.4389    0.5000 box x_fact 131.8 y_fact 43.9
+    558 "XX XXXXXXX XXXX /n XX /n XXXXXXX /n XXXXX /n XXXX /n XXXX"    0.5339    0.3056    0.5000 box x_fact 116.7 y_fact 84.8
+    559 "XXXXXXX XXXXXX XXXXX /n XXXXXXX /n XXXXXX /n XXXXX /n XXXX"    0.6375    0.7653    0.5000 box x_fact 154.5 y_fact 71.2
+    560 "XXXXXXX XXXXXX XXXX /n XXXXXXX /n XXXXXX /n XXXX /n XXXX"    0.5107    0.4672    0.5000 box x_fact 147.0 y_fact 71.2
+    561 "XXX XX XXXX XXXX XXXXXXXXXXX /n XXXXXXXXXXX /n XXXX /n XX"    0.7925    0.6164    0.5000 box x_fact 206.1 y_fact 57.6
+    562 "XXX XX XXXX XXXX XXXXX XXXX /n XXXXXXXXXXX /n XXXX /n XX"    0.5142    0.4755    0.5000 box x_fact 193.9 y_fact 57.6
+    563 "XXXXXXX XXXXXX XXX /n XXXXXX /n XX"     0.5455    0.7613    0.5000 box x_fact 139.4 y_fact 43.9
+    564 "XX XXXXXX XXX XXXX /n XX /n XXXXXXX"    0.5323    0.4764    0.5000 box x_fact 134.8 y_fact 43.9
+    565 "XX XXXXXX XXX XXXXXXXXXX /n XXXXXX /n XX"    0.4519    0.6361    0.5000 box x_fact 180.3 y_fact 43.9
+    566 "XXX XXXX XXXXXXXX XXXX /n XXX /n XXXX /n XXXX /n XXX /n XX /n XXXX"    0.1991    0.7354    0.5000 box x_fact 165.2 y_fact 98.5
+    567 "XXXXXXX XXXXX /n XXXX /n XXX /n XXXXXXXXXX /n XX"    0.5598    0.5909    0.5000 box x_fact 106.1 y_fact 71.2
+    568 "XXXXXX XXXX /n XXXXXX /n XXXX /n XXXX"    0.4337    0.7257    0.5000 box x_fact 90.9 y_fact 57.6
+    569 "XXXXXXX XXXX XXXXXXXX /n XXXXXXXX /n XX"    0.5845    0.5063    0.5000 box x_fact 162.1 y_fact 43.9
+    570 "XXXXXXX XXXXX XXXX /n XX /n XXXXXXX /n XXXX"    0.5702    0.7703    0.5000 box x_fact 139.4 y_fact 57.6
+    571 "XX XXXXX XXXXXX XXXXXXX /n XXXXXXXX /n XX"    0.4401    0.5504    0.5000 box x_fact 172.7 y_fact 43.9
+    572 "XX XXXXXXX XXXXX XXXX /n XX /n XXXXXXX"    0.5977    0.1649    0.5000 box x_fact 157.6 y_fact 43.9
+    573 "XX XXXXXXXX XXXXXXXX /n XX /n XXXXXXXX"    0.7474    0.5266    0.5000 box x_fact 154.5 y_fact 43.9
+    574 "XXXXXXXXX XXX XXXX /n XXXXXXXXX /n XXX /n XXXX /n XXXXXXXXXXX"    0.2642    0.3938    0.5000 box x_fact 139.4 y_fact 71.2
+    575 "XXXXXXXXX XXX XXXXX /n XXXXXXXXX_XX"    0.4092    0.4576    0.5000 box x_fact 147.0 y_fact 30.3
+    576 "XXXXX XXXXXXX XXX XXXX /n XX /n XXXXXXX"    0.1980    0.5236    0.5000 box x_fact 165.2 y_fact 43.9
+    577 "XXXXX XXXXXXX XXX XXXXX /n XXXX /n XXXXX"    0.3488    0.5312    0.5000 box x_fact 172.7 y_fact 43.9
+    578 "XXXXXXXX XXXXX XXX XXXX /n XX /n XXXXXXX"    0.1970    0.5387    0.5000
+    579 "XXXXXXXX XXXXX XXX XXXXX /n XXXX /n XXXXX"    0.3467    0.4856    0.5000 box x_fact 180.3 y_fact 43.9
+    580 "XXXXXXXX XXXX XXX XXXX /n XX /n XXXXXXX"    0.2020    0.5362    0.5000 box x_fact 165.2 y_fact 43.9
+    581 "XXXXXXXX XXXX XXX XXXXX /n XXXXXXXX_XXXX_XX"    0.3356    0.5099    0.5000 box x_fact 172.7 y_fact 30.3
+    582 "XXXXX2 XXXX XXXX /n XX /n XXXXXXX"      0.5737    0.3721    0.5000 box x_fact 122.7 y_fact 43.9
+    583 "XXXX XXXXXXX XXXXX /n XXXX_XX"          0.5771    0.3777    0.5000 box x_fact 139.4 y_fact 30.3
+    584 "XXXX XXXXXXXXXXXX XXXX /n XX /n XXXXXXX"    0.5740    0.2920    0.5000 box x_fact 169.7 y_fact 43.9
+    585 "XXXX_XXXXX /n XXXX /n XXXX"             0.4459    0.7724    0.5000 box x_fact 86.4 y_fact 43.9
+    586 "XXXXXXXXXXX XXXX /n XX /n XXXXXXX"      0.3238    0.3807    0.5000 box x_fact 128.8 y_fact 43.9
+    587 "XXXXXXXXXXXX XXXX XXXX /n XX /n XXXXXXX"    0.5133    0.2408    0.5000 box x_fact 169.7 y_fact 43.9
+    588 "XXX XXXXXXXXX XXXXXXX /n XXX1_XXXXXXX_XXXX_XXXX"    0.5682    0.2343    0.5000 box x_fact 172.7 y_fact 30.3
+    589 "XXX_XXX_XXXXX /n XXX /n XX"             0.4459    0.2103    0.5000 box x_fact 107.6 y_fact 43.9
+    590 "XX_XXXXX /n XXXXX /n XXXX"              0.3728    0.6584    0.5000 box x_fact 71.2 y_fact 43.9
+    591 "XX XXXXXXXX XXXXX /n XXXXXXXX /n XX"    0.3675    0.4835    0.5000 box x_fact 131.8 y_fact 43.9
+    592 "XX XXXXXXX /n XX_XXXXXXXX_XX3_XXXXX"    0.3562    0.4120    0.5000 box x_fact 165.2 y_fact 30.3
+    593 "XX XXXXXXXXX /n XX /n XXXXXXX /n XX"    0.2678    0.3482    0.5000 box x_fact 98.5 y_fact 57.6
+    594 "XX XXXXXX /n XXXXXX /n XXXXXXXX"        0.5663    0.5155    0.5000 box x_fact 75.8 y_fact 43.9
+    595 "XX XXXXXXXXX XXXXXXX /n XX /n XXXXXXXXX /n XX"    0.1445    0.3173    0.5000 box x_fact 154.5 y_fact 57.6
+    596 "XX XXXXX /n XXXXXXXX /n XX"             0.3860    0.4557    0.5000 box x_fact 72.7 y_fact 43.9
+    597 "XX XXX /n X_XX_XXXXXXX_XX"              0.2304    0.3736    0.5000 box x_fact 121.2 y_fact 30.3
+    598 "XXXX_XXXXXX_XXX_XXXX /n XX /n XXXXXXX"    0.1332    0.3978    0.5000 box x_fact 159.1 y_fact 43.9
+    599 "XXXX_XXXXXX_XXX_XXXXX /n XX /n XXXX /n XXXXXX /n XX"    0.2629    0.4176    0.5000 box x_fact 166.7 y_fact 71.2
+    600 "XXX_XXXXXXXXXXX /n XXX_XXXXXXXXXXX_XXXX_XX"    0.4111    0.3533    0.5000 box x_fact 181.8 y_fact 30.3
+    601 "XXX_XXXXXXXXXXX_XXXX /n XXXXXXXXXX"     0.2850    0.2686    0.5000 box x_fact 160.6 y_fact 30.3
+    602 "XXXXXXX_XXXXXX_XXXXX_XXXXX /n XXXXX_XXXXXXXXX_XXXXXXXX"    0.3929    0.3629    0.5000 box x_fact 204.5 y_fact 30.3
+    603 "XX_XXXXXXX /n XXXXXX /n XX"             0.4783    0.6472    0.5000 box x_fact 86.4 y_fact 43.9
+    604 "XXX_XXXXXXX /n XXXXXX_XXXX"             0.2639    0.4105    0.5000 box x_fact 93.9 y_fact 30.3
+    605 "XXX_XXXXXXXX /n XXXXXXXX /n XX"         0.3567    0.4557    0.5000 box x_fact 101.5 y_fact 43.9
+    606 "XXX_XXXX /n XXXXXXXX_XX"                0.2824    0.4045    0.5000 box x_fact 93.9 y_fact 30.3
+    607 "XXX_XXXX_XXXXXXXX /n XXXXXXXX_XX"       0.2363    0.4588    0.5000 box x_fact 137.9 y_fact 30.3
+    608 "XXXXX_XXXX_XXXXX_XXXX /n XXXXX_XXXX_XXXXX_XXXX"    0.4150    0.4197    0.5000 box x_fact 166.7 y_fact 30.3
+    609 "XXX_XXXXXXXXXXXXX /n XXXX_XX"           0.5721    0.5048    0.5000 box x_fact 139.4 y_fact 30.3
+    610 "XXX_XXXX_XXX_XXXXX /n XXXX_XX"          0.4901    0.3305    0.5000 box x_fact 143.9 y_fact 30.3
+    611 "XXXXXXXXX_XXXXXXXXXX /n XXXXXXXXX_XXXXXXXXXX_XX"    0.3723    0.1779    0.5000 box x_fact 183.3 y_fact 30.3
+    612 "XXXXXXX_XXXXX_XXXXXXX /n XXXXXXX /n XX"    0.3016    0.4471    0.5000 box x_fact 168.2 y_fact 43.9
+    613 "XXXXXXXXX_XXXXXXXX /n XXXXXXXXX_XXXXXXXXXX_XX"    0.3364    0.2023    0.5000 box x_fact 183.3 y_fact 30.3
+    614 "XXXXXXXXX_XXXXXXXXXX /n XXX_XXXXXXX"    0.4327    0.3269    0.5000 box x_fact 162.1 y_fact 30.3
+    615 "XXX_XXXXX_XXXXX /n XXXXXX_XXX_XXXXXXX_XX"    0.4641    0.2074    0.5000 box x_fact 166.7 y_fact 30.3
+    616 "XX_XXXX_XXXXX /n XXXXXXXXXXX_XXXXX_XX"    0.4822    0.2038    0.5000 box x_fact 160.6 y_fact 30.3
+    617 "XXXXXXX_XXXXXXX /n XXXXXXX /n XX"       0.3414    0.3821    0.5000 box x_fact 124.2 y_fact 43.9
+    618 "XX_XXXX_XXXXX /n XXXXXXXXXXX_XXXXX_XX"    0.5083    0.1992    0.5000 box x_fact 160.6 y_fact 30.3
+    619 "XXXX_XXXXX /n XXXXXXXX_XXXXXX"          0.6172    0.3821    0.5000 box x_fact 124.2 y_fact 30.3
+    620 "XXXXXXX_XXX_XXX_XXXXX /n XXXXXXX_XXX_XXX_XXXX"    0.4740    0.4551    0.5000 box x_fact 166.7 y_fact 30.3
+    621 "XXXXXXX_XXX_XXX_XXXX /n XX_XXXXXXX"     0.3684    0.3259    0.5000 box x_fact 159.1 y_fact 30.3
+    622 "XXX_XXXXXXX_XXXXXX_XXXX /n XXX /n XXXX"    0.5668    0.1921    0.5000 box x_fact 181.8 y_fact 43.9
+    623 "XXXX /n XXXXXXXXX_XX"                   0.5310    0.3629    0.5000 box x_fact 101.5 y_fact 30.3
+    624 "XXXXXXX_XXXXXXX_XXXXXX_XXXX /n XX_XXXXXXX"    0.1888    0.5291    0.5000 box x_fact 212.1 y_fact 30.3
+    625 "XXXXXXXXXXX_XXXXXX_XXXX /n XX_XXXXXXX"    0.6045    0.3382    0.5000 box x_fact 183.3 y_fact 30.3
+    626 "XXXXXXXXXXX_XXXXXX_XXXX /n XX_XXXXXXX"    0.5672    0.3382    0.5000
+    627 "XXXXXXXXXXX_XXXXXX_XXXX /n XX_XXXXXXX"    0.6172    0.3512    0.5000
+    628 "XXX_XXXXX_XXXX /n XXXX_XXXXX"           0.3625    0.5449    0.5000 box x_fact 115.2 y_fact 30.3
+    629 "XXX_XXXXX_XXXX_XXXXX /n XXXXX_XXXX"     0.2510    0.5985    0.5000 box x_fact 159.1 y_fact 30.3
+    630 "XXX_XXXXX_XXXX_XXXXXX /n XXXXXX_XXXX"    0.2363    0.5489    0.5000 box x_fact 166.7 y_fact 30.3
+    631 "XXXX_XXX_XXX /n XXXXXX /n XXXX /n XX"    0.8843    0.6365    0.5000 box x_fact 100.0 y_fact 57.6
+    632 "XXXX_XXXXXX_XXXX /n XXXXX /n XXXXXXXXX /n XXXX /n XXXX"    0.4548    0.2544    0.5000 box x_fact 130.3 y_fact 71.2
+    633 "XX_XXXXXXX_XXXX_XXXX /n XXXXXXXX_XXXXXXXXXXX"    0.5363    0.4916    0.5000 box x_fact 162.1 y_fact 30.3
+    634 "XX_XXXXXXX_XXXX /n XX_XXXXXXX_XXXX_XXXX_XX"    0.4028    0.3821    0.5000 box x_fact 180.3 y_fact 30.3
+    635 "XX_XXXX_XXXXX_XXX_XXXXXX_XX /n XX_XXX"    0.7641    0.2799    0.5000 box x_fact 209.1 y_fact 30.3
+    636 "XXXXXXX_XXXXX_XXXXXX /n XXX_XX_XXXXXXX"    0.2893    0.3254    0.5000 box x_fact 160.6 y_fact 30.3
+    637 "XX_XXXXXXX_XXX_XXXX /n XX_XXXXXXX_XXX_XXXX_XXXX"    0.4063    0.3594    0.5000 box x_fact 187.9 y_fact 30.3
+    638 "XXXXX_XXXX_XXXXXXX_XXXX /n XX_XXXXXXX_XXXX_XXXX"    0.4464    0.3888    0.5000 box x_fact 181.8 y_fact 30.3
+*Arcs
+     11     11       1
+     59     59       1
+    108    108       1
+    212    212       1
+    272    272       1
+    301    301       1
+    144    144       1
+    144    144       1
+     59     59       1
+    439    439       1
+    501    501       1
+    489    489       1
+    489    489       1
+    489    489       1
+    213    216       1
+     11    127       1
+     89     94       1
+     58    108       1
+      6    108       1
+     91    108       1
+     72     63       1
+     93    207       1
+     58     80       1
+    196     80       1
+    220    148       1
+    148    265       1
+    272    148       1
+    272    259       1
+     97    152       1
+    292    297       1
+    292    272       1
+    293    272       1
+    309    311       1
+    272    315       1
+    326    328       1
+    359    356       1
+    360    356       1
+    364     45       1
+      6    144       1
+    216    404       1
+    277    272       1
+    272    416       1
+    272    419       1
+    272    291       1
+     91     89       1
+    144      9       1
+    129    178       1
+    434    187       1
+    154    148       1
+    483    489       1
+    483    511       1
+    515    489       1
+     11    520       1
+    480    558       1
+     45    561       1
+    559    330       1
+    559    409       1
+    375    566       1
+    501    583       1
+     58    480       1
+    592    597       1
+     89    207       1
+    144    619       1
+    303    615       1
+    468    469       1
+    479    101       1
+    537    479       1
+    635    479       1
+    213    216       1
+     58    108       1
+     91    108       1
+    272    148       1
+     58    108       1
+    292    272       1
+    272    292       1
+    277    272       1
+    277    272       1
+    272    291       1
+    272    291       1
+     91     89       1
+    144      9       1
+    154    148       1
+    154    148       1
+    154    148       1
+    479    101       1
+    537    479       1
+      1    148       1
+    272    148       1
+     49    148       1
+    394    148       1
+    258    148       1
+    265    148       1
+    176    148       1
+    154    148       1
+     15    148       1
+    148    268       1
+    148    508       1
+    148    571       1
+    148     82       1
+    148    210       1
+    148    426       1
+    148    431       1
+    148     59       1
+    148    408       1
+    148    150       1
+    148    401       1
+    148    400       1
+    148    122       1
+    148    175       1
+    148    220       1
+    148    554       1
+    148    157       1
+    148    565       1
+    148    377       1
+    148    603       1
+    590    603       1
+    590    591       1
+    127    591       1
+    423    127       1
+    443    127       1
+    272    127       1
+     12    127       1
+    399    127       1
+    218    127       1
+     11    127       1
+    127    571       1
+    127    466       1
+    127    150       1
+    127     17       1
+    127     97       1
+    127    146       1
+    127    156       1
+    127    557       1
+    127    592       1
+    127    596       1
+    127    605       1
+    604    605       1
+    605    606       1
+    605    607       1
+    606    609       1
+    592    596       1
+    592    593       1
+    592    597       1
+    593    594       1
+    593    595       1
+    571    557       1
+    545    557       1
+    546    557       1
+    548    557       1
+    547    557       1
+    556    557       1
+    518    557       1
+    460    557       1
+    272    460       1
+    459    460       1
+    440    272       1
+    295    272       1
+    292    272       1
+    315    272       1
+    293    272       1
+    259    272       1
+    277    272       1
+    439    272       1
+    263    272       1
+    265    272       1
+    272    374       1
+    272    454       1
+    272    464       1
+    272    461       1
+    272    466       1
+    272    581       1
+    272    620       1
+    272    467       1
+    272    575       1
+    272    492       1
+    272     90       1
+    272    465       1
+    272    471       1
+    272    512       1
+    272    532       1
+    272    534       1
+    272    535       1
+    272    369       1
+    272    341       1
+    272    400       1
+    272    401       1
+    272    291       1
+    272    416       1
+    272     98       1
+    272     95       1
+    272     94       1
+    272    267       1
+    272    266       1
+    272    278       1
+    272    176       1
+    272    177       1
+    272    552       1
+    272    579       1
+    272    577       1
+    272    419       1
+    272    449       1
+    272    463       1
+    272    382       1
+    272    450       1
+    272    475       1
+    272    383       1
+    272    628       1
+    630    628       1
+    629    628       1
+    621    620       1
+    144    620       1
+    582    144       1
+    497    144       1
+    627    144       1
+    626    144       1
+    625    144       1
+     74    144       1
+    181    144       1
+      6    144       1
+    315    144       1
+    288    144       1
+    203    144       1
+    296    144       1
+     12    144       1
+    502    144       1
+    143    144       1
+    292    144       1
+      3    144       1
+    144    467       1
+    144    619       1
+    144    623       1
+    144     89       1
+    144      9       1
+    144    469       1
+    144     59       1
+    144    141       1
+    144    400       1
+    144    108       1
+    144    448       1
+    144    509       1
+    144    103       1
+    144    174       1
+    144    159       1
+    144    284       1
+    144    583       1
+    501    583       1
+    499    501       1
+    501    489       1
+    527    489       1
+    584    489       1
+    526    489       1
+    632    489       1
+    480    489       1
+    481    489       1
+    482    489       1
+    518    489       1
+    298    489       1
+    303    489       1
+     58    489       1
+    489    575       1
+    489    492       1
+    489    623       1
+    489    469       1
+    489    515       1
+    489    483       1
+    494    623       1
+    492    623       1
+    496    623       1
+    584    623       1
+    528    623       1
+    500    623       1
+    303    623       1
+    503    623       1
+    320    623       1
+    587    623       1
+    623    610       1
+    623    529       1
+    283    610       1
+    468    610       1
+    589    610       1
+    292    283       1
+    284    283       1
+    283    526       1
+    283    569       1
+    283    558       1
+    283    322       1
+    283    483       1
+    283    502       1
+    283    506       1
+    283    588       1
+    284    588       1
+    284    491       1
+    303    506       1
+    320    506       1
+    357    506       1
+    357    356       1
+    359    356       1
+    360    356       1
+    355    360       1
+    358    360       1
+    360    359       1
+    358    359       1
+    349    355       1
+      3    355       1
+    351    355       1
+     58      3       1
+     11      3       1
+      4      3       1
+    222      3       1
+    201    222       1
+    180    222       1
+    222     89       1
+    222    163       1
+     89    163       1
+     58    163       1
+    145    163       1
+    101    163       1
+    142    163       1
+    162    163       1
+    153    163       1
+      4    163       1
+    180    163       1
+    163    165       1
+    164    165       1
+    180    172       1
+    171    172       1
+    209    172       1
+    172    126       1
+    201    126       1
+     13    126       1
+    209     13       1
+    124    201       1
+    252    201       1
+    201    119       1
+    221    124       1
+    221    223       1
+    223    171       1
+     82      4       1
+     49      4       1
+      4      5       1
+      4     89       1
+      4     45       1
+      4     58       1
+      4    108       1
+      4    104       1
+    140     89       1
+    145     89       1
+    521     89       1
+    108     89       1
+    285     89       1
+    125     89       1
+    101     89       1
+    142     89       1
+    138     89       1
+    139     89       1
+     91     89       1
+     89     90       1
+     89     94       1
+     89     93       1
+     89     80       1
+     89    115       1
+     89    167       1
+     89    251       1
+     89    207       1
+     93    207       1
+    159    207       1
+     79    207       1
+    168     79       1
+     80     79       1
+     79      9       1
+      6      9       1
+      9      7       1
+      8      7       1
+     82      7       1
+     82     25       1
+     82    214       1
+     82     54       1
+     82     83       1
+     82     65       1
+     82     41       1
+     82     34       1
+     82     50       1
+     82    279       1
+     74    279       1
+    280    279       1
+    248     74       1
+    249     74       1
+    250     74       1
+    321     74       1
+     58     74       1
+     74     49       1
+     74    346       1
+    347    346       1
+    348    347       1
+     61     49       1
+    315     49       1
+    132     49       1
+    296     49       1
+    292     49       1
+     49    465       1
+     49    468       1
+     49    567       1
+     49     52       1
+     49     58       1
+     49    448       1
+     49     15       1
+     49    104       1
+     49     91       1
+     49    385       1
+     49     63       1
+     49    121       1
+     49    420       1
+     49     50       1
+     49    569       1
+    567    569       1
+    570    567       1
+    568    567       1
+     52    567       1
+     50    567       1
+     51     50       1
+     53     52       1
+    210     52       1
+    256    210       1
+    210     75       1
+    210     27       1
+    210     31       1
+    210    333       1
+    210    336       1
+    210     56       1
+    210     84       1
+    210    135       1
+    210    133       1
+    210    211       1
+    210     69       1
+    210     67       1
+    210    109       1
+    210     76       1
+    210    193       1
+    210     30       1
+    210     43       1
+    210     37       1
+    210    380       1
+    210    420       1
+    381    380       1
+    330    380       1
+    381    379       1
+    369    379       1
+    369    370       1
+    369    393       1
+    369    376       1
+    369    384       1
+     38    384       1
+     38     37       1
+     31     37       1
+     23     31       1
+     63     31       1
+    330     31       1
+     31     36       1
+     31     45       1
+     31     34       1
+     31     46       1
+     31    383       1
+     35     34       1
+    116     36       1
+    116     39       1
+    188     39       1
+     45     39       1
+    213     39       1
+    331    188       1
+    187    188       1
+    451    188       1
+    188     45       1
+    188    414       1
+    188    183       1
+     33     45       1
+    414     45       1
+    113     45       1
+    216     45       1
+    330     45       1
+    364     45       1
+     45     59       1
+     45     40       1
+     45     41       1
+     45     43       1
+     45    561       1
+    562    561       1
+     44     43       1
+     42     41       1
+     47     59       1
+     22     59       1
+    216     59       1
+     58     59       1
+    308     59       1
+    371     59       1
+     40     59       1
+    364     59       1
+     59     30       1
+     59    345       1
+     59    475       1
+    118    364       1
+    191    118       1
+    137    118       1
+    118    183       1
+    118    335       1
+    118    187       1
+    118    336       1
+    118    105       1
+    118    185       1
+    118     60       1
+    118    184       1
+    118    182       1
+    118    189       1
+    118    338       1
+    118    339       1
+    118    190       1
+    118    337       1
+    118    329       1
+    118    451       1
+    113    187       1
+    335    187       1
+    105    187       1
+    185    187       1
+    189    187       1
+    332    187       1
+    190    187       1
+    329    187       1
+    187    333       1
+    187    422       1
+    187    330       1
+    187    434       1
+    336    422       1
+    336    190       1
+    105    190       1
+    185    190       1
+    191    190       1
+     60    190       1
+    184    190       1
+    182    190       1
+     58    190       1
+    337    190       1
+    190    329       1
+    189    182       1
+    338    182       1
+    339    182       1
+     58    182       1
+    182    330       1
+    424    330       1
+    462    330       1
+    559    330       1
+    403    330       1
+    421    330       1
+     58    330       1
+    330    377       1
+    330    382       1
+    330    450       1
+    378    377       1
+    378    376       1
+    559    563       1
+    559    409       1
+    560    563       1
+    213    563       1
+    436    213       1
+    435    213       1
+    291    213       1
+     15    213       1
+    178    213       1
+    213    430       1
+    213    216       1
+    213    411       1
+    213     40       1
+    213    214       1
+    213    117       1
+    213    371       1
+    213    392       1
+    213    179       1
+    213    161       1
+    213    412       1
+    430    216       1
+    430    234       1
+    131    216       1
+    216     29       1
+    216    208       1
+    216    404       1
+    216    410       1
+    216    161       1
+    409    410       1
+    410    411       1
+    410    412       1
+    129    411       1
+    178    129       1
+    129     40       1
+    129    161       1
+    129    160       1
+    178    161       1
+    161    160       1
+    179     40       1
+     58    179       1
+    150     58       1
+    307     58       1
+    292     58       1
+    315     58       1
+    296     58       1
+     58     56       1
+     58     54       1
+     58    181       1
+     58    141       1
+     58    480       1
+     58    500       1
+     58    108       1
+     58    448       1
+     58    205       1
+     58    204       1
+     58     17       1
+     58     80       1
+    480    500       1
+    480    558       1
+    480    553       1
+    480    481       1
+    480    128       1
+    549    558       1
+    550    558       1
+    556    558       1
+      6    558       1
+    572    558       1
+     10      6       1
+     15      6       1
+      6    401       1
+      6    108       1
+      6     11       1
+      6     81       1
+    108     81       1
+     81    476       1
+    473    476       1
+    473    463       1
+    473    525       1
+    433    463       1
+     14    108       1
+    140    108       1
+    145    108       1
+    120    108       1
+     87    108       1
+    247    108       1
+    445    108       1
+    444    108       1
+    458    108       1
+    478    108       1
+    521    108       1
+     97    108       1
+    125    108       1
+    101    108       1
+    107    108       1
+    142    108       1
+    138    108       1
+    139    108       1
+     91    108       1
+     12    108       1
+    104    108       1
+    159    108       1
+    361    108       1
+    108     84       1
+    108     86       1
+    108    417       1
+    108    169       1
+    108    174       1
+    108    328       1
+    108     11       1
+    108    448       1
+    446    448       1
+    447    448       1
+    291    448       1
+    456    448       1
+    366    448       1
+    457    448       1
+    448    449       1
+    366    365       1
+    366    367       1
+    365    367       1
+    395    367       1
+    291    304       1
+    291    305       1
+    291    292       1
+    291    258       1
+    291    419       1
+    291    418       1
+    418    419       1
+    308    292       1
+    322    292       1
+    415    292       1
+    495    292       1
+    637    292       1
+    288    292       1
+    290    292       1
+    292    297       1
+    292    289       1
+    292    286       1
+    292    303       1
+    292    296       1
+    292    287       1
+    292    600       1
+    292    602       1
+    601    600       1
+    315    287       1
+    311    287       1
+    608    315       1
+    638    315       1
+    288    315       1
+    296    315       1
+    312    315       1
+    315    314       1
+    315    313       1
+    315    311       1
+    309    311       1
+    299    311       1
+    301    311       1
+    311    312       1
+    311    316       1
+    311    317       1
+    288    301       1
+    290    301       1
+    301    303       1
+    301    302       1
+    301    300       1
+    205    303       1
+    204    303       1
+    303    509       1
+    303    505       1
+    303    529       1
+    303    615       1
+    303    616       1
+    303    618       1
+    303    396       1
+    303    622       1
+    303    302       1
+    302    622       1
+    302    299       1
+    299    298       1
+    300    298       1
+    298    515       1
+    515    589       1
+    587    589       1
+    587    486       1
+    587    510       1
+    485    486       1
+    490    485       1
+    485    487       1
+    485    493       1
+    485    483       1
+    488    483       1
+     15    483       1
+    483    484       1
+    483    511       1
+    483    518       1
+    483    634       1
+    633    634       1
+    517    518       1
+    516    518       1
+     15    517       1
+    517    565       1
+    564    565       1
+    394     15       1
+     15    130       1
+     15     17       1
+     15     83       1
+     15     20       1
+     15    155       1
+     15     16       1
+    192     16       1
+    192    233       1
+    192    235       1
+    192    238       1
+    192    240       1
+    192    236       1
+    192    237       1
+    192    239       1
+    192    234       1
+    192    243       1
+    192    242       1
+    192    241       1
+    192    244       1
+    192    245       1
+    192    246       1
+    192    273       1
+    192    631       1
+    152    155       1
+    154    155       1
+    154    157       1
+    154    156       1
+    152    157       1
+     97    152       1
+    152    156       1
+     48     97       1
+     99     97       1
+     11     97       1
+     97     98       1
+     97    520       1
+     11    520       1
+      2     11       1
+    128     11       1
+     11    153       1
+     11    352       1
+    354    352       1
+    352    349       1
+    352    353       1
+    350    349       1
+    153    128       1
+      2    128       1
+    362     98       1
+     98     95       1
+     98     88       1
+     98    599       1
+    598    599       1
+     88    100       1
+    100     94       1
+    102     94       1
+    125     94       1
+    101     94       1
+     94    158       1
+     93    158       1
+    253     93       1
+    251     93       1
+    477     93       1
+    143     93       1
+     93    103       1
+     93    326       1
+     93    282       1
+    253    326       1
+    143    326       1
+    326    328       1
+    326    282       1
+    281    328       1
+    327    328       1
+    253    254       1
+    253    169       1
+    103    169       1
+    170    169       1
+    361    169       1
+    477    169       1
+    103    167       1
+    103    251       1
+    166    167       1
+    167    159       1
+    319    159       1
+    320    319       1
+    320    502       1
+    502    504       1
+    503    504       1
+    104    166       1
+    195    166       1
+    195     80       1
+     78     80       1
+    196     80       1
+    198    196       1
+    199    196       1
+    196    193       1
+    196    197       1
+    196    115       1
+    199    197       1
+    194    193       1
+    112    104       1
+     91    104       1
+    270    104       1
+    146    104       1
+     63    104       1
+    174    104       1
+    106    104       1
+    104    109       1
+    104    111       1
+    110    109       1
+     76    109       1
+    132    174       1
+    224    174       1
+    258    174       1
+    174     63       1
+    174    175       1
+    174    220       1
+    174     12       1
+    399     12       1
+    200     12       1
+     12    202       1
+     12    219       1
+     12    407       1
+    405    407       1
+    405    406       1
+    200    406       1
+    413    200       1
+     21    200       1
+    399    200       1
+    200    552       1
+    538    552       1
+    552    553       1
+    552    577       1
+    576    577       1
+    481    553       1
+    482    553       1
+    539    553       1
+    553    554       1
+    553    555       1
+    553    556       1
+    553    579       1
+    578    579       1
+    542    556       1
+    543    556       1
+    541    556       1
+    544    556       1
+    540    554       1
+    481    482       1
+    399     21       1
+    399    218       1
+    399    219       1
+    218    219       1
+    176     63       1
+    121     63       1
+     72     63       1
+    256     63       1
+     63     70       1
+     63     73       1
+     63     64       1
+     63     67       1
+     63     65       1
+     63    146       1
+    206    146       1
+    162    146       1
+     66     65       1
+     68     67       1
+     20     64       1
+    217     73       1
+     71     70       1
+     70     69       1
+    256    255       1
+    121    122       1
+    123    122       1
+    176    177       1
+    211    177       1
+    232    177       1
+     77    211       1
+    212    211       1
+    296    258       1
+    310    258       1
+    393    258       1
+    258    271       1
+    257    271       1
+    271    263       1
+    271    265       1
+    263    261       1
+    267    261       1
+    260    261       1
+    260    270       1
+    269    270       1
+    266    270       1
+    270    262       1
+    270    259       1
+    270    318       1
+    270    275       1
+    270    439       1
+    270    585       1
+    439    438       1
+    437    438       1
+    264    318       1
+    264    277       1
+    275    277       1
+    277    278       1
+    275    276       1
+    293    296       1
+    137    132       1
+    132    133       1
+    134    133       1
+    137    135       1
+    137    388       1
+    387    388       1
+    387    372       1
+    387    385       1
+    387    392       1
+    371    372       1
+    136    135       1
+     92     91       1
+    573     91       1
+    101    254       1
+    101    452       1
+    101    453       1
+    101    479       1
+    142    479       1
+    635    479       1
+    479    537       1
+    139    537       1
+    138    635       1
+    107    452       1
+    285    102       1
+     96     95       1
+     96     19       1
+     99     19       1
+    363    362       1
+     18     17       1
+     17    332       1
+    130    131       1
+     32    131       1
+    131    117       1
+    397    396       1
+    398    396       1
+    397    205       1
+    205    204       1
+    205    519       1
+    203    519       1
+    203    204       1
+    173    204       1
+    114    204       1
+    274    204       1
+    295    297       1
+    636    297       1
+    295    294       1
+    415    416       1
+    325    322       1
+    324    322       1
+    306    322       1
+    323    322       1
+     85     84       1
+    522    521       1
+    402    401       1
+    402    400       1
+    550    551       1
+    549    551       1
+    498    500       1
+     55     54       1
+     57     56       1
+    307    214       1
+    215    214       1
+    150    149       1
+    151    149       1
+    408    409       1
+    403    409       1
+    421    409       1
+     62    208       1
+    334    333       1
+    186    113       1
+     28     23       1
+     23     25       1
+     23     27       1
+     26     27       1
+     24     25       1
+    373    370       1
+    368    370       1
+    391    373       1
+    343    373       1
+    344    343       1
+    227    343       1
+    343    342       1
+    343    427       1
+    343    426       1
+    429    427       1
+    425    427       1
+    429    428       1
+    428    426       1
+    428    431       1
+    431    432       1
+    425    426       1
+    341    342       1
+    225    341       1
+    227    341       1
+    340    227       1
+    390    227       1
+    227    228       1
+    228    229       1
+    230    229       1
+    229    226       1
+    229    390       1
+    389    390       1
+    231    230       1
+    147     75       1
+    474    468       1
+    614    468       1
+    468    471       1
+    468    617       1
+    468    612       1
+    468    512       1
+    468    469       1
+    472    469       1
+    614    469       1
+    614    611       1
+    614    613       1
+    474    472       1
+    523    472       1
+    524    472       1
+    474    512       1
+    530    512       1
+    531    512       1
+    624    512       1
+    512    514       1
+    512    532       1
+    512    534       1
+    512    536       1
+    536    535       1
+    533    532       1
+    513    514       1
+    470    471       1
+    526    632       1
+    586    492       1
+    574    575       1
+    580    581       1
+    440    464       1
+    440    442       1
+    440    461       1
+    441    442       1
+    455    454       1
+    386    374       1
+    375    374       1
+    375    566       1
+    507    508       1
+*Edges
