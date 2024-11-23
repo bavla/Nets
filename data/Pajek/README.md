@@ -53,8 +53,8 @@ When publishing results obtained using this data set the original authors should
 |[GD'99 - Linden strasse](https://github.com/bavla/Nets/raw/refs/heads/master/data/Pajek/gd/A99m.zip) |  234 |   278 |    48 | literature, multi, temporal|
 |[GD'01 - GD proceedings self-citing](https://github.com/bavla/Nets/raw/refs/heads/master/data/Pajek/gd/A01.ZIP) |  311 |      0 |   645 | citation|
 |[KEDS](./keds/KEDS.md) |    *  |    *  |    *  | activity, multi, temporal|
-|[Notre Dame WWW](http://vlado.fmf.uni-lj.si/pub/networks/data/ND/NDnets.htm) |  325729 |      0 |  1497135 | internet|
-|[Notre Dame actors](http://vlado.fmf.uni-lj.si/pub/networks/data/ND/NDnets.htm) |  520223 |  1470418 |  0 | 2-mode|
+|[Notre Dame WWW](./mix/ND/NDnets.md) |  325729 |      0 |  1497135 | internet|
+|[Notre Dame actors](./mix/ND/NDnets.md) |  520223 |  1470418 |  0 | 2-mode|
 |[European projects on simulation](https://github.com/bavla/Nets/raw/refs/heads/master/data/Pajek/SimPro.zip) |  *  |  *  |  *  | 2-mode|
 |[Citation networks](http://vlado.fmf.uni-lj.si/pub/networks/data/cite/default.htm) |   *  |   *  |   *  | citation / collection|
 |[Networks from Exploratory Social Network<br>Analysis with Pajek](./esna/README.md) |  *  |   *  |   *  | collection|
