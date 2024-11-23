@@ -66,7 +66,9 @@ When publishing results obtained using this data set the original authors should
 
 
 Created: 11. Oct 2003 / GitHub 16. Nov 2024
+<hr>
 
-![pajek](https://github.com/user-attachments/assets/bb2bfee6-ca10-495c-9a9d-f81842828ca2)
+[Network data sets](https://github.com/bavla/Nets/tree/master/data/README.md)
+
 
 
