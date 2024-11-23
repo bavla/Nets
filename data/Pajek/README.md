@@ -55,7 +55,7 @@ When publishing results obtained using this data set the original authors should
 |[KEDS](./keds/KEDS.md) |    *  |    *  |    *  | activity, multi, temporal|
 |[Notre Dame WWW](http://vlado.fmf.uni-lj.si/pub/networks/data/ND/NDnets.htm) |  325729 |      0 |  1497135 | internet|
 |[Notre Dame actors](http://vlado.fmf.uni-lj.si/pub/networks/data/ND/NDnets.htm) |  520223 |  1470418 |  0 | 2-mode|
-|[European projects on simulation](https://github.com/bavla/Nets/blob/master/data/Pajek/SimPro.zip) |  *  |  *  |  *  | 2-mode|
+|[European projects on simulation](https://github.com/bavla/Nets/raw/refs/heads/master/data/Pajek/SimPro.zip) |  *  |  *  |  *  | 2-mode|
 |[Citation networks](http://vlado.fmf.uni-lj.si/pub/networks/data/cite/default.htm) |   *  |   *  |   *  | citation / collection|
 |[Networks from<br>Exploratory Network Analysis with Pajek](./esna/README.md) |  *  |   *  |   *  | collection|
 |[Networks from Generalized Blockmodeling](http://vlado.fmf.uni-lj.si/pub/networks/data/GBM/default.htm) |   *  |   *  |   *  | collection|
