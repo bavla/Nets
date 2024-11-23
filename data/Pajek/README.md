@@ -51,7 +51,7 @@ When publishing results obtained using this data set the original authors should
 |[USF Word Association,<br>Rhyme and Word Fragment Norms](./dic/FA/FreeAssoc.md) |  10617 |      0 |  72176 | dictionary |
 |[Graph Drawing Contests](./gd/GD.md) |  *  |  *  |  *  | collection |
 |[GD'99 - Linden strasse](https://github.com/bavla/Nets/raw/refs/heads/master/data/Pajek/gd/A99m.zip) |  234 |   278 |    48 | literature, multi, temporal|
-|[GD'01 - GD proceedings self-citing](./gd/A01.ZIP) |  311 |      0 |   645 | citation|
+|[GD'01 - GD proceedings self-citing](https://github.com/bavla/Nets/raw/refs/heads/master/data/Pajek/gd/A01.ZIP) |  311 |      0 |   645 | citation|
 |[KEDS](./keds/KEDS.md) |    *  |    *  |    *  | activity, multi, temporal|
 |[Notre Dame WWW](http://vlado.fmf.uni-lj.si/pub/networks/data/ND/NDnets.htm) |  325729 |      0 |  1497135 | internet|
 |[Notre Dame actors](http://vlado.fmf.uni-lj.si/pub/networks/data/ND/NDnets.htm) |  520223 |  1470418 |  0 | 2-mode|
