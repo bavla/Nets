@@ -50,7 +50,7 @@ When publishing results obtained using this data set the original authors should
 |[Wordnet](./dic/wordnet/wordnet.md) |  82670 |      0 |  133445 | dictionary, multi |
 |[USF Word Association,<br>Rhyme and Word Fragment Norms](./dic/FA/FreeAssoc.md) |  10617 |      0 |  72176 | dictionary |
 |[Graph Drawing Contests](./gd/GD.md) |  *  |  *  |  *  | collection |
-|[GD'99 - Linden strasse](./gd/a99m.zip) |  234 |   278 |    48 | literature, multi, temporal|
+|[GD'99 - Linden strasse](./gd/A99m.zip) |  234 |   278 |    48 | literature, multi, temporal|
 |[GD'01<br>GD proceedings self-citing](./gd/a01.zip) |  311 |      0 |   645 | citation|
 |[KEDS](./keds/KEDS.md) |    *  |    *  |    *  | activity, multi, temporal|
 |[Notre Dame WWW](http://vlado.fmf.uni-lj.si/pub/networks/data/ND/NDnets.htm) |  325729 |      0 |  1497135 | internet|
