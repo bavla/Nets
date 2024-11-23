@@ -1,5 +1,4 @@
 <html><head>
- <title>Pajek data: Wasserman and Faust datasets</title>
  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"></head>
   <link rel=StyleSheet href="../esna/esna.css" type="text/css" title="ESNA Style" media="screen, print">
 <body bgcolor="darkgreen">
@@ -67,10 +66,13 @@ available at <A HREF="http://www.insna.org/INSNA/data_inf.html">INSNA</A>.
    CUP, 1994.</li>
 </ol>
 <hr>
-<a href="http://vlado.fmf.uni-lj.si/pub/networks/data/default.htm">Pajek Data</a>;
-<a href="http://vlado.fmf.uni-lj.si/pub/networks/pajek/default.htm">Pajek Home</a>
-<hr>
 15. January 2005
 </td></tr></tbody></table>
 </center>
 </body></html>
+<hr>
+
+[Pajek network data sets](../README.md);
+[Network data sets](../../README.md)
+
+
