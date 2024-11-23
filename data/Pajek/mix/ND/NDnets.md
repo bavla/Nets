@@ -24,9 +24,9 @@
 </ol>
 <p><b>Download</b>
 <p>
-<a HREF="./NDwww.zip">NDwww.net</a> (ZIP, 2050K)<br>
-<a HREF="./NDactors.zip">NDactors.net</a> (ZIP, 4150K)<br>
-<a HREF="./NDyeast.zip">NDyeast.net</a> (ZIP, 7K)<br>
+<a HREF="https://github.com/bavla/Nets/raw/refs/heads/master/data/Pajek/mix/ND/NDwww.zip">NDwww.net</a> (ZIP, 2050K)<br>
+<a HREF="https://github.com/bavla/Nets/raw/refs/heads/master/data/Pajek/mix/ND/NDactors.zip">NDactors.net</a> (ZIP, 4150K)<br>
+<a HREF="https://github.com/bavla/Nets/raw/refs/heads/master/data/Pajek/mix/ND/NDyeast.zip">NDyeast.net</a> (ZIP, 7K)<br>
 <!-- a HREF="./Geom.zip">Geom.net</a> (ZIP, 139K)<br>
 <a HREF="./Geom.zip">Geom.net</a> (ZIP, 139K)<br -->
 
