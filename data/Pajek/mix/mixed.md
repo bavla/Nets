@@ -62,7 +62,7 @@ Adapted for Pajek by V. Batagelj, March 19, 2006
 </p><p><b>File:</b><br>
 <tt>Epa.net</tt> - directed network with 4772 vertices and 8965 arcs.
 </p><p><b>Download:</b>
-<a href="./web/Epa.net">Epa.net</a>
+<a href="./web/epa.net">Epa.net</a>
 </p>
 
 <hr>
