@@ -25,7 +25,7 @@
   <td></td>
   <td></td>
   <td>
-   <a href="./GD95.ZIP">ZIP</a>;
+   <a href="https://github.com/bavla/Nets/raw/refs/heads/master/data/Pajek/gd/GD95.ZIP">ZIP</a>;
    <a href="./GD95/Rules95.md">DOC</a>
   </td>
   <td>  </td>
