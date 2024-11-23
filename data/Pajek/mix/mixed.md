@@ -231,6 +231,6 @@ Transformed into Pajek format by Vladimir Batagelj, March 1, 2007
 </body></html>
 <hr>
 
-[Pajek network data sets](../../README.md);
-[Network data sets](../../../README.md)
+[Pajek network data sets](../README.md);
+[Network data sets](../../README.md)
 
