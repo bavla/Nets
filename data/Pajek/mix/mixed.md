@@ -125,7 +125,7 @@ services (accountancy, advertising, banking/finance, insurance, law, and
 management consultancy) through offices in at least 15 cities (including at
 least one in each of Pacific Asia, western Europe and northern America).
 <br>
-The following <a href="../2mode/coding.pdf">coding</a>
+The following <a href="../2mode/Coding.pdf">coding</a>
 information is given to help understand and evaluate the data.
  <br>
 Downloaded from GaWC Data Set 11
