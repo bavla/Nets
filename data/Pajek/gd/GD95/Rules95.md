@@ -1,8 +1,8 @@
 
-                GD95 Graph-Drawing Competition
-		------------------------------
+GD95 Graph-Drawing Competition
+------------------------------
 
-             Organized by Peter Eades and Joe Marks
+Organized by Peter Eades and Joe Marks
 
 
 Introduction
