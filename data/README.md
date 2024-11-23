@@ -11,11 +11,4 @@
 
   * [Sources](https://github.com/bavla/Nets/blob/master/data/sources.md)
     
-DL
-
-https://raw.githubusercontent.com/tomasonjo/blog-datasets/main/HP/character_first_seen.csv
-
-https://raw.githubusercontent.com/tomasonjo/blog-datasets/main/HP/HP_rels.csv
-
-https://github.com/tomasonjo/blog-datasets
 
