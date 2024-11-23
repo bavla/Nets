@@ -1,0 +1,256 @@
+*Vertices    121
+     1 "1"                                      0.3712    0.6095    0.5241 ellipse lc Black  ic Gray  bc Black x_fact 19.0 y_fact 19.0 0
+     2 "2"                                      0.4060    0.6269    0.5241
+     3 "3"                                      0.1165    0.6549    0.5241
+     4 "4"                                      0.7374    0.4582    0.5241
+     5 "5"                                      0.7055    0.1924    0.5241
+     6 "6"                                      0.7100    0.2396    0.5241
+     7 "7"                                      0.3120    0.2280    0.5241
+     8 "8"                                      0.2555    0.4480    0.5241
+     9 "9"                                      0.5625    0.1499    0.5241
+    10 "10"                                     0.6362    0.3459    0.5241 ellipse lc Black  ic Gray  bc Black x_fact 24.0 y_fact 19.0 0
+    11 "11"                                     0.5602    0.3223    0.5241
+    12 "12"                                     0.7681    0.2113    0.5241
+    13 "13"                                     0.6309    0.6307    0.5241
+    14 "14F"                                    0.5949    0.9452    0.5241 ellipse lc Black  ic Gray  bc Black x_fact 32.0 y_fact 19.0 0
+    15 "15"                                     0.5559    0.4095    0.5241 ellipse lc Black  ic Gray  bc Black x_fact 24.0 y_fact 19.0 0
+    16 "2"                                      0.7938    0.2772    0.5241 ellipse lc Black  ic Gray  bc Black x_fact 11.0 y_fact 11.0 1
+    17 "1"                                      0.6809    0.2373    0.5241
+    18 "1"                                      0.8076    0.2941    0.5241
+    19 "1"                                      0.2042    0.5917    0.5241
+    20 "1"                                      0.5133    0.6340    0.5241
+    21 "1"                                      0.2311    0.6802    0.5241
+    22 "2"                                      0.6698    0.3554    0.5241
+    23 "1"                                      0.5781    0.4616    0.5241
+    24 "1"                                      0.7646    0.1357    0.5241
+    25 "1"                                      0.1654    0.1284    0.5241
+    26 "1"                                      0.4284    0.2751    0.5241
+    27 "1"                                      0.1433    0.2296    0.5241
+    28 "1"                                      0.7346    0.9032    0.5241
+    29 "2"                                      0.4820    0.8394    0.5241
+    30 "3"                                      0.7329    0.7719    0.5241
+    31 "1"                                      0.7158    0.7906    0.5241
+    32 "1"                                      0.5771    0.7911    0.5241
+    33 "2A"                                     0.4452    0.2126    0.5241 ellipse lc Black  ic Gray  bc Black x_fact 14.0 y_fact 11.0 1
+    34 "2A"                                     0.3913    0.3418    0.5241
+    35 "3H"                                     0.6291    0.3039    0.5241
+    36 "1A"                                     0.5883    0.2897    0.5241
+    37 "3H"                                     0.5454    0.2638    0.5241
+    38 "2"                                      0.6072    0.4171    0.5241 ellipse lc Black  ic Gray  bc Black x_fact 11.0 y_fact 11.0 1
+    39 "1"                                      0.5443    0.5699    0.5241
+    40 "1A"                                     0.4582    0.5657    0.5241 ellipse lc Black  ic Gray  bc Black x_fact 14.0 y_fact 11.0 1
+    41 "2A"                                     0.5541    0.5118    0.5241
+    42 "4H"                                     0.7244    0.4279    0.5241
+    43 "1A"                                     0.6387    0.4739    0.5241
+    44 "4H"                                     0.6797    0.4577    0.5241
+    45 "3"                                      0.7498    0.6006    0.5241 ellipse lc Black  ic Gray  bc Black x_fact 11.0 y_fact 11.0 1
+    46 "0"                                      0.5265    0.9587    0.5241 ellipse lc Black  ic Gray  bc Black x_fact 19.0 y_fact 19.0 0
+    47 "Tag  1"                                 0.3949    0.8441    0.5241 box lc   Black  ic Gray bc Black x_fact 46.0  y_fact 14.0   1
+    48 "Tag  2"                                 0.5915    0.8914    0.5241 box lc   Black  ic Gray bc Black x_fact  9.0  y_fact 6.0    2
+    49 "Tag  3"                                 0.6650    0.9342    0.5241 box lc   Black  ic Gray bc Black x_fact 84.0  y_fact 19.0   3
+    50 "Tag  4"                                 0.8057    0.9272    0.5241 box lc   Black  ic Gray bc Black x_fact 73.0  y_fact 11.0   4
+    51 "Tag  5"                                 0.6005    0.9339    0.5241 box lc   Black  ic Gray bc Black x_fact 73.0  y_fact 14.0   5
+    52 "Tag  6"                                 0.8759    0.7182    0.5241 box lc   Black  ic Gray bc Black x_fact 89.0  y_fact 19.0   6
+    53 "Tag  7"                                 0.3010    0.6316    0.5241 box lc   Black  ic Gray bc Black x_fact 78.0  y_fact 19.0   7
+    54 "Tag  8"                                 0.2518    0.5112    0.5241 box lc   Black  ic Gray bc Black x_fact 60.0  y_fact  6.0   8
+    55 "Tag  9"                                 0.2519    0.8661    0.5241 box lc   Black  ic Gray bc Black x_fact 76.0  y_fact 14.0   9
+    56 "Tag 10"                                 0.7705    0.8871    0.5241 box lc   Black  ic Gray bc Black x_fact 19.0  y_fact 14.0  10
+    57 "Tag 11"                                 0.5155    0.4994    0.5241 box lc   Black  ic Gray bc Black x_fact 70.0  y_fact 14.0  11
+    58 "Tag 12"                                 0.3777    0.4740    0.5241 box lc   Black  ic Gray bc Black x_fact 40.0  y_fact 14.0  12
+    59 "Tag 13"                                 0.2339    0.6340    0.5241 box lc   Black  ic Gray bc Black x_fact 103.0 y_fact 14.0  13
+    60 "Tag 14"                                 0.2652    0.5726    0.5241 box lc   Black  ic Gray bc Black x_fact 46.0  y_fact 14.0  14
+    61 "Tag 15"                                 0.1378    0.6836    0.5241 box lc   Black  ic Gray bc Black x_fact 86.0  y_fact 19.0  15
+    62 "Tag 16"                                 0.1937    0.6340    0.5241 box lc   Black  ic Gray bc Black x_fact 50.0  y_fact 14.0  16
+    63 "Tag 17"                                 0.4487    0.5014    0.5241 box lc   Black  ic Gray bc Black x_fact 89.0  y_fact 19.0  17
+    64 "Tag 18"                                 0.2789    0.3667    0.5241 box lc   Black  ic Gray bc Black x_fact 89.0  y_fact 19.0  18
+    65 "Tag 19"                                 0.2429    0.1877    0.5241 box lc   Black  ic Gray bc Black x_fact 78.0  y_fact 20.0  19
+    66 "Tag 20"                                 0.5066    0.3081    0.5241 box lc   Black  ic Gray bc Black x_fact 56.0  y_fact  6.0  20
+    67 "Tag 21"                                 0.2406    0.2562    0.5241 box lc   Black  ic Gray bc Black x_fact 76.0  y_fact 14.0  21
+    68 "Tag 22"                                 0.1915    0.1924    0.5241 box lc   Black  ic Gray bc Black x_fact 20.0  y_fact 20.0  22
+    69 "Tag 23"                                 0.4932    0.2137    0.5241 box lc   Black  ic Gray bc Black x_fact 70.0  y_fact 14.0  23
+    70 "Tag 24"                                 0.4328    0.3931    0.5241 box lc   Black  ic Gray bc Black x_fact 40.0  y_fact 14.0  24
+    71 "Tag 25"                                 0.1781    0.1688    0.5241 box lc   Black  ic Gray bc Black x_fact 100.0 y_fact 14.0  25
+    72 "Tag 26"                                 0.2876    0.1523    0.5241 box lc   Black  ic Gray bc Black x_fact 54.0  y_fact 18.0  26
+    73 "Tag 27"                                 0.3971    0.2184    0.5241 box lc   Black  ic Gray bc Black x_fact 86.0  y_fact 19.0  27
+    74 "Tag 28"                                 0.4753    0.2727    0.5241 box lc   Black  ic Gray bc Black x_fact 80.0  y_fact  6.0  28
+    75 "Tag 29"                                 0.6116    0.1995    0.5241 box lc   Black  ic Gray bc Black x_fact 86.0  y_fact 19.0  29
+    76 "Tag 30"                                 0.7525    0.3128    0.5241 box lc   Black  ic Gray bc Black x_fact 100.0 y_fact 14.0  30
+    77 "Tag 31"                                 0.6653    0.2798    0.5241 box lc   Black  ic Gray bc Black x_fact 70.0  y_fact 14.0  31
+    78 "Tag 32"                                 0.7212    0.3554    0.5241 box lc   Black  ic Gray bc Black x_fact 76.0  y_fact 14.0  32
+    79 "Tag 33"                                 0.8419    0.1924    0.5241 box lc   Black  ic Gray bc Black x_fact 70.0  y_fact 19.0  33
+    80 "Tag 34"                                 0.7189    0.4899    0.5241 box lc   Black  ic Gray bc Black x_fact 51.0  y_fact 19.0  34
+    81 "Tag 35"                                 0.7525    0.4970    0.5241 box lc   Black  ic Gray bc Black x_fact 78.0  y_fact 22.0  35
+    82 "Tag 36"                                 0.7569    0.5136    0.5241 box lc   Black  ic Gray bc Black x_fact 57.0  y_fact 14.0  36
+    83 "Tag 37"                                 0.7837    0.4498    0.5241 box lc   Black  ic Gray bc Black x_fact 78.0  y_fact 22.0  37
+    84 "Tag 38"                                 0.5126    0.1545    0.5241 box lc   Black  ic Gray bc Black x_fact 86.0  y_fact 19.0  38
+    85 "Tag 39"                                 0.6004    0.1290    0.5241 box lc   Black  ic Gray bc Black x_fact 57.0  y_fact 14.0  39
+    86 "Tag 40"                                 0.4571    0.1170    0.5241 box lc   Black  ic Gray bc Black x_fact 81.0  y_fact 19.0  40
+    87 "Tag 41"                                 0.6787    0.1003    0.5241 box lc   Black  ic Gray bc Black x_fact 78.0  y_fact 19.0  41
+    88 "Tag 42"                                 0.6496    0.2396    0.5241 box lc   Black  ic Gray bc Black x_fact 76.0  y_fact 14.0  42
+    89 "Tag 43"                                 0.6653    0.5679    0.5241 box lc   Black  ic Gray bc Black x_fact 70.0  y_fact 14.0  43
+    90 "Tag 44"                                 0.8910    0.1570    0.5241 box lc   Black  ic Gray bc Black x_fact 100.0 y_fact 14.0  44
+    91 "Tag 45"                                 0.8620    0.2703    0.5241 box lc   Black  ic Gray bc Black x_fact 86.0  y_fact 19.0  45
+    92 "Tag 46"                                 0.4296    0.7706    0.5241 box lc   Black  ic Gray bc Black x_fact 51.0  y_fact 24.0  46
+    93 "Tag 47"                                 0.5675    0.7129    0.5241 box lc   Black  ic Gray bc Black x_fact 89.0  y_fact 19.0  47
+    94 "Tag 48"                                 0.4057    0.3791    0.5241 box lc   Black  ic Gray bc Black x_fact 138.0 y_fact 62.0  48
+    95 "Tag 49"                                 0.4313    0.7109    0.5241 box lc   Black  ic Gray bc Black x_fact 57.0  y_fact 14.0  49
+    96 "Tag 50"                                 0.4371    0.4587    0.5241 box lc   Black  ic Gray bc Black x_fact 70.0  y_fact 19.0  50
+    97 "Tag 51"                                 0.7212    0.3884    0.5241 box lc   Black  ic Gray bc Black x_fact 54.0  y_fact 19.0  51
+    98 "Tag 52"                                 0.2764    0.1948    0.5241 box lc   Black  ic Gray bc Black x_fact 54.0  y_fact 27.0  52
+    99 "Tag 53"                                 0.4050    0.1283    0.5241 box lc   Black  ic Gray bc Black x_fact 140.0 y_fact 65.0  53
+   100 "Tag 54"                                 0.6385    0.1287    0.5241 box lc   Black  ic Gray bc Black x_fact 50.0  y_fact 16.0  54
+   101 "Tag 55"                                 0.7457    0.3128    0.5241 box lc   Black  ic Gray bc Black x_fact 50.0  y_fact 16.0  55
+   102 "Tag 56"                                 0.7256    0.3152    0.5241 box lc   Black  ic Gray bc Black x_fact 20.0  y_fact 16.0  56
+   103 "Tag 57"                                 0.6005    0.0744    0.5241 box lc   Black  ic Gray bc Black x_fact 36.0  y_fact 16.0  57
+   104 "Tag 58"                                 0.7502    0.0460    0.5241 box lc   Black  ic Gray bc Black x_fact 40.0  y_fact 16.0  58
+   105 "Tag 59"                                 0.6966    0.5419    0.5241 box lc   Black  ic Gray bc Black x_fact 30.0  y_fact  6.0  59
+   106 "Tag 60"                                 0.6832    0.4876    0.5241 box lc   Black  ic Gray bc Black x_fact 40.0  y_fact 16.0  60
+   107 "Tag 61"                                 0.4002    0.7545    0.5241 box lc   Black  ic Gray bc Black x_fact 40.0  y_fact 16.0  61
+   108 "Tag 62"                                 0.3591    0.1948    0.5241 box lc   Black  ic Gray bc Black x_fact 40.0  y_fact 16.0  62
+   109 "Tag 63"                                 0.6318    0.1664    0.5241 box lc   Black  ic Gray bc Black x_fact 36.0  y_fact 16.0  63
+   110 "Tag 64"                                 0.4977    0.3554    0.5241 box lc   Black  ic Gray bc Black x_fact 40.0  y_fact 16.0  64
+   111 "Tag 65"                                 0.7055    0.0413    0.5241 box lc   Black  ic Gray bc Black x_fact 80.0  y_fact  6.0  65
+   112 "Tag 66"                                 0.6541    0.2208    0.5241 box lc   Black  ic Gray bc Black x_fact 22.0  y_fact 16.0  66
+   113 "Tag 67"                                 0.6563    0.3931    0.5241 box lc   Black  ic Gray bc Black x_fact 50.0  y_fact 16.0  67
+   114 "Tag 68"                                 0.6429    0.2373    0.5241 box lc   Black  ic Gray bc Black x_fact 40.0  y_fact  6.0  68
+   115 "Tag 69"                                 0.6184    0.2940    0.5241 box lc   Black  ic Gray bc Black x_fact 40.0  y_fact 16.0  69
+   116 "Tag 70"                                 0.6460    0.7000    0.5241 box lc   Black  ic Gray bc Black x_fact 50.0  y_fact  6.0  70
+   117 "Tag 71"                                 0.4591    0.4405    0.5241 box lc   Black  ic Gray bc Black x_fact 60.0  y_fact  6.0  71
+   118 "Tag 72"                                 0.5326    0.7528    0.5241 box lc   Black  ic Gray bc Black x_fact 44.0  y_fact  6.0  72
+   119 "Tag 73"                                 0.8534    0.4911    0.5241 box lc   Black  ic Gray bc Black x_fact 56.0  y_fact 16.0  73
+   120 "Tag 74"                                 0.8487    0.3776    0.5241 box lc   Black  ic Gray bc Black x_fact 60.0  y_fact  6.0  74
+   121 "Tag 75"                                 0.8456    0.4630    0.5241 box lc   Black  ic Gray bc Black x_fact 40.0  y_fact  6.0  75
+*Arcs
+     17      5       1 c Black
+      6     17       1 c Black
+      4     18       1 c Black
+     16      4       1 c Black
+      5     16       1 c Black
+     22     10       1 c Black
+     18      6       1 c Black
+     11     22       1 c Black
+     23     11       1 c Black
+      2     21       1 c Black
+     12     23       1 c Black
+     24     12       1 c Black
+     25      9       1 c Black
+      7     25       1 c Black
+     27      7       1 c Black
+      8     27       1 c Black
+     26      8       1 c Black
+      9     26       1 c Black
+     21      1       1 c Black
+     10     24       1 c Black
+     20      2       1 c Black
+      3     20       1 c Black
+     19      3       1 c Black
+      1     19       1 c Black
+     46     29       1 c Black
+     32     46       1 c Black
+     13     32       1 c Black
+     13     30       1 c Black
+     34     15       1 c Black
+     13     31       1 c Black
+     31     14       1 c Black
+     14     28       1 c Black
+     33      7       1 c Black
+     10     33       1 c Black
+     36     10       1 c Black
+     15     36       1 c Black
+     35     15       1 c Black
+     10     35       1 c Black
+     37     10       1 c Black
+     15     37       1 c Black
+      4     45       1 c Black
+      7     34       1 c Black
+     38     13       1 c Black
+     10     38       1 c Black
+     39     13       1 c Black
+     15     39       1 c Black
+     42     15       1 c Black
+      4     42       1 c Black
+     43      4       1 c Black
+     15     43       1 c Black
+     44      4       1 c Black
+     15     44       1 c Black
+     41      1       1 c Black
+      4     41       1 c Black
+     40     15       1 c Black
+      1     40       1 c Black
+     45     13       1 c Black
+*Edges
+     29     47       1
+     46     48       1
+     30     49       1
+     31     50       1
+     28     51       1
+     45     52       1
+      2     53       1
+      2     54       1
+     21     55       1
+     21     56       1
+     20     57       1
+     20     58       1
+     19     59       1
+     19     60       1
+      3     61       1
+      3     62       1
+     38     63       1
+     34     64       1
+      8     65       1
+      8     66       1
+     27     67       1
+     27     68       1
+     26     69       1
+     26     70       1
+     25     71       1
+     25     72       1
+      9     73       1
+      9     74       1
+      6     75       1
+     18     76       1
+     17     77       1
+     16     78       1
+      5     79       1
+      4     80       1
+     44     81       1
+     43     82       1
+     42     83       1
+     35     84       1
+     36     85       1
+     37     86       1
+     11     87       1
+     22     88       1
+     23     89       1
+     24     90       1
+     12     91       1
+      1     92       1
+     40     93       1
+     41     94       1
+     39     95       1
+     15     96       1
+     10     97       1
+      7     98       1
+     33     99       1
+      6    100       1
+     18    101       1
+     16    102       1
+      5    103       1
+     17    104       1
+      4    105       1
+      4    106       1
+      1    107       1
+      7    108       1
+     11    109       1
+     23    110       1
+     12    111       1
+     22    112       1
+     24    113       1
+     10    114       1
+     10    115       1
+     41    116       1
+     15    117       1
+     40    118       1
+     44    119       1
+     43    120       1
+     42    121       1

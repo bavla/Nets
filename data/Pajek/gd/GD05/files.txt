@@ -1,0 +1,13 @@
+Files on imdb.zip
+
+imdb.net  - imdb network in Pajek format
+imdbL.net - imdb network with long names
+imdb.clu  - type partition of vertices
+            see imdb.tab for codes
+imdb.nam  - long names
+imdb.vec  - year
+large.net - largest weak component with long names
+large.vec  - years for large
+largeT.clu - type partition for large
+largeB.clu - bipartition for large
+

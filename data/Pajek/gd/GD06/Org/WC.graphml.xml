@@ -1,0 +1,4839 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Source: GD 2006 contest graph B: History of the World Cup Competition
+     http://gd2006.org/contest/details.php#worldcup -->
+<!-- Title: D:\vlado\Pajek\DataSets\GD\GD06\WC\WC.net (79) -->
+<!-- Creator: Pajek: http://vlado.fmf.uni-lj.si/pub/networks/pajek/ -->
+<!-- CreationDate: 08-05-2006, 10:54:40 -->
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="a1" for="node" attr.name="Label" attr.type="string">
+    <desc>Label of the node</desc>
+    <default>NoLabel</default>
+  </key>
+  <key id="a2" for="node" attr.name="Short Label" attr.type="string">
+    <desc>Short label of the node. See:
+      http://en.wikipedia.org/wiki/List_of_FIFA_country_codes
+    </desc>
+    <default>NoLabel</default>
+  </key>
+  <key id="a3" for="node" attr.name="Time" attr.type="string">
+    <desc>Activity (time) intervals for the node:
+       1 - 1930,
+       2 - 1934,
+       3 - 1938,
+       4 - 1950,
+       5 - 1954,
+       6 - 1958,
+       7 - 1962,
+       8 - 1966,
+       9 - 1970,
+      10 - 1974,
+      11 - 1978,
+      12 - 1982,
+      13 - 1986,
+      14 - 1990,
+      15 - 1994,
+      16 - 1998,
+      17 - 2002,
+      18 - 2006
+    </desc>
+    <default>[]</default>
+  </key>
+  <key id="b1" for="edge" attr.name="Weight" attr.type="double">
+    <desc>Weight (value) of the edge</desc>
+    <default>1</default>
+  </key>
+  <key id="b2" for="edge" attr.name="Relation number" attr.type="int">
+    <desc>Relation number in multirelational network:
+       1 - regular,
+       2 - decision match,
+       3 - penalty,
+       4 - extra time
+    </desc>
+    <default>1</default>
+  </key>
+  <key id="b3" for="node" attr.name="Time" attr.type="string">
+    <desc>Activity (time) intervals for the edge.
+      See description of a3.
+    </desc>
+    <default>[]</default>
+  </key>
+  <graph id="G" edgedefault="directed" parse.nodes="79" parse.edges="1460">
+    <node id="v1">
+      <data key="a1">Algeria</data>
+      <data key="a2">ALG</data>
+      <data key="a3">[12,13]</data>
+    </node>
+    <node id="v2">
+      <data key="a1">Angola</data>
+      <data key="a2">ANG</data>
+      <data key="a3">[18]</data>
+    </node>
+    <node id="v3">
+      <data key="a1">Argentina</data>
+      <data key="a2">ARG</data>
+      <data key="a3">[1,2,6,7,8,10,11,12,13,14,15,16,17,18]</data>
+    </node>
+    <node id="v4">
+      <data key="a1">Australia</data>
+      <data key="a2">AUS</data>
+      <data key="a3">[10,18]</data>
+    </node>
+    <node id="v5">
+      <data key="a1">Austria</data>
+      <data key="a2">AUT</data>
+      <data key="a3">[2,3,5,6,11,12,14,16]</data>
+    </node>
+    <node id="v6">
+      <data key="a1">Belgium</data>
+      <data key="a2">BEL</data>
+      <data key="a3">[1,2,3,5,9,12,13,14,15,16,17]</data>
+    </node>
+    <node id="v7">
+      <data key="a1">Bolivia</data>
+      <data key="a2">BOL</data>
+      <data key="a3">[1,4,15]</data>
+    </node>
+    <node id="v8">
+      <data key="a1">Brazil</data>
+      <data key="a2">BRA</data>
+      <data key="a3">[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]</data>
+    </node>
+    <node id="v9">
+      <data key="a1">Bulgaria</data>
+      <data key="a2">BUL</data>
+      <data key="a3">[7,8,9,10,13,15,16]</data>
+    </node>
+    <node id="v10">
+      <data key="a1">Cameroon</data>
+      <data key="a2">CMR</data>
+      <data key="a3">[12,14,15,16,17]</data>
+    </node>
+    <node id="v11">
+      <data key="a1">Canada</data>
+      <data key="a2">CAN</data>
+      <data key="a3">[13]</data>
+    </node>
+    <node id="v12">
+      <data key="a1">Chile</data>
+      <data key="a2">CHI</data>
+      <data key="a3">[1,4,7,8,10,12,16]</data>
+    </node>
+    <node id="v13">
+      <data key="a1">China</data>
+      <data key="a2">CHN</data>
+      <data key="a3">[17]</data>
+    </node>
+    <node id="v14">
+      <data key="a1">Colombia</data>
+      <data key="a2">COL</data>
+      <data key="a3">[7,14,15,16]</data>
+    </node>
+    <node id="v15">
+      <data key="a1">Costa Rica</data>
+      <data key="a2">CRC</data>
+      <data key="a3">[14,17,18]</data>
+    </node>
+    <node id="v16">
+      <data key="a1">Cote d'Ivoire</data>
+      <data key="a2">CIV</data>
+      <data key="a3">[18]</data>
+    </node>
+    <node id="v17">
+      <data key="a1">Croatia</data>
+      <data key="a2">CRO</data>
+      <data key="a3">[16,17,18]</data>
+    </node>
+    <node id="v18">
+      <data key="a1">Cuba</data>
+      <data key="a2">CUB</data>
+      <data key="a3">[3]</data>
+    </node>
+    <node id="v19">
+      <data key="a1">Czechoslovakia</data>
+      <data key="a2">TCH</data>
+      <data key="a3">[2,3,5,6,7,9,12,14]</data>
+    </node>
+    <node id="v20">
+      <data key="a1">Czech Republic</data>
+      <data key="a2">CZE</data>
+      <data key="a3">[18]</data>
+    </node>
+    <node id="v21">
+      <data key="a1">Denmark</data>
+      <data key="a2">DEN</data>
+      <data key="a3">[13,16,17]</data>
+    </node>
+    <node id="v22">
+      <data key="a1">Ecuador</data>
+      <data key="a2">ECU</data>
+      <data key="a3">[17,18]</data>
+    </node>
+    <node id="v23">
+      <data key="a1">E. Germany</data>
+      <data key="a2">GDR</data>
+      <data key="a3">[10]</data>
+    </node>
+    <node id="v24">
+      <data key="a1">Egypt</data>
+      <data key="a2">EGY</data>
+      <data key="a3">[2,14]</data>
+    </node>
+    <node id="v25">
+      <data key="a1">El Salvador</data>
+      <data key="a2">SLV</data>
+      <data key="a3">[9,12]</data>
+    </node>
+    <node id="v26">
+      <data key="a1">England</data>
+      <data key="a2">ENG</data>
+      <data key="a3">[4,5,6,7,8,9,12,13,14,16,17,18]</data>
+    </node>
+    <node id="v27">
+      <data key="a1">France</data>
+      <data key="a2">FRA</data>
+      <data key="a3">[1,2,3,5,6,8,11,12,13,16,17,18]</data>
+    </node>
+    <node id="v28">
+      <data key="a1">Germany</data>
+      <data key="a2">GER</data>
+      <data key="a3">[2,3,13,15,16,17,18]</data>
+    </node>
+    <node id="v29">
+      <data key="a1">Ghana</data>
+      <data key="a2">GHA</data>
+      <data key="a3">[18]</data>
+    </node>
+    <node id="v30">
+      <data key="a1">Greece</data>
+      <data key="a2">GRE</data>
+      <data key="a3">[15]</data>
+    </node>
+    <node id="v31">
+      <data key="a1">Haiti</data>
+      <data key="a2">HAI</data>
+      <data key="a3">[10]</data>
+    </node>
+    <node id="v32">
+      <data key="a1">Holland</data>
+      <data key="a2">NED</data>
+      <data key="a3">[2,3,10,11,14,15,16,18]</data>
+    </node>
+    <node id="v33">
+      <data key="a1">Honduras</data>
+      <data key="a2">HON</data>
+      <data key="a3">[12]</data>
+    </node>
+    <node id="v34">
+      <data key="a1">Hungary</data>
+      <data key="a2">HUN</data>
+      <data key="a3">[2,3,5,6,7,8,11,12,13]</data>
+    </node>
+    <node id="v35">
+      <data key="a1">Iran</data>
+      <data key="a2">IRN</data>
+      <data key="a3">[11,16,18]</data>
+    </node>
+    <node id="v36">
+      <data key="a1">Iraq</data>
+      <data key="a2">IRQ</data>
+      <data key="a3">[13]</data>
+    </node>
+    <node id="v37">
+      <data key="a1">Ireland</data>
+      <data key="a2">IRL</data>
+      <data key="a3">[14,15,17]</data>
+    </node>
+    <node id="v38">
+      <data key="a1">Israel</data>
+      <data key="a2">ISR</data>
+      <data key="a3">[9]</data>
+    </node>
+    <node id="v39">
+      <data key="a1">Italy</data>
+      <data key="a2">ITA</data>
+      <data key="a3">[2,3,4,5,7,8,9,10,11,12,13,14,15,16,17,18]</data>
+    </node>
+    <node id="v40">
+      <data key="a1">Jamaica</data>
+      <data key="a2">JAM</data>
+      <data key="a3">[16]</data>
+    </node>
+    <node id="v41">
+      <data key="a1">Japan</data>
+      <data key="a2">JPN</data>
+      <data key="a3">[16,17,18]</data>
+    </node>
+    <node id="v42">
+      <data key="a1">Kuwait</data>
+      <data key="a2">KUW</data>
+      <data key="a3">[12]</data>
+    </node>
+    <node id="v43">
+      <data key="a1">Mexico</data>
+      <data key="a2">MEX</data>
+      <data key="a3">[1,4,5,6,7,8,9,11,13,15,16,17,18]</data>
+    </node>
+    <node id="v44">
+      <data key="a1">Morocco</data>
+      <data key="a2">MAR</data>
+      <data key="a3">[9,13,15,16]</data>
+    </node>
+    <node id="v45">
+      <data key="a1">Neth. East Indies</data>
+      <data key="a2">DEI</data>
+      <data key="a3">[3]</data>
+    </node>
+    <node id="v46">
+      <data key="a1">New Zealand</data>
+      <data key="a2">NZL</data>
+      <data key="a3">[12]</data>
+    </node>
+    <node id="v47">
+      <data key="a1">Nigeria</data>
+      <data key="a2">NGA</data>
+      <data key="a3">[15,16,17]</data>
+    </node>
+    <node id="v48">
+      <data key="a1">No. Ireland</data>
+      <data key="a2">NIR</data>
+      <data key="a3">[6,12,13]</data>
+    </node>
+    <node id="v49">
+      <data key="a1">No. Korea</data>
+      <data key="a2">PRK</data>
+      <data key="a3">[8]</data>
+    </node>
+    <node id="v50">
+      <data key="a1">Norway</data>
+      <data key="a2">NOR</data>
+      <data key="a3">[3,15,16]</data>
+    </node>
+    <node id="v51">
+      <data key="a1">Paraguay</data>
+      <data key="a2">PAR</data>
+      <data key="a3">[1,4,6,13,16,17,18]</data>
+    </node>
+    <node id="v52">
+      <data key="a1">Peru</data>
+      <data key="a2">PER</data>
+      <data key="a3">[1,9,11,12]</data>
+    </node>
+    <node id="v53">
+      <data key="a1">Poland</data>
+      <data key="a2">POL</data>
+      <data key="a3">[3,10,11,12,13,17,18]</data>
+    </node>
+    <node id="v54">
+      <data key="a1">Portugal</data>
+      <data key="a2">POR</data>
+      <data key="a3">[8,13,17,18]</data>
+    </node>
+    <node id="v55">
+      <data key="a1">Romania</data>
+      <data key="a2">ROU</data>
+      <data key="a3">[1,2,3,9,14,15,16]</data>
+    </node>
+    <node id="v56">
+      <data key="a1">Russia</data>
+      <data key="a2">RUS</data>
+      <data key="a3">[15,17]</data>
+    </node>
+    <node id="v57">
+      <data key="a1">Saudi Arabia</data>
+      <data key="a2">KSA</data>
+      <data key="a3">[15,16,17,18]</data>
+    </node>
+    <node id="v58">
+      <data key="a1">Scotland</data>
+      <data key="a2">SCO</data>
+      <data key="a3">[5,6,10,11,12,13,14,16]</data>
+    </node>
+    <node id="v59">
+      <data key="a1">Senegal</data>
+      <data key="a2">SEN</data>
+      <data key="a3">[17]</data>
+    </node>
+    <node id="v60">
+      <data key="a1">Serbia and Montenegro</data>
+      <data key="a2">SCG</data>
+      <data key="a3">[18]</data>
+    </node>
+    <node id="v61">
+      <data key="a1">Slovenia</data>
+      <data key="a2">SVN</data>
+      <data key="a3">[17]</data>
+    </node>
+    <node id="v62">
+      <data key="a1">So. Africa</data>
+      <data key="a2">RSA</data>
+      <data key="a3">[16,17]</data>
+    </node>
+    <node id="v63">
+      <data key="a1">So. Korea</data>
+      <data key="a2">KOR</data>
+      <data key="a3">[5,13,14,15,16,17,18]</data>
+    </node>
+    <node id="v64">
+      <data key="a1">Spain</data>
+      <data key="a2">ESP</data>
+      <data key="a3">[2,4,7,8,11,12,13,14,15,16,17,18]</data>
+    </node>
+    <node id="v65">
+      <data key="a1">Sweden</data>
+      <data key="a2">SWE</data>
+      <data key="a3">[2,3,4,6,9,10,11,14,15,17,18]</data>
+    </node>
+    <node id="v66">
+      <data key="a1">Switzerland</data>
+      <data key="a2">SUI</data>
+      <data key="a3">[2,3,4,5,7,8,15,18]</data>
+    </node>
+    <node id="v67">
+      <data key="a1">Togo</data>
+      <data key="a2">TOG</data>
+      <data key="a3">[18]</data>
+    </node>
+    <node id="v68">
+      <data key="a1">Trinidad and Tobago</data>
+      <data key="a2">TRI</data>
+      <data key="a3">[18]</data>
+    </node>
+    <node id="v69">
+      <data key="a1">Tunisia</data>
+      <data key="a2">TUN</data>
+      <data key="a3">[11,16,17,18]</data>
+    </node>
+    <node id="v70">
+      <data key="a1">Turkey</data>
+      <data key="a2">TUR</data>
+      <data key="a3">[5,17]</data>
+    </node>
+    <node id="v71">
+      <data key="a1">United Arab Emirates</data>
+      <data key="a2">UAE</data>
+      <data key="a3">[14]</data>
+    </node>
+    <node id="v72">
+      <data key="a1">Ukraine</data>
+      <data key="a2">UKR</data>
+      <data key="a3">[18]</data>
+    </node>
+    <node id="v73">
+      <data key="a1">Uruguay</data>
+      <data key="a2">URU</data>
+      <data key="a3">[1,4,5,7,8,9,10,13,14,17]</data>
+    </node>
+    <node id="v74">
+      <data key="a1">USA</data>
+      <data key="a2">USA</data>
+      <data key="a3">[1,2,4,14,15,16,17,18]</data>
+    </node>
+    <node id="v75">
+      <data key="a1">USSR</data>
+      <data key="a2">URS</data>
+      <data key="a3">[6,7,8,9,12,13,14]</data>
+    </node>
+    <node id="v76">
+      <data key="a1">Wales</data>
+      <data key="a2">WAL</data>
+      <data key="a3">[6]</data>
+    </node>
+    <node id="v77">
+      <data key="a1">W. Germany</data>
+      <data key="a2">FRG</data>
+      <data key="a3">[5,6,7,8,9,10,11,12,13,14]</data>
+    </node>
+    <node id="v78">
+      <data key="a1">Yugoslavia</data>
+      <data key="a2">YUG</data>
+      <data key="a3">[1,4,5,6,7,10,12,14,16]</data>
+    </node>
+    <node id="v79">
+      <data key="a1">Zaire</data>
+      <data key="a2">ZAI</data>
+      <data key="a3">[10]</data>
+    </node>
+    <edge source="v27" target="v43"> <data key="b1">4</data>
+      <data key="b3">[1]</data>
+    </edge>
+    <edge source="v43" target="v27">
+      <data key="b3">[1]</data>
+    </edge>
+    <edge source="v3" target="v27">
+      <data key="b3">[1]</data>
+    </edge>
+    <edge source="v27" target="v3"> <data key="b1">0</data>
+      <data key="b3">[1]</data>
+    </edge>
+    <edge source="v3" target="v43"> <data key="b1">6</data>
+      <data key="b3">[1]</data>
+    </edge>
+    <edge source="v43" target="v3"> <data key="b1">3</data>
+      <data key="b3">[1]</data>
+    </edge>
+    <edge source="v3" target="v12"> <data key="b1">3</data>
+      <data key="b3">[1]</data>
+    </edge>
+    <edge source="v12" target="v3">
+      <data key="b3">[1]</data>
+    </edge>
+    <edge source="v12" target="v27">
+      <data key="b3">[1]</data>
+    </edge>
+    <edge source="v27" target="v12"> <data key="b1">0</data>
+      <data key="b3">[1]</data>
+    </edge>
+    <edge source="v12" target="v43"> <data key="b1">3</data>
+      <data key="b3">[1]</data>
+    </edge>
+    <edge source="v43" target="v12"> <data key="b1">0</data>
+      <data key="b3">[1]</data>
+    </edge>
+    <edge source="v78" target="v8"> <data key="b1">2</data>
+      <data key="b3">[1]</data>
+    </edge>
+    <edge source="v8" target="v78">
+      <data key="b3">[1]</data>
+    </edge>
+    <edge source="v78" target="v7"> <data key="b1">4</data>
+      <data key="b3">[1]</data>
+    </edge>
+    <edge source="v7" target="v78"> <data key="b1">0</data>
+      <data key="b3">[1]</data>
+    </edge>
+    <edge source="v8" target="v7"> <data key="b1">4</data>
+      <data key="b3">[1]</data>
+    </edge>
+    <edge source="v7" target="v8"> <data key="b1">0</data>
+      <data key="b3">[1]</data>
+    </edge>
+    <edge source="v55" target="v52"> <data key="b1">3</data>
+      <data key="b3">[1]</data>
+    </edge>
+    <edge source="v52" target="v55">
+      <data key="b3">[1]</data>
+    </edge>
+    <edge source="v73" target="v52">
+      <data key="b3">[1]</data>
+    </edge>
+    <edge source="v52" target="v73"> <data key="b1">0</data>
+      <data key="b3">[1]</data>
+    </edge>
+    <edge source="v73" target="v55"> <data key="b1">4</data>
+      <data key="b3">[1]</data>
+    </edge>
+    <edge source="v55" target="v73"> <data key="b1">0</data>
+      <data key="b3">[1]</data>
+    </edge>
+    <edge source="v74" target="v6"> <data key="b1">3</data>
+      <data key="b3">[1]</data>
+    </edge>
+    <edge source="v6" target="v74"> <data key="b1">0</data>
+      <data key="b3">[1]</data>
+    </edge>
+    <edge source="v74" target="v51"> <data key="b1">3</data>
+      <data key="b3">[1]</data>
+    </edge>
+    <edge source="v51" target="v74"> <data key="b1">0</data>
+      <data key="b3">[1]</data>
+    </edge>
+    <edge source="v51" target="v6">
+      <data key="b3">[1]</data>
+    </edge>
+    <edge source="v6" target="v51"> <data key="b1">0</data>
+      <data key="b3">[1]</data>
+    </edge>
+    <edge source="v3" target="v74"> <data key="b1">6</data>
+      <data key="b3">[1]</data>
+    </edge>
+    <edge source="v74" target="v3">
+      <data key="b3">[1]</data>
+    </edge>
+    <edge source="v73" target="v78"> <data key="b1">6</data>
+      <data key="b3">[1]</data>
+    </edge>
+    <edge source="v78" target="v73">
+      <data key="b3">[1]</data>
+    </edge>
+    <edge source="v73" target="v3"> <data key="b1">4</data>
+      <data key="b3">[1]</data>
+    </edge>
+    <edge source="v3" target="v73"> <data key="b1">2</data>
+      <data key="b3">[1]</data>
+    </edge>
+    <edge source="v28" target="v6"> <data key="b1">5</data>
+      <data key="b3">[2]</data>
+    </edge>
+    <edge source="v6" target="v28"> <data key="b1">2</data>
+      <data key="b3">[2]</data>
+    </edge>
+    <edge source="v65" target="v3"> <data key="b1">3</data>
+      <data key="b3">[2]</data>
+    </edge>
+    <edge source="v3" target="v65"> <data key="b1">2</data>
+      <data key="b3">[2]</data>
+    </edge>
+    <edge source="v66" target="v32"> <data key="b1">3</data>
+      <data key="b3">[2]</data>
+    </edge>
+    <edge source="v32" target="v66"> <data key="b1">2</data>
+      <data key="b3">[2]</data>
+    </edge>
+    <edge source="v19" target="v55"> <data key="b1">2</data>
+      <data key="b3">[2]</data>
+    </edge>
+    <edge source="v55" target="v19">
+      <data key="b3">[2]</data>
+    </edge>
+    <edge source="v5" target="v27"> <data key="b1">3</data>
+      <data key="b3">[2]</data>
+    </edge>
+    <edge source="v27" target="v5"> <data key="b1">2</data>
+      <data key="b3">[2]</data>
+    </edge>
+    <edge source="v34" target="v24"> <data key="b1">4</data>
+      <data key="b3">[2]</data>
+    </edge>
+    <edge source="v24" target="v34"> <data key="b1">2</data>
+      <data key="b3">[2]</data>
+    </edge>
+    <edge source="v64" target="v8"> <data key="b1">3</data>
+      <data key="b3">[2]</data>
+    </edge>
+    <edge source="v8" target="v64">
+      <data key="b3">[2]</data>
+    </edge>
+    <edge source="v39" target="v74"> <data key="b1">7</data>
+      <data key="b3">[2]</data>
+    </edge>
+    <edge source="v74" target="v39">
+      <data key="b3">[2]</data>
+    </edge>
+    <edge source="v28" target="v65"> <data key="b1">2</data>
+      <data key="b3">[2]</data>
+    </edge>
+    <edge source="v65" target="v28">
+      <data key="b3">[2]</data>
+    </edge>
+    <edge source="v19" target="v66"> <data key="b1">3</data>
+      <data key="b3">[2]</data>
+    </edge>
+    <edge source="v66" target="v19"> <data key="b1">2</data>
+      <data key="b3">[2]</data>
+    </edge>
+    <edge source="v5" target="v34"> <data key="b1">2</data>
+      <data key="b3">[2]</data>
+    </edge>
+    <edge source="v34" target="v5">
+      <data key="b3">[2]</data>
+    </edge>
+    <edge source="v39" target="v64">
+      <data key="b3">[2]</data>
+    </edge>
+    <edge source="v64" target="v39">
+      <data key="b3">[2]</data>
+    </edge>
+    <edge source="v19" target="v28"> <data key="b1">3</data>
+      <data key="b3">[2]</data>
+    </edge>
+    <edge source="v28" target="v19">
+      <data key="b3">[2]</data>
+    </edge>
+    <edge source="v39" target="v5">
+      <data key="b3">[2]</data>
+    </edge>
+    <edge source="v5" target="v39"> <data key="b1">0</data>
+      <data key="b3">[2]</data>
+    </edge>
+    <edge source="v28" target="v5"> <data key="b1">3</data>
+      <data key="b3">[2]</data>
+    </edge>
+    <edge source="v5" target="v28"> <data key="b1">2</data>
+      <data key="b3">[2]</data>
+    </edge>
+    <edge source="v39" target="v19"> <data key="b1">2</data>
+      <data key="b3">[2]</data>
+    </edge>
+    <edge source="v19" target="v39">
+      <data key="b3">[2]</data>
+    </edge>
+    <edge source="v66" target="v28">
+      <data key="b3">[3]</data>
+    </edge>
+    <edge source="v28" target="v66">
+      <data key="b3">[3]</data>
+    </edge>
+    <edge source="v19" target="v32"> <data key="b1">3</data>
+      <data key="b3">[3]</data>
+    </edge>
+    <edge source="v32" target="v19"> <data key="b1">0</data>
+      <data key="b3">[3]</data>
+    </edge>
+    <edge source="v34" target="v45"> <data key="b1">6</data>
+      <data key="b3">[3]</data>
+    </edge>
+    <edge source="v45" target="v34"> <data key="b1">0</data>
+      <data key="b3">[3]</data>
+    </edge>
+    <edge source="v18" target="v55"> <data key="b1">3</data>
+      <data key="b3">[3]</data>
+    </edge>
+    <edge source="v55" target="v18"> <data key="b1">3</data>
+      <data key="b3">[3]</data>
+    </edge>
+    <edge source="v65" target="v5"> <data key="b1">0</data>
+      <data key="b3">[3]</data>
+    </edge>
+    <edge source="v5" target="v65"> <data key="b1">-1</data>
+      <data key="b3">[3]</data>
+    </edge>
+    <edge source="v39" target="v50"> <data key="b1">2</data>
+      <data key="b3">[3]</data>
+    </edge>
+    <edge source="v50" target="v39">
+      <data key="b3">[3]</data>
+    </edge>
+    <edge source="v27" target="v6"> <data key="b1">3</data>
+      <data key="b3">[3]</data>
+    </edge>
+    <edge source="v6" target="v27">
+      <data key="b3">[3]</data>
+    </edge>
+    <edge source="v8" target="v53"> <data key="b1">6</data>
+      <data key="b3">[3]</data>
+    </edge>
+    <edge source="v53" target="v8"> <data key="b1">5</data>
+      <data key="b3">[3]</data>
+    </edge>
+    <edge source="v34" target="v66"> <data key="b1">2</data>
+      <data key="b3">[3]</data>
+    </edge>
+    <edge source="v66" target="v34"> <data key="b1">0</data>
+      <data key="b3">[3]</data>
+    </edge>
+    <edge source="v65" target="v18"> <data key="b1">8</data>
+      <data key="b3">[3]</data>
+    </edge>
+    <edge source="v18" target="v65"> <data key="b1">0</data>
+      <data key="b3">[3]</data>
+    </edge>
+    <edge source="v39" target="v27"> <data key="b1">3</data>
+      <data key="b3">[3]</data>
+    </edge>
+    <edge source="v27" target="v39">
+      <data key="b3">[3]</data>
+    </edge>
+    <edge source="v8" target="v19">
+      <data key="b3">[3]</data>
+    </edge>
+    <edge source="v19" target="v8">
+      <data key="b3">[3]</data>
+    </edge>
+    <edge source="v34" target="v65"> <data key="b1">5</data>
+      <data key="b3">[3]</data>
+    </edge>
+    <edge source="v65" target="v34">
+      <data key="b3">[3]</data>
+    </edge>
+    <edge source="v39" target="v8"> <data key="b1">2</data>
+      <data key="b3">[3]</data>
+    </edge>
+    <edge source="v8" target="v39">
+      <data key="b3">[3]</data>
+    </edge>
+    <edge source="v8" target="v65"> <data key="b1">4</data>
+      <data key="b3">[3]</data>
+    </edge>
+    <edge source="v65" target="v8"> <data key="b1">2</data>
+      <data key="b3">[3]</data>
+    </edge>
+    <edge source="v39" target="v34"> <data key="b1">4</data>
+      <data key="b3">[3]</data>
+    </edge>
+    <edge source="v34" target="v39"> <data key="b1">2</data>
+      <data key="b3">[3]</data>
+    </edge>
+    <edge source="v8" target="v43"> <data key="b1">4</data>
+      <data key="b3">[4]</data>
+    </edge>
+    <edge source="v43" target="v8"> <data key="b1">0</data>
+      <data key="b3">[4]</data>
+    </edge>
+    <edge source="v78" target="v66"> <data key="b1">3</data>
+      <data key="b3">[4]</data>
+    </edge>
+    <edge source="v66" target="v78"> <data key="b1">0</data>
+      <data key="b3">[4]</data>
+    </edge>
+    <edge source="v8" target="v66"> <data key="b1">2</data>
+      <data key="b3">[4]</data>
+    </edge>
+    <edge source="v66" target="v8"> <data key="b1">2</data>
+      <data key="b3">[4]</data>
+    </edge>
+    <edge source="v78" target="v43"> <data key="b1">4</data>
+      <data key="b3">[4]</data>
+    </edge>
+    <edge source="v43" target="v78">
+      <data key="b3">[4]</data>
+    </edge>
+    <edge source="v8" target="v78"> <data key="b1">2</data>
+      <data key="b3">[4]</data>
+    </edge>
+    <edge source="v78" target="v8"> <data key="b1">0</data>
+      <data key="b3">[4]</data>
+    </edge>
+    <edge source="v66" target="v43"> <data key="b1">2</data>
+      <data key="b3">[4]</data>
+    </edge>
+    <edge source="v43" target="v66">
+      <data key="b3">[4]</data>
+    </edge>
+    <edge source="v26" target="v12"> <data key="b1">2</data>
+      <data key="b3">[4]</data>
+    </edge>
+    <edge source="v12" target="v26"> <data key="b1">0</data>
+      <data key="b3">[4]</data>
+    </edge>
+    <edge source="v64" target="v74"> <data key="b1">3</data>
+      <data key="b3">[4]</data>
+    </edge>
+    <edge source="v74" target="v64">
+      <data key="b3">[4]</data>
+    </edge>
+    <edge source="v64" target="v12"> <data key="b1">2</data>
+      <data key="b3">[4]</data>
+    </edge>
+    <edge source="v12" target="v64"> <data key="b1">0</data>
+      <data key="b3">[4]</data>
+    </edge>
+    <edge source="v74" target="v26">
+      <data key="b3">[4]</data>
+    </edge>
+    <edge source="v26" target="v74"> <data key="b1">0</data>
+      <data key="b3">[4]</data>
+    </edge>
+    <edge source="v64" target="v26">
+      <data key="b3">[4]</data>
+    </edge>
+    <edge source="v26" target="v64"> <data key="b1">0</data>
+      <data key="b3">[4]</data>
+    </edge>
+    <edge source="v12" target="v74"> <data key="b1">5</data>
+      <data key="b3">[4]</data>
+    </edge>
+    <edge source="v74" target="v12"> <data key="b1">2</data>
+      <data key="b3">[4]</data>
+    </edge>
+    <edge source="v65" target="v39"> <data key="b1">3</data>
+      <data key="b3">[4]</data>
+    </edge>
+    <edge source="v39" target="v65"> <data key="b1">2</data>
+      <data key="b3">[4]</data>
+    </edge>
+    <edge source="v65" target="v51"> <data key="b1">2</data>
+      <data key="b3">[4]</data>
+    </edge>
+    <edge source="v51" target="v65"> <data key="b1">2</data>
+      <data key="b3">[4]</data>
+    </edge>
+    <edge source="v39" target="v51"> <data key="b1">2</data>
+      <data key="b3">[4]</data>
+    </edge>
+    <edge source="v51" target="v39"> <data key="b1">0</data>
+      <data key="b3">[4]</data>
+    </edge>
+    <edge source="v73" target="v7"> <data key="b1">8</data>
+      <data key="b3">[4]</data>
+    </edge>
+    <edge source="v7" target="v73"> <data key="b1">0</data>
+      <data key="b3">[4]</data>
+    </edge>
+    <edge source="v8" target="v65"> <data key="b1">7</data>
+      <data key="b3">[4]</data>
+    </edge>
+    <edge source="v65" target="v8">
+      <data key="b3">[4]</data>
+    </edge>
+    <edge source="v73" target="v64"> <data key="b1">2</data>
+      <data key="b3">[4]</data>
+    </edge>
+    <edge source="v64" target="v73"> <data key="b1">2</data>
+      <data key="b3">[4]</data>
+    </edge>
+    <edge source="v8" target="v64"> <data key="b1">6</data>
+      <data key="b3">[4]</data>
+    </edge>
+    <edge source="v64" target="v8">
+      <data key="b3">[4]</data>
+    </edge>
+    <edge source="v73" target="v65"> <data key="b1">3</data>
+      <data key="b3">[4]</data>
+    </edge>
+    <edge source="v65" target="v73"> <data key="b1">2</data>
+      <data key="b3">[4]</data>
+    </edge>
+    <edge source="v65" target="v64"> <data key="b1">3</data>
+      <data key="b3">[4]</data>
+    </edge>
+    <edge source="v64" target="v65">
+      <data key="b3">[4]</data>
+    </edge>
+    <edge source="v73" target="v8"> <data key="b1">2</data>
+      <data key="b3">[4]</data>
+    </edge>
+    <edge source="v8" target="v73">
+      <data key="b3">[4]</data>
+    </edge>
+    <edge source="v8" target="v43"> <data key="b1">5</data>
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v43" target="v8"> <data key="b1">0</data>
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v34" target="v63"> <data key="b1">9</data>
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v63" target="v34"> <data key="b1">0</data>
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v78" target="v27">
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v27" target="v78"> <data key="b1">0</data>
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v77" target="v70"> <data key="b1">4</data>
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v70" target="v77">
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v27" target="v43"> <data key="b1">3</data>
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v43" target="v27"> <data key="b1">2</data>
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v34" target="v77"> <data key="b1">8</data>
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v77" target="v34"> <data key="b1">3</data>
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v8" target="v78">
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v78" target="v8">
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v70" target="v63"> <data key="b1">7</data>
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v63" target="v70"> <data key="b1">0</data>
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v5" target="v58">
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v58" target="v5"> <data key="b1">0</data>
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v66" target="v39"> <data key="b1">2</data>
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v39" target="v66">
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v73" target="v19"> <data key="b1">2</data>
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v19" target="v73"> <data key="b1">0</data>
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v26" target="v6"> <data key="b1">4</data>
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v6" target="v26"> <data key="b1">4</data>
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v73" target="v58"> <data key="b1">7</data>
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v58" target="v73"> <data key="b1">0</data>
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v39" target="v6"> <data key="b1">4</data>
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v6" target="v39">
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v5" target="v19"> <data key="b1">5</data>
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v19" target="v5"> <data key="b1">0</data>
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v26" target="v66"> <data key="b1">2</data>
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v66" target="v26"> <data key="b1">0</data>
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v5" target="v66"> <data key="b1">7</data>
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v66" target="v5"> <data key="b1">5</data>
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v73" target="v26"> <data key="b1">4</data>
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v26" target="v73"> <data key="b1">2</data>
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v77" target="v78"> <data key="b1">2</data>
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v78" target="v77"> <data key="b1">0</data>
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v34" target="v8"> <data key="b1">4</data>
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v8" target="v34"> <data key="b1">2</data>
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v34" target="v73"> <data key="b1">4</data>
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v73" target="v34"> <data key="b1">2</data>
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v77" target="v5"> <data key="b1">6</data>
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v5" target="v77">
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v5" target="v73"> <data key="b1">3</data>
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v73" target="v5">
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v77" target="v34"> <data key="b1">3</data>
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v34" target="v77"> <data key="b1">2</data>
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v77" target="v3"> <data key="b1">3</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v3" target="v77">
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v48" target="v19">
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v19" target="v48"> <data key="b1">0</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v77" target="v19"> <data key="b1">2</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v19" target="v77"> <data key="b1">2</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v3" target="v48"> <data key="b1">3</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v48" target="v3">
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v77" target="v48"> <data key="b1">2</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v48" target="v77"> <data key="b1">2</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v19" target="v3"> <data key="b1">6</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v3" target="v19">
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v78" target="v58">
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v58" target="v78">
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v27" target="v51"> <data key="b1">7</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v51" target="v27"> <data key="b1">3</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v51" target="v58"> <data key="b1">3</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v58" target="v51"> <data key="b1">2</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v78" target="v27"> <data key="b1">3</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v27" target="v78"> <data key="b1">2</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v27" target="v58"> <data key="b1">2</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v58" target="v27">
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v51" target="v78"> <data key="b1">3</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v78" target="v51"> <data key="b1">3</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v65" target="v43"> <data key="b1">3</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v43" target="v65"> <data key="b1">0</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v34" target="v76">
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v76" target="v34">
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v43" target="v76">
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v76" target="v43">
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v65" target="v34"> <data key="b1">2</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v34" target="v65">
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v65" target="v76"> <data key="b1">0</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v76" target="v65"> <data key="b1">0</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v34" target="v43"> <data key="b1">4</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v43" target="v34"> <data key="b1">0</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v8" target="v5"> <data key="b1">3</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v5" target="v8"> <data key="b1">0</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v75" target="v26"> <data key="b1">2</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v26" target="v75"> <data key="b1">2</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v8" target="v26"> <data key="b1">0</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v26" target="v8"> <data key="b1">0</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v75" target="v5"> <data key="b1">2</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v5" target="v75"> <data key="b1">0</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v8" target="v75"> <data key="b1">2</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v75" target="v8"> <data key="b1">0</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v26" target="v5"> <data key="b1">2</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v5" target="v26"> <data key="b1">2</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v77" target="v78">
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v78" target="v77"> <data key="b1">0</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v8" target="v76">
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v76" target="v8"> <data key="b1">0</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v65" target="v75"> <data key="b1">2</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v75" target="v65"> <data key="b1">0</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v27" target="v48"> <data key="b1">4</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v48" target="v27"> <data key="b1">0</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v65" target="v77"> <data key="b1">3</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v77" target="v65">
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v8" target="v27"> <data key="b1">5</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v27" target="v8"> <data key="b1">2</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v27" target="v77"> <data key="b1">6</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v77" target="v27"> <data key="b1">3</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v8" target="v65"> <data key="b1">5</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v65" target="v8"> <data key="b1">2</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v73" target="v14"> <data key="b1">2</data>
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v14" target="v73">
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v75" target="v78"> <data key="b1">2</data>
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v78" target="v75"> <data key="b1">0</data>
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v78" target="v73"> <data key="b1">3</data>
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v73" target="v78">
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v75" target="v14"> <data key="b1">4</data>
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v14" target="v75"> <data key="b1">4</data>
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v75" target="v73"> <data key="b1">2</data>
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v73" target="v75">
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v78" target="v14"> <data key="b1">5</data>
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v14" target="v78"> <data key="b1">0</data>
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v12" target="v66"> <data key="b1">3</data>
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v66" target="v12">
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v77" target="v39"> <data key="b1">0</data>
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v39" target="v77"> <data key="b1">0</data>
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v12" target="v39"> <data key="b1">2</data>
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v39" target="v12"> <data key="b1">0</data>
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v77" target="v66"> <data key="b1">2</data>
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v66" target="v77">
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v77" target="v12"> <data key="b1">2</data>
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v12" target="v77"> <data key="b1">0</data>
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v39" target="v66"> <data key="b1">2</data>
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v66" target="v39"> <data key="b1">0</data>
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v8" target="v43"> <data key="b1">2</data>
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v43" target="v8"> <data key="b1">0</data>
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v19" target="v64">
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v64" target="v19"> <data key="b1">0</data>
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v8" target="v19"> <data key="b1">0</data>
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v19" target="v8"> <data key="b1">0</data>
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v64" target="v43">
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v43" target="v64"> <data key="b1">0</data>
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v8" target="v64"> <data key="b1">2</data>
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v64" target="v8">
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v43" target="v19"> <data key="b1">3</data>
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v19" target="v43">
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v3" target="v9">
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v9" target="v3"> <data key="b1">0</data>
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v34" target="v26"> <data key="b1">2</data>
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v26" target="v34">
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v26" target="v3"> <data key="b1">3</data>
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v3" target="v26">
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v34" target="v9"> <data key="b1">6</data>
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v9" target="v34">
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v34" target="v3"> <data key="b1">0</data>
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v3" target="v34"> <data key="b1">0</data>
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v26" target="v9"> <data key="b1">0</data>
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v9" target="v26"> <data key="b1">0</data>
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v78" target="v77">
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v77" target="v78"> <data key="b1">0</data>
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v12" target="v75"> <data key="b1">2</data>
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v75" target="v12">
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v8" target="v26"> <data key="b1">3</data>
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v26" target="v8">
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v19" target="v34">
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v34" target="v19"> <data key="b1">0</data>
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v19" target="v78"> <data key="b1">3</data>
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v78" target="v19">
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v8" target="v12"> <data key="b1">4</data>
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v12" target="v8"> <data key="b1">2</data>
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v12" target="v78">
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v78" target="v12"> <data key="b1">0</data>
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v8" target="v19"> <data key="b1">3</data>
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v19" target="v8">
+      <data key="b3">[7]</data>
+    </edge>
+    <edge source="v26" target="v73"> <data key="b1">0</data>
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v73" target="v26"> <data key="b1">0</data>
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v27" target="v43">
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v43" target="v27">
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v73" target="v27"> <data key="b1">2</data>
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v27" target="v73">
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v26" target="v43"> <data key="b1">2</data>
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v43" target="v26"> <data key="b1">0</data>
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v73" target="v43"> <data key="b1">0</data>
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v43" target="v73"> <data key="b1">0</data>
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v26" target="v27"> <data key="b1">2</data>
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v27" target="v26"> <data key="b1">0</data>
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v77" target="v66"> <data key="b1">5</data>
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v66" target="v77"> <data key="b1">0</data>
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v3" target="v64"> <data key="b1">2</data>
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v64" target="v3">
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v64" target="v66"> <data key="b1">2</data>
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v66" target="v64">
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v77" target="v3"> <data key="b1">0</data>
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v3" target="v77"> <data key="b1">0</data>
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v77" target="v64"> <data key="b1">2</data>
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v64" target="v77">
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v3" target="v66"> <data key="b1">2</data>
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v66" target="v3"> <data key="b1">0</data>
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v8" target="v9"> <data key="b1">2</data>
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v9" target="v8"> <data key="b1">0</data>
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v54" target="v34"> <data key="b1">3</data>
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v34" target="v54">
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v34" target="v8"> <data key="b1">3</data>
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v8" target="v34">
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v54" target="v9"> <data key="b1">3</data>
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v9" target="v54"> <data key="b1">0</data>
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v54" target="v8"> <data key="b1">3</data>
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v8" target="v54">
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v34" target="v9"> <data key="b1">3</data>
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v9" target="v34">
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v75" target="v49"> <data key="b1">3</data>
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v49" target="v75"> <data key="b1">0</data>
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v39" target="v12"> <data key="b1">2</data>
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v12" target="v39"> <data key="b1">0</data>
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v49" target="v12">
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v12" target="v49">
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v75" target="v39">
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v39" target="v75"> <data key="b1">0</data>
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v49" target="v39">
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v39" target="v49"> <data key="b1">0</data>
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v75" target="v12"> <data key="b1">2</data>
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v12" target="v75">
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v26" target="v3">
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v3" target="v26"> <data key="b1">0</data>
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v77" target="v73"> <data key="b1">4</data>
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v73" target="v77"> <data key="b1">0</data>
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v54" target="v49"> <data key="b1">5</data>
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v49" target="v54"> <data key="b1">3</data>
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v75" target="v34"> <data key="b1">2</data>
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v34" target="v75">
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v77" target="v75"> <data key="b1">2</data>
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v75" target="v77">
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v26" target="v54"> <data key="b1">2</data>
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v54" target="v26">
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v54" target="v75"> <data key="b1">2</data>
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v75" target="v54">
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v26" target="v77"> <data key="b1">4</data>
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v77" target="v26"> <data key="b1">2</data>
+      <data key="b3">[8]</data>
+    </edge>
+    <edge source="v75" target="v43"> <data key="b1">0</data>
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v43" target="v75"> <data key="b1">0</data>
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v6" target="v25"> <data key="b1">3</data>
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v25" target="v6"> <data key="b1">0</data>
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v75" target="v6"> <data key="b1">4</data>
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v6" target="v75">
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v43" target="v25"> <data key="b1">4</data>
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v25" target="v43"> <data key="b1">0</data>
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v75" target="v25"> <data key="b1">2</data>
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v25" target="v75"> <data key="b1">0</data>
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v43" target="v6">
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v6" target="v43"> <data key="b1">0</data>
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v73" target="v38"> <data key="b1">2</data>
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v38" target="v73"> <data key="b1">0</data>
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v39" target="v65">
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v65" target="v39"> <data key="b1">0</data>
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v73" target="v39"> <data key="b1">0</data>
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v39" target="v73"> <data key="b1">0</data>
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v65" target="v38">
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v38" target="v65">
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v65" target="v73">
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v73" target="v65"> <data key="b1">0</data>
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v39" target="v38"> <data key="b1">0</data>
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v38" target="v39"> <data key="b1">0</data>
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v26" target="v55">
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v55" target="v26"> <data key="b1">0</data>
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v8" target="v19"> <data key="b1">4</data>
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v19" target="v8">
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v55" target="v19"> <data key="b1">2</data>
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v19" target="v55">
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v8" target="v26">
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v26" target="v8"> <data key="b1">0</data>
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v8" target="v55"> <data key="b1">3</data>
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v55" target="v8"> <data key="b1">2</data>
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v26" target="v19">
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v19" target="v26"> <data key="b1">0</data>
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v52" target="v9"> <data key="b1">3</data>
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v9" target="v52"> <data key="b1">2</data>
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v77" target="v44"> <data key="b1">2</data>
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v44" target="v77">
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v52" target="v44"> <data key="b1">3</data>
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v44" target="v52"> <data key="b1">0</data>
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v77" target="v9"> <data key="b1">5</data>
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v9" target="v77"> <data key="b1">2</data>
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v77" target="v52"> <data key="b1">3</data>
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v52" target="v77">
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v9" target="v44">
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v44" target="v9">
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v73" target="v75">
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v75" target="v73"> <data key="b1">0</data>
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v77" target="v26"> <data key="b1">3</data>
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v26" target="v77"> <data key="b1">2</data>
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v8" target="v52"> <data key="b1">4</data>
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v52" target="v8"> <data key="b1">2</data>
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v39" target="v43"> <data key="b1">4</data>
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v43" target="v39">
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v39" target="v77"> <data key="b1">4</data>
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v77" target="v39"> <data key="b1">3</data>
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v8" target="v73"> <data key="b1">3</data>
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v73" target="v8">
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v77" target="v73">
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v73" target="v77"> <data key="b1">0</data>
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v8" target="v39"> <data key="b1">4</data>
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v39" target="v8">
+      <data key="b3">[9]</data>
+    </edge>
+    <edge source="v77" target="v12">
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v12" target="v77"> <data key="b1">0</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v23" target="v4"> <data key="b1">2</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v4" target="v23"> <data key="b1">0</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v77" target="v4"> <data key="b1">3</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v4" target="v77"> <data key="b1">0</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v12" target="v23">
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v23" target="v12">
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v4" target="v12"> <data key="b1">0</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v12" target="v4"> <data key="b1">0</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v23" target="v77">
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v77" target="v23"> <data key="b1">0</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v8" target="v78"> <data key="b1">0</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v78" target="v8"> <data key="b1">0</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v58" target="v79"> <data key="b1">2</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v79" target="v58"> <data key="b1">0</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v78" target="v79"> <data key="b1">9</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v79" target="v78"> <data key="b1">0</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v8" target="v58"> <data key="b1">0</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v58" target="v8"> <data key="b1">0</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v8" target="v79"> <data key="b1">3</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v79" target="v8"> <data key="b1">0</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v78" target="v58">
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v58" target="v78">
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v32" target="v73"> <data key="b1">2</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v73" target="v32"> <data key="b1">0</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v9" target="v65"> <data key="b1">0</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v65" target="v9"> <data key="b1">0</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v32" target="v65"> <data key="b1">0</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v65" target="v32"> <data key="b1">0</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v73" target="v9">
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v9" target="v73">
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v32" target="v9"> <data key="b1">4</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v9" target="v32">
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v65" target="v73"> <data key="b1">3</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v73" target="v65"> <data key="b1">0</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v39" target="v31"> <data key="b1">3</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v31" target="v39">
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v53" target="v3"> <data key="b1">3</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v3" target="v53"> <data key="b1">2</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v53" target="v31"> <data key="b1">7</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v31" target="v53"> <data key="b1">0</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v39" target="v3">
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v3" target="v39">
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v3" target="v31"> <data key="b1">4</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v31" target="v3">
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v53" target="v39"> <data key="b1">2</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v39" target="v53">
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v8" target="v23">
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v23" target="v8"> <data key="b1">0</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v32" target="v3"> <data key="b1">4</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v3" target="v32"> <data key="b1">0</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v32" target="v23"> <data key="b1">2</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v23" target="v32"> <data key="b1">0</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v8" target="v3"> <data key="b1">2</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v3" target="v8">
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v32" target="v8"> <data key="b1">2</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v8" target="v32"> <data key="b1">0</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v23" target="v3">
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v3" target="v23">
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v77" target="v78"> <data key="b1">2</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v78" target="v77"> <data key="b1">0</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v53" target="v65">
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v65" target="v53"> <data key="b1">0</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v53" target="v78"> <data key="b1">2</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v78" target="v53">
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v77" target="v65"> <data key="b1">4</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v65" target="v77"> <data key="b1">2</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v77" target="v53">
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v53" target="v77"> <data key="b1">0</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v65" target="v78"> <data key="b1">2</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v78" target="v65">
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v53" target="v8">
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v8" target="v53"> <data key="b1">0</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v77" target="v32"> <data key="b1">2</data>
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v32" target="v77">
+      <data key="b3">[10]</data>
+    </edge>
+    <edge source="v39" target="v27"> <data key="b1">2</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v27" target="v39">
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v3" target="v34"> <data key="b1">2</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v34" target="v3">
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v39" target="v34"> <data key="b1">3</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v34" target="v39">
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v3" target="v27"> <data key="b1">2</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v27" target="v3">
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v27" target="v34"> <data key="b1">3</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v34" target="v27">
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v39" target="v3">
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v3" target="v39"> <data key="b1">0</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v53" target="v77"> <data key="b1">0</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v77" target="v53"> <data key="b1">0</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v69" target="v43"> <data key="b1">3</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v43" target="v69">
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v53" target="v69">
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v69" target="v53"> <data key="b1">0</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v77" target="v43"> <data key="b1">6</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v43" target="v77"> <data key="b1">0</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v77" target="v69"> <data key="b1">0</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v69" target="v77"> <data key="b1">0</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v53" target="v43"> <data key="b1">3</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v43" target="v53">
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v5" target="v64"> <data key="b1">2</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v64" target="v5">
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v8" target="v65">
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v65" target="v8">
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v5" target="v65">
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v65" target="v5"> <data key="b1">0</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v8" target="v64"> <data key="b1">0</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v64" target="v8"> <data key="b1">0</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v64" target="v65">
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v65" target="v64"> <data key="b1">0</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v8" target="v5">
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v5" target="v8"> <data key="b1">0</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v32" target="v35"> <data key="b1">3</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v35" target="v32"> <data key="b1">0</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v52" target="v58"> <data key="b1">3</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v58" target="v52">
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v58" target="v35">
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v35" target="v58">
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v32" target="v52"> <data key="b1">0</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v52" target="v32"> <data key="b1">0</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v52" target="v35"> <data key="b1">4</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v35" target="v52">
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v58" target="v32"> <data key="b1">3</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v32" target="v58"> <data key="b1">2</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v77" target="v39"> <data key="b1">0</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v39" target="v77"> <data key="b1">0</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v32" target="v5"> <data key="b1">5</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v5" target="v32">
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v39" target="v5">
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v5" target="v39"> <data key="b1">0</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v77" target="v32"> <data key="b1">2</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v32" target="v77"> <data key="b1">2</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v32" target="v39"> <data key="b1">2</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v39" target="v32">
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v5" target="v77"> <data key="b1">3</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v77" target="v5"> <data key="b1">2</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v8" target="v52"> <data key="b1">3</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v52" target="v8"> <data key="b1">0</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v3" target="v53"> <data key="b1">2</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v53" target="v3"> <data key="b1">0</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v53" target="v52">
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v52" target="v53"> <data key="b1">0</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v3" target="v8"> <data key="b1">0</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v8" target="v3"> <data key="b1">0</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v8" target="v53"> <data key="b1">3</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v53" target="v8">
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v3" target="v52"> <data key="b1">6</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v52" target="v3"> <data key="b1">0</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v8" target="v39"> <data key="b1">2</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v39" target="v8">
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v3" target="v32"> <data key="b1">3</data>
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v32" target="v3">
+      <data key="b3">[11]</data>
+    </edge>
+    <edge source="v53" target="v39"> <data key="b1">0</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v39" target="v53"> <data key="b1">0</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v10" target="v52"> <data key="b1">0</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v52" target="v10"> <data key="b1">0</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v39" target="v52">
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v52" target="v39">
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v53" target="v10"> <data key="b1">0</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v10" target="v53"> <data key="b1">0</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v53" target="v52"> <data key="b1">5</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v52" target="v53">
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v39" target="v10">
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v10" target="v39">
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v1" target="v77"> <data key="b1">2</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v77" target="v1">
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v5" target="v12">
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v12" target="v5"> <data key="b1">0</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v77" target="v12"> <data key="b1">4</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v12" target="v77">
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v5" target="v1"> <data key="b1">2</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v1" target="v5"> <data key="b1">0</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v1" target="v12"> <data key="b1">3</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v12" target="v1"> <data key="b1">2</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v77" target="v5">
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v5" target="v77"> <data key="b1">0</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v6" target="v3">
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v3" target="v6"> <data key="b1">0</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v34" target="v25"> <data key="b1">10</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v25" target="v34">
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v3" target="v34"> <data key="b1">4</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v34" target="v3">
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v6" target="v25">
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v25" target="v6"> <data key="b1">0</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v34" target="v6">
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v6" target="v34">
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v3" target="v25"> <data key="b1">2</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v25" target="v3"> <data key="b1">0</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v26" target="v27"> <data key="b1">3</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v27" target="v26">
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v19" target="v42">
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v42" target="v19">
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v26" target="v19"> <data key="b1">2</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v19" target="v26"> <data key="b1">0</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v27" target="v42"> <data key="b1">4</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v42" target="v27">
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v19" target="v27">
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v27" target="v19">
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v26" target="v42">
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v42" target="v26"> <data key="b1">0</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v64" target="v33">
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v33" target="v64">
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v48" target="v78"> <data key="b1">0</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v78" target="v48"> <data key="b1">0</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v64" target="v78"> <data key="b1">2</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v78" target="v64">
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v48" target="v33">
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v33" target="v48">
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v78" target="v33">
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v33" target="v78"> <data key="b1">0</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v48" target="v64">
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v64" target="v48"> <data key="b1">0</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v8" target="v75"> <data key="b1">2</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v75" target="v8">
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v58" target="v46"> <data key="b1">5</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v46" target="v58"> <data key="b1">2</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v8" target="v58"> <data key="b1">4</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v58" target="v8">
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v75" target="v46"> <data key="b1">3</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v46" target="v75"> <data key="b1">0</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v58" target="v75"> <data key="b1">2</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v75" target="v58"> <data key="b1">2</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v8" target="v46"> <data key="b1">4</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v46" target="v8"> <data key="b1">0</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v53" target="v6"> <data key="b1">3</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v6" target="v53"> <data key="b1">0</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v75" target="v6">
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v6" target="v75"> <data key="b1">0</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v53" target="v75"> <data key="b1">0</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v75" target="v53"> <data key="b1">0</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v26" target="v77"> <data key="b1">0</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v77" target="v26"> <data key="b1">0</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v77" target="v64"> <data key="b1">2</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v64" target="v77">
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v26" target="v64"> <data key="b1">0</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v64" target="v26"> <data key="b1">0</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v39" target="v3"> <data key="b1">2</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v3" target="v39">
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v8" target="v3"> <data key="b1">3</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v3" target="v8">
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v39" target="v8"> <data key="b1">3</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v8" target="v39"> <data key="b1">2</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v27" target="v5">
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v5" target="v27"> <data key="b1">0</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v5" target="v48"> <data key="b1">2</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v48" target="v5"> <data key="b1">2</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v27" target="v48"> <data key="b1">4</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v48" target="v27">
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v77" target="v27"> <data key="b1">3</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v27" target="v77"> <data key="b1">3</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v39" target="v53"> <data key="b1">2</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v53" target="v39"> <data key="b1">0</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v53" target="v27"> <data key="b1">3</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v27" target="v53"> <data key="b1">2</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v39" target="v77"> <data key="b1">3</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v77" target="v39">
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v39" target="v9">
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v9" target="v39">
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v3" target="v63"> <data key="b1">3</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v63" target="v3">
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v39" target="v3">
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v3" target="v39">
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v9" target="v63">
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v63" target="v9">
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v39" target="v63"> <data key="b1">3</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v63" target="v39"> <data key="b1">2</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v3" target="v9"> <data key="b1">2</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v9" target="v3"> <data key="b1">0</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v43" target="v6"> <data key="b1">2</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v6" target="v43">
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v51" target="v36">
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v36" target="v51"> <data key="b1">0</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v43" target="v51">
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v51" target="v43">
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v6" target="v36"> <data key="b1">2</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v36" target="v6">
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v43" target="v36">
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v36" target="v43"> <data key="b1">0</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v6" target="v51"> <data key="b1">2</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v51" target="v6"> <data key="b1">2</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v27" target="v11">
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v11" target="v27"> <data key="b1">0</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v75" target="v34"> <data key="b1">6</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v34" target="v75"> <data key="b1">0</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v27" target="v75">
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v75" target="v27">
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v34" target="v11"> <data key="b1">2</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v11" target="v34"> <data key="b1">0</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v27" target="v34"> <data key="b1">3</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v34" target="v27"> <data key="b1">0</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v75" target="v11"> <data key="b1">2</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v11" target="v75"> <data key="b1">0</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v8" target="v64">
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v64" target="v8"> <data key="b1">0</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v48" target="v1">
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v1" target="v48">
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v8" target="v1">
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v1" target="v8"> <data key="b1">0</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v64" target="v48"> <data key="b1">2</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v48" target="v64">
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v8" target="v48"> <data key="b1">3</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v48" target="v8"> <data key="b1">0</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v64" target="v1"> <data key="b1">3</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v1" target="v64"> <data key="b1">0</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v77" target="v73">
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v73" target="v77">
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v21" target="v58">
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v58" target="v21"> <data key="b1">0</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v77" target="v58"> <data key="b1">2</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v58" target="v77">
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v21" target="v73"> <data key="b1">6</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v73" target="v21">
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v21" target="v77"> <data key="b1">2</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v77" target="v21"> <data key="b1">0</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v73" target="v58"> <data key="b1">0</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v58" target="v73"> <data key="b1">0</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v53" target="v44"> <data key="b1">0</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v44" target="v53"> <data key="b1">0</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v54" target="v26">
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v26" target="v54"> <data key="b1">0</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v26" target="v44"> <data key="b1">0</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v44" target="v26"> <data key="b1">0</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v53" target="v54">
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v54" target="v53"> <data key="b1">0</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v26" target="v53"> <data key="b1">3</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v53" target="v26"> <data key="b1">0</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v44" target="v54"> <data key="b1">3</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v54" target="v44">
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v64" target="v21"> <data key="b1">5</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v21" target="v64">
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v26" target="v51"> <data key="b1">3</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v51" target="v26"> <data key="b1">0</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v28" target="v44">
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v44" target="v28"> <data key="b1">0</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v27" target="v39"> <data key="b1">2</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v39" target="v27"> <data key="b1">0</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v3" target="v73">
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v73" target="v3"> <data key="b1">0</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v8" target="v53"> <data key="b1">4</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v53" target="v8"> <data key="b1">0</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v6" target="v75"> <data key="b1">4</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v75" target="v6"> <data key="b1">3</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v43" target="v9"> <data key="b1">2</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v9" target="v43"> <data key="b1">0</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v6" target="v64">
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v64" target="v6">
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v3" target="v26"> <data key="b1">2</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v26" target="v3">
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v77" target="v43"> <data key="b1">0</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v43" target="v77"> <data key="b1">0</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v27" target="v8">
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v8" target="v27">
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v3" target="v6"> <data key="b1">2</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v6" target="v3"> <data key="b1">0</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v77" target="v27"> <data key="b1">2</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v27" target="v77"> <data key="b1">0</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v27" target="v6"> <data key="b1">4</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v6" target="v27"> <data key="b1">2</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v3" target="v77"> <data key="b1">3</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v77" target="v3"> <data key="b1">2</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v39" target="v5">
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v5" target="v39"> <data key="b1">0</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v19" target="v74"> <data key="b1">5</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v74" target="v19">
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v39" target="v74">
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v74" target="v39"> <data key="b1">0</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v19" target="v5">
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v5" target="v19"> <data key="b1">0</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v39" target="v19"> <data key="b1">2</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v19" target="v39"> <data key="b1">0</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v5" target="v74"> <data key="b1">2</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v74" target="v5">
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v10" target="v3">
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v3" target="v10"> <data key="b1">0</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v55" target="v75"> <data key="b1">2</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v75" target="v55"> <data key="b1">0</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v3" target="v75"> <data key="b1">2</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v75" target="v3"> <data key="b1">0</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v10" target="v55"> <data key="b1">2</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v55" target="v10">
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v3" target="v55">
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v55" target="v3">
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v75" target="v10"> <data key="b1">4</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v10" target="v75"> <data key="b1">0</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v8" target="v65"> <data key="b1">2</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v65" target="v8">
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v15" target="v58">
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v58" target="v15"> <data key="b1">0</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v8" target="v15">
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v15" target="v8"> <data key="b1">0</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v58" target="v65"> <data key="b1">2</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v65" target="v58">
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v8" target="v58">
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v58" target="v8"> <data key="b1">0</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v15" target="v65"> <data key="b1">2</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v65" target="v15">
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v14" target="v71"> <data key="b1">2</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v71" target="v14"> <data key="b1">0</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v77" target="v78"> <data key="b1">4</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v78" target="v77">
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v78" target="v14">
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v14" target="v78"> <data key="b1">0</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v77" target="v71"> <data key="b1">5</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v71" target="v77">
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v77" target="v14">
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v14" target="v77">
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v78" target="v71"> <data key="b1">4</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v71" target="v78">
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v6" target="v63"> <data key="b1">2</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v63" target="v6"> <data key="b1">0</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v73" target="v64"> <data key="b1">0</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v64" target="v73"> <data key="b1">0</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v6" target="v73"> <data key="b1">3</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v73" target="v6">
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v64" target="v63"> <data key="b1">3</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v63" target="v64">
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v64" target="v6"> <data key="b1">2</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v6" target="v64">
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v73" target="v63">
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v63" target="v73"> <data key="b1">0</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v26" target="v37">
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v37" target="v26">
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v32" target="v24">
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v24" target="v32">
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v26" target="v32"> <data key="b1">0</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v32" target="v26"> <data key="b1">0</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v37" target="v24"> <data key="b1">0</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v24" target="v37"> <data key="b1">0</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v26" target="v24">
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v24" target="v26"> <data key="b1">0</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v32" target="v37">
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v37" target="v32">
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v10" target="v14"> <data key="b1">2</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v14" target="v10">
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v19" target="v15"> <data key="b1">4</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v15" target="v19">
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v3" target="v8">
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v8" target="v3"> <data key="b1">0</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v77" target="v32"> <data key="b1">2</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v32" target="v77">
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v37" target="v55"> <data key="b1">0</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v55" target="v37"> <data key="b1">0</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v39" target="v73"> <data key="b1">2</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v73" target="v39"> <data key="b1">0</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v78" target="v64"> <data key="b1">2</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v64" target="v78">
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v26" target="v6">
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v6" target="v26"> <data key="b1">0</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v3" target="v78"> <data key="b1">0</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v78" target="v3"> <data key="b1">0</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v39" target="v37">
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v37" target="v39"> <data key="b1">0</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v77" target="v19">
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v19" target="v77"> <data key="b1">0</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v26" target="v10"> <data key="b1">3</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v10" target="v26"> <data key="b1">2</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v3" target="v39">
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v39" target="v3">
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v77" target="v26">
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v26" target="v77">
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v39" target="v26"> <data key="b1">2</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v26" target="v39">
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v77" target="v3">
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v3" target="v77"> <data key="b1">0</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v74" target="v66">
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v66" target="v74">
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v55" target="v14"> <data key="b1">3</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v14" target="v55">
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v66" target="v55"> <data key="b1">4</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v55" target="v66">
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v74" target="v14"> <data key="b1">2</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v14" target="v74">
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v14" target="v66"> <data key="b1">2</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v66" target="v14"> <data key="b1">0</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v55" target="v74">
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v74" target="v55"> <data key="b1">0</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v65" target="v10"> <data key="b1">2</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v10" target="v65"> <data key="b1">2</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v8" target="v56"> <data key="b1">2</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v56" target="v8"> <data key="b1">0</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v8" target="v10"> <data key="b1">3</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v10" target="v8"> <data key="b1">0</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v65" target="v56"> <data key="b1">3</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v56" target="v65">
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v56" target="v10"> <data key="b1">6</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v10" target="v56">
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v65" target="v8">
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v8" target="v65">
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v28" target="v7">
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v7" target="v28"> <data key="b1">0</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v63" target="v64"> <data key="b1">2</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v64" target="v63"> <data key="b1">2</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v28" target="v64">
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v64" target="v28">
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v63" target="v7"> <data key="b1">0</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v7" target="v63"> <data key="b1">0</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v64" target="v7"> <data key="b1">3</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v7" target="v64">
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v28" target="v63"> <data key="b1">3</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v63" target="v28"> <data key="b1">2</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v3" target="v30"> <data key="b1">4</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v30" target="v3"> <data key="b1">0</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v47" target="v9"> <data key="b1">3</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v9" target="v47"> <data key="b1">0</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v3" target="v47"> <data key="b1">2</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v47" target="v3">
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v9" target="v30"> <data key="b1">4</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v30" target="v9"> <data key="b1">0</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v47" target="v30"> <data key="b1">2</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v30" target="v47"> <data key="b1">0</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v9" target="v3"> <data key="b1">2</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v3" target="v9"> <data key="b1">0</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v37" target="v39">
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v39" target="v37"> <data key="b1">0</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v50" target="v43">
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v43" target="v50"> <data key="b1">0</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v39" target="v50">
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v50" target="v39"> <data key="b1">0</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v43" target="v37"> <data key="b1">2</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v37" target="v43">
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v37" target="v50"> <data key="b1">0</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v50" target="v37"> <data key="b1">0</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v39" target="v43">
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v43" target="v39">
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v6" target="v44">
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v44" target="v6"> <data key="b1">0</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v32" target="v57"> <data key="b1">2</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v57" target="v32">
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v6" target="v32">
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v32" target="v6"> <data key="b1">0</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v57" target="v44"> <data key="b1">2</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v44" target="v57">
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v32" target="v44"> <data key="b1">2</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v44" target="v32">
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v57" target="v6">
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v6" target="v57"> <data key="b1">0</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v28" target="v6"> <data key="b1">3</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v6" target="v28"> <data key="b1">2</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v64" target="v66"> <data key="b1">3</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v66" target="v64"> <data key="b1">0</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v65" target="v57"> <data key="b1">3</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v57" target="v65">
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v55" target="v3"> <data key="b1">3</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v3" target="v55"> <data key="b1">2</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v32" target="v37"> <data key="b1">2</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v37" target="v32"> <data key="b1">0</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v8" target="v74">
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v74" target="v8"> <data key="b1">0</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v39" target="v47"> <data key="b1">2</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v47" target="v39">
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v9" target="v43">
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v43" target="v9">
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v39" target="v64"> <data key="b1">2</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v64" target="v39">
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v8" target="v32"> <data key="b1">3</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v32" target="v8"> <data key="b1">2</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v9" target="v28"> <data key="b1">2</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v28" target="v9">
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v65" target="v55">
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v55" target="v65">
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v8" target="v65">
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v65" target="v8"> <data key="b1">0</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v39" target="v9"> <data key="b1">2</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v9" target="v39">
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v65" target="v9"> <data key="b1">4</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v9" target="v65"> <data key="b1">0</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v8" target="v39"> <data key="b1">0</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v39" target="v8"> <data key="b1">0</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v8" target="v58"> <data key="b1">2</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v58" target="v8">
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v44" target="v50"> <data key="b1">2</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v50" target="v44"> <data key="b1">2</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v58" target="v50">
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v50" target="v58">
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v8" target="v44"> <data key="b1">3</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v44" target="v8"> <data key="b1">0</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v44" target="v58"> <data key="b1">3</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v58" target="v44"> <data key="b1">0</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v50" target="v8"> <data key="b1">2</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v8" target="v50">
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v39" target="v12"> <data key="b1">2</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v12" target="v39"> <data key="b1">2</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v10" target="v5">
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v5" target="v10">
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v12" target="v5">
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v5" target="v12">
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v39" target="v10"> <data key="b1">3</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v10" target="v39"> <data key="b1">0</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v39" target="v5"> <data key="b1">2</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v5" target="v39">
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v12" target="v10">
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v10" target="v12">
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v21" target="v57">
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v57" target="v21"> <data key="b1">0</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v27" target="v62"> <data key="b1">3</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v62" target="v27"> <data key="b1">0</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v62" target="v21">
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v21" target="v62">
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v27" target="v57"> <data key="b1">4</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v57" target="v27"> <data key="b1">0</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v27" target="v21"> <data key="b1">2</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v21" target="v27">
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v62" target="v57"> <data key="b1">2</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v57" target="v62"> <data key="b1">2</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v51" target="v9"> <data key="b1">0</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v9" target="v51"> <data key="b1">0</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v47" target="v64"> <data key="b1">3</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v64" target="v47"> <data key="b1">2</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v47" target="v9">
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v9" target="v47"> <data key="b1">0</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v64" target="v51"> <data key="b1">0</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v51" target="v64"> <data key="b1">0</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v64" target="v9"> <data key="b1">6</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v9" target="v64">
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v51" target="v47"> <data key="b1">3</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v47" target="v51">
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v43" target="v63"> <data key="b1">3</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v63" target="v43">
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v32" target="v6"> <data key="b1">0</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v6" target="v32"> <data key="b1">0</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v6" target="v43"> <data key="b1">2</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v43" target="v6"> <data key="b1">2</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v32" target="v63"> <data key="b1">5</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v63" target="v32"> <data key="b1">0</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v6" target="v63">
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v63" target="v6">
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v32" target="v43"> <data key="b1">2</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v43" target="v32"> <data key="b1">2</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v78" target="v35">
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v35" target="v78"> <data key="b1">0</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v28" target="v74"> <data key="b1">2</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v74" target="v28"> <data key="b1">0</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v28" target="v78"> <data key="b1">2</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v78" target="v28"> <data key="b1">2</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v35" target="v74"> <data key="b1">2</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v74" target="v35">
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v28" target="v35"> <data key="b1">2</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v35" target="v28"> <data key="b1">0</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v78" target="v74">
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v74" target="v78"> <data key="b1">0</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v26" target="v69"> <data key="b1">2</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v69" target="v26"> <data key="b1">0</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v55" target="v14">
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v14" target="v55"> <data key="b1">0</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v14" target="v69">
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v69" target="v14"> <data key="b1">0</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v55" target="v26"> <data key="b1">2</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v26" target="v55">
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v55" target="v69">
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v69" target="v55">
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v26" target="v14"> <data key="b1">2</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v14" target="v26"> <data key="b1">0</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v3" target="v41">
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v41" target="v3"> <data key="b1">0</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v17" target="v40"> <data key="b1">3</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v40" target="v17">
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v17" target="v41">
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v41" target="v17"> <data key="b1">0</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v3" target="v40"> <data key="b1">5</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v40" target="v3"> <data key="b1">0</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v40" target="v41"> <data key="b1">2</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v41" target="v40">
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v3" target="v17">
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v17" target="v3"> <data key="b1">0</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v39" target="v50">
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v50" target="v39"> <data key="b1">0</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v8" target="v12"> <data key="b1">4</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v12" target="v8">
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v27" target="v51">
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v51" target="v27"> <data key="b1">0</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v3" target="v26"> <data key="b1">2</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v26" target="v3"> <data key="b1">2</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v17" target="v55">
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v55" target="v17"> <data key="b1">0</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v32" target="v78"> <data key="b1">2</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v78" target="v32">
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v28" target="v43"> <data key="b1">2</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v43" target="v28">
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v21" target="v47"> <data key="b1">4</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v47" target="v21">
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v27" target="v39"> <data key="b1">0</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v39" target="v27"> <data key="b1">0</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v8" target="v21"> <data key="b1">3</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v21" target="v8"> <data key="b1">2</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v32" target="v3"> <data key="b1">2</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v3" target="v32">
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v17" target="v28"> <data key="b1">3</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v28" target="v17"> <data key="b1">0</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v8" target="v32">
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v32" target="v8">
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v27" target="v17"> <data key="b1">2</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v17" target="v27">
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v17" target="v32"> <data key="b1">2</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v32" target="v17">
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v27" target="v8"> <data key="b1">3</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v8" target="v27"> <data key="b1">0</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v59" target="v27">
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v27" target="v59"> <data key="b1">0</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v21" target="v73"> <data key="b1">2</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v73" target="v21">
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v27" target="v73"> <data key="b1">0</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v73" target="v27"> <data key="b1">0</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v21" target="v59">
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v59" target="v21">
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v21" target="v27"> <data key="b1">2</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v27" target="v21"> <data key="b1">0</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v59" target="v73"> <data key="b1">3</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v73" target="v59"> <data key="b1">3</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v51" target="v62"> <data key="b1">2</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v62" target="v51"> <data key="b1">2</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v64" target="v61"> <data key="b1">3</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v61" target="v64">
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v64" target="v51"> <data key="b1">3</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v51" target="v64">
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v62" target="v61">
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v61" target="v62"> <data key="b1">0</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v64" target="v62"> <data key="b1">3</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v62" target="v64"> <data key="b1">2</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v51" target="v61"> <data key="b1">3</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v61" target="v51">
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v8" target="v70"> <data key="b1">2</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v70" target="v8">
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v8" target="v13"> <data key="b1">4</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v13" target="v8"> <data key="b1">0</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v15" target="v70">
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v70" target="v15">
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v8" target="v15"> <data key="b1">5</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v15" target="v8"> <data key="b1">2</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v70" target="v13"> <data key="b1">3</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v13" target="v70"> <data key="b1">0</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v15" target="v13"> <data key="b1">2</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v13" target="v15"> <data key="b1">0</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v63" target="v53"> <data key="b1">2</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v53" target="v63"> <data key="b1">0</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v74" target="v54"> <data key="b1">3</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v54" target="v74"> <data key="b1">2</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v54" target="v53"> <data key="b1">4</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v53" target="v54"> <data key="b1">0</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v63" target="v74">
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v74" target="v63">
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v63" target="v54">
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v54" target="v63"> <data key="b1">0</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v53" target="v74"> <data key="b1">3</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v74" target="v53">
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v37" target="v10">
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v10" target="v37">
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v28" target="v57"> <data key="b1">8</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v57" target="v28"> <data key="b1">0</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v28" target="v37">
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v37" target="v28">
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v10" target="v57">
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v57" target="v10"> <data key="b1">0</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v28" target="v10"> <data key="b1">2</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v10" target="v28"> <data key="b1">0</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v37" target="v57"> <data key="b1">3</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v57" target="v37"> <data key="b1">0</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v26" target="v65">
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v65" target="v26">
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v3" target="v47">
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v47" target="v3"> <data key="b1">0</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v65" target="v47"> <data key="b1">2</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v47" target="v65">
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v26" target="v3">
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v3" target="v26"> <data key="b1">0</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v65" target="v3">
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v3" target="v65">
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v47" target="v26"> <data key="b1">0</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v26" target="v47"> <data key="b1">0</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v43" target="v17">
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v17" target="v43"> <data key="b1">0</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v39" target="v22"> <data key="b1">2</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v22" target="v39"> <data key="b1">0</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v17" target="v39"> <data key="b1">2</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v39" target="v17">
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v43" target="v22"> <data key="b1">2</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v22" target="v43">
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v43" target="v39">
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v39" target="v43">
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v22" target="v17">
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v17" target="v22"> <data key="b1">0</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v41" target="v6"> <data key="b1">2</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v6" target="v41"> <data key="b1">2</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v56" target="v69"> <data key="b1">2</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v69" target="v56"> <data key="b1">0</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v41" target="v56">
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v56" target="v41"> <data key="b1">0</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v69" target="v6">
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v6" target="v69">
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v41" target="v69"> <data key="b1">2</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v69" target="v41"> <data key="b1">0</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v6" target="v56"> <data key="b1">3</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v56" target="v6"> <data key="b1">2</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v70" target="v41">
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v41" target="v70"> <data key="b1">0</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v64" target="v37">
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v37" target="v64">
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v59" target="v65"> <data key="b1">2</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v65" target="v59">
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v26" target="v21"> <data key="b1">3</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v21" target="v26"> <data key="b1">0</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v28" target="v51">
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v51" target="v28"> <data key="b1">0</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v74" target="v43"> <data key="b1">2</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v43" target="v74"> <data key="b1">0</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v8" target="v6"> <data key="b1">2</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v6" target="v8"> <data key="b1">0</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v63" target="v39"> <data key="b1">2</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v39" target="v63">
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v28" target="v74">
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v74" target="v28"> <data key="b1">0</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v70" target="v59">
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v59" target="v70"> <data key="b1">0</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v63" target="v64"> <data key="b1">0</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v64" target="v63"> <data key="b1">0</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v8" target="v26"> <data key="b1">2</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v26" target="v8">
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v28" target="v63">
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v63" target="v28"> <data key="b1">0</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v8" target="v70">
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v70" target="v8"> <data key="b1">0</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v70" target="v63"> <data key="b1">3</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v63" target="v70"> <data key="b1">2</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v8" target="v28"> <data key="b1">2</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v28" target="v8"> <data key="b1">0</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v28" target="v15"> <data key="b1">4</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v15" target="v28"> <data key="b1">2</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v53" target="v22"> <data key="b1">0</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v22" target="v53"> <data key="b1">2</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v28" target="v53">
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v53" target="v28"> <data key="b1">0</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v22" target="v15"> <data key="b1">3</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v15" target="v22"> <data key="b1">0</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v22" target="v28"> <data key="b1">0</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v28" target="v22"> <data key="b1">3</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v15" target="v53">
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v53" target="v15"> <data key="b1">2</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v26" target="v51">
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v51" target="v26"> <data key="b1">0</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v68" target="v65"> <data key="b1">0</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v65" target="v68"> <data key="b1">0</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v26" target="v68"> <data key="b1">2</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v68" target="v26"> <data key="b1">0</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v65" target="v51">
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v51" target="v65"> <data key="b1">0</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v65" target="v26"> <data key="b1">2</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v26" target="v65"> <data key="b1">2</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v51" target="v68"> <data key="b1">2</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v68" target="v51"> <data key="b1">0</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v3" target="v16"> <data key="b1">2</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v16" target="v3">
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v60" target="v32"> <data key="b1">0</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v32" target="v60">
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v3" target="v60"> <data key="b1">6</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v60" target="v3"> <data key="b1">0</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v32" target="v16"> <data key="b1">2</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v16" target="v32">
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v32" target="v3"> <data key="b1">0</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v3" target="v32"> <data key="b1">0</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v16" target="v60"> <data key="b1">3</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v60" target="v16"> <data key="b1">2</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v43" target="v35"> <data key="b1">3</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v35" target="v43">
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v2" target="v54"> <data key="b1">0</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v54" target="v2">
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v43" target="v2"> <data key="b1">0</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v2" target="v43"> <data key="b1">0</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v54" target="v35"> <data key="b1">2</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v35" target="v54"> <data key="b1">0</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v54" target="v43"> <data key="b1">2</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v43" target="v54">
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v35" target="v2">
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v2" target="v35">
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v39" target="v29"> <data key="b1">2</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v29" target="v39"> <data key="b1">0</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v74" target="v20"> <data key="b1">0</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v20" target="v74"> <data key="b1">3</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v39" target="v74">
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v74" target="v39">
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v20" target="v29"> <data key="b1">0</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v29" target="v20"> <data key="b1">2</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v20" target="v39"> <data key="b1">0</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v39" target="v20"> <data key="b1">2</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v29" target="v74"> <data key="b1">2</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v74" target="v29">
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v8" target="v17">
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v17" target="v8"> <data key="b1">0</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v4" target="v41"> <data key="b1">3</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v41" target="v4">
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v8" target="v4"> <data key="b1">2</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v4" target="v8"> <data key="b1">0</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v41" target="v17"> <data key="b1">0</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v17" target="v41"> <data key="b1">0</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v41" target="v8">
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v8" target="v41"> <data key="b1">4</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v17" target="v4"> <data key="b1">2</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v4" target="v17"> <data key="b1">2</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v27" target="v66"> <data key="b1">0</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v66" target="v27"> <data key="b1">0</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v63" target="v67"> <data key="b1">2</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v67" target="v63">
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v27" target="v63">
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v63" target="v27">
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v67" target="v66"> <data key="b1">0</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v66" target="v67"> <data key="b1">2</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v67" target="v27"> <data key="b1">0</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v27" target="v67"> <data key="b1">2</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v66" target="v63"> <data key="b1">2</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v63" target="v66"> <data key="b1">0</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v64" target="v72"> <data key="b1">4</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v72" target="v64"> <data key="b1">0</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v69" target="v57"> <data key="b1">2</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v57" target="v69"> <data key="b1">2</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v64" target="v69"> <data key="b1">3</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v69" target="v64">
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v57" target="v72"> <data key="b1">0</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v72" target="v57"> <data key="b1">4</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v57" target="v64"> <data key="b1">0</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v64" target="v57">
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v72" target="v69">
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v69" target="v72"> <data key="b1">0</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v28" target="v65"> <data key="b1">2</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v65" target="v28"> <data key="b1">0</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v3" target="v43">
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v43" target="v3">
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v39" target="v4">
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v4" target="v39"> <data key="b1">0</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v66" target="v72"> <data key="b1">0</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v72" target="v66"> <data key="b1">0</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v26" target="v22">
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v22" target="v26"> <data key="b1">0</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v54" target="v32">
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v32" target="v54"> <data key="b1">0</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v8" target="v29"> <data key="b1">3</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v29" target="v8"> <data key="b1">2</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v64" target="v27">
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v27" target="v64"> <data key="b1">3</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v28" target="v3">
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v3" target="v28">
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v39" target="v72"> <data key="b1">3</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v72" target="v39"> <data key="b1">0</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v26" target="v54"> <data key="b1">0</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v54" target="v26"> <data key="b1">0</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v8" target="v27"> <data key="b1">0</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v27" target="v8">
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v28" target="v39"> <data key="b1">0</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v39" target="v28"> <data key="b1">0</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v54" target="v27"> <data key="b1">0</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v27" target="v54">
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v28" target="v54"> <data key="b1">3</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v54" target="v28">
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v39" target="v27">
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v27" target="v39">
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v39" target="v64"> <data key="b2">2</data>
+      <data key="b3">[2]</data>
+    </edge>
+    <edge source="v64" target="v39"> <data key="b1">0</data> <data key="b2">2</data>
+      <data key="b3">[2]</data>
+    </edge>
+    <edge source="v66" target="v28"> <data key="b1">4</data> <data key="b2">2</data>
+      <data key="b3">[3]</data>
+    </edge>
+    <edge source="v28" target="v66"> <data key="b1">2</data> <data key="b2">2</data>
+      <data key="b3">[3]</data>
+    </edge>
+    <edge source="v18" target="v55"> <data key="b1">2</data> <data key="b2">2</data>
+      <data key="b3">[3]</data>
+    </edge>
+    <edge source="v55" target="v18"> <data key="b2">2</data>
+      <data key="b3">[3]</data>
+    </edge>
+    <edge source="v8" target="v19"> <data key="b1">2</data> <data key="b2">2</data>
+      <data key="b3">[3]</data>
+    </edge>
+    <edge source="v19" target="v8"> <data key="b2">2</data>
+      <data key="b3">[3]</data>
+    </edge>
+    <edge source="v77" target="v70"> <data key="b1">7</data> <data key="b2">2</data>
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v70" target="v77"> <data key="b1">2</data> <data key="b2">2</data>
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v66" target="v39"> <data key="b1">4</data> <data key="b2">2</data>
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v39" target="v66"> <data key="b2">2</data>
+      <data key="b3">[5]</data>
+    </edge>
+    <edge source="v48" target="v19"> <data key="b1">2</data> <data key="b2">2</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v19" target="v48"> <data key="b2">2</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v75" target="v26"> <data key="b2">2</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v26" target="v75"> <data key="b1">0</data> <data key="b2">2</data>
+      <data key="b3">[6]</data>
+    </edge>
+    <edge source="v77" target="v27"> <data key="b1">8</data> <data key="b2">3</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v27" target="v77"> <data key="b1">7</data> <data key="b2">3</data>
+      <data key="b3">[12]</data>
+    </edge>
+    <edge source="v6" target="v64"> <data key="b1">6</data> <data key="b2">3</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v64" target="v6"> <data key="b1">5</data> <data key="b2">3</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v6" target="v64"> <data key="b1">6</data> <data key="b2">3</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v64" target="v6"> <data key="b1">5</data> <data key="b2">3</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v27" target="v8"> <data key="b1">5</data> <data key="b2">3</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v8" target="v27"> <data key="b1">4</data> <data key="b2">3</data>
+      <data key="b3">[13]</data>
+    </edge>
+    <edge source="v37" target="v55"> <data key="b1">5</data> <data key="b2">3</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v55" target="v37"> <data key="b1">4</data> <data key="b2">3</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v3" target="v78"> <data key="b1">3</data> <data key="b2">3</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v78" target="v3"> <data key="b1">2</data> <data key="b2">3</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v3" target="v39"> <data key="b1">5</data> <data key="b2">3</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v39" target="v3"> <data key="b1">4</data> <data key="b2">3</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v77" target="v26"> <data key="b1">5</data> <data key="b2">3</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v26" target="v77"> <data key="b1">4</data> <data key="b2">3</data>
+      <data key="b3">[14]</data>
+    </edge>
+    <edge source="v9" target="v43"> <data key="b1">4</data> <data key="b2">3</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v43" target="v9"> <data key="b1">2</data> <data key="b2">3</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v65" target="v55"> <data key="b1">6</data> <data key="b2">3</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v55" target="v65"> <data key="b1">5</data> <data key="b2">3</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v8" target="v39"> <data key="b1">3</data> <data key="b2">3</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v39" target="v8"> <data key="b1">2</data> <data key="b2">3</data>
+      <data key="b3">[15]</data>
+    </edge>
+    <edge source="v3" target="v26"> <data key="b1">4</data> <data key="b2">3</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v26" target="v3"> <data key="b1">3</data> <data key="b2">3</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v27" target="v39"> <data key="b1">4</data> <data key="b2">3</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v39" target="v27"> <data key="b1">3</data> <data key="b2">3</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v8" target="v32"> <data key="b1">4</data> <data key="b2">3</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v32" target="v8"> <data key="b1">2</data> <data key="b2">3</data>
+      <data key="b3">[16]</data>
+    </edge>
+    <edge source="v64" target="v37"> <data key="b1">4</data> <data key="b2">3</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v37" target="v64"> <data key="b1">3</data> <data key="b2">3</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v63" target="v64"> <data key="b1">5</data> <data key="b2">3</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v64" target="v63"> <data key="b1">3</data> <data key="b2">3</data>
+      <data key="b3">[17]</data>
+    </edge>
+    <edge source="v66" target="v72"> <data key="b1">0</data> <data key="b2">3</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v72" target="v66"> <data key="b1">3</data> <data key="b2">3</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v28" target="v3"> <data key="b1">4</data> <data key="b2">3</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v3" target="v28"> <data key="b1">2</data> <data key="b2">3</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v26" target="v54"> <data key="b2">3</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v54" target="v26"> <data key="b1">3</data> <data key="b2">3</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v39" target="v27"> <data key="b1">5</data> <data key="b2">3</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v27" target="v39"> <data key="b1">3</data> <data key="b2">3</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v3" target="v43"> <data key="b1">2</data> <data key="b2">4</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v43" target="v3"> <data key="b2">4</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v28" target="v39"> <data key="b1">0</data> <data key="b2">4</data>
+      <data key="b3">[18]</data>
+    </edge>
+    <edge source="v39" target="v28"> <data key="b1">2</data> <data key="b2">4</data>
+      <data key="b3">[18]</data>
+    </edge>
+  </graph>
+</graphml>

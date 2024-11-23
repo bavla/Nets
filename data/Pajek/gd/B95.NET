@@ -1,0 +1,171 @@
+*Vertices 73
+    1 "graphics.c:GRDisplayPoint"                  0.5000    0.5000 ellipse ic LightYellow
+    2 "long1.c:GRDisplayPoint"                     0.0753    0.6486 ellipse ic LightYellow
+    3 "long2.c:GRDisplayPoint"                     0.5127    0.7997 ellipse ic LightYellow
+    4 "short.c:GRDisplayPoint"                     0.2514    0.6680 ellipse ic LightYellow
+    5 "X11/X.h:GCFont"                             0.7957    0.5507 box ic LightGreen r 7
+    6 "gremlin.h:dby_to_win"                       0.6410    0.5513 box ic LightGreen r 7
+    7 "X11/X.h:GXxor"                              0.4740    0.6477 box ic LightGreen r 7
+    8 "X11/X.h:GCFunction"                         0.5260    0.6477 box ic LightGreen r 7
+    9 "X11/Xlib.h:XGCValues"                       0.7619    0.3537 box ic LightCyan
+   10 "gremlin.h:dbx_to_win"                       0.3851    0.5964 box ic LightGreen r 7
+   11 "graphics.c:text_pf"                         0.6149    0.4036 diamond ic LightOrange q 0.5
+   12 "main.c:pix_gc"                              0.4250    0.3701 diamond ic LightOrange q 0.5
+   13 "main.c:display"                             0.2266    0.6236 diamond ic LightOrange q 0.5
+   14 "X11/Xlib.h:XChangeGC"                       0.6149    0.5964 ellipse ic LightYellow
+   15 "X11/Xlib.h:XCopyPlane"                      0.6500    0.5000 ellipse ic LightYellow
+   16 "/usr/include/strings.h:strlen"              0.4250    0.6299 ellipse ic LightYellow
+   17 "main.c:Artmode"                             0.3590    0.4487 diamond ic LightOrange q 0.5
+   18 "main.c:SUN_YORIGIN"                         0.5750    0.6299 diamond ic LightOrange q 0.5
+   19 "main.c:SUN_XORIGIN"                         0.3500    0.5000 diamond ic LightOrange q 0.5
+   20 "main.c:pix_sw"                              0.4740    0.3523 diamond ic LightOrange q 0.5
+   21 "X11/Xlib.h:XDrawString"                     0.3590    0.5513 ellipse ic LightYellow
+   22 "/usr/include/stdio.h:sprintf"               0.6410    0.4487 ellipse ic LightYellow
+   23 "icons/icon.littlepoint:littlepoint_pm"      0.2097    0.5756 diamond ic LightOrange q 0.5
+   24 "X11/Xlib.h:struct Xlib_h_3"                 0.3216    0.2588 box ic LightCyan
+   25 "X11/Xlib.h:XFontStruct"                     0.5750    0.3701 box ic LightCyan
+   26 "icondata.c:mpr_static"                      0.0613    0.6001 box ic LightGreen r 7
+   27 "gremlin.h:PMRec"                            0.2011    0.5254 box ic LightCyan
+   28 "X11/Xlib.h:Display"                         0.2011    0.4746 box ic LightCyan
+   29 "gremlin.h:FALSE"                            0.3851    0.4036 box ic LightGreen r 7
+   30 "X11/X.h:Window"                             0.2606    0.1190 box ic LightCyan
+   31 "X11/Xlib.h:GC"                              0.2834    0.2924 box ic LightCyan
+   32 "gremlin.h:struct PMRec"                     0.0753    0.3514 box ic LightCyan
+   33 "X11/X.h:Font"                               0.3649    0.2321 box ic LightCyan
+   34 "X11/Xlib.h:struct _XDisplay"                0.4619    0.2024 box ic LightCyan
+   35 "X11/Xlib.h:Bool"                            0.4122    0.2131 box ic LightGreen r 7
+   36 "X11/Xlib.h:struct _XGC"                     0.5127    0.2003 box ic LightCyan
+   37 "X11/X.h:Pixmap"                             0.1190    0.2606 box ic LightCyan
+   38 "X11/X.h:XID"                                0.3048    0.0946 box ic LightCyan
+   39 "X11/Xlib.h:struct Xlib_h_57"                0.5260    0.3523 box ic LightCyan
+   40 "X11/Xlib.h:ScreenFormat"                    0.7806    0.1482 box ic LightCyan
+   41 "X11/Xlib.h:struct Xlib_h_22"                0.6573    0.2445 box ic LightCyan
+   42 "X11/Xlib.h:Status"                          0.5504    0.0528 box ic LightGreen r 7
+   43 "X11/Xlib.h:struct Xlib_h_21"                0.4496    0.0528 box ic LightCyan
+   44 "X11/Xlib.h:XCharStruct"                     0.7829    0.4001 box ic LightCyan
+   45 "X11/Xlib.h:XExtData"                        0.5632    0.2067 box ic LightCyan
+   46 "X11/X.h:KeySym"                             0.3514    0.0753 box ic LightCyan
+   47 "X11/X.h:GContext"                           0.3999    0.0613 box ic LightCyan
+   48 "X11/Xlib.h:Screen"                          0.2266    0.3764 box ic LightCyan
+   49 "X11/Xlib.h:XModifierKeymap"                 0.7394    0.1190 box ic LightCyan
+   50 "X11/Xlib.h:XFontProp"                       0.7334    0.3115 box ic LightCyan
+   51 "<void>:struct _XrmHashBucketRec"            0.6001    0.0613 box ic LightCyan
+   52 "<void>:struct _XKeytrans"                   0.2194    0.1482 box ic LightCyan
+   53 "<void>:struct _XIMFilter"                   0.6119    0.2216 box ic LightCyan
+   54 "<void>:struct _XExten"                      0.1818    0.1818 box ic LightCyan
+   55 "<void>:struct _XContextDB"                  0.6486    0.0753 box ic LightCyan
+   56 "<void>:struct _XFreeFuncs"                  0.0946    0.3048 box ic LightCyan
+   57 "<void>:struct _XSQEvent"                    0.6952    0.0946 box ic LightCyan
+   58 "<void>:struct _XDisplayAtoms"               0.5000    0.0500 box ic LightCyan
+   59 "X11/Xlib.h:struct Xlib_h_20"                0.8810    0.2606 box ic LightCyan
+   60 "X11/Xlib.h:struct Xlib_h_7"                 0.6982    0.2748 box ic LightCyan
+   61 "X11/Xlib.h:struct _XExtData"                0.8182    0.1818 box ic LightCyan
+   62 "X11/Xlib.h:XPointer"                        0.8518    0.2194 box ic LightCyan
+   63 "X11/Xlib.h:struct Xlib_h_6"                 0.2514    0.3320 box ic LightCyan
+   64 "X11/Xlib.h:struct Xlib_h_56"                0.7957    0.4493 box ic LightCyan
+   65 "X11/Xlib.h:struct Xlib_h_55"                0.9247    0.3514 box ic LightCyan
+   66 "X11/X.h:Atom"                               0.8000    0.5000 box ic LightCyan
+   67 "X11/Xlib.h:Depth"                           0.0528    0.4496 box ic LightCyan
+   68 "X11/X.h:Colormap"                           0.1482    0.2194 box ic LightCyan
+   69 "X11/X.h:KeyCode"                            0.9054    0.3048 box ic LightCyan
+   70 "X11/Xlib.h:Visual"                          0.0613    0.3999 box ic LightCyan
+   71 "X11/Xlib.h:struct Xlib_h_5"                 0.0500    0.5000 box ic LightCyan
+   72 "X11/Xlib.h:struct Xlib_h_4"                 0.2097    0.4244 box ic LightCyan
+   73 "X11/X.h:VisualID"                           0.0528    0.5504 box ic LightCyan
+*Arcs
+  1   5   1
+  1   6   1
+  1   7   1
+  1   8   1
+  1   9   1
+  1  10   1
+  1  11   1
+  1  12   1
+  1  13   1
+  1  14   1
+  1  15   1
+  1  16   1
+  1  17   1
+  1  18   1
+  1  19   1
+  1  20   1
+  1  21   1
+  1  22   1
+  1  23   1
+  9  24   1
+ 11  25   1
+ 12  31   1
+ 13  28   1
+ 17  29   1
+ 20  30   1
+ 23  26   1
+ 23  27   1
+ 24  33   1
+ 24  35   1
+ 24  37   1
+ 25  39   1
+ 27  32   1
+ 28  34   1
+ 30  38   1
+ 31  36   1
+ 32  37   1
+ 33  38   1
+ 34  30   1
+ 34  33   1
+ 34  35   1
+ 34  38   1
+ 34  40   1
+ 34  41   1
+ 34  42   1
+ 34  43   1
+ 34  45   1
+ 34  46   1
+ 34  48   1
+ 34  49   1
+ 34  51   1
+ 34  52   1
+ 34  53   1
+ 34  54   1
+ 34  55   1
+ 34  56   1
+ 34  57   1
+ 34  58   1
+ 36   9   1
+ 36  35   1
+ 36  45   1
+ 36  47   1
+ 37  38   1
+ 39  33   1
+ 39  35   1
+ 39  44   1
+ 39  45   1
+ 39  50   1
+ 40  60   1
+ 41  62   1
+ 43  35   1
+ 44  65   1
+ 45  61   1
+ 46  38   1
+ 47  38   1
+ 48  63   1
+ 49  59   1
+ 50  64   1
+ 59  69   1
+ 60  45   1
+ 61  61   1
+ 61  62   1
+ 63  30   1
+ 63  31   1
+ 63  34   1
+ 63  35   1
+ 63  45   1
+ 63  67   1
+ 63  68   1
+ 63  70   1
+ 64  66   1
+ 67  71   1
+ 68  38   1
+ 70  72   1
+ 71  70   1
+ 72  45   1
+ 72  73   1

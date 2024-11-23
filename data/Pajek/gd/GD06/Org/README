@@ -1,0 +1,13 @@
+The following two files form a very 
+simple format representing the Java Compile Time Dependency Graph.
+It was generated using the JDK 1.4.2 source and contains
+only references to nodes inside the java.* packages,
+in particular classes in javax.* are excluded.
+The files are
+
+* Nodes: 
+     List of Classes explored and used for a set of Java core packages
+* Edges: 
+     Compile Time Dependencies between Classes.   
+     No edges for dependencies outside the given Node list.
+     Format: A -> B
