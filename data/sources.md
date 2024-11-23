@@ -8,4 +8,9 @@
   - [Pajek URLs](pajek:data:urls:index)
   - [Convert into Pajek format](pajek:data:2pajek)
 
+DL
+
+  * https://raw.githubusercontent.com/tomasonjo/blog-datasets/main/HP/character_first_seen.csv
+  * https://raw.githubusercontent.com/tomasonjo/blog-datasets/main/HP/HP_rels.csv
+  * https://github.com/tomasonjo/blog-datasets
 
