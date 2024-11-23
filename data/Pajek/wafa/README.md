@@ -31,7 +31,7 @@ trade network, and Galaskiewicz's CEOs and clubs network.
 <tt>Trade.paj</tt> - multirelational network with 24 vertices and 307+307+310+135+369 arcs<br>
 <tt>CEOs.net </tt> - two-mode network with 41 vertices and 98 edges.
 </p><p><b>Download</b>
-</p><p><a href="./WaFa.zip">all datasets</a> (ZIP, 10K)
+</p><p><a href="https://github.com/bavla/Nets/raw/refs/heads/master/data/Pajek/wafa/WaFa.zip">all datasets</a> (ZIP, 10K)
 
 </p>
 <h3>Background</h3>
