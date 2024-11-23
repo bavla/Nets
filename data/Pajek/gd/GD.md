@@ -2,103 +2,58 @@
  <body>
  <table>
   <tr><td rowspan=2><img src="../pajek.gif">&nbsp; &nbsp;
-      <td><font size=7><b>Networks / <tt>Pajek</tt></b></font></tr>
-  <tr><td><font size=6><b>Package for Large Network Analysis</b></font></tr>
+      <td><h1><b>Networks / <tt>Pajek</tt></b></h1></tr>
+  <tr><td><h2><b>Package for Large Network Analysis</b></h2></tr>
  </table>
   <h1>Graph Drawing Contests Data</h1>
   <hr>
   <A HREF="./GDpreprint.pdf">Our submissions for GD contests 1995-01</A>
 <table border>
 <tr>
-
  <th> File name</th>
-
  <th> #vert </th>
-
  <th> #arcs </th>
-
  <th> #edgs </th>
-
  <th> values </th>
-
  <th> source </th>
-
  <th> comment </th>
-
 </tr>
-
 <tr>
-
   <th> GD95 </th>
-
   <td>  </td>
-
   <td></td>
-
   <td></td>
-
   <td></td>
-
   <td>
-
    <a href="./GD95/gd95.zip">ZIP</a>;
-
    <a href="./GD95/rules95.md">DOC</a>
-
   </td>
-
   <td>  </td>
-
 </tr>
-
 <tr>
-
   <td> A95 </td>
-
   <td> 36 </td>
-
   <td> 57 </td>
-
   <td>  0 </td>
-
   <td></td>
-
   <td>
-
    <a href="./GD95/A95.gph">GPH</a>;
-
    <a href="./GD95/A95.net">NET</a>
-
   </td>
-
   <td>Processor </td>
-
 </tr>
-
 <tr>
-
   <td> B95 </td>
-
   <td>  73 </td>
-
   <td>  96 </td>
-
   <td>   0 </td>
-
   <td></td>
-
   <td>
-
    <a href="./GD95/B95.gph">GPH</a>;
-
    <a href="./GD95/B95.net">NET</a>
-
   </td>
-
   <td>Program</td>
-
 </tr>
-
 <tr>
 
   <td> C95 </td>
