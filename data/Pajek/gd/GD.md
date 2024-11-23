@@ -37,8 +37,8 @@
   <td>  0 </td>
   <td></td>
   <td>
-   <a href="./GD95/A95.gph">GPH</a>;
-   <a href="./GD95/A95.net">NET</a>
+   <a href="./GD95/A95.GPH">GPH</a>;
+   <a href="./GD95/A95.NET">NET</a>
   </td>
   <td>Processor </td>
 </tr>
@@ -49,186 +49,102 @@
   <td>   0 </td>
   <td></td>
   <td>
-   <a href="./GD95/B95.gph">GPH</a>;
-   <a href="./GD95/B95.net">NET</a>
+   <a href="./GD95/B95.GPH">GPH</a>;
+   <a href="./GD95/B95.NET">NET</a>
   </td>
   <td>Program</td>
 </tr>
 <tr>
-
   <td> C95 </td>
-
   <td> 62 </td>
-
   <td> 1 </td>
-
   <td> 143 </td>
-
   <td></td>
-
   <td>
-
-   <a href="./GD95/C95.gph">GPH</a>;
-   <a href="./GD95/C95.net">NET</a>
-
+   <a href="./GD95/C95.GPH">GPH</a>;
+   <a href="./GD95/C95.NET">NET</a>
   </td>
-
   <td>o/t graph </td>
-
 </tr>
-
 <tr>
-
   <th> GD96 </th>
-
   <td>  </td>
-
   <td></td>
-
   <td></td>
-
   <td></td>
-
   <td>
-
-   <a href="./GD96/gd96.zip">ZIP</a>;
-   <a href="./GD96/rules96.md">DOC</a>
-
+   <a href=" https://github.com/bavla/Nets/raw/refs/heads/master/data/Pajek/gd/GD96.ZIP">ZIP</a>;
+   <a href="./GD96/Rules96.md">DOC</a>
   </td>
-
   <td>  </td>
-
 </tr>
-
 <tr>
-
   <td> A96 </td>
-
   <td> 1096 </td>
-
   <td> 1691 </td>
-
   <td>    0 </td>
-
   <td></td>
-
   <td>
-
-   <a href="./GD96/A96.gph">GPH</a>;
-   <a href="./GD96/A96.net">NET</a>
-
+   <a href="./GD96/A96.GPH">GPH</a>;
+   <a href="./GD96/A96.NET">NET</a>
   </td>
-
   <td> Finite automaton</td>
-
 </tr>
-
 <tr>
-
   <td> B96 </td>
-
   <td>  111 </td>
-
   <td>  193 </td>
-
   <td>    0 </td>
-
   <td></td>
-
   <td>
-
-   <a href="./GD96/B96.gph">GPH</a>;
-   <a href="./GD96/B96.net">NET</a>
-
+   <a href="./GD96/B96.GPH">GPH</a>;
+   <a href="./GD96/B96.NET">NET</a>
   </td>
-
   <td> Telephone-calls </td>
-
 </tr>
-
 <tr>
-
   <td> C96 </td>
-
   <td> 65 </td>
-
   <td>  0 </td>
-
   <td> 125 </td>
-
   <td></td>
-
   <td>
-
-   <a href="./GD96/C96.gph">GPH</a>;
-   <a href="./GD96/C96.net">NET</a>
-
+   <a href="./GD96/C96.GPH">GPH</a>;
+   <a href="./GD96/C96.NET">NET</a>
   </td>
-
   <td>Artifical¸graph  </td>
-
 </tr>
-
 <tr>
-
   <td> D96 </td>
-
   <td> 180 </td>
-
   <td> 229 </td>
-
   <td>   0 </td>
-
   <td></td>
-
   <td>
-
-   <a href="./GD96/D96.gph">GPH</a>;
-   <a href="./GD96/D96.net">NET</a>
-
+   <a href="./GD96/D96.GPH">GPH</a>;
+   <a href="./GD96/D96.NET">NET</a>
   </td>
-
   <td>Some AT&T's WWW sites and their contents</td>
-
 </tr>
-
 <tr>
-
   <th> GD97 </th>
-
   <td>  </td>
-
   <td></td>
-
   <td></td>
-
   <td></td>
-
   <td>
-
    <a href="./GD97/gd97.zip">ZIP</a>;
    <a href="./GD97/rules97.htm">DOC</a>
-
   </td>
-
   <td>  </td>
-
 </tr>
-
 <tr>
-
   <td> A97 </td>
-
   <td>  84 </td>
-
   <td> 332 </td>
-
   <td>   0 </td>
-
   <td></td>
-
   <td>
-
    <a href="./gd97/A97.gph">GPH</a>;
    <a href="./gd97/A97.net">NET</a>
 
