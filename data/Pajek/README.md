@@ -61,7 +61,7 @@ When publishing results obtained using this data set the original authors should
 |[Networks from Generalized Blockmodeling](./gbm/default.md) |   *  |   *  |   *  | collection|
 |[Food-webs](./bio/FoodWeb/FoodWeb.md) |  *  |  *  |   *  | collection |
 |[UCINET IV datasets](./ucinet/README.md) |      *  |      *  |      *  | collection|
-|[Wasserman and Faust datasets](./wafa/default.md) |      *  |      *  |      *  | collection |
+|[Wasserman and Faust datasets](./wafa/README.md) |      *  |      *  |      *  | collection |
 |[Mixed networks](./mix/mixed.md) |      *  |      *  |      *  | collection |
 
 
