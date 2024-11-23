@@ -51,8 +51,8 @@ each individual matrix.
 <hr><a name="bkfrat"></a>
 <H2> BERNARD &amp; KILLWORTH FRATERNITY</H2>
 
-<p><b>DATASET</b> 	<A HREF="./bkfrat.dat"><CODE>BKFRAT</CODE></A> /
-                    <A HREF="./bkfrat.paj">Pajek</A>
+<p><b>DATASET</b> 	<A HREF="./BKFRAT.DAT"><CODE>BKFRAT</CODE></A> /
+                    <A HREF="./BKFRAT.PAJ">Pajek</A>
 <p><b>DESCRIPTION</b> 	Two 58&#215;58 matrices:
  <blockquote>
   <CODE>BKFRAB</CODE> symmetric, valued.<br>
