@@ -69,7 +69,6 @@
   <td>
 
    <a href="./GD95/C95.gph">GPH</a>;
-
    <a href="./GD95/C95.net">NET</a>
 
   </td>
@@ -93,7 +92,6 @@
   <td>
 
    <a href="./GD96/gd96.zip">ZIP</a>;
-
    <a href="./GD96/rules96.md">DOC</a>
 
   </td>
@@ -117,7 +115,6 @@
   <td>
 
    <a href="./GD96/A96.gph">GPH</a>;
-
    <a href="./GD96/A96.net">NET</a>
 
   </td>
@@ -141,7 +138,6 @@
   <td>
 
    <a href="./GD96/B96.gph">GPH</a>;
-
    <a href="./GD96/B96.net">NET</a>
 
   </td>
@@ -165,7 +161,6 @@
   <td>
 
    <a href="./GD96/C96.gph">GPH</a>;
-
    <a href="./GD96/C96.net">NET</a>
 
   </td>
@@ -189,7 +184,6 @@
   <td>
 
    <a href="./GD96/D96.gph">GPH</a>;
-
    <a href="./GD96/D96.net">NET</a>
 
   </td>
@@ -213,7 +207,6 @@
   <td>
 
    <a href="./GD97/gd97.zip">ZIP</a>;
-
    <a href="./GD97/rules97.htm">DOC</a>
 
   </td>
@@ -237,7 +230,6 @@
   <td>
 
    <a href="./gd97/A97.gph">GPH</a>;
-
    <a href="./gd97/A97.net">NET</a>
 
   </td>
@@ -261,7 +253,6 @@
   <td>
 
    <a href="./gd97/B97.gph">GPH</a>;
-
    <a href="./gd97/B97.net">NET</a>
 
   </td>
@@ -285,7 +276,6 @@
   <td>
 
    <a href="./gd97/C97.gph">GPH</a>;
-
    <a href="./gd97/C97.net">NET</a>
 
   </td>
@@ -309,7 +299,6 @@
   <td>
 
    <a href="./gd98/gd98.zip">ZIP</a>;
-
    <a href="./gd98/rules98.htm">DOC</a>
 
   </td>
@@ -333,7 +322,6 @@
   <td>
 
    <a href="./gd98/A98.gph">GPH</a>;
-
    <a href="./gd98/A98.net">NET</a>
 
   </td>
@@ -357,7 +345,6 @@
   <td>
 
    <a href="./gd98/B98.gph">GPH</a>;
-
    <a href="./gd98/B98.net">NET</a>
 
   </td>
@@ -381,7 +368,6 @@
   <td>
 
    <a href="./gd98/C98.gph">GPH</a>;
-
    <a href="./gd98/C98.net">NET</a>
 
   </td>
@@ -405,7 +391,6 @@
   <td>
 
    <a href="./gd99/gd99.zip">ZIP</a>;
-
    <a href="./gd99/rules99.htm">DOC</a>
 
   </td>
@@ -429,7 +414,6 @@
   <td>
 
    <a href="./gd99/A99.gph">GPH</a>;
-
    <a href="./gd99/A99.paj">PAJ</a>
 
   </td>
@@ -453,7 +437,6 @@
   <td>
 
    <a href="./gd99/B99.gph">GPH</a>;
-
    <a href="./gd99/B99.net">NET</a>
 
   </td>
@@ -477,7 +460,6 @@
   <td>
 
    <a href="./gd99/C99.gph">GPH</a>;
-
    <a href="./gd99/C99.paj">NET</a>
 
   </td>
@@ -501,7 +483,6 @@
   <td>
 
    <a href="./gd00/gd00.zip">ZIP</a>;
-
    <a href="./gd00/rules00.htm">DOC</a>
 
   </td>
@@ -525,7 +506,6 @@
   <td>
 
    <a href="./gd00/A00.gph">GPH</a>;
-
    <a href="./gd00/A00.net">NET</a>
 
   </td>
@@ -549,7 +529,6 @@
   <td>
 
    <a href="./gd00/B00a.gph">GPH</a>;
-
    <a href="./gd00/B00.paj">PAJ</a><br>
 
    <a href="./gd00/B00b.gph">GPH</a>
@@ -575,7 +554,6 @@
   <td>
 
    <a href="./gd00/C00.gph">GPH</a>;
-
    <a href="./gd00/C00.net">NET</a>
 
   </td>
@@ -599,7 +577,6 @@
   <td>
 
    <a href="./gd01/gd01.zip">ZIP</a>;
-
    <a href="./gd01/rules01.htm">DOC</a>
 
   </td>
@@ -623,7 +600,6 @@
   <td>
 
    <a href="./gd01/A01.gph">GPH</a>;
-
    <a href="./gd01/A01.net">NET</a>
 
   </td>
@@ -647,7 +623,6 @@
   <td>
 
    <a href="./gd01/B01.gph">GPH</a>;
-
    <a href="./gd01/B01.net">NET</a>
 
   </td>
@@ -671,7 +646,6 @@
   <td>
 
    <a href="./gd01/C01.gph">GPH</a>;
-
    <a href="./gd01/C01.paj">PAJ</a>
 
   </td>
@@ -695,9 +669,7 @@
   <td>
 
    <a href="./gd02/gd02.zip">ZIP</a>;
-
    <a href="./gd02/rules02.htm">DOC</a>;<br>
-
    <a href="./gd02/pajek.zip">Pajek</a>
 
   </td>
@@ -789,7 +761,6 @@
   <td>
 
    <a href="./gd03/gd03.zip">ZIP</a>;
-
    <a href="./gd03/rules03.htm">DOC</a>
 
   </td>
@@ -859,7 +830,6 @@
   <td>
 
    <a href="./gd04/gd04.zip">ZIP</a>;
-
    <a href="./gd04/rules04.htm">DOC</a>
 
   </td>
@@ -885,7 +855,6 @@
   <td>
 
    <a href="./gd05/gd05.zip">ZIP</a>;
-
    <a href="./gd05/rules05.htm">DOC</a>
 
   </td>
@@ -909,9 +878,7 @@
   <td>
 
    <a href="./gd05/imdb.graphml.bz2">BZ2</a>;
-
    <a href="./gd05/imdb.zip">Pajek</a>;<br>
-
    <a href="./gd05/files.txt">files</a>
 
   </td>
@@ -935,7 +902,6 @@
   <td>
 
    <a href="./gd06/gd06.zip">ZIP</a>;
-
    <a href="./gd06/Org/details.htm">DOC</a>
 
   </td>
@@ -981,7 +947,6 @@
   <td>
 
    <a href="./GD06/WC.net.zip">Pajek</a>;<br>
-
    <a href="./gd06/WC.graphml.zip">GraphML</a>
 
   </td>
