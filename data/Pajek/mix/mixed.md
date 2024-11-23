@@ -24,7 +24,7 @@ US power grid - unweighted network from Panayiotis Tsaparas'
 </p><p><b>File:</b><br>
 <tt>USpowerGrid.net</tt> - undirected network with 4941 vertices and 6594 edges
 </p><p><b>Download:</b>
-<a href="../map/USpowerGrid.net">USpowerGrid.net</a>
+<a href="./map/USpowerGrid.net">USpowerGrid.net</a>
 </p>
 <hr>
 <h2>Kleinberg's web graphs</h2>
