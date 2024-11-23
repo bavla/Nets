@@ -49,9 +49,9 @@ When publishing results obtained using this data set the original authors should
 |[Roget](./dic/Roget/Roget.md) |   1022 |      0 |   5075 | dictionary |
 |[Wordnet](./dic/wordnet/wordnet.md) |  82670 |      0 |  133445 | dictionary, multi |
 |[USF Word Association,<br>Rhyme and Word Fragment Norms](./dic/FA/FreeAssoc.md) |  10617 |      0 |  72176 | dictionary |
-|[Graph Drawing Contests](http://vlado.fmf.uni-lj.si/pub/networks/data/GD/GD.htm) |  *  |  *  |  *  | collection |
-|[GD'99 - Linden strasse](http://vlado.fmf.uni-lj.si/pub/networks/data/GD/a99m.zip) |  234 |   278 |    48 | literature, multi, temporal|
-|[GD'01<br>GD proceedings self-citing](http://vlado.fmf.uni-lj.si/pub/networks/data/GD/a01.zip) |  311 |      0 |   645 | citation|
+|[Graph Drawing Contests](./gd/GD.md) |  *  |  *  |  *  | collection |
+|[GD'99 - Linden strasse](./gd/a99m.zip) |  234 |   278 |    48 | literature, multi, temporal|
+|[GD'01<br>GD proceedings self-citing](./gd/a01.zip) |  311 |      0 |   645 | citation|
 |[KEDS](./keds/KEDS.md) |    *  |    *  |    *  | activity, multi, temporal|
 |[Notre Dame WWW](http://vlado.fmf.uni-lj.si/pub/networks/data/ND/NDnets.htm) |  325729 |      0 |  1497135 | internet|
 |[Notre Dame actors](http://vlado.fmf.uni-lj.si/pub/networks/data/ND/NDnets.htm) |  520223 |  1470418 |  0 | 2-mode|
