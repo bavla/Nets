@@ -1,0 +1,209 @@
+*Vertices 62
+    1 "t1"                                         0.3857    0.3600   ellipse ic LightYellow
+    2 "t2"                                         0.2571    0.3600   ellipse ic LightYellow
+    3 "t3"                                         0.2571    0.4500   ellipse ic LightYellow
+    4 "t4"                                         0.3857    0.2700   ellipse ic LightYellow
+    5 "t5"                                         0.2571    0.1800   ellipse ic LightYellow
+    6 "t6"                                         0.2571    0.2700   ellipse ic LightYellow
+    7 "t7"                                         0.3857    0.0900   ellipse ic LightYellow
+    8 "t8"                                         0.2571    0.0900   ellipse ic LightYellow
+    9 "t9"                                         0.3857    0.1800   ellipse ic LightYellow
+   10 "o"                                          0.5143    0.0900   box ic LightGreen
+   11 "o"                                          0.1286    0.2700   box ic LightGreen
+   12 "o"                                          0.1286    0.0900   box ic LightGreen
+   13 "o"                                          0.1286    0.1800   box ic LightGreen
+   14 "o"                                          0.1286    0.3600   box ic LightGreen
+   15 "o"                                          0.1286    0.7200   box ic LightGreen
+   16 "o"                                          0.3857    0.4500   box ic LightGreen
+   17 "o"                                          0.9000    0.0900   box ic LightGreen
+   18 "o"                                          0.6429    0.0900   box ic LightGreen
+   19 "o"                                          0.5143    0.1800   box ic LightGreen
+   20 "o"                                          0.1286    0.4500   box ic LightGreen
+   21 "o"                                          0.1286    0.5400   box ic LightGreen
+   22 "o"                                          0.1286    0.6300   box ic LightGreen
+   23 "o"                                          0.2571    0.6300   box ic LightGreen
+   24 "o"                                          0.2571    0.5400   box ic LightGreen
+   25 "o"                                          0.2571    0.7200   box ic LightGreen
+   26 "o"                                          0.3857    0.5400   box ic LightGreen
+   27 "o"                                          0.5143    0.4500   box ic LightGreen
+   28 "t10"                                        0.6429    0.2700   ellipse ic LightYellow
+   29 "t11"                                        0.5143    0.3600   ellipse ic LightYellow
+   30 "t12"                                        0.6429    0.3600   ellipse ic LightYellow
+   31 "o"                                          0.7714    0.0900   box ic LightGreen
+   32 "o"                                          0.7714    0.1800   box ic LightGreen
+   33 "o"                                          0.6429    0.1800   box ic LightGreen
+   34 "o"                                          0.7714    0.2700   box ic LightGreen
+   35 "o"                                          0.7714    0.3600   box ic LightGreen
+   36 "o"                                          0.5143    0.2700   box ic LightGreen
+   37 "o"                                          0.7714    0.4500   box ic LightGreen
+   38 "o"                                          0.9000    0.3600   box ic LightGreen
+   39 "o"                                          0.9000    0.2700   box ic LightGreen
+   40 "o"                                          0.9000    0.1800   box ic LightGreen
+   41 "t13"                                        0.5143    0.5400   ellipse ic LightYellow
+   42 "t14"                                        0.5143    0.6300   ellipse ic LightYellow
+   43 "t15"                                        0.6429    0.4500   ellipse ic LightYellow
+   44 "o"                                          0.6429    0.5400   box ic LightGreen
+   45 "o"                                          0.6429    0.6300   box ic LightGreen
+   46 "o"                                          0.6429    0.8100   box ic LightGreen
+   47 "o"                                          0.5143    0.7200   box ic LightGreen
+   48 "o"                                          0.3857    0.6300   box ic LightGreen
+   49 "o"                                          0.3857    0.7200   box ic LightGreen
+   50 "o"                                          0.7714    0.5400   box ic LightGreen
+   51 "o"                                          0.6429    0.7200   box ic LightGreen
+   52 "o"                                          0.7714    0.6300   box ic LightGreen
+   53 "o"                                          0.9000    0.4500   box ic LightGreen
+   54 "o"                                          0.7714    0.8100   box ic LightGreen
+   55 "o"                                          0.9000    0.8100   box ic LightGreen
+   56 "o"                                          0.9000    0.9000   box ic LightGreen
+   57 "o"                                          0.7714    0.7200   box ic LightGreen
+   58 "o"                                          0.9000    0.7200   box ic LightGreen
+   59 "o"                                          0.9000    0.6300   box ic LightGreen
+   60 "o"                                          0.9000    0.5400   box ic LightGreen
+   61 "o"                                          0.7714    0.9000   box ic LightGreen
+   62 "o"                                          0.6429    0.9000   box ic LightGreen
+*Arcs
+ 57  52   1
+*Edges
+  1   2   1
+  1   3   1
+  1   4   1
+  1   5   1
+  1   6   1
+  1  11   1
+  1  14   1
+  1  15   1
+  1  16   1
+  1  17   1
+  1  18   1
+  1  19   1
+  1  28   1
+  1  41   1
+  2   3   1
+  2   5   1
+  2   6   1
+  2  12   1
+  2  13   1
+  2  19   1
+  2  20   1
+  2  30   1
+  3   6   1
+  3  11   1
+  3  20   1
+  3  21   1
+  3  22   1
+  3  23   1
+  3  24   1
+  3  25   1
+  3  26   1
+  3  27   1
+  3  29   1
+  3  41   1
+  3  42   1
+  4   5   1
+  4   6   1
+  4   7   1
+  4   8   1
+  4   9   1
+  5   6   1
+  5   8   1
+  5   9   1
+  5  12   1
+  5  13   1
+  6   9   1
+  6  11   1
+  6  13   1
+  7   8   1
+  7   9   1
+  7  10   1
+  8   9   1
+  8  10   1
+  9  10   1
+ 10  52   1
+ 12  13   1
+ 14  15   1
+ 15  16   1
+ 16  17   1
+ 17  18   1
+ 18  19   1
+ 20  21   1
+ 21  22   1
+ 22  23   1
+ 23  24   1
+ 24  25   1
+ 25  26   1
+ 26  27   1
+ 28  29   1
+ 28  30   1
+ 28  31   1
+ 28  32   1
+ 28  33   1
+ 28  34   1
+ 28  35   1
+ 28  42   1
+ 28  43   1
+ 29  30   1
+ 29  35   1
+ 29  36   1
+ 29  42   1
+ 30  36   1
+ 30  37   1
+ 30  38   1
+ 30  39   1
+ 31  32   1
+ 31  40   1
+ 32  33   1
+ 32  40   1
+ 33  34   1
+ 33  40   1
+ 34  35   1
+ 34  40   1
+ 35  36   1
+ 35  37   1
+ 35  38   1
+ 35  39   1
+ 35  40   1
+ 36  37   1
+ 37  38   1
+ 38  39   1
+ 39  40   1
+ 41  42   1
+ 41  43   1
+ 41  48   1
+ 41  49   1
+ 42  43   1
+ 42  47   1
+ 42  51   1
+ 43  44   1
+ 43  50   1
+ 44  45   1
+ 44  48   1
+ 44  50   1
+ 45  46   1
+ 46  47   1
+ 47  49   1
+ 47  51   1
+ 48  49   1
+ 50  51   1
+ 52  53   1
+ 52  58   1
+ 52  59   1
+ 52  60   1
+ 53  54   1
+ 53  59   1
+ 54  55   1
+ 54  59   1
+ 54  61   1
+ 55  56   1
+ 55  58   1
+ 55  59   1
+ 55  61   1
+ 56  57   1
+ 56  58   1
+ 56  61   1
+ 56  62   1
+ 57  58   1
+ 57  60   1
+ 57  62   1
+ 58  59   1
+ 58  60   1
+ 61  62   1

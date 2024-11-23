@@ -1,0 +1,95 @@
+*Vertices 36
+    1 "MUX"                                        0.3000    0.1500  box ic LightYellow r 3              
+    2 "INSTRUCTION BUFFER (4 x 16)"                0.3000    0.0750  box ic LightYellow r 3              
+    3 "RCV"                                        0.6000    0.0750  box ic LightYellow r 3              
+    4 "DRV"                                        0.6000    0.3000  box ic LightYellow r 3              
+    5 "ROM REG"                                    0.3000    0.3000  diamond ic LightCyan q 0.3
+    6 "MUX"                                        0.3000    0.3750  diamond ic LightCyan q 0.3
+    7 "ROM ADDR"                                   0.3000    0.5250  diamond ic LightCyan q 0.3
+    8 "MACRO INSTRUCTION ROM"                      0.3000    0.4500  diamond ic LightCyan q 0.3
+    9 "MUX"                                        0.3000    0.6750  box ic LightGreen
+   10 "L2"                                         0.3000    0.7500  box ic LightGreen
+   11 "MUX"                                        0.3000    0.8250  box ic LightGreen
+   12 "GENERAL REGISTER FILE (32 x 32)"            0.6000    0.6000  box ic LightGreen
+   13 "ALU"                                        0.6000    0.9000  box ic LightGreen
+   14 "A STAGE"                                    0.6000    0.6750  box ic LightGreen
+   15 "MUX"                                        0.6000    0.8250  box ic LightGreen
+   16 "L1"                                         0.6000    0.7500  box ic LightGreen
+   17 "MUX"                                        0.6000    0.5250  box ic LightGreen
+   18 "SHIFTER"                                    0.3000    0.9000  box ic LightGreen
+   19 "MUX"                                        0.3000    0.2250  ellipse ic White 
+   20 "J REG"                                      0.3000    0.6000  ellipse ic White 
+   21 "PROGRAM COUNTER"                            0.6000    0.4500  ellipse ic White 
+   22 "PSW SSW"                                    0.6000    0.3750  ellipse ic White 
+   23 "B STAGE"                                    0.6000    0.2250  ellipse ic White 
+   24 "C STAGE"                                    0.6000    0.1500  ellipse ic White 
+   25 "PIPELINE CONTROL"                           0.9000    0.0750  ellipse ic White 
+   26 "OUTPUT"                                     0.9000    0.7500  box ic LightOrange r 3
+   27 "ALIGN"                                      0.9000    0.6750  box ic LightOrange r 3
+   28 "INPUT"                                      0.9000    0.8250  box ic LightOrange r 3
+   29 "MUX"                                        0.9000    0.6000  box ic LightPurple
+   30 "R"                                          0.9000    0.4500  box ic LightPurple
+   31 "ALU"                                        0.9000    0.2250  box ic LightPurple
+   32 "ACCUMULATOR"                                0.9000    0.3750  box ic LightPurple
+   33 "FPU REGISTER FILE (8 X 64)"                 0.9000    0.5250  box ic LightPurple
+   34 "ENCODER"                                    0.9000    0.3000  box ic LightPurple
+   35 "INSTRUCTION BUS TO I-CAMMU"                 0.9000    0.1500  diamond ic LightMagenta q 0.6
+   36 "DATA BUS TO D-CAMMU"                        0.9000    0.9000  diamond ic LightMagenta q 0.6
+*Arcs
+  1  19   1
+  1  23   1
+  2   1   1
+  3   2   1
+  4   3   1
+  4  35   1
+  5   1   1
+  5   6   1
+  6   7   1
+  7   8   1
+  8   5   1
+  9  10   1
+ 10  11   1
+ 11  13   1
+ 12   9   1
+ 12  17   1
+ 13  14   1
+ 14  11   1
+ 14  12   1
+ 14  15   1
+ 14  21   1
+ 14  22   1
+ 14  26   1
+ 14  29   1
+ 15  13   1
+ 16  15   1
+ 17  16   1
+ 18  11   1
+ 18  15   1
+ 20   9   1
+ 21   4   1
+ 21  17   1
+ 23  19   1
+ 23  22   1
+ 23  24   1
+ 24   6   1
+ 24  25   1
+ 26  28   1
+ 26  36   1
+ 27  12   1
+ 27  21   1
+ 27  22   1
+ 27  26   1
+ 27  29   1
+ 28  27   1
+ 29  30   1
+ 30  33   1
+ 30  34   1
+ 32  29   1
+ 33  29   1
+ 34  31   1
+ 35   3   1
+ 36  28   1
+ 19  20   1
+ 31  32   1
+ 20  19   1
+ 32  21   1
