@@ -139,7 +139,7 @@ Transformed in Pajek format by V. Batagelj, March 20, 2006
  0 - city; 1 - accountancy;  2 - advertising;   3 - banking/finance;
  4 - insurance; 5 - law;     6 - management consultancy.<br>
 </p><p><b>Download:</b>
-<a href="../2mode/WorldCities.zip">WorldCities.net</a> (ZIP 34KB)
+<a href="https://github.com/bavla/Nets/raw/refs/heads/master/data/Pajek/2mode/WorldCities.zip">WorldCities.net</a> (ZIP 34KB)
 </p><p>
 <b>References:</b>
 <br>Taylor, P.J. (2004): World city network: a global urban analysis.
