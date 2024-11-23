@@ -39,7 +39,7 @@ Adapted for Pajek by V. Batagelj, March 19, 2006
 </p><p><b>File:</b><br>
 <tt>California.net</tt> - directed network with 9664 vertices and 16150 arcs.
 </p><p><b>Download:</b>
-<a href="../web/California.net">California.net</a>
+<a href="./web/California.net">California.net</a>
 </p><p>
 <b>References:</b>
 <br>Amy N. Langville and Carl D. Meyer:
@@ -62,7 +62,7 @@ Adapted for Pajek by V. Batagelj, March 19, 2006
 </p><p><b>File:</b><br>
 <tt>Epa.net</tt> - directed network with 4772 vertices and 8965 arcs.
 </p><p><b>Download:</b>
-<a href="../web/Epa.net">Epa.net</a>
+<a href="./web/Epa.net">Epa.net</a>
 </p>
 
 <hr>
@@ -80,7 +80,7 @@ Adapted for Pajek by V. Batagelj, March 19, 2006
 <br>
 <tt>StanfordWeb.net</tt> - directed network with 281903 vertices and 2382912 arcs.
 </p><p><b>Download:</b>
-<a href="../web/StanfordWeb.zip">StanfordWeb.net</a> (ZIP 11.6MB / 65.1MB)
+<a href="./web/StanfordWeb.zip">StanfordWeb.net</a> (ZIP 11.6MB / 65.1MB)
 </p><p>
 <b>References:</b>
 <br>Sepandar D. Kamvar, Taher H. Haveliwala, Christopher D. Manning,
@@ -101,7 +101,7 @@ Adapted for Pajek by V. Batagelj, March 19, 2006
 <br>
 <tt>StanfordBerkeleyWeb.net</tt> - directed network with 685230 vertices and 8006115 arcs.
 </p><p><b>Download:</b>
-<a href="../web/StanfordBerkeleyWeb.zip">StanfordBerkeleyWeb.net</a> (ZIP 6.7MB / 58.5MB)
+<a href="./web/StanfordBerkeleyWeb.zip">StanfordBerkeleyWeb.net</a> (ZIP 6.7MB / 58.5MB)
 </p><p>
 <b>References:</b>
 <br>Sepandar D. Kamvar, Taher H. Haveliwala, Christopher D. Manning,
