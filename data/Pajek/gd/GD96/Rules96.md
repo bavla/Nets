@@ -1,11 +1,4 @@
 <html>
-
-<head>
-<title>
-GD96 Graph-Drawing Contest
-</title>
-</head>
-
 <body>
 <hr>
 <h1>
