@@ -980,6 +980,6 @@
 </html>
 <hr>
 
-[Pajek network data sets](../../README.md);
-[Network data sets](../../../README.md)
+[Pajek network data sets](../README.md);
+[Network data sets](../../README.md)
 
