@@ -73,7 +73,7 @@
   <td></td>
   <td></td>
   <td>
-   <a href=" https://github.com/bavla/Nets/raw/refs/heads/master/data/Pajek/gd/GD96.ZIP">ZIP</a>;
+   <a href="https://github.com/bavla/Nets/raw/refs/heads/master/data/Pajek/gd/GD96.ZIP">ZIP</a>;
    <a href="./GD96/Rules96.md">DOC</a>
   </td>
   <td>  </td>
