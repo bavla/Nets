@@ -222,7 +222,7 @@ Transformed into Pajek format by Vladimir Batagelj, March 1, 2007
 </p><p><b>File:</b><br>
 <tt>PolBlogs.paj</tt> - directed network with 1490 vertices and 19090 vertices.
 </p><p><b>Download:</b>
-<a href="../cite/polBlogs.zip">PolBlogs.zip</a>
+<a href="../bib/cite/polBlogs.zip">PolBlogs.zip</a>
 </p>
 <hr>
 6. March 2007 / 19. March 2006
