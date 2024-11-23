@@ -1,5 +1,4 @@
 <html><head>
- <title>Pajek data: mixed networks</title>
  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"></head>
   <link rel=StyleSheet href="../esna/esna.css" type="text/css" title="ESNA Style" media="screen, print">
 <body bgcolor="darkgreen">
@@ -226,15 +225,13 @@ Transformed into Pajek format by Vladimir Batagelj, March 1, 2007
 </p><p><b>Download:</b>
 <a href="../cite/polBlogs.zip">PolBlogs.zip</a>
 </p>
-
-
-
-
-<hr>
-<a href="../networks.htm">Pajek Data</a>;
-<a href="http://vlado.fmf.uni-lj.si/pub/networks/pajek/default.htm">Pajek Home</a>
 <hr>
 6. March 2007 / 19. March 2006
 </td></tr></tbody></table>
 </center>
 </body></html>
+<hr>
+
+[Pajek network data sets](../../README.md);
+[Network data sets](../../../README.md)
+
