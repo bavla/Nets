@@ -198,7 +198,7 @@ Transformed into Pajek format by Vladimir Batagelj, March 1, 2007.
 </p><p><b>File:</b><br>
 <tt>PolBooks.paj</tt> - directed network with 105 vertices and 441 edges.
 </p><p><b>Download:</b>
-<a href="../cite/polBooks.paj">PolBooks.paj</a>
+<a href="../bib/cite/polBooks.paj">PolBooks.paj</a>
 </p>
 
 <hr>
