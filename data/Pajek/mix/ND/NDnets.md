@@ -1,6 +1,5 @@
 <html>
 <head>
-  <title>Pajek data: Notre Dame Self-Organized Networks Database</title>
   <meta HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=UTF-8">
   <link rel=StyleSheet href="../esna/esna.css" type="text/css" title="ESNA Style" media="screen, print">
 </head>
@@ -105,12 +104,14 @@ Extract from the <i>Notre Dame Networks Database</i> page:
 Mail to <a href="mailto:hjeong@nd.edu">Hawoong Jeong</a> (author of original ND networks).
 <p>
 <hr>
-<a href="../default.htm">Pajek Data</a>;
-<a href="http://vlado.fmf.uni-lj.si/pub/networks/pajek/default.htm">Pajek Home</a>
-<hr>
 23. May 2004
 </td></tr></table>
 </center>
 </body>
 </html>
+<hr>
+
+[Pajek network data sets](../../README.md);
+[Network data sets](../../../README.md)
+
 
