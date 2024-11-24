@@ -1,8 +1,6 @@
 <html>
  <head>
- <title>Pajek data: Generalized Blockmodeling / Little League</title>
  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
- <style type="text/css"> </style>
  <link rel=StyleSheet href="./GBM.css" type="text/css" title="GBM Style" media="screen, print">
  </head>
 <body bgcolor="darkgreen">
