@@ -1,6 +1,5 @@
 <html>
  <head>
- <title>Pajek data: Generalized Blockmodeling</title>
  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
  <style type="text/css"> </style>
  <link rel=StyleSheet href="./GBM.css" type="text/css" title="GBM Style" media="screen, print">
@@ -23,13 +22,13 @@
 <h2>Datasets</h2>
 
 <ol>
-<li> <a href="http://vlado.fmf.uni-lj.si/pub/networks/data/Ucinet/UciData.htm#sampson">
+<li> <a href="https://github.com/bavla/Nets/blob/master/data/Pajek/ucinet/README.md#sampson">
   Sampson's monastery (SM).</a> (UCINET data)</li>
-<li> <a href="http://vlado.fmf.uni-lj.si/pub/networks/data/Ucinet/UciData.htm#wiring">
+<li> <a href="https://github.com/bavla/Nets/blob/master/data/Pajek/ucinet/README.md#wiring">
   Bank Wiring room data (BWR).</a> (UCINET data)</li>
-<li> <a href="http://vlado.fmf.uni-lj.si/pub/networks/data/Ucinet/UciData.htm#newfrat">
+<li> <a href="https://github.com/bavla/Nets/blob/master/data/Pajek/ucinet/README.md#newfrat">
   Newcomb fraternity data (NF).</a> (UCINET data)</li>
-<li> <a href="http://vlado.fmf.uni-lj.si/pub/networks/data/Ucinet/UciData.htm#padgett">
+<li> <a href="https://github.com/bavla/Nets/blob/master/data/Pajek/ucinet/README.md#padgett">
   Florentine Families.</a> (UCINET data)</li>
 <li> <a href="./litLeague.htm">
   Little league baseball teams (LL).</a></li>
