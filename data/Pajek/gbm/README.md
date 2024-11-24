@@ -30,25 +30,25 @@
   Newcomb fraternity data (NF).</a> (UCINET data)</li>
 <li> <a href="https://github.com/bavla/Nets/blob/master/data/Pajek/ucinet/README.md#padgett">
   Florentine Families.</a> (UCINET data)</li>
-<li> <a href="./litLeague.htm">
+<li> <a href="./litLeague.md">
   Little league baseball teams (LL).</a></li>
-<li> <a href="./PolActor.htm">
+<li> <a href="./PolActor.md">
   Political actor network (PA).</a></li>
-<li> <a href="./student.htm">
+<li> <a href="./student.md">
   Uni-LJ student government discussion network.</a></li>
-<li> <a href="./kansas.htm">
+<li> <a href="./kansas.md">
   Kansas SAR.</a></li>
-<li> <a href="./bales.htm">
+<li> <a href="./bales.md">
   * SS Bales type.</a></li>
-<li> <a href="./ragusa.htm">
+<li> <a href="./ragusa.md">
   * Ragusa.</a></li>
-<li> <a href="./baboons.htm">
+<li> <a href="./baboons.md">
   Baboons.</a></li>
-<li> <a href="./SupremeCourt.htm">
+<li> <a href="./SupremeCourt.md">
   * Supreme Court voting.</a></li>
-<li> <a href="./journal.htm">
+<li> <a href="./journal.md">
   * Journals in the Social Work Citation Network.</a></li>
-<li> <a href="./davis.htm">
+<li> <a href="./davis.md">
   * The southern women event participation data.</a></li>
 </ol>
 
