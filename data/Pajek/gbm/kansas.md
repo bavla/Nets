@@ -30,7 +30,7 @@
 </p>
 <p><b>Download</b></p>
 <p>
-<a href="./Kansas/kansas.zip">complete dataset</a> (ZIP)
+<a href="https://github.com/bavla/Nets/raw/refs/heads/master/data/Pajek/gbm/Kansas/kansas.zip">complete dataset</a> (ZIP)
 </p>
 <p><b>Background</b></p>
 <p>
