@@ -49,12 +49,12 @@ convey formal ranking: the prime minister, the ministers, and the advisors.
   Kramberger (Eds.), Developments in Statistics and Methodology.
   Ljubljana: FDV, 1993).
  </li>
- <li> Pajek dataset: <a href="http://vlado.fmf.uni-lj.si/pub/networks/data/soc/Tina/Tina.htm">
+ <li> Pajek dataset: <a href="https://github.com/bavla/Nets/blob/master/data/Pajek/soc/Tina/Tina.md">
    Student Government of the University of Ljubljana / 1992</a></li>
  <li> W. de Nooy, A. Mrvar, &amp; V. Batagelj, Exploratory Social Network
   Analysis with Pajek (Cambridge: Cambridge University Press, 2004),
   Chapter 10.</li>
- <li> ESNA dataset: <a href="http://vlado.fmf.uni-lj.si/pub/networks/data/ESNA/student.htm">
+ <li> ESNA dataset: <a href="https://github.com/bavla/Nets/blob/master/data/Pajek/esna/student.md">
    Student Government of the University of Ljubljana / 1992</a></li>
 </ol>
 <h3>History</h3>
