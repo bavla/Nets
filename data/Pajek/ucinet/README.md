@@ -52,7 +52,7 @@ each individual matrix.
 <H2> BERNARD &amp; KILLWORTH FRATERNITY</H2>
 
 <p><b>DATASET</b> 	<A HREF="./BKFRAT.DAT"><CODE>BKFRAT</CODE></A> /
-                    <A HREF="./BKFRAT.PAJ">Pajek</A>
+                    <A HREF="./BKFRAT.paj">Pajek</A>
 <p><b>DESCRIPTION</b> 	Two 58&#215;58 matrices:
  <blockquote>
   <CODE>BKFRAB</CODE> symmetric, valued.<br>
@@ -92,7 +92,7 @@ other subjects in the observation week.
 <p><a href="#kazalo">List of datasets</a><hr><a name="bkham"></a>
 <H2> BERNARD &amp; KILLWORTH HAM RADIO</H2>
 
-<p><b>DATASET</b> 	<A HREF="./bkham.dat"><CODE>BKHAM</CODE></A>
+<p><b>DATASET</b> 	<A HREF="./BKHAM.DAT"><CODE>BKHAM</CODE></A>
 <p><b>DESCRIPTION</b> 	Two 44&#215;44 matrices.
  <blockquote>
   <CODE>BKHAMB</CODE> symmetric, valued.<br>
@@ -129,7 +129,7 @@ period.
 <p><a href="#kazalo">List of datasets</a><hr><a name="bkoff"></a>
 <H2> BERNARD &amp; KILLWORTH OFFICE</H2>
 
-<p><b>DATASET</b> 	<A HREF="./bkoff.dat"><CODE>BKOFF</CODE></A>
+<p><b>DATASET</b> 	<A HREF="./BKOFF.DAT"><CODE>BKOFF</CODE></A>
 <p><b>DESCRIPTION</b> 	Two 40&#215;40 matrices.
  <blockquote>
   <CODE>BKOFFB</CODE> symmetric, valued.<br>
@@ -156,7 +156,7 @@ recalled by the employees over the two-week period.
 <p><a href="#kazalo">List of datasets</a><hr><a name="bktec"></a>
 <H2> BERNARD &amp; KILLWORTH TECHNICAL</H2>
 
-<p><b>DATASET</b> 	<A HREF="./bktec.dat"><CODE>BKTEC</CODE></A>
+<p><b>DATASET</b> 	<A HREF="./BKTEC.DAT"><CODE>BKTEC</CODE></A>
 <p><b>DESCRIPTION</b> 	Two 34&#215;34 matrices.
  <blockquote>
   <CODE>BKTECB</CODE> symmetric, valued<br>
@@ -182,7 +182,7 @@ frequency of interactions in the same period.
 <p><a href="#kazalo">List of datasets</a><hr><a name="davis"></a>
 <H2> DAVIS SOUTHERN CLUB WOMEN</H2>
 
-<p><b>DATASET</b> 	<A HREF="./davis.dat"><CODE>DAVIS</CODE></A>
+<p><b>DATASET</b> 	<A HREF="./DAVIS.DAT"><CODE>DAVIS</CODE></A>
 <p><b>DESCRIPTION</b> 	One 18&#215;14 matrix, binary.
 
 <p><b>BACKGROUND</b>
@@ -204,7 +204,7 @@ event j, and 0 otherwise.
 <p><a href="#kazalo">List of datasets</a><hr><a name="prison"></a>
 <H2> GAGNON &amp; MACRAE PRISON</H2>
 
-<p><b>DATASET</b> 	<A HREF="./prison.dat"><CODE>PRISON</CODE></A>
+<p><b>DATASET</b> 	<A HREF="./PRISON.DAT"><CODE>PRISON</CODE></A>
 <p><b>DESCRIPTION</b> 	One 67&#215;67 matrix, non-symmetric, binary.
 <p><b>BACKGROUND</b>
 In the 1950s John Gagnon collected sociometric choice data from 67
@@ -224,7 +224,7 @@ residential populations.
 <p><a href="#kazalo">List of datasets</a><hr><a name="kapmine"></a>
 <H2> KAPFERER MINE</H2>
 
-<p><b>DATASET</b> 	<A HREF="./kapmine.dat"><CODE>KAPMINE</CODE></A>
+<p><b>DATASET</b> 	<A HREF="./KAPMINE.DAT"><CODE>KAPMINE</CODE></A>
 <p><b>DESCRIPTION</b> 	Two 15&#215;15 matrices
  <blockquote>
   <CODE>KAPFMM</CODE> symmetric, binary.<br>
@@ -259,7 +259,7 @@ by multiple-relation or multiplex ties (<CODE>KAPFMM</CODE>).
 <p><a href="#kazalo">List of datasets</a><hr><a name="kaptail"></a>
 <H2> KAPFERER TAILOR SHOP</H2>
 
-<p><b>DATASET</b> 	<A HREF="./kaptail.dat"><CODE>KAPTAIL</CODE></A>
+<p><b>DATASET</b> 	<A HREF="./KAPTAIL.DAT"><CODE>KAPTAIL</CODE></A>
 <p><b>DESCRIPTION</b> 	Four 39&#215;39 matrices
  <blockquote>
   <CODE>KAPFTS1</CODE> symmetric, binary<br>
@@ -295,8 +295,8 @@ second.
 <H2> KNOKE BUREAUCRACIES</H2>
 
 <p><b>DATASET</b>
-<A HREF="./knokbur.dat"><CODE>KNOKBUR</CODE></A> /
-<A HREF="./knokbur.paj"><CODE>Pajek</CODE></A>
+<A HREF="./KnokBur.DAT"><CODE>KNOKBUR</CODE></A> /
+<A HREF="./KnokBur.paj"><CODE>Pajek</CODE></A>
 
 <p><b>DESCRIPTION</b> 	Two 10&#215;10 matrices.
  <blockquote>
@@ -330,8 +330,8 @@ Sectors encoding (<CODE>KNOKSEC</CODE>): 1 - GOV, 2 - VOL, 3 - PVT.
 
 <p><b>DATASET</b>
  <blockquote>
-  <A HREF="./krackad.dat"><CODE>KRACKAD</CODE></A> non-symmetric, binary.<br>
-  <A HREF="./krackfr.dat"><CODE>KRACKFR</CODE></A> symmetric, binary.
+  <A HREF="./KRACKAD.DAT"><CODE>KRACKAD</CODE></A> non-symmetric, binary.<br>
+  <A HREF="./KRACKFR.DAT"><CODE>KRACKFR</CODE></A> symmetric, binary.
  </blockquote>
 
 <p><b>DESCRIPTION</b>
@@ -359,7 +359,7 @@ ratings from each person in the group.
 <p><a href="#kazalo">List of datasets</a><hr><a name="newfrat"></a>
 <H2> NEWCOMB FRATERNITY</H2>
 
-<p><b>DATASET</b> 	<A HREF="./newfrat.dat"><CODE>NEWFRAT</CODE></A>
+<p><b>DATASET</b> 	<A HREF="./NEWFRAT.DAT"><CODE>NEWFRAT</CODE></A>
 <p><b>DESCRIPTION</b> 	Fifteen 17&#215;17 matrices.
  <blockquote>
   <CODE>NEWC0</CODE> - <CODE>NEWC15</CODE> (except <CODE>NEWC9</CODE>)
@@ -393,9 +393,9 @@ students with no prior acquaintance of one another.
 <p><a href="#kazalo">List of datasets</a><hr><a name="padgett"></a>
 <H2> PADGETT FLORENTINE FAMILIES</H2>
 
-<p><b>DATASET</b> 	<A HREF="./padgett.dat"><CODE>PADGETT</CODE></A> and
-                    <A HREF="./padgw.dat"><CODE>PADGW</CODE></A> /
-                    <A HREF="./padgett.paj">Pajek</A>
+<p><b>DATASET</b> 	<A HREF="./PADGETT.DAT"><CODE>PADGETT</CODE></A> and
+                    <A HREF="./PADGW.DAT"><CODE>PADGW</CODE></A> /
+                    <A HREF="./Padgett.paj">Pajek</A>
 <p><b>DESCRIPTION</b> 	<CODE>PADGETT</CODE>
 <p> Two 16&#215;16 matrices:
  <blockquote>
@@ -441,7 +441,7 @@ the other around the powerful Strozzis (15).
 <p><a href="#kazalo">List of datasets</a><hr><a name="gama"></a>
 <H2> READ HIGHLAND TRIBES</H2>
 
-<p><b>DATASET</b> 	<A HREF="./gama.dat"><CODE>GAMA</CODE></A>
+<p><b>DATASET</b> 	<A HREF="./GAMA.DAT"><CODE>GAMA</CODE></A>
 <p><b>DESCRIPTION</b> 	Two 16&#215;16 matrices
  <blockquote>
   <CODE>GAMAPOS</CODE> symmetric, binary<br>
@@ -474,7 +474,7 @@ add the two matrices.
 <p><a href="#kazalo">List of datasets</a><hr><a name="wiring"></a>
 <H2> ROETHLISBERGER &amp; DICKSON BANK WIRING ROOM</H2>
 
-<p><b>DATASET</b> 	<A HREF="./wiring.dat"><CODE>WIRING</CODE></A>
+<p><b>DATASET</b> 	<A HREF="./WIRING.DAT"><CODE>WIRING</CODE></A>
 <p><b>DESCRIPTION</b> 	Six 14&#215;14 matrices
  <blockquote>
   <CODE>RDGAM</CODE> symmetric, binary<br>
@@ -518,7 +518,7 @@ traded job assignments.
 <p><a href="#kazalo">List of datasets</a><hr><a name="sampson"></a>
 <H2> SAMPSON MONASTERY</H2>
 
-<p><b>DATASET</b> 	<A HREF="./sampson.dat"><CODE>SAMPSON</CODE></A>
+<p><b>DATASET</b> 	<A HREF="./SAMPSON.DAT"><CODE>SAMPSON</CODE></A>
 <p><b>DESCRIPTION</b> 	Ten 18&#215;18 matrices
  <blockquote>
   <CODE>SAMPLK1</CODE> non-symmetric, valued (rankings)<br>
@@ -572,7 +572,7 @@ choices).
 <p><a href="#kazalo">List of datasets</a><hr><a name="taro"></a>
 <H2> SCHWIMMER TARO EXCHANGE</H2>
 
-<p><b>DATASET</b> 	<A HREF="./taro.dat"><CODE>TARO</CODE></A>
+<p><b>DATASET</b> 	<A HREF="./TARO.DAT"><CODE>TARO</CODE></A>
 <p><b>DESCRIPTION</b> 	One 22&#215;22 matrix, symmetric, binary.
 <p><b>BACKGROUND</b>
 These data represent the relation of gift-giving (taro exchange) among 22
@@ -594,8 +594,8 @@ or receiving assistance among group members.
 <p><a href="#kazalo">List of datasets</a><hr><a name="szci"></a>
 <H2> STOKMAN-ZIEGLER CORPORATE INTERLOCKS</H2>
 
-<p><b>DATASET</b> 	<A HREF="./szcid.dat"><CODE>SZCID</CODE></A>,
-                    <A HREF="./szcig.dat"><CODE>SZCIG</CODE></A>
+<p><b>DATASET</b> 	<A HREF="./SZCID.DAT"><CODE>SZCID</CODE></A>,
+                    <A HREF="./SZCIG.DAT"><CODE>SZCIG</CODE></A>
 <p><b>DESCRIPTION</b>
  <blockquote>
   <CODE>SZCID</CODE>:	One 16&#215;16 matrix, symmetric, binary.<br>
@@ -627,7 +627,7 @@ on network theoretical and analytical issues related to data of this type.
 <p><a href="#kazalo">List of datasets</a><hr><a name="thuroff"></a>
 <H2> THURMAN OFFICE</H2>
 
-<p><b>DATASET</b> 	<A HREF="./thuroff.dat"><CODE>THUROFF</CODE></A>
+<p><b>DATASET</b> 	<A HREF="./THUROFF.DAT"><CODE>THUROFF</CODE></A>
 <p><b>DESCRIPTION</b> 	Two 15&#215;15 matrices
  <blockquote>
   <CODE>THURA</CODE> non-symmetric, binary<br>
@@ -654,8 +654,8 @@ and informal associations among those involved.
 <p><a href="#kazalo">List of datasets</a><hr><a name="wolf"></a>
 <H2> WOLFE PRIMATES</H2>
 
-<p><b>DATASET</b> 	<A HREF="./wolf.dat"><CODE>WOLF</CODE></A>,
-                    <A HREF="./wolfi.dat"><CODE>WOLFI</CODE></A>
+<p><b>DATASET</b> 	<A HREF="./WOLF.DAT"><CODE>WOLF</CODE></A>,
+                    <A HREF="./WOLFI.DAT"><CODE>WOLFI</CODE></A>
 <p><b>DESCRIPTION</b> 	WOLF:	Two 20&#215;20 matrices
  <blockquote>
   <CODE>WOLFK</CODE> non-symmetric, binary<br>
@@ -677,7 +677,7 @@ information about the individual animals:  (1) ID number of the animal;
 <p><a href="#kazalo">List of datasets</a><hr><a name="zachary"></a>
 <H2> ZACHARY KARATE CLUB</H2>
 
-<p><b>DATASET</b> 	<A HREF="./zachary.dat"><CODE>ZACHARY</CODE></A>
+<p><b>DATASET</b> 	<A HREF="./zachary.DAT"><CODE>ZACHARY</CODE></A>
 <p><b>DESCRIPTION</b> 	Two 34&#215;34 matrices.
  <blockquote>
   <CODE>ZACHE</CODE> symmetric, binary.<br>
