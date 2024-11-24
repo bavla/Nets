@@ -1,7 +1,6 @@
 <html>
  <head>
  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
- <style type="text/css"> </style>
  <link rel=StyleSheet href="./GBM.css" type="text/css" title="GBM Style" media="screen, print">
  </head>
 <body bgcolor="darkgreen">
@@ -54,11 +53,14 @@
 
 <hr>
 2. February 2007 / 21. December 2006 &nbsp; -
-<a href="../default.htm">Pajek datasets</a>;
-<a href="./GBM.htm">GBM page</a>;
-<a href="http://vlado.fmf.uni-lj.si/pub/networks/info/default.htm">Pajek Info</a>;
-<a href="http://vlado.fmf.uni-lj.si/pub/networks/pajek/default.htm">Pajek Home</a>
 
 </td></tr></tbody></table>
 </center>
 </body></html>
+<hr>
+
+[Pajek network data sets](../README.md);
+[Network data sets](../../README.md);
+[GBM page](./GBM.htm)
+
+
