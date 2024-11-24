@@ -52,7 +52,7 @@ each individual matrix.
 <H2> BERNARD &amp; KILLWORTH FRATERNITY</H2>
 
 <p><b>DATASET</b> 	<A HREF="./BKFRAT.DAT"><CODE>BKFRAT</CODE></A> /
-                    <A HREF="./BKFRAT.paj">Pajek</A>
+                    <A HREF="./BKfrat.paj">Pajek</A>
 <p><b>DESCRIPTION</b> 	Two 58&#215;58 matrices:
  <blockquote>
   <CODE>BKFRAB</CODE> symmetric, valued.<br>
