@@ -17,7 +17,7 @@
 <hr>
 
 <h2>Description</h2>
-See the <a href="https://github.com/bavla/Nets/blob/master/data/Pajek/ucinet/README.md#davis">Ucinet</a>a> description.
+See the <a href="https://github.com/bavla/Nets/blob/master/data/Pajek/ucinet/README.md#davis">Ucinet</a> description.
 <p></p>
 <p><b>Download</b></p>
 <p>
