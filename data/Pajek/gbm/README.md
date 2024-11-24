@@ -48,7 +48,7 @@
 <li> <a href="./journal.md">
   * Journals in the Social Work Citation Network.</a></li>
 <li> <a href="./davis.md">
-  * The southern women event participation data.</a></li>
+  The southern women event participation data.</a></li>
 </ol>
 
 <hr>
