@@ -677,7 +677,7 @@ information about the individual animals:  (1) ID number of the animal;
 <p><a href="#kazalo">List of datasets</a><hr><a name="zachary"></a>
 <H2> ZACHARY KARATE CLUB</H2>
 
-<p><b>DATASET</b> 	<A HREF="./zachary.DAT"><CODE>ZACHARY</CODE></A>
+<p><b>DATASET</b> 	<A HREF="./Zachary.DAT"><CODE>ZACHARY</CODE></A>
 <p><b>DESCRIPTION</b> 	Two 34&#215;34 matrices.
  <blockquote>
   <CODE>ZACHE</CODE> symmetric, binary.<br>
