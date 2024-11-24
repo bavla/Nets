@@ -1,8 +1,6 @@
 <html>
  <head>
- <title>Pajek data: Generalized Blockmodeling/Student</title>
  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
- <style type="text/css"> </style>
  <link rel=StyleSheet href="./GBM.css" type="text/css" title="GBM Style" media="screen, print">
  </head>
 <body bgcolor="darkgreen">
@@ -76,8 +74,12 @@ convey formal ranking: the prime minister, the ministers, and the advisors.
 </p -->
 <hr>
 2. February 2007 &nbsp; -
-<a href="../default.htm">Pajek datasets</a> /
-<a href="./default.htm">GBM</a>
 </td></tr></tbody></table>
 </center>
 </body></html>
+<hr>
+
+[GBM](./README.md);
+[Pajek network data sets](../README.md);
+[Network data sets](../../README.md)
+
