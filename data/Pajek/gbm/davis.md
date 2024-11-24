@@ -16,7 +16,8 @@
     <small>Patrick Doreian, Vladimir Batagelj, Anu&#353;ka Ferligoj</small></font></h2>
 <hr>
 
-<h2>Description in preparation</h2>
+<h2>Description</h2>
+See the [Ucinet](https://github.com/bavla/Nets/blob/master/data/Pajek/ucinet/README.md#davis) description.
 
 <p><b>Download</b></p>
 <p>
