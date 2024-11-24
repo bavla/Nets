@@ -27,49 +27,49 @@
 <h2>Datasets</h2>
 
 <ol>
-<li> <a href="./dining.htm">
+<li> <a href="./dining.md">
   Dining-table partners in a dormitory at a New York State Training School.</a></li>
-<li> <a href="./metalWT.htm">
+<li> <a href="./metalWT.md">
   World trade in miscellaneous manufactures of metal, 1994.</a></li>
-<li> <a href="./visits.htm">
+<li> <a href="./visits.md">
   Visiting ties among families in Turrialba, Costa Rica, 1948.</a></li>
 <li> <a href="./sampson.md">
   Sampson's monastery.</a></li>
-<li> <a href="./flying.htm">
+<li> <a href="./flying.md">
   Flying teams.</a></li>
-<li> <a href="./scotland.htm">
+<li> <a href="./scotland.md">
   Corporate interlocks in Scotland (1904-5).</a></li>
-<li> <a href="./movies.htm">
+<li> <a href="./movies.md">
   Hollywood film music.</a></li>
-<li> <a href="./sawmill.htm">
+<li> <a href="./sawmill.md">
   Sawmill communication network.</a></li>
-<li> <a href="./korea.htm">
+<li> <a href="./korea.md">
   Family planning in Korea.</a></li>
-<li> <a href="./strike.htm">
+<li> <a href="./strike.md">
   Informal communication within a sawmill on strike.</a></li>
-<li> <a href="./hiTech.htm">
+<li> <a href="./hiTech.md">
   Friendship and unionization in a hi-tech firm.</a></li>
-<li> <a href="./modMath.htm">
+<li> <a href="./modMath.md">
   Modern math method diffusion.</a></li>
-<li> <a href="./Galesburg.htm">
+<li> <a href="./Galesburg.md">
   Galesburg drug study.</a></li>
-<li> <a href="./SanJuanSur.htm">
+<li> <a href="./SanJuanSur.md">
   Visiting ties among families in San Juan Sur, Costa Rica, 1948.</a></li>
-<li> <a href="./Galesburg2.htm">
+<li> <a href="./Galesburg2.md">
   Galesburg drug study 2.</a></li>
-<li> <a href="./student.htm">
+<li> <a href="./student.md">
   Student government discussion network.</a></li>
-<li> <a href="./literature.htm">
+<li> <a href="./literature.md">
   Dutch literary criticism, 1976.</a></li>
-<li> <a href="./ragusa.htm">
+<li> <a href="./ragusa.md">
   Ragusan nobility genealogy.</a></li>
-<li> <a href="./centrality.htm">
+<li> <a href="./centrality.md">
   Centrality literature network.</a></li>
-<li> <a href="./IsleofMan.htm">
+<li> <a href="./IsleofMan.md">
   Isle of Man genealogies.</a></li>
-<li> <a href="./CSPhD.htm">
+<li> <a href="./CSPhD.md">
   PhD students in computer science.</a></li>
-<li> <a href="./Mexican.htm">
+<li> <a href="./Mexican.md">
   Mexican political elite.</a></li>
 </ol>
 
