@@ -38,7 +38,7 @@
 <li> <a href="./kansas.md">
   Kansas SAR.</a></li>
 <li> <a href="./bales.md">
-  * SS Bales type.</a></li>
+  SS Bales type.</a></li>
 <li> <a href="./ragusa.md">
   * Ragusa.</a></li>
 <li> <a href="./baboons.md">
