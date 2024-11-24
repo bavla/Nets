@@ -28,8 +28,8 @@ binary matrix of directed network..
 </p>
 <p><b>Download</b></p>
 <p>
-<a href="./litLeague/Transatlantic.mat">Transatlantic dataset</a> (MAT)<br>
-<a href="./litLeague/Sharpstone.mat">Sharpstone dataset</a> (MAT)
+<a href="./LitLeague/Transatlantic.mat">Transatlantic dataset</a> (MAT)<br>
+<a href="./LitLeague/Sharpstone.mat">Sharpstone dataset</a> (MAT)
 </p>
 <p><b>Background</b></p>
 <p>
