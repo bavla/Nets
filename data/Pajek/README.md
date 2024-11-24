@@ -58,7 +58,7 @@ When publishing results obtained using this data set the original authors should
 |[European projects on simulation](https://github.com/bavla/Nets/raw/refs/heads/master/data/Pajek/SimPro.zip) |  *  |  *  |  *  | 2-mode|
 |[Citation networks](./cite/default.md) |   *  |   *  |   *  | citation / collection|
 |[Networks from Exploratory Social Network<br>Analysis with Pajek](./esna/README.md) |  *  |   *  |   *  | collection|
-|[Networks from Generalized Blockmodeling](./gbm/default.md) |   *  |   *  |   *  | collection|
+|[Networks from Generalized Blockmodeling](./gbm/README.md) |   *  |   *  |   *  | collection|
 |[Food-webs](./bio/FoodWeb/FoodWeb.md) |  *  |  *  |   *  | collection |
 |[UCINET IV datasets](./ucinet/README.md) |      *  |      *  |      *  | collection|
 |[Wasserman and Faust datasets](./wafa/README.md) |      *  |      *  |      *  | collection |
