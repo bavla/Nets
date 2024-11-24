@@ -20,7 +20,7 @@
 
 <p><b>Download</b></p>
 <p>
-<a href="./Ragusa/Ragusa.zip">complete dataset</a> (ZIP)
+<a href="https://github.com/bavla/Nets/raw/refs/heads/master/data/Pajek/gbm/Ragusa/Ragusa.zip">complete dataset</a> (ZIP)
 </p>
 
 <!-- h3>Copyright</h3>
