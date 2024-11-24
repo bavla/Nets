@@ -20,7 +20,7 @@
 
 <p><b>Download</b></p>
 <p>
-<a href="./SocialWorkJ/SocialWorkJ.zip">complete dataset</a> (ZIP)
+<a href="https://github.com/bavla/Nets/raw/refs/heads/master/data/Pajek/gbm/SocialWorkJ/SocialWorkJ.zip">complete dataset</a> (ZIP)
 </p>
 
 <!-- h3>Copyright</h3>
