@@ -85,8 +85,12 @@ and Fine G.A. saw the team as highly centralized.
 </p -->
 <hr>
 2. February 2007 &nbsp; -
-<a href="../default.htm">Pajek datasets</a> /
-<a href="./default.htm">GBM</a>
 </td></tr></tbody></table>
 </center>
 </body></html>
+<hr>
+
+[GBM](./README.md);
+[Pajek network data sets](../README.md);
+[Network data sets](../../README.md)
+
