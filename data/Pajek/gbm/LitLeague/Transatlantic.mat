@@ -1,0 +1,34 @@
+% Transatlantic Industries Little League team [TI]
+% Fine G.A.(1987): With the Boys: Little League Baseball and
+% Preadolescent Culture. Chicago: University of Chicago Press
+% STRAN: Sep 21, 1992; Pajek: Jan 13, 1998
+*network Transatlantic
+*vertices 13
+ 1 "ron"      0.5161  0.0323
+ 2 "tom"      0.1290  0.3226
+ 3 "frank"    0.3548  0.3871
+ 4 "boyd"     0.5161  0.6774
+ 5 "tim"      0.6452  0.6774
+ 6 "john"     0.8065  0.6774
+ 7 "jeff"     0.0323  0.6774
+ 8 "jay"      0.1290  0.8065
+ 9 "sandy"    0.2258  0.6774
+10 "jerry"    0.9677  0.8065
+11 "darrin"   0.3548  0.8065
+12 "ben"      0.8065  0.9355
+13 "arnie"    0.6452  0.9355
+*matrix
+  0 0 1 1 1 0 0 0 0 0 0 0 0
+  1 0 1 0 0 0 0 0 0 0 1 0 0
+  1 0 0 1 0 0 0 0 0 0 1 0 0
+  1 1 1 0 0 0 0 0 0 0 0 0 0
+  1 0 1 1 0 0 0 0 0 0 0 0 0
+  0 0 0 0 1 0 0 0 0 0 0 1 1
+  0 1 0 0 0 0 0 1 1 0 0 0 0
+  0 1 0 0 0 0 1 0 1 0 0 0 0
+  0 1 0 0 0 0 1 1 0 0 0 0 0
+  1 0 0 0 0 1 0 0 0 0 0 0 0
+  1 1 0 0 0 0 0 0 0 1 0 0 0
+  1 0 0 0 0 1 0 0 0 1 0 0 0
+  0 0 0 0 1 1 0 0 0 0 0 0 0
+

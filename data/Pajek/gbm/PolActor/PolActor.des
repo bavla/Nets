@@ -1,0 +1,94 @@
+Political Actor Network [PA]
+
+Doreian P. and Albert L.H. (1989) provide network data for a set of prominent
+<i>political actors<i> in a mid-Western city in the U.S. The network tie is
+`strong political ally'.  The County Executive (A) and the County Auditor
+(B) were strong political rivals, each with their own supporters. The
+substantive issue was the construction of a Federally mandated new jail.
+Each of the protagonists had staked out a position: actor A supported the
+construction of the jail while B opposed this course of action. The County
+Council (actors D through J) was split over this issue.
+
+
+\ai{Doreian}{P.} and \ai{Albert}{L.H.} used blockmodeling tools to partition the actors in Table
+\ref{polactr}. Using both \si{CONCOR} and \si{STRUCTURE} they reported the following partition:
+\begin{enumerate}
+\item  \{A, C, D, E, F, G, N\}
+\item  \{B, H, I, J, M\}
+\item  \{K, L\}
+\end{enumerate}
+
+
+In the \ai{Doreian}{P.} and \ai{Albert}{L.H.} narrative, the network split into an alliance
+around the County Executive (A), an alliance around the County Auditor (B)
+with a pair of neutral actors. This partition of the network predicted the
+voting outcomes concerning the construction of the new jail exactly. {\em %
+Given} the partition in terms of structural equivalence, \ai{Doreian}{P.} and \ai{Albert}{L.H.}
+(1984:287) reported also a partition based on regular\footnote{%
+They used \si{REGE} as implemented in \si{UCINET}.} equivalence:
+\begin{enumerate}
+\item  Central Core: \{L\}
+\item  Boundary Spanning to central core: \{B, D, F, H, M\}
+\item  Integration inside alliances: \{ A, C, I, J\}
+\item  Completely peripheral actors: \{E, G, K, N\}
+\end{enumerate}
+
+While the idea of considering simultaneously partitions based on structural
+equivalence and regular equivalence is appealing, these two partitions are
+suboptimal. Using direct partitioning methods we provide in Chapter 6,
+we obtain `better' partitions of the political actors based on these
+two equivalence ideas. In Chapter 7 we move to generalized blockmodeling
+procedures and reconsider this network. Rather than use two equivalence
+ideas applied to the whole network, we develop procedures where each {\em %
+block }can conform to its own pattern -- which can include those blocks
+consistent with either the structural or regular equivalences.
+
+
+\caption{Political Actor Network Ties\label{polactr}}
+
+"A"
+"B"
+"C"
+"D"
+"E"
+"F"
+"G"
+"H"
+"I"
+"J"
+"K"
+"L"
+"M"
+"N"
+*matrix
+0 0 1 1 0 0 1 0 0 0 0 0 1 0
+0 0 0 0 0 0 0 1 1 1 0 1 0 0
+1 0 0 1 0 1 1 0 0 0 0 0 0 1
+1 0 1 0 1 1 1 0 0 0 0 1 0 0
+0 0 0 1 0 1 0 0 0 0 0 0 0 0
+0 0 1 1 1 0 0 0 0 0 0 1 0 1
+1 0 1 1 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 1 1 0 1 1 0
+0 1 0 0 0 0 0 1 0 1 0 0 1 0
+0 1 0 0 0 0 0 1 1 0 0 0 1 0
+0 0 0 0 0 0 0 0 0 0 0 1 0 0
+0 1 0 1 0 1 0 1 0 0 1 0 1 0
+1 0 0 0 0 0 0 1 1 1 0 1 0 0
+0 0 1 0 0 1 0 0 0 0 0 0 0 0
+
+
+"County Executive"
+"County Auditor"
+"Sheriff"
+"Council Member 1"
+"Council Member 2"
+"Council Member 3"
+"Council Member 4"
+"Council President"
+"Council Member 5"
+"Council Member 6"
+"Former Co Member"
+"Former Co Pres"
+"City Mayor"
+"County Prosecutor"
+

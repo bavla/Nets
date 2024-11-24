@@ -1,0 +1,9 @@
+  body, form, value, h2, h3, p, li, ul, a, ol, b, table, td {font-family: Arial,Times New Roman,Helvetica;}
+  h1 { font-family: Impact,Arial,Helvetica; font-size: 22pt; color: darkred;}
+  h2, h3 { font-size: 14pt; color: darkred;}
+  p, li, ol, ul, br, form, a { font-size: 11pt;}
+  xmp, tt, code { font-size: 12pt;}
+  tt {color: darkgreen; background-color: yellow; font-weight: bold; }
+  code {color: darkred; background-color: white; font-weight: bold; }
+  A {text-decoration: none;}
+  A.text {color: orange;}

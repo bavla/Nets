@@ -1,0 +1,58 @@
+%
+% Pajek: Jul 10, 2002
+*Vertices  36 18
+ 1 "AdminSW"
+ 2 "BritJSW"
+ 3 "ChAbuseNeg"
+ 4 "ChildCareQ"
+ 5 "ChildWelf"
+ 6 "ChYthSRev"
+ 7 "ClinSW J"
+ 8 "FamRev"
+ 9 "JGerontSW"
+10 "JSPolicy"
+11 "JEd SW"
+12 "PubWelfr"
+13 "SCasework"
+14 "SocServRev"
+15 "SW"
+16 "SWG"
+17 "SWHealthcr"
+18 "SWRes&Abs"
+19 "AdminSW"
+20 "BritJSW"
+21 "ChAbuseNeg"
+22 "ChildCareQ"
+23 "ChildWelf"
+24 "ChYthSRev"
+25 "ClinSW J"
+26 "FamRev"
+27 "JGerontSW"
+28 "JSPolicy"
+29 "JEd SW"
+30 "PubWelfr"
+31 "SCasework"
+32 "SocServRev"
+33 "SW"
+34 "SWG"
+35 "SWHealthcr"
+36 "SWRes&Abs"
+*Matrix
+  70   0   0   0   0   0   0   0   0   0  18  13   0  21  73   0   0   7
+   0  95   0   0   0   0   0   0   0   0  13   0   0   0  19   0   0   0
+   0   0 109   0   9   0   0   0   0   0   0   0   6   0   8   0   0   0
+   0   0   0  92  12   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   7   0 187   6   0   0   0   0  11   7  32  10  58   0   0   0
+   0   0  12   5  70  26   0   0   0   0   0   6   8  14  28   0   0   5
+   0   0   0   0   0   0  40   0   0   0   0   0  47  20  45   0   0   0
+   0   0   0   0   0   0   0 205   0   0   0   0  18   0   9   0   0   0
+   0   0   0   0   0   0   0   0   9   0   0   0  16   0  18   0   0   0
+   0   0   0   0   0   0   0   0   0  35   0   0   0   7   0   0   0   0
+   9   0   0   0   0   0   0   0   0   0 104   0  18  16  58   0   7  16
+   0   0   7   0   0   0   0   0   0   0   0   9   0   0   0   0   0   0
+   8   0   6   0  17   0   8   6   6   0  21   0 149  36 124   8   6  18
+   7   0   0   0  17   0   0   0   0   0   9   0  30 105 106   0   0  25
+  15   0   0   0  52   0   0   9   0   0  33  19  58  53 356  15  43   8
+   0   0   0   0   0   0   0   0   0   0   9   0   9   7  40  41   9   0
+   0   0   0   0   0   0   0   0   0   0   0   0  20   0  26   0  86   0
+   0   0   0   0   8   0   0   0   0   0  24   0   8  39  44   0   0  40

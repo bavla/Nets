@@ -1,0 +1,55 @@
+% Ragusa Noble Families Marriage Network, 16th Century
+% Krivosic S. (1990). Stanovnistvo Dubrovnika i demografske  promjene u proslosti.
+% Dubrovnik, Yugoslavia: Zavod za povjesne znanosti JAZU u Dubrovniku.
+% GBM page 58; STRAN: 28. aug 1994; Pajek: 3. jan 1998
+*Vertices 24
+ 1 "Babalio"
+ 2 "Basilio"
+ 3 "Benessa"
+ 4 "Bocignolo"
+ 5 "Bona"
+ 6 "Bucchia"
+ 7 "Caboga"
+ 8 "Crieva"
+ 9 "Georgio"
+10 "Gondola"
+11 "Goze"
+12 "Gradi"
+13 "Lucari"
+14 "Menze"
+15 "Palmota"
+16 "Poza"
+17 "Proculo"
+18 "Prodanelo"
+19 "Ragnina"
+20 "Resti"
+21 "Saraca"
+22 "Sorgo"
+23 "Tudisio"
+24 "Zamagna"
+*Matrix
+ 0  0  0  0  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  2  0  0
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+ 0  0  0  0  1  0  0  0  0  0  0  0  0  0  0  1  0  0  0  0  0  0  0  1
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+ 0  0  2  0  4  0  0  0  1  0  4  1  2  3  1  0  0  0  0  0  0  0  0  1
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+ 0  0  0  0  0  1  1  0  0  0  1  0  0  1  0  0  0  0  0  0  0  0  0  0
+ 0  0  0  0  1  0  0  1  0  1  1  1  0  0  0  0  0  0  0  1  0  0  0  1
+ 0  0  0  0  1  0  1  0  1  0  0  0  0  0  0  0  0  0  0  0  1  1  0  0
+ 0  0  0  0  0  0  0  0  0  0  2  1  0  0  0  0  0  0  0  0  0  1  0  0
+ 0  0  1  1  4  0  1  1  0  1  1  0  0  0  0  0  0  0  1  1  0  0  0  0
+ 0  0  0  0  0  0  0  0  0  0  1  1  0  0  0  0  0  0  0  0  0  5  0  0
+ 0  0  0  0  0  0  0  1  0  0  1  1  0  0  0  0  0  0  0  0  0  1  0  0
+ 0  1  0  0  1  0  1  0  0  0  1  0  0  0  0  0  0  0  0  0  0  4  0  0
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+ 0  0  0  0  2  0  0  0  1  0  0  0  0  0  0  1  0  0  0  0  0  0  0  0
+ 0  0  0  0  0  0  0  0  0  0  0  1  0  0  0  0  0  0  0  0  0  0  0  0
+ 0  0  0  0  0  0  0  0  0  0  1  0  0  0  0  0  0  0  0  0  0  0  0  0
+ 0  0  0  0  1  0  0  0  0  0  0  0  0  0  0  0  0  0  1  0  0  0  0  0
+ 0  0  0  0  1  1  0  1  1  0  0  0  0  0  0  0  0  0  0  1  0  0  0  0
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+ 0  0  1  1  0  0  0  0  0  0  1  2  1  1  0  0  0  0  0  1  0  6  0  0
+ 0  0  0  0  0  0  0  0  0  0  0  1  0  1  0  0  0  0  0  0  0  0  0  0
+ 0  0  0  0  3  0  0  0  1  2  1  0  0  0  0  0  0  0  0  0  0  1  0  0
+

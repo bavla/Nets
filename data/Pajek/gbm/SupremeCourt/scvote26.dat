@@ -1,0 +1,67 @@
+DL
+NR=26, NC=9
+FORMAT = FULLMATRIX DIAGONAL PRESENT
+ROW LABELS:
+PresElection
+Federalism
+FreeSpeech
+SeatBelt
+IllegalSearch
+CampaignFinance
+VotingRights
+Immigration
+IllegaSearch2
+IllegalSearch3
+CleanAirAct
+StayExecution
+CleanWater
+Cannabis
+UnitedFoods
+NYTimes
+TitleIV
+PGAvPlayer
+LegalAidPoor
+Privacy
+Tobacco
+CriminalAliens
+DeportAliens
+Citizenship
+LaborIssue
+Property
+COLUMN LABELS:
+Breyer
+Ginsburg
+Souter
+Stevens
+OConner
+Kennedy
+Rehnquest
+Thomas
+Scalia
+DATA:
+ -1 -1 -1 -1  1  1  1  1  1
+ -1 -1 -1 -1  1  1  1  1  1
+  1 -1 -1 -1  1  1  1  1  1
+ -1 -1  1 -1 -1  1  1  1  1
+  1  1  1 -1 -1 -1 -1  1  1
+  1  1  1  1  1 -1 -1 -1 -1
+  1  1  1  1  1 -1 -1 -1 -1
+  1  1  1  1 -1  1 -1 -1 -1
+  1  1  1  1  1  1 -1 -1 -1
+  1  1  1  1  1  1 -1 -1 -1
+  1  1  1  1  1  1  1  1  1
+  1  1  1  1  1  1 -1 -1 -1
+ -1 -1 -1 -1  1  1  1  1  1
+  0  1  1  1  1  1  1  1  1
+ -1 -1  1  1 -1  1  1  1  1
+ -1  1  1 -1  1  1  1  1  1
+ -1 -1 -1 -1  1  1  1  1  1
+  1  1  1  1  1  1  1 -1 -1
+  1  1  1  1 -1  1 -1 -1 -1
+  1  1  1  1  1  1 -1 -1 -1
+ -1 -1 -1 -1  1  1  1  1  1
+  1  1  1  1 -1  1 -1 -1 -1
+  1  1  1  1  1 -1 -1 -1 -1
+ -1 -1 -1  1 -1  1  1  1  1
+ -1 -1 -1 -1  1  1  1  1  1
+ -1 -1 -1 -1  1  1  1  1  1

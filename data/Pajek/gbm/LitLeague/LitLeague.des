@@ -1,0 +1,128 @@
+\subsection{Little League Baseball Teams [LL]}
+
+Fine G.A. (1987) reports sociometric data for two very successful <i>Little League
+baseball team</i> in the same local league. Fine G.A.'s primary concern was to examine the
+creation and elaboration of various forms of idioculture which he defined as
+"a system of knowledge, beliefs, behaviors and customs shared by members of
+an interacting group to which the members can refer and that serve as the
+basis for further interaction" (1987:125). He contends that the
+sociometric structure of such teams conditions the formation of their
+idiocultures.
+
+Fine G.A.  asked the boys to list their three best friends on the team.
+
+Fine G.A.  provides descriptions of only a few team members from the <i>Transatlantic
+Industries</i> [TI] team. Frank is listed as the coach's son who received preferential
+treatment from his father in terms of playing time. Four other team members
+regarded him as one of their three best friends. "Tom, a quiet, mature,
+responsible twelve year old, was one of TI's best players..." was named as
+a best friend by five other team members. Ron received the most friendship
+nominations and Darrin was the best batter on the team. Fine G.A.  describes TI as
+a decentralized team.
+
+The data for the <i>Sharpstone Auto</i> [SA] team  consist of best friendship
+nominations made by the team members at the end of the season. In describing the
+structure of this team, Fine G.A.  mentions only three of the boys. Justin is
+characterized as a very talented (he was seen by many as the best player in the league),
+aggressive and fearless ballplayer who is the team leader. Harry is listed as another fine
+player (best pitcher) and Justin's best friend. Whit is a good friend of
+both Justin and Harry. However, he was a year younger than these players
+and, while able, was not as good a player. "These three
+players...constituted the heart and soul of Sharpstone Auto" (Fine G.A., 1987:140)
+and Fine G.A. saw the team as highly centralized.
+
+
+While we have used pictorial displays of networks to help illustrate our
+arguments, we are mindful that a graph can be drawn in
+different ways.  For example, Figure \ref{sharp1} is drawn to display ``sociometric standing''
+with Justin at the top with Harry and Whit close behind. Figure \ref{sharp2} shows an
+alternative version of this network to emphasizes centrality: Justin,
+Harry and Whit are the most central actors.
+The different versions of that network may suggest quite
+different structural properties (although standing and centrality are closely
+related ideas).  We suspect
+that diagrams of networks are useful to convey a particular network narrative
+and this, we believe, demands extra care in their use.  We consider these
+issues further in Chapters 6 and 7.
+
+Fine draws two interesting contrasts between these teams. SA had a rich
+idioculture and was highly centralized while TI had little idioculture and
+was decentralized. Justin, Harry and Whit formed the core of SA. Their
+creation and/or endorsement of potential idioculture items was (one of) the
+forces generating Sharpstone's idioculture. In contrast, the TI
+``team did not have the esprit of many Little League teams, nor was it
+racked by dissension.'' In \ai{Fine}{G.A.}'s narrative, ``(u)nlike Sharpstone,
+Transatlantic Industries did not have any true preadolescent leaders. While
+there was consensus on who were the leaders of Sharpstone, such consensus
+did not exist on TI...(it seemed) a team without a clearly defined status
+hierarchy but with many secondary leaders (1987:142).'' ``In contrast to
+Sharpstone, no players epitomized the team. In part, {\em as a result of
+this loose structure}, TI never developed a rich idioculture to the extent
+that Sharpstone did (1987:145, emphasis added)''. We analyze the network
+structure of these two teams in Chapters 6 and 7.
+
+
+\begin{table}[!]
+\caption{Sociometric Data for the Transatlantic Industries Team\label{tinet}}
+\begin{center}
+\begin{tabular}{|lr|ccccccccccccc|}
+\hline
+ &  & ~1 & ~2 & ~3 & ~4 & ~5 & ~6 & ~7 & ~8 & ~9 & 10 & 11 & 12 & 13 \\ \hline
+ Ron    &1  & 0 & 0 & 1 & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+ Tom    &2  & 1 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 \\
+ Frank  &3  & 1 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 \\
+ Boyd   &4  & 1 & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+ Tim    &5  & 1 & 0 & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+ John   &6  & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 \\
+ Jeff   &7  & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 1 & 1 & 0 & 0 & 0 & 0 \\
+ Jay    &8  & 0 & 1 & 0 & 0 & 0 & 0 & 1 & 0 & 1 & 0 & 0 & 0 & 0 \\
+ Sandy  &9  & 0 & 1 & 0 & 0 & 0 & 0 & 1 & 1 & 0 & 0 & 0 & 0 & 0 \\
+ Jerry  &10 & 1 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+ Darrin &11 & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 0 \\
+ Ben    &12 & 1 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 0 & 1 & 0 & 0 & 0 \\
+ Arnie  &13 & 0 & 0 & 0 & 0 & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{table}[!]
+\caption{Sociometric Data for the Sharpstone Auto Team\label{sharpnet}}
+\begin{center}
+\begin{tabular}{|lr|ccccccccccccc|}
+\hline
+ &  & ~1 & ~2 & ~3 & ~4 & ~5 & ~6 & ~7 & ~8 & ~9 & 10 & 11 & 12 & 13 \\ \hline
+{Justin} & 1  & 0 & 1 & 1 & 0 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 \\
+{Harry}  & 2  & 1 & 0 & 1 & 0 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 \\
+{Whit}   & 3  & 1 & 1 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+{Brian}  & 4  & 1 & 1 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+{Paul}   & 5  & 1 & 0 & 1 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+{Ian}    & 6  & 1 & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+{Mike}   & 7  & 1 & 1 & 0 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+{Jim}    & 8  & 1 & 0 & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+{Dan}    & 9  & 1 & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+{Ray}    & 10 & 1 & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+{Cliff}  & 11 & 1 & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+{Mason}  & 12 & 1 & 1 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+{Roy}    & 13 & 0 & 0 & 1 & 0 & 1 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 0 \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{figure}[!]
+\begin{center}
+\epsfig{file=../eps/sharp.eps,width=110mm,bbllx=105pt,bblly=185pt,bburx=690pt,bbury=655pt,clip=}
+%\fbox{\epsfig{file=../eps/sharp.eps,width=70mm,bbllx=105pt,bblly=185pt,bburx=690pt,bbury=655pt,clip=}}
+%\epsfig{file=../eps/fig2-6.eps,width=110mm}
+\end{center}
+\caption{Sociogram for the Sharpstone Auto Team\label{sharp1}}
+\end{figure}
+
+\begin{figure}[!]
+\begin{center}
+\epsfig{file=../eps/sharp1.eps,width=110mm,bbllx=15pt,bblly=30pt,bburx=525pt,bbury=495pt,clip=}
+%\fbox{\epsfig{file=../eps/sharp1.eps,width=70mm,bbllx=15pt,bblly=30pt,bburx=525pt,bbury=495pt,clip=}}
+%\epsfig{file=../eps/fig2-6b.eps,width=110mm}
+\end{center}
+\caption{An Alternative Sociogram for the Sharpstone Auto Team\label{sharp2}}
+\end{figure}
+

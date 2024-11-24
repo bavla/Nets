@@ -1,0 +1,168 @@
+% Dunbar's Baboon colonies
+% ------------------------------------------------
+*network Baboon1  Baboon grooming relations at t1
+% Baboon colony/H22a; 50 / 0 0 1 1 1 1 0 0 0 0 0 0
+% Stephenson & Zelen, Social Networks 11(1989),1-37
+% STRAN 21. feb 1993; Pajek: 1. jan 2007
+*vertices  12
+  1 "FadultD"
+  2 "M2year"
+  3 "Fadult"
+  4 "Fadult"
+  5 "MadultL"
+  6 "F3year"
+  7 "M3yearF"
+  8 "Fadult"
+  9 "M1year"
+ 10 "F3year"
+ 11 "F2year"
+ 12 "M1year"
+*matrix
+  0 11  0  5  9  0  0  0  0  0  2  1
+ 11  0  0  0  0  0  0  0  0  0  0  0
+  0  0  0 30  4  3  1  0  0  8  6  3
+  5  0 30  0 10  2  3  0  0  1  0  3
+  9  0  4 10  0 20  0  3  0  0  0  0
+  0  0  3  2 20  0  0  0  0  5  0  1
+  0  0  1  3  0  0  0 17  0  0  0  0
+  0  0  0  0  3  0 17  0  2  7  0  0
+  0  0  0  0  0  0  0  2  0  0  0  0
+  0  0  8  1  0  5  0  7  0  0  0  0
+  2  0  6  0  0  0  0  0  0  0  0  0
+  1  0  3  3  0  1  0  0  0  0  0  0
+
+*network Baboon1bin  Baboon grooming relations at t1 / binary
+% Baboons H22A / binary
+% aug 18, 1998
+*vertices 12
+ 1 f1
+ 2 m1
+ 3 f2
+ 4 f3
+ 5 m2
+ 6 f4
+ 7 m3
+ 8 f5
+ 9 m4
+10 f6
+11 f7
+12 m5
+*matrix
+ 0 1 0 1 1 0 0 0 0 0 1 1
+ 1 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 1 1 1 1 0 0 1 1 1
+ 1 0 1 0 1 1 1 0 0 1 0 1
+ 1 0 1 1 0 1 0 1 0 0 0 0
+ 0 0 1 1 1 0 0 0 0 1 0 1
+ 0 0 1 1 0 0 0 1 0 0 0 0
+ 0 0 0 0 1 0 1 0 1 1 0 0
+ 0 0 0 0 0 0 0 1 0 0 0 0
+ 0 0 1 1 0 1 0 1 0 0 0 0
+ 1 0 1 0 0 0 0 0 0 0 0 0
+ 1 0 1 1 0 1 0 0 0 0 0 0
+
+*partition H22Agender
+% Baboons H22A / gender partition
+% 1 - female; 2 - male
+*vertices 12
+1
+2
+1
+1
+2
+1
+2
+1
+2
+1
+1
+2
+
+% ------------------------------------------------
+*network Baboon2: Baboon grooming relations at t2
+% Baboon colony/H22b; 50 / 0 0 1 1 1 1 0 0 0 0 0 0 0 0
+% Stephenson & Zelen, Social Networks 11(1989),1-37
+% STRAN 21. feb 1993; Pajek: 1. jan 2007
+*vertices  14
+  1 "FadultD"
+  2 "M2year"
+  3 "Fadult"
+  4 "Fadult"
+  5 "MadultL"
+  6 "F3year"
+  7 "M3yearF"
+  8 "Fadult"
+  9 "M1year"
+ 10 "F3year"
+ 11 "F2year"
+ 12 "M1year"
+ 13 "M1year"
+ 14 "FadultN"
+*matrix
+  0 11  0  1  1  0  2  2  0  0  0  0  0 14
+ 11  0  0  0  0  0  0  0  0  0  0  0  0  0
+  0  0  0 21  0 14  0  0  0  0  0  2  3  0
+  1  0 21  0  6  0  0  0  0  1  0 19  0  0
+  1  0  0  6  0  0  0  0  0  0  0  0  0 51
+  0  0 14  0  0  0  0  0  0  3  0  5  4  3
+  2  0  0  0  0  0  0 31  0  0  0  0  0  0
+  2  0  0  0  0  0 31  0  3  2  1  0  0  1
+  0  0  0  0  0  0  0  3  0  0  0  0  0  0
+  0  0  0  1  0  3  0  2  0  0  0  0  0  0
+  0  0  0  0  0  0  0  1  0  0  0  0  0  0
+  0  0  2 19  0  5  0  0  0  0  0  0  0  0
+  0  0  3  0  0  4  0  0  0  0  0  0  0  0
+ 14  0  0  0 51  3  0  1  0  0  0  0  0  0
+
+*network Baboon2bin: Baboon grooming relations at t2
+% Baboons H22B / binary
+% aug 18, 1998
+*vertices    14
+ 1  f1
+ 2  m1
+ 3  f2
+ 4  f3
+ 5  m2
+ 6  f4
+ 7  m3
+ 8  f5
+ 9  m4
+10  f6
+11  f7
+12  m5
+13  m6
+14  f8
+*matrix
+ 0 1 0 1 1 0 1 1 0 0 0 0 0 1
+ 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 1 0 1 0 0 0 0 0 1 1 0
+ 1 0 1 0 1 0 0 0 0 1 0 1 0 0
+ 1 0 0 1 0 0 0 0 0 0 0 0 0 1
+ 0 0 1 0 0 0 0 0 0 1 0 1 1 1
+ 1 0 0 0 0 0 0 1 0 0 0 0 0 0
+ 1 0 0 0 0 0 1 0 1 1 1 0 0 1
+ 0 0 0 0 0 0 0 1 0 0 0 0 0 0
+ 0 0 0 1 0 1 0 1 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 1 0 0 0 0 0 0
+ 0 0 1 1 0 1 0 0 0 0 0 0 0 0
+ 0 0 1 0 0 1 0 0 0 0 0 0 0 0
+ 1 0 0 0 1 1 0 1 0 0 0 0 0 0
+
+*partition H22Bgender
+% Baboons H22B / gender partition
+% 1 - female; 2 - male
+*vertices    14
+1
+2
+1
+1
+2
+1
+2
+1
+2
+1
+1
+2
+2
+1

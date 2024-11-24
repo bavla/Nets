@@ -1,0 +1,84 @@
+\subsection{Kansas \sis{Search and Rescue}{data} Network [KS]}
+
+When disasters strike human communities, there will be physical
+damage, human suffering and social loss. Both organizations and individuals
+respond to the needs created by disasters. Their responses are more
+effective if their actions are coordinated in some fashion. In general, this
+coordination takes the form of an inter-organizational network that forms to
+create an overall Search and Rescue Operation (SAR) mission. Drabek T.E. et al.(1981)
+report a variety of these networks and discuss their formation through time,
+the structure(s) generated and their operation.
+
+An inter-organizational SAR network formed after a small tornado flipped a
+pleasure boat on Lake Pomona, in Kansas. Although many individuals and
+organizations responded, Drabek T.E.  et al. argue that the bulk of the SAR effort
+involved the 20 organizations. They include law
+enforcement agencies, fire departments, underwater rescue teams, general
+emergency agencies as well as county, state and federal agencies.
+
+
+The County Sheriff (A) took control of the SAR effort once the County
+Attorney (D) assured him of his legal authority to do so. A command post was
+created in a Highway Patrol (E) facility. Lake Pomona had been created by a
+dam that was built and operated by the U.S. Army Corps of Engineers (I). The
+State Park that included the lake was under the control of the State Parks
+and Resources Authority (F) with the responsibility shared by the State Game
+and Fish Commission (G). A temporary morgue was established under the
+control of the County Coroner (C) at the offices of the Army Corps. Bodies
+were brought to this location while survivors were brought to the office of
+the state park. There were two ambulance services (K, L), two fire
+departments (R, S), two police departments (O, P) and three organizations
+defined in terms of their expertise in underwater rescue (M, N, T).
+Additionally, there was the Civil Defense Office (B) for the county and the
+Red Cross (Q).
+
+The communication data among these organizations are collected in
+a matrix of the <tt>Kansas</tt> network.
+The values in the matrix represent relative magnitudes (they are reverse
+coded from the original data source so that higher values
+represent higher rates of communication) of communication intensity: (4)
+continuous; (3) about once an hour; (2) every few hours; (1) about once a
+day and (0) no communication.
+
+One goal of blockmodeling is the establishment of the basic
+structure of a network.
+
+
+\ai{Drabek}{T.E.} {\em et al.} (1981) present a blockmodel analysis
+of these data. Their partition of the network into five positions (clusters)
+is:
+\begin{enumerate}
+\item  Authority Position: \{A, E\}
+\item  Primary Support: \{C, F, G, I, K\}
+\item  Critical Resources: \{D, L, N\}
+\item  Secondary Support 1: \{M, O, P, Q, R, T\}
+\item  Secondary Support 2: \{B, H, J, S\}
+\end{enumerate}
+
+This partition is suboptimal and we provide an alternative, better fitting,
+partition of this network in Chapter 6, one based on techniques we
+describe in Chapters 5 and 6.
+
+
+Organizations in the Kansas SAR Mission\label{kansas1}}
+{Label} & {Organization} & Short Name
+{A} & OsageCounty Sheriff's Department           & Sheriff    }
+{B} & OsageCounty Civil Defense Office           & Civil Def  }
+{C} & OsageCounty Coroner's Office               & Coroner    }
+{D} & OsageCounty Attorney's Office              & Attorney   }
+{E} & Kansas State Highway Patrol                & HighwayP   }
+{F} & Kansas State Parks and Resources Authority & Parks\&Res }
+{G} & Kansas State Game and Fish Commission      & Game\&Fish }
+{H} & Kansas State Department of Transportation  & KansasDOT  }
+{I} & U.S.Army Corps of Engineers                & Army Corps }
+{J} & U.S.Army Reserve                           & ArmyReserv }
+{K} & Crable Ambulance                           & Crable Amb }
+{L} & Franklin County Ambulance                  & FrankCoAmb }
+{M} & Lee's Summit Underwater Rescue Team        & Lee Rescue }
+{N} & Shawney County Underwater Rescue Team      & Shawney    }
+{O} & Burlingame Police Department               & BurlPolice }
+{P} & Lyndon Police Department                   & LyndPolice }
+{Q} & American Red Cross                         & Red Cross  }
+{R} & Topeka Fire Department Rescue \#1          & Topica F D }
+{S} & Carbondale Fire Department                 & Carb Fire  }
+{T} & Topeka Radiator and Body Works             & Topeka RBW }

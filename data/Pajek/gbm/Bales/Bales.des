@@ -1,0 +1,25 @@
+\subsection{A Bales-Type Group Dynamics Network [SS]}
+
+
+We now consider data [SS] reported by \ai{Schwartz}{J.E.} and \ai{Sprinzen}{M.} (1984) from
+\ai{Bales}{R.F.} (1970). After 13 weeks of interaction in a small group dynamics study
+during a semester, the participants in the group provided ratings of their
+relations with the other members of the group on three dimensions -- positive
+affect (liking), negative affect (disliking) and similarity. \ai{Schwartz}{J.E.} and
+\ai{Sprinzen}{M.} recoded the ratings on all three dimensions into binary matrices.
+The two affect matrices are presented in Table \ref{bales}.
+
+
+\ai{Schwartz}{J.E.} and \ai{Sprinzen}{M.} report a block model with three positions, one
+that was established by using all three relations:
+\begin{enumerate}
+\item  \{A, J, K, O, Q, T\}
+\item  \{B, D, F, M, P, R\}
+\item  \{C, E, G, H, I, L, N, S\}
+\end{enumerate}
+
+We will consider the [SS] liking and disliking ties in Chapter 10 where the focus
+will be on balance theoretic partitioning (\ai{Doreian}{P.} and \ai{Mrvar}{A.}, 1995)
+where a much better partition of these data is provided.
+
+

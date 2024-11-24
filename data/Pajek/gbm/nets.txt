@@ -1,0 +1,14 @@
+  SM     Sampson monastery data
+  BWR    Bank Wiring room data
+  NF     Newcom fraternity data
+X LL     Little league baseball teams
+X PA     Political actor network
+  Student Government
+X Kansas SAR
+X SS Bales type
+X Ragusa
+X Baboons
+  Florentine Families
+X Supreme Court voting
+X Journals in the Social Work Citation Network
+X The southern women event participation data

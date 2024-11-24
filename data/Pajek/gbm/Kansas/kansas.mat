@@ -1,0 +1,46 @@
+% Kansas SAR
+% Drabek, T.E. et al.(1981).
+% Managing Multiorganizational Emergency Responses.
+% Boulder: University of Colorado, IBS
+*vertices   20
+  1 "Sherrif"
+  2 "Civil Def."
+  3 "Coroner"
+  4 "Attorney"
+  5 "Highway P"
+  6 "Parks & Res"
+  7 "Game & Fish"
+  8 "Kansas DOT"
+  9 "Army Corps"
+ 10 "ArmyReserve"
+ 11 "Crable Amb"
+ 12 "Frank Co. Amb"
+ 13 "Lee Rescue"
+ 14 "Shawney"
+ 15 "Burl Police"
+ 16 "Lynd Police"
+ 17 "Red Cross"
+ 18 "Topeka FD"
+ 19 "Carb FD"
+ 20 "Topeka RBW"
+*matrix
+ 0  4  4  0  4  4  4  0  4  0  4  0  0  0  2  2  3  0  0  4
+ 4  0  2  0  4  4  4  0  3  0  0  0  0  3  0  2  2  0  0  0
+ 4  0  0  1  4  4  0  0  4  0  3  0  0  0  0  0  1  0  0  0
+ 4  4  3  0  4  4  4  0  4  0  0  0  0  4  0  0  0  0  0  0
+ 4  0  4  4  0  4  4  0  0  0  2  2  4  4  0  4  2  0  0  2
+ 4  0  3  1  4  0  3  0  3  0  4  4  0  4  0  0  0  0  0  0
+ 4  0  1  1  3  4  0  0  3  1  0  0  0  0  0  1  0  0  0  0
+ 1  1  0  0  1  0  0  0  0  1  0  0  0  0  0  0  0  0  0  0
+ 4  0  4  0  3  4  4  0  0  0  4  0  0  0  0  0  2  0  0  0
+ 4  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+ 4  0  3  0  4  4  3  0  3  0  0  3  0  0  0  0  0  0  0  0
+ 2  0  0  0  4  0  4  0  0  0  0  0  0  0  0  0  2  0  0  0
+ 3  0  0  0  3  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+ 4  0  3  0  4  4  4  0  4  0  0  3  1  0  0  0  3  4  0  4
+ 4  0  2  1  4  4  1  0  4  1  4  2  1  1  0  4  2  1  0  4
+ 4  4  0  0  4  4  4  0  0  0  4  0  0  0  0  0  0  0  0  0
+ 4  4  2  0  4  4  4  0  4  1  0  0  0  2  0  0  0  0  0  0
+ 4  0  0  0  4  0  0  0  0  0  0  0  4  4  0  0  0  0  0  0
+ 4  4  0  0  4  2  2  0  4  0  0  0  0  0  0  0  2  0  0  0
+ 4  0  0  0  4  0  0  0  0  0  0  0  0  0  3  2  4  0  0  0

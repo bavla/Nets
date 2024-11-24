@@ -1,0 +1,23 @@
+Dunbar and Dunbar (1975): Gelada baboons H22a, H22b
+
+Files:
+   BABOON.DES  - this file
+   BABOON.NAM  - names (see description of codes)
+   H22A.NET    - first network data (12 baboons)
+   H22B.NET    - second network data (14 baboons)
+
+Codes in names:
+   F(emale), M(ale)
+   D(ominant), L(eader), F(ollower), N(ewcomer)
+
+Sources:
+
+Dunbar R., Dunbar P.: Social dynamics of Gelada baboons.
+   Contributions to Primatology 6(1975), 1-157.
+
+Stephenson K., Zelen M.: Rethinking centrality.
+   Social Networks 11(1989), 1-37
+
+-------------------------------------------------------------------
+version 1:  1. jan 1993 BABOON.DES, BABOON.NAM, H22*.DAT (V.B.)
+version 2: 21. feb 1993 STRAN format: H22*.DAT -> H22*.NET
