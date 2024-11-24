@@ -31,7 +31,7 @@
   Florentine Families.</a> (UCINET data)</li>
 <li> <a href="./litLeague.md">
   Little league baseball teams (LL).</a></li>
-<li> <a href="./PolActor.md">
+<li> <a href="./polActor.md">
   Political actor network (PA).</a></li>
 <li> <a href="./student.md">
   Uni-LJ student government discussion network.</a></li>
@@ -43,7 +43,7 @@
   * Ragusa.</a></li>
 <li> <a href="./baboons.md">
   Baboons.</a></li>
-<li> <a href="./SupremeCourt.md">
+<li> <a href="./supremeCourt.md">
   * Supreme Court voting.</a></li>
 <li> <a href="./journal.md">
   * Journals in the Social Work Citation Network.</a></li>
