@@ -1,0 +1,5808 @@
+*Vertices 2909
+1 "AACR"
+2 "AACR2"
+3 "AACR2e"
+4 "AAHSL"
+5 "AALL"
+6 "AAP"
+7 "AASL"
+8 "AB Bookman's Weekly"
+9 "ABA"
+10 "ABAA"
+11 "abbreviation"
+12 "abecedarium"
+13 "Abridged Decimal Classification /ADC/"
+14 "abridgment"
+15 "abstract"
+16 "abstracting service"
+17 "academic library"
+18 "academic press"
+19 "academic status"
+20 "acceptable use policy"
+21 "access"
+22 "access code"
+23 "access point"
+24 "access services"
+25 "access time"
+26 "accession"
+27 "accession number"
+28 "accession order"
+29 "accession record"
+30 "accompanying material"
+31 "accreditation"
+32 "accredited library school"
+33 "acid paper"
+34 "acid-free paper"
+35 "acknowledgments"
+36 "acquisition number"
+37 "acquisitions"
+38 "ACRL"
+39 "Acrobat"
+40 "acronym"
+41 "ad loc."
+42 "ADA"
+43 "adaptation"
+44 "ADC"
+45 "added copy"
+46 "added edition"
+47 "added entry"
+48 "added title page"
+49 "addendum"
+50 "address"
+51 "adhesive binding"
+52 "adjacency"
+53 "adjustable shelving"
+54 "Adobe Acrobat"
+55 "adult learner"
+56 "adult services"
+57 "advance copy"
+58 "advance on royalty"
+59 "advance order"
+60 "advance sheet"
+61 "adverts"
+62 "aerial map"
+63 "affiliated library"
+64 "against the grain"
+65 "agent"
+66 "AI"
+67 "AIIP"
+68 "AILA"
+69 "aisle"
+70 "AJL"
+71 "ALA"
+72 "ALA Editions"
+73 "album"
+74 "alcove"
+75 "ALCTS"
+76 "Alexandrian Library"
+77 "alias"
+78 "Alibris"
+79 "alignment"
+80 "ALISE"
+81 "all published"
+82 "all rights reserved"
+83 "allegory"
+84 "allonym"
+85 "allusion"
+86 "almanac"
+87 "alpha test"
+88 "alphabet"
+89 "alphabet book"
+90 "alphabetical"
+91 "alphameric"
+92 "alphanumeric"
+93 "ALSC"
+94 "ALTA"
+95 "alternative press"
+96 "alternative title"
+97 "American Association of Law Libraries /AALL/"
+98 "American Association of School Librarians /AASL/"
+99 "American Booksellers Association /ABA/"
+100 "American Indian Library Association /AILA/"
+101 "American Libraries"
+102 "American Library Association /ALA/"
+103 "American Library Directory"
+104 "American National Standards Institute /ANSI/"
+105 "American Printing History Association /APHA/"
+106 "American Society for Information Science /ASIS/"
+107 "American Society of Indexers /ASI/"
+108 "American Theological Library Association /ATLA/"
+109 "Americana"
+110 "americanize"
+111 "Americans with Disabilities Act /ADA/"
+112 "-ana or -iana"
+113 "analects"
+114 "analog"
+115 "analytical bibliography"
+116 "analytical entry"
+117 "analytical note"
+118 "analytics"
+119 "Anglo-American Cataloging Rules /AACR/"
+120 "animated graphics"
+121 "annals"
+122 "annotated bibliography"
+123 "annotated edition"
+124 "annotation"
+125 "annual"
+126 "annual report"
+127 "annual review"
+128 "anonymous"
+129 "anonymous FTP"
+130 "ANSI"
+131 "anthology"
+132 "antiquarian book"
+133 "antiquarian bookseller"
+134 "Antiquarian Booksellers Association of America /ABAA/"
+135 "antique"
+136 "antonym"
+137 "APA style"
+138 "APALA"
+139 "APHA"
+140 "aphorism"
+141 "apocryphal"
+142 "appendix"
+143 "applet"
+144 "application"
+145 "approval plan"
+146 "approval shelf"
+147 "approvals"
+148 "approved library school"
+149 "archetypal novel"
+150 "architectural binding"
+151 "architectural rendering"
+152 "archival copy"
+153 "archival journal"
+154 "archive"
+155 "archives"
+156 "archivist"
+157 "area"
+158 "argot"
+159 "aristonym"
+160 "ARL"
+161 "ARLIS/NA"
+162 "ARMA"
+163 "armarian"
+164 "armarium"
+165 "ARPAnet"
+166 "arrangement"
+167 "arranger"
+168 "ARSC"
+169 "art book"
+170 "Art Libraries Society/North America /ARLIS/NA/"
+171 "art library"
+172 "art original"
+173 "art print"
+174 "article"
+175 "artifact"
+176 "artificial intelligence /AI/"
+177 "artwork"
+178 "ASCII text"
+179 "ASCLA"
+180 "ASI"
+181 "Asian/Pacific American Librarians Association /APALA/"
+182 "ASIS"
+183 "association"
+184 "association copy"
+185 "Association for Library and Information Science Education /ALISE/"
+186 "Association for Library Collections and Technical Services /ALCTS/"
+187 "Association for Library Service to Children /ALSC/"
+188 "Association for Library Trustees and Advocates /ALTA/"
+189 "Association for Recorded Sound Collections /ARSC/"
+190 "Association of Academic Health Sciences Libraries /AAHSL/"
+191 "Association of American Publishers /AAP/"
+192 "Association of College and Research Libraries /ACRL/"
+193 "Association of Independent Information Professionals /AIIP/"
+194 "Association of Jewish Libraries"
+195 "Association of Records Managers and Administrators /ARMA/"
+196 "Association of Research Libraries /ARL/"
+197 "Association of Specialized and Cooperative Library Agencies /ASCLA/"
+198 "asynchronous"
+199 "athenaeum"
+200 "ATLA"
+201 "atlas"
+202 "atlas case"
+203 "atlas folio"
+204 "attachment"
+205 "audiobook"
+206 "audiocassette"
+207 "audiorecording"
+208 "audiotape"
+209 "audiovisual"
+210 "authentication"
+211 "author"
+212 "author abstract"
+213 "author bibliography"
+214 "author index"
+215 "author interview"
+216 "author mark"
+217 "authority control"
+218 "authority file"
+219 "authority record"
+220 "authority work"
+221 "authorization"
+222 "authorized edition"
+223 "author's contract"
+224 "author's edition"
+225 "author's editor"
+226 "author's proof"
+227 "authorship"
+228 "authorware"
+229 "autobiography"
+230 "autograph"
+231 "autographed edition"
+232 "automatic checkout"
+233 "autonym"
+234 "back"
+235 "back file"
+236 "back issue"
+237 "back matter"
+238 "back number"
+239 "back order /BO/"
+240 "backbone"
+241 "backlist"
+242 "backstrip"
+243 "backup"
+244 "Baker & Taylor"
+245 "ballad"
+246 "bandwidth"
+247 "banned book"
+248 "banner"
+249 "barcode"
+250 "bastard title"
+251 "battledore"
+252 "BBS"
+253 "BCALA"
+254 "beast epic"
+255 "beginning reader"
+256 "Bell & Howell Information and Learning"
+257 "belles lettres"
+258 "Berne Convention"
+259 "best-seller"
+260 "bestiary"
+261 "bestseller"
+262 "Beta Phi Mu"
+263 "beta test"
+264 "BI"
+265 "biannual"
+266 "bibelot"
+267 "bible paper"
+268 "biblioclast"
+269 "bibliographee"
+270 "bibliographer"
+271 "bibliographic control"
+272 "bibliographic database"
+273 "bibliographic description"
+274 "bibliographic essay"
+275 "bibliographic instruction /BI/"
+276 "bibliographic item"
+277 "bibliographic record"
+278 "bibliographic retrieval"
+279 "bibliographic service center"
+280 "bibliographic utility"
+281 "Bibliographical Society of America /BSA/"
+282 "bibliography"
+283 "biblioholism"
+284 "biblioklept"
+285 "bibliolatry"
+286 "bibliology"
+287 "bibliomancy"
+288 "bibliomania"
+289 "bibliometrics"
+290 "bibliopegy"
+291 "bibliophile"
+292 "bibliophobia"
+293 "bibliopole"
+294 "bibliotaph"
+295 "bibliotheca"
+296 "Bibliotheque nationale de France /BnF/"
+297 "bibliotherapy"
+298 "biennial"
+299 "Bildungsroman"
+300 "bilingual edition"
+301 "bimonthly"
+302 "binary"
+303 "binder's title"
+304 "bindery"
+305 "binding"
+306 "binding copy"
+307 "binding edge"
+308 "biobibliography"
+309 "biographical dictionary"
+310 "biography"
+311 "BIP"
+312 "birth and death dates"
+313 "birthday book"
+314 "bit"
+315 "biweekly"
+316 "Black Caucus of the American Library Association /BCALA/"
+317 "black letter"
+318 "Blackwell"
+319 "blank"
+320 "blanket order"
+321 "blanking"
+322 "bleed"
+323 "blind"
+324 "blind page"
+325 "blind reference"
+326 "block book"
+327 "block letter"
+328 "block quotation"
+329 "blocking"
+330 "blue book"
+331 "blue pencil"
+332 "blurb"
+333 "BnF"
+334 "BO"
+335 "board"
+336 "board book"
+337 "Bodleian Library"
+338 "body matter"
+339 "body type"
+340 "boldface"
+341 "bolt"
+342 "book"
+343 "book announcement"
+344 "book auction"
+345 "book award"
+346 "book band"
+347 "book block"
+348 "book catalog"
+349 "book cloth"
+350 "book club"
+351 "book club edition"
+352 "book collecting"
+353 "book cover"
+354 "book cradle"
+355 "book drop"
+356 "book fair"
+357 "book hand"
+358 "book history"
+359 "book jacket"
+360 "book label"
+361 "book lease plan"
+362 "book lift"
+363 "book light"
+364 "book list"
+365 "Book of Hours"
+366 "book-on-tape"
+367 "book post"
+368 "book press"
+369 "book prize"
+370 "book rate"
+371 "book return"
+372 "book review"
+373 "book sale"
+374 "book scout"
+375 "book signing"
+376 "book size"
+377 "book stamp"
+378 "book stock"
+379 "book stop"
+380 "book talk"
+381 "book trade"
+382 "book trade journal"
+383 "book truck"
+384 "Book Week"
+385 "bookbin"
+386 "bookbinding"
+387 "bookcase"
+388 "bookend"
+389 "booklet"
+390 "Booklist"
+391 "booklover"
+392 "bookmark"
+393 "bookmobile"
+394 "bookplate"
+395 "bookrest"
+396 "books-by-mail"
+397 "Books in Print /BIP/"
+398 "bookseller"
+399 "bookstall"
+400 "bookworm"
+401 "Boolean"
+402 "boot"
+403 "border"
+404 "borrower"
+405 "borrowing period"
+406 "boss"
+407 "bowdlerize"
+408 "Bowker"
+409 "box"
+410 "box-in"
+411 "braille"
+412 "branch library"
+413 "breviary"
+414 "brief"
+415 "briticize"
+416 "British Library"
+417 "broad classification"
+418 "broadcast"
+419 "broader term /BT or B/"
+420 "broadsheet"
+421 "broadside"
+422 "brochure"
+423 "Brodart"
+424 "broken link"
+425 "broken up"
+426 "browsability"
+427 "browse"
+428 "browser"
+429 "browser cache"
+430 "browsing "
+431 "BSA"
+432 "BT /or B/"
+433 "buckram"
+434 "budget"
+435 "buffer"
+436 "bug"
+437 "bulk"
+438 "bulk lending"
+439 "bull"
+440 "bulletin"
+441 "bulletin board"
+442 "bulletin board system /BBS/ "
+443 "burlesque"
+444 "byline"
+445 "byte"
+446 "cache"
+447 "CALA"
+448 "Caldecott Medal"
+449 "calendar"
+450 "calender"
+451 "call number"
+452 "call slip"
+453 "calligraphy"
+454 "cameo binding"
+455 "camera-ready copy"
+456 "Canadian Library Association /CLA/"
+457 "cancel"
+458 "cancelled"
+459 "canon"
+460 "capital expenditure"
+461 "capital letter"
+462 "capsa"
+463 "caption"
+464 "caption title"
+465 "card catalog"
+466 "caricature"
+467 "CARL"
+468 "Carnegie library"
+469 "Carnegie Medal"
+470 "carousel"
+471 "carrel"
+472 "cartobibliography"
+473 "cartogram"
+474 "cartographic material"
+475 "cartography"
+476 "cartoon"
+477 "cartouche"
+478 "case"
+479 "case binding"
+480 "case sensitive"
+481 "case study"
+482 "casebook"
+483 "cased"
+484 "casing-in"
+485 "catalog"
+486 "catalog card"
+487 "cataloger"
+488 "cataloging"
+489 "cataloging-in-publication /CIP/"
+490 "catch letters"
+491 "catch title"
+492 "catchword"
+493 "catchword title"
+494 "Catholic Library Association /CLA/"
+495 "CatME"
+496 "caucus"
+497 "CBA"
+498 "CBC"
+499 "CBIP"
+500 "CCC"
+501 "CD"
+502 "CD-ROM"
+503 "CD-ROM changer"
+504 "CD-ROM drive"
+505 "CD-ROM LAN"
+506 "CD-ROM network"
+507 "CD-ROM tower"
+508 "ceased publication"
+509 "cell"
+510 "censorship"
+511 "Center for Research Libraries /CRL/"
+512 "Center for the Book"
+513 "Center for Book Arts /CBA/"
+514 "centerpiece"
+515 "central library"
+516 "central processing unit /CPU/"
+517 "centralized cataloging"
+518 "centralized processing"
+519 "certificate of issue"
+520 "certification"
+521 "CGI"
+522 "changed title"
+523 "chapbook"
+524 "chapter"
+525 "chapter heading"
+526 "character"
+527 "character set"
+528 "charge"
+529 "chart"
+530 "charter"
+531 "chat"
+532 "check digit"
+533 "check-in record"
+534 "checklist"
+535 "checkout period"
+536 "chef-d'oeuvre"
+537 "chief source of information"
+538 "children's book"
+539 "children's book award"
+540 "Children's Book Council /CBC/"
+541 "Children's Books in Print"
+542 "children's collection"
+543 "Chinese American Librarians Association /CALA/"
+544 "chip"
+545 "chipped"
+546 "CHOICE"
+547 "chronicle"
+548 "chronicle play"
+549 "chronology"
+550 "CIP"
+551 "cipher"
+552 "circa"
+553 "circulating collection"
+554 "circulating library"
+555 "circulation"
+556 "circulation desk"
+557 "circulation record"
+558 "circulation statistics"
+559 "circulation system"
+560 "citation"
+561 "citation chasing"
+562 "citation index"
+563 "CLA"
+564 "claim"
+565 "clasp"
+566 "class"
+567 "classic"
+568 "classics"
+569 "classification schedule"
+570 "classification scheme"
+571 "Classification Society of North American /CSNA/"
+572 "classification system"
+573 "classified catalog"
+574 "classified index"
+575 "clay tablet"
+576 "clearinghouse"
+577 "cliche"
+578 "click and drag"
+579 "client"
+580 "client-server"
+581 "clipboard"
+582 "clipping"
+583 "clipping service"
+584 "CLIR"
+585 "cloisonne"
+586 "close classification"
+587 "close out"
+588 "closed entry"
+589 "closed file"
+590 "closed reserve"
+591 "closed stacks"
+592 "closet drama"
+593 "cloth"
+594 "cloth book"
+595 "cloth joint"
+596 "clothbound"
+597 "CLR"
+598 "co-publishing"
+599 "coauthor"
+600 "cocked spine"
+601 "coda"
+602 "codex"
+603 "codicology"
+604 "coffee table book"
+605 "coil binding"
+606 "cold boot"
+607 "collaborator"
+608 "collate"
+609 "collating mark"
+610 "collation"
+611 "collected edition"
+612 "collected work"
+613 "collected works"
+614 "collection"
+615 "collection development"
+616 "collection development policy"
+617 "collection maintenance"
+618 "collection management"
+619 "collective biography"
+620 "collective name"
+621 "collective title"
+622 "college library"
+623 "collocation"
+624 "colloquy"
+625 "Colon Classification"
+626 "colophon"
+627 "color plate"
+628 "colporteur"
+629 "column"
+630 "column inch"
+631 "columnist"
+632 "comb binding"
+633 "comedy"
+634 "comic book"
+635 "command-driven"
+636 "commentary"
+637 "commercial journal"
+638 "commercial publisher"
+639 "Common Gateway Interface /CGI/"
+640 "commonplace book"
+641 "communications"
+642 "compact disc /CD/"
+643 "compact shelving"
+644 "compact storage"
+645 "company file"
+646 "company library"
+647 "compendium"
+648 "compilation"
+649 "compiler"
+650 "complete works"
+651 "complimentary copy"
+652 "composer"
+653 "composite author"
+654 "composite volume"
+655 "composite work"
+656 "composition"
+657 "compound surname"
+658 "compound subject heading"
+659 "computer file"
+660 "computer literacy"
+661 "computer program"
+662 "concordance"
+663 "condensation"
+664 "condensed book"
+665 "condition"
+666 "conference proceedings"
+667 "configuration"
+668 "conjugate leaves"
+669 "connect time"
+670 "CONSER"
+671 "conservation"
+672 "conservation binding"
+673 "consolidated shipment"
+674 "consortium"
+675 "conspectus"
+676 "consultant"
+677 "container"
+678 "conte"
+679 "content"
+680 "content analysis"
+681 "contents"
+682 "contents note"
+683 "context"
+684 "continuation"
+685 "continuation order"
+686 "continuing education"
+687 "continuous pagination"
+688 "continuous revision"
+689 "contour map"
+690 "contraction"
+691 "contributor"
+692 "controlled access"
+693 "controlled vocabulary"
+694 "convention discount"
+695 "convention issue"
+696 "conventional name"
+697 "conventional title"
+698 "cookbook"
+699 "cookie"
+700 "Cooperative Online Resource Catalog /CORC/"
+701 "copy"
+702 "copy card"
+703 "copy cataloging"
+704 "copy editor"
+705 "copy number"
+706 "copyist"
+707 "copyright"
+708 "Copyright Clearance Center /CCC/"
+709 "copyright date"
+710 "copyright depository"
+711 "copyright fee"
+712 "copyright piracy"
+713 "CORC"
+714 "core collection"
+715 "core journal"
+716 "corner"
+717 "cornerpiece"
+718 "corpora"
+719 "corporate author"
+720 "corporate body"
+721 "corporate name"
+722 "corporation library"
+723 "correspondence"
+724 "corrigenda"
+725 "corrupted text"
+726 "Council on Library and Information Resources /CLIR/"
+727 "Council on Library Resources /CLR/"
+728 "counter"
+729 "countermark"
+730 "countersunk"
+731 "counting book"
+732 "country code"
+733 "court hand"
+734 "cover"
+735 "cover story"
+736 "cover title"
+737 "coverage"
+738 "CPU"
+739 "cracker"
+740 "crawler"
+741 "credit"
+742 "credit line"
+743 "critical abstract"
+744 "critical annotation"
+745 "critical bibliography"
+746 "critical edition"
+747 "criticism"
+748 "critique"
+749 "CRL"
+750 "cropped"
+751 "cross-index"
+752 "cross-reference"
+753 "cryptography"
+754 "cryptonym"
+755 "CSNA"
+756 "cumdach"
+757 "cumulative index"
+758 "cuneiform"
+759 "curator"
+760 "curiosa"
+761 "currency"
+762 "current awareness service"
+763 "current bibliography"
+764 "current contents"
+765 "current issue"
+766 "curriculum guide"
+767 "curriculum room"
+768 "cursive"
+769 "cursor"
+770 "custody"
+771 "custom binding"
+772 "cut"
+773 "cut flush"
+774 "cut-in note"
+775 "Cutter number"
+776 "Cutter-Sanborn Table"
+777 "Cutter Table"
+778 "cybercafe"
+779 "cybernetics"
+780 "cyberporn"
+781 "cyberspace"
+782 "cybrarian"
+783 "cyclopedia"
+784 "daemon"
+785 "DAI"
+786 "daily"
+787 "dandy roll"
+788 "Dartmouth Medal"
+789 "dash"
+790 "data"
+791 "data compression"
+792 "data conversion"
+793 "data processing"
+794 "database"
+795 "database management system /DBMS/"
+796 "date due slip"
+797 "date line"
+798 "DBMS"
+799 "DBV"
+800 "DDC"
+801 "DDS"
+802 "deacidification"
+803 "dealer"
+804 "deckle edge"
+805 "declassification"
+806 "dedicated computer"
+807 "dedicated line"
+808 "dedication"
+809 "dedication copy"
+810 "default"
+811 "definition"
+812 "definitive edition"
+813 "delete"
+814 "deluxe edition"
+815 "demand publishing"
+816 "DEMCO"
+817 "departmental library"
+818 "dependent work"
+819 "deposit copy"
+820 "depository library"
+821 "derivative work"
+822 "descriptive bibliography"
+823 "descriptive cataloging"
+824 "descriptor"
+825 "deselection"
+826 "desensitization"
+827 "desiderata"
+828 "desk copy"
+829 "desk schedule"
+830 "desktop computer"
+831 "desktop publishing /DTP/"
+832 "detective fiction"
+833 "Deutscher Bibliogtheksverband e. V."
+834 "device"
+835 "Dewey Decimal Classification /DDC/"
+836 "Dewey, Melvil"
+837 "diagnostics"
+838 "diagram"
+839 "DIALOG"
+840 "dialog box"
+841 "diary"
+842 "dictionary"
+843 "dictionary catalog"
+844 "dictionary stand"
+845 "differential pricing"
+846 "digest"
+847 "digital"
+848 "digital library"
+849 "digitization"
+850 "dime novel"
+851 "diorama"
+852 "diptych"
+853 "direct edition"
+854 "direct order"
+855 "directional"
+856 "director"
+857 "directory"
+858 "dirty proof"
+859 "disaster plan"
+860 "disbound"
+861 "disc"
+862 "discard"
+863 "discharge"
+864 "discography"
+865 "discontinued"
+866 "discount"
+867 "discussion list"
+868 "discourse analysis"
+869 "disk"
+870 "disk drive"
+871 "diskette"
+872 "display case"
+873 "display copy"
+874 "display matter"
+875 "display rack"
+876 "display type"
+877 "dissertation"
+878 "distance education"
+879 "distance learning"
+880 "distinctive title"
+881 "distribution rights"
+882 "distributor"
+883 "divide-like note"
+884 "divided catalog "
+885 "DNS"
+886 "document"
+887 "document camera"
+888 "document delivery service /DDS/"
+889 "documentary"
+890 "documentation"
+891 "documentation center"
+892 "dog-eared"
+893 "doggerel"
+894 "domain"
+895 "domain name"
+896 "Domain Name System"
+897 "dos-a-dos"
+898 "double leaf"
+899 "double numeration"
+900 "double plate"
+901 "double spread"
+902 "doublure"
+903 "doubtful authorship"
+904 "down time"
+905 "download"
+906 "dramatization"
+907 "driver"
+908 "drop"
+909 "drop-down title"
+910 "drop initial"
+911 "drop ship"
+912 "DTP"
+913 "due date"
+914 "dues"
+915 "dumb terminal"
+916 "dummy"
+917 "duodecimo /12mo/"
+918 "duotone"
+919 "duplex"
+920 "duplicate"
+921 "duplicate paging"
+922 "durable paper"
+923 "dust cover"
+924 "dust jacket"
+925 "DVD"
+926 "dwarf book"
+927 "dynamic map"
+928 "e-book"
+929 "e-conference"
+930 "e-journal"
+931 "e-mail"
+932 "e-mail address"
+933 "e-reserves"
+934 "e-zine"
+935 "easel"
+936 "easy book"
+937 "EBSCO"
+938 "editing"
+939 "edition"
+940 "edition binding"
+941 "editor"
+942 "editorial"
+943 "editorialize"
+944 "eggshell"
+945 "electronic book"
+946 "electronic conference"
+947 "electronic discussion list"
+948 "electronic journal"
+949 "electronic magazine"
+950 "electronic mail"
+951 "electronic publishing"
+952 "electronic reserves"
+953 "electronic style"
+954 "elegy"
+955 "element"
+956 "elephant folio"
+957 "elhi book"
+958 "elision"
+959 "ellipsis"
+960 "emblem book"
+961 "embossed"
+962 "emendation"
+963 "emergency plan"
+964 "encapsulation"
+965 "enchiridion"
+966 "encoding"
+967 "encryption"
+968 "encumbrance"
+969 "encyclopedia"
+970 "end matter"
+971 "end panel"
+972 "end-user"
+973 "end-user search"
+974 "endnote"
+975 "endowment"
+976 "endpaper"
+977 "enlarged edition"
+978 "enlargement"
+979 "entry"
+980 "entry word"
+981 "enumerative classification"
+982 "ephemera"
+983 "epic"
+984 "epigram"
+985 "epigraph"
+986 "epilogue"
+987 "epistle"
+988 "epistolary novel"
+989 "epithet"
+990 "epitome"
+991 "eponym"
+992 "ERIC"
+993 "erotica"
+994 "errata"
+995 "ERT"
+996 "ESL"
+997 "esparto"
+998 "essay"
+999 "et al."
+1000 "et seq."
+1001 "etc."
+1002 "Ethernet"
+1003 "etymology"
+1004 "eulogy"
+1005 "ex-library copy"
+1006 "ex libris"
+1007 "exact size"
+1008 "example"
+1009 "excerpt"
+1010 "exchange"
+1011 "exemplar"
+1012 "exemplum"
+1013 "exhibit"
+1014 "exhibit case"
+1015 "exhibit catalog"
+1016 "Exhibits Round Table /ERT/"
+1017 "exit"
+1018 "exit interview"
+1019 "exotics"
+1020 "expanded edition"
+1021 "expert system"
+1022 "explanatory reference"
+1023 "explicit"
+1024 "export"
+1025 "export edition"
+1026 "expurgated"
+1027 "extended binding"
+1028 "extended cover"
+1029 "extended offer"
+1030 "extension"
+1031 "extent"
+1032 "extent of item"
+1033 "extra-illustrated"
+1034 "extract"
+1035 "extract type"
+1036 "extranet"
+1037 "extrapolation"
+1038 "fable"
+1039 "fabliau"
+1040 "face"
+1041 "face up"
+1042 "facetiae"
+1043 "facsimile"
+1044 "facsimile binding"
+1045 "facsimile catalog"
+1046 "facsimile edition"
+1047 "facsimile reprint"
+1048 "facsimile transmission /FAX/"
+1049 "factotum"
+1050 "faculty status"
+1051 "fair copy"
+1052 "fair use"
+1053 "fairy tale"
+1054 "false date"
+1055 "false drop"
+1056 "false imprint"
+1057 "family name"
+1058 "fancy type"
+1059 "fantasy"
+1060 "FAQ"
+1061 "farce"
+1062 "farrago"
+1063 "fascicle"
+1064 "fascicule"
+1065 "FAX"
+1066 "FAXON"
+1067 "feature film"
+1068 "Federal Librarians Round Table /FLRT/"
+1069 "federal library"
+1070 "fee"
+1071 "fee-based service"
+1072 "feedback"
+1073 "Feminist Task Force /FTF/"
+1074 "Festschrift"
+1075 "FIAF"
+1076 "fiber optics"
+1077 "fiche"
+1078 "fiction"
+1079 "fictitious imprint"
+1080 "figure"
+1081 "figure initial"
+1082 "file name"
+1083 "file server"
+1084 "file type"
+1085 "filename"
+1086 "filigree"
+1087 "filing title"
+1088 "filing word"
+1089 "fillet"
+1090 "film"
+1091 "film clip"
+1092 "film library"
+1093 "filmstrip"
+1094 "filmstrip projector"
+1095 "filter"
+1096 "filtering"
+1097 "finding list"
+1098 "fine copy"
+1099 "fine edition"
+1100 "fines"
+1101 "finis"
+1102 "finish"
+1103 "finishing"
+1104 "firewall"
+1105 "firm order"
+1106 "first edition"
+1107 "first folio"
+1108 "first impression"
+1109 "first issue"
+1110 "first-line index"
+1111 "first name"
+1112 "firsts"
+1113 "FirstSearch"
+1114 "fixed location"
+1115 "fixed shelving"
+1116 "flag"
+1117 "flame"
+1118 "flannel board"
+1119 "flap"
+1120 "flash card"
+1121 "flat back"
+1122 "flexible binding"
+1123 "flicker book"
+1124 "floppy"
+1125 "floppy disk"
+1126 "flourish"
+1127 "FLRT"
+1128 "flush"
+1129 "flush binding"
+1130 "flush cover"
+1131 "fly-title"
+1132 "flyleaf"
+1133 "fog index"
+1134 "FOIA"
+1135 "FOL"
+1136 "fold"
+1137 "folded book"
+1138 "folder"
+1139 "Folger Shakespeare Library"
+1140 "foliate initial"
+1141 "foliation"
+1142 "folio"
+1143 "folklore"
+1144 "folktale"
+1145 "FOLUSA"
+1146 "font"
+1147 "foot"
+1148 "footline"
+1149 "footnote"
+1150 "fore-edge"
+1151 "fore-edge painting"
+1152 "foreign subsidiary"
+1153 "forename"
+1154 "forename entry"
+1155 "foreword"
+1156 "forgery"
+1157 "form"
+1158 "form of entry"
+1159 "form subheading"
+1160 "format"
+1161 "forthcoming"
+1162 "Forthcoming Books"
+1163 "foxing"
+1164 "frame"
+1165 "Frankfurt Book Fair"
+1166 "free hand"
+1167 "free-standing shelving"
+1168 "free-text searching"
+1169 "freedom of information"
+1170 "Freedom to Read Foundation /FTRF/"
+1171 "Freedom to Read Statement"
+1172 "freelance"
+1173 "freeware"
+1174 "frequency"
+1175 "Friends of Libraries USA /FOLUSA/"
+1176 "Friends of the Library /FOL/"
+1177 "front matter"
+1178 "front page"
+1179 "frontis"
+1180 "frontispiece"
+1181 "frontlist"
+1182 "FTF"
+1183 "FTP"
+1184 "fugitive material"
+1185 "fulfillment year"
+1186 "full binding"
+1187 "full-color printing"
+1188 "full-duplex"
+1189 "full-motion video"
+1190 "full-page"
+1191 "full-text"
+1192 "fumigation"
+1193 "Gale"
+1194 "galley proof"
+1195 "galleys"
+1196 "game"
+1197 "gatefold"
+1198 "gateway"
+1199 "gathering"
+1200 "Gay, Lesbian, Bisexual, and Transgendered Round Table /GLBTRT/"
+1201 "Gaylord"
+1202 "gazette"
+1203 "gazetteer"
+1204 "genealogical table"
+1205 "genealogy"
+1206 "general encyclopedia"
+1207 "general material designation /GMD/"
+1208 "generalia"
+1209 "genre"
+1210 "geographic name"
+1211 "geographic subdivision"
+1212 "geological survey"
+1213 "German Library Association /DBV/"
+1214 "ghost"
+1215 "ghost writer"
+1216 "gift"
+1217 "giftbook"
+1218 "gigabyte /GB/"
+1219 "gilt edges"
+1220 "given name"
+1221 "glassine"
+1222 "GLBTRT"
+1223 "globe"
+1224 "gloss"
+1225 "glossary"
+1226 "glossy"
+1227 "GMD"
+1228 "GODORT"
+1229 "gone to press"
+1230 "gothic"
+1231 "gothic novel"
+1232 "government documents"
+1233 "Government Documents Round Table /GODORT/"
+1234 "GPO"
+1235 "grace period"
+1236 "graduate library"
+1237 "grain"
+1238 "grangerized"
+1239 "grant"
+1240 "grant-in-aid"
+1241 "graphical user interface /GUI/"
+1242 "graphics"
+1243 "gray literature"
+1244 "green paper"
+1245 "Greenaway Medal"
+1246 "grey literature"
+1247 "groupware"
+1248 "guard"
+1249 "GUI"
+1250 "guidebook"
+1251 "guillotine"
+1252 "Gutenberg, Johann, c. 1399-1468"
+1253 "gutter"
+1254 "gutting"
+1255 "H. W. Wilson"
+1256 "hacker"
+1257 "hagiography"
+1258 "half binding"
+1259 "half cloth"
+1260 "half-duplex"
+1261 "half leather"
+1262 "half-title"
+1263 "half uncial"
+1264 "hand-binding"
+1265 "handbill"
+1266 "handbook"
+1267 "hands-on"
+1268 "hanging indention"
+1269 "hard copy"
+1270 "hard disk"
+1271 "hardcover"
+1272 "hardware"
+1273 "head"
+1274 "headband"
+1275 "headcap"
+1276 "heading"
+1277 "headline"
+1278 "headnote"
+1279 "headpiece"
+1280 "health sciences library"
+1281 "hearings"
+1282 "help screen"
+1283 "Her Majesty's Stationery Office /HMSO/"
+1284 "heuristic"
+1285 "hierarchical classification"
+1286 "hieroglyphics"
+1287 "hieronym"
+1288 "high-level domain"
+1289 "Highsmith Inc."
+1290 "hinge"
+1291 "historiated initial"
+1292 "historical bibliography"
+1293 "historical fiction"
+1294 "historical society"
+1295 "history"
+1296 "history of the book"
+1297 "hit"
+1298 "hits"
+1299 "HMSO"
+1300 "hold"
+1301 "holdings"
+1302 "holdings note"
+1303 "holdings rate"
+1304 "hollow"
+1305 "holograph"
+1306 "homepage"
+1307 "homily"
+1308 "homograph"
+1309 "homonym"
+1310 "homophone"
+1311 "honorific title"
+1312 "horn book"
+1313 "Horn Book Magazine"
+1314 "hornbook"
+1315 "hors texte"
+1316 "hospital library"
+1317 "hospitality"
+1318 "host"
+1319 "host organization"
+1320 "hot spot"
+1321 "house organ"
+1322 "house style"
+1323 "how-to-do-it publication"
+1324 "HTML"
+1325 "http://"
+1326 "hybrid journal"
+1327 "hyperlink"
+1328 "hypermedia"
+1329 "hypertext"
+1330 "Hypertext Markup Language /HTML/"
+1331 "hyphen"
+1332 "ibid."
+1333 "ICIC"
+1334 "icon"
+1335 "iconography"
+1336 "ideal copy"
+1337 "ideogram"
+1338 "ideograph"
+1339 "idiom"
+1340 "idyll"
+1341 "i.e."
+1342 "IFCS"
+1343 "IFLA"
+1344 "IFLAI "
+1345 "IFRT"
+1346 "ILAB"
+1347 "ILL"
+1348 "illiteracy"
+1349 "illuminate"
+1350 "illuminated"
+1351 "illuminated initial"
+1352 "illustration"
+1353 "illustrator"
+1354 "imbrication"
+1355 "imitation binding"
+1356 "imperfect"
+1357 "imperfections"
+1358 "import"
+1359 "impression"
+1360 "imprimatur"
+1361 "imprint"
+1362 "imprint date"
+1363 "in-cut note"
+1364 "in press"
+1365 "in print"
+1366 "in process"
+1367 "in progress"
+1368 "in quires"
+1369 "in sheets"
+1370 "in stock"
+1371 "incipit"
+1372 "incunabula"
+1373 "indent"
+1374 "indention"
+1375 "emIndependent Publisher"
+1376 "index"
+1377 "Index Expurgatorius"
+1378 "Index Librorum Prohibitorum"
+1379 "index map"
+1380 "India paper"
+1381 "inedita"
+1382 "inedited"
+1383 "informatics"
+1384 "information"
+1385 "information and referral"
+1386 "information broker"
+1387 "information desk"
+1388 "information ethics"
+1389 "information industry"
+1390 "information law"
+1391 "information literacy"
+1392 "information science"
+1393 "information theory"
+1394 "infringement"
+1395 "Ingram"
+1396 "inhabited initial"
+1397 "initial letter"
+1398 "ink ball"
+1399 "inlay"
+1400 "Innovative Interfaces Inc. /III/"
+1401 "input"
+1402 "inscribed copy"
+1403 "inscription"
+1404 "insert"
+1405 "inset"
+1406 "inset map"
+1407 "inspection copy"
+1408 "installment"
+1409 "installment sale"
+1410 "instant book"
+1411 "Institute for Scientific Information"
+1412 "instruction lab"
+1413 "integral"
+1414 "intellectual freedom"
+1415 "Intellectual Freedom Round Table /IFRT/"
+1416 "intellectual property"
+1417 "interactive"
+1418 "interface"
+1419 "interleaving"
+1420 "interlibrary loan /ILL/"
+1421 "interlinear"
+1422 "intermediary"
+1423 "international copyright"
+1424 "International Copyright Information Centre"
+1425 "International Federation of Classification Societies /IFCS/"
+1426 "International Federation of Film Archives /FIAF/"
+1427 "International Federation of Library Associations and Institutions /IFLA/"
+1428 "International League of Antiquarian Booksellers /ILAB/"
+1429 "International Organization for Standardization /ISO/"
+1430 "International Relations Round Table /IRRT/"
+1431 "International Serials Data System /ISDS/"
+1432 "International Standard Bibliographic Description /ISBD/"
+1433 "International Standard Book Number /ISBN/"
+1434 "International Standard Serial Number /ISSN/"
+1435 "Internet"
+1436 "Internet address"
+1437 "Internet Explorer"
+1438 "Internet service provider /ISP/"
+1439 "intern"
+1440 "internship"
+1441 "interpolation"
+1442 "intralibrary loan"
+1443 "intranet"
+1444 "introduction"
+1445 "introductory offer"
+1446 "introductory price"
+1447 "introductory title"
+1448 "inventory"
+1449 "inverted heading"
+1450 "inverted title"
+1451 "invoice"
+1452 "invoice symbol"
+1453 "IP address"
+1454 "IRRT"
+1455 "ISBD"
+1456 "ISBN"
+1457 "ISDS"
+1458 "ISI"
+1459 "ISO"
+1460 "ISP"
+1461 "ISSN"
+1462 "issue"
+1463 "issue date"
+1464 "issue number"
+1465 "italics"
+1466 "item"
+1467 "item record"
+1468 "jacket"
+1469 "Java"
+1470 "jestbook"
+1471 "job description"
+1472 "job lot"
+1473 "jobber"
+1474 "joint"
+1475 "joint author"
+1476 "journal"
+1477 "journal pagination"
+1478 "journalism"
+1479 "JPEG"
+1480 "JSTOR"
+1481 "jukebox"
+1482 "jump page"
+1483 "justification"
+1484 "justified"
+1485 "juvenalia"
+1486 "juvenile collection"
+1487 "keep down"
+1488 "keep up"
+1489 "keepsake"
+1490 "key title"
+1491 "keyboard"
+1492 "keypad"
+1493 "keyword index"
+1494 "keyword/s/"
+1495 "kilobyte"
+1496 "kit"
+1497 "kiosk"
+1498 "knowledge"
+1499 "known-item search"
+1500 "Kunstlerroman"
+1501 "LA"
+1502 "lab"
+1503 "lab manual"
+1504 "lacuna"
+1505 "lai"
+1506 "laid in"
+1507 "laid paper"
+1508 "LAMA"
+1509 "lamination"
+1510 "lampoon"
+1511 "LAN"
+1512 "language dictionary"
+1513 "laptop"
+1514 "large print"
+1515 "laser disk"
+1516 "law binding"
+1517 "law library"
+1518 "lay"
+1519 "layout"
+1520 "LC"
+1521 "LCC"
+1522 "LCD"
+1523 "lead-in title"
+1524 "lead-in vocabulary"
+1525 "leaf"
+1526 "leaflet"
+1527 "learning resources center /LRC/"
+1528 "leather bound"
+1529 "lectern"
+1530 "lectionary"
+1531 "legend"
+1532 "legible"
+1533 "legibility"
+1534 "legible"
+1535 "legislative reference service"
+1536 "letter to the editor"
+1537 "lettering"
+1538 "level of description"
+1539 "lexicography"
+1540 "lexicology"
+1541 "lexicon"
+1542 "LHRT"
+1543 "libel"
+1544 "librarian"
+1545 "Librarian of Congress"
+1546 "librariana"
+1547 "librarianship"
+1548 "library"
+1549 "library administration"
+1550 "Library Administration and Management Association /LAMA/"
+1551 "Library and Information Science Technology Association /LITA/"
+1552 "library association"
+1553 "Library Association /LA/"
+1554 "Library Bill of Rights"
+1555 "library binding"
+1556 "library card"
+1557 "library collection"
+1558 "library conference"
+1559 "library consortium"
+1560 "library director"
+1561 "library district"
+1562 "library edition"
+1563 "library education"
+1564 "library equipment"
+1565 "library historian"
+1566 "Library History Round Table /LHRT/"
+1567 "library hours"
+1568 "library instruction"
+1569 "Library Instruction Round Table /LIRT/"
+1570 "library journal"
+1571 "Library Journal"
+1572 "Library Literature"
+1573 "library market"
+1574 "Library of Congress /LC/"
+1575 "Library of Congress Classification /LCC/"
+1576 "library rate"
+1577 "Library of Congress subject heading /LCSH/"
+1578 "library research"
+1579 "Library Research Round Table /LRRT/"
+1580 "library school"
+1581 "library science"
+1582 "Library Services and Construction Act /LSCA/"
+1583 "library staff"
+1584 "library supplies"
+1585 "library survey"
+1586 "library system"
+1587 "library trustee"
+1588 "libretto"
+1589 "Libweb"
+1590 "license"
+1591 "licensing agreement"
+1592 "lifelong learning"
+1593 "lightface"
+1594 "lilliput edition"
+1595 "limited edition"
+1596 "limp binding"
+1597 "line-item budget"
+1598 "link"
+1599 "link checking"
+1600 "LIRT"
+1601 "LIS"
+1602 "list price"
+1603 "LISTSERV"
+1604 "LITA"
+1605 "literacy"
+1606 "literal"
+1607 "literary agent"
+1608 "literary award"
+1609 "literary epic"
+1610 "literary magazine"
+1611 "literary prize"
+1612 "literary warrant"
+1613 "literary work"
+1614 "literati"
+1615 "literature"
+1616 "literature review"
+1617 "literature search"
+1618 "litterateur"
+1619 "little magazine"
+1620 "loan desk"
+1621 "loan period"
+1622 "loc cit."
+1623 "local area network /LAN/"
+1624 "local bibliography"
+1625 "local collection"
+1626 "location code"
+1627 "location symbol"
+1628 "LOEX"
+1629 "log off"
+1630 "log on"
+1631 "logo"
+1632 "logoff"
+1633 "logon"
+1634 "long-playing record /LP/"
+1635 "longitudinal study"
+1636 "loose-leaf"
+1637 "lost"
+1638 "lowercase"
+1639 "LP"
+1640 "LRC"
+1641 "LRRT"
+1642 "LSCA"
+1643 "lurk"
+1644 "lyric"
+1645 "lyricist"
+1646 "lyrics"
+1647 "machine-readable"
+1648 "MAchine-Readable Cataloging /MARC/"
+1649 "machine-readable data file /MRDF/"
+1650 "Macintosh"
+1651 "macro"
+1652 "macroform"
+1653 "made-up copy"
+1654 "magazine"
+1655 "MAGERT"
+1656 "magnetic disk"
+1657 "magnetic strip"
+1658 "magnum opus"
+1659 "mailing list"
+1660 "main entry"
+1661 "main heading"
+1662 "main library"
+1663 "mainframe"
+1664 "majordomo"
+1665 "majuscule"
+1666 "make-up"
+1667 "manifesto"
+1668 "manual"
+1669 "manufacturer"
+1670 "manuscript"
+1671 "manuscript book"
+1672 "map"
+1673 "Map and Geography Round Table /MAGERT/"
+1674 "map index"
+1675 "map library"
+1676 "map series"
+1677 "marbling"
+1678 "MARC"
+1679 "margin"
+1680 "marginal note"
+1681 "marginalia"
+1682 "masque"
+1683 "mass-market paperback"
+1684 "masterpiece"
+1685 "masthead"
+1686 "material specific details area"
+1687 "materials budget"
+1688 "mathematical data area"
+1689 "media"
+1690 "media center"
+1691 "media specialist"
+1692 "mediated search"
+1693 "medical library"
+1694 "Medical Library Association /MLA/"
+1695 "medium"
+1696 "mediumistic writing"
+1697 "megabyte /MB/"
+1698 "MegaHertz /MHz/"
+1699 "melodrama"
+1700 "memoir"
+1701 "memoirs"
+1702 "memorabilia"
+1703 "memory"
+1704 "mending"
+1705 "mentor"
+1706 "menu"
+1707 "menu bar"
+1708 "menu-driven"
+1709 "meta-index"
+1710 "metadata"
+1711 "MHz"
+1712 "microchip"
+1713 "microcomputer"
+1714 "microfiche"
+1715 "microfilm"
+1716 "microform"
+1717 "microopaque"
+1718 "microprocessor"
+1719 "migrate"
+1720 "mildew"
+1721 "miniature"
+1722 "miniature edition"
+1723 "minicomputer"
+1724 "mint"
+1725 "minuscule"
+1726 "miracle play"
+1727 "mirror"
+1728 "misbound"
+1729 "missal"
+1730 "missing"
+1731 "missing copy"
+1732 "mixed notation"
+1733 "mixed responsibility"
+1734 "MLA"
+1735 "MLA style"
+1736 "M.L.I.S."
+1737 "M.L.S."
+1738 "mobile library"
+1739 "mock-up"
+1740 "model"
+1741 "modem"
+1742 "monitor"
+1743 "monochrome plate"
+1744 "monograph"
+1745 "monographic series"
+1746 "monologue"
+1747 "monthly"
+1748 "morality play"
+1749 "morgue"
+1750 "morocco"
+1751 "motion picture"
+1752 "mouse"
+1753 "movable type"
+1754 "MPEG"
+1755 "MRDF"
+1756 "multicast"
+1757 "multimedia"
+1758 "multimedia item"
+1759 "multipart volume"
+1760 "multiple access"
+1761 "multiple user access"
+1762 "multitasking"
+1763 "museum library"
+1764 "music library"
+1765 "Music Library Association /MLA/"
+1766 "music listening room"
+1767 "musical presentation statement"
+1768 "musical work"
+1769 "mutilation"
+1770 "mystery"
+1771 "mystery play"
+1772 "myth"
+1773 "NAGARA"
+1774 "NAL"
+1775 "name authority file"
+1776 "name index"
+1777 "name-title added entry"
+1778 "NARA"
+1779 "narration"
+1780 "narrative"
+1781 "narrower term /NT or N/"
+1782 "NASIG"
+1783 "National Agricultural Library /NAL/"
+1784 "national archives"
+1785 "National Archives and Records Administration /NARA/"
+1786 "National Association of Government Archives and Records Administrators /NAGARA/"
+1787 "national bibliography"
+1788 "national biography"
+1789 "National Book Award"
+1790 "National Commission on Library and Information Science /NCLIS/"
+1791 "National Federation of Abstracting and Information Services /NFAIS/"
+1792 "National Film Preservation Board /NFPB/"
+1793 "National Film Registry /NFR/"
+1794 "National Genealogical Society /NGS/"
+1795 "National Information Standards Organization /NISO/"
+1796 "national library"
+1797 "National Library of Canada/Bibliotheque nationale du Canada /NLC/BNC/"
+1798 "National Library of Education /NLE/"
+1799 "National Library of Medicine"
+1800 "National Library Service for the Blind and Physically Handicapped /NLS/"
+1801 "National Library Week"
+1802 "National Technical Information Service /NTIS/"
+1803 "natural language"
+1804 "navigation bar"
+1805 "NCLIS"
+1806 "NE"
+1807 "NEP"
+1808 "nesting"
+1809 "net"
+1810 "net net"
+1811 "netiquette"
+1812 "Netscape Navigator"
+1813 "netspeak"
+1814 "network"
+1815 "networking"
+1816 "new book"
+1817 "new edition"
+1818 "new edition pending /NEP/"
+1819 "New Members Round Table /NMRT/"
+1820 "New York Public Library /NYPL/"
+1821 "New York Review of Books"
+1822 "Newbery Medal"
+1823 "newbie"
+1824 "news magazine"
+1825 "newsgroup"
+1826 "newsletter"
+1827 "newspaper"
+1828 "newspaper index"
+1829 "newspaper library"
+1830 "newsprint"
+1831 "NFAIS"
+1832 "NFPB"
+1833 "NFR"
+1834 "NGS"
+1835 "niche publishing"
+1836 "nickname"
+1837 "NISO"
+1838 "NLE"
+1839 "NLM"
+1840 "NLS"
+1841 "NMRT"
+1842 "no date"
+1843 "Nobel Prize in Literature"
+1844 "nom de plume"
+1845 "non-net"
+1846 "nonbook"
+1847 "noncirculating"
+1848 "nonfiction"
+1849 "nonprint"
+1850 "nonresident's card"
+1851 "nontrad"
+1852 "nontraditional student"
+1853 "NOP"
+1854 "North American Serials Interest Group /NASIG/"
+1855 "nos"
+1856 "not our publication /NOP/"
+1857 "not returnable /NR/ "
+1858 "not yet published /NYP/"
+1859 "notation"
+1860 "note"
+1861 "note area"
+1862 "notebook"
+1863 "novel"
+1864 "novelette"
+1865 "novelization"
+1866 "novella"
+1867 "NR"
+1868 "NT /or N/"
+1869 "NTIS"
+1870 "number"
+1871 "numbered copy"
+1872 "numeric and/or alphabetic, chronological, or other designation area"
+1873 "nursery rhyme"
+1874 "NYP"
+1875 "NYPL"
+1876 "Oak Knoll"
+1877 "obituary"
+1878 "object"
+1879 "oblong"
+1880 "obscenity"
+1881 "OC"
+1882 "OCLC"
+1883 "OCR"
+1884 "octavo /8vo/"
+1885 "ode"
+1886 "off-site storage"
+1887 "official title"
+1888 "offline"
+1889 "offprint"
+1890 "omnibus book"
+1891 "omnibus review"
+1892 "on approval"
+1893 "on-demand publishing"
+1894 "on sale or return"
+1895 "one-act play"
+1896 "one-person library"
+1897 "onlay"
+1898 "online"
+1899 "online bookstore"
+1900 "online catalog"
+1901 "Online Computer Library Center, Inc. /OCLC/"
+1902 "online services"
+1903 "online tutorial"
+1904 "OP"
+1905 "op. cit."
+1906 "OPAC"
+1907 "opacity"
+1908 "open entry"
+1909 "open reserve"
+1910 "open stacks"
+1911 "Open Systems Interconnection /OSI/"
+1912 "opened"
+1913 "opening"
+1914 "operating budget"
+1915 "operating system /OS/"
+1916 "OPP"
+1917 "optical character recognition /OCR/"
+1918 "optical disk"
+1919 "optical fiber"
+1920 "optical scanner"
+1921 "option"
+1922 "opus number"
+1923 "oral history"
+1924 "order cancelled /OC/"
+1925 "order record"
+1926 "original"
+1927 "original binding"
+1928 "original cataloging"
+1929 "orthography"
+1930 "OS"
+1931 "OSI"
+1932 "out"
+1933 "out of print /OP/"
+1934 "out of print at present /OPP/"
+1935 "out of series"
+1936 "out of stock /OS/"
+1937 "outdated"
+1938 "outline"
+1939 "output"
+1940 "outreach"
+1941 "outsourcing"
+1942 "overdue"
+1943 "overdue notice"
+1944 "overhead projector"
+1945 "overhead transparency"
+1946 "overlay"
+1947 "overprint"
+1948 "overs"
+1949 "oversize"
+1950 "overstock"
+1951 "Ovid Technologies"
+1952 "ownership mark"
+1953 "packet switching"
+1954 "page"
+1955 "page break"
+1956 "page head"
+1957 "page proof"
+1958 "pagination"
+1959 "paleography"
+1960 "palimpsest"
+1961 "pamphlet"
+1962 "pamphlet binding"
+1963 "pamphlet file"
+1964 "panel"
+1965 "paper"
+1966 "paper boards"
+1967 "paperback"
+1968 "paperbound"
+1969 "papermark"
+1970 "papers"
+1971 "papyrus"
+1972 "parable"
+1973 "parallel edition"
+1974 "parallel publishing"
+1975 "parallel texts"
+1976 "parallel title"
+1977 "patronymic"
+1978 "paraph"
+1979 "paraphrase"
+1980 "paraprofessional"
+1981 "parchment"
+1982 "parenthetical qualifier"
+1983 "Paris Principles"
+1984 "parody"
+1985 "part"
+1986 "partial remainders"
+1987 "partial title"
+1988 "parts of a book"
+1989 "passim"
+1990 "password"
+1991 "paste-down"
+1992 "paste-in"
+1993 "paste-up"
+1994 "pasteboard"
+1995 "patent"
+1996 "patent and trademark depository library"
+1997 "Patent and Trademark Depository Library Association /PTDLA/"
+1998 "patent number"
+1999 "pathfinder"
+2000 "patron"
+2001 "patronymic"
+2002 "patron record"
+2003 "PC"
+2004 "peak use"
+2005 "peer-reviewed"
+2006 "pen name"
+2007 "penny dreadful"
+2008 "per search"
+2009 "perfect binding"
+2010 "performer"
+2011 "period bibliography"
+2012 "period division"
+2013 "period printing"
+2014 "period subdivision"
+2015 "periodical"
+2016 "periodical index"
+2017 "periodical stand"
+2018 "peripheral"
+2019 "permanent paper"
+2020 "permission"
+2021 "permissions copy"
+2022 "permuted index"
+2023 "personal author"
+2024 "personal computer /PC/"
+2025 "personal papers"
+2026 "personal Web page"
+2027 "phonograph record"
+2028 "photocopier"
+2029 "photocopy"
+2030 "photograph"
+2031 "photomontage"
+2032 "photomosaic"
+2033 "phylactery"
+2034 "physical carrier"
+2035 "physical description"
+2036 "physical processing"
+2037 "pictorial"
+2038 "pictorial dictionary"
+2039 "pictorial map"
+2040 "picture"
+2041 "picture book"
+2042 "picture file"
+2043 "picture library"
+2044 "picture storybook"
+2045 "piece"
+2046 "Pierpont Morgan Library"
+2047 "pigskin"
+2048 "pilot study"
+2049 "pipe roll"
+2050 "piracy"
+2051 "pirated edition"
+2052 "pixel"
+2053 "PLA"
+2054 "placard"
+2055 "place name"
+2056 "plagiarism"
+2057 "plan"
+2058 "plaquette"
+2059 "plate"
+2060 "platform"
+2061 "play"
+2062 "playwright"
+2063 "plot"
+2064 "plug"
+2065 "pochoir"
+2066 "pocket"
+2067 "pocket edition"
+2068 "pocket part"
+2069 "poet laureate"
+2070 "poetry"
+2071 "point"
+2072 "point of access"
+2073 "point of service"
+2074 "point-of-use instruction"
+2075 "pointille"
+2076 "polaire"
+2077 "polemic"
+2078 "political name"
+2079 "polyglot"
+2080 "polyglot dictionary"
+2081 "pop-up book"
+2082 "popular edition"
+2083 "popular fiction"
+2084 "popular name"
+2085 "popular press"
+2086 "pornography"
+2087 "port"
+2088 "portability"
+2089 "portfolio"
+2090 "portrait"
+2091 "position description"
+2092 "position title"
+2093 "post binding"
+2094 "post-coordinate indexing"
+2095 "postdated"
+2096 "poster"
+2097 "posthumous"
+2098 "potboiler"
+2099 "power down"
+2100 "practicum"
+2101 "praeses"
+2102 "pre-coordinate indexing"
+2103 "pre-library bound"
+2104 "pre-order searching"
+2105 "preamble"
+2106 "prebound"
+2107 "precis"
+2108 "precision"
+2109 "predominant name"
+2110 "preface"
+2111 "preferred term"
+2112 "prefix"
+2113 "preliminaries"
+2114 "preliminary edition"
+2115 "prepayment"
+2116 "preprint"
+2117 "prepub"
+2118 "prepublication discount"
+2119 "prepublication price"
+2120 "presentation copy"
+2121 "presentation software"
+2122 "preservation"
+2123 "presidential library"
+2124 "press clipping service"
+2125 "press release"
+2126 "press run"
+2127 "pressure group"
+2128 "primary journal"
+2129 "primary source"
+2130 "primer"
+2131 "princeps edition"
+2132 "print"
+2133 "printer"
+2134 "printing"
+2135 "printing press"
+2136 "printout"
+2137 "prison library"
+2138 "privacy"
+2139 "private library"
+2140 "private press"
+2141 "privately published"
+2142 "problem patron"
+2143 "proceedings"
+2144 "processing"
+2145 "processing center"
+2146 "producer"
+2147 "production company"
+2148 "profile"
+2149 "prolegomenon"
+2150 "prologue"
+2151 "prompt"
+2152 "promptbook"
+2153 "proof"
+2154 "proof impression"
+2155 "proof print"
+2156 "proofreading"
+2157 "propaganda"
+2158 "proprietary library"
+2159 "prose"
+2160 "prospectus"
+2161 "protocol"
+2162 "provenance"
+2163 "proverb"
+2164 "provisional edition"
+2165 "proximity"
+2166 "proxy server"
+2167 "pseudandry"
+2168 "pseudo-serial"
+2169 "pseudonym"
+2170 "psychological novel"
+2171 "PTDLA"
+2172 "public domain"
+2173 "public library"
+2174 "Public Library Association"
+2175 "public services"
+2176 "publication"
+2177 "publication date"
+2178 "publication history"
+2179 "publication schedule"
+2180 "published price"
+2181 "publisher"
+2182 "publishers' agreements"
+2183 "publisher's binding"
+2184 "publisher's reader"
+2185 "Publishers Weekly"
+2186 "publishing"
+2187 "puff"
+2188 "puffery"
+2189 "pugillaria"
+2190 "Pulitzer Prize"
+2191 "pull-case"
+2192 "pulp fiction"
+2193 "pulp magazine"
+2194 "purchase order /PO/"
+2195 "pure notation"
+2196 "quantity discount"
+2197 "quarter binding"
+2198 "quarter leather"
+2199 "quarterly"
+2200 "quarto /4to/"
+2201 "query"
+2202 "queue"
+2203 "quire"
+2204 "quotation"
+2205 "R. R. Bowker"
+2206 "rag paper"
+2207 "ragged"
+2208 "RAM"
+2209 "ramie"
+2210 "Random Access Memory /RAM/"
+2211 "range"
+2212 "ranking"
+2213 "rare book"
+2214 "Rare Books and Manuscripts Section /RBMS/"
+2215 "rarity"
+2216 "RBMS"
+2217 "Read Only Memory /ROM/"
+2218 "readable"
+2219 "reader"
+2220 "reader-printer"
+2221 "readers' adviser"
+2222 "readership"
+2223 "reading copy"
+2224 "reading group"
+2225 "reading level"
+2226 "reading list"
+2227 "Reading Rainbow"
+2228 "reading room"
+2229 "ready reference"
+2230 "real time"
+2231 "realia"
+2232 "ream"
+2233 "rebacked"
+2234 "rebinding"
+2235 "reboot"
+2236 "recall"
+2237 "recased"
+2238 "recataloging"
+2239 "receiving"
+2240 "recension"
+2241 "recently returned"
+2242 "recessed monitor"
+2243 "reciprocal borrowing privileges"
+2244 "reclassification"
+2245 "recon"
+2246 "record"
+2247 "record structure"
+2248 "recruitment"
+2249 "recto"
+2250 "recycled paper"
+2251 "redaction"
+2252 "refereed"
+2253 "reference"
+2254 "Reference and User Services Association /RUSA/"
+2255 "reference book"
+2256 "Reference Books Bulletin"
+2257 "reference collection"
+2258 "reference desk"
+2259 "reference interview"
+2260 "reference librarian"
+2261 "reference mark"
+2262 "reference question"
+2263 "reference source"
+2264 "reference stacks"
+2265 "regional library"
+2266 "register"
+2267 "reinforced binding"
+2268 "reissue"
+2269 "reject"
+2270 "rejection slip"
+2271 "related body"
+2272 "related term /RT or R/"
+2273 "relevancy"
+2274 "relief map"
+2275 "remainder binding"
+2276 "remainder mark"
+2277 "remainders"
+2278 "remake"
+2279 "remboite"
+2280 "remote access"
+2281 "removes"
+2282 "renew"
+2283 "renewal"
+2284 "rental collection"
+2285 "repairing"
+2286 "replacement"
+2287 "replevin"
+2288 "replica"
+2289 "report"
+2290 "repository"
+2291 "reprint"
+2292 "reproduction"
+2293 "reprography"
+2294 "republication"
+2295 "requisition"
+2296 "research"
+2297 "research collection"
+2298 "research guide"
+2299 "Research Libraries Group /RLG/"
+2300 "Research Libraries Information Network /RLIN/"
+2301 "research library"
+2302 "researcher"
+2303 "reserves"
+2304 "reshelving"
+2305 "reshelving cart"
+2306 "residuum"
+2307 "resolution"
+2308 "resource sharing"
+2309 "respondent"
+2310 "response time"
+2311 "restoration"
+2312 "restricted access"
+2313 "resume"
+2314 "retrospective bibliography"
+2315 "retrospective conversion"
+2316 "retrospective search"
+2317 "returns"
+2318 "review"
+2319 "review copy"
+2320 "review publication"
+2321 "revised edition"
+2322 "rewrite"
+2323 "rhyming dictionary"
+2324 "riddle"
+2325 "ring binding"
+2326 "RLG"
+2327 "RLIN"
+2328 "road atlas"
+2329 "roll"
+2330 "ROM"
+2331 "roman"
+2332 "roman a clef"
+2333 "roman-fleuve"
+2334 "romance"
+2335 "romanization"
+2336 "rotated index"
+2337 "rough edges"
+2338 "round table"
+2339 "rounding"
+2340 "router"
+2341 "routine"
+2342 "routing"
+2343 "roving"
+2344 "royalty"
+2345 "RT /or R/"
+2346 "rubric"
+2347 "rule"
+2348 "rums"
+2349 "run"
+2350 "rune"
+2351 "runners"
+2352 "running foot"
+2353 "running head"
+2354 "running title"
+2355 "rural library"
+2356 "RUSA"
+2357 "rush order"
+2358 "rush processing"
+2359 "rustic capital"
+2360 "SAA"
+2361 "saga"
+2362 "same size"
+2363 "sans-serif"
+2364 "satire"
+2365 "save"
+2366 "scale"
+2367 "scanner"
+2368 "scenario"
+2369 "schematic"
+2370 "school library"
+2371 "science fiction"
+2372 "scope"
+2373 "scope note /SN/"
+2374 "score"
+2375 "screenplay"
+2376 "scribal copy"
+2377 "scribe"
+2378 "scrinium"
+2379 "script"
+2380 "scriptorium"
+2381 "scroll"
+2382 "SDI"
+2383 "search engine"
+2384 "search history"
+2385 "search service"
+2386 "search software"
+2387 "search statement"
+2388 "search strategy"
+2389 "search term"
+2390 "Sears subject heading"
+2391 "second-hand book"
+2392 "second-hand bookstore"
+2393 "secondary binding"
+2394 "secondary entry"
+2395 "secondary source"
+2396 "section"
+2397 "security"
+2398 "security system"
+2399 ""
+2400 ""
+2401 "selection"
+2402 "selective bibliography"
+2403 "selective dissemination of information /SDI/"
+2404 "self-cover"
+2405 "self end"
+2406 "self-help publication"
+2407 "self-publishing"
+2408 "self-service"
+2409 "self-wrapper"
+2410 "semantics"
+2411 "semiannual"
+2412 "semimonthly"
+2413 "seminal"
+2414 "semiotics"
+2415 "semiweekly"
+2416 "separately paginated"
+2417 "sequel"
+2418 "serendipity"
+2419 "serial"
+2420 "serial catalog"
+2421 "serial number"
+2422 "serial record"
+2423 "serial rights"
+2424 "serials desk"
+2425 "series"
+2426 "series area"
+2427 "series title"
+2428 "series title page"
+2429 "serif"
+2430 "server"
+2431 "service area"
+2432 "service point"
+2433 "set"
+2434 "sextodecimo /16mo/"
+2435 "SGML"
+2436 "shaken"
+2437 "shared responsibility"
+2438 "shareware"
+2439 "sharing violation"
+2440 "SHARP"
+2441 "shaved"
+2442 "sheet"
+2443 "sheet map"
+2444 "shelf dummy"
+2445 "shelf guide"
+2446 "shelf height"
+2447 "shelf life"
+2448 "shelf reading"
+2449 "shelflist"
+2450 "shifting"
+2451 "shipping"
+2452 "short discount"
+2453 "short novel"
+2454 "short short story"
+2455 "short story"
+2456 "shouting"
+2457 "show through"
+2458 "SIC"
+2459 "side note"
+2460 "side title"
+2461 "signage"
+2462 "signature"
+2463 "signed"
+2464 "signet"
+2465 "SilverPlatter"
+2466 "simplex"
+2467 "simplified edition"
+2468 "simultaneous user"
+2469 "sinkage"
+2470 "sized"
+2471 "sketch"
+2472 "s.l."
+2473 "SLA"
+2474 "slander"
+2475 "slang"
+2476 "sleeper"
+2477 "sleeve"
+2478 "slick"
+2479 "slide"
+2480 "slide projector"
+2481 "slide viewer"
+2482 "slipcase"
+2483 "small capital"
+2484 "smiley"
+2485 "SMTP"
+2486 "s.n."
+2487 "SN"
+2488 "sobriquet"
+2489 "Social Responsibilities Round Table /SRRT/"
+2490 "society"
+2491 "Society for the History of Authorship, Reading and Publishing /SHARP/ "
+2492 "Society of American Archivists /SAA/"
+2493 "softcover"
+2494 "software"
+2495 "solander"
+2496 "soliloquy"
+2497 "solo librarian"
+2498 "songster"
+2499 "sonnet"
+2500 "sorting"
+2501 "sound recording"
+2502 "sound track"
+2503 "source"
+2504 "source document"
+2505 "source field"
+2506 "spam"
+2507 "special collections"
+2508 "special edition"
+2509 "special issue"
+2510 "Special Libraries Association /SLA/"
+2511 "special library"
+2512 "special order"
+2513 "specific entry"
+2514 "specific material designation"
+2515 "specifications"
+2516 "specimen case"
+2517 "spell-checker"
+2518 "spider"
+2519 "spine"
+2520 "spine label"
+2521 "spine title"
+2522 "spiral binding"
+2523 "spoilage"
+2524 "sponsor"
+2525 "sprinkled"
+2526 "spurious work"
+2527 "squares"
+2528 "SRRT"
+2529 "SSIRT"
+2530 "stack capacity"
+2531 "stack maintenance"
+2532 "stacks"
+2533 "stand-alone"
+2534 "standard"
+2535 "Standard Generalized Markup Language /SGML/"
+2536 "standard list"
+2537 "standard number"
+2538 "standard number and terms of availability"
+2539 "standard subdivision"
+2540 "standard title"
+2541 "standard work"
+2542 "standardization"
+2543 "standards"
+2544 "standing committee"
+2545 "standing order"
+2546 "state"
+2547 "state library"
+2548 "state manual"
+2549 "statement of responsibility"
+2550 "stationer"
+2551 "statistical bibliography"
+2552 "statutory copy"
+2553 "steady state"
+2554 "stop list"
+2555 "stop word"
+2556 "storage"
+2557 "storage area"
+2558 "story board"
+2559 "story hour"
+2560 "storytelling"
+2561 "stub"
+2562 "student assistant"
+2563 "style manual"
+2564 "style sheet"
+2565 "stylus"
+2566 "subdirectory"
+2567 "subdivision"
+2568 "subhead"
+2569 "subheading"
+2570 "subject"
+2571 "subject analysis"
+2572 "subject bibliography"
+2573 "subject encyclopedia"
+2574 "subject heading"
+2575 "subject specialist"
+2576 "subordinate body"
+2577 "subplot"
+2578 "subscription"
+2579 "subscription agency"
+2580 "subscription cycle"
+2581 "subscription library"
+2582 "subscription terms"
+2583 "subscription work"
+2584 "subseries"
+2585 "subsidiaries"
+2586 "subsidiary rights"
+2587 "subtitle"
+2588 "SuDocs number"
+2589 "suggestion box"
+2590 "summary"
+2591 "summer reading program"
+2592 "sunned"
+2593 "supercomputer"
+2594 "supplement"
+2595 "supplied title"
+2596 "supplier"
+2597 "support staff"
+2598 "Support Staff Interests Round Table /SSIRT/"
+2599 "suppressed"
+2600 "surf"
+2601 "surname "
+2602 "surrogate"
+2603 "survey"
+2604 "suspense"
+2605 "SVGA"
+2606 "syllabus"
+2607 "syndetic index"
+2608 "syndetic structure"
+2609 "synonym"
+2610 "synopsis"
+2611 "synoptic journal"
+2612 "syntax"
+2613 "systems librarian"
+2614 "tab"
+2615 "table book"
+2616 "table of contents /TOC/"
+2617 "tabloid"
+2618 "tactile materials"
+2619 "tail"
+2620 "tailcap"
+2621 "tailpiece"
+2622 "take down"
+2623 "take-over"
+2624 "tale"
+2625 "talking book"
+2626 "tape recording"
+2627 "task force"
+2628 "tattle-tape"
+2629 "TCP/IP"
+2630 "teacher's manual"
+2631 "tear sheet"
+2632 "technical journal"
+2633 "technical library"
+2634 "technical processing"
+2635 "technical report"
+2636 "technical services"
+2637 "telecommunication"
+2638 "telecommunications"
+2639 "teleconference"
+2640 "Telnet"
+2641 "temporarily out of print /TOP/"
+2642 "temporarily out of stock /TOS/"
+2643 "tenure"
+2644 "terminal"
+2645 "tertiary source"
+2646 "tete-beche"
+2647 "tetrology"
+2648 "text"
+2649 "text block"
+2650 "text type"
+2651 "textbook"
+2652 "textile binding"
+2653 "textual criticism"
+2654 "textura"
+2655 "textus receptus"
+2656 "Theatre Library Association /TLA/"
+2657 "thematic index"
+2658 "thesaurus"
+2659 "thesis"
+2660 "thesis play"
+2661 "thin client"
+2662 "thread"
+2663 "three-quarter binding"
+2664 "throwout"
+2665 "thumb book"
+2666 "thumb index"
+2667 "thumbnail"
+2668 "tight back"
+2669 "timeout"
+2670 "tipped in"
+2671 "title"
+2672 "title and statement of responsibility area"
+2673 "title change"
+2674 "title frame"
+2675 "title leaf"
+2676 "title page"
+2677 "title proper"
+2678 "title screen"
+2679 "titulus"
+2680 "TLA"
+2681 "TOC"
+2682 "tome"
+2683 "toolbar"
+2684 "tooling"
+2685 "TOP"
+2686 "topic"
+2687 "topical guide"
+2688 "TOS"
+2689 "total circulation"
+2690 "total publication"
+2691 "touch screen"
+2692 "touchpad"
+2693 "toy book"
+2694 "toy collection"
+2695 "tracings"
+2696 "tract"
+2697 "trade association"
+2698 "trade binding"
+2699 "trade book"
+2700 "trade catalog"
+2701 "trade edition"
+2702 "trade journal"
+2703 "trade list"
+2704 "trade paperback"
+2705 "trade publisher"
+2706 "trademark"
+2707 "tragedy"
+2708 "tragicomedy"
+2709 "trailer"
+2710 "transaction log"
+2711 "transactions"
+2712 "transcribe"
+2713 "transcript"
+2714 "translation"
+2715 "transliteration"
+2716 "transparency"
+2717 "treatise"
+2718 "trilogy"
+2719 "trimmed"
+2720 "trimming"
+2721 "triptych"
+2722 "true crime story"
+2723 "truncation"
+2724 "trustee"
+2725 "turnaround time"
+2726 "tutorial"
+2727 "type facsimile"
+2728 "type family"
+2729 "type page"
+2730 "type size"
+2731 "typeface"
+2732 "typescript"
+2733 "typesetting"
+2734 "typo"
+2735 "typographical error"
+2736 "typography"
+2737 "UCC"
+2738 "UDC"
+2739 "UF"
+2740 "ULC"
+2741 "ultrafiche"
+2742 "umbilicus"
+2743 "UMI"
+2744 "unabridged"
+2745 "unauthorized edition"
+2746 "unbacked"
+2747 "unbound"
+2748 "uncial"
+2749 "uncut"
+2750 "undergraduate library"
+2751 "underground press"
+2752 "underrun"
+2753 "unexpurgated"
+2754 "unfinished"
+2755 "uniform edition"
+2756 "uniform title"
+2757 "UNIMARC"
+2758 "union catalog"
+2759 "union list"
+2760 "Universal Copyright Convention /UCC/"
+2761 "Universal Decimal Classification /UDC/"
+2762 "Universal Machine-Readable Cataloging /UNIMARC/"
+2763 "university library"
+2764 "university press"
+2765 "UNIX"
+2766 "unlettered"
+2767 "unopened"
+2768 "unpaged"
+2769 "unpaginated"
+2770 "unpublished"
+2771 "unsigned"
+2772 "untouched"
+2773 "untrimmed"
+2774 "unzip"
+2775 "updated version"
+2776 "upgrade"
+2777 "upload"
+2778 "uppercase"
+2779 "Urban Libraries Council /ULC/"
+2780 "URL"
+2781 "usability"
+2782 "use life"
+2783 "used book"
+2784 "used bookstore"
+2785 "used for /UF/"
+2786 "user"
+2787 "user area"
+2788 "user education"
+2789 "user-friendly"
+2790 "user group"
+2791 "user ID"
+2792 "user survey"
+2793 "username"
+2794 "utility"
+2795 "utopian literature"
+2796 "v.p."
+2797 "v.y."
+2798 "vanity press"
+2799 "vanity publisher"
+2800 "variant"
+2801 "variant edition"
+2802 "variorum edition"
+2803 "VDT"
+2804 "vellum"
+2805 "vendor"
+2806 "verbatim"
+2807 "verbatim et literatim"
+2808 "verification"
+2809 "vernacular"
+2810 "vernacular name"
+2811 "versal"
+2812 "version"
+2813 "verso"
+2814 "vertical file"
+2815 "VGA"
+2816 "video clip"
+2817 "Video Round Table /VRT/ "
+2818 "videocassette"
+2819 "videodisc"
+2820 "videorecording"
+2821 "videotape"
+2822 "view"
+2823 "vignette"
+2824 "vinyl"
+2825 "virtual"
+2826 "virtual library"
+2827 "virus"
+2828 "visual dictionary"
+2829 "visual display terminal /VDT/"
+2830 "vocabulary"
+2831 "vocal score"
+2832 "voice mail"
+2833 "volume"
+2834 "volume number"
+2835 "volume rights"
+2836 "volumen"
+2837 "VRT"
+2838 "VT100"
+2839 "Vulgate"
+2840 "w.a.f."
+2841 "wall shelving"
+2842 "wallpaper"
+2843 "WAN"
+2844 "warehouse copy"
+2845 "warm boot"
+2846 "warping"
+2847 "watermark"
+2848 "waterstained"
+2849 "Web"
+2850 "Web browser"
+2851 "Web index"
+2852 "Web page"
+2853 "Web server"
+2854 "Web site"
+2855 "Web-zine"
+2856 "WebDewey"
+2857 "Webmaster"
+2858 "WebPac"
+2859 "weeding"
+2860 "weekly"
+2861 "weight"
+2862 "welcome screen"
+2863 "western"
+2864 "white letter"
+2865 "white paper"
+2866 "wholesaler"
+2867 "wide area network /WAN/"
+2868 "widow"
+2869 "wildcard"
+2870 "Wilson"
+2871 "window"
+2872 "Windows"
+2873 "wireless"
+2874 "withdrawal"
+2875 "witness"
+2876 "woodcut"
+2877 "word processing"
+2878 "work"
+2879 "work form"
+2880 "work in progress"
+2881 "work number"
+2882 "workbook"
+2883 "working title"
+2884 "workmark"
+2885 "worksheet"
+2886 "workstation"
+2887 "World Wide Web /WWW/"
+2888 "worm"
+2889 "wove paper"
+2890 "wrapper"
+2891 "WWW"
+2892 "WYSIWYG"
+2893 "xerography"
+2894 "XR"
+2895 "YA"
+2896 "YA book"
+2897 "Yahoo!"
+2898 "YALSA"
+2899 "yearbook"
+2900 "yellow press"
+2901 "yellowback"
+2902 "yellowing"
+2903 "young adult book"
+2904 "Young Adult Library Services Association /YALSA/"
+2905 "young adult services"
+2906 "Z39.50"
+2907 "zip"
+2908 "Zip disk"
+2909 "Zip drive"
+*Arcslist
+1 119
+2 119
+3 119
+4 190
+5 97
+6 191
+7 98
+8 2702 133 2213 1933 2671 2185 2860 2186 2205 132
+9 99
+10 134
+11 690 40
+12 88 342 2130
+13 835 1548
+14 939 2878 211 1926 2467 2744 15 2590 414 2610 846 990
+15 679 342 174 2289 877 1848 1926 2878 1476 2671 2648 272 560 2590 212 16
+16 1376 560 15 276 979 2186 2134 1716 794 21 211 2570 1494
+17 1548 1384 2296 2301 622 2750 1236 2763 817 192
+18 2764
+19 1544 2296 1050
+20 1548 1586 2886 2134 2854
+21 1557 2878 2134 1716 272 277 2556 1898 22 790 25
+22 2793 1990 21 1814
+23 1276 277 1548 1384
+24 21 1548 1557 555 1420 888 2397 2304 2532
+25 790 1630
+26 29 886 1557 276 37
+27 276 1557 29 2634 1583 1548 1207
+28 342 276 1548 566 572
+29 276 1557 27
+30 1125 502 2479 2630 201 2089 2132 2059 1462 276 2181 2035 277 1548 485
+31 2543 17 520
+32 1580 31 102 2543
+33 1965 2122 2134 2902 2181 2019 2701 802 2122 671
+34 2019
+35 342 211 2878 1177 2110 1155 1444 211 808
+36 37 1548 276 2194 1433 1434
+37 2401 1557 2181 1584 1548 1544 615 2173 17 26 186 1306 1898
+38 192
+39 886 790 2494 2060 2872 1650 2765 2134 2648 1435
+40 11 690 842 1225
+41 11
+42 111
+43 342 938 2322 2878 526 1926 1863 2061 1768 2712 1979 652 119
+44 13
+45 701 276 1557 920
+46 939 276 1557 2671 1548
+47 979 1548 485 1660 1276 1475 1353 2714 2425 2570 1777 2695
+48 2676 485 1544 1384 273 276 2428 119
+49 2134 2594 342 2176 2648 2733 2878 1965 2670 142 994
+50 1436
+51 2009
+52 2165
+53 1115
+54 39
+55 275
+56 2173 1486 2903 2221
+57 701 342 2176 2181 305 398 350 2318 2177 2747 305 2183 1506 2319 2223
+58 211 1816 2176 2344 2181 2182
+59 1816 2177 701 2181 2134
+60 57
+61 305 342 237 11
+62 1672 2030 475 2032
+63 1548 1586 1549 335 412
+64 2134 1965 1237 342 2442 1525
+65 1548 1586 2181 2578 937 1066 2015 1462 1607 1473
+66 176
+67 193
+68 100
+69 387 2211 1583 2000 111 1548 643
+70 194
+71 102
+72 2181 102 1548 1384 701 2671 2186 2176 1106 1306
+73 305 1636 342 1954 2030 2070 2204 1827 582 1702 230 2648 2027 1352 734 681 2134
+74 1548 1167 2841 21
+75 186
+76 1670 2714 1548 1971 2381
+77 931 1651
+78 2213 1933 342 1548 803 1306
+79 2733 1954 1679 1483
+80 185
+81 2176 2833 2181
+82 2134 342 2813 2676 2186 2878 707 1394
+83 2878 1078 2070 85 1972 1038 254
+84 2006 2169 1078 211
+86 125 647 1384 1898
+87 2494 1272 263
+88 526 90 1019
+89 2041 1352 88 1954 1312 731
+90 88 842
+91 92
+92 690 526 88 2793 1990 21
+93 187
+94 188
+95 2181 2176 2489 102 2257 17 2173
+96 2671 2587
+97 1544 2186 2199 1306
+98 102 2370 1691 2905 2186 2199 1476 301 1306
+99 2697 398 2186 125 1266 342 2854 2887
+100 102 1548 1586 1384 1306
+101 2702 1544 2186 102 1462 174 1898 2318 342 1548 2176 364
+102 2173 17 1544 1548 836 2186 2702 101 2320 364 72 2181 1306 2338 456 98 186 187 188 192 197 1550 1551 2174 2254 2904
+103 125 2186 2205 2257 1548 857 1384 434 1557 2507 1814 17 2173 2301 2265 1693 1517 2511 1586 674 1586 2547 1069 90 979 2465 839
+104 576 2542 2543 1429 1581 1392 1795 1306
+105 2134 453 1965 386 1352 2186 265 1476 1306 358
+106 1392 1581 1306
+107 102 1376 15 794 1544 941 2181 2186 2411 1476 301 1826 1306
+108 1544 1547 2186 2199 1306
+109 381 342 2186 211 112 2507
+110 2186 2878 2714 415
+111 1548 69 1418
+112 1384 1615 1702 109 1546 1625
+113 1009
+114 790 966 847 1741
+115 342 2648 211 2186
+116 979 1548 485 2878 524 1744 276 998 614 1613 2186 131 211 2671 2570 117
+117 116 2878 276
+118 116
+119 2542 485 1548 1384 1160 102 1553 1983 1432
+120 476 1242 1703 1189 246 1435 2854
+121 2015 2711 2490 547
+122 282 124 560 2296 2686
+123 939 211 746
+124 1860 282 2372 679 2878 744
+125 1462 131 1352 2419 2176 1462 2899 2070 998 2455 2176 2878 1078
+126 2134 2176 1954 2186 2493 1898 645 862
+127 2419 2176 2878 2186 449
+128 2878 211 485 282 2503 227 141 2526
+129 1183
+130 104
+131 614 1034 2878 211 941 1157 1209 2455 2070 2061 2616 1177 648 118 116
+132 1933 2783 2215 133 8
+133 398 2213 1933 2783 342 78 1876 134 8
+134 132 2134 381 352 2122 2296 356 398 1544 1306 1428
+135 1102 1965 450 944 305
+136 2609 842 2257 1548
+137 2503 2296 1965 17 1735 953
+138 181
+139 105
+140 2186 614
+141 227 128 2526
+142 2878 2648 1384 1149 974 49 2733 1848 237 1376
+143 144 661 1469 1435 2850 2060 2872 1650 2765
+144 2494 790 1915 1272 1713 2877 795 1242 661 1762
+145 2181 2401 2176 1462 1548 1557 2570 2425 1160 276 320 361 615
+146 37 1548 1816 145 1557 803
+147 1816 803 1548 2671 615
+148 1580 32
+149 1078 2624 2334 1863
+150 386 734 2671 679 2878
+151 1548
+152 701 886 154 155
+153 1476 2186 155 2578 1573 2199 2176 1785 637
+154 155 1557 156 886
+155 2246 1970 2290 1544 156 21 154 152 2492
+156 155 1557 1544 210 26 2122 273 2246 886 21 2296 2176 1970
+157 273 1548 485 979 790 955 119 2672 939 1686 2181 882 2035 2425 1860 2538
+158 2830 1813 842 2257 1548 2475
+160 196
+161 170
+162 195
+163 1670 342 1548 485 2377 1349 2380 1981 2804 164
+164 2381 1670 342 163 462 2380
+165 1814 1953 2296 2161 2629 1435 1919 240 2593 1438
+166 1768 2878 1926 656 167
+167 2878 652 1548 166 485
+168 189
+169 2833 2292 2878 2648 1015 604 171 598
+170 1544 1547 759 2173 2181 2186 301 1826 1306 171 169
+171 1548 1384 17 2173 2511 1319 170
+172 1926 2878 2292 2030 2132 701
+173 2132
+174 1848 2159 656 2686 2570 211 2186 2671 612 2015 2878 1157
+175 119 2231
+176 144 1021
+177 2186 1352 1926 1695 2176 2292
+178 2648 792 302 526 847 1160 1723 2024 1384 793 641 104 2778 1638 88 314 1358 1024 144 661 2494
+179 197
+180 107
+181 102 1544 1384 2199 1826 1306
+182 106
+183 2490
+184 342 211 1548 1557 394 230 1403 808 305
+185 1581 1392 2186 2199 1306
+186 102 1544 37 485 572 2292 2122 1548 1306
+187 102 1544 1548 2186 2199 1306
+188 102 2724 1548 21 1384 1306 1176
+189 1544 155 759 1796 2186 2411 2199 1306
+190 1560 1548 31 1384 2296 1306
+191 2697 342 2186 1306 2181 1171
+192 102 2296 1544 17 2301 1306
+193 1384 1898 2296 888 794 1548 676 2186 1306
+194 1548 2176 282 2186 2411 1476 2199 1306
+195 2246 1384 156 1544 2186 2199 1654 1306
+196 1548 2301 2296 21 794 857 1306
+197 102 2547 2186 2199 1826 1306
+198 641 2637 2230
+199 2158 1548
+200 108
+201 2833 1672 2648 2059 1462 2176 30 119 2328 1548 2134 202 1898 2854 474 1203
+202 1548 379 201 2255 2833 844
+203 2134 1142 201 956
+204 931 2648 1242 794 966 2494
+205 366
+206 208 17 1848 451 553 2173 2570 1209
+207 1695 2027 208 642 2501
+208 1548 206 207
+209 1689
+210 155 2296 886 2292 520 1898 2397 1814 221 2793 1990
+211 342 998 2455 1863 2061 2070 2676 2186 939 1475 1548 485 941 2062 856 652 2010 2023 719 215
+212 15 211 2878 941
+213 282 2878 211 2671 822
+214 1376 1276 979 2878 90 1776
+215 2570 2186 174 2320 382
+216 211 487 451 276 572 775
+217 1158 1276 2756 2425 2574 1548 485 277 218 276 1557
+218 1775 2756 2425 2574 1548 485 277 1276 276 1557 217
+219 2134 1647 2756 2425 2574 1276 1548 485 277 218 276 1557
+220 2671 2425 2570 1276 1548 485 277 218
+221 1630 144 21 1814 210
+222 939 1462 211 707 2878 310 2570 2745 812
+223 2182
+224 939 2878 211 2186 1462 2755 2833 621 611
+225 941 2186 2296 2878 2181 211 1670 2134 2176
+226 1194
+227 1670 342 2878 211 128 2526 1733 2437
+228 144 2494 1544 2887 2726 1330 1242 1898 531 1659 449
+229 1780 211 2186 1215 841 1476 310
+230 1670 211 701 342 1305
+231 939 2878 701 211 1402
+232 555 2000 1583 249 276 1556 2408 1548
+233 2878 2186 211 2169 84
+234 342 478 305 1290 2671 211 2339 1304 2519
+235 1462 2015 765 305 125 2833 1715 1301
+236 1462 2015 765 235 1302
+237 1954 2648 342 142 1860 282 691 1376 1361 61 1177 1988
+238 2015 2186 765 1548 1870 305 2834 1715 1714 1302
+239 276 2770 1924
+240 2637 1814 246 1435 1919 2609 386 2519
+241 2176 2181 1473 350 1181 1365 1936 1933
+242 1965 2519 342 2462 1199 2339 478
+243 793 701 790
+244 2596 342 1689 1548 2186 2700 1306 1473 866
+245 421 2134 1965 1780 2070
+246 641 1814 314 445 1698 1435 1384 847 1242
+247 342 2599 679 2264 1548 1026 510 1414
+248 2854 2852 1631 679 1827 1277 1954
+249 2134 1647 790 966 2367 1548 342 555 1448 404 1556 2002 559 232
+250 1262
+251 2130 1965 1312
+252 442
+253 316
+254 526 83 2364 260
+255 1352 342 2186 2648 2830 2134 1514 1486
+256 794 877 2419 1716 1548 1384 1306 1584
+257 1615 2070 998 1078 747
+258 1423 707 2878 2186 211 2760
+259 342 1548 701 555 2320 2186 1078 1848 1486 567
+260 1615 2648 1352 83 254
+261 259
+262 1581 1392 1547 102 31 1580 2186 2411 1826
+263 2494 1272 87
+264 275
+265 1462 2176
+266 1615 342
+267 1907 2206 2134 437 2833 842 969 342
+268 342 1769
+269 282 648 342 310 998
+270 342 2176 211 2177 2736 939 282 2186 2686
+271 277 276 1557 155 1376 794 21 1384 2542 273 485 648 2759 2572
+272 979 886 276 211 2671 2574 824 1494 794 2372 737 1376 16 21 1615 1591
+273 485 276 2671 2549 211 941 939 1207 2181 2177 2035 2425 1860 1433 1434 1538 537
+274 998 1615 2296 1544 615 2186 2320 546 1616
+275 1384 1548 1615 2296 1412 1267 1900 794 17 2173 1544 2788 1569 1628 1592
+276 119 886 1160 2134 1849 273 1548 485 2186 1462 277
+277 276 790 485 1648 2671 2549 211 941 939 1207 2181 882 2177 610 2425 1433 1434 1925 1467 979
+278 2201 794 2186 886 1301 211 2671 2574 1494 277 276 401 2723 2236 2108
+279 21 1548 1898 1814 1901 794 280
+280 21 1647 794 1548 279 1418 1901
+281 282 2296 1462 2176 1548 2186 1476 1306
+282 2878 211 2570 342 174 2015 886 2296 2503 2134 237 2181 270 2563 560 137 1735 953 2257 17 485 269 281 227 2176 679 122 115 2402 763 2314 2011 308
+283 342 352 288 291 2671 285
+284 342 2142
+285 342 400 1606 291 283
+286 342 603
+287 342 140 1954
+288 352 342 2213 939 2139 291 283
+289 1548 1615 211 2176 790
+290 386
+291 342 939 292
+292 342 2134 268
+293 398 2213 939 133
+294 342
+295 1548 342 485 398
+296 1796 2139 615 1548 1557 1306
+297 342 679 2221
+298 1462
+299 1863 211 526 1500
+300 342 2015 2186 2878 598
+301 1462 2015 2186
+302 790 1401 847 314 445 1703
+303 2671 2519 2833 305 734 2181 939 2676 736 2460
+304 305 1548 1586 2634 1967 939 236 2015
+305 734 2833 2134 1954 342 2186 2493 1967 1271 335 1670 1372 386 2747 2176 11 479 1555 2103 2267 672 771 1355 1122 1596 1129 1027
+306 342 665 2234
+307 305 1525 2462 342 1965 242 2519
+308 2878 211 310 1384
+309 2255 2433 979 2419 619
+310 2878 1780 2186 568 1615 229 1701 309 619 1257 308
+311 397
+312 1548 487 277 276 211 310 2255 1054
+313 342 2204 2878 1525 230
+314 690 526 302 2556 847 2024 445 178 92 2556 794
+315 1462 2015 2186 2412
+316 1544 1547 2186 301 1306 496
+317 1230
+318 342 17 2301 2173 1306
+319 1525 342 1262 237
+320 2181 803 1548 1586 701 2671 1462 2570 17 2173 2401 37 555 145 2317 361
+321 305 593 734 342
+322 2134 1352 1954 1679 2648 750
+323 2134 2684 305 324
+324 1954 342 808 1262 2134 1142 1958
+325 752 1376 485 1276
+326 342 2648 2134 1525 1753 2135
+327 2134 2731 2429
+328 2204
+329 1537 734 342
+330 1668 2186 1384
+331 1670 2732 938 941 2648 510
+332 2181 1816 1119 924 381 2702 1009 2318 343 2187
+333 296
+334 239
+335 734 342 386 1994 1966 544 1272 1548 1587
+336 342 1994 1954 1965 2134 1352 2648 89 731
+337 1548 1301 1557 1615 2736 820 1306 416
+338 2648 2134 2878 1352
+339 2650
+340 2731 2861 1146 1276 1593
+341 1965 1273 2619 1150 2442 2749 342 2462 307
+342 1525 1965 1981 2804 2134 478 734 2878 2833 370 2176 1954 2134 282 343 342 2015 104 2543 1271 2878 1078 524 2671
+343 2181 1816 241 2671 381 2702 2320 342 2186 332
+344 2783 2213 342 2897
+345 1608
+346 2134 1965 924 734 342 1608 2303 1420
+347 2396 342 734
+348 485 305 1636 342 2134
+349 593
+350 342 2578 2671 866 1445 2570 351
+351 939 350 2291 2181 866 2578 2701
+352 342 679 291 288 2139 998
+353 924
+354 342
+355 342 276 1548 556
+356 381 125 342 2181 882 1165 707 2714 2897
+357 2377 342 2135 768 886 733 1230 2748
+358 2878 758 575 1971 2381 1670 1372 2134 2186 1898 549 342 105
+359 924
+360 394 342
+361 342 1473 1548 1586 1078 1848 2671 2317 145 320
+362 342 2532 1548
+363 734 342
+364 342 2686 1209 1860 124 211 2671 2221
+365 342 1350 2854
+366 342 208 211
+367 370
+368 342 305 2234 2285
+369 1608
+370 342 2176 1954 2134 343 1576
+371 355
+372 2318
+373 1548 862 1216 1176
+374 342 939 1544 352 133
+375 1548 211 1353 2186 342 230 701 2878 380
+376 2134 342 2442 1965 2462 1525 1954 1142 2200 1884 917 2434 939 273 2213 381 305 939 2542 1007
+377 734 976 2676 342 1952
+378 342 1548 1557 1448
+379 844 202 1529 342 1965
+380 1548 211 342 2878 1009 375
+381 342 803 2181 398 2264 1548
+382 2015 1462 2181 398 381 343 2186 259 215 2318 1384 356 375
+383 1954 342 1548 2305
+384 1544 398 2181 342 380 375
+385 342 355 556 1548
+386 305 2134 2442 342 734 1264 479
+387 342 2015 2818 1548
+388 342
+389 1961
+390 2702 2186 1544 102 1462 2318 342 2671 538 2903 1849 1160 2255 174 215 282 629 1898 101
+391 291
+392 1965 1954 342 939 2519 1812 2850 2494 1436 2780
+393 1544 412 2173 2355
+394 1965 342 734 976 360 1006
+395 342
+396 555 1548 404 2173 2355 1940 393
+397 2833 2255 1376 342 2186 882 211 2671 2570 979 37 1544 2181 939 305 1433 125 2205 857 541 1548 1898 1162
+398 342 1809 2180 2783 1306 803
+400 342 305 1954 2475
+401 794 1494 2609 1900 794 1494 2387 2612 2723 1808 2165
+402 1915 144 661 2235 606
+403 734 1954 342 2134 2176 2648 1352 1350 1721 1670 2347
+404 528 342 1548 1556 2173 17 2255 553
+405 1621
+406 734 342 716
+407 2648 1613 2186 939 2753 510
+408 2205
+409 2134 629 2347 2648 1352 403
+410 409
+411 961 88 1548 2461
+412 1586 515 2173 1561 63 393 396
+413 342 1350
+414 790 2590
+415 2186 2878 2714 110
+416 1796 1306
+417 572 2567 566 1548 1557 586
+418 641 1756 2713
+419 2570 2658 1376 566 824 2574 1781 2272 2373 2785
+420 2442 1965 2134 421
+421 2442 1965 2134 2186 420 2648 1160
+422 2419 2176 1525 2134 305 1462 1965 734 1961
+423 2596 342 1548 1306
+424 1598 1330 886 2854 1436 1329 886
+425 342 2059 1352 701 1252 1525
+426 485 1376 794 2134 1898 1954 1276 2418
+427 1548 485 1557 282 2671 342 2570 451 1384 2201 1376 2134 426 794 1276 979 23 2887 2418 1329 1898 1598 886 1384 842 2600 2850
+428 427 144 2494 2850
+429 1703 1713 681 2852 446 2850 2494 2384 813
+430 427
+431 281
+432 419
+433 349 734 2833 2015 235 538
+434 1548 1544 1560 1914 1597 460
+435 1703 2556 790 1272 1401 1939 2024 2133 886 2122 1965
+436 2494 1272 661
+437 342 734 305 2747 2442 1965 2181 2648 2134 1380
+438 535 342 2186 1514 366 412 2173 1586
+439 886
+440 2015 1961 1462 1384 1826
+441 1548 924 1816 1557 1549 1384 442 1497 2589
+442 1898 1814 2854 1242 661 2887 21 1435 1659
+443 2364 2878 2570 1984
+444 2134 1827 1654 174 211
+445 690 2556 847 302 314 1272 1713 1663 966 526 178 92 314 2648 661 1270
+446 1703 1713 2556 790 429
+447 543
+448 1608 125 102 1353 2041 2186 1245 1822 469
+449 86 886 155 124 681 276
+450 1965
+451 2519 342 2818 276 1548 277 485 2878 2570 572 1859 775 216 2301 17 1575 88 2370 2173 835
+452 404 276 591 1548 1954
+453 2377 1350
+454 386 335 734 2058 514
+455 2732 938 342 701 2877 2494 2733
+456 1581 1392 1558 598 102 1553 119 1306
+457 1525 2134 342 2176 2648 1352 305 2878
+458 2578 2015 685 1548 865
+459 1615 2878 211
+460 434 1914 1548 1586
+461 88 2134 1665 2778 1638 2483 2359
+462 1548 1971 2381
+463 2671 1352 2030 1954 1276 524 342 2015 1716 886
+464 2671 2134 524 2396 342 1954 2648 2676 277 487 1860 2374 463 909
+465 1301 1548 2134 486 211 2671 2570 90 1647 1900 1906 1648
+466 2364 476 1510
+467 1548 762 888 1306
+468 1548 469
+469 1608 125 1553 211 538 2186 1548 1822 1245 539 468
+470 2479
+471 1548 2532 1814 1513
+472 560 2878 282 201
+473 1672 1352 838
+474 1672 201 1223 529 62 2396 473 119 1686 277 276 475
+475 1672 474 472
+476 2186 1654 1827 466 2364 942 1510 634
+477 1672 1403 2671 2570 475 2366 1384 342 305
+478 342 734 335 1304 305 593 939 2181 1537 2527 479 2733 1753 2778 1638
+479 386 734 478 335 593 1965 342 1199 2462 976
+480 2494 2778 1638 1401 1436 931
+481 2186 174 1476 998 612 342
+482 342 2651
+483 479
+484 479
+485 342 2015 1672 1557 90 1548 465 2315 1647 1160 1898 23 1384 2134 1849 211 2671 2570 1615 939 1613 2686 277 273 572 1859 1544 487 282 1376 1906 465 843 884 573 823 517 2181 1015 1090
+486 485 1965 2134 979 465 2347 2315 1900
+487 1544 277 273 2570 572 186
+488 485
+489 485 2181 1194 1177 342 1384 790 1796 277 2134 2813 2676 979 707 819 2186 2878 1574
+490 2134 1954 842 1203 2878 1954 2813 2249 492
+491 1987 1548 485 2587 96
+492 2134 340 2778 1954 629 842 969 1276 629 490 1670 2134 342 305 1525 577
+493 491
+494 1544 398 1548 2186 1615 2199 1306
+495 1901 2494 485 1544 1888
+496 316 2627
+497 513
+498 540
+499 541
+500 708
+501 642
+502 1515 642 1384 847 2186 861 504 445 790 526 2134 1954 342 2648 1548 2556 272 1191 969 2255 504 507 506
+503 1272 502 861 504 507
+504 790 502 1713 642 503 507
+505 506
+506 580 502 861 507 221 1814 794 1591 21 1623
+507 1272 502 2430 506 21 504 503
+508 2015 2186 2671 2878 2186 2833 1301 588 458 865
+509 74
+510 2878 2186 2599 247 1026 1378 1096 1414
+511 2301 1557 2186 301 1826 820 2296 1306
+512 1940 1574 342 1548 2134 1306
+513 2176 1306
+514 386 734 717 961 342 1180 454
+515 1586 2634 1557 412
+516 2556 790 661 1915 2794 2018 144 661
+517 485 277 342 2134 1647 1548 1586 515
+518 2634 1548 1586
+519 1595 701 2134 1871 230 211 941 1353
+520 155 1926 886 2292 210 31
+521 639
+522 2677 276 2186 2015 1544 1548 485 2671 1860 157 277
+523 1967 342 1531 2624 2070 2570 1954 1352 736 1961
+524 342 2878 1078 1848 2063 2616 1177 525
+525 1276 2671 524 342 1670 1954 2648 1352 1279
+526 2134 88 2261 793 302 445 88 1078 2061 1863 2455 1613 2878
+527 1146 2134 88 178
+528 342 555 276 404 1548 2671 451 913 863 1556 249 232 1070 2000 2284 888
+529 1672 2442 790 1242 475
+530 886 1232 2264 1548
+531 2230 1814 1623 2867 1435 1491
+532 1401 1433
+533 277 2419 2176 1462 1985 1548 1900 1730 304 564
+534 342 2015 273 124 2878 282 1870 2419 2176 1985 2880 1548
+535 405
+536 1684 1658
+537 790 487 273 276 2676 2674 2678 2595
+538 1352 336 1873 89 731 2041 936 2044 255 1078 1848 1486 2173 767 17 539 540
+539 1608 211 1352 342 2186 448 1822 538 1245 469
+540 2697 1605 538 2181 2699 342 1757 1548 1306
+541 211 2671 1353 1376 538 2903 2186 125 2205 2181 1473 882 2833 397
+542 1486
+543 102 1544 2186 2411 1462 1306
+544 516 1703 1384 2217 2210
+545 665 342 734 924
+546 2320 2186 192 1462 2318 342 1849 1544 2401 622 2763 1557 1194 174 282 998 1898
+547 121
+548 547 2061 526
+549 342 2264 1548 1898
+550 489
+551 754 793 966 526
+552 11
+553 342 1548 404 17 2173 1910 1847 559
+554 2581 1078 342 398 2176
+555 342 1548 276 404 2859 1557 701 305 558 572 615 2419 2186 701 1462 2176 2578 2689
+556 2432 342 1548 728 1017 276 1300 2303 355
+557 2002
+558 276 1548 572 555 559 615 1583 2004
+559 276 1557 790 2002 277 1942 1300 2236 913 24 249 1556 2408
+560 2806 1548 2253 2878 342 174 877 2289 211 886 211 2671 2177 2563 2264 17 2887 137 1735 953
+561 2296 282 2878 2570 2503 2686 562
+562 1376 2878 2503 560 2296 2503 2570 2186 561
+563 494 456
+564 2181 803 1473 2805 276 1548 2015 2545
+565 1150 335 342 734 2846 841 73 2833
+566 485 572
+567 2878 939 1365 2176 2714 43 747 636 568
+568 2878 342 2570 1078 1848 567
+569 566 572 1859 2570 1557 1285 2567
+570 572
+571 572 1384 2186 1306 1425
+572 1548 485 566 342 276 21 1557 2570 981 1285 417 586 2173 835 17 2301 1575 1859 625 571
+573 2574 485 979 572 277 681 276 90 1376 211 2671 843 884
+574 1376 979 90 1276 2569 214 2570 1494
+575 342 2565 758 526 2671 15 681 1971 2381
+576 886 2296 2503 992 1628
+577 842 2264 1548 1615 2063 526
+578 1334 1085 2871 1752
+579 580
+580 2867 1623 579 2024 2886 1384 2430 2644 1723 1663 1713 2494 1911
+581 1703 790 144 2877 886 2365
+582 1954 2134 2176 1827 1654 2570 2631
+583 2511 174 1319 2015
+584 726
+585 342 734 2213
+586 572 566 2567 2570 417
+587 342 2671 2181 1933 398 701
+588 277 1384 1985 2833 2419 684 1908 2578 1302 508
+589 155 886 21
+590 276 2303 1548 1557 591 276 1583 1909
+591 1548 21 1583 1910 452
+592 2061 2878
+593 305 342 1981 2804 386 1965 734 335 2186 1271 2701 2181 924 2833 1555 433
+594 1352 342 2134 1965 1954 2693
+595 1474 1555 342 2833 976
+596 593
+597 726
+598 2176 939 2181 2878 2134 2676 1361 1476 2186 300 1025
+599 1475
+600 305 2519 342 335
+601 656
+602 1670 2565 1981 2804 1971 1954 342 567 305 734 852
+603 1670 342 2377 2648 286
+604 342 1949 1352 1242 1672 2648 427 924 2615
+605 2522
+606 1915 2235 2365 790
+607 2878 2437 1646 1352 2648 1733 1475
+608 2462 1525 1352 701 342 282 2134 2878 1954 2648 305 2396 2462 1199 2134 478 790
+609 608
+610 1548 485 2035 277 305 2462 342 1525 1352 2059 1672 115 2648 2878 939 886 790
+611 939 2186 2878 211 1462 2833 2755 2433 224
+612 614
+613 224
+614 485 2878 211 2176 2186 2833 2755 2433 941 2616 1177 131 118 116 342 2686 1557
+615 1557 1384 1548 2401 2286 825 618 616
+616 1548 2401 825 1216 1010 615 1548 2127
+617 2122 1557 1704 2285 305 1160 2634 2419
+618 615 1548 1586
+619 2878 2833 998 979 309 310 308
+620 721
+621 485 2677 276 2878 211 2186 2833 2755 2433
+622 1548 2750 17
+623 1548 485 277 276 211 2671 939 2425 2574 979 2169 752 2574 566 572
+624 1613 1558
+625 572 2570
+626 2648 1670 2671 2878 2377 1361 2133 2134 701 1023 342 2813 2676 2731 1965 305
+627 1352 1177 342 1743
+628 342 2696 1961
+629 2134 2648 1827 842 174 630 998 631 942 1827 1654 2702 942
+630 1827 1654 2186 2134 174 629 2176
+631 2176 1654 1827 629
+632 305 1525 1503 2882 2671 2134 2519 2522 1636
+633 2878 1061 2707 2708
+634 389 2134 1965 476 1827 2186 2425 1209 2371 2334 1548 155 1557
+635 1418 1708 2789
+636 1860 2878 2648
+637 2702 2181 1476 2490 102 2764 1548 2578 153
+638 2181 342 2176 2764 2186 2490 2705 2085 211 2878
+639 1418 2853 2852 1598 794 661 790 795 1330
+640 342 1954 2159 1009 2176 841 1476
+641 790 1384 2637 114 847 2024 1741 2494 2644 1723 1663 1623 580 2430 1814
+642 847 207 2027 861 208 1548
+643 1548 644
+644 1548 643
+645 1384 722 126 2700 1462 1321 582 90
+646 722
+647 2878 2570 1498 1938 211
+648 2878 211 941 2648 649 342 131 614
+649 614 2134 2878 2176 2648 941
+650 224
+651 2186 701 342 2651 2015 2181 2319 828 1216 17
+652 2878 211 1548 485 167 2010
+653 211 655 1475
+654 305 2833 2186 2878 422 2374
+655 2878 211 652 1475 1733
+656 2159 2070 2134 701
+657 2601 1331 1548 485 752 119
+658 2574
+659 790 661 966 1647 1160
+660 2494 1272 1384 1391
+661 793 2494
+662 90 1376 2648 211 683 811 2878 842
+663 14
+664 2833 2186 1271 14 1034 2878 1078 350 1548
+665 342 381 924 1331 789 2186 1954 1952 1724 1965 305 1525 976 1262 2223 2648 2840
+666 2143
+667 1272
+668 1913
+669 1630 1438 2578
+670 40 2419 485 1647 277 2176 794 1901 1796 1434 17 1069 2511 1552 2579 16 1306
+671 1670 342 886 1720 1557 2122 2311 672
+672 305 2234 2122 342 1670 671
+673 2186 398 2671 239 2451
+674 1548 2308 2173 17 2511 2570 1814
+675 2603 1615 2570 2590 846 2878 681
+676 1498 1548
+677 276 681 2482 2191 2495 2034
+678 1078 2624 2455 2134 1954 1209 2454
+679 2878 342 1613 681
+680 679 2878 1384
+681 524 174 2878 342 2015 2176 1177 1954 679 2616 1963 2089
+682 1860 277 2878 342 2176 524 998 131 2455 2070 2061
+683 2648 2204 2878
+684 342 2878 211 2417 2878 1462 2594 2186 1985 1744 2419 2425 1548 37 276 685 1908 588
+685 1548 65 2181 1462 2833 1985 2419 2425 2186 2258 2433 1908
+686 1544 879 1580 2805 279 1552
+687 1954 2833 1985 2433 1462 2015 2416
+688 2255 969 2648 1352 681 2134 1498 681 2186 2321
+689 2274
+690 931 11 40
+691 342 2015 941 2878 174 629 1654 1476 998 612 979 969 811 842 1225 90 1177 237 1954 1475
+692 1548 1557 2790 21 2312
+693 1376 485 824 2574 277 2878 2609 1524 752 2658 2785 419 1781 2272
+694 866 2181 1013 1544 2671 1558 873 924
+695 1462 2702 1558 1384 1013 174
+696 119 1836
+697 2756
+698 1323 857 1384 1352 2173 1848
+699 790 2853 1435 1270 2850 2854 1401 2138 2494
+700 2887 1710 21 485 277 218 1999 794 835 2856 1901 217 2780 1599 2574
+701 886 2878 1670 2377 1670 886 1548 2292 2733 2134 2648 1329 793 790 2556
+702 556 1548 2028 1716 2220
+703 277 276 485 1928
+704 2181 938 211 2732 2134 1322 560 701 941
+705 701 939 2878 1557 485 1544 979 1301 451 276 2520
+706 2377
+707 211 941 652 2062 2181 882 2186 2878 821 2292 2172 1423 1424 1574 2813 342 2176 211 708 1416 1052 1394 2051
+708 2893 2292 211 2181 707 2878 2181 211 1306 1052 1424
+709 2878 707 2134 2813 2676 1106 2177 2648
+710 1548 701 2878 2186 707 1574
+711 707 2878 819 1052 2070 2455 938 131 2204 1009
+712 2292 2020 2878 707 1416
+713 700
+714 1557 1384 1548 2790 2536
+715 1476 2419 1557 17 2296 2173 2015 1384
+716 734 342 406 717
+717 386 716 342 734 514 305 406 2134 403 2648
+718 461 2346 2377 2133 1670 2878
+719 720 721 2176 1462 211 979 1548 485 2023
+720 721 1548 485 719 979 2176 1462 2576 2271
+721 720 102 2176 1462 719 1548 485
+722 2511 1384 2296 2290 2176
+723 155 1970 2186
+724 994
+725 2648 211 1670 701 2157 1026 510
+726 2122 847 1581 1392 2186 301 1826 1306
+727 726
+728 1548 556 1486 1330 2852 2494 1898 1298
+729 2847 1965 2442
+730 342 734 1399
+731 2041 1352 1954 89 1312
+732 526 931 1436 2780 296 2383 2201 896
+733 768 2377 701 530 886 357 1613 2878 1670
+734 342 1670 2134 2176 1954 342 305 1965 593 335 2186 1271 1967 2015 1462 2493 478 1186 1258 2197 2663 1129 1027
+735 174 1654 2702 1277 2671 1352 734 1462 2016 794 560 277
+736 2671 2134 734 2176 1462 2181 2521 2676 303 2460
+737 1557 485 1376 16 794 282 1548 1376 794 2176 1615 2372
+738 516
+739 1256 2397
+740 2494 661 1384 2887 886 2854 1329 1598 2430 1376
+741 1751 2820 856 2146 2010 1779 2878
+742 211 2176 2030 2204 174 342 2134 1352 2204 463 2134 1177 237 1954 2015
+743 15 2878 560 747
+744 282 124 2503 560 679
+745 115
+746 939 2878 2296 1670 2648 886 941 636
+747 1613 211 2878 679 2186 567 2318 2176
+748 2318
+749 511
+750 2030 1352 2292 2134 1954 342 2720 2648 322 2441
+751 1376 681 276 2255 2433 979 1276
+752 1276 485 1376 2878 2607 693 1524 325
+753 967
+754 551 753
+755 571
+756 1670
+757 1376 2186 90 2570 211 2134 1747 2199 2594 305 2833
+758 526 1403 2565 575 2648 492 626
+759 2507
+760 342 1961 2570 993 2086
+761 1384 886 2176 1498 2570 2296 1937 2503 2186 1462 2015 342 2594 2321 1900 794 2177 765 763 762
+762 2176 1384 1544 2302 1615 2511 761 764
+763 282 2186 2503 2314 761
+764 2015 2292 2616 1476 2186 2296 1615 2860 1747 761 2176 1548 235 762
+765 1870 2419 2176 1462 1548 761 2017 427 235 1715 1714 238 1109
+766 1376 15 992 794 886
+767 17 538
+768 1965 1670 886 2134 2877 2731
+769 1491 1752 526 2872 1241 2871 840 2648 1706 144 2151
+770 155 342 1670 1970 886
+771 342 305 803 2181 939
+772 1352 2134 2648 463 2059 1525 1965 2176 305
+773 342 734 305 1199 1525 2833 1967 2527 1129
+774 2459 2134 2648 1679 2731
+775 92 216 276 572 90 211 485 1544 451 776 2884
+776 487 216 451 211 775
+777 776
+778 1713 1548 17
+779 1072 176
+780 2086 1435 660 1095 510 1414
+781 1863 847 1814 1435 2887
+782 1544 2296 1384 1435
+783 969
+784 661 931 2166
+785 877
+786 1462 1827 2186
+787 1965 2847 729 1507 2889
+788 1608 125 2254 102 2255 2186 449
+789 2347 2648 2134 1331 823 2574 2567
+790 1401 1939 1384 1498 1710
+791 1703 2556 790 966 1479 2907
+792 790 1160 1647 1695 2821 2819
+793 790 1647 516 2494 661
+794 1384 15 2570 2494 795 1548 794 2016 16 125 2805 21 1591 404 11 2386 1191
+795 2494 2556 2397 790 794 144 661 1915
+796 1965 276 528 1557 2134 734 976 1548 1942
+797 2134 1462 1827 1654 2186 1685
+798 795
+799 1213
+800 835
+801 888
+802 886 2134 1965 33 2122
+803 1816 2783 1548 352 398 1473 65 2596 2805
+804 1965 386 2749 342
+805 1384 886
+806 1104 1623 1435 1900 2854 2430
+807 1435 1814 2637
+808 211 2878 2134 2249 1525 2676 1177 342 35
+809 701 342 2878 211 941 1353 2878 808 132 381 1403
+810 1272 2494 790 1401
+811 1539 842 1225 662 2658
+812 939 2648 211 2878 938 2186 128 222 746 2801
+813 526 2648 2878 1703 1491 1706 2683 2494 144
+814 939 2134 1965 2181 305 1352 2186 1595
+815 701 2213 1933 342 2028 1715
+816 1548 1306 1584
+817 1548 1384 2296 37 2401 1544 17
+818 485 2878 2186 211 2321 14 636 2417 684 2594 906 166 821
+819 701 2176 710 1548 211 2181 707
+820 1548 1232 1234 1462 2547 2588 2290
+821 2878 1034 14 2714 2321 43 166 679 1926 707 818
+822 342 1384 211 2671 2177 1160 1958 1352 2134 305 2878
+823 2634 485 276 2671 23 277 273 979
+824 794 992 2186 2574 2658 1376 2878 342 174 998 877 277 693
+825 2419 2578 458 434 342 1557 2671 2859 615
+826 1657 342 276 2398 2000 1548 555 1583
+827 342 1548 2570 2296 1384
+828 701 2186 2321 342 2181 651 2878
+829 1544 1583 555 2258 1387 2432 1548
+830 2024
+831 1713 1272 2494 1519 2134 701 2134 2181 661 2024 1742 2133 2648 1242 2892 2407
+832 1078 1209 1770 2604
+833 1213
+834 2134 2181 2519 734 2676 2176
+835 572 2878 2186 1544 1498 451 2370 2173 2301 17 1575 13 1548 1901 2856 485 2852 2854 2761
+836 102 941 1571 2186 835 1544 1580 1560 2547
+837 2494 1272 869 1491 1703
+838 529 1352 1384 1938
+839 1898 794 2008 1418 1435 1548 1692 1306 2805
+840 2871 1921
+841 2176 342 2186 2097 1613 1701 1476 565
+842 2833 2255 979 2686 2570 90 969 342 811 1384 1929 1003 1352 1225 648 662 1548 2134 844 309 1512 2323 2854 1898
+843 485 1647 277 979 1660 47 2574 90 752 1276 2570 884 573
+844 1548 379 842 2255 202 2833 2596
+845 1476 2186 1548 2578 2181 2176
+846 14 663 2878 2372 2610 211 1926 1276 2569 2015 1376 1009
+847 790 302 314 849 2648 526 445 1160 114
+848 1548 847 1647 1160 2134 1716 849 1376 16 2015 2255 2826
+849 790 847 1384 2648 2030 1352 1672 2367 114
+850 2186 1967 2901 2007
+851 1013
+852 2565 2189
+853 939 2878 211 2181 455 2877 2494 2878
+854 37 1544 2181 1473 2579
+855 1387 2258 2000 1548 1384 275 1385 2461
+856 2878 741 1751 277 1548 485 2146 2062 1560
+857 1384 1048 2176 1548 2264 103 790 2556 1270 21 1085 1183 2887 2383 2854 2570 1376 234 2897
+858 2134 2153 2133
+859 1583 1548 1557 963
+860 342 2134 2176 305 2234 2747
+861 642 502 2819 869
+862 2874 276 1557 485 277 1937 2285 555 920 37 2859 373
+863 276 1548 404 528 1556
+864 208 979 2671 2878 652 2010 485
+865 2015 2419 2176 2578 1548 1301 588 458 508
+866 2181 1602 342 2186 2181 398 1013 1558 1548 2177 701 2671 2866 2651 2512
+867 1659
+868 2410
+869 2556 1695 1125 1270 1515 2908 861
+870 1272 869 1270 1125 2908
+871 1125
+872 1013 342 1548 875
+873 701 1816 2176 2181 1013 1558 866 924 305
+874 338
+875 2134 422 2226 2000 872
+876 2730 2071 1276 2671 248 2650 1035 1058
+877 2717 1376 15 794 502 1113 17 701 1420 888 2659
+878 879
+879 931 2637 1814 2639 1548 1900 794 952 2258 1903 888 1384 686
+880 2671 2176 2878 707 485 1376 794
+881 2181 2176
+882 2176 2186 2181
+883 1276 569 2567
+884 1544 843 1548 485 2570 979 1660 47 211 2671 2425 2878 573
+885 896
+886 2878 1160 1670 342 1961 2015 1242 207 2818 1090 1716 2134 1672 529 2132 888 1965 2877 1650
+887 275 2648 2716 1944 1548
+888 2186 886 1269 1716 849 1160 1070 1548 1420 1557
+889 1751 1078 2030 1779 1067
+890 886 2570 891 2878 560 2204 1009 2503 707 310 793 1384 1647 790
+891 2122 15 1376 2176 2296 1462 440 992 282 701 2714
+892 342 1954 665
+894 641 1272 2494 1623 580 2430 2397 794 1435 1814 1436 732
+895 1435 2161 21 1814 1318 732 2887 2780
+896 1453 92 895 1435
+897 305 342 335 734 2519 1150
+898 1525 2649 342 2134 2176 1150 901 900
+899 2651 2176 1331 524 2878 2648 1352 1672 529
+900 1352 1954 342 2176 2134 1525 305 463 901 1041 2059
+901 2648 1352 2134 1954 342 2176 900
+902 2804 734 342 814 1677
+903 2878 211
+904 1548 2004
+905 790 661 2018 1703 1125 1548 2134 1939 1898 1814 2777
+906 43 2878 1078 1848 211 1548 485 2062 47 2671 1865
+907 661 2341 2018 1915 1272 2133 502 516
+908 2637 1548 790 1814
+909 2671 342 1954 2648 2354 464
+910 1397 1670 2134 2176 1374 524 2878
+911 2176 1473 37 1548 2181 2451
+912 831
+913 1621 276 556 1548 1100 2282 404 1942
+914 2671 2181 2133 1816 241 2291 239 102
+915 2644
+916 342 1525 1965 2720 2747 305 437 1954 1242 1519 924 2134 2731 2730 2648 1276 1352 463 2444
+917 342 2442 1965 2462 1525 1954 1142 2200 1884 2434
+918 1352 1187
+919 641 1814 246 2466 2133 1814 2134 2442 1965 1548 2886
+920 701 276 1557 1544 2859 45 2293 701 1926 886
+921 1954 342 1975 2648 2714
+922 2019
+923 924
+924 1271 342 2134 1226 1965 2878 2671 211 2030 1242 2519 2181 332 1119 310 1384 2090 1433 2204 2318 11 2890 2477
+925 1515 642 2821 1695 1751
+926 266
+927 1672 201
+928 342 2134 847 1647 1160 2367 1329 1863 2186 1866 1898 2648 905
+929 1659
+930 690 2854 2134 1476 21 1898
+931 690 1435 2161 2230 1814 1418 1756 1659 1965 1269 661 1659 932 204 2485
+932 526 1814 1435 2161 931 1160 2897 1659 2485
+933 952
+934 690 2854 2134 1654 1826 21 1898 2186 1898
+935 342 2015 873 1013
+936 1352 342 2648 2173 2370 1486
+937 2578 930 1898 1376 1191 794 1548 1306 2579 2805
+938 2186 2176 211 1670 2732 941 790 1647 277 2648
+939 701 342 2186 2736 1160 2134 2733 1462 1359 2648 2176 1849 276 2181 1160 2878 342 2255 2651 2321 1020 761 1384 1025 1827
+940 2183
+941 2176 2878 211 131 614 701 2133 124 2648 560 1444 1860 2015 2833 2255 649 225 2181 211 2179 2134 305 679 1827 1654 1476 2176 942 1536
+942 174 1827 2396 174 631 1536 476 1654
+943 2570 998 1827 942 629 2878 2157
+944 1102 1965 335 1226 135
+945 928
+946 1659
+947 1659
+948 930
+949 934
+950 931
+951 1384 1160 2578 1435 1898 928 934 930 1826 794 2186
+952 276 2303 17 1898 905 871 2134 2367
+953 1160 560 1149 974 282 1384 502 1898 794 1435 2134 137 1735
+954 1615 1644 2070 1004
+955 790 157 273 485 979 276 2177 939 1954 2059 2035 1384 1476 2671 2834 2503 2015 174 1898 794
+956 2186 1142 1965 2134 2878 2833 2433 2132 203
+957 690 381 2651 2186
+958 1929 959
+959 2134 1670 2648 2204 958
+960 1352 342 984 2159
+961 2134 305 1537 1954 342 734
+962 2648 1926 2546
+963 1583 1548 2397 859
+964 886 1965 671 2122 2134 2442 1672 529 1509
+965 1266 2833
+966 1384 641
+967 790 2637 1384 1071
+968 37 1597
+969 342 2433 1384 2686 998 90 2570 2463 2771 282 2833 1376 2833 842
+970 237
+971 2211 1548
+972 1692 1548 1384 973
+973 1384 1617 1692 972
+974 2134 342 524 2648 2204 1149
+975 1548
+976 305 2442 1965 335 342 1954 2648 734 1290 1672 1205 1352 2134 902 1677
+977 1020
+978 2292 701 1926 2030
+979 277 1548 485 276 1557 2134 1376 794 2372 737 1660 47 23 790 211 2671 2878 2574 1384 842 1276 969 2255
+980 277 1548 485 1276 794 1401 211 2671 2574 1494
+981 572 2570 1285
+982 1961 1827 582 1548 2814 155 1246
+983 1780 2070 526 2063 1531
+984 1403 2364
+985 2204 1177 342 808 524 211 2648
+986 2878 1863 983 2061 1038 2150
+987 656 2070 1613 2176 568
+988 1863 1780
+989 1548 485 276 485
+990 2570 2878 211
+991 211 2186
+992 1384 576 1376 15 1476 174 2770 2289 794 17 2134 502 1898 276 2574 2296 886 1714 1716 2220 701 1306 891
+993 2878 679 2086 510 247
+994 342 1462 2015 2134 1965 2670 2648 1177 1992
+995 1016
+997 1965 1102 2134 342 2059
+998 2159 656 2717 877 679 1780 2364 310 229 747 2186 2015 614 1074 942
+999 11 282 560 607
+1000 11
+1001 11
+1002 1814 21 1623
+1003 842
+1004 656 954
+1005 701 342 276 1548 803 2783 1952 1555
+1006 394
+1007 305 342 1525 1548 485 2035 277 376
+1008 2134 381 701 939
+1009 2806 2878 2204 2291 2020 1394 707 1034
+1010 1548 2176 920 701 1216
+1011 342 701 2648 2550
+1012 683 1972
+1013 1548 1670 2213 1970 1702 227 2186 358 872 1015 1558 2805 2596 342 2181 803 2176 873 1016
+1014 872
+1015 169 1271 2493 2292 2878 1013 2648
+1016 2338 102 1013 1558 1306
+1017 556 2398 144 1629
+1018 1072 1384
+1019 2134 88
+1020 2186 2878 2594 142 2648 2321
+1021 144 176 1498
+1022 1548 485 1376 2658 794 1276 2373
+1023 690 1670 2836 2134 2878 1985 211 2671 2177 2133 626 1371 1101
+1024 790 1160 144 277 1900 272 931 792 1358
+1025 939 2176 2181 598
+1026 2648 939 2753 407 510
+1027 305 734 1525 1129
+1028 1027
+1029 2186 1445 2119 2181 485 2268
+1030 526 1085 1084 178 2648 1330
+1031 342 2134 2176 1954 2730 1679 2878 276 1849 1032
+1032 955 2035 157 277 2514 276 1031 1751 2501
+1033 2134 701 342 1352 2176 1238
+1034 2204 342 2878 2648 1374 2134 2730 2204 2878 1751 2709 1009
+1035 342 2133 1860 2204 1034 2648 2731 2650 876 2730
+1036 2854 1435 1990 1443
+1037 1548 572 2570 1441
+1038 1078 526 260 1972 83
+1039 1615 2364
+1040 387 1359 2134 11 2731
+1041 2134 1190 1352 2249 1525 1913 342 2176 900
+1042 1470
+1043 2292 939 2288 2648 679 1926 701 1044 1045
+1044 305 2186 939 2878 2186
+1045 485 979 2292 2479 1672 2134 486 2442 1965 1636
+1046 1043
+1047 2727
+1048 2648 2134 1954 1939 1043 1926 2367 2133 1741 314
+1049 342 524 2134 1397 461 2878
+1050 1544 19
+1051 2186 1670 2732 1926 2878 2133 211 704
+1052 2878 211 1394 707 747 2296 1384
+1053 1548 1486 1144
+1054 312 2177 1548 485 277
+1055 794 2273 979 1494 2612 2201 2410 2387 2108 2236
+1056 1079
+1057 2601
+1058 2134 876 342 2671 525
+1059 2070 2061 2455 1863 1078 2371 2795 1209
+1060 1898 2686 2494 661 2570
+1061 633 526 1699 2707
+1062 1615 2159 683
+1063 2134 2176 342 276 1462 1408 2878 342 524 1965 2890 1870 1985
+1064 1063
+1065 1048
+1066 2015 2578 1548 1384 1306 2579
+1067 1751 526 1078 2063 1090 1548 556 2818 889 856 2010 741
+1068 2338 102 1548 1384 1601 2296 1069 2186 2199 1476 1306
+1069 1548 1557 1232 1574 1799 1798 1783 1068
+1070 1548 888 1071
+1071 1384 1386 888 1070
+1072 1939 1401 2792 2710 2589 1548 2000
+1073 2627 2489 102 1548 1547 1659 2186 2199 1826 1306
+1074 2176 614 998 1462 2490 2570
+1075 1426
+1076 1919
+1077 1714
+1078 2159 2878 526 1293 526 211 1863 1864 2455 1848 1209 2083 2192 567 1548 1575 553 2878 2532 451 485 835 1848 90 211
+1079 1361 712 211 1548 485 277
+1080 1352 2134 2059 2648 463 1954 1177
+1081 1350 1670 1397 1396 1291 1140
+1082 1085
+1083 2430
+1084 793 790 1030 1085 1330 178
+1085 790 857 2556 1030 1084 1330
+1086 1670 2134 1397 403
+1087 2756
+1088 980
+1089 386 2519 342 734
+1090 1751 1067 889 1093 1715 1092 1793 1426
+1091 1751 2878 418 2318 2709 2816
+1092 2511 1557 1751 1090 2820 2284 2790 2578 1426
+1093 1090 2648 463 1779 2501 2479 1751
+1094 1093
+1095 661 790 931 2494 21 2854 1096 510
+1096 1435 1814 1384 2494 679 21 510 1414
+1097 276 1557 979 211 2671 1548 485
+1098 2783 701 665 1724
+1099 814
+1100 1548 553 276 913 404 1160 2303 2282 535 1300 1235
+1101 342 1023
+1102 1965 135 944 1226 1537 734 342 1103
+1103 386 1537 342 734 1399 1897 2134 305 924
+1104 806 1814 1435 21
+1105 37 2181 803 1473 1548 2401 615 276 145 685 1216 1010
+1106 701 939 342 2176 1462 2134 1359 2648 1160 2878 132 381 2291 2321 1827
+1107 939 2878 2186 2134 342
+1108 701 342 2134 2648 1106 2291
+1109 276 1548 685 2419 2176 1925 277 533 1301 1462 765
+1110 1376 2070 90 2257 1548
+1111 2601 119 2878 211
+1112 1106
+1113 1901 21 1418 1898 794 1191 1548 1586 1591 2008 2578
+1114 276 1557 842 844 201 202 21 1548 342 471 572 1859 485 2450
+1115 387 2211
+1116 2671 1827 1178 1685 793 526
+1117 931 1825 1811 2456
+1118 2560
+1119 1965 924 734 342 305 1271 332 2181 2134 310 1384 211 1353
+1120 526 1548 1301 767 1486
+1121 234 342 2339 305 734
+1122 593 1528 342 305 335 1271 939 1596 2493
+1123 2693 2186 476 1352 1954 734
+1124 1125
+1125 869 1713 2556 790 847 1548 2296 905 1384 1900 272 2024 870 1270
+1126 1978
+1127 1068
+1128 1679 1374
+1129 305 734 2720 1525 2396 1027
+1130 1129
+1131 1525 2134 681 524 2455 2061 998 2186 131 614 1262
+1132 1525 342 976 2648 1954
+1133 2186 2878 2699 2186 2671
+1134 1169
+1135 1176
+1136 341
+1137 342 1160 1965 734 234
+1138 2176 2442 1965 1525 2494 144 790 931 392 1384 1160 21
+1139 2296 1557 2134 2213 1670 1216 2139 21 2300 975 2061 1306
+1140 1397 1350 1670 1081 2359 1396 1291
+1141 1958 1525 1954 1670 2134 342 2249
+1142 11 342 2442 1965 2462 1525 1954 939 2200 1884 917 2434 1965 1981 1670 2249 1141 1958 2732 2133 2733
+1143 1531 1144 2163 1873 2324 1605 842 2257 1548
+1144 1780 1531 1053 2186 614 1486 1548 1160 2225 1772 1531
+1145 1175
+1146 2134 2731 2730 2778 1638 461 526 2728 2331 1465 340 2363 342 2133 1270
+1147 342 1954 2176
+1148 2352
+1149 1954 2648 2503 211 2134 1146 974
+1150 1525 305 2176 2396 342 2519
+1151 1954 1670 1525 2134 342 1150
+1152 2186 1389
+1153 1057 1111
+1154 979 485 1376 794 1153 1057
+1155 2648 342 211 939 2878 2110 2134 808 35 1177
+1156 886 2878 1106 2213 342 2056 1926
+1157 1548 485 2648 342 842 969 857 131 1209 1613 1863 2070 2061 656 1159
+1158 1276 23 277 217
+1159 2569 1548 572 2878 2570 1157 1574 2574
+1160 2134 2442 305 1142 2200 1884 886 2176 1965 2736 1352 305 1849 793 790 1401 1939 2556
+1161 2186 2205 2186 301 1376 1162
+1162 301 211 2671 1376 342 2186 939 397 979 2181 2177 2205
+1163 1965 342 2132 886 665 2122
+1164 2381 2852 2871 144 305 734 342 403
+1165 381 356 2181 1013 2176 598 939 1306
+1166 11 690 2778 1638
+1167 2396 2211 69 111 2841 643
+1168 886 794 979 2671 15 2574 824 276
+1169 21 1384 701 886 2138 1414 1390
+1170 102 1548 1544 1557 2878 1306 1414 1415 1554
+1171 102 191 2648 1554 1170
+1172 1384 1607 1386 2030 1353 941
+1173 2494 1435 707 2438
+1174 2015 2419 2176 1462 786 2860 2412 1747 301 2199 2411 125 1476 1654 1827
+1175 1176 1548 1548 1306
+1176 1548 1586 373 1175
+1177 342 1954 2648 1262 1180 2676 1361 707 808 2616 1352 1155 35 691 1444 994 2416 1638 237 1988
+1178 1954 2396 1827 1116 1277 2676
+1179 1180
+1180 1958 1352 2134 2813 1525 1954 2676 342 1279 2621
+1181 2181 1816 2186 241
+1182 1073
+1183 2629 2161 1435 2060 204 931 2430 2556 2793 1990 21 905 2852
+1184 2176 1961 2096 1548 485 982
+1185 125 2015 2578 1462 2580 2283
+1186 386 335 593 1258 2197 2663
+1187 2134 1926 2134 918
+1188 919
+1189 2820 1751 849 2556
+1190 2134 1352 2059 1672 1954 342 2176 1679 463 174 1827
+1191 794 2648 2878 2015 174 1376 560 15
+1192 2122 276 1965 1720 1557
+1193 2186 2255 1898 1548 1306 2181
+1194 1359 1954 211 941 2648 2134 2153 1352 1376 2318
+1195 1194
+1196 677 767 1486 1548 1496
+1197 1352 1672 1404 2833 305
+1198 2494 790 1318 1814 2161 144
+1199 305 2396 342 2462 2203
+1200 102 1548 1557 1659 125 1608 1078 1848 2186 2199 1306 2338
+1201 2398 2494 1548 1306 1584
+1202 1476 1462
+1203 2186 842 1376 201 2134 1672 342 1384 11 1898 1202
+1204 838 2134 976 310 2878
+1205 2296 155 2878 310 1204 2134 976 1794
+1206 969 1384 2570 2573 2372
+1207 119 273 276 2677 851 1196 1740 2231 1574 485 277 1672 1670 2648 2514
+1208 566 572 969
+1209 2159 1078 1863 1864 2455 1770 2334 1059 2371 2863 2878 2090 1613
+1210 485 1544 1276 2078
+1211 1548 572 2567 566 2574 2569
+1212 2186 1672 529 1384 820 2176 1232 1557
+1213 1548 1547 2186 1476 1306
+1214 2878 939 282 485 2503
+1215 2878 229 1701 2676 1475
+1216 342 276 1548 17 828 2319 615 1557 373 1010
+1217 2134 1352 305 342 2070 2159 2186 125
+1218 445
+1219 939 1273 2619 1150 1199 1954 342 381 11 814
+1220 1111
+1221 1965 924 1816
+1222 1200
+1223 1965 1672
+1224 1670 811 1679 142 1225 2134 2459 2730 2648 1421
+1225 2570 811 90 2878 979 2255 2186 842 969 1541 2830 1224
+1226 1102 1965 335 2030 1352 1242 1654 2134 924 1816 2186 2133 2292
+1227 1207
+1228 1233
+1229 2134 2059 2878 994 1827 2186
+1230 2379 357 2134 342 2731 2331 2864 2654
+1231 1863 2063 1209 2334 1078 526 1770
+1232 2176 1281 530 2289 2015 1548 886 2588 820 1234 1233
+1233 2338 102 1232 1544 1557 1547 2186 2199 1476 1306
+1234 40 2186 2134 1376 1232 2671 1898 1306 1283
+1235 913 404 1942 276 1548 1100
+1236 1548 2750 2296 1557 1583 1384 17
+1237 1965 342 2519 2846 64
+1238 939 1352 2176 2186 1525 2090 1033
+1239 1384 2173 17
+1240 1548 1586 1582
+1241 1418 1401 1939 1707 1334 2871 1491 1752 2850 2877 1242 144 1650 2872 2781
+1242 2648 1352 838 2030 1672 529 1120 1093 2479 1654 342 342 924 2494 120 2667 1241
+1243 2878 2289 877 2659 2143 2186 271 1548 2122 21
+1244 2134 886 1462 1965 734 2865
+1245 1608 1553 2878 1352 538 2186 448 469
+1246 1243
+1247 2494 886
+1248 1965 1679 1525 2396 342 2059 1404 1954 2462 1548
+1249 1241
+1250 1266 1384
+1251 305 2720 2442 1965 2749 750 2441
+1252 2134 1753 1230 1384 2878 2135 1372
+1253 1679 1954 342
+1254 2181 2318 342 2063 2186 2204 683 332 924 2878
+1255 2181 1898 502 2258 1548 2296 1191 794 1306 2805
+1256 1498 21 739 2397
+1257 310 342 211 619
+1258 342 734 2519 716 305 1186 2197
+1259 342 305 593 2519 1965 335
+1260 919
+1261 342 2519 716 305 1965 593 2198
+1262 2671 342 2134 2249 1525 2676 2186 2425 2813 1954 1525 2676 2133 2878 2442 1177 2648
+1263 453 1725 2748
+1264 305 342 1670 2134 335 734
+1265 2134 2096 421
+1266 2255 1384 2570 2186
+1267 275 2262 2000 2886 2260
+1268 1374 1128 1679 2134 486 282 979 1898 842
+1269 2134 2713 1384 1160 1716 849 2648 1849 2136
+1270 790 2556 1125 870 2365 1713 1814 2430
+1271 342 305 479 335 734 1967 2186 2134 939 2493 1596
+1272 1713 1491 1742 516 1703 1270 2556 2018
+1273 342 1679 1954 2619 1147 1277 2015 2176
+1274 386 1273 2619 2519 342 1954 524 1279
+1275 386 1273 2519 342 734 2619 1274
+1276 2671 2878 2570 23 485 1376 794 2255 277 979 485 211 2677 2570 2574 1661 2569 2539 2134 340 2730 2648 1954 524 2186
+1277 1178 174 1827 679 248 1954 342 2354 1958 2813 2570 524 2249
+1278 2110 524 2070 2455 2289
+1279 2134 2648 524 342 1352 1353 1274 2621 1180 2469
+1280 1693
+1281 2176 2134 2713 1232 1548 2186 1234 1169
+1282 794 1384 1630 2726
+1283 2134 1232 2176 1234
+1284 1072 1548 2296
+1285 572 2570 835 566 2567 417 586 981
+1286 88 1339
+1287 1057
+1288 895
+1289 1548 1306 2596
+1290 1965 976 1954 342 734 1474 307 1672 1525 1404
+1291 1397 1350 1670 1352 2648 1081 1396 1140
+1292 282 342 701 1352 2186 2134 1965 305 2122 358 2213
+1293 1780 1863 526 211 2878 1078 1848
+1294 2490 154 1548 2186 342
+1295 2384
+1296 358
+1297 794 277 276 2201 2612 2410 2236 2108
+1298 1384 794 2201 2387 790 2108 2236 1055 1435 728 2494
+1299 1283
+1300 342 276 1548 404 556 2282 1900
+1301 2134 1849 1548 1586 485 1557 1462 2833 1985 2419 1302 277 2176
+1302 485 1860 277 2419 1462 2833 1985 2176 1548 1586 2134 1716 1301 1872 1908 588
+1303 276 886 1548 1557 1420 888
+1304 734 305 1954 342 1525 234 2519
+1305 886 2291 2292 1670
+1306 2854 2887 1630 2850 2780 2671 211 707 1384 1598
+1308 2574 1309 1310
+1309 2609 1310 1308
+1310 1309 1308
+1311 119 1548 485 979 1153 312
+1312 2130 1981 1965 88 251
+1313 2186 174 942 629 2318 538 301 1462 1898
+1314 1312
+1315 1352 2059 2134 2648 1958
+1316 2511 1384 2296 1693
+1317 1548 572 1859 2570
+1318 790 1384 2644 1814 2430 580 2854 2430
+1319 2511 1827 1548
+1320 1334 1598 886 1752 2052
+1321 2015 2702
+1322 2181 2133 11 2778 1638 560 2564
+1323 342 2821 2878 1384 1352 1668 2406
+1324 1330
+1325 641 2161 2853 580 1384 1330 1160 2854 2887 1436 2112 2850 810
+1326 2015 1654 1476 2186 1462 2296 174 2616 1477
+1327 1598
+1328 1329 886 2852 1519 1384 1242 120 1189
+1329 790 794 1598 886 427 2887 842 886 1330 1328
+1330 1329 886 2887 1443 1036 2060 2852 701 2648 1164 1242 1598 2683 2850
+1331 2134 2347 789
+1332 11 1954 1149 974 282 2503 211 2671 1860 979
+1333 1424
+1334 1242 790 1752 21 144 1241 1328 661
+1335 2090 2030 1352
+1336 270 701 1359 939 1462 2546 1292
+1337 1286
+1338 1337
+1339 842 2264 1548
+1340 656 2159 2070
+1341 11
+1342 1425
+1343 1427
+1344 1427
+1345 1415 1400
+1346 1428
+1347 1420
+1348 1605
+1349 1397 1670 1954 1679 1721 1350 2346
+1350 1670 1372 1352 1981 2804 342 2139 11 2346 1397
+1351 1397 1350 1670 2346
+1352 2040 2059 838 2057 529 1672 1242 2648 2134 2878 679 1670 1350 1721 2134 342 2876 342 1177 2059 1672 1205 976 1654 169 538 11 1350
+1353 2648 342 2134 2176 2041 211 2648 448
+1354 342
+1355 305
+1356 342 2134 305 1954 2396 2181 701 398 1357
+1357 2442 305 701 342 2134 305 2462 1404 2181 2451 398 1666 994 1932
+1358 2176 1462 2134 2676 2181 598 793 790 144 792 1160 1024
+1359 701 342 2176 2134 939 2733 2291 1462
+1360 2176 2134 342
+1361 2186 342 2181 2133 2177 1147 2676 2813 1525 2134 1954 2648 626 2833 2519 305
+1362 2177
+1363 774
+1364 342 2176 2134
+1365 342 2181 1933 1181 241
+1366 1548 555 485 2634 1900 277 404
+1367 487 2419 2176 2433 2833 1985 1462 2181 1908 534 2880
+1368 1369
+1369 342 2747 2442 1199
+1370 2181 803 1473 882 398 701 1448 1936 2642
+1371 1670 1372 2134 2676 2878 1665 211 2671 1023 626
+1372 342 1961 449 1753 2134 1252
+1373 1679 1374 1938 2658
+1374 1679 1954 1938 2658 486 485 277 1268
+1375 2186 301 2702 174 1009 1816 2318 1462 342
+1376 90 2570 2878 1954 2648 1384 1078 2255 1848 237 2833 2419 2186 1462 751 107 1615 2878 2186 1160 681 2015 211 2570 1898 794 2102 2094 16 485 574 1276
+1377 1378
+1378 342 510 1414
+1379 1672 2425 2433 1674
+1380 1907 1965 2206 437 342
+1381 1613 2186 2878 2507 1548 1216 1970
+1382 2878 2186 211 938 1701
+1383 1384 1392
+1384 790 683 2878 1498
+1385 2173 1384
+1386 21 1384 2296 1172 193
+1387 2173 17 1548 1557 2258 2432 2260
+1388 1384 1414 510 2138 1416 2056 1390
+1389 1384 21 2181 794 2146 2805 1376 16 1172 1386 722 2173 17 2702
+1390 1384 510 1156 707 1416 1169 1414 2138 1388
+1391 1384 1498 1548 1160 1498 2296 660
+1392 1498 1384 1383 1581 1393
+1393 1384 790 1383
+1394 2020 707 2878 82
+1395 2701 366 2015 1548 398 1306 1473 866
+1396 1397 1350 1670 679 2648 1291 1081 1140
+1397 461 524 1670 1350 1372 2346 2442 2134 910 1081 1140 1291 1396
+1398 2134
+1399 734 342 1352 403 1965 1897
+1400 1900 2494 1548 1306 2805
+1401 790 1939 1491 1752 2367
+1402 701 342 1403 211 11 2120
+1403 808 342 1132 1286
+1404 2747 342 1827 2015 2176 1672 1352 2578 305 2396 342 2059 2670 1405 2648 2181 2153 2878
+1405 838 1672 1404
+1406 1672 2134 403 1954
+1407 828
+1408 2878 2186 2419 2015 1985 1863 1654
+1409 2186 2833 2433
+1410 342 2186 2570 2296 2878 2318
+1411 562 764 1306 2805
+1412 275 2886 1267 1522 1898
+1413 1525 1954 305 342 2134 2176 1506
+1414 1543 1169 1306 102 247 510 1096 1171 1554
+1415 2338 102 21 1548 1544 510 1414 1554 1171 1306 1170
+1416 2878 707 1995 1390 1052
+1417 1418 2852 1401 1021
+1418 793 2494 2781 1241
+1419 939 2442 1965 2059 1954 2648 342 305 1525 2134
+1420 342 276 485 1548 404 2258 556 2854 931 2282 913 1442 888
+1421 2714 2134 2648 1537 1224
+1422 2494 972 1898 278 794 2637 2201 2612 2273 1384 1692 17 2175 1544
+1423 707 2878 2186 258 2760
+1424 2181 342 2186 707 708
+1425 572 2490 2296 2186 571 1306
+1426 1090 155 2296 886 2122 2186 265 1306 1792
+1427 2296 1581 1547 1306
+1428 133 132 381 358 342 1306
+1429 2543 104 1306
+1430 2338 102 1544 1548 1306
+1431 2419 2176 1384 271 1434 1490 1574
+1432 2543 1427 277 1548 1160 475 2134 2419 485 119
+1433 2181 939 342 2176 2134 2813 2676 924 2186 1271 734 2493 277 1548 485 2538 2833 2878 532 2205 1434 2537
+1434 1431 2419 2176 1685 1462 2673 277 1548 485 2538 1433 2537
+1435 1919 1814 1384 2887 790 661 1183 485 2640 165 1443 1036
+1436 1435 931 2780 2854 1183 2640 896 1453
+1437 2850
+1438 1435 2637
+1439 1440
+1440 1548 1384 1581 1392 1737 1736
+1441 1548 572 2570 1037
+1442 276 1548 1586 1420
+1443 2854 2629 2161 1329 1598 1435 21 1104 1036
+1444 342 2570 2878 1954 211 1177 2110 1155 2648 524 2149
+1445 350 2578 342 2671 1654 2186 866
+1446 2181 342 2176 2177 1602 2119
+1447 1523
+1448 1557 2449 276 1548 2181 803 1473 2596 2134 1933 1936
+1449 1276
+1450 342 2671 1276 1376
+1451 886 2805 1548 2194 11 2181 239 1818 1856 1857 1858 1924 1933 1934 1936 2641 2642 2317
+1452 1451
+1453 580 2430 1814 2629 2161 1436 896
+1454 1430
+1455 1432
+1456 1433
+1457 1431
+1458 1411
+1459 1429
+1460 1438
+1461 1434
+1462 342 2134 701 939 1359 2676 142 282 1160 2546 1106 2268 2015 2186 1464 2578 1548 305 2833 235 1109 765 695
+1463 1462 2419 2176 1464
+1464 2181 1462 2419 2176 2833 174 2186 2015 560 1476
+1465 768 939 2331 2648
+1466 276
+1467 1548 485 277 2833 276 2834 705 555 1384 2532 1925
+1468 924 2477
+1469 1435 1443 1036 144 661 2850 2060 2872 1650 2765 143
+1470 984 1012 982
+1471 2091
+1472 342 803 2277
+1473 398 342 1462 2181 1548 866 1933 803 65
+1474 734 342 976 939 595 1290
+1475 2878 607 119 560 211 2676 342 174 2186 2015 2563 655 2437
+1476 2015 2296 1384 2186 2199 301 305 125 2833 1477 174 1954 282 2878 15 2648 679 1654 153 637 715 764 930 1326 1570 2702 2878 841
+1477 1476 1958 1954 1462 2833 2186 2199 305 125 174
+1478 938 701 2176 1827 1654 1476 841 2190
+1479 2543 847 1160 791 2052 790 1754
+1480 847 1494 794 235 715 1476 1306
+1481 503
+1482 1954 1827 1654 1826 174 1462 2648
+1483 2733 2648 1679 1954 79 2207
+1484 1483
+1485 2878
+1486 1557 342 2903 1078 1848 255 936 2041 89 731 336 1544 538 187
+1487 2733 461 2671 2878 2648 1488
+1488 2733 461 2671 2878 2648 1487
+1489 1217
+1490 2419 2176 1434 1431 2677 485 277
+1491 2018 790 1401 526 1513 516 1742 2733
+1492 1491 1898
+1493 2570 1376 2671 2648 2878 1276 2022
+1494 15 2671 2574 824 2648 277 794 2387 2555 1493 2022 1900 794 2686 2494 790 1401 2273 1055 1168 401 2723
+1495 445
+1496 1695 2570 677 2173 1486 17 767 1196 2648 119
+1497 1548 924 1816 2226 1549 1384 441 2589
+1498 1384 790
+1499 1548 2878 211 2570 2671 276 485 794 1494
+1500 1863 2878 299
+1501 1553
+1502 1412
+1503 342 2186 1967 2651
+1504 1557 1301 2570 211 1548 1670 2648 1954
+1505 1615 2070 1780 1531 1306 2648
+1506 2442 342 2134 2176 1413 1860 485 979 1526 1961 2027 73 2176 1384
+1507 1965 787 2847 729 2889
+1508 1550
+1509 2122 1548 924 734 1967 342 964
+1510 2364 2159 1543 476 466
+1511 1623
+1512 842 811 2080
+1513 2024 1491 1752 1742 2301 1814
+1514 2730 2071 2176 2041 255
+1515 790 869 642 502 925
+1516 305 342 335 2519
+1517 2511 1557 2296 2717 2015 1737 1736 97
+1518 1505
+1519 2736 2134 2176 2648 1352 463 2353 1146 701 2733 1954 2071 1898 886 2852 1241 1164 1666
+1520 1574
+1521 1575
+1522 1939 847
+1523 241 2671 350
+1524 2658 2830 1376 1615 752 2609 2574 824 693
+1525 342 2442 1965 1981 1525 1954 2134 2249 2813 2291 1142 2396 898 1537 342 734
+1526 2176 1954 2747 1961
+1527 2370
+1528 342 305 2519 1670 2134 335 734 1981 1264 1750
+1529 379 342 1965
+1530 342
+1531 201 1672 2671 463 1352 1078 1772 1144
+1532 2134 2218
+1533 2134 2648 1965 2730 2071 1679 1102
+1534 1533
+1535 2296
+1536 2134 942 1954 1827 1654 2181 2186 942 174 942 2176
+1537 526 453 305 342 734 2671 211 88 979
+1538 277 1548 485 790 273 2878 119
+1539 842 1225 811 136 1540
+1540 1539 1003
+1541 842 1225 2570 2830
+1542 1566
+1543 2134 2186
+1544 1548 2401 1384 1568 1586 1560 1580 2497
+1545 1574 1583 310
+1546 1384 2878 1702 2570 1548 112
+1547 2122 1557 1384 1160 1581
+1548 1557 342 2296 21 1583 1544 857 1306 2854 17 2173 2511 2181 342 2186 2425 661 790 2494 2341
+1549 1548 1586 1587 1560 1550
+1550 102 1560 1549 1548 2186 2199 1476 1306
+1551 102 1544 1384 2186 2199 1476 1306
+1552 720 1544 1560 1548 1558 914 102 2510 106
+1553 1544 2186 1747 1476 1306
+1554 102 1548 510 2648 1171 1415
+1555 305 1462 2015 2234 2833 1967 2176 555 2103 2183 102 342 734 433 976 716 2462 1562
+1556 1965 404 1548 249 555
+1557 342 1548 485 21 2257 553 2419 1232 2213 1301 614 2507 2284
+1558 1544 1560 1548 1581 1392 1552 2143 102 2338 1013 1016
+1559 1548 2570 2308
+1560 1548 1586 434 2173 335 1587 17 1549 1550
+1561 2173 1586 2431
+1562 939 342 2186 305 2183 1548 2701 2176 1555 2103
+1563 1737 1736 1580 836 1544 185
+1564 1548 1583 614 2028 1716 2220 2818 642 2018 2398
+1565 2296 2878 1548 1547 1566
+1566 2338 102 2296 2122 1565 2186 2411 1306
+1567 1548 556 2852 355 276
+1568 275
+1569 2338 102 275 1548 1384 1592 1306
+1570 1476 2176 174 1581 1392 1547 2686 2318 2176 342 1544 1898 2897 1578
+1571 2702 2320 1544 2186 1462 174 629 2318 342 2015 1849 1557 1898 1570
+1572 2186 1255 211 2570 1376 1615 1581 1392 342 2015 174 1961 1580 2659 2318 2833 301 1967 2594 757 125 1898 1113
+1573 342 2176 1548 1586 155 2296 2181 1473 1013 1558 1570 866 2119 1555 153
+1574 1796 2301 707 820 1648 489 1306 1785 1069 1545
+1575 572 342 2878 1574 1498 88 2301 17 2370 2173 835 1938
+1576 1548 342 2181 2173 396 2000 370
+1577 1574 342 276 2186 2570 2574 2833 2264 2173 17 693 2390
+1578 1581 1392 790 2296 2186 1570 1558 2143 1549 1579
+1579 2338 102 1578 1581 1392 2296 1549 2186 1306
+1580 1737 1736 1548 836 32 148 1898
+1581 1498 1384 1580 1737 1736 1547 1392
+1582 2173 1240 1586
+1583 1548 1586 1560 1544 1980 1954 2562 17 1050
+1584 796 1657 388 1548 2596 276 555 1557
+1585 1072 790 1557 1548 2289
+1586 1548 515 412 63
+1587 335 1548 1586 188 1176
+1588 2648 2186 1961
+1589 857 1548 1306 2854
+1590 1591
+1591 1548 2805 272 1898 2468 17 21 97 102 190 196 1694 2510
+1592 275 1605 1498 2173 21 2225 2570
+1593 2731 2861 1146 340
+1594 1722
+1595 939 701 2291 2701 1525 2676 230 211 2134 1965 305 814 1948
+1596 593 1528 342 305 335 1271 939 1122 2493
+1597 434 1548 1586 1914
+1598 1329 886 2780 2887 2648 1334 1242 1752 424 2854 1599 1320
+1599 1598 2852 2780
+1600 1569
+1601 11 1581 1392
+1602 866 2176 2181 485 2119 1446
+1603 1659 2494 2060 931 1898 857 1664
+1604 1551
+1605 2173 1391 660 1592
+1606 2878
+1607 1670 2176 2181 2586 211 211
+1608 2878 2344 2181 539 1843 2190
+1609 983
+1610 1619
+1611 1608
+1612 2878 2686 2570 485 572 679
+1613 2878 2070 2061 2455 1863 1615 2083 2192
+1615 2878 2159 2878 2570
+1616 2176 2318 2878 2419 127 274 1476 2296 174 1615 2686
+1617 2186 2570 2686 2296
+1618 1615
+1619 2015 2186 2070 2159
+1620 555
+1621 276 553 1548 404 1160 2303 2282 1300 1100 913
+1622 11
+1623 641 1814 2430 580 2886 1915 641 1435 1919 2867
+1624 282 342 2878 1205 2296
+1625 1557 342 2132 1672 1352 1548 1205 2296
+1626 1627
+1627 277 276 485 794 282 1557 1548 1586 2264
+1628 40 1239 726 275 1544 576 1306
+1629 1630 2235
+1630 21 2793 1990 1629
+1631 1242 2854 1318 679
+1632 1629
+1633 1630
+1634 2501 1695 2565 1548 206 642
+1635 2296 2792
+1636 1271 1122 305 1954 2176 2325 2093 1548 2255 1232 2522 632
+1637 276 1548 404 1730 85 2204 211
+1638 461 1146 2778 478 2733 1725
+1639 1634
+1640 1527
+1641 1579
+1642 1582
+1643 1898 531 1659
+1644 2070 1780 2499 954 1885 1646
+1645 1646
+1646 1548 485 652 47 1644
+1647 1384 793 1160 790 2556 847 1160 1270 1125 1648
+1648 847 276 1574 485 1548 1306 2762 1900
+1649 1384 1160 1401 1647 277 1648 2556 1695
+1650 1241 2024 831 2781 1418 1548 767 2872 2765
+1651 1706 526
+1652 1695 2648 2029 2716 1716
+1653 701 342 939 1356
+1654 2015 174 211 1242 2134 1226 1965 1954 282 1462 1747 2860 1476 934 1824 1326
+1655 1673
+1656 869
+1657 342 276 2634 2398 1548 826 2142
+1658 2878 211 1684
+1659 931 2494 1603 1898 857 442 1664 1811
+1660 1548 485 979 276 23 1384 560 465 2695 1276 47
+1661 1276 2569 1577 2539
+1662 515
+1663 2644 1713 1723 2593
+1664 1435 1659 661 2765 1915 1603
+1665 1670 1725 2778 461
+1666 2134 2648 1352 1860 2353 1954 1519
+1668 1266 342 1961
+1669 1548 485 276 342 2134 2176 2133 2146
+1670 2878 2648 1403 2374 1672 2732 701 211 2176 2134 11 1350 2346 756
+1671 342 2135 886 701 1981 2804 305 335 734 2346 1721 365
+1672 2366 2442 1981 1548 342 2068 1352 976 1223 201 62 473 927 2443 1676 1379 477 475
+1673 2338 102 1675 1672 1547 2186 2411 1476 301 1826 1306
+1674 90 1672 1379
+1675 1548 1557 475 1672 201 1203 529 847 790 1673
+1676 2425 2443
+1677 976 386 1965 734 1954 342 2134 814
+1678 1648
+1679 2134 1954 2442 1150 1253 1533 1224 2459
+1680 2459
+1681 2459
+1682 2070 83 2063 1772 526
+1683 1967 342 2699 701 2134 1965 2878 1209 1078 2186 2425 2704 2192
+1684 1658
+1685 409 629 2134 1462 1827 2015 2671 2176 2181 941 2833 1870 1434 2578 707 942 1954 1654 1476 2616 797
+1686 157 485 277 955 273 1688 1767 1872
+1687 1548 1914 342 1689 2419 434
+1688 157 485 277 955 273 474 1686
+1689 1849 1090 1093 2479 2820 642 208 502 1649 2494 1544 1160 1384
+1690 1689 1548
+1691 1544 2401 21 1384 1849 1160 642 206 2818 2819 1090 2494
+1692 1422 1902 1544 972 1384 1898 794 973
+1693 2511 1384 2302 2296 1694 1799
+1694 1544 1548 1693 2186 2199 1306
+1695 1384 790 1965 1090 869 1515 2878 2134 2731 2861 342 1696
+1696 2878 1548 485 47 211
+1697 445
+1698 314 516
+1699 2061 526 2707 1061 633 1613
+1700 2289 2490 2296 1462 2143 2711
+1701 211 1498 841 1476 2176 841 229
+1702 1548 1970 582 2030 841
+1703 790 2556 1270 1125 2210 2365 1915 144
+1704 342 2396 734 2285 2234
+1705 1819 102
+1706 1921 1598 1334 1752
+1707 1242 1706 1752 1921
+1708 1418 1706 635 1241
+1709 1376 2854
+1710 790 794 1647 1814 2542 1160 1384 2897 1898 1376
+1711 1698
+1712 544
+1713 661 1814 1723 1663 2024
+1714 2030 1090 2648 1376 979 1716 2220 17 992 886 235 2015 1232 11 1715 2741
+1715 2030 1090 2648 2220 1548 235 2015 1716 1301 1269 1714
+1716 1689 2648 1965 1715 1714 1717 2292 1926 939 2220 1548 1301 1269 847 502 869 1384 1652
+1717 1965 2648 1716 2220 1548 1301 1269 1714
+1718 516 544 1703
+1719 1272 2494 2872 2765 2776
+1720 1548 1954 305 342 2134 1965 1192 2122
+1721 1352 1397 1954 1671 1350 2090 2804 701 886 2292
+1722 939 2134
+1723 806 1900 1713 1663 2593
+1724 133 342 701 665 2186 1098
+1725 768 1638 1665
+1726 2379 1748 1771
+1727 701 2854 2430 1318 679 2852
+1728 342 1525 2462 305
+1729 342 701 1981 2804 1350 365
+1730 276 1557 1637
+1731 342 1376 142 2181 2732 2515 2133 701 2134
+1732 1548 572 1859 88 1575 2195
+1733 2878 679 342 1352 2648 227 2437 1475 655
+1734 1694 1765
+1735 1160 2503 2296 1965 2186 1898 560 137 953
+1736 1392 1737 32 148
+1737 1581 1736 32 148
+1738 393
+1739 1740
+1740 1739 2231
+1741 690 2018 847 114 790 1713
+1742 2018 1939 2648 2307 1522 2052
+1743 1352 2059 1177 342 627
+1744 342 2717 2570 2372 282 2878 560 119 2419 276 1985 614 2186 1745 2584
+1745 2425 1744 1462 621 2764 2490 2833 2671
+1746 2061 1780 1078 526 2496
+1747 1462 1654 1476 2186
+1748 526 83 1771 1726
+1749 1548 1827 1462 2255 1376 794 582 2030 1352 2296 938 174 2176 2290 310 1877
+1750 386 2213 2047
+1751 1090 2030 2030 1093 1092 1091 2709 1426
+1752 1401 769 1241 1491
+1753 2134 526 2733 1954 2648 2135
+1754 2543 791 1189 847 1160 1479 925 1751 246 445 335
+1755 1649
+1756 790 641 1814 418 1659
+1757 144 1689 1160 208 1242 1189 1898 969 2186 502
+1758 1496
+1759 2878 2186 1985 2833 2255 305
+1760 23 790 277 211 2671 2570 1494
+1761 21 790 2833 969 842 1900 794 1591 2468
+1762 1915 144 661 516
+1763 2511 342 21 553
+1764 1548 1557 2134 1670 2374 642 208 2027 342 2255 2173 2401 17 2296 1926 2503 1796 2213 1765
+1765 1764 2186 1747 1306
+1766 1548 208 642 1634 404
+1767 537 1768 1686 277
+1768 119 656 2671 485 1660 652 47 167 1588 2010
+1769 342 1548 681 1954 1679 2648 305 268
+1770 1863 2455 2061 1090 1209 1078 832 2604 2722 1231
+1771 1748 1726
+1772 2063 1615 842 2257 1548 1531 526 1144
+1773 1786
+1774 1783
+1775 218 1276 211 2570 485 1548 1586 752
+1776 2648 2878 1954 342 1376 237 90 2833 2433 214
+1777 47 1548 485 720 2677 2878 1985 119
+1778 1785
+1779 889 1090 1093 2379 741 2186 2878
+1780 2878 1078
+1781 2570 2658 1376 566 824 2574 419 2272 2373 2785
+1782 1854
+1783 1557 276 1384 1548 21 2296 1306 1069
+1784 155 886 1785 1384 1796
+1785 1784 2246 886 1169 1306 1786
+1786 156 2246 2186 2199 1826 1306 1785
+1787 282 886 2186 2878
+1788 2176 310 1384 2833 2255 2433
+1789 342 2186 1078 1848 2070 538 1306 2190 448 1822
+1790 1548 1384 2296 1306
+1791 1898 794 2296 2186 1747 1306
+1792 1545 2122 1090 1793 1306 1426
+1793 1090 1792 2122 155 1574 1067 1306
+1794 2122 1205 1384 2296 890 790 2186 1476 1306
+1795 2490 104 2543 1581 1392 2186 1306 2906
+1796 1548 1557 2186 2176 1799 1784 820 1598 2854 1427 1306
+1797 1796 37 2122 2186 1306
+1798 1548 1557 2122 2296 1384 1814 155 1306 1069
+1799 1693 1306 1069
+1800 1796 1574 411 2501 404 2265 1548 2132 1306
+1801 1548 2173 2096 380 1013
+1802 1384 1557 276 2289 2176 1757 2494 794 1306
+1803 794
+1804 1921 2852 1384 2854 2683
+1805 1790
+1806 1818
+1807 1818
+1808 401 2612
+1809 2181 342 866 1810 1845 11 1435
+1810 2181 342 2180 866 1809 1845
+1811 690 1435 1898 931 1117 2456
+1812 2494 427 1384 2854 2887 2850 1306 1435
+1813 158 1435 2897 1225
+1814 790 580 1435 1623 2867 1443 1036 506 1384 1548 674
+1815 1544 1558 2338
+1816 2186 2671 1462 1271 342 381 2702 2318 2176 2181 1181 1161 259 375 1557 924 441 1497 2000 427
+1817 2321
+1818 2181 1451 939 2671 2186 11
+1819 2338 102 2313 1705 1659 1306
+1820 2173 1306
+1821 2186 1462 1615 342 2318 1898
+1822 1608 125 102 211 538 2186 2181 469 448
+1823 2475 2887 931 1659 1825 1435 144
+1824 1654 2176 2186 2860 1827
+1825 1435 2686 2201 2662
+1826 2419 2176 1954 1384
+1827 2419 2176 1830 786 2860 942 631 476 1462 939 1548 235 1715 1714 1824 1277 1685 629 942 1828
+1828 174 942 629 2186 1827 2570 211 1376 786 1898 1901 1113
+1829 1749
+1830 1965 2134 1827 1826 1548 235 1715 1714 2122
+1831 1791
+1832 1792
+1833 1793
+1834 1794
+1835 2181 2186 2176 342
+1836 696
+1837 1795
+1838 1798
+1839 1799
+1840 1800
+1841 1819
+1842 277 11 2177 342 485 979
+1843 1608 1615 2878 2190 1789
+1844 2169
+1845 2878 2651 398 866 1809 1810
+1846 305 342 1672 474 201 2479 1093 1751 2820 2501 1496 1740 2231 1849
+1847 1548 2213 1670 2255 2016 2015
+1848 2159 2878 526 1548 1575 835 451 1078 889
+1849 1160 1965 1715 1714 206 642 502 1090 1093 2479 2818 2819 1384 847 1649 1846
+1850 1556 1548 1586 2282
+1851 690 55
+1852 55
+1853 1856
+1854 1384 2419 2176 2181 1544 2579 794 2805 280 304 1558 1659 2186 1306
+1855 690 276 1548 485 451 2532
+1856 2181 1451 2671 1548
+1857 2181 1451 342 276 2239 1548 398
+1858 2181 1451 2671 2186 1462
+1859 566 2567 1548 572 485 979 276 1732 2195 1317 451 775
+1860 2648 2503 2204 211 1954 1149 524 174 342 974
+1861 157 485 277 2035 2616 2878 273
+1862 1636 2522 734 1525 2606 1513
+1863 1780 1078 2159 1780 1293 1864 2455 524 1209 1866 149 988 1231 2170 2332 299 1500
+1864 1863 2455
+1865 1613 1863 1548 485 47 211 2671 2878 906
+1866 2159 1780 1864 2455 1078 2364 1863
+1867 1857
+1868 1781
+1869 1802
+1870 1462 2015 2419 2176 560 2833 2878 1408 1063 1464 765 238 235
+1871 701 342 2186 1595 2181 2134 626 1948
+1872 157 485 277 2178 2419 1302 1548 1586 1686
+1873 612 1486 2173 767 17
+1874 1858
+1875 1820
+1876 2181 882 342 282 352 358 394 381 1548 2186 386 1352 1965 2736 2134 1156 510 133 2671
+1877 2186 1827 1654 310 2296 2134 1376 2257 1548
+1878 119 2288 1207 851 1196 1740 2231
+1879 342 2041 2134
+1880 2086 510 1026 407
+1881 1924
+1882 1901
+1883 1917
+1884 342 2442 1965 2462 1525 1954 2041 939 2186 1271 1142 2200 917 2434
+1885 1644 2070 1004 1615
+1886 1548 276
+1887 2671 2676 342 2134 2176 1544 485 276 1262 2756 2677
+1888 516 1898 2018
+1889 701 174 524 2878 2291 1926 1462 734 211 1476 2676 1958 2291
+1890 2833 2291 2186 1863 2878 211
+1891 747 174 2318 342 2176
+1892 2181 803 1548 2186 145
+1893 701 2134 2176 877
+1894 2181 398 701 1950 2277
+1895 2061
+1896 1548 1384 2173 1586 412 393
+1897 1965 734 342 2684 1399
+1898 516 2230 1548 1888 1900
+1899 342 1435 398
+1900 1548 485 277 1647 847 1160 806 21 2644 2886 2494 21 2542 1586
+1901 280 485 37 2419 555 1420 21 1898 794 790 1548 1814 1648 277 1306 1113
+1902 1548 2175 2401 21 1898 794 502 1692 2613
+1903 1160 1900 794 2296 2686 1898 879 275
+1904 1933
+1905 11 1860 282 560 2204 2878 1954
+1906 485 342 1548 2644 2886 2258 1898 2858
+1907 2134 1965 2442 1352 2457 1965 1102
+1908 485 277 979 1376 282 273 276 2176 2419 2425 1548 2433 2015 2578 2833 588 1302
+1909 2303 1910 21 590
+1910 1548 21 591
+1911 1429 2543 641 2161 2906
+1912 2749 342 1954 1965 2833 2767
+1913 1954 342 2134 2176 1253 901
+1914 1548 1586 1687 460 1597
+1915 2494 790 2018 2872 1650 2765
+1916 1934
+1917 526 2134 1954 2367 792 847 1491 849 1384
+1918 1515
+1919 1384 966 314 246 847 790 1814 1435
+1920 2367
+1921 342 1670 707 43 2878 2586 1334 1598 1241
+1922 652 2181 2878 1695 2186 11
+1923 2713 155 2507
+1924 1451 342 276 701 239 1933
+1925 37 277 276 1384 2634 1557 2401 2805 2194 2239 485 1207 2833 1467
+1926 1615 2878 211 2292 2293 886 701 1156 2056
+1927 305 342 1462 2234
+1928 277 276 485 703
+1930 1936
+1931 1911
+1932 2134 701 2733 2181 398 1357
+1933 2176 2181 1448 2291 2784 2784 133 374 939 11 1936 2641 1934
+1934 2181 1451 2176 1448 701 2134 1933 2641
+1935 701 2878 2134 1595 305 1948 2319
+1936 2181 1451 2176 1448 11 1933 1370 2642
+1937 1384 761 2775 342 2594 2321
+1938 2570 2590 2471 2686 2878
+1939 790 1401 2820
+1940 1548 1384 2173 1544 396 393
+1941 1548 2634 2175
+1942 276 553 404 913 1548 1100 2282 1235
+1943 404 276 913 1100 2283
+1944 275 2716
+1945 2716
+1946 2442 2648 1352 2651 969 2716
+1947 409 2134 701 2878 2277
+1948 2442 701 2878 2134 1595 2319 1935
+1949 342 451 1548 169 1627 485 277 2520 276
+1950 342 2671 2181 398 866 2277 1936 1894
+1951 21 794 2887 1418 1591 1548 2296 1306 2805
+1952 394 342 276 1548 1005
+1953 1814 526 790
+1954 1525 1670 342 2015 2134 2176 1142 2249 2813 1482 2852 1548 591 2531 2304 2448
+1955 2648 1954 2868
+1956 1277
+1957 2134 2153 1954 1194
+1958 1954 2134 886 1177 1638 2648 1670 1141 2249 2813 1477 485 610 277 1525 276
+1959 1403 1670 526 2377 1605
+1960 1670 1981 2804 1965 2296 2648 2878
+1961 2419 2176 1954 305 1965 734 2186 2077 982 2134 342 422 1962 1963
+1962 2404 1965 2183 1954 2015 1961
+1963 1961 1462 2015 1965 734 2747
+1964 734 342 403 2671 2519
+1965 1965 1907 33 1548 2122 1971 2206 267 1830 450 1102 804 656 211 2186 2143 2711 174
+1966 342 305 335 734 1965 593 939 1967
+1967 342 2186 1965 734 1271 939 2671 2493 11 1966 2704 1683
+1968 1967
+1969 2847
+1970 155 2507 886 723 2025 1548 211 155 2123
+1971 1965 1670 2381 886 1548 1981 2804
+1972 83 1038
+1973 1975
+1974 2176 2878 2134 1160
+1975 2648 2878 2134 1954 342 2714 921
+1976 1548 485 2677 276 2379 2671
+1978 230 886 1156
+1979 2878 2204 2056
+1980 1548 2597 2173 1586 412 1544 857 2598
+1981 305 2804 886 1670 1971 342 1965 2135
+1982 1577 811
+1983 119
+1984 2364 2878 2570 443
+1985 2878 211 2181 1669 1462 1744 2833 1063 2035 157 277 119 2045 1759 1768 2045 2035 157 277
+1986 342 2181 398 2180 1809 2844 2277
+1987 491 2676 2587 96
+1988 2181 342 1199 1131 1180 2676 1361 707 808 2110 1155 2616 1352 1444 35 994 1262 2648 142 1860 1225 282 1376 626 691 1177 237
+1989 2134 2574 1376 1149 974 211 524 2878 1954
+1990 526 1630 1898 794 21 1915 795 2494 2397 2793
+1991 976 734 342
+1992 2134 2648 2670 1954 994
+1993 2134 2442 1965 1957 2648 1352 1276 463 2176 1519
+1994 305 1965 335 342 1271 939
+1995 886 1462 1548 794 2706 1996
+1996 1548 701 1995 2706 1384 17 2173 2547 2511 2296 1997
+1997 102 1996 1306 1995 2706
+1998 1995
+1999 2572 2296 2686 2132 1898 2687
+2000 1548 1556 2002 2142 701 2134 2878 2133 2181 808
+2001 1111
+2002 559 790 404 1300 1100 1548 249 2367 1491 1900 1556
+2003 2024
+2004 1548 2710 558 1567
+2005 1476 1670 2570 941 2176
+2006 211 84 2169 1078 233 991 2167
+2007 1863 1864 1770 2134 1967 939 850
+2008 794 21 2578 2468 1113 839
+2009 305 2833 1525 478 2508 350
+2010 2878 1695 2061 1090 656 1648 277 1900 652 856
+2011 282 2878
+2012 572 2878 2014
+2013 342 2134 2176 1462 1043 2648 211 2181
+2014 2567 2574 1548 485 2012
+2015 2176 2671 174 2455 2878 2493 1462 1827 1826 1654 1476 305 449 2833 2834 2186 2419 1744 2490 2764 2181 857 2205 2257 1548 90 2671 2532 765 235 1714 1715 1716 2220 2028 1269 2588 1232 1174 1870 2016 2017
+2016 2015 174 560 90 2570 211 1548 2134 502 1898 16
+2017 1548 765 2015 734 238 21 427
+2018 1713 1401 1491 1752 2367 1939 2133 1742 2556 1270 1125 502 1741 1513 516
+2019 1965 2902 2134 342 1548 2122
+2020 707 2204 1009 2648 2292 1352 2186 2878
+2021 701 342 707 2176 2204 1009 2020
+2022 2570 1376 2671 2648 2878 90 979
+2023 679 2878 1544 2549 157 277 276 1548 485 719 1475 227
+2024 1713 1272 1915 2533 2886 1814 1623 580 2430 2494 2018
+2025 155 886 1970
+2026 2852 2854 1435 2878 1318 1438
+2027 207 2565 1634 642 1548
+2028 1548 701 886 1926 978 2029 2220 2893 702
+2029 1652 2292 2134 1242 2442 1965 2893 2028 1548 701 1954 342 886 1052 707
+2030 1090 1965 1548 2132 2292 1352 342 2015 849 1898 886 2852 1751 2031 2032
+2031 2878 2030 2132 2032
+2032 62 2030 2031
+2033 1670 476
+2034 1695 790 119 869 2027 1090 276 206 2818 1125
+2035 157 1548 485 277 276 273 2833 1525 1954 629 2059 1352 1672 30 1160 610
+2036 2634 1548 276 1160 342 1952 2520 924 249
+2037 381 342 734
+2038 842 2570 1352 1954 838
+2039 1672
+2040 2132 2030 2292 1352 582
+2041 342 2040 2648 1352 1544 2560 2186 1160 1879 1353 448
+2042 2030 1352 2132 582 2040 1138 1548 2570 2814
+2043 1557 886 2030 2132 1352 1796 1376 849 2040 21
+2044 342 1780 1352 2648 2225
+2045 886 1160 1985 155 2290 886 2609 656
+2046 1557 1587 2257 1548 2213 1670 758 575 2132 1350 1013 1306
+2047 305 342 1750
+2048 2296
+2049 1981 2246
+2050 712 2051
+2051 939 1462 707 2344 211 707 2186 2745 222
+2052 1742 302
+2053 2174
+2054 2096
+2055 1210
+2056 701 2878 1926 1979 2204 560 2503 1149 974 1156
+2057 838
+2058 386 1528 305 454
+2059 1352 342 2176 2134 1525 1965 2648 1531 1199 1958 1954 1177 485 277 276 2035 157 772 900 627 1743 1419 2134 961 1352 1965 701
+2060 1272 516 1915 144 661 2872 1650 2765
+2061 2878 2159 1780 211 131 612 1895 592 1726 1748 1771 1682 1699
+2062 211 2878 856 2010 2379 2061
+2063 2061 2070 1863 2455 2878 526 2577 1926 1548 2610 2590
+2064 2475 381 1816 2187
+2065 1352 814 1965
+2066 1985 2594 1672 1965 734 342 976 1548 555 276 1583 451 211 2671 2878
+2067 1884 939 1967 305 1965 734
+2068 2186 2594 305 1596 1965 734 2066 342 1672 2374
+2069 2070 2878
+2070 2878 656 983 245 1505 2499 954 1885 1548 2671 2159 131 893
+2071 2134 2736 132 381 1106 701 2176
+2072 23
+2073 2432
+2074 2296 485 794 1376 2134 1898 1282
+2075 386 2684 1528 814
+2076 342
+2078 1210
+2079 342 2425 2812 2648 1975 629 1954 2186 2714 2080
+2080 842 2714 2264 1548 1512
+2081 538 1954 1352 734
+2082 939 342 2186 1965 2701 1352 2493 305 351
+2083 2878 1780 1078 2186 1613 2192 259
+2085 2181 1462 2176 2705 1683
+2086 2878 993 510 247
+2087 1814 790 1548 1630 21 2280
+2088 1915 144 661 1272 2060 2494
+2089 677 2132 2030 838 1352 335 2519 1150 2442 681
+2090 2030 466 310 2255
+2091 1471
+2092 24 555 37 487 275 1691 1902 2260 2419 2613 1560
+2093 1636 305 1525 2325
+2094 1376 2574 1384 2686 2102
+2095 342 2177
+2096 2442 1965 2134 1352 982 1265
+2097 2878 2186 211 2754 684 2251
+2098 2878
+2099 2210 544 790 2365 2556 1695 1270 1125
+2100 1548 1384 1440
+2101 2659 2309
+2102 1376 2574 1384 2686 2094
+2103 342 305 1271 2701 1242 2183 734 1562
+2104 37 276 1548 485 920 2671 2808 2181 882 2537 1384 1591
+2105 2110 886
+2106 2103
+2107 14 2590 2878
+2108 794 2273 886 2201 2236
+2109 119 720 2878 1544 220
+2110 342 211 2372 1155 11 1444 2570 2878 939 2186 2648 808 1177
+2111 693
+2112 2780 2161 1435 1183 857 905 2430 2852 931 1825 144 661
+2113 1177
+2114 939 1462 2181 747 2648 2186
+2115 37 2194 1451
+2116 2878 2134 2177 174 2015 131 614 1965 2186 211 1670 2893 2181 941
+2117 11 2181 342 2177 2119 2118
+2118 866 1602 1816 2176 2181 2177 2119
+2119 342 2177 1602 2833 2255 2433 2181 1548 1446 2118
+2120 701 342 1403 211 1353 941 1402
+2121 144 2494 2648 1242 1522 2716 243 1814 275
+2122 1548 155 665 1926 342 1557 2134 33 802 1716 849 2442 964 1509 1720 1192 2213 1670 2507 671
+2123 2511 1970 886 1306
+2124 701 2318 342 174 211 2186 2015
+2125 1384 2176 1827
+2126 701 2176 2134 305 2523 2752
+2127 1548 276 2173 616 1414
+2128 1476 2296
+2129 1670 886 2570 1498 821 723 841 2025 2030 2713 1232 1827 582 1926 2503 2395 2645
+2130 342 2570 12 251 1312
+2131 1106
+2132 2648 2442 1965 2134 526 1954 1695 1849 2186 701 1926 2876 2030 1695 2089
+2133 342 886 2181 1462 398 1954 2018 1269
+2134 701 1242 2135 701 342 2176 2736 1537 1359 105
+2135 1359 1965 2134 552 1252 2176 2293 2893
+2136 2648 790 2134 1939 1965 2133 1269
+2137 2511 1557 1384
+2138 1384 1390
+2139 1548 2046
+2140 2134 1595 2799
+2141 2878 2186 211 2799
+2142 1548 2000 2398 1567
+2143 2186 1558 2490 15 2289 1965 2648 2711
+2144 276 1548 26 485 2520 1366 1900 2634
+2145 518
+2146 679 1751 1649 741 2878 1669 856
+2147 2146
+2148 1548 1586 2790 37 2603
+2149 2150 998
+2150 2061 1863 2070 2878 2648 1177 986
+2151 1898 790 769
+2152 701 2379
+2153 2134 1359 2030 1090 869 656 2648 342 2134 2133 2219 2733 2181 211 1666 1954 1322 2155 2156
+2154 2155
+2155 2134 1359 1352 2059 2186 2671 463
+2156 2133 2153 1926 1670 2732 701 2733 2735
+2157 1384 1414
+2158 1548 2581
+2159 2070 1848
+2160 2134 1526 2181 1161 2176 2119 866 1954 1352 2616 691 1384 2177
+2161 790 2886 1814 1160 1401 1939 1435 2629
+2162 1384 1670 342 394 1952 1402 305 2213 1005 155 2025
+2163 2186 842 2264 1548
+2164 2114
+2165 794 401 2387 1494 1282 277
+2166 144 580 2430 1814 1104 2397 21 210 784
+2167 211 2169
+2168 2176 1744 2186 485 2321 2268 2419
+2169 1078 211 1615 2878 2186 84 2006 2167
+2170 1863 2063 211 526
+2171 1997
+2172 2878 707 2134 2204 1009 1898 1394
+2173 1548 1586 17 2511 615 1557 1176 2174 1820
+2174 102 1544 2724 1176 2173 2186 301 1654 1306
+2175 1548 1583 555 2258 275 1902 2419 1232 1420 888 2634
+2176 2878 1462 2181 707 701
+2177 342 2134 2176 1147 2813 2676 939 626 2015 1462 709 2095 1842 1054
+2178 342 2255 2433 2134 939 2878 2671 2181 2419 2833 1462 2186 2673 1548 485 1872 277
+2179 2186 941 2176
+2180 342 2186 2134 734 2493 939 1119 924 1271 398 866 2671 2119
+2181 1462 2134 1849 342 2134 2186 2764 638 2705 2085 1152 2887 1306 37 615 1544 857 2257 1548 2833 397 834
+2182 2181 211 2878 2344 707
+2183 305 342 2176 1462 2181 593 479 701 939 2082
+2184 2219
+2185 2860 2702 2186 211 2318 174 342 1544 381 2176 1898
+2186 1462 342 2030 1672 211 1607 938 1670 2732 2878 2702 831 598 1835
+2187 2186 2878 2181 211 701 342 924 2320 332
+2188 747 2878 211 2181
+2189 342 734 1981 526 2565 852
+2190 125 1478 1078 2070 310 229 1848 975 1843 1789
+2191 342 1961 2134 2482 2495
+2192 1078 2878 2134 1965 305 2493 2083 1613 1683
+2193 1654 1770 2134 1830 982
+2194 37 2805 803 2805 803 2451 1451 36
+2195 1548 572 1859 88 1732
+2196 866 2181 803 1473 398 1548 701 276 2671
+2197 305 2519 342 335 734 1186 1258 2663
+2198 342 305 2519 1261
+2199 1462 1462 2176
+2200 342 2442 1965 2462 1525 1954 939 2061 1142 1884 917 2434
+2201 1401 794 1384 277 2854 2219 1679 2153 211 2648
+2202 790
+2203 1199 2442 2134 1965 1525 1954 342 1525 1981 2396 2462 2232
+2204 2878 2806 2648 683 2134 1374 2730 890 1149 974 2503 1394 707 1009
+2205 2181 2255 2186 381 397 1433 1306
+2206 1965 267 2209
+2207 1954 1128 1679 1483 2134 2070
+2208 2210
+2209 1965 2134 2206
+2210 1703 544 2365 790 1270 1125 2099
+2211 1548 2532 2396 1167 2841 1115 643 69
+2212 1898 794 2273 1401 2648 277 2500
+2213 342 132 1548 2507 21 2312 133 344 1372 1106 2215 2214
+2214 192 2507 1544 759 37 2397 2122 1549 2213 1670 155 1242 982 2186 2411 1306
+2215 342 665 132 381 2213 701
+2216 2214
+2217 1703 544 790 661 502
+2218 679 1532
+2219 2186 2176 1670 211 1607 2134 2153 701 2156 2735
+2220 701 1716 1714 1715 1717 2028 702
+2221 2175 1544 2173 2671 2226 1209 2570 1548 2255
+2222 2176 2578
+2223 1161 342 2181 398 2177 2134 305 2701 57 828 2783 132 381 2648
+2224 1548 342 380 211 2186 2878
+2225 2648 679
+2226 342 174 2686 648 1544 2570 380 875 1497 2296 282
+2227 342 1654 1306
+2228 1548 1513 1435
+2229 2258 2255 2260 1384 2563 1898 2852 1898 2444
+2230 198
+2231 1878 1548 2288
+2232 2203 2442 1965
+2233 342 2519 1704 1290 242
+2234 342 734 1954 1548 304 2237 305 2285 1704 306
+2235 1915 1491 606 2099 2365 790
+2236 1548 404 276 17 2303 794 2273 886 2201 2108
+2237 342 478 734
+2238 485 277 1548 118 682 131 614 2315
+2239 37 276 1548 2181 803 1473 2805 1985 1451 1925 2634
+2240 2648 2878 567 2503 2251
+2241 276 404 1583 2304 1900
+2242 1742
+2243 1548 2790
+2244 572 451 276 1557 2570 835 1575
+2245 2315
+2246 886 679 790 155 277 1785 1786 207 2027
+2247 794 1900 790 955 1476 2671 2834 2505 979 2015 174 16
+2248 1548 1586 1815 2091
+2249 1525 1981 1965 1954 342 2015 2813 2676 2616 524 142 1376 1988 2134 2442
+2250 1965 2134 342 2186 1078
+2251 938 2176 2878 211 2240 684
+2252 2005
+2253 2648 2878 1376 485 2255 1276 979 1149 974 282 2204 1332 1905 560
+2254 102 1544 1548 2262 1387 2186 1476 1306
+2255 342 1384 734 842 1225 662 969 1266 282 2298 857 201 1376 16 2878 2186 2833 2433 1548 2264 2258
+2256 364
+2257 342 842 969 2264 2255 2260 2262 1548 451 485 277 2520
+2258 1384 1548 2296 931 1544 1567 2259 2229
+2259 2260 1384 931 2343
+2260 1544 1384 2401 2257 1548 931 2343
+2261 2134 2648 1860 1147 1954 524
+2262 1384 931 1548 2260 2258 2710 855 275 1385 2259
+2263 2260 1384 2262 2255 485 277 2134 1376 1898 794 1548
+2264 2255 1548 2173 17 2532 1910 2229
+2265 2173 1384 2431
+2266 1954 2134 2442 2648 1359 2462 342 305 305 1273 342 392 2648 386
+2267 305 2181 1290 1954 2103
+2268 1359 939 2676 1177 237 2648 1462
+2269 701 2134 2181 398 1932
+2270 2181 1670 211 2878 2176
+2271 720 1176 1548 1586 2576
+2272 2570 2658 1376 824 2574 419 1781 2373 2785
+2273 1384 276 794 2570 2201 2108 2236 1055
+2274 1672 2186 1232 820
+2275 2277
+2276 2181 342 2277
+2277 701 342 2181 882 305 2276 2747 939 2180 2570 11 1472 1950 1894
+2278 2736 2134 1954 2176 342
+2279 342 2234 734 305
+2280 1401 1939 1814 221 2793 1990 641 2494 1272 1741 2087 210
+2281 1860 2204 1147 1954 2648 342 2071
+2282 342 276 1548 1621 1100 913 2015 2578
+2283 1621 342 276 404 1548 2015 2578
+2284 342 555 2173 1070 701 1300 2507 1092 276
+2285 342 276 734 1290 1704 2237 2234
+2286 342 1548 701 2671 939 1933
+2287 155 1670 886
+2288 2292 701 2878 1926 2231 1043
+2289 2186 2296 126
+2290 1548 154 1670 2213 1970 2030 1232 820
+2291 1359 939 2030 701 2648 2268 1462 174 524 2186 2878 2134 2292 1889
+2292 701 172
+2293 886 2292 701 2134 2028 2220
+2294 2186 2268 2181 2648 2291 2878
+2295 37 1548 2194
+2296 1498 2570 1284 1578
+2297 1557 2296 2570 1498 2129 2395 1615
+2298 2134 1898 1384 2570 342 2257 1548
+2299 155 1294 1384 2296 2300 1898 272 276 2186 1306
+2300 1898 2758 1301 2299 217 1548 155 485 1420 1670
+2301 1548 1557 2878 2129 2302 1384 196 511 2299
+2302 1498
+2303 17 1621 276 590 1548 701 1100 1942 1900 2854 1909
+2304 342 276 1548 451 1954 2305 2448
+2305 2241 342 276 2532 2304 2015 2833 485 1855 1898 485 383
+2306 211 2878 567
+2307 2134 1954 2052 2815 2605 1232 820 1898 1234 2854
+2308 1548 1557 790 1559 1814
+2309 2659 2101
+2310 2201 1401 1939 1435 2430 2725
+2311 2783 671 2122
+2312 21 1557 155 2507 2213 1670 1548 2532 692 1910 591
+2313 1266 2257 2173 17
+2314 282 2372 2186 763
+2315 277 465 1647 11 2238 1648
+2316 1384 794 2290 154 1557 276
+2317 342 2181 398 803 1548 145 361 1451 1950 2277
+2318 1013 2878 2186 1827 1654 1476 747 998 2187 1891 342 211 2257 1548 1090 1276 1376 2671 1898 2015 174 747
+2319 651 1816 2878 2181 2318 1654 1827 2186 57 2320
+2320 1827 1654 1476 2186 2318 342 174 215
+2321 939 2648 2186 2878 211 941 2110 1444 1020
+2322 2648 2176 1979
+2323 842 90 2257 1548 1898
+2324 1486 2173
+2325 1636 305 1525 2093
+2326 2299
+2327 2300
+2328 342 1672 1203 92 201 125 1417 1898
+2329 1670 2804 1981 2378 2381 2742
+2330 2217
+2331 88 1725 1638 1665 2778 1230 768 357 1403
+2332 1863 526 1293
+2333 1863 1780
+2334 1078 683 526 1209 1863 1231 2192
+2335 2648 88 526 2715
+2336 2022
+2337 2749 2720 804 1965
+2338 2686 102 1016 1068 1200 1233 1415 1430 1566 1569 1579 1673 1819 2489 2598 2817
+2339 386 478 1271 2519 1150
+2340 1272 790 2867 1623 1953
+2341 661
+2342 2176 1462 1476 1583 2511 1319 2419 555
+2343 1548 2000 2258 2260 2259
+2344 381 2181 211 2878 2180 701 2182 58
+2345 2272
+2346 524 1276 2671 2878 2648 2134 1670 2134 342 1351
+2347 2134 789 1331
+2348 2475 398 342
+2349 2134 1359
+2350 526 88
+2351 2134 1679 1954 342 2070 2379 2648 2186
+2352 2134 2648 1954 342 2015 1384 2353
+2353 2134 2648 1954 342 2671 524 2015 2833 1462 1870 2177 174
+2354 2671 11 342 1273 1147 1954 2813 909 2353
+2355 1548 1586 1940 396 393
+2356 2254
+2357 2181 803 1473 2671 2303 2512 2358
+2358 37 276 485 2634 2239 2357
+2359 1670 461 357 2377 886 1403 1140
+2360 2492
+2361 2159 1780 1531 2624
+2362 2133 1352 701 2292 978
+2363 327
+2364 466 476 1510 1543
+2365 790 701 1703 2210 2556 1270 1125 144 2099
+2366 475 1672 2030 2134 2671 1531
+2367 793 2018 2134 2648 1242 249 847 679 17 1420 888 952 555
+2368 2063 2878 526
+2369 1352 342
+2370 1548 1384 1691 98
+2371 1209 1059 1078 1090 1209
+2372 2570 485 1376 16 794 2255 737 2373
+2373 2570 2658 1376 824 2574 572 1859 2372 2785 419 1781 2272 1022
+2374 2134 2812 1768 2831 305 1525 2833
+2375 1751 43 1863 2455 2061 741 2379
+2376 1670 2377 1926 211
+2377 701 1670 2134 357 453 1350 2380
+2378 1670 2381
+2379 2732 2061 1751 768 2731 526
+2380 1670 2377 1350 164
+2381 342 1670 2742 1971 1954 1981 462 2648 1491 1752 2871 1164 144 1241
+2382 40 762
+2383 2648 794 526 1401 2887 1494
+2384 2494 144 2854 427
+2385 1933 2213 1548 352
+2386 661 1384 1900 794 2789 1708 1418 635 401 1808 2723 2869 2165 2387 2383
+2387 794 1384 2201 2386 401 1803
+2388 1384 2686 2389 2387 2612 2386 2255 2570 2658 1284 401
+2389 1384 2201 2386 794 824 2574 1494 2658
+2390 2574 2186 2173 2370 1577 2372 1276 1548 1255
+2391 2783
+2392 2784
+2393 342 2181 939 305 1537 2519 2277
+2394 47
+2395 2186 2878 2296 2129 2645
+2396 2186 2419 2570 2686 1276 90 119 1827 2134 1965 1199 342 2442 1525 2462 2059 1404 347 475 1548 2211
+2397 1256 739 790 967 2827 1104 210 221 2793 1990
+2398 1017 1548 1657 826
+2399 752
+2400 752
+2401 1557 1544 2318 615 17 2859 2589
+2402 282 1615
+2403 762
+2404 1961 2015 734 1965 2648
+2405 386 976 1965 2648 2396
+2406 342 208 2821 211 1384 2181 2176 2186 1323
+2407 2733 2134 2878 211 2181 831 2494 2176 2887 2799
+2408 1548 2000 1583 232 1420 1900 2002 1300 2283
+2409 2890
+2410 2414
+2411 1462
+2412 1462 315
+2413 2878 2186
+2414 2410
+2415 1462
+2416 1954 2833 1985 2433 1462 2015 687
+2417 1078 1863 2186 1780 2063 526 684 2718
+2418 427 1384 1284
+2419 2176 1160 1985 1462 119 2015 1827 1826 1654 1476 1744 2425 2899 2289 2143 2711 2490 2168 1434 1490 1431 1544 2424 685 1908 588 670 1854
+2420 485 2419 1548 1301 1908 588
+2421 2176 2425 2671 1434
+2422 277 2419 2671 2578 1301 2181 305 1376 16
+2423 211 2181 707 2176 2878 1462 1408
+2424 2432 1548 1583 2419 1716 2220 701 2015 174 614
+2425 2186 2878 1462 2181 882 2570 2671 2428 734 2676 1954 1744 2255 277 276 2426 11 2584 1745 1676 685 2833 2419 2176 119
+2426 157 277 1384 276 2186 2425 2425 2878
+2427 2425
+2428 2676 2878 2186 2425 2425 1384 2671 211 2177 2813 1954 1262
+2429 1146 327
+2430 1318 1814 790 580 2494 1384 144 794 1183 2166 1443 931 2133 2644 2853
+2431 2173 1586 1561
+2432 1548 2258 555 2424 1420
+2433 276 1160 2186 1462 485 277 2833 969 2818 2834
+2434 342 2442 1965 2462 1525 1954 1142 2200 1884 917
+2435 2535
+2436 342 1525 305
+2437 2878 607 679 119 227 1733 1475
+2438 2494 1435 905 890 1173
+2439 790 661 144
+2440 2491
+2441 342 1954 305 2648 750
+2442 2035 157 277 421 2134 119 1965 2443
+2443 1672 2134 2442 1965
+2444 342 1548 2520 2257 2229 2015 235 1715 1714 916
+2445 1548
+2446 1548 342 2530 1949
+2447 2782
+2448 342 2532 1548 451 1583 1954
+2449 485 1557 277 276 451 1448 1384 701 2833 1301
+2450 1557 2532 1548 572
+2451 2181 1473 803 2805 1548 1451 673
+2452 381 866 2176 2181 398 2651 2512
+2453 1864
+2454 1078 2159 1780 2455 678
+2455 2878 1078 211 1780 526 2186 1654 614 131 1864 1863 2454 678 1038 1053
+2456 931 2648 2778 1811 1117
+2457 2134 2648 1352 1525 1965 1907
+2458 2255 1638 2204 2806
+2459 2134 1679 1954 2648 2730 1224
+2460 2671 734 342 736 303
+2461 1548 2000 1384 1567 111 411 855 1387 2258
+2462 2134 2442 1965 2059 1404 2396 2176 2266 1199 211 886 1156
+2463 979 969 2255 211 2648 886 2462 2771
+2464 2266
+2465 2173 17 722 21 794 1418 1306 2805
+2466 641 919
+2467 43 2186 2878 1780 1225 14
+2468 794 1898 1591 1630 2805 2386
+2469 2134 1679 1954 524 342 1279
+2470 1965
+2471 998 2455 2061 2878 2063
+2472 11 1548 485 2176 882 276 2486
+2473 2510
+2474 1543
+2475 683 211 842 2257 1548 158 1339
+2476 381 2699 2186 132 803 485 1548 1816 555 1557 2222
+2477 1965 924 1271 342 1583 2144 734 2173 17 1965 2181 2027
+2478 2186 1654 555 1965 1352 2030 1242 2578
+2479 1090 2501 470 2716 1093
+2480 2479
+2481 2479
+2482 342 2833 2433 1965 593 2519 2671 814 2495 2191
+2483 461 2730 704 11 2778 1638
+2484 178 526 931
+2485 931 2161 1435 178 2648 204
+2486 11 1548 485 2181 882 276 2472
+2487 2373
+2488 1836 211 2169
+2489 2338 102 1548 2186 2199 1476 1306
+2490 720 857 2186 2257 1548 1898 1552 2143 2711 914
+2491 358 1898 1659 2186 2199 1826 1306
+2492 155 2122 2186 1826 1476 1306
+2493 2176 305 1965 734 2015 1462 2186 939 1271 1967 1596 1122
+2494 661 890 1915 795 2794 144 790 1272 2386 2850
+2495 342 1961 1672 2059 1970 2482 2191
+2496 526 1746
+2497 1544 1548 2510
+2498 421 523 2070
+2499 1644 2070
+2500 1900 794 761 2177 1548 1900 90 211 2671 2212
+2501 1695 2027 208 642 2820 1751 1090 2070 2159 155 207
+2502 2820 1751 1090 2186 206 642 2671
+2503 886 1384 2296 1548 794 2204 1009 1615 1531 2878 2063 1613 547 2061 2129 2395
+2504 2293 886 701 2648 1242
+2505 2247 794 790 955 2015 2671 2834 1958 1462 174 2186 2181 2177 614 998 342 524 1376
+2506 931 1825 1811 1435 1384
+2507 1548 2213 1670 1970 276 2570 665 1847 21 2312 155 2214
+2508 939 1462 2878 1160 2671 1444 1860 142 1352 1562 1827 2570
+2509 1462 2015 2570 2186 2686
+2510 2511 2296 1827 1384 2186 1747 1654 1306
+2511 1548 1384 2372 1557 1319 1763 1693 722 2137 2510
+2512 701 2176 1370 2452 866 2181 398
+2513 1548 2571 2878 485 794 2574 824 679
+2514 1032 2035 157 277 276 2819 1207 2820
+2515 2181 2133 2732 2878 2176 1965 2731 1352 2733 939
+2516 478
+2517 2877 2494 886
+2518 740
+2519 2339 342 305 734 307 2462 1199 2521 11 211 1548 451 276 242
+2520 2519 342 276 2634 451 1627 2304 1548 485
+2521 2671 2519 342 2134 736 2676 1262 2587 736
+2522 305 734 1525 1668 2882 1862 1954 632 1636
+2523 342 701 1357 2134 305
+2524 2854 2878 2000
+2525 342 1954 305 842 2433 969
+2526 2878 227 128 141
+2527 734 342 1525 479 1150 976 773
+2528 2489
+2529 2598
+2530 2532 1548 2833 2446
+2531 342 2532 1548 2304 2448 2450 1557 2211
+2532 1548 342 2015 591 427 1557 1910 2531 2530
+2533 1814 1548 794 502 2003 2886 1591 2468
+2534 2543
+2535 2543 1160 1647 2648 886 2494 155 1330 2852
+2536 2878 1557 1548 2490 761
+2537 276 2186 1433 1434 2134 1271 939 2813 2676 342 2493 734 1548 485 277 2538
+2538 157 277 2537 1433 1434 276
+2539 1575 2569 1661 1276 2567 835 2567 2878 842 969 2015 679
+2540 2756
+2541 2878 2570 1548 701 2186 2321 567
+2542 2543 1547 2490 31
+2543 1548 183 31 1557 271 1648 489 1433 1434 2186 2296 104
+2545 685
+2546 939 701 1666 2733 2176 2134 305 211 2878 1359 2132 1336
+2547 1548 1557 886 342 211 1827 2186 197
+2548 2176 1462 125 2411 2648 530 1384 330
+2549 1548 485 277 720 679 276 211 941 2714 2878 652 167 1768 856 1090 2821 1695 2712 537
+2550 1670 342 701 305 2285 2648 398 1011
+2551 289
+2552 819
+2553 1557 276 1548 2401 2859
+2554 2555
+2555 2648 1494 2387 1401 794
+2556 1703 790 1270 1125 2210 445 2365 435
+2557 1548 276 1627 485 277
+2558 2648 2878 1757 1160 2821
+2559 1548 2560 1544 2370 2173 538
+2560 342 1548 2559 2041
+2561 1965 1525 2833 2670 1525 2396 342 1672 1352 305 2068
+2562 17 2370 1690 1548 1954 1583
+2563 1149 974 282 17 939 2258 2564
+2564 560 2181 1827 2015 211 1670 2732 2176 342 2186 1322 704 2133 2563
+2565 526 575 1971 1981 1965 758 852 2027
+2566 857
+2567 1285 2574 1276 1211 2539 883
+2568 2134 2878 2648 524 2730 1276 2569
+2569 1276 2574 824 789 979 1376 1577 1661 2134 2658 1376 1374 2568 2539 1211
+2570 2686 2878 2671 1548 342 2574 90 2570 485 794 824 277
+2571 679 2878 2575 2513 2574 824 276 1548 485 794
+2572 2878 2686 648 1544 2296 2570 282 342 2264 1548 2226
+2573 2833 969 2570 1206 1384
+2574 277 2570 2878 23 485 1376 794 2567 2571 824 1577 2390
+2575 1544 1498 2401 1568 2296 2570 17
+2576 720 102 2271
+2577 1613 2063 526 2878
+2578 2181 2015 1462 2282 125 350 2284 1435 21 1438 1548 1591 794 2805 2580 1185 845
+2579 2419 2578 1548 1586 2015 794 2176 1376 1191 937 1066
+2580 2015 2578 1185 2283
+2581 1548 398 2158
+2582 2181 866 2180 2671 2176 398 701
+2583 2878 2186 939
+2584 2425 2186 2425 2671
+2585 237
+2586 2186 2878 1926 1408 2015 2820 43 131 1009 211 2181 2835
+2587 2677 2878 2676 2730 2671 96 1987
+2588 690 2176 451 572 88 1548 1232 1575 835 553
+2589 1548 2000 276 1965 556 2258 2432 1900 1306 1583 1549 441 1497 2854 1418
+2590 2878 15 14 2610
+2591 1544 1583 1486 2173 2227
+2592 665 2134 2176
+2593 2296 1663 1723 1713
+2594 1462 2676 734 2186 2878 49 211 2671 2587 119 939 142 684 2417 1827 2442 2396 1462
+2595 2671 487 276 2677 537 2676 119 2253 2503 2372 679 2878
+2596 1564 1584 1548 1586 2144 803 2805 1589 1598
+2597 1583 1544 1498 1548 1980 2598
+2598 2338 102 1548 2597 686 1306 1980
+2599 2878 2176 211 2181 510 1525 342 2176
+2600 2887 886 2383 2851 1804 1334 1598 2648 427
+2601 1111
+2602 1926 1043 2029 886 276 15 1384
+2603 790 2590 2570 2792
+2604 1615 1780 1209 1770 1078
+2605 2815 1242 2307 2052
+2606 1938 2590 2887 2303 1548
+2607 1376 794 2410 1276 2569 752 824 1898 842
+2608 2607
+2609 136 2658 2257 1548 794 1494 401 1309
+2610 2063 1780 2878 1863 2061 211 1926 15 2590
+2611 1476 2186 2289 2296 15 174
+2612 2389 1898 794 2387 401 1808 2165
+2613 1544 1272 2494 1548 1586 2857 1551
+2614 386 1965 1150 342 2134 526 90 2570 2648 2666
+2615 939 734 604 814
+2616 681 2134 2176 1177 525 342 174 2318 2015 1954 131 614 2671 2878 2455 2070 2061 998 941 2134 1177 2249 808 2676
+2617 1827 1352 2030 2900
+2618 411 119 1800
+2619 342 1679 1147 1954 1273
+2620 1275
+2621 2134 524 342 1352 1353 1279 1180
+2622 342 2234 734 335 976 2285 2396
+2623 342 2878 2181 2186
+2624 1780 1531 526 1078 1863 2063 2455
+2625 366
+2626 208
+2627 496
+2628 1657
+2629 641 2161 1435 2060 1384 445 2340 1953
+2630 1961 2493 342 1462 2651 2035 157 485 277 30
+2631 2442 1965 2134 2176 582
+2632 1476 2186 174
+2633 412 1557 17 2173 2511
+2634 1548 1557 37 615 485 518 186
+2635 1965 174 2296 2186 2289
+2636 2634
+2637 2638
+2638 2637
+2639 2230
+2640 2644 2494 2629 2161 1630 2494 178 1548 21 2648 485 2858
+2641 2181 1451 2671 2134 701 1934 1933
+2642 2181 1451 2671 1448 701 304 1669 1936 1370
+2643 17
+2644 1491 1742 2367 790 1401 1939 1723 1663 2024 2661 2838
+2645 2878 524 2651 998 2255 2395 2296 2129 886 2503 282 2686
+2646 305 2648 2878 2833 897
+2647 2718
+2648 2134 2878 211 342 1177 237 1276 1860 1352 463 1954 690 2651 2649 2653 1548 485 1207 119 931
+2649 1954 342 2134 2648 2878 1177 1958 237 2059 1965 305
+2650 2134 342 2176 876 1277 2354 1035 1860 2204 2730
+2651 939 342 2186 2570 2701 2671 2882 1503 2630 2541 2508 2783 701 665
+2652 305 342 734 565
+2653 2648 1613 1670 2655
+2654 2134 1230 1146 939 342
+2655 211 2878 2653
+2656 102 759 1544 155 398 2296 2122 2186 125 1476 2199 1826 1306
+2657 1768 652 656 119
+2658 2609 2186 342 90 419 1781 2272 136 2373 1541 2830 2609 824 693 1376 1615 1898 794 2387 1524
+2659 877 2101 2309
+2660 2878 2062
+2661 580 1814 144 2430 905 661 790 2024 2556 2644
+2662 2686 1435 1659 1825 931
+2663 305 2519 716 1258 1186 2197
+2664 1525 1672 838 2030 1352 2648
+2665 266
+2666 2614 1150 342 526 2134 90 2570 2648 681 1271 939 842
+2667 1954 2648 1242 2852 1160 886
+2668 305 342 734 234 1304 1537 2519
+2669 641 1630 2310
+2670 1525 994 2134 1672 1352 1954 342 2648
+2671 342 524 2015 998 2455 2061 2070 2374 2878 2676 1090 2821 2186 485 2756 2587 2714 1976 2521 736 2677 96 303 522 1262 1987 2354 2595 2883 276
+2672 485 277 276 157 2671 2878 1384 227 2549
+2673 522
+2674 2878 1751 1093 2134 1384 2570 679 1548 485 537 2671 2678
+2675 1525 342 2676 2249 2813 939 1359 1462 707 489 2133
+2676 1954 1670 342 2176 2249 1525 1262 2677 2878 211 941 2714 2181 2177 1433 939 2133 1361 707 2813 2675 2134 11 48 2428
+2677 276 96 1976 2671 1384 119
+2678 1647 790 2648 2677 2878 211 941 1384 2176 1548 485 537 276 2674
+2679 1671 461 524 2878 2346 1350
+2680 2656
+2681 2616
+2682 2833 2878 2186 342
+2683 1713 144 2871 1164 1334 1752 21 1706 2871 1804
+2684 305 342 323
+2685 2641
+2686 2570 2296 2388
+2687 2134 1898 2296 2388 1617 2686 1999
+2688 2642
+2689 2186 2419 2176 1462 2578 701 651
+2690 2182 2181 1462 2878 1271 1683 939 1967 1361 2344 211 2176 2493 2704 2648 1352 2182
+2691 1706 1921 1334 790 2494 2692 1752
+2692 2691 1752
+2693 1352 342 2186 1525 2648 88 2624 1965 734 594 2081 1123 1462 2425 352
+2694 2173 2370
+2695 1276 276 1548 485 1660 217 752 2671 277 485 1544 276 2874 1557
+2696 342 1961 1462 2157 2570 2442 2134 1965 1525
+2697 381 191 99 540 2186 2702
+2698 2183
+2699 1078 1848 2704 538 2186 2651
+2700 342 2186 1365 397 2176 1352 2181 398 2671 211 2570 1384
+2701 939 2705 1271 1967 398 2651 1683
+2702 2015 1384 2186 2697 1898 2887 2134
+2703 2700
+2704 1967 2186 2764 2705 1595 2701 1271 1683
+2705 2181 1462 342 2176 2222 2085 2764 2701 2700
+2706 1995 1996
+2707 1613 526 633 2708
+2708 2707 633 526
+2709 1090 1034 1751 1548 485 2677 277 1091
+2710 1898 1900 794 211 2671 1494 2570 1418 275 2004 2262 2260 2258 1548 855 1384 275 1385
+2711 2186 1970 15 2490 2143
+2712 701 418 2501 661 790 2556 1695 679 43 166 2878 2713
+2713 701 1926 886 2501 418 2712
+2714 2878 1926 2676 211 1976
+2715 526 88 2335
+2716 1090 2648 1944 887 2121 1946
+2717 342 998 2570 890
+2718 2878 2063 2417
+2719 381 1525 342 2671 1462 2720
+2720 386 1273 1150 2619 342 2462 1967 734 1954 1251 2749 2441
+2721 852
+2722 2878 1848 2570 1770
+2723 1494 1900 794 1282 794 2869 401 277
+2724 1587
+2725 793 2310
+2726 2134 1898 1668 794 1903 1544 275 1282
+2727 2291 2878 2134 1926 1043
+2728 2134 526 2778 1638 2331 1465 340 2483 1146
+2729 2134 1954 1679 2353 2352 1958
+2730 1146 2071 342 876 2650 1035
+2731 2134 526 1146 2730 11
+2732 211 1926 1670 2176 2181 11
+2733 2134 701 2736
+2734 2735
+2735 2134 2878 2733 1491 2878 2877 2494 2517 11 2156
+2736 2134 2878 1965 2731 2730 1954 1519
+2737 2760
+2738 2761
+2739 2785
+2740 2779
+2741 1714 2292 978
+2742 1971 2381 2804 2329 1670 681
+2743 256
+2744 939 2676 2186 1967 14
+2745 939 2134 211 2181 707 222 2051
+2746 2134 2442 1965
+2747 1462 2015 2419 2833 2134 2176 1462 305 734 860
+2748 1665 2379 602 357 1670 461 1638 1263
+2749 342 341 2720 305 1525 1965 2767
+2750 1548 1384 2296 412 622 1236
+2751 2181 1462 2134 2176
+2752 2126 701 2134 2181 1448
+2753 2648 939 1026 407 510
+2754 2878 211 652 1613 2186 2097 684 2251
+2755 2425 2433 342 2134 305 924 969 125 2419 2671 1744 224
+2756 2671 485 2878 2812 621 2176 211 652 720 2878 1034 119 217
+2757 2762
+2758 485 1301 1548 1586 1557 276 1627 701
+2759 1301 1548 2015 125 2570 648 979 276 2134 1898 794
+2760 1423 2878 707 2186 258
+2761 835 276 2570 1557 2186 939
+2762 1648 485 276 1427 277 939
+2763 1548 1586 1384 2296 2750 1236 622 817 192
+2764 2181 2176 342 2015 2878 2705 2085
+2765 1762 1915 1272 2060 2872 1650
+2766 2833 2671 211 2519
+2767 342 341 2749 305 1525 1965 2833 1912
+2768 1954 342 2134 2176 485 979 1958
+2769 2768
+2770 2878 2176 1462 1670 2732 2186 211 2181
+2771 979 969 2255 174 1654 211 886 2462 2463 128
+2772 1372 2346 1350
+2773 2749
+2774 2907
+2775 2878 1937 1384 761 939
+2776 2494 144 1719
+2777 2201 790 1318 905
+2778 461 1638 1665 1725
+2779 1552 2173 2296 1306
+2780 1435 1898 842 2112 2629 2161 1325 1329 886 2850 810 895 1318 857 1085 1330 480 1183 857 905 2430 2852 931 1825 144 661
+2781 1418 2789 1548 2852 1282
+2782 2447
+2783 342 734 1525 1724 1098 1005
+2784 342 2213 1933 665 701
+2785 2570 2658 1376 2609 824 2574 992 1524 90 752 2607
+2786 2000
+2787 1548 2000 1583 591
+2788 1548 2388 1544 275
+2789 2494 2074 21 1282 1241 2872 1650 1915 2024 144
+2790 1548 1557 2494 1272 2805 2613 485
+2791 2793
+2792 1548 1586 1072 2603 1635
+2793 1630 21 1990
+2794 661 1915 870 2133 2367 2018
+2795 1209 1059 1078 211
+2796 11
+2797 11
+2798 2799
+2799 2186 342 211 2878 2270 2181 2070 2318 398 1548 2140 2407
+2800 701 342 1359 2176 2071 794 1401 2723
+2801 939 211 656 2176 2648 812
+2802 939 2186 2812 2648 636 941 2801 812
+2803 2644
+2804 1981 386 1670
+2805 21 794 1318 502 1591 1113 937 1951 2465 839 2596 803 1589 1598 1548 1586
+2806 1926 2503 2648 2204
+2807 2134 2204 2712 2714 1926
+2808 2503 211 2671 2878 485 276 1548 1557 2104
+2809 1615 2878 1863 2810
+2810 2255 2186
+2811 1670 461 1679 2648 1350 1397 1725 2346
+2812 2878 1926 211 1053 1531 2714 43 2321 2494 1915 144 661 2671
+2813 342 1954 2176 2249 2181 2177 1433 707 2676 2134 2442
+2814 582 1352 1961 1970 1160 1138 2570 2229
+2815 2024 2307 2052 2605
+2816 2878 2821 418 2852 1091
+2817 2338 102 2820 1557 1548 707 510 2122 1090 2146 882 1306
+2818 2821 1548 553 451 1621 1942 1100 276 1160 2820
+2819 1515 2820
+2820 1695 2821 2819 1189 2817
+2821 418 2818 2820
+2822 475 119
+2823 1352 2676 524 342 403 1954 2090 2030 1350 1670 1397 1615 2471 526 2063 2878
+2824 2027
+2825 781
+2826 1557 1965 1716 21 1548 2015 847 1160 848 886 1939 2134 342 2015 1384 1498
+2827 661 1915 1623 2494 2024 1713 2397
+2828 2038
+2829 2644
+2830 2651 2134 2648 524 1225 1541 842 2658
+2831 2374
+2832 1048 931
+2833 2878 537 1958 1141 2462 734 119 2433 2834 1376 2134 305 2015 1462 2671 2186 2176 1759
+2834 2015 2186 305 125 2833 2519 2186 2255 2433 979 90 2676 969 842
+2835 211 1607 2181 2186 2878 2833 1271 1967 2586
+2836 1971 2381 2804 2329 2648 629 2742 2804 2671 2378
+2837 2817
+2838 1663 2644 2494 2640
+2839 2714 2812
+2840 11 2181 803 485 665
+2841 1167 2396 2211
+2842 1241 2852 1898 1631
+2843 2867
+2844 701 342 2181 1473 381 1986
+2845 2235
+2846 342 734 305 479 335 976 1237 1273 1147 665
+2847 2442 1965 787 1156 2134 814 729 2877 2134 1954 2648
+2848 665 342 2134 2176 1525 305 1720 2846 2122
+2849 2887
+2850 580 2494 1384 1435 1329 1330 2852 2887 1812 2812
+2851 2887 857 2570 1598 2854 2897
+2852 886 21 2887 2854 2780 2026
+2853 2887 1435 1272 1915 2629 2161 2430 2494 679 2854 905 1330 2648 580
+2854 2853 21 1598 2852 2878 2887 1306
+2855 934
+2856 835 794 1901 700 1900 2852
+2857 2854 2887 1548 2613
+2858 1900 1241 21 2887 2648 485 1418 2640
+2859 276 1557 2874 1937 825 1010
+2860 1462 1824 1827 2186 2015
+2861 2134 2731 2728 340 2176 2736 1965 342 1276
+2862 1630 2671 794 2494 2372 737 1921 1629
+2863 2455 1863 1751 1615 2878 1209 1078
+2864 2134 2331 1230
+2865 2289 2570 1244
+2866 1473
+2867 1814 1623
+2868 1273 629 1954 2736
+2869 794 526 2389 1494 2386 1282 2723 401
+2870 1255
+2871 1713 144 2381 1164
+2872 2789 1915 2024 1241 1713 1650 2765
+2873 1435 2637 1438 21 1435 246 1548 2886 1814 1412 1513
+2874 277 485 276 1637 2285 862 1548 1557 2859 2286
+2875 282 1670 1372 305 342 1150 2720 1954 2337 2749
+2876 2134 1352 2132 701 1753 2648 2442 1965
+2877 1384 2648 1713 1491 1401 1742 2648 1418 2134
+2878 1689 1462 211 128
+2879 2634 1965 276 485 1583 1384 979 752
+2880 2878 2186 1985 211 2255 2433 2296
+2881 2884
+2882 2186 2594 2651 1967 2522
+2883 2671 211 1670 2181 941 2176 2878
+2884 485 1544 775 451 2671 2878 211 572
+2885 2879
+2886 2024 1384 847 1160 1713 2018 1814 1741 580 2430
+2887 1418 21 1814 1384 1435 2296 1812 2850 2854 2853 2780 1330 1325
+2888 2827 1270 1703 661 2494 2397
+2889 1965 787 1507
+2890 734 1967 342 1961 1965 2648 2134 2176 924
+2891 2887
+2892 2648 1242 2134
+2893 2648 2442 1965 2028 2029 2293
+2894 2317
+2895 11
+2896 2903
+2897 2851 857 572 1598 2854 1384 1435 2570
+2898 2904
+2899 125 647 2030 1384 2570 969 2181 1548 2257 155 2507 125
+2900 1827 2015 2186 2617
+2901 1863 305 1965 335 734 2186 2291 850
+2902 1965 1827 1548 235 1715 1714 2122
+2903 342 2320 1552 2173 1544 615 538 2904
+2904 102 1544 2401 342 1849 2186 2199 1306
+2905 1548 615 2221 2173 2903 1544 2904
+2906 1911 580 2161 2543 1795 2430 2494 1418 1401
+2907 790 2494 2794 791 1160
+2908 445 790 1125 2909 1713 869
+2909 870 2908 445 790 2494 681 869 2397
+*Edgeslist
