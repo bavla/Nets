@@ -12,4 +12,7 @@
 
   * [Sources](https://github.com/bavla/Nets/blob/master/data/sources.md)
     
+  * https://github.com/bavla/Rnet/tree/master/net/mRel
+  * https://github.com/bavla/Rnet/tree/master/data
+  * http://vladowiki.fmf.uni-lj.si/doku.php?id=pajek:nets:mix
 
