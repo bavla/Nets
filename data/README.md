@@ -7,7 +7,7 @@
   * [Multiway network data sets](https://github.com/bavla/ibm3m/tree/master/data)
   * [Bibliographic networks](https://github.com/bavla/biblio/tree/master/dat)
   * [SocNets17 bibliographic networks](https://github.com/bavla/SocNet/tree/master/nets)
-  * [R nets](https://github.com/bavla/Rnet/tree/master/data)
+  * [Examples](https://github.com/bavla/Rnet/tree/master/data)
   * [Multirelational networks](https://github.com/bavla/Rnet/tree/master/net/mRel)
 
   * [Sources](https://github.com/bavla/Nets/blob/master/data/sources.md)
