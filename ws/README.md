@@ -14,6 +14,8 @@ The workshop will cover the following topics:
   - skeletons - important parts of the network: cuts, k-neighbors, Pathfinder, cores, trusses, backbone, islands,
   -  temporal weighted networks.
 
+Most of the topics are discussed in the book Batagelj, Doreian, Ferligoj, Kejz̆ar (2014) Understanding Large Temporal Networks and Spatial Networks.
+
 The workshop is based on the programming system R https://cran.r-project.org/. The network data and additional R code will be available on GitHub
 https://github.com/bavla/Nets/tree/master/ws .
 
