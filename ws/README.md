@@ -21,3 +21,4 @@ https://github.com/bavla/Nets/tree/master/ws .
 
 ## Network data
 
+  - [Weighted network data sets](https://github.com/bavla/wNets/blob/main/Data/README.md)
