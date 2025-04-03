@@ -3,7 +3,7 @@
 **Analysis of weighted networks** [Sunbelt 2025](https://www.insna.org/sunbelt-2025-workshops)
 
 The structure of the network N=(V, L, W, P) is determined by the graph G=(V, L), where V is the set of nodes and L is the set of links.
-In addition, additional data about links (weights from W) and nodes (properties from P) are often known. The network N is weighted if its set of weights is nonempty. The weights can be either measured (such as [trade networks - BACI/CEPII](https://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=37) or computed (for example a projection of a two-mode network).
+In addition, additional data about links (weights from W) and nodes (properties from P) are often known. The network N is weighted if its set of weights is nonempty. The weights can be either measured (such as [trade networks - BACI/CEPII](https://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=37)) or computed (for example a projection of a two-mode network).
 
 The workshop will cover the following topics:
   - examples and sources of weighted networks,
