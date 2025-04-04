@@ -19,6 +19,7 @@ Most of the topics are discussed in the book Batagelj, Doreian, Ferligoj, Kejz̆
 The workshop is based on the [programming system R](https://cran.r-project.org/). The network data and additional R code will be available on GitHub
 https://github.com/bavla/Nets/tree/master/ws .
 
-## Network data
+## Resources
 
   - [Weighted network data sets](https://github.com/bavla/wNets/blob/main/Data/README.md)
+  - [Slides on weighted networks](https://github.com/bavla/wNets/blob/main/Docs/README.md)
