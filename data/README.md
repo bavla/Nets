@@ -13,5 +13,5 @@
 
   * [Sources](https://github.com/bavla/Nets/blob/master/data/sources.md)
     
-  * http://vladowiki.fmf.uni-lj.si/doku.php?id=pajek:nets:mix
+  * [VladoWiki pajek:nets:mix](http://vladowiki.fmf.uni-lj.si/doku.php?id=pajek:nets:mix)
 
