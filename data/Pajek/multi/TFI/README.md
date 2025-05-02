@@ -1,27 +1,14 @@
-# TFI
+# TFI - UKRI's Transforming Foundation Industries Challenge
 
-https://public.flourish.studio/visualisation/20838395/
-https://flo.uri.sh/visualisation/20838395/embed
+[Christopher Pilgrim TFI Network](https://public.flourish.studio/story/2938215/) created by [Christopher Pilgrim](https://iuk-business-connect.org.uk/people/christopher-pilgrim/) on 27 Feb 2025.
+A [network diagram](https://public.flourish.studio/visualisation/20838395/) represents the organisations collaborating in projects supported by UKRI's Transforming Foundation Industries Challenge
 
-TFI Network diagram
-By Christopher Pilgrim on 27 Feb 2025
 
-wdir <- "C:/Users/vlado/DL/data/flourish"
-setwd(wdir)
+The network description is contained in [HTML page](https://flo.uri.sh/visualisation/20838395/embed). I extracted the JSON description of the network and save it in the file `Network.json`
 
-Christopher Pilgrim TFI Network 
-https://public.flourish.studio/story/2938215/
-Network diagram represents the organisations collaborating in projects supported by UKRI's Transforming Foundation Industries Challenge
 
-https://iuk-business-connect.org.uk/people/christopher-pilgrim/
-https://www.linkedin.com/in/christopher-pilgrim-7649b631/?originalSubdomain=uk
 
 ```
-TFI Network diagram
-By Christopher Pilgrim on 27 Feb 2025
-
-https://public.flourish.studio/visualisation/20838395/
-
 > wdir <- "C:/Users/vlado/DL/data/flourish"
 > setwd(wdir)
 > library(jsonlite)
