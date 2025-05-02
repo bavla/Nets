@@ -12,6 +12,7 @@ An inconsistency turned out in the original description - in links the label `UN
 ```
 > wdir <- "C:/data/flourish"
 > setwd(wdir)
+> source("https://raw.githubusercontent.com/bavla/Rnet/master/R/Pajek.R")
 > library(jsonlite)
 > TFI <- read_json("Network.json",simplifyVector=TRUE)
 > names(TFI)
@@ -52,7 +53,6 @@ List of 2
   .. ..$ : chr [1:2] "Manufacturing Technology Centre" ""
   .. .. [list output truncated]
   ..$ size    : chr [1:177] "1" "1" "3" "1" ...
-> source("https://raw.githubusercontent.com/bavla/Rnet/master/R/Pajek.R")
 > uvLab2net(TFI$nodes$id,TFI$links$source,TFI$links$target,Net="TFI.net")
 > vector2clu(TFI$nodes$size,Clu="TFIsize.vec")
 > vecnom2clu(TFI$nodes$group,Clu="TFIgroup.clu")
