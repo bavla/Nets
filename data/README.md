@@ -3,6 +3,7 @@
   * [Old Pajek data sets](https://github.com/bavla/Nets/blob/master/data/Pajek/README.md)
   * [Weighted networks](https://github.com/bavla/wNets/blob/main/Data/README.md)
   * [Two-mode networks](https://github.com/bavla/NormNet/blob/main/TwoMode/DataSets.md)
+  * [Multimode networks](https://github.com/bavla/Nets/blob/master/data/Pajek/multi/README.md)
   * [Temporal networks in NetsJSON](https://github.com/bavla/TQ/tree/master/json)
   * [Multiway network data sets](https://github.com/bavla/ibm3m/tree/master/data)
   * [Bibliographic networks](https://github.com/bavla/biblio/tree/master/dat)
