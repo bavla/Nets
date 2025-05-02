@@ -16,8 +16,6 @@ An inconsistency turned out in the original description - in links the label `UN
 > TFI <- read_json("Network.json",simplifyVector=TRUE)
 > names(TFI)
 [1] "links" "nodes"
-> typeof(TFI$links)
-[1] "list"
 > head(TFI$links)
                 source                      target
 1 WI INTERNATIONAL LTD             CAMBOND LIMITED
