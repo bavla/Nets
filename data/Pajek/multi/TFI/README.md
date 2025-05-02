@@ -1,0 +1,91 @@
+# TFI
+
+https://public.flourish.studio/visualisation/20838395/
+https://flo.uri.sh/visualisation/20838395/embed
+
+TFI Network diagram
+By Christopher Pilgrim on 27 Feb 2025
+
+wdir <- "C:/Users/vlado/DL/data/flourish"
+setwd(wdir)
+
+Christopher Pilgrim TFI Network 
+https://public.flourish.studio/story/2938215/
+Network diagram represents the organisations collaborating in projects supported by UKRI's Transforming Foundation Industries Challenge
+
+https://iuk-business-connect.org.uk/people/christopher-pilgrim/
+https://www.linkedin.com/in/christopher-pilgrim-7649b631/?originalSubdomain=uk
+
+```
+TFI Network diagram
+By Christopher Pilgrim on 27 Feb 2025
+
+https://public.flourish.studio/visualisation/20838395/
+
+> wdir <- "C:/Users/vlado/DL/data/flourish"
+> setwd(wdir)
+> library(jsonlite)
+> TFI <- read_json("Network.json")
+> TFI <- read_json("Network.json",simplifyVector=TRUE)
+> names(TFI)
+[1] "links" "nodes"
+> typeof(TFI$links)
+[1] "list"
+> head(TFI$links)
+                source                      target
+1 WI INTERNATIONAL LTD             CAMBOND LIMITED
+2 WI INTERNATIONAL LTD      LUNTS CASTINGS LIMITED
+3 WI INTERNATIONAL LTD           Bangor University
+4 WI INTERNATIONAL LTD Sheffield Hallam University
+5 WI INTERNATIONAL LTD            SOLOMON & WU LTD
+6      CAMBOND LIMITED        WI INTERNATIONAL LTD
+> head(TFI$nodes)
+      group                              id image                          metadata size
+1    Metals   ABBEY FORGED PRODUCTS LIMITED         ABBEY FORGED PRODUCTS LIMITED,     1
+2 Chemicals                 ACCELYO LIMITED                       ACCELYO LIMITED,     1
+3    Cement AGGREGATE INDUSTRIES UK LIMITED       AGGREGATE INDUSTRIES UK LIMITED,     3
+4 Chemicals              AGRIFOOD X LIMITED                    AGRIFOOD X LIMITED,     1
+5     Other                  AKT II LIMITED                        AKT II LIMITED,     1
+6    Metals                 Alleima Limited                       Alleima Limited,     1
+> str(TFI)
+List of 2
+ $ links:'data.frame':  1472 obs. of  2 variables:
+  ..$ source: chr [1:1472] "WI INTERNATIONAL LTD" "WI INTERNATIONAL LTD" "WI INTERNATIONAL LTD" "WI INTERNATIONAL LTD" ...
+  ..$ target: chr [1:1472] "CAMBOND LIMITED" "LUNTS CASTINGS LIMITED" "Bangor University" "Sheffield Hallam University" ...
+ $ nodes:'data.frame':  177 obs. of  5 variables:
+  ..$ group   : chr [1:177] "Metals" "Chemicals" "Cement" "Chemicals" ...
+  ..$ id      : chr [1:177] "ABBEY FORGED PRODUCTS LIMITED" "ACCELYO LIMITED" "AGGREGATE INDUSTRIES UK LIMITED" "AGRIFOOD X LIMITED" ...
+  ..$ image   : chr [1:177] "" "" "" "" ...
+  ..$ metadata:List of 177
+  .. ..$ : chr [1:2] "ABBEY FORGED PRODUCTS LIMITED" ""
+  .. ..$ : chr [1:2] "ACCELYO LIMITED" ""
+  .. ..$ : chr [1:2] "AGGREGATE INDUSTRIES UK LIMITED" ""
+  .. ..$ : chr [1:2] "AGRIFOOD X LIMITED" ""
+  .. ..$ : chr [1:2] "AKT II LIMITED" ""
+  .. ..$ : chr [1:2] "Manufacturing Technology Centre" ""
+  .. .. [list output truncated]
+  ..$ size    : chr [1:177] "1" "1" "3" "1" ...
+> 
+> source("https://raw.githubusercontent.com/bavla/Rnet/master/R/Pajek.R")
+> uvLab2net(TFI$nodes$id,TFI$links$source,TFI$links$target,Net="TFI.net")
+> vector2clu(TFI$nodes$size,Clu="TFIsize.clu")
+> vecnom2clu(TFI$nodes$group,Clu="TFIgroup.clu")
+
+
+
+
+
+```
+
+```
+
+```
+
+```
+
+```
+
+```
+
+```
+
