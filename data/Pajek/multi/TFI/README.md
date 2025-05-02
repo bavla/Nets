@@ -14,24 +14,6 @@ An inconsistency turned out in the original description - in links the label `UN
 > source("https://raw.githubusercontent.com/bavla/Rnet/master/R/Pajek.R")
 > library(jsonlite)
 > TFI <- read_json("Network.json",simplifyVector=TRUE)
-> names(TFI)
-[1] "links" "nodes"
-> head(TFI$links)
-                source                      target
-1 WI INTERNATIONAL LTD             CAMBOND LIMITED
-2 WI INTERNATIONAL LTD      LUNTS CASTINGS LIMITED
-3 WI INTERNATIONAL LTD           Bangor University
-4 WI INTERNATIONAL LTD Sheffield Hallam University
-5 WI INTERNATIONAL LTD            SOLOMON & WU LTD
-6      CAMBOND LIMITED        WI INTERNATIONAL LTD
-> head(TFI$nodes)
-      group                              id image                          metadata size
-1    Metals   ABBEY FORGED PRODUCTS LIMITED         ABBEY FORGED PRODUCTS LIMITED,     1
-2 Chemicals                 ACCELYO LIMITED                       ACCELYO LIMITED,     1
-3    Cement AGGREGATE INDUSTRIES UK LIMITED       AGGREGATE INDUSTRIES UK LIMITED,     3
-4 Chemicals              AGRIFOOD X LIMITED                    AGRIFOOD X LIMITED,     1
-5     Other                  AKT II LIMITED                        AKT II LIMITED,     1
-6    Metals                 Alleima Limited                       Alleima Limited,     1
 > str(TFI)
 List of 2
  $ links:'data.frame':  1472 obs. of  2 variables:
