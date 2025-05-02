@@ -58,4 +58,4 @@ List of 2
 > vecnom2clu(TFI$nodes$group,Clu="TFIgroup.clu")
 ```
 
-In Pajek I joined all three files into Pajek project file (manually added metadata) [TFI.paj] (TFI.paj).
+In Pajek I joined all three files into Pajek project file (manually added metadata) [TFI.paj](TFI.paj).
