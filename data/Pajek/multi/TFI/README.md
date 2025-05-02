@@ -10,8 +10,7 @@ An inconsistency turned out in the original description - in links the label `UN
 
 
 ```
-> wdir <- "C:/data/flourish"
-> setwd(wdir)
+> setwd(wdir <- "C:/data/flourish")
 > source("https://raw.githubusercontent.com/bavla/Rnet/master/R/Pajek.R")
 > library(jsonlite)
 > TFI <- read_json("Network.json",simplifyVector=TRUE)
