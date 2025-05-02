@@ -13,7 +13,6 @@ An inconsistency turned out in the original description - in links the label `UN
 > wdir <- "C:/Users/vlado/DL/data/flourish"
 > setwd(wdir)
 > library(jsonlite)
-> TFI <- read_json("Network.json")
 > TFI <- read_json("Network.json",simplifyVector=TRUE)
 > names(TFI)
 [1] "links" "nodes"
@@ -53,27 +52,10 @@ List of 2
   .. ..$ : chr [1:2] "Manufacturing Technology Centre" ""
   .. .. [list output truncated]
   ..$ size    : chr [1:177] "1" "1" "3" "1" ...
-> 
 > source("https://raw.githubusercontent.com/bavla/Rnet/master/R/Pajek.R")
 > uvLab2net(TFI$nodes$id,TFI$links$source,TFI$links$target,Net="TFI.net")
-> vector2clu(TFI$nodes$size,Clu="TFIsize.clu")
+> vector2clu(TFI$nodes$size,Clu="TFIsize.vec")
 > vecnom2clu(TFI$nodes$group,Clu="TFIgroup.clu")
-
-
-
-
-
 ```
 
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
+In Pajek I joined all three files into Pajek project file (manually added metadata) [TFI.paj] (TFI.paj).
