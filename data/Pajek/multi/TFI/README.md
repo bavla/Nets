@@ -4,7 +4,8 @@
 A [network diagram](https://public.flourish.studio/visualisation/20838395/) represents the organisations collaborating in projects supported by UKRI's Transforming Foundation Industries Challenge
 
 
-The network description is contained in [HTML page](https://flo.uri.sh/visualisation/20838395/embed). I extracted the JSON description of the network and save it in the file `Network.json`
+The network description is contained in [HTML page](https://flo.uri.sh/visualisation/20838395/embed). I extracted the JSON description of the network and save it in the file `Network.json`.
+An inconsistency turned out in the original description - in links the label `UNIVERSITY COLLEGE LONDON` is used and in nodes the label `University College London`. 
 
 
 
