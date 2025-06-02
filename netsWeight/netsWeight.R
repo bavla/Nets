@@ -1,7 +1,70 @@
 # netsWeight
 # by Vladimir Batagelj
 # May 29, 2025 -
+# ---------------------------------------------------------------
+# implementing some Pajek's procedures in iGraph
+#   additional functions used in igraph examples for the Network analysis
+#   course at HSE Moscow in November 2017 and December 2018 by Vladimir Batagelj
+# ---------------------------------------------------------------
+# source("https://raw.githubusercontent.com/bavla/Nets/refs/heads/master/netsWeight/netsWeight.R")
 
+
+
+top <- function(v,k){
+  ord <- rev(order(v)); sel <- ord[1:k]
+  S <- data.frame(name=names(v[sel]),value=as.vector(v[sel]))
+  return(S)
+}
+
+read_Pajek_clu <- function(f,skip=1){
+  read.table(f,skip=skip,colClasses=c("integer"),header=FALSE)$V1
+}
+
+read_Pajek_vec <- function(f,skip=1){
+  read.table(f,skip=skip,colClasses=c("numeric"),header=FALSE)$V1
+}
+
+extract_clusters <- function(N,atn,clus){
+  C <- vertex_attr(N,atn); S <- V(N)[C %in% clus]
+  return(induced_subgraph(N,S))
+}
+
+interlinks <- function(N,atn,c1,c2,col1="red",col2="blue"){
+  S <- extract_clusters(N,atn,c(c1,c2))
+  C <- vertex_attr(S,atn)
+  C1 <- V(S)[C==c1]; C2 <- V(S)[C==c2]
+  V(S)$color <- ifelse(C==c1,col1,col2)
+  P <- E(S)[(C1 %--% C1)|(C2 %--% C2)]
+  return(delete_edges(S,P))
+}
+  
+vertex_cut <- function(N,atn,t){
+  v <- vertex_attr(N,atn); vCut <- V(N)[v>=t] 
+  return(induced_subgraph(N,vCut))
+}
+
+edge_cut <- function(N,atn,t){
+  w <- edge_attr(N,atn); eCut <- E(N)[w>=t] 
+  return(subgraph.edges(N,eCut))
+}
+
+kNeighbors <- function(Net,k,weight="weight",mode="out",strict=TRUE,loops=FALSE){ 
+  if(!loops) Net <- simplify(Net,remove.multiple=FALSE)
+  C <- data.table()
+  for(v in V(Net)){
+    Nv <- incident(Net,v,mode=mode); Nw <- get.edge.attribute(Net,weight,Nv)
+    p <- order(Nw,decreasing=TRUE)
+    Na <- if(strict) Nv[p[1:k]] else Nv[Nw >= Nw[p[k]]]
+    # Nnet <- add_edges(Nnet,Na)
+    CC <- data.table(tail=tail_of(Net,Na),head=head_of(Net,Na))
+    CC[[weight]] <- get.edge.attribute(Net,weight,Na)
+    C <- rbind(C,CC)
+  }
+  Nnet <- graph_from_data_frame(as.data.frame(C),directed=TRUE,vertices=V(Net))
+  V(Nnet)$name <- V(Net)$name #; V(Nnet)$id <- V(Net)$id
+  Nnet$date <- date(); Nnet$by <- "k-neigbors"
+  return(Nnet)
+}
 
 network_reverse <- function(N){
   V(N)$type <- !V(N)$type
