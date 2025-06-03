@@ -1,6 +1,6 @@
 # netsWeight
 
-<span style="color:red;"><b>Work in progress!!!</b></span>
+<text style="color: red">ERROR</text>
 
 `netsWeight` is an R package of functions extending iGraph with some Pajek functionalities.
 
