@@ -5,41 +5,42 @@
 ```
 source("https://raw.githubusercontent.com/bavla/Nets/refs/heads/master/netsWeight/netsWeight.R")
 ```
+## Functions
 
-top <- function(v,k){
+### top(v,k)
 
-read_Pajek_clu <- function(f,skip=1){
+### read_Pajek_clu(f,skip=1)
 
-read_Pajek_vec <- function(f,skip=1){
+### read_Pajek_vec(f,skip=1)
 
-extract_clusters <- function(N,atn,clus){
+### extract_clusters(N,atn,clus)
 
-interlinks <- function(N,atn,c1,c2,col1="red",col2="blue"){
+### interlinks(N,atn,c1,c2,col1="red",col2="blue")
   
-vertex_cut <- function(N,atn,t){
+### vertex_cut(N,atn,t)
 
-edge_cut <- function(N,atn,t){
+### edge_cut(N,atn,t)
 
-kNeighbors <- function(Net,k,weight="weight",mode="out",strict=TRUE,loops=FALSE){ 
+### kNeighbors(Net,k,weight="weight",mode="out",strict=TRUE,loops=FALSE) 
 
-network_reverse <- function(N){
+### network_reverse(N)
 
-as_sparse_matrix <- function(N,weight="weight"){
+### as_sparse_matrix(N,weight="weight")
 
-mult_network_vector <- function(N,v,mode="row",weight="weight"){
+### mult_network_vector(N,v,mode="row",weight="weight")
 
+### cross_networks(N1,N2,side="left",weight="weight",twomode=TRUE)
 
-cross_networks <- function(N1,N2,side="left",weight="weight",twomode=TRUE){
+### mult_networks(N1,N2,weight="weight",twomode=TRUE)
 
-mult_networks <- function(N1,N2,weight="weight",twomode=TRUE){
+### normalize_matrix_Markov(M)
 
-normalize_matrix_Markov <- function(M){
+### normalize_matrix_Newman(M)
 
-normalize_matrix_Newman <- function(M){
+### normalize_matrix_Balassa(M)
 
-normalize_matrix_Balassa <- function(M){
+### normalize_matrix_activity(M)
 
-normalize_matrix_activity <- function(M){
+### normalize_matrix_RSI(M)
 
-normalize_matrix_RSI <- function(M){
-
+## References
