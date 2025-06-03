@@ -23,3 +23,4 @@ https://github.com/bavla/Nets/tree/master/ws .
 
   - [Weighted network data sets](https://github.com/bavla/wNets/blob/main/Data/README.md)
   - [Slides and papers on weighted networks](https://github.com/bavla/wNets/blob/main/Docs/README.md)
+  - [netsWeight package](https://github.com/bavla/Nets/tree/master/netsWeight)
