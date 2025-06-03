@@ -8,7 +8,7 @@
 # ---------------------------------------------------------------
 # source("https://raw.githubusercontent.com/bavla/Nets/refs/heads/master/netsWeight/netsWeight.R")
 
-
+library(data.table)
 
 top <- function(v,k){
   ord <- rev(order(v)); sel <- ord[1:k]
@@ -52,12 +52,12 @@ kNeighbors <- function(Net,k,weight="weight",mode="out",strict=TRUE,loops=FALSE)
   if(!loops) Net <- simplify(Net,remove.multiple=FALSE)
   C <- data.table()
   for(v in V(Net)){
-    Nv <- incident(Net,v,mode=mode); Nw <- get.edge.attribute(Net,weight,Nv)
+    Nv <- incident(Net,v,mode=mode); Nw <- edge_attr(Net,weight,Nv)
     p <- order(Nw,decreasing=TRUE)
     Na <- if(strict) Nv[p[1:k]] else Nv[Nw >= Nw[p[k]]]
     # Nnet <- add_edges(Nnet,Na)
     CC <- data.table(tail=tail_of(Net,Na),head=head_of(Net,Na))
-    CC[[weight]] <- get.edge.attribute(Net,weight,Na)
+    CC[[weight]] <- edge_attr(Net,weight,Na)
     C <- rbind(C,CC)
   }
   Nnet <- graph_from_data_frame(as.data.frame(C),directed=TRUE,vertices=V(Net))
@@ -187,4 +187,8 @@ normalize_matrix_RSI <- function(M){
   return(B)
 }
 
+authors <- function(L) {A <- L$authorships; k <- length(A); N <- rep("",k)
+  for (i in 1:k) N[i] <- paste(A[i][[1]]$author$display_name,collapse=", ")
+  return(N)
+}
 
