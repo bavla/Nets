@@ -263,19 +263,19 @@ write_graph_netsJSON <- function(N,file="test.json",vname="name",leg=list() ){
 # December 9/10, 2024 by Vladimir Batagelj
 netsJSON_to_graph <- function(BB,directed=TRUE){
   L <- BB$links; N <- names(L); LN <- names(BB$info$legend)
-  t <- (L$type=="edge") & (L$source!=L$target)
-  N <- N[! N %in% c("source","target")]
-  U <- BB$nodes; K <- names(U); K[1] <- "name"; K[2] <- "label"
-  names(U) <- K
+  t <- (L$type=="edge") & (L$n1!=L$n2)
+  N <- N[! N %in% c("n1","n2","id")]
+  U <- BB$nodes; U$id <- 1:nrow(U)
   if(length(LN)> 0) {
     for(a in N) if(a %in% LN) { L[,a] <- BB$info$legend[[a]][L[,a]] }
     for(a in K) if(a %in% LN) { U[,a] <- BB$info$legend[[a]][U[,a]] }
   }
-  L <- data.frame(from=L$source,to=L$target,L[,N])
+  L <- data.frame(from=L$n1,to=L$n2,L[,N])
   if(directed){E <- L[t,]
      L <- rbind(L,data.frame(from=E$to,to=E$from,E[,N]))
-     G <- graph_from_data_frame(d=L, vertices=U, directed=TRUE)
-  } else G <- graph_from_data_frame(d=L, vertices=U, directed=FALSE)
+     L$type <- "arc"
+     G <- graph_from_data_frame(d=L,vertices=U,directed=TRUE)
+  } else G <- graph_from_data_frame(d=L,vertices=U,directed=FALSE)
   I <- names(BB$info); I <- I[! I=="legend"]
   for(a in I) graph_attr(G)[a] <- BB$info[a]
   return(G)
