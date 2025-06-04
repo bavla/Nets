@@ -261,9 +261,10 @@ write_graph_netsJSON <- function(N,file="test.json",vname="name",leg=list() ){
 }
 
 # December 9/10, 2024 by Vladimir Batagelj
-netsJSON_to_graph <- function(BB,directed=TRUE){
+netsJSON_to_graph <- function(BB,directed=FALSE){
   L <- BB$links; N <- names(L); LN <- names(BB$info$legend)
   t <- (L$type=="edge") & (L$n1!=L$n2)
+  if(!("weight" %in% N)) {L$weight <- 1; N <- c(N,"weight")}
   N <- N[! N %in% c("n1","n2","id")]
   U <- BB$nodes; U$id <- 1:nrow(U)
   if(length(LN)> 0) {
