@@ -75,6 +75,12 @@
 > AW1
 
 > write_graph_netsJSON(AW,file="AW.json")
+> AW2 <- netsJSON_to_graph(fromJSON("AW.json"),directed=TRUE)
+> AW2
+> AW3 <- netsJSON_to_graph(fromJSON("AW.json"),directed=FALSE)
+> AW3
+> V(AW3)[[]]
+> E(AW3)[[]]
 
 # Erasmus flow
 
