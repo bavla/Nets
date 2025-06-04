@@ -187,8 +187,97 @@ normalize_matrix_RSI <- function(M){
   return(B)
 }
 
+CorSalton <- function(W){
+   S <- W; diag(S) <- 1; n = nrow(S)
+   for(u in 1:(n-1)) for(v in (u+1):n) S[v,u] <- S[u,v] <- 
+      (as.vector(W[u,]%*%W[v,])+(W[u,u]-W[v,u])*(W[v,v]-W[u,v]))/
+      sqrt(as.vector(W[u,]%*%W[u,])*as.vector(W[v,]%*%W[v,])) 
+   return(S)
+}
+
+CorEuclid <- function(W){
+   D <- W; diag(D) <- 0; n = nrow(D)
+   for(u in 1:(n-1)) for(v in (u+1):n) D[v,u] <- D[u,v] <- 
+      sqrt(sum((W[u,]-W[v,])**2) + 2*(W[u,u]-W[u,v])*(W[v,u]-W[v,v])) 
+   return(D)
+}
+
+Salton <- function(W){
+   S <- W; diag(S) <- 1; n = nrow(S)
+   for(u in 1:(n-1)) for(v in (u+1):n) S[v,u] <- S[u,v] <- 
+      (as.vector(W[u,]%*%W[v,]))/
+      sqrt(as.vector(W[u,]%*%W[u,])*as.vector(W[v,]%*%W[v,])) 
+   return(S)
+}
+
+Euclid <- function(W){
+   D <- W; diag(D) <- 0; n = nrow(D)
+   for(u in 1:(n-1)) for(v in (u+1):n) D[v,u] <- D[u,v] <- 
+      sqrt(sum((W[u,]-W[v,])**2)) 
+   return(D)
+}
+
 authors <- function(L) {A <- L$authorships; k <- length(A); N <- rep("",k)
   for (i in 1:k) N[i] <- paste(A[i][[1]]$author$display_name,collapse=", ")
   return(N)
+}
+
+# export igraph network in netsSON basic format
+# by Vladimir Batagelj, December 2018
+# based on transforming CSV files to JSON file, by Vladimir Batagelj, June 2016 
+# updated by Vladimir Batagelj, December 11/12, 2024
+
+write_graph_netsJSON <- function(N,file="test.json",vname="name",leg=list() ){
+  n <- gorder(N); m <- gsize(N); dir <- is_directed(N)
+  lType <- ifelse(dir,"arc","edge")
+  va <- vertex_attr_names(N); ea <- edge_attr_names(N)
+  vlab <- if(vname %in% va) vertex_attr(N,vname) else paste("v",1:n,sep="")
+  va <- setdiff(va,vname)  
+  nods <- vector('list',n); lnks <- vector('list',m)
+  today <- format(Sys.time(), "%a %b %d %X %Y")
+  for(i in 1:n) { L <- list(id=i,name=vlab[i]) 
+    for(a in va) L[[a]] <- vertex_attr(N,a)[i]
+    nods[[i]] <- L }
+  for(i in 1:m) {uv <- ends(N,i,names=FALSE); u <- uv[1]; v <- uv[2]
+    L <- list(id=i,type=lType,n1=u,n2=v)
+    for(a in ea) L[[a]] <- edge_attr(N,a)[i]
+    lnks[[i]] <- L }
+  meta <- list(date=today,title="saved from igraph")
+  # leg <- list(mode="mod",sex="sx",rel="rel")
+  inf <- graph_attr(N)
+  if("name" %in% names(inf)) {inf["title"] <- inf$name; inf[["name"]] <- NULL}
+  inf["network"] <- "bib"; inf["org"] <- 1
+  inf["nNodes"] <- n; 
+  if(dir) {inf["nArcs"] <- m; inf["nEdges"] <- 0} else {inf["nArcs"] <- 0; inf["nEdges"] <- m}
+  if(length(leg)>0) {inf[["legend"]] <- leg
+    # razdelaj izpis vrednosti
+  } 
+  if("meta" %in% names(inf)) { k <- length(inf[["meta"]]); inf[["meta"]][[k+1]] <- meta
+  } else inf[["meta"]] <- meta
+  data <- list(netsJSON="basic",info=inf,nodes=nods,links=lnks)
+  json <- file(file,"w") 
+  cat(toJSON(data,na="string",auto_unbox=TRUE),file=json) 
+  close(json)
+}
+
+# December 9/10, 2024 by Vladimir Batagelj
+netsJSON_to_graph <- function(BB,directed=TRUE){
+  L <- BB$links; N <- names(L); LN <- names(BB$info$legend)
+  t <- (L$type=="edge") & (L$source!=L$target)
+  N <- N[! N %in% c("source","target")]
+  U <- BB$nodes; K <- names(U); K[1] <- "name"; K[2] <- "label"
+  names(U) <- K
+  if(length(LN)> 0) {
+    for(a in N) if(a %in% LN) { L[,a] <- BB$info$legend[[a]][L[,a]] }
+    for(a in K) if(a %in% LN) { U[,a] <- BB$info$legend[[a]][U[,a]] }
+  }
+  L <- data.frame(from=L$source,to=L$target,L[,N])
+  if(directed){E <- L[t,]
+     L <- rbind(L,data.frame(from=E$to,to=E$from,E[,N]))
+     G <- graph_from_data_frame(d=L, vertices=U, directed=TRUE)
+  } else G <- graph_from_data_frame(d=L, vertices=U, directed=FALSE)
+  I <- names(BB$info); I <- I[! I=="legend"]
+  for(a in I) graph_attr(G)[a] <- BB$info[a]
+  return(G)
 }
 
