@@ -46,6 +46,20 @@ source("https://raw.githubusercontent.com/bavla/Nets/refs/heads/master/netsWeigh
 
 ### normalize_matrix_RSI(M)
 
+### Salton(W)
+
+### Euclid(W)
+
+### CorSalton(W)
+
+### CorEuclid(W)
+
+### authors(L)
+
+### write_graph_netsJSON(N,file="test.json",vname="name",leg=list() )
+
+### netsJSON_to_graph(J,directed=FALSE)
+
 ## References
 
   - Batagelj, V. On fractional approach to analysis of linked networks. [Scientometrics](https://link.springer.com/article/10.1007/s11192-020-03383-y) 123, 621–633 (2020). https://doi.org/10.1007/s11192-020-03383-y
