@@ -81,6 +81,7 @@
 > AW3
 > V(AW3)[[]]
 > E(AW3)[[]]
+> graph_attr(AW3)
 
 # Erasmus flow
 
