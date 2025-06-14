@@ -8,7 +8,7 @@
 # ---------------------------------------------------------------
 # source("https://raw.githubusercontent.com/bavla/Nets/refs/heads/master/netsWeight/netsWeight.R")
 
-library(data.table)
+library(igraph); library(data.table); library(seqinr)
 
 top <- function(v,k){
   ord <- rev(order(v)); sel <- ord[1:k]
@@ -280,5 +280,52 @@ netsJSON_to_graph <- function(BB,directed=FALSE){
   I <- names(BB$info); I <- I[! I=="legend"]
   for(a in I) graph_attr(G)[a] <- BB$info[a]
   return(G)
+}
+
+# June 12/14, 2025 by Vladimir Batagelj
+# generalized cores
+
+p_deg <- function(v,C,mode="all",loops=FALSE){ degree(C,v,mode=mode) }
+
+p_wdeg <- function(v,C,mode="all",loops=FALSE,weights=NULL){
+  strength(C,v,mode=mode,loops=loops,weights=weights) }
+
+min_heapify <- function(i){
+  l <- 2*i; r <- l+1
+  if((l<=H$size)&(H$p[l]<H$p[i])) mi <- l else mi <- i
+  if((r<=H$size)&(H$p[r]<H$p[mi])) mi <- r
+  if(mi!=i){vi <- H$v[i]; vm <- H$v[mi]; H$idx[vi] <- mi; H$idx[vm] <- i
+    swap(H$p[i],H$p[mi]); swap(H$v[i],H$v[mi]); min_heapify(mi)}
+}
+
+build_min_heap <- function(){
+  for(i in trunc(H$size/2):1) min_heapify(i)
+}
+
+promote <- function(i){
+  s <- i
+  repeat{ f <- s %/% 2
+    if((f<=0) || (H$p[f]<=H$p[s])) break
+    swap(H$p[f],H$p[s]); swap(H$v[f],H$v[s]); s <- f
+  }
+}
+
+cores <- function(N,mode="all",p=p_deg,...){
+  n <- vcount(N); C <- N; H <- new.env(); H$size <- n  
+  H$p <- rep(NA,n); H$v=1:n; H$idx <- 1:n; H$core <- rep(NA,n)
+  for(v in V(N)) H$p[v] <- p(v,N)
+  build_min_heap()
+  while(H$size > 0){
+    top <- H$v[1]; H$core[top] <- value <- H$p[1]
+    St <- incident(C,top,mode=mode) 
+    Nt <- difference(union(tail_of(C,St),head_of(C,St)),top) 
+    C <- delete_edges(C,St)
+    H$v[1] <- H$v[H$size]; H$p[1] <- H$p[H$size];
+    H$size <- H$size - 1; min_heapify(1)
+    for(v in Nt){vi <- as.integer(v); j <- H$idx[vi]
+      H$p[j] <- max(value,p(vi,C)); promote(j)
+    }
+  }
+  return(H$core)
 }
 
