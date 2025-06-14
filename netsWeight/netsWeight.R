@@ -285,6 +285,8 @@ netsJSON_to_graph <- function(BB,directed=FALSE){
 # June 12/14, 2025 by Vladimir Batagelj
 # generalized cores
 
+H <- new.env()
+
 p_deg <- function(v,C,mode="all",loops=FALSE){ degree(C,v,mode=mode) }
 
 p_wdeg <- function(v,C,mode="all",loops=FALSE,weights=NULL){
@@ -292,8 +294,8 @@ p_wdeg <- function(v,C,mode="all",loops=FALSE,weights=NULL){
 
 min_heapify <- function(i){
   l <- 2*i; r <- l+1
-  if((l<=H$size)&(H$p[l]<H$p[i])) mi <- l else mi <- i
-  if((r<=H$size)&(H$p[r]<H$p[mi])) mi <- r
+  if((l<=H$size)&&(H$p[l]<H$p[i])) mi <- l else mi <- i
+  if((r<=H$size)&&(H$p[r]<H$p[mi])) mi <- r
   if(mi!=i){vi <- H$v[i]; vm <- H$v[mi]; H$idx[vi] <- mi; H$idx[vm] <- i
     swap(H$p[i],H$p[mi]); swap(H$v[i],H$v[mi]); min_heapify(mi)}
 }
@@ -305,13 +307,13 @@ build_min_heap <- function(){
 promote <- function(i){
   s <- i
   repeat{ f <- s %/% 2
-    if((f<=0) || (H$p[f]<=H$p[s])) break
+    if((f<=0)||(H$p[f]<=H$p[s])) break
     swap(H$p[f],H$p[s]); swap(H$v[f],H$v[s]); s <- f
   }
 }
 
 cores <- function(N,mode="all",p=p_deg,...){
-  n <- vcount(N); C <- N; H <- new.env(); H$size <- n  
+  n <- vcount(N); C <- N; H$size <- n # H <- new.env();
   H$p <- rep(NA,n); H$v=1:n; H$idx <- 1:n; H$core <- rep(NA,n)
   for(v in V(N)) H$p[v] <- p(v,N)
   build_min_heap()
