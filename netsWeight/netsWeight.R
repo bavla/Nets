@@ -287,7 +287,8 @@ netsJSON_to_graph <- function(BB,directed=FALSE){
 
 H <- new.env()
 
-p_deg <- function(v,C,mode="all",loops=FALSE){ degree(C,v,mode=mode) }
+p_deg <- function(v,C,mode="all",loops=FALSE,weights=NULL){ 
+  degree(C,v,mode=mode,loops=loops) }
 
 p_wdeg <- function(v,C,mode="all",loops=FALSE,weights=NULL){
   strength(C,v,mode=mode,loops=loops,weights=weights) }
@@ -312,20 +313,21 @@ promote <- function(i){
   }
 }
 
-cores <- function(N,mode="all",p=p_deg,...){
-  n <- vcount(N); C <- N; H$size <- n # H <- new.env();
+cores <- function(N,p=p_deg,mode="all",loops=FALSE,weights=NULL){
+  n <- vcount(N); C <- N; H$size <- n  
   H$p <- rep(NA,n); H$v=1:n; H$idx <- 1:n; H$core <- rep(NA,n)
-  for(v in V(N)) H$p[v] <- p(v,N)
+  for(v in V(N)) H$p[v] <- p(v,N,mode=mode,loops=loops,weights=weights)
   build_min_heap()
   while(H$size > 0){
     top <- H$v[1]; H$core[top] <- value <- H$p[1]
-    St <- incident(C,top,mode=mode) 
+    St <- incident(C,top,mode="all") 
     Nt <- difference(union(tail_of(C,St),head_of(C,St)),top) 
     C <- delete_edges(C,St)
     H$v[1] <- H$v[H$size]; H$p[1] <- H$p[H$size];
     H$size <- H$size - 1; min_heapify(1)
     for(v in Nt){vi <- as.integer(v); j <- H$idx[vi]
-      H$p[j] <- max(value,p(vi,C)); promote(j)
+      H$p[j] <- max(value,p(vi,C,mode=mode,loops=loops,weights=weights))
+      promote(j)
     }
   }
   return(H$core)
