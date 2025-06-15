@@ -309,6 +309,7 @@ promote <- function(i){
   s <- i
   repeat{ f <- s %/% 2
     if((f<=0)||(H$p[f]<=H$p[s])) break
+    vf <- H$v[f]; vs <- H$v[s]; H$idx[vf] <- s; H$idx[vs] <- f
     swap(H$p[f],H$p[s]); swap(H$v[f],H$v[s]); s <- f
   }
 }
