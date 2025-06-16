@@ -287,26 +287,30 @@ netsJSON_to_graph <- function(BB,directed=FALSE){
 
 H <- new.env()
 
-p_deg <- function(v,C,mode="all",loops=FALSE,weights=NULL){ 
+p_deg <- function(v,C,mode="all",loops=FALSE,weights=NULL,fun="deg"){ 
   degree(C,v,mode=mode,loops=loops) }
 
-p_wdeg <- function(v,C,mode="all",loops=FALSE,weights=NULL){
+p_wdeg <- function(v,C,mode="all",loops=FALSE,weights=NULL,fun="wdeg"){
   strength(C,v,mode=mode,loops=loops,weights=weights) }
 
-min_heapify <- function(i){
-  l <- 2*i; r <- l+1
-  if((l<=H$size)&&(H$p[l]<H$p[i])) mi <- l else mi <- i
-  if((r<=H$size)&&(H$p[r]<H$p[mi])) mi <- r
-  if(mi!=i){vi <- H$v[i]; vm <- H$v[mi]; H$idx[vi] <- mi; H$idx[vm] <- i
-    swap(H$p[i],H$p[mi]); swap(H$v[i],H$v[mi]); min_heapify(mi)}
+p_pres <- function(v,C,mode="all",loops=FALSE,weights=NULL,fun="pres"){ 
+  degree(C,v,mode=mode,loops=loops)/V(C)$deg }
+
+min_heapify <- function(f){
+  repeat{ l <- 2*f; r <- l+1
+    if((l<=H$size)&&(H$p[l]<H$p[f])) s <- l else s <- f
+    if((r<=H$size)&&(H$p[r]<H$p[s])) s <- r
+    if(s==f) break
+    vf <- H$v[f]; vs <- H$v[s]; H$idx[vf] <- s; H$idx[vs] <- f
+    swap(H$p[f],H$p[s]); swap(H$v[f],H$v[s]); f <- s
+  }
 }
 
 build_min_heap <- function(){
   for(i in trunc(H$size/2):1) min_heapify(i)
 }
 
-promote <- function(i){
-  s <- i
+promote <- function(s){
   repeat{ f <- s %/% 2
     if((f<=0)||(H$p[f]<=H$p[s])) break
     vf <- H$v[f]; vs <- H$v[s]; H$idx[vf] <- s; H$idx[vs] <- f
@@ -316,6 +320,10 @@ promote <- function(i){
 
 cores <- function(N,p=p_deg,mode="all",loops=FALSE,weights=NULL){
   n <- vcount(N); C <- N; H$size <- n  
+  fun <- formals(p)$fun
+  if(!is.null(fun)){
+    if(fun=="pres") V(C)$deg <- pmax(1,degree(C,mode="all",loops=FALSE))
+  }
   H$p <- rep(NA,n); H$v=1:n; H$idx <- 1:n; H$core <- rep(NA,n)
   for(v in V(N)) H$p[v] <- p(v,N,mode=mode,loops=loops,weights=weights)
   build_min_heap()
