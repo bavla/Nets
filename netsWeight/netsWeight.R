@@ -10,6 +10,10 @@
 
 library(igraph); library(data.table); library(seqinr)
 
+empty <- character(0)
+
+normalize <- function(x,marg=0) return ((1-2*marg)*(x-min(x))/(max(x)-min(x))+marg)
+
 top <- function(v,k){
   ord <- rev(order(v)); sel <- ord[1:k]
   S <- data.frame(name=names(v[sel]),value=as.vector(v[sel]))
@@ -65,6 +69,87 @@ kNeighbors <- function(Net,k,weight="weight",mode="out",strict=TRUE,loops=FALSE)
   Nnet$date <- date(); Nnet$by <- "k-neigbors"
   return(Nnet)
 }
+
+#
+# PathFinder
+# http://pajek.imfm.si/lib/exe/fetch.php?media=slides:pfxxx.pdf
+# by Vladimir Batagelj, December 24-28, 2011
+#
+# PathFinder(D,r,q) - determines the skeleton of network represented by
+# matrix D . The weights in D should be dissimilarities; the value 0
+# denotes nonlinked nodes.
+# r - is the parameter in Minkowski operation 
+# q - is the limit on the length of considered paths; if q >= n-1
+#     all paths are considered.
+#
+# PathFinderSim(S,r,q,s) - is a version of PathFinder for the case
+# when the weights are similarities.
+# s - determines how the similarity is transformed into dissimilarity
+#   s = 1 -  D = 1+max S - S
+#   s = 2 -  D = 1/S
+# In the resulting skeleton the weights are the original similarities.
+
+MultiplyMink <- function(A,B,r){
+  n <- nrow(A); C <- matrix(Inf,nrow=n,ncol=n)
+  if(is.infinite(r)){
+    for(i in 1:n) for(j in 1:n) C[i,j] <- min(pmax(A[i,],B[,j]))
+  } else if (r==1){
+    for(i in 1:n) for(j in 1:n) C[i,j] <- min(A[i,]+B[,j])
+  } else {
+    for(i in 1:n) for(j in 1:n) C[i,j] <- min((A[i,]^r+B[,j]^r)^(1/r))
+  }  
+  C
+}
+
+PowerMink <- function(W,r,q){
+  n <- nrow(W); W[W==0] <- Inf; diag(W) <- 0
+  T <- matrix(Inf,nrow=n,ncol=n); diag(T) <- 0
+  if (q > 0) {
+    i <- q; S <- W
+    repeat{
+      if ((i %% 2) == 1) { T <- MultiplyMink(T,S,r) }
+      i <- i %/% 2; if (i == 0)  break
+      S <- MultiplyMink(S,S,r)
+    }
+  }
+  rownames(T) <- colnames(T) <- rownames(W)
+  T
+}
+
+ClosureMink <- function(W,r){
+  n <- nrow(W); W[W==0] <- Inf; diag(W) <- 0
+  if(is.infinite(r)){
+    for(k in 1:n) for(i in 1:n) W[i,] <- pmin(W[i,],pmax(W[i,k],W[k,]))
+  } else if (r==1){
+    for(k in 1:n) for(i in 1:n) W[i,] <- pmin(W[i,],(W[i,k]+W[k,]))
+  } else {
+    for(k in 1:n) for(i in 1:n) W[i,] <- pmin(W[i,],(W[i,k]^r+W[k,]^r)^(1/r))
+  }
+  W
+}
+
+PathFinder <- function(D,r=Inf,q=Inf,eps=0.0000001){ 
+  if(r<1) stop("Error: r < 1")
+  if(q>=nrow(D)-1) {D[(D>0)&(abs(D-ClosureMink(D,r))>eps)] <- 0
+  } else {D[(D>0)&(abs(D-PowerMink(D,r,q))>eps)] <- 0}
+  D 
+}
+
+PathFinderSim <- function(S,r=Inf,q=Inf,s=1,eps=0.0000001){
+  if(r<1) stop("Error: r < 1")
+  n <- nrow(S); D <- S
+  if(s==1) {D[S>0] <- 1+max(S)-S[S>0]} else {D[S>0] <- 1/S[S>0]}; 
+  if(q>=n-1) {S[(S>0)&(abs(D-ClosureMink(D,r))>eps)] <- 0
+  } else {S[(S>0)&(abs(D-PowerMink(D,r,q))>eps)] <- 0}
+  S 
+}
+
+# setwd("C:/Users/Batagelj/work/R/pf")
+# PF <- PathFinder(n1,1,Inf)
+# savenetwork(PF,'PFtest.net')
+
+# cat(date(),"\n"); PF2 <- PathFinderSim(n2,1,Inf,2); cat(date(),"\n"); 
+# savenetwork(PF2,'PF2500.net'); cat(date(),"\n")
 
 network_reverse <- function(N){
   V(N)$type <- !V(N)$type
@@ -282,19 +367,104 @@ netsJSON_to_graph <- function(BB,directed=FALSE){
   return(G)
 }
 
+write_graph_paj <- function(N,file="test.paj",vname="name",coor=NULL,va=NULL,ea=NULL,
+  weight="weight",ecolor="color"){
+  n <- gorder(N); m <- gsize(N); ga <- graph_attr_names(N)
+  if(is.null(va)) va <- vertex_attr_names(N)
+  if(is.null(ea)) ea <- edge_attr_names(N)
+  va <- union(va,vname); ea <- union(ea,weight)
+  paj <- file(file,"w")
+  cat("*network",file,"\n",file=paj)
+  cat("% saved from igraph ",format(Sys.time(), "%a %b %d %X %Y"),"\n",sep="",file=paj)
+  for(a in ga) cat("% ",a,": ",graph_attr(N,a),"\n",sep="",file=paj)
+  cat('*vertices ',n,'\n',file=paj)
+  lab <- if(vname %in% va) vertex_attr(N,vname) else paste("v",1:n,sep="") 
+  if(is.null(coor)){  
+    if(vname %in% va) for(v in V(N)) cat(v,' "',lab[v],'"\n',sep="",file=paj)
+  } else { 
+    for(v in V(N)) cat(v,' "',lab[v],'" ',paste(coor[v,],collapse=" "),'\n',sep="",file=paj) 
+  }
+  va <- setdiff(va,vname)
+  cat(ifelse(is_directed(N),"*arcs\n","*edges\n"),file=paj)
+  K <- ends(N,E(N),names=FALSE) 
+  w <- if(weight %in% ea) edge_attr(N,weight) else rep(1,m)
+  if(ecolor %in% ea){ C <- edge_attr(N,ecolor)
+    for(e in 1:m) cat(K[e,1]," ",K[e,2]," ",w[e]," c ",as.character(C[e]),"\n",sep="",file=paj)
+  } else 
+    for(e in 1:m) cat(K[e,1]," ",K[e,2]," ",w[e],"\n",sep="",file=paj)
+  ea <- setdiff(ea,c(weight,ecolor)); nr <- 1
+  for(a in ea){nr <- nr+1; w <- edge_attr(N,a)
+    cat(ifelse(is_directed(N),"*arcs","*edges"),file=paj)
+    cat(" :",nr,' "',a,'"\n',sep="",file=paj)
+    if(is.numeric(w)){
+      for(e in 1:m) cat(K[e,1]," ",K[e,2]," ",w[e],"\n",sep="",file=paj)
+    } else if(is.character(w)){ 
+      W <- factor(w); lev <- levels(W)
+      for(i in seq_along(lev)) cat("%",i,"-",lev[i],"\n",file=paj)
+      for(e in 1:m) cat(K[e,1]," ",K[e,2]," ",W[e],' l "',w[e],'"\n',sep="",file=paj)
+    } else warning(paste("unsupported type of",a),call.=FALSE)
+  }
+  cat("\n",file=paj)
+  for(a in va){
+    S <- vertex_attr(N,a); ok <- TRUE
+    if(is.character(S)||is.logical(S)){
+      cat("*partition ",a,"\n",sep="",file=paj)
+      s <- factor(S); lev <- levels(s)
+      for(i in seq_along(lev)) cat("%",i,"-",lev[i],"\n",file=paj)
+    } else if(is.numeric(S)){ 
+      s <- S; cat("*vector ",a,"\n",sep="",file=paj) 
+    } else {warning(paste("unsupported type of",a),call.=FALSE); ok <- FALSE}
+    if(ok){cat('*vertices ',n,'\n',file=paj)
+      for(v in 1:n) cat(s[v],"\n",file=paj)
+      cat("\n",file=paj) }
+  }
+  close(paj)
+}
+
 # June 12/14, 2025 by Vladimir Batagelj
 # generalized cores
 
 H <- new.env()
 
-p_deg <- function(v,C,mode="all",loops=FALSE,weights=NULL,fun="deg"){ 
+# degree
+p_deg <- function(v,C,mode="all",loops=FALSE,weights=NULL,attr="deg"){ 
   degree(C,v,mode=mode,loops=loops) }
 
-p_wdeg <- function(v,C,mode="all",loops=FALSE,weights=NULL,fun="wdeg"){
+# weighted degree
+p_wdeg <- function(v,C,mode="all",loops=FALSE,weights="weight",attr="deg"){
   strength(C,v,mode=mode,loops=loops,weights=weights) }
 
-p_pres <- function(v,C,mode="all",loops=FALSE,weights=NULL,fun="pres"){ 
-  degree(C,v,mode=mode,loops=loops)/V(C)$deg }
+# max on star links
+p_wmax <- function(v,C,mode="all",loops=FALSE,weights="weight",attr="deg"){ 
+  Sv <- incident(C,v,mode=mode);
+  ifelse(length(Sv)>0,max(edge_attr(C,weights,Sv)),0) }
+
+# sum on neighbors
+p_nsum <- function(v,C,attr="deg",mode="all",loops=FALSE,weights="weight"){
+  Sv <- incident(C,v,mode=mode)
+  Nv <- union(tail_of(C,Sv),head_of(C,Sv)) 
+  if(!loops) Nv <- difference(Nv,v) 
+  ifelse(length(Nv)>0,sum(vertex_attr(C,attr,Nv)),0) }
+
+# max on neighbors
+p_nmax <- function(v,C,attr="deg",mode="all",loops=FALSE,weights="weight"){ 
+  Sv <- incident(C,v,mode=mode)
+  Nv <- union(tail_of(C,Sv),head_of(C,Sv)) 
+  if(!loops) Nv <- difference(Nv,v) 
+  ifelse(length(Nv)>0,max(vertex_attr(C,attr,Nv)),0) }
+
+# neighbors diversity
+p_ncard <- function(v,C,attr="deg",mode="all",loops=FALSE,weights="weight"){
+  Sv <- incident(C,v,mode=mode)
+  Nv <- union(tail_of(C,Sv),head_of(C,Sv)) 
+  if(!loops) Nv <- difference(Nv,v) 
+  ifelse(length(Nv)>0,length(union(c(),vertex_attr(C,attr,Nv))),0) }
+
+# star links diversity
+p_lcard <- function(v,C,attr="deg",mode="all",loops=FALSE,weights="weight"){
+  Sv <- incident(C,v,mode=mode)
+  ifelse(length(Sv)>0,length(union(c(),edge_attr(C,weights,Sv))),0) }
+ 
 
 min_heapify <- function(f){
   repeat{ l <- 2*f; r <- l+1
@@ -318,14 +488,10 @@ promote <- function(s){
   }
 }
 
-cores <- function(N,p=p_deg,mode="all",loops=FALSE,weights=NULL){
+cores <- function(N,p=p_deg,mode="all",loops=FALSE,weights="weight",attr="deg"){
   n <- vcount(N); C <- N; H$size <- n  
-  fun <- formals(p)$fun
-  if(!is.null(fun)){
-    if(fun=="pres") V(C)$deg <- pmax(1,degree(C,mode="all",loops=FALSE))
-  }
   H$p <- rep(NA,n); H$v=1:n; H$idx <- 1:n; H$core <- rep(NA,n)
-  for(v in V(N)) H$p[v] <- p(v,N,mode=mode,loops=loops,weights=weights)
+  for(v in V(N)) H$p[v] <- p(v,N,mode=mode,loops=loops,weights=weights,attr=attr)
   build_min_heap()
   while(H$size > 0){
     top <- H$v[1]; H$core[top] <- value <- H$p[1]
