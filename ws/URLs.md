@@ -12,5 +12,8 @@
   1. https://dl.icdst.org/pdfs/files3/8d615482cb83825fff008346d7fc666b.pdf
   2. https://bookdown.org/josephine_lukito/j381m_tutorials/id_16-igraph.html
   3. https://bookdown.org/jdholster1/idsr/network-analysis.html
-  4. https://eehh-stanford.github.io/SNA-workshop/intro-igraph.html
-  5. [Online companion](https://book.archnetworks.net/exploratory)  to the Cambridge Manuals in Archaeology book **Network Science in Archaeology** by Tom Brughmans and Matthew A. Peeples (2023)
+  5. [Online companion](https://book.archnetworks.net)  to the Cambridge Manuals in Archaeology book **Network Science in Archaeology** by Tom Brughmans and Matthew A. Peeples (2023)
+
+## Other
+
+  4. [Social Network Analysis for Anthropologists](https://eehh-stanford.github.io/SNA-workshop/intro-igraph.html)
