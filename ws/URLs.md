@@ -10,7 +10,7 @@
 ## Books
 
   1. https://dl.icdst.org/pdfs/files3/8d615482cb83825fff008346d7fc666b.pdf
-  2. https://bookdown.org/josephine_lukito/j381m_tutorials/id_16-igraph.html
+  2. Josephine Lukito: [381M Course Tutorials](https://bookdown.org/josephine_lukito/j381m_tutorials/id_16-igraph.html) / Chapter 16 **Social Network Analysis**
   3. Jacob D. Holster: [Introduction to R for Data Science](https://bookdown.org/jdholster1/idsr/network-analysis.html): A LISA 2020 Guidebook / Chapter 7 **Network Analysis**
   5. [Online companion](https://book.archnetworks.net)  to the Cambridge Manuals in Archaeology book **Network Science in Archaeology** by Tom Brughmans and Matthew A. Peeples (2023)
 
