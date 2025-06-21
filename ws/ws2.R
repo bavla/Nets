@@ -4,7 +4,7 @@
 # by Vladimir Batagelj
 # Paris, June 24, 2025
 # https://github.com/bavla/Nets/tree/master/ws
-
+# https://r.igraph.org/reference/index.html
 
 
 https://erasmus-plus.ec.europa.eu/resources-and-tools/factsheets-statistics-evaluations/statistics/data/learning-mobility-projects

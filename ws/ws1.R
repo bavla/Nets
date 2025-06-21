@@ -4,6 +4,7 @@
 # by Vladimir Batagelj
 # Paris, June 24, 2025
 # https://github.com/bavla/Nets/tree/master/ws
+# https://r.igraph.org/reference/index.html
 
 > library(igraph)
 > setwd("C:/Users/public/Sunbelt25")
