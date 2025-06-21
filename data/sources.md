@@ -9,9 +9,9 @@
   - [Bayesys](http://bayesian-ai.eecs.qmul.ac.uk/bayesys/)
   - [Stanford Large Network Dataset Collection](https://snap.stanford.edu/data/)
   - [Schochastics network data](https://github.com/schochastics/networkdata)
-  - [Pajek datasets](http://vlado.fmf.uni-lj.si/pub/networks/data/)
+  - [Pajek datasets](https://github.com/bavla/Nets/tree/master/data/Pajek)
   - [Past Networks](https://pastnetworks.org/)
-  - [Pajek URLs](pajek:data:urls:index)
+  - [Pajek URLs](http://vladowiki.fmf.uni-lj.si/doku.php?id=vlado:work:ds)
   - [Convert into Pajek format](pajek:data:2pajek)
   - []()
 
