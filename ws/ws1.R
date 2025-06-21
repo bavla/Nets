@@ -1,12 +1,28 @@
-
-
+# Sunbelt 2025 Workshop 
+# Analysis of weighted networks
+# part 1
+# by Vladimir Batagelj
+# Paris, June 24, 2025
+# https://github.com/bavla/Nets/tree/master/ws
 
 > library(igraph)
-> setwd("C:/Users/vlado/docs/papers/2025/Sunbelt/ws/R")
+> setwd("C:/Users/public/Sunbelt25")
 > nWdir <- paste0("https://raw.githubusercontent.com/",
 +  "bavla/Nets/refs/heads/master/netsWeight/")
-> V <- read.csv(paste0(nWdir,"nodes.csv"),sep="")
-> L <- read.csv(paste0(nWdir,"links.csv"),sep="")
+
+> # source("netsWeight.R")
+> source(paste0(nWdir,"netsWeight.R"))
+
+
+https://github.com/bavla/Nets/blob/master/netsWeight/data/GraphSet.net
+
+> Test <- read_graph(paste0(nWdir,"/data/GraphSet.net"),format="pajek")
+> Test
+> plot(Test)
+
+
+> V <- read.csv(paste0(nWdir,"/data/nodes.csv"),sep="")
+> L <- read.csv(paste0(nWdir,"/data/links.csv"),sep="")
 > V
 > L
 > N <- graph_from_data_frame(L,directed=TRUE,vertices=V)
@@ -25,7 +41,7 @@
 > links <- as_data_frame(N,what="edges")
 
 
-> N <- readRDS(file="test1.rds")
+> N <- readRDS(file=url(paste0(nWdir,"/data/test1.rds")))
 > N
 > V(N)[[]]
 > E(N)[[]]

@@ -14,6 +14,9 @@ https://erasmus-plus.ec.europa.eu/resources-and-tools/factsheets-statistics-eval
 > nWdir <- paste0("https://raw.githubusercontent.com/",
 +  "bavla/Nets/refs/heads/master/netsWeight/")
 
+> # source("netsWeight.R")
+> source(paste0(nWdir,"netsWeight.R"))
+
 
 https://raw.githubusercontent.com/bavla/Nets/refs/heads/master/netsWeight
 /data/Learning-mobility-flows-since-2014.csv
