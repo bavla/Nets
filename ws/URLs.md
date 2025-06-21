@@ -2,10 +2,13 @@
 
 ## R packages
 
-  1. [igraph](https://igraph.org/) (Csardi and Nepusz 2006) - analytical routines for simple graphs and graph analysis
-  2. [statnet](http://statnet.org/) (Krivitsky et al. 2020) - A suite of packages designed for the management and statistical analysis of networks including network, sna, ergm, and others.
-  3. [intergraph](https://cran.r-project.org/web/packages/intergraph/intergraph.pdf) (Bojanowski 2015) - a set of routines for coercing objects between common network formats in R
-  4. [ggraph](https://cran.r-project.org/package=ggraph) (Pederson 2021) - a powerful graph visualization package that is based off of the ggplot2 plotting format
+  1. [igraph](https://igraph.org/) (Csardi and Nepusz 2006) - analytical routines for simple graphs and graph analysis. It includes packages
+     - [network](https://www.jstatsoft.org/article/view/v024i02) (Butts 2008, 2021) – storage and manipulation of network data
+     - [sna](https://www.jstatsoft.org/article/view/v024i06) (Butts 2020) – descriptive statistics and graphics for exploratory network analysis   
+  3. [statnet](http://statnet.org/) (Krivitsky et al. 2003-2020) - A suite of packages designed for the management and statistical analysis of networks including network, sna, ergm, and others.
+  4. [intergraph](https://cran.r-project.org/web/packages/intergraph/intergraph.pdf) (Bojanowski 2015) - a set of routines for coercing objects between common network formats in R
+  5. [tidygraph](https://cran.r-project.org/web/packages/tidygraph/index.html) (Pedersen 2020) and [ggraph](https://cran.r-project.org/package=ggraph) (Pederson 2021) - a powerful graph visualization package that is based off of the ggplot2 plotting format
+  6. [graph](https://academic.oup.com/bioinformatics/article/21/1/135/212347) (Gentleman et al. 2020) and [Rgraphviz](https://www.bioconductor.org/packages/release/bioc/html/Rgraphviz.html) (Hansen et al. 2021)
 
 ## Books
 
@@ -17,3 +20,6 @@
 ## Other
 
   1. [Social Network Analysis for Anthropologists](https://eehh-stanford.github.io/SNA-workshop/intro-igraph.html)
+
+
+
