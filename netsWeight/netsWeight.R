@@ -42,14 +42,14 @@ interlinks <- function(N,atn,c1,c2,col1="red",col2="blue"){
   return(delete_edges(S,P))
 }
   
-vertex_cut <- function(N,atn,t){
-  v <- vertex_attr(N,atn); vCut <- V(N)[v>=t] 
+node_cut <- function(N,attr,t){
+  v <- vertex_attr(N,attr); vCut <- V(N)[v>=t] 
   return(induced_subgraph(N,vCut))
 }
 
-edge_cut <- function(N,atn,t){
-  w <- edge_attr(N,atn); eCut <- E(N)[w>=t] 
-  return(subgraph.edges(N,eCut))
+link_cut <- function(N,attr,t){
+  w <- edge_attr(N,attr); eCut <- E(N)[w>=t] 
+  return(subgraph_from_edges(N,eCut))
 }
 
 kNeighbors <- function(Net,k,weight="weight",mode="out",strict=TRUE,loops=FALSE){ 
@@ -432,7 +432,7 @@ p_deg <- function(v,C,mode="all",loops=FALSE,weights=NULL,attr="deg"){
 
 # weighted degree
 p_wdeg <- function(v,C,mode="all",loops=FALSE,weights="weight",attr="deg"){
-  strength(C,v,mode=mode,loops=loops,weights=weights) }
+  strength(C,v,mode=mode,loops=loops,weights=edge_attr(C,weights)) }
 
 # max on star links
 p_wmax <- function(v,C,mode="all",loops=FALSE,weights="weight",attr="deg"){ 
@@ -501,7 +501,7 @@ cores <- function(N,p=p_deg,mode="all",loops=FALSE,weights="weight",attr="deg"){
     H$v[1] <- H$v[H$size]; H$p[1] <- H$p[H$size];
     H$size <- H$size - 1; min_heapify(1)
     for(v in Nt){vi <- as.integer(v); j <- H$idx[vi]
-      H$p[j] <- max(value,p(vi,C,mode=mode,loops=loops,weights=weights))
+      H$p[j] <- max(value,p(vi,C,mode=mode,loops=loops,weights=weights,attr=attr))
       promote(j)
     }
   }
