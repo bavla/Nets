@@ -21,6 +21,7 @@ https://github.com/bavla/Nets/blob/master/netsWeight/data/GraphSet.net
 > Test
 > plot(Test)
 
+# Not OK !!!
 
 > V <- read.csv(paste0(nWdir,"/data/nodes.csv"),sep="")
 > L <- read.csv(paste0(nWdir,"/data/links.csv"),sep="")
@@ -41,15 +42,16 @@ https://github.com/bavla/Nets/blob/master/netsWeight/data/GraphSet.net
 > nodes <- as_data_frame(N,what="vertices")
 > links <- as_data_frame(N,what="edges")
 
+# Not in slides
 
-> N <- readRDS(file=url(paste0(nWdir,"/data/test1.rds")))
-> N
-> V(N)[[]]
-> E(N)[[]]
-> w <- E(N)$weight; lab <- as.character(w)
-> cur <- rep(0,ecount(N)); cur[c(2,4)] <- 0.5
+> T <- readRDS(file=url(paste0(nWdir,"/data/test1.rds")))
+> T
+> V(T)[[]]
+> E(T)[[]]
+> w <- E(T)$weight; lab <- as.character(w)
+> cur <- rep(0,ecount(T)); cur[c(2,4)] <- 0.5
 > colsex <- c("lightblue","pink")
-> plot(N,vertex.size=20,vertex.color=colsex[V(N)$sex+1],edge.width=w,edge.curved=cur,edge.label=lab,edge.label.cex=2)
+> plot(T,vertex.size=20,vertex.color=colsex[V(N)$sex+1],edge.width=w,edge.curved=cur,edge.label=lab,edge.label.cex=2)
 
 > library(jsonlite)
 > write_graph_netsJSON(T,file="test1.json")
@@ -76,15 +78,16 @@ IGRAPH 0e9ae04 DNW- 9 13 --
 13   Iva   Jan   8   9  arc      5
 >
 
-
-> source("https://raw.githubusercontent.com/bavla/Rnet/master/R/igraph+.R")
-> Pt <- tkplot(CoreG,800,800,edge.curved=0,edge.width=E(CoreG)$weight/5)
+> Rnet <- "https://raw.githubusercontent.com/bavla/Rnet/"
+> source(paste0(Rnet,"master/R/igraph+.R"))
+> Pt <- tkplot(TT,800,800,edge.curved=0,edge.width=E(TT)$weight/5)
 # tkplot window is still active
 > coor <- tk_coords(Pt,norm=F)
+> tk_close(Pt)
+> V(TT)$x <- coor[,1]; V(TT)$y <- coor[,2]
 
-
-> write_graph_paj(T,file="test1.paj")
-> write_graph_paj(T,file="test1.paj",coor=cbind(V(T)$x,V(T)$y),va=c("age","deg","sex"))
+> # write_graph_paj(TT,file="test1.paj")
+> # write_graph_paj(TT,file="test1.paj",coor=cbind(V(TT)$x,V(TT)$y),va=c("age","deg","sex"))
 
 
 
@@ -94,9 +97,10 @@ IGRAPH 0e9ae04 DNW- 9 13 --
 
 # https://github.com/bavla/Nets/blob/master/data/Pajek/dic/EAT/eat.md
 # C:\Users\vlado\docs\papers\2025\Sunbelt\ws\R
-
-> setwd("C:/Users/vlado/docs/papers/2025/Sunbelt/ws/R")
-> EAT <- read_graph("EATnew.net",format="pajek")
+# https://raw.githubusercontent.com/bavla/Nets/refs/heads/master/data/Pajek/dic/EAT/EATnew.net
+> Nets <- "https://raw.githubusercontent.com/bavla/Nets/refs/heads/master/data/"
+> setwd("C:/Users/Public/Sunbelt25")
+> EAT <- read_graph(paste0(Nets,"EATnew.net"),format="pajek")
 > EAT
 > ad <- degree(EAT,mode="all",loops=TRUE)
 > id <- degree(EAT,mode="in",loops=TRUE)
