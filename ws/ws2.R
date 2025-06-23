@@ -23,7 +23,7 @@ https://raw.githubusercontent.com/bavla/Nets/refs/heads/master/netsWeight
 
 > # setwd("C:/Users/vlado/DL/data/erasmus/flows")
 > # F <- read.csv("Learning-mobility-flows-since-2014.csv")
-> F <- read.csv(file=paste0(nWdir,"/data/Learning-mobility-flows-since-2014.csv"))
+> F <- read.csv(file=paste0(nWdir,"data/Learning-mobility-flows-since-2014.csv"))
 > str(F)
 'data.frame':   1223 obs. of  4 variables:
  $ Category  : chr  "highcharts-hv9y537-3" "highcharts-hv9y537-4" "highcharts-hv9y537-5" "highcharts-hv9y537-6" ...
@@ -41,13 +41,13 @@ https://raw.githubusercontent.com/bavla/Nets/refs/heads/master/netsWeight
  [1] "Austria"        "Belgium"        "Bulgaria"       "Croatia"          
  [5] "Cyprus"         "Czechia"        "Denmark"        "Estonia"  
 ...
-> C <- read.csv("ISO2.csv",strip.white=TRUE)
+> C <- read.csv(file=paste0(nWdir,"data/ISO2.csv"),strip.white=TRUE)
 > str(C)
 'data.frame':   35 obs. of  2 variables:
  $ country: chr  "Austria" "Belgium" "Bulgaria" "Croatia" ...
  $ ISO2   : chr  "AT" "BE" "BG" "HR" ...
 
-> Pop <- read.csv("pop.csv",strip.white=TRUE)
+> Pop <- read.csv(file=paste0(nWdir,"data/pop.csv"),strip.white=TRUE)
 > str(Pop)
 'data.frame':   35 obs. of  3 variables:
  $ n      : int  1 2 3 4 5 6 7 8 9 10 ...
@@ -71,11 +71,11 @@ IGRAPH 51f535d DNW- 35 1223 -- Erasmus learning mobility flows between countries
 
 
 
-> wdir <- "C:/data/erasmus/flows"; setwd(wdir)
+> setwd("C:/Users/public/Sunbelt25")
 > source("https://raw.githubusercontent.com/bavla/Rnet/master/R/Pajek.R")
-> # N <- readRDS("ErasmusFlows.rds")
-> N <- readRDS(file=url(paste0(nWdir,"/data/ErasmusFlows.rds")))
-> Z <- P <- as_adjacency_matrix(N,attr="weight",type="both") 
+> # EF <- readRDS("ErasmusFlows.rds")
+> EF <- readRDS(file=url(paste0(nWdir,"data/ErasmusFlows.rds")))
+> Z <- P <- as_adjacency_matrix(EF,attr="weight",type="both") 
 > n <- nrow(P); w <- sort(P[P>0])
 > hist(w,col="green",border="black",breaks=50,
 +    xlab="value",main="Erasmus Flow Value Distribution")
@@ -135,7 +135,6 @@ IGRAPH 51f535d DNW- 35 1223 -- Erasmus learning mobility flows between countries
 > coor <- tk_coords(Pic,norm=FALSE)
 > tk_close(Pic)
 > V(PF2net)$x <- coor[,1]; V(PF2net)$y <- coor[,2]
-> saveRDS(PF2net,file="EFpf2.rds")
 > PF2net$name <- "Erasmus learning mobility flows between countries 2014-2024"
 > PF2net$url <- "https://erasmus-plus.ec.europa.eu/resources-and-tools/factsheets-statistics-evaluations/statistics/data/learning-mobility-projects"
 > PF2net$subnet <- "Pathfinder skeleton r=2"
@@ -174,14 +173,12 @@ IGRAPH 51f535d DNW- 35 1223 -- Erasmus learning mobility flows between countries
 
 
 
-> library(gplots); source("ClusNet.R"); library(Matrix)
-> N <- readRDS("ErasmusFlows.rds")
-> P <- as.matrix(as_adjacency_matrix(N,attr="weight",type="both")) 
+> library(gplots); library(Matrix)
+> source("ClusNet.R")
+> EF <- readRDS(file=url(paste0(nWdir,"data/ErasmusFlows.rds")))
+> P <- as.matrix(as_adjacency_matrix(EF,attr="weight",type="both")) 
 
-
-> library(gplots); source("ClusNet.R"); library(Matrix)
-> N <- readRDS("ErasmusFlows.rds")
-> P <- as.matrix(as_adjacency_matrix(N,attr="weight",type="both")) 
+ 
 > Co <- P; Co[P == 0] <- NA
 > par(cex.main=1.2)
 > heatmap.2(Co,Rowv=FALSE,Colv="Rowv",
@@ -193,7 +190,7 @@ IGRAPH 51f535d DNW- 35 1223 -- Erasmus learning mobility flows between countries
 
 
 
-> P <- as.matrix(as_adjacency_matrix(N,attr="weight",type="both")) 
+> P <- as.matrix(as_adjacency_matrix(EF,attr="weight",type="both")) 
 > n <- nrow(P); Z <- Co <- P; w <- sort(P[P>0])
 > for(u in 1:n) for(v in 1:n) Z[u,v] <- P[u,v]**0.1
 > t <- hclust(1-as.dist((CorSalton(Z)+CorSalton(t(Z)))/2),method="ward.D") 
