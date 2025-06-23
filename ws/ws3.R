@@ -39,12 +39,34 @@
 > WK <- read_graph(paste0(nWdir,"/data/WK.net"),format="pajek")
 > WK
 
-> davis <- read.csv(file.choose(), header=FALSE)
+> saveRDS(AW,file="AW.rds")
+> AW1 <- readRDS(file="AW.rds")
+> AW1
+> write_graph_netsJSON(AW,file="AW.json")
+> AW2 <- netsJSON_to_graph(fromJSON("AW.json"),directed=TRUE)
+> AW2
+> AW3 <- netsJSON_to_graph(fromJSON("AW.json"),directed=FALSE)
+> AW3
+> V(AW3)[[]]
+> E(AW3)[[]]
+> graph_attr(AW3)
+
+
+> Bib <- list(format="Collection",
++ info=list(date=date(),by="VB"),nets=list(AW=AW,WK=WK))
+> str(Bib)
+> saveRDS(Bib,file="BibNets.rds")
+
+> # davis <- read.csv(file.choose(), header=FALSE)
+> davis <- read.csv(paste0(nWdir,"/data/davis.csv"))
 > D <- graph_from_data_frame(davis, directed=FALSE)
 > V(D)$type <- bipartite_mapping(D)$type
 > V(D)$name[19:32] <- paste("event-",1:14,sep="")
-> is_bipartite(D)
-> D$name <- "Davis"; D$twomode <- TRUE
+> is_bipartite(D) 
+> D$name <- "Deep South"
+> D$by <- "Davis, A., Gardner, B.B., Gardner, M.R."
+> D$date <- 1941; D$twomode <- TRUE
+> saveRDS(D,file="davis.rds")
 
 # normalizations
 
@@ -137,7 +159,7 @@ http://localhost:8800/doku.php?id=work:bib:alex:amcs
 > w <- E(simplify(JJ))$weight
 > r <- order(w,decreasing=TRUE)
 > w[r[1:100]]
-> LC <- edge_cut(simplify(JJ),atn="weight",100)
+> LC <- link_cut(simplify(JJ),atn="weight",100)
 > (S <- V(LC)$name)
 > un <- 3  # unknown
 > selS <- "id,issn_l,country_code,type,is_oa,cited_by_count,works_count,display_name"
@@ -166,7 +188,7 @@ http://localhost:8800/doku.php?id=work:bib:alex:amcs
 > w <- E(simplify(ACiA))$weight
 > r <- order(w,decreasing=TRUE)
 > w[r[1:100]]
-> LC <- edge_cut(simplify(ACiA),atn="weight",100)
+> LC <- link_cut(simplify(ACiA),atn="weight",100)
 > (A <- V(LC)$name)
 > selA <- "id,orcid,works_count,cited_by_count,relevance_score,display_name"
 > IA <- unitsInfo(IDs=A,units="authors",select=selA,order="input")
