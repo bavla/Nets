@@ -53,6 +53,8 @@ https://github.com/bavla/Nets/blob/master/netsWeight/data/GraphSet.net
 > colsex <- c("lightblue","pink")
 > plot(T,vertex.size=20,vertex.color=colsex[V(N)$sex+1],edge.width=w,edge.curved=cur,edge.label=lab,edge.label.cex=2)
 
+# archiving networks in JSON
+
 > library(jsonlite)
 > write_graph_netsJSON(T,file="test1.json")
 > TT <- netsJSON_to_graph(fromJSON("test1.json"),directed=TRUE)
@@ -78,29 +80,27 @@ IGRAPH 0e9ae04 DNW- 9 13 --
 13   Iva   Jan   8   9  arc      5
 >
 
+# manually changing node positions
+
 > Rnet <- "https://raw.githubusercontent.com/bavla/Rnet/"
 > source(paste0(Rnet,"master/R/igraph+.R"))
 > Pt <- tkplot(TT,800,800,edge.curved=0,edge.width=E(TT)$weight/5)
 # tkplot window is still active
-> coor <- tk_coords(Pt,norm=F)
+> coor <- tk_coords(Pt,norm=F) # save new coordinates
 > tk_close(Pt)
 > V(TT)$x <- coor[,1]; V(TT)$y <- coor[,2]
 
 > # write_graph_paj(TT,file="test1.paj")
 > # write_graph_paj(TT,file="test1.paj",coor=cbind(V(TT)$x,V(TT)$y),va=c("age","deg","sex"))
 
-
-
-
-
-# 
+# Edinburgh associative thesaurus / degree distributions
 
 # https://github.com/bavla/Nets/blob/master/data/Pajek/dic/EAT/eat.md
 # C:\Users\vlado\docs\papers\2025\Sunbelt\ws\R
 # https://raw.githubusercontent.com/bavla/Nets/refs/heads/master/data/Pajek/dic/EAT/EATnew.net
 > Nets <- "https://raw.githubusercontent.com/bavla/Nets/refs/heads/master/data/"
 > setwd("C:/Users/Public/Sunbelt25")
-> EAT <- read_graph(paste0(Nets,"EATnew.net"),format="pajek")
+> EAT <- read_graph(paste0(Nets,"Pajek/dic/EAT/EATnew.net"),format="pajek")
 > EAT
 > ad <- degree(EAT,mode="all",loops=TRUE)
 > id <- degree(EAT,mode="in",loops=TRUE)
