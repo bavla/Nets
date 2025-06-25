@@ -21,6 +21,7 @@
 
   1. Michal Bojanowski, Lorien Jasny: [Introduction to Network Analysis Tools in R](https://statnet.org/workshop-intro-sna-tools/)
   1. [Social Network Analysis for Anthropologists](https://eehh-stanford.github.io/SNA-workshop/intro-igraph.html)
+  2. Briatte, F: [Awesome Network Analysis](https://github.com/briatte/awesome-network-analysis)
 
 
 
