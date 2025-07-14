@@ -508,3 +508,139 @@ cores <- function(N,p=p_deg,mode="all",loops=FALSE,weights="weight",attr="deg"){
   return(H$core)
 }
 
+# SPC weights
+
+add_init_term <- function(C){
+# adding common intial node _I_ and terminal node _T_
+  Init <- which(degree(C,mode="in")==0); Term <- which(degree(C,mode="out")==0) 
+  C <- add_vertices(C,2,id=c("_I_","_T_"),name=c("_I_","_T_"))
+  vt <- vcount(C); vi <- vt-1
+  ea <- as.vector(rbind(c(rep(vi,length(Init)),Term),c(Init,rep(vt,length(Term)))))
+  return(add_edges(C,ea))
+}
+
+# LJ / Limassol, July 4-5, 2025
+SPC_weights <- function(C){
+  if(!is_acyclic(C)) stop("network is not acyclic")
+  n <- vcount(C); m <- ecount(C)
+  C <- add_init_term(C) # standardized network
+  Ni <- No <- rep(0,vcount(C))
+  s <- topo_sort(C,mode="out")
+  for(v in s) { S <- incident(C,v,mode="in")
+    if(length(S)==0) Ni[v] <- 1 else{ cnt <- 0
+      for(a in S) cnt <- cnt + Ni[tail_of(C,a)]
+      Ni[v] <- cnt }
+  }
+  s <- topo_sort(C,mode="in")
+  for(v in s) { S <- incident(C,v,mode="out")
+    if(length(S)==0) No[v] <- 1 else{ cnt <- 0
+      for(a in S) cnt <- cnt + No[head_of(C,a)]
+      No[v] <- cnt }
+  }
+  w <- rep(0,ecount(C))
+  for(a in E(C)) w[a] <- Ni[tail_of(C,a)]*No[head_of(C,a)]
+  S <- incident(C,"_T_",mode="in"); flow <- 0
+  for(a in S) flow <- flow + w[a]
+  return(list(flow=flow,SPC=w[1:m],Ni=Ni[1:n],No=No[1:n]))
+}
+
+# Limassol, July 5-6, 2025
+CPM_path <- function(C,SPC="SPC"){
+  n <- vcount(C); m <- ecount(C)
+  M <- rep(0,n); F <- vector("list",n)
+  s <- topo_sort(C,mode="out")
+  w <- edge_attr(C,SPC)
+  for(v in s){ S <- incident(C,v,mode="in")
+    if(length(S)>0) for(a in S) { u <- as.integer(tail_of(C,a))
+      wu <- M[u] + w[a]
+      if(wu == M[v]) F[[v]] <- c(F[[v]],u) else {
+      if(wu > M[v]) { M[v] <- wu; F[[v]] <- u }} 
+    }
+  }
+  Term <- which(degree(C,mode="out")==0); D <- max(M[Term])
+  Q <- as.integer(Term[M[Term]==D]); P <- NULL
+  while(length(Q)>0){
+    v <- Q[1]; Q <- Q[-1]; k <- length(F[[v]])
+    P <- cbind(P,rbind(F[[v]],rep(v,k)))
+    Q <- union(Q,F[[v]])
+  }
+  return(as.vector(P))
+}
+
+# Limassol, July 6-7, 2025
+main_path <- function(C,SPC="SPC"){
+  w <- edge_attr(C,SPC); D <- max(w)
+  M <- B <- F <- which(w==D)
+  while(length(F)>0){ # forward
+    a <- F[1]; F <- F[-1]
+    L <- incident(C,head_of(C,a),mode="out")
+    if(length(L)>0){
+      wa <- w[L]; D <- max(wa); S <- which(wa==D)
+      F <- union(F,L[S]); M <- union(M,L[S])
+    }
+  }
+  while(length(B)>0){ # backward
+    a <- B[1]; B <- B[-1]
+    L <- incident(C,tail_of(C,a),mode="in")
+    if(length(L)>0){
+      wa <- w[L]; D <- max(wa); S <- which(wa==D)
+      B <- union(B,L[S]); M <- union(M,L[S])
+    }
+  }
+  return(M)
+}
+
+# Triangles / 3-rings
+# Limassol, July 9, 2025 by Vladimir Batagelj
+rings3 <- function(N,inp=TRUE,out=TRUE,cyc=TRUE,tra=TRUE){
+  if(is_directed(N)){
+    inp3 <- out3 <- cyc3 <- tra3 <- NA
+    if(inp) inp3 <- rep(0,gsize(N))
+    if(out) out3 <- rep(0,gsize(N))
+    if(cyc) cyc3 <- rep(0,gsize(N))
+    if(tra) tra3 <- rep(0,gsize(N))
+    for(a in E(N)) {
+      u <- tail_of(N,a); v <- head_of(N,a);
+      Uo <- neighbors(N,u,mode="out"); Ui <- neighbors(N,u,mode="in")
+      Vo <- neighbors(N,v,mode="out"); Vi <- neighbors(N,v,mode="in")
+      if(inp) inp3[a] <- length(intersect(Ui,Vi))
+      if(out) out3[a] <- length(intersect(Uo,Vo))
+      if(cyc) cyc3[a] <- length(intersect(Ui,Vo))
+      if(tra) tra3[a] <- length(intersect(Uo,Vi))
+    }
+    return(list(dir=TRUE,inp3=inp3,out3=out3,cyc3=cyc3,tra3=tra3))
+  } else {
+    ring3 <- rep(0,gsize(N)) 
+    for(e in E(N)) {
+      u <- tail_of(N,e); U <- neighbors(N,u,mode="all")
+      v <- head_of(N,e); V <- neighbors(N,v,mode="all")
+      ring3[e] <- length(intersect(U,V))  
+    }
+    return(list(dir=FALSE,ring3=ring3))
+  }
+}
+
+# Quadrangles / Undirected simple
+# July 13-14, 2025 
+rings4 <- function(N){
+  W <- as_sparse_matrix(N)
+  W2 <- W %*% W; diag(W2) <- 0
+  m <- gsize(N); w <- rep(0,m)
+  for(a in 1:m) {
+    u <- as.integer(tail_of(N,E(N)[a]))
+    v <- as.integer(head_of(N,E(N)[a]))
+    suv <- 0; il <- W2@p[u]+1; ir <- W2@p[u+1]
+    Nuv <- intersect(W2@i[il:ir]+1,neighbors(N,v,mode="in"))
+    # Nuv <- setdiff(Nuv,c(u,v))
+    for(t in Nuv) suv <- suv + max(0,W2[u,t]-1)*W[t,v]
+    w[a] <- suv
+  }
+  return(w)
+}
+
+# C <- readRDS(file="class.rds")
+# H <- simplify(as_undirected(C,mode="each")); E(H)$weight <- 1
+# w <- rings4(H); lab <- as.character(w)
+# plot(H,edge.width=1+0.3*w,edge.label=lab)
+
+
