@@ -2,4 +2,4 @@
 
 <hr />
 
-[How to](../README.md)
+[How to](./README.md)
