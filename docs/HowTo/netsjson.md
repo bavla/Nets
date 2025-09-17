@@ -24,7 +24,7 @@ These guidelines offer a framework for researchers in social networks, covering 
 - **Ethical Considerations**: Guidelines also highlight the importance of ethical principles like collective benefit, subject authority, and fostering respectful relationships with communities providing data. 
 - **Community Engagement**: Supporting data sharing requires institutional effort from journals, universities, and professional associations to encourage researchers to share data and reward this as a form of productivity. 
 
-### GRAND
+### GRAND - Guidelines for Reporting About Network Data
 
 ```
 grand_manual(
