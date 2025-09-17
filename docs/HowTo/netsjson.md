@@ -23,6 +23,14 @@ Broader Context
 - Ethical Considerations: Guidelines also highlight the importance of ethical principles like collective benefit, subject authority, and fostering respectful relationships with communities providing data. 
 - Community Engagement: Supporting data sharing requires institutional effort from journals, universities, and professional associations to encourage researchers to share data and reward this as a form of productivity. 
 
+
+https://www.geeksforgeeks.org/r-language/network-visualization-in-r-using-igraph/
+https://inarwhal.github.io/NetworkAnalysisR-book/ch4-Missing-Network-Data-R.html
+https://github.com/JeffreyAlanSmith/Integrated_Network_Science/
+https://research.ceu.edu/ws/portalfiles/portal/4951245/Peixoto-Tiago-P1-2024.pdf
+https://www.nascol.net/packages/
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11129050/
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11129050/pdf/bmjopen-2023-078872.pdf
 ```
 # archiving networks in JSON
 
