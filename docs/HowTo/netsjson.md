@@ -31,8 +31,24 @@ IGRAPH 0e9ae04 DNW- 9 13 --
 
 ```
 
-```
+https://cran.r-project.org/web/packages/grand/refman/grand.html
 
+https://github.com/JeffreyAlanSmith/Integrated_Network_Science/
+```
+grand_manual(
+  G,
+  name = NA,
+  doi = NA,
+  url = NA,
+  vertex1 = NA,
+  vertex2 = NA,
+  positive = NA,
+  negative = NA,
+  weight = NA,
+  level = NA,
+  mode = NA,
+  year = NA
+)
 ```
 
 
