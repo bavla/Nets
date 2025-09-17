@@ -1,5 +1,28 @@
 # NetsJSON
 
+
+Guidelines for reporting network data, such as those proposed by the GRAND project and integrated into the Social Networks in Health Research (SoNHR) guidelines, emphasize clarity, reproducibility, and ethical considerations. Key recommendations include: clearly defining network components (nodes, ties), explaining data collection methods and handling missing data, transparently reporting statistical analyses and visualizations, providing access to reproducible code, and considering the ethical implications and potential harms to data subjects. 
+
+Key Aspects of Reporting Guidelines
+- Findability: Network data should be stored in a searchable repository with a unique identifier, like a Digital Object Identifier (DOI). 
+- Accessibility: Data should be freely available and accessible to others. 
+- Interoperability: Data should be in a standardized format to ensure it can be easily used and understood across different systems and analyses. 
+- Reusability: Data should come with thorough documentation and a clear license to govern their use. 
+- Reproducibility: Researchers should provide access to the necessary data and reproducible programming code to allow others to replicate their findings. 
+
+Specific Recommendations from SoNHR
+These guidelines offer a framework for researchers in social networks, covering five main domains: 
+- Conceptualization: Clearly state the research questions and how network analysis provides unique insights into them. 
+- Operationalization: Define what nodes and ties represent, specifying if ties are directed, undirected, or weighted. 
+- Data Collection & Management: Detail the data collection process, tools, and data management procedures, including how missing data was handled. 
+- Analyses & Results: Explain the theoretical foundations of models, specify model mechanisms and outcomes, report network statistics with clear real-world meaning, and ensure visualizations are clear and informative. 
+- Ethics & Equity: Address ethical concerns related to human subjects, equity, and social justice, ensuring data sharing minimizes harm and promotes benefit for data subjects. 
+
+Broader Context
+- FAIR Principles: The concepts of Findability, Accessibility, Interoperability, and Reusability (FAIR) are central to ensuring network data can be effectively shared and reused. 
+- Ethical Considerations: Guidelines also highlight the importance of ethical principles like collective benefit, subject authority, and fostering respectful relationships with communities providing data. 
+- Community Engagement: Supporting data sharing requires institutional effort from journals, universities, and professional associations to encourage researchers to share data and reward this as a form of productivity. 
+
 ```
 # archiving networks in JSON
 
@@ -30,6 +53,8 @@ IGRAPH 0e9ae04 DNW- 9 13 --
 
 
 ```
+
+https://www.zacharyneal.com/grand
 
 https://cran.r-project.org/web/packages/grand/refman/grand.html
 
