@@ -642,4 +642,3 @@ rings4 <- function(N){
 # w <- rings4(H); lab <- as.character(w)
 # plot(H,edge.width=1+0.3*w,edge.label=lab)
 
-
