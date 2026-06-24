@@ -7,6 +7,7 @@
 #   course at HSE Moscow in November 2017 and December 2018 by Vladimir Batagelj
 # ---------------------------------------------------------------
 # 24. June 2026  correction  normalize_matrix_Markov, normalize_matrix_Newman
+#                added  sym_net, Co_net, Cn_net, Cs_net
 # source("https://raw.githubusercontent.com/bavla/Nets/refs/heads/master/netsWeight/netsWeight.R")
 
 library(igraph); library(data.table); library(seqinr)
@@ -330,6 +331,7 @@ Cs_net <- function(N){
   return(sym_net(graph_from_adjacency_matrix(
     KCs,weighted="weight")))
 }
+
 authors <- function(L) {A <- L$authorships; k <- length(A); N <- rep("",k)
   for (i in 1:k) N[i] <- paste(A[i][[1]]$author$display_name,collapse=", ")
   return(N)
