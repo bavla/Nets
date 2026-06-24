@@ -242,9 +242,8 @@ normalize_matrix_Markov <- function(M){
 }
 
 normalize_matrix_Newman <- function(M){
-  R <- rowSums(M)-1; R[R==0] <- 1; i <- which(R>0)
-  r <- sparseVector(R[i],i=i,length=length(R))
-  T <- as(diag(1/r),"sparseMatrix") %*% M
+  R <- rowSums(M)-1; R[R<=0] <- 1
+  T <- as(diag(1/R),"sparseMatrix") %*% M
   rownames(T) <- rownames(M)
   return(T)
 }
