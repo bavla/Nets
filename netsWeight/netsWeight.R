@@ -301,6 +301,35 @@ Euclid <- function(W){
    return(D)
 }
 
+sym_net <- function(N){
+  T <- as_adjacency_matrix(N,attr="weight")
+  d <- diag(T)
+  TT <- 2*T
+  diag(TT) <- d
+  return( graph_from_adjacency_matrix(TT,
+    mode="undirected",weighted="weight") )
+}
+
+Co_net <- function(N){
+  return(sym_net(cross_networks(N,N,twomode=FALSE)))
+}
+
+Cn_net <- function(N){ 
+  return(sym_net(graph_from_adjacency_matrix(
+          crossprod(
+           normalize_matrix_Markov(as_sparse_matrix(N))),
+         mode="undirected",weighted="weight")))
+}
+
+Cs_net <- function(N){
+  KS <- as_sparse_matrix(N)
+  KCs <- crossprod(
+    normalize_matrix_Markov(KS),
+    normalize_matrix_Newman(KS))
+  diag(KCs) <- 0
+  return(sym_net(graph_from_adjacency_matrix(
+    KCs,weighted="weight")))
+}
 authors <- function(L) {A <- L$authorships; k <- length(A); N <- rep("",k)
   for (i in 1:k) N[i] <- paste(A[i][[1]]$author$display_name,collapse=", ")
   return(N)
