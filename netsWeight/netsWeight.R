@@ -1,12 +1,12 @@
 # netsWeight
 # by Vladimir Batagelj
-# May 29, 2025 - June 22, 2026
+# May 29, 2025 - June 24, 2026
 # ---------------------------------------------------------------
 # implementing some Pajek's procedures in iGraph
 #   additional functions used in igraph examples for the Network analysis
 #   course at HSE Moscow in November 2017 and December 2018 by Vladimir Batagelj
 # ---------------------------------------------------------------
-# 22. June 2026  correction  normalize_matrix_Markov
+# 24. June 2026  correction  normalize_matrix_Markov, normalize_matrix_Newman
 # source("https://raw.githubusercontent.com/bavla/Nets/refs/heads/master/netsWeight/netsWeight.R")
 
 library(igraph); library(data.table); library(seqinr)
@@ -242,9 +242,8 @@ normalize_matrix_Markov <- function(M){
 }
 
 normalize_matrix_Newman <- function(M){
-  R <- rowSums(M)-1; R[R==0] <- 1; i <- which(R>0)
-  r <- sparseVector(R[i],i=i,length=length(R))
-  T <- as(diag(1/r),"sparseMatrix") %*% M
+  R <- rowSums(M)-1; R[R<=0] <- 1
+  T <- as(diag(1/R),"sparseMatrix") %*% M
   rownames(T) <- rownames(M)
   return(T)
 }
