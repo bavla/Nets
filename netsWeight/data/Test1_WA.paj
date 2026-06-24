@@ -1,0 +1,61 @@
+*network Test1_WA.paj 
+% saved from igraph Wed Jun 24 4:24:42 PM 2026
+% set: Test authorship network
+% name: Works-Authors_1
+% by: Vladimir Batagelj
+% date: Wed Jun 24 03:35:50 2026
+% twomode: TRUE
+*vertices  14 
+1 "w1"
+2 "w2"
+3 "w3"
+4 "w4"
+5 "w5"
+6 "w6"
+7 "w7"
+8 "w8"
+9 "w9"
+10 "a1"
+11 "a2"
+12 "a3"
+13 "a4"
+14 "a5"
+*edges
+2 10 1
+4 10 1
+5 10 1
+8 10 1
+1 11 1
+2 11 1
+6 11 1
+8 11 1
+2 12 1
+5 12 1
+8 12 1
+9 12 1
+2 13 1
+6 13 1
+1 14 1
+2 14 1
+5 14 1
+8 14 1
+
+*partition type
+% 1 - FALSE 
+% 2 - TRUE 
+*vertices  14 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+2 
+2 
+2 
+2 
+2 
+
