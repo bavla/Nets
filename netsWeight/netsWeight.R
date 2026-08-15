@@ -1,6 +1,6 @@
 # netsWeight
 # by Vladimir Batagelj
-# May 29, 2025 - June 24, 2026
+# May 29, 2025 - August 14, 2026
 # ---------------------------------------------------------------
 # implementing some Pajek's procedures in iGraph
 #   additional functions used in igraph examples for the Network analysis
@@ -8,7 +8,8 @@
 # ---------------------------------------------------------------
 # 24. June 2026  correction  normalize_matrix_Markov, normalize_matrix_Newman
 #                added  sym_net, Co_net, Cn_net, Cs_net
-# source("https://raw.githubusercontent.com/bavla/Nets/refs/heads/master/netsWeight/netsWeight.R")
+# 14. August 2026  correction - function Diagonal in normalizations
+#  source("https://raw.githubusercontent.com/bavla/Nets/refs/heads/master/netsWeight/netsWeight.R")
 
 library(igraph); library(data.table); library(seqinr)
 
@@ -43,18 +44,18 @@ interlinks <- function(N,atn,c1,c2,col1="red",col2="blue"){
   P <- E(S)[(C1 %--% C1)|(C2 %--% C2)]
   return(delete_edges(S,P))
 }
-  
+
 node_cut <- function(N,atn,t){
-  v <- vertex_attr(N,atn); vCut <- V(N)[v>=t] 
+  v <- vertex_attr(N,atn); vCut <- V(N)[v>=t]
   return(induced_subgraph(N,vCut))
 }
 
 link_cut <- function(N,atn,t){
-  w <- edge_attr(N,atn); eCut <- E(N)[w>=t] 
+  w <- edge_attr(N,atn); eCut <- E(N)[w>=t]
   return(subgraph_from_edges(N,eCut))
 }
 
-kNeighbors <- function(Net,k,weight="weight",mode="out",strict=TRUE,loops=FALSE){ 
+kNeighbors <- function(Net,k,weight="weight",mode="out",strict=TRUE,loops=FALSE){
   if(!loops) Net <- simplify(Net,remove.multiple=FALSE)
   C <- data.table()
   for(v in V(Net)){
@@ -80,7 +81,7 @@ kNeighbors <- function(Net,k,weight="weight",mode="out",strict=TRUE,loops=FALSE)
 # PathFinder(D,r,q) - determines the skeleton of network represented by
 # matrix D . The weights in D should be dissimilarities; the value 0
 # denotes nonlinked nodes.
-# r - is the parameter in Minkowski operation 
+# r - is the parameter in Minkowski operation
 # q - is the limit on the length of considered paths; if q >= n-1
 #     all paths are considered.
 #
@@ -99,7 +100,7 @@ MultiplyMink <- function(A,B,r){
     for(i in 1:n) for(j in 1:n) C[i,j] <- min(A[i,]+B[,j])
   } else {
     for(i in 1:n) for(j in 1:n) C[i,j] <- min((A[i,]^r+B[,j]^r)^(1/r))
-  }  
+  }
   C
 }
 
@@ -130,27 +131,27 @@ ClosureMink <- function(W,r){
   W
 }
 
-PathFinder <- function(D,r=Inf,q=Inf,eps=0.0000001){ 
+PathFinder <- function(D,r=Inf,q=Inf,eps=0.0000001){
   if(r<1) stop("Error: r < 1")
   if(q>=nrow(D)-1) {D[(D>0)&(abs(D-ClosureMink(D,r))>eps)] <- 0
   } else {D[(D>0)&(abs(D-PowerMink(D,r,q))>eps)] <- 0}
-  D 
+  D
 }
 
 PathFinderSim <- function(S,r=Inf,q=Inf,s=1,eps=0.0000001){
   if(r<1) stop("Error: r < 1")
   n <- nrow(S); D <- S
-  if(s==1) {D[S>0] <- 1+max(S)-S[S>0]} else {D[S>0] <- 1/S[S>0]}; 
+  if(s==1) {D[S>0] <- 1+max(S)-S[S>0]} else {D[S>0] <- 1/S[S>0]};
   if(q>=n-1) {S[(S>0)&(abs(D-ClosureMink(D,r))>eps)] <- 0
   } else {S[(S>0)&(abs(D-PowerMink(D,r,q))>eps)] <- 0}
-  S 
+  S
 }
 
 # setwd("C:/Users/Batagelj/work/R/pf")
 # PF <- PathFinder(n1,1,Inf)
 # savenetwork(PF,'PFtest.net')
 
-# cat(date(),"\n"); PF2 <- PathFinderSim(n2,1,Inf,2); cat(date(),"\n"); 
+# cat(date(),"\n"); PF2 <- PathFinderSim(n2,1,Inf,2); cat(date(),"\n");
 # savenetwork(PF2,'PF2500.net'); cat(date(),"\n")
 
 network_reverse <- function(N){
@@ -175,7 +176,7 @@ mult_network_vector <- function(N,v,mode="row",weight="weight"){
     } else {
       if(n!=nc) stop("col 2-mode")
       R <- graph_from_biadjacency_matrix(
-        as_biadjacency_matrix(N,attr=weight,sparse=TRUE) %*% D,   
+        as_biadjacency_matrix(N,attr=weight,sparse=TRUE) %*% D,
         directed=TRUE,mode="out",weighted=weight)
     }
   } else {
@@ -188,7 +189,7 @@ mult_network_vector <- function(N,v,mode="row",weight="weight"){
     } else {
       if(n!=nr) stop("col 1-mode")
       R <- graph_from_adjacency_matrix(
-        as_adjacency_matrix(N,attr=weight,sparse=TRUE) %*% D,   
+        as_adjacency_matrix(N,attr=weight,sparse=TRUE) %*% D,
         mode="directed",weighted=weight)
     }
   }
@@ -198,16 +199,16 @@ mult_network_vector <- function(N,v,mode="row",weight="weight"){
 
 
 cross_networks <- function(N1,N2,side="left",weight="weight",twomode=TRUE){
-  if(side=="left") { 
+  if(side=="left") {
     M <- crossprod(as_sparse_matrix(N1,weight="weight"),
       as_sparse_matrix(N2,weight="weight"))
   } else {
     M <- tcrossprod(as_sparse_matrix(N1,weight="weight"),
       as_sparse_matrix(N2,weight="weight")) }
   if(nrow(M)!=ncol(M)) twomode <- TRUE
-  if (twomode) return(graph_from_biadjacency_matrix(M,   
+  if (twomode) return(graph_from_biadjacency_matrix(M,
     directed=TRUE,mode="out",weighted=weight))
-  return(graph_from_adjacency_matrix(M,mode="directed",weighted=weight)) 
+  return(graph_from_adjacency_matrix(M,mode="directed",weighted=weight))
 }
 
 mult_networks <- function(N1,N2,weight="weight",twomode=TRUE){
@@ -215,20 +216,20 @@ mult_networks <- function(N1,N2,weight="weight",twomode=TRUE){
   if(is_bipartite(N1)){
     if(names) {A <- V(N1)[V(N1)$type==FALSE]$name; B <- V(N1)[V(N1)$type==TRUE]$name}
     M1 <- as_biadjacency_matrix(N1,attr=weight,sparse=TRUE)
-  } else { if(names) {A <- B <- V(N1)$name} 
-    M1 <- as_adjacency_matrix(N1,attr=weight,sparse=TRUE) } 
+  } else { if(names) {A <- B <- V(N1)$name}
+    M1 <- as_adjacency_matrix(N1,attr=weight,sparse=TRUE) }
   if(is_bipartite(N2)){
     if(names) {D <- V(N2)[V(N2)$type==FALSE]$name; C <- V(N2)[V(N2)$type==TRUE]$name}
     M2 <- as_biadjacency_matrix(N2,attr=weight,sparse=TRUE)
   } else { if(names) {D <- C <- V(N2)$name}
-    M2 <- as_adjacency_matrix(N2,attr=weight,sparse=TRUE) } 
+    M2 <- as_adjacency_matrix(N2,attr=weight,sparse=TRUE) }
   nA <- length(A); nB <- length(B); nD <- length(D); nC <- length(C)
   if(nB != nD) stop("networks are not compatible")
   if(nA != nC) twomode <- TRUE
   n <- ifelse(twomode,nA+nC,nA)
-  if (twomode) { N <- graph_from_biadjacency_matrix(M1 %*% M2,   
+  if (twomode) { N <- graph_from_biadjacency_matrix(M1 %*% M2,
     directed=TRUE,mode="out",weighted=weight)
-  } else { N <- graph_from_adjacency_matrix(M1 %*% M2,   
+  } else { N <- graph_from_adjacency_matrix(M1 %*% M2,
     mode="directed",weighted=weight) }
   if(names) V(N)$name <- c(A,C)
   if(twomode) V(N)$type <- c(rep(FALSE,nA),rep(TRUE,nC))
@@ -237,14 +238,14 @@ mult_networks <- function(N1,N2,weight="weight",twomode=TRUE){
 
 normalize_matrix_Markov <- function(M){
   R <- rowSums(M); R[R==0] <- 1
-  T <- as(diag(1/R),"sparseMatrix") %*% M
+  T <- Diagonal(x=1/R) %*% M
   rownames(T) <- rownames(M)
   return(T)
 }
 
 normalize_matrix_Newman <- function(M){
   R <- rowSums(M)-1; R[R<=0] <- 1
-  T <- as(diag(1/R),"sparseMatrix") %*% M
+  T <- Diagonal(x=1/R) %*% M
   rownames(T) <- rownames(M)
   return(T)
 }
@@ -253,7 +254,7 @@ normalize_matrix_Balassa <- function(M){
   R <- rowSums(M); C <- colSums(M); S <- sum(M)
   r <- sparseVector(R,i=which(R!=0),length=length(R))
   c <- sparseVector(C,i=which(C!=0),length=length(C))
-  T <- S*(as(diag(1/r),"sparseMatrix") %*% M %*% as(diag(1/c),"sparseMatrix"))
+  T <- S*Diagonal(x=1/r) %*% M %*% Diagonal(x=1/c)
   rownames(T) <- rownames(M); colnames(T) <- colnames(M)
   return(T)
 }
@@ -274,31 +275,31 @@ normalize_matrix_RSI <- function(M){
 
 CorSalton <- function(W){
    S <- W; diag(S) <- 1; n = nrow(S)
-   for(u in 1:(n-1)) for(v in (u+1):n) S[v,u] <- S[u,v] <- 
+   for(u in 1:(n-1)) for(v in (u+1):n) S[v,u] <- S[u,v] <-
       (as.vector(W[u,]%*%W[v,])+(W[u,u]-W[v,u])*(W[v,v]-W[u,v]))/
-      sqrt(as.vector(W[u,]%*%W[u,])*as.vector(W[v,]%*%W[v,])) 
+      sqrt(as.vector(W[u,]%*%W[u,])*as.vector(W[v,]%*%W[v,]))
    return(S)
 }
 
 CorEuclid <- function(W){
    D <- W; diag(D) <- 0; n = nrow(D)
-   for(u in 1:(n-1)) for(v in (u+1):n) D[v,u] <- D[u,v] <- 
-      sqrt(sum((W[u,]-W[v,])**2) + 2*(W[u,u]-W[u,v])*(W[v,u]-W[v,v])) 
+   for(u in 1:(n-1)) for(v in (u+1):n) D[v,u] <- D[u,v] <-
+      sqrt(sum((W[u,]-W[v,])**2) + 2*(W[u,u]-W[u,v])*(W[v,u]-W[v,v]))
    return(D)
 }
 
 Salton <- function(W){
    S <- W; diag(S) <- 1; n = nrow(S)
-   for(u in 1:(n-1)) for(v in (u+1):n) S[v,u] <- S[u,v] <- 
+   for(u in 1:(n-1)) for(v in (u+1):n) S[v,u] <- S[u,v] <-
       (as.vector(W[u,]%*%W[v,]))/
-      sqrt(as.vector(W[u,]%*%W[u,])*as.vector(W[v,]%*%W[v,])) 
+      sqrt(as.vector(W[u,]%*%W[u,])*as.vector(W[v,]%*%W[v,]))
    return(S)
 }
 
 Euclid <- function(W){
    D <- W; diag(D) <- 0; n = nrow(D)
-   for(u in 1:(n-1)) for(v in (u+1):n) D[v,u] <- D[u,v] <- 
-      sqrt(sum((W[u,]-W[v,])**2)) 
+   for(u in 1:(n-1)) for(v in (u+1):n) D[v,u] <- D[u,v] <-
+      sqrt(sum((W[u,]-W[v,])**2))
    return(D)
 }
 
@@ -315,7 +316,7 @@ Co_net <- function(N){
   return(sym_net(cross_networks(N,N,twomode=FALSE)))
 }
 
-Cn_net <- function(N){ 
+Cn_net <- function(N){
   return(sym_net(graph_from_adjacency_matrix(
           crossprod(
            normalize_matrix_Markov(as_sparse_matrix(N))),
@@ -339,7 +340,7 @@ authors <- function(L) {A <- L$authorships; k <- length(A); N <- rep("",k)
 
 # export igraph network in netsSON basic format
 # by Vladimir Batagelj, December 2018
-# based on transforming CSV files to JSON file, by Vladimir Batagelj, June 2016 
+# based on transforming CSV files to JSON file, by Vladimir Batagelj, June 2016
 # updated by Vladimir Batagelj, December 11/12, 2024
 
 write_graph_netsJSON <- function(N,file="test.json",vname="name",leg=list() ){
@@ -347,10 +348,10 @@ write_graph_netsJSON <- function(N,file="test.json",vname="name",leg=list() ){
   lType <- ifelse(dir,"arc","edge")
   va <- vertex_attr_names(N); ea <- edge_attr_names(N)
   vlab <- if(vname %in% va) vertex_attr(N,vname) else paste("v",1:n,sep="")
-  va <- setdiff(va,vname)  
+  va <- setdiff(va,vname)
   nods <- vector('list',n); lnks <- vector('list',m)
   today <- format(Sys.time(), "%a %b %d %X %Y")
-  for(i in 1:n) { L <- list(id=i,name=vlab[i]) 
+  for(i in 1:n) { L <- list(id=i,name=vlab[i])
     for(a in va) L[[a]] <- vertex_attr(N,a)[i]
     nods[[i]] <- L }
   for(i in 1:m) {uv <- ends(N,i,names=FALSE); u <- uv[1]; v <- uv[2]
@@ -362,16 +363,16 @@ write_graph_netsJSON <- function(N,file="test.json",vname="name",leg=list() ){
   inf <- graph_attr(N)
   if("name" %in% names(inf)) {inf["title"] <- inf$name; inf[["name"]] <- NULL}
   inf["network"] <- "bib"; inf["org"] <- 1
-  inf["nNodes"] <- n; 
+  inf["nNodes"] <- n;
   if(dir) {inf["nArcs"] <- m; inf["nEdges"] <- 0} else {inf["nArcs"] <- 0; inf["nEdges"] <- m}
   if(length(leg)>0) {inf[["legend"]] <- leg
     # razdelaj izpis vrednosti
-  } 
+  }
   if("meta" %in% names(inf)) { k <- length(inf[["meta"]]); inf[["meta"]][[k+1]] <- meta
   } else inf[["meta"]] <- meta
   data <- list(netsJSON="basic",info=inf,nodes=nods,links=lnks)
-  json <- file(file,"w") 
-  cat(toJSON(data,na="string",auto_unbox=TRUE),file=json) 
+  json <- file(file,"w")
+  cat(toJSON(data,na="string",auto_unbox=TRUE),file=json)
   close(json)
 }
 
@@ -408,19 +409,19 @@ write_graph_paj <- function(N,file="test.paj",vname="name",coor=NULL,va=NULL,ea=
   cat("% saved from igraph ",format(Sys.time(), "%a %b %d %X %Y"),"\n",sep="",file=paj)
   for(a in ga) cat("% ",a,": ",graph_attr(N,a),"\n",sep="",file=paj)
   cat('*vertices ',n,'\n',file=paj)
-  lab <- if(vname %in% va) vertex_attr(N,vname) else paste("v",1:n,sep="") 
-  if(is.null(coor)){  
+  lab <- if(vname %in% va) vertex_attr(N,vname) else paste("v",1:n,sep="")
+  if(is.null(coor)){
     if(vname %in% va) for(v in V(N)) cat(v,' "',lab[v],'"\n',sep="",file=paj)
-  } else { 
-    for(v in V(N)) cat(v,' "',lab[v],'" ',paste(coor[v,],collapse=" "),'\n',sep="",file=paj) 
+  } else {
+    for(v in V(N)) cat(v,' "',lab[v],'" ',paste(coor[v,],collapse=" "),'\n',sep="",file=paj)
   }
   va <- setdiff(va,vname)
   cat(ifelse(is_directed(N),"*arcs\n","*edges\n"),file=paj)
-  K <- ends(N,E(N),names=FALSE) 
+  K <- ends(N,E(N),names=FALSE)
   w <- if(weight %in% ea) edge_attr(N,weight) else rep(1,m)
   if(ecolor %in% ea){ C <- edge_attr(N,ecolor)
     for(e in 1:m) cat(K[e,1]," ",K[e,2]," ",w[e]," c ",as.character(C[e]),"\n",sep="",file=paj)
-  } else 
+  } else
     for(e in 1:m) cat(K[e,1]," ",K[e,2]," ",w[e],"\n",sep="",file=paj)
   ea <- setdiff(ea,c(weight,ecolor)); nr <- 1
   for(a in ea){nr <- nr+1; w <- edge_attr(N,a)
@@ -428,7 +429,7 @@ write_graph_paj <- function(N,file="test.paj",vname="name",coor=NULL,va=NULL,ea=
     cat(" :",nr,' "',a,'"\n',sep="",file=paj)
     if(is.numeric(w)){
       for(e in 1:m) cat(K[e,1]," ",K[e,2]," ",w[e],"\n",sep="",file=paj)
-    } else if(is.character(w)){ 
+    } else if(is.character(w)){
       W <- factor(w); lev <- levels(W)
       for(i in seq_along(lev)) cat("%",i,"-",lev[i],"\n",file=paj)
       for(e in 1:m) cat(K[e,1]," ",K[e,2]," ",W[e],' l "',w[e],'"\n',sep="",file=paj)
@@ -441,8 +442,8 @@ write_graph_paj <- function(N,file="test.paj",vname="name",coor=NULL,va=NULL,ea=
       cat("*partition ",a,"\n",sep="",file=paj)
       s <- factor(S); lev <- levels(s)
       for(i in seq_along(lev)) cat("%",i,"-",lev[i],"\n",file=paj)
-    } else if(is.numeric(S)){ 
-      s <- S; cat("*vector ",a,"\n",sep="",file=paj) 
+    } else if(is.numeric(S)){
+      s <- S; cat("*vector ",a,"\n",sep="",file=paj)
     } else {warning(paste("unsupported type of",a),call.=FALSE); ok <- FALSE}
     if(ok){cat('*vertices ',n,'\n',file=paj)
       for(v in 1:n) cat(s[v],"\n",file=paj)
@@ -457,7 +458,7 @@ write_graph_paj <- function(N,file="test.paj",vname="name",coor=NULL,va=NULL,ea=
 H <- new.env()
 
 # degree
-p_deg <- function(v,C,mode="all",loops=FALSE,weights=NULL,attr="deg"){ 
+p_deg <- function(v,C,mode="all",loops=FALSE,weights=NULL,attr="deg"){
   degree(C,v,mode=mode,loops=loops) }
 
 # weighted degree
@@ -465,36 +466,36 @@ p_wdeg <- function(v,C,mode="all",loops=FALSE,weights="weight",attr="deg"){
   strength(C,v,mode=mode,loops=loops,weights=edge_attr(C,weights)) }
 
 # max on star links
-p_wmax <- function(v,C,mode="all",loops=FALSE,weights="weight",attr="deg"){ 
+p_wmax <- function(v,C,mode="all",loops=FALSE,weights="weight",attr="deg"){
   Sv <- incident(C,v,mode=mode);
   ifelse(length(Sv)>0,max(edge_attr(C,weights,Sv)),0) }
 
 # sum on neighbors
 p_nsum <- function(v,C,attr="deg",mode="all",loops=FALSE,weights="weight"){
   Sv <- incident(C,v,mode=mode)
-  Nv <- union(tail_of(C,Sv),head_of(C,Sv)) 
-  if(!loops) Nv <- difference(Nv,v) 
+  Nv <- union(tail_of(C,Sv),head_of(C,Sv))
+  if(!loops) Nv <- difference(Nv,v)
   ifelse(length(Nv)>0,sum(vertex_attr(C,attr,Nv)),0) }
 
 # max on neighbors
-p_nmax <- function(v,C,attr="deg",mode="all",loops=FALSE,weights="weight"){ 
+p_nmax <- function(v,C,attr="deg",mode="all",loops=FALSE,weights="weight"){
   Sv <- incident(C,v,mode=mode)
-  Nv <- union(tail_of(C,Sv),head_of(C,Sv)) 
-  if(!loops) Nv <- difference(Nv,v) 
+  Nv <- union(tail_of(C,Sv),head_of(C,Sv))
+  if(!loops) Nv <- difference(Nv,v)
   ifelse(length(Nv)>0,max(vertex_attr(C,attr,Nv)),0) }
 
 # neighbors diversity
 p_ncard <- function(v,C,attr="deg",mode="all",loops=FALSE,weights="weight"){
   Sv <- incident(C,v,mode=mode)
-  Nv <- union(tail_of(C,Sv),head_of(C,Sv)) 
-  if(!loops) Nv <- difference(Nv,v) 
+  Nv <- union(tail_of(C,Sv),head_of(C,Sv))
+  if(!loops) Nv <- difference(Nv,v)
   ifelse(length(Nv)>0,length(union(c(),vertex_attr(C,attr,Nv))),0) }
 
 # star links diversity
 p_lcard <- function(v,C,attr="deg",mode="all",loops=FALSE,weights="weight"){
   Sv <- incident(C,v,mode=mode)
   ifelse(length(Sv)>0,length(union(c(),edge_attr(C,weights,Sv))),0) }
- 
+
 
 min_heapify <- function(f){
   repeat{ l <- 2*f; r <- l+1
@@ -519,14 +520,14 @@ promote <- function(s){
 }
 
 cores <- function(N,p=p_deg,mode="all",loops=FALSE,weights="weight",attr="deg"){
-  n <- vcount(N); C <- N; H$size <- n  
+  n <- vcount(N); C <- N; H$size <- n
   H$p <- rep(NA,n); H$v=1:n; H$idx <- 1:n; H$core <- rep(NA,n)
   for(v in V(N)) H$p[v] <- p(v,N,mode=mode,loops=loops,weights=weights,attr=attr)
   build_min_heap()
   while(H$size > 0){
     top <- H$v[1]; H$core[top] <- value <- H$p[1]
-    St <- incident(C,top,mode="all") 
-    Nt <- difference(union(tail_of(C,St),head_of(C,St)),top) 
+    St <- incident(C,top,mode="all")
+    Nt <- difference(union(tail_of(C,St),head_of(C,St)),top)
     C <- delete_edges(C,St)
     H$v[1] <- H$v[H$size]; H$p[1] <- H$p[H$size];
     H$size <- H$size - 1; min_heapify(1)
@@ -542,7 +543,7 @@ cores <- function(N,p=p_deg,mode="all",loops=FALSE,weights="weight",attr="deg"){
 
 add_init_term <- function(C){
 # adding common intial node _I_ and terminal node _T_
-  Init <- which(degree(C,mode="in")==0); Term <- which(degree(C,mode="out")==0) 
+  Init <- which(degree(C,mode="in")==0); Term <- which(degree(C,mode="out")==0)
   C <- add_vertices(C,2,id=c("_I_","_T_"),name=c("_I_","_T_"))
   vt <- vcount(C); vi <- vt-1
   ea <- as.vector(rbind(c(rep(vi,length(Init)),Term),c(Init,rep(vt,length(Term)))))
@@ -584,7 +585,7 @@ CPM_path <- function(C,SPC="SPC"){
     if(length(S)>0) for(a in S) { u <- as.integer(tail_of(C,a))
       wu <- M[u] + w[a]
       if(wu == M[v]) F[[v]] <- c(F[[v]],u) else {
-      if(wu > M[v]) { M[v] <- wu; F[[v]] <- u }} 
+      if(wu > M[v]) { M[v] <- wu; F[[v]] <- u }}
     }
   }
   Term <- which(degree(C,mode="out")==0); D <- max(M[Term])
@@ -640,18 +641,18 @@ rings3 <- function(N,inp=TRUE,out=TRUE,cyc=TRUE,tra=TRUE){
     }
     return(list(dir=TRUE,inp3=inp3,out3=out3,cyc3=cyc3,tra3=tra3))
   } else {
-    ring3 <- rep(0,gsize(N)) 
+    ring3 <- rep(0,gsize(N))
     for(e in E(N)) {
       u <- tail_of(N,e); U <- neighbors(N,u,mode="all")
       v <- head_of(N,e); V <- neighbors(N,v,mode="all")
-      ring3[e] <- length(intersect(U,V))  
+      ring3[e] <- length(intersect(U,V))
     }
     return(list(dir=FALSE,ring3=ring3))
   }
 }
 
 # Quadrangles / Undirected simple
-# July 13-14, 2025 
+# July 13-14, 2025
 rings4 <- function(N){
   W <- as_sparse_matrix(N)
   W2 <- W %*% W; diag(W2) <- 0
