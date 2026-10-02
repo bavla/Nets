@@ -40,6 +40,8 @@ source("https://raw.githubusercontent.com/bavla/Nets/refs/heads/master/netsWeigh
 
 ### normalize_matrix_Newman(M)
 
+### normalize_matrix_strict(T)
+
 ### normalize_matrix_Balassa(M)
 
 ### normalize_matrix_activity(M)
