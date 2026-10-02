@@ -1,6 +1,6 @@
 # netsWeight
 # by Vladimir Batagelj
-# May 29, 2025 - August 14, 2026
+# May 29, 2025 - October 2, 2026
 # ---------------------------------------------------------------
 # implementing some Pajek's procedures in iGraph
 #   additional functions used in igraph examples for the Network analysis
@@ -9,9 +9,10 @@
 # 24. June 2026  correction  normalize_matrix_Markov, normalize_matrix_Newman
 #                added  sym_net, Co_net, Cn_net, Cs_net
 # 14. August 2026  correction - function Diagonal in normalizations
+#  2. October 2026  added normalize_matrix_strict
 #  source("https://raw.githubusercontent.com/bavla/Nets/refs/heads/master/netsWeight/netsWeight.R")
 
-library(igraph); library(data.table); library(seqinr)
+library(igraph); library(data.table); library(seqinr); library(Matrix)
 
 empty <- character(0)
 
@@ -250,6 +251,14 @@ normalize_matrix_Newman <- function(M){
   return(T)
 }
 
+normalize_matrix_strict <- function(M){
+  R <- rowSums(M); R[R<=0] <- 1
+  Q <- R - rowSums(M**2)/R; Q[Q<=0] <- 1
+  T <- Diagonal(x=1/Q) %*% M
+  rownames(T) <- rownames(M)
+  return(T)
+}
+
 normalize_matrix_Balassa <- function(M){
   R <- rowSums(M); C <- colSums(M); S <- sum(M)
   r <- sparseVector(R,i=which(R!=0),length=length(R))
@@ -327,7 +336,7 @@ Cs_net <- function(N){
   KS <- as_sparse_matrix(N)
   KCs <- crossprod(
     normalize_matrix_Markov(KS),
-    normalize_matrix_Newman(KS))
+    normalize_matrix_strict(KS))
   diag(KCs) <- 0
   return(sym_net(graph_from_adjacency_matrix(
     KCs,weighted="weight")))
