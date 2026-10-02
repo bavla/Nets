@@ -4,3 +4,4 @@
   * [Wiki](https://github.com/bavla/Nets/wiki)
   * [HiTEc 2025](./Erasmus_HiTEc.pdf)
   * [ARS 2025](./wtARS25.pdf)
+  * [HiTEc COST Action closing workshop](./VB_HiTEc26.pdf)
